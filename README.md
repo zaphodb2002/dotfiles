@@ -38,3 +38,11 @@ pulseaudio-alsa
 
 yay
 
+polybar
+
+autorandr
+
+rustup
+
+
+
