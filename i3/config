@@ -10,7 +10,7 @@ set $ws3 "3: Discord"
 set $ws4 "4: Code"
 set $ws5 "5: Firefox"
 set $ws6 "6: Steam"
-set $ws7 "7: Firefox 2"
+set $ws7 "7: qBittorrent"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
@@ -52,6 +52,12 @@ workspace 7 output $disp1
 workspace 8 output $disp2
 workspace 9 output $disp1
 workspace 10 output $disp2
+
+assign [class="(?i)obsidian"] "2: Obsidian"
+assign [class="(?i)discord"] "3: Discord"
+assign [class="(?i)code"] "4: Code"
+assign [class="(?i)steam"] "6: Steam"
+assign [class="(?i)qbittorrent"] "7: qBittorrent"
 
 #Keybinds
 #lock
@@ -198,6 +204,11 @@ bar {
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id picom
 #exec --no-startup-id polybar
+
+exec discord
+exec obsidian
+exec steam
+exec qbittorrent
 
 # Use pactl to adjust volume in PulseAudio.
 # set $refresh_i3status killall -SIGUSR1 i3status
