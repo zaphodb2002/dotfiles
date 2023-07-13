@@ -4,16 +4,6 @@ set $mod Mod4
 set $disp1 DP-2
 set $disp2 DP-3
 
-set $ws1 "1: Terminal"
-set $ws2 "2: Obsidian"
-set $ws3 "3: Discord"
-set $ws4 "4: Code"
-set $ws5 "5: Firefox"
-set $ws6 "6: Steam"
-set $ws7 "7: qBittorrent"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
 
 # General
 font pango:Hack 10
@@ -41,6 +31,18 @@ client.placeholder      #00000080 #0c0c0c80 #ffffff #00000080 #0c0c0c80
 client.background       #ffffff80
 
 
+set $ws1 "1: Stream"
+set $ws2 "2: LMS"
+set $ws3 "3: Talk"
+set $ws4 "4: Code"
+set $ws5 "5: Watch"
+set $ws6 "6: Play"
+set $ws7 "7: Share"
+set $ws8 "8"
+set $ws9 "9: Listen"
+set $ws10 "10"
+
+
 # Per workspace settings
 workspace 1 output $disp1
 workspace 2 output $disp2
@@ -53,17 +55,21 @@ workspace 8 output $disp2
 workspace 9 output $disp1
 workspace 10 output $disp2
 
-assign [class="(?i)obsidian"] "2: Obsidian"
-assign [class="(?i)discord"] "3: Discord"
-assign [class="(?i)code"] "4: Code"
-assign [class="(?i)steam"] "6: Steam"
-assign [class="(?i)qbittorrent"] "7: qBittorrent"
+assign [class="(?i)obsidian"] $ws2
+assign [class="(?i)obs"] $ws1
+assign [class="(?i)discord"] $ws3
+assign [class="(?i)code"] $ws4
+assign [class="(?i)steam"] $ws6
+assign [class="(?i)lutris"] $ws6
+assign [class="(?i)qbittorrent"] $ws7
+assign [class="(?i)spotify"] $ws9
 
 #Keybinds
 #lock
 bindsym $mod+l exec --no-startup-id $i3lockwall 
 #terminal
-bindsym $mod+Return exec kitty 
+bindsym $mod+Return exec kitty
+bindsym F12 exec yakuake
 # kill focused window
 bindsym $mod+Shift+q kill 
 # dmenu
@@ -203,12 +209,15 @@ bar {
 
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id picom
+exec_always --no-startup-id qbittorrent
 #exec --no-startup-id polybar
 
+exec obs
 exec discord
 exec obsidian
-exec steam
-exec qbittorrent
+exec lutris
+
+
 
 # Use pactl to adjust volume in PulseAudio.
 # set $refresh_i3status killall -SIGUSR1 i3status
