@@ -12,7 +12,7 @@ then
 else
 	echo "Probably Debian"
 	INSTALL="apt install -y"
-	UPDATE="apt update &&apt upgrade -y"
+	UPDATE="apt update && apt upgrade -y"
 fi
 
 $UPDATE
