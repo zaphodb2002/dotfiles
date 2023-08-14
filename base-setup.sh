@@ -28,7 +28,6 @@ USER_HOME=/home/$USER
 
 useradd $USER
 
-rm -rf $USERHOME/*
 mkdir $USERHOME/Downloads
 mkdir $USERHOME/Applications
 mkdir $USERHOME/Repos
