@@ -12,7 +12,7 @@ then
 else
 	echo "Probably Debian"
 	INSTALL="apt install -y"
-	UPDATE="apt update && apt upgrade -y"
+	UPDATE="apt upgrade -y"
 fi
 
 $UPDATE
@@ -28,7 +28,7 @@ $INSTALL curl
 USER="zaphod"
 USER_HOME=/home/$USER
 
-useradd $USER
+adduser $USER
 
 mkdir $USERHOME/Downloads
 mkdir $USERHOME/Applications
