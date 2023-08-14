@@ -12,17 +12,19 @@ then
 else
 	echo "Probably Debian"
 	INSTALL="apt install -y"
-	UPDATE="apt update -y &&apt upgrade -y"
+	UPDATE="apt update &&apt upgrade -y"
 fi
 
 $UPDATE
-# Install nvim
-$INSTALL nvim
+# Install neovim
+$INSTALL neovim
 # Install w3m if you need it
 $INSTALL w3m
 # The only prereqs for Podman
 $INSTALL uidmap
 $INSTALL curl
+
+
 USER="zaphod"
 USER_HOME=/home/$USER
 
@@ -37,6 +39,6 @@ mkdir $USERHOME/.local
 mkdir $USERHOME/.local/bin
 mkdir $USERHOME/.config
 
-cp ./* $USERHOME/.config
+cp -r ./* $USERHOME/.config
 
 echo "All done."
