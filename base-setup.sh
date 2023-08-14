@@ -19,26 +19,27 @@ $UPDATE
 # Install neovim
 $INSTALL neovim
 # Install w3m if you need it
-$INSTALL w3m
+$INSTALL w3m w3m-img
 # The only prereqs for Podman
 $INSTALL uidmap
 $INSTALL curl
 
 
-USER="zaphod"
-USER_HOME=/home/$USER
+# Create default user folders
+mkdir /etc/skel/Downloads
+mkdir /etc/skel/Applications
+mkdir /etc/skel/Repos
+mkdir /etc/skel/Pictures
+mkdir /etc/skel/Pictures/Wallpapers
+mkdir /etc/skel/.local
+mkdir /etc/skel/.local/bin
+mkdir /etc/skel/.config
 
-adduser $USER
+cp -r ./* /etc/skel/.config
 
-mkdir $USERHOME/Downloads
-mkdir $USERHOME/Applications
-mkdir $USERHOME/Repos
-mkdir $USERHOME/Pictures
-mkdir $USERHOME/Pictures/Wallpapers
-mkdir $USERHOME/.local
-mkdir $USERHOME/.local/bin
-mkdir $USERHOME/.config
+echo -n "Username: "
+read USER
+useradd -m $USER
 
-cp -r ./* $USERHOME/.config
 
 echo "All done."
