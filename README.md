@@ -1,48 +1,25 @@
 # dotfiles
 
+Debian is stable.
+Arch is bleeding edge.
+Anything else is unnecessary.
 
-# Arch Install
-nano
+# Base Setup
+run base-setup.sh as root
 
-systemd-networkd
+# User Setup
+run user-setup.sh as user
 
-systemd-resolved
+# base utilities
+zsh
+nvim
+w3m
 
-/etc/systemd/network/80-<link name>.network
-
-# i3 install
-xorg-server xorg-apps xorg-xinit
-
+# user app list
 i3
-
-xterm --i3 won't start without 
-
-# app list
+rofi
 nitrogen
-
 picom
-
 kitty
-
-firefox
-
-code
-
-imagemagick
-
-scrot
-
-alsa-utils
-pulseaudio
-pulseaudio-alsa
-
-yay
-
-polybar
-
-autorandr
-
-rustup
-
-
+librewolf
 

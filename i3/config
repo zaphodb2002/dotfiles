@@ -1,12 +1,12 @@
 
 #Variables
 set $mod Mod4
-set $disp1 DP-2
-set $disp2 DP-3
+set $disp1 DisplayPort-1
+set $disp2 DisplayPort-2
 
 
 # General
-font pango:Hack 10
+font pango:Monoid Nerd Font Mono 10
 focus_follows_mouse no
 mouse_warping none
 workspace_auto_back_and_forth yes
@@ -55,31 +55,41 @@ workspace 8 output $disp2
 workspace 9 output $disp1
 workspace 10 output $disp2
 
-assign [class="(?i)obsidian"] $ws2
-assign [class="(?i)obs"] $ws1
-assign [class="(?i)discord"] $ws3
-assign [class="(?i)code"] $ws4
-assign [class="(?i)steam"] $ws6
-assign [class="(?i)lutris"] $ws6
-assign [class="(?i)qbittorrent"] $ws7
-assign [class="(?i)spotify"] $ws9
+#assign [class="(?i)obsidian"] $ws2
+#assign [class="(?i)obs"] $ws1
+#assign [class="(?i)discord"] $ws3
+#assign [class="(?i)code"] $ws4
+#assign [class="(?i)steam"] $ws6
+#assign [class="(?i)lutris"] $ws6
+#assign [class="(?i)qbittorrent"] $ws7
+#assign [class="(?i)spotify"] $ws9
 
 #Keybinds
 #lock
 bindsym $mod+l exec --no-startup-id $i3lockwall 
 #terminal
 bindsym $mod+Return exec kitty
-bindsym F12 exec yakuake
+#bindsym F12 exec yakuake
 # kill focused window
 bindsym $mod+Shift+q kill 
 # dmenu
-bindsym $mod+d exec --no-startup-id dmenu_run 
+#bindsym $mod+d exec --no-startup-id dmenu_run 
+bindsym $mod+d exec rofi -show drun
 # change focus
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 # move focused window
+bindsym $mod+Shift+h focus left
+bindsym $mod+Shift+j focus down
+bindsym $mod+Shift+k focus up
+bindsym $mod+Shift+l focus right
+
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -212,10 +222,10 @@ exec_always --no-startup-id picom
 exec_always --no-startup-id qbittorrent
 #exec --no-startup-id polybar
 
-exec obs
-exec discord
-exec obsidian
-exec lutris
+#exec obs
+#exec discord
+#exec obsidian
+#exec lutris
 
 
 
