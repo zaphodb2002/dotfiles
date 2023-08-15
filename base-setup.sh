@@ -40,6 +40,6 @@ cp -r ./* /etc/skel/.config
 echo -n "Username: "
 read USER
 useradd -m $USER
-
+passwd $USER
 
 echo "All done."
