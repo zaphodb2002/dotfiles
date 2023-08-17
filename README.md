@@ -19,15 +19,49 @@ $ chmod +x base-setup.sh
 $ ./base-setup.sh
 ```
 
-# User Setup
-run user-setup.sh as user
+# What are we doing here?
+Automate installation of fresh machines for each of our use cases:
+ - Developers
+ - Adminstrators
+ - Designers
+ - Game Testers
+ - Artists
 
 # base utilities
-zsh? or bash stuff
-nvim
-w3m
-i3
-rofi
-nitrogen
-picom
+## bash
+This is your shell.
+## neovim
+This is your text editor.
+## w3m
+This is a console web browser.
+
+If this is a server or you are a l337 h4X0r, you can stop now.
+
+
+# Desktop prerequisites
+## alacritty
+This is your terminal emulator, to access the shell from the desktop.
+
+
+# desktop-lite (Ideal for developers or anyone comfortable with a keyboard-first environment
+## i3 
+The venerable tiling window manager.
+Likely we will switch to sway when it works for gaming.
+
+## rofi (Mod+d by default)
+A modern app launcher
+
+## nitrogen
+draw wallpapers
+
+## picom
+compositor for transparency and other prettiness
+
+## pulsemixer
+a TUI for volume control
+
+
+
+## desktop-full (KDE Plasma for a full DE experience)
+kde
 
