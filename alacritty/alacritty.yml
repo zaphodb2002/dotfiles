@@ -1,0 +1,5 @@
+import:
+  - ~/.config/alacritty/themes/themes/everforest.yaml
+
+window:
+  opacity: 0.95
