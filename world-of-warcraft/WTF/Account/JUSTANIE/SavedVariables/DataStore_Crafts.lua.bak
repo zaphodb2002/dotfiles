@@ -1,0 +1,59 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Dalaran.Morgntreeman"] = {
+				["lastUpdate"] = 1699936762,
+				["Prof2"] = "Herbalism",
+				["Professions"] = {
+					["Cooking"] = {
+						["CurrentLevelName"] = "Dragon Isles Cooking",
+					},
+					["Archaeology"] = {
+						["MaxRank"] = 700,
+						["Rank"] = 1,
+					},
+					["Alchemy"] = {
+						["CurrentLevelName"] = "Dragon Isles Alchemy",
+					},
+					["Fishing"] = {
+						["CurrentLevelName"] = "Dragon Isles Fishing",
+					},
+					["Herbalism"] = {
+						["CurrentLevelName"] = "Dragon Isles Herbalism",
+					},
+				},
+				["Prof1"] = "Alchemy",
+			},
+			["Default.Dalaran.Jenleeviyah"] = {
+				["lastUpdate"] = 1699940052,
+				["Prof2"] = "Enchanting",
+				["Professions"] = {
+					["Fishing"] = {
+						["CurrentLevelName"] = "Dragon Isles Fishing",
+					},
+					["Cooking"] = {
+						["CurrentLevelName"] = "Dragon Isles Cooking",
+					},
+					["Tailoring"] = {
+						["CurrentLevelName"] = "Dragon Isles Tailoring",
+					},
+					["Enchanting"] = {
+						["CurrentLevelName"] = "Dragon Isles Enchanting",
+					},
+				},
+				["Prof1"] = "Tailoring",
+			},
+		},
+	},
+}
+DataStore_CraftsRefDB = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+	},
+}

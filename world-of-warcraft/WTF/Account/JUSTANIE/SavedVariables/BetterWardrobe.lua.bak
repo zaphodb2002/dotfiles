@@ -1,0 +1,79 @@
+
+BetterWardrobe_Options = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Default",
+		["Jenleeviyah - Dalaran"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+BetterWardrobe_CharacterData = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+	},
+}
+BetterWardrobe_SavedSetData = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+	},
+	["global"] = {
+		["sets"] = {
+			["Morgntreeman - Dalaran"] = {
+			},
+			["Jenleeviyah - Dalaran"] = {
+			},
+		},
+	},
+}
+BetterWardrobe_SubstituteItemData = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Default",
+		["Jenleeviyah - Dalaran"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+BetterWardrobe_ListData = {
+	["favoritesDB"] = {
+		["profileKeys"] = {
+			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+			["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		},
+	},
+	["collectionListDB"] = {
+		["profileKeys"] = {
+			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+			["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		},
+		["profiles"] = {
+			["Morgntreeman - Dalaran"] = {
+			},
+			["Jenleeviyah - Dalaran"] = {
+			},
+		},
+	},
+	["OutfitDB"] = {
+		["profileKeys"] = {
+			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+			["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		},
+	},
+	["lastUpdte"] = 1,
+	["HiddenAppearanceDB"] = {
+		["profileKeys"] = {
+			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+			["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		},
+	},
+}
+BetterWardrobe_Mogitdata = nil
+BetterWardrobe_Updates = {
+	["8_4"] = true,
+}
+BTT = nil

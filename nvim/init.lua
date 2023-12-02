@@ -1,9 +1,24 @@
+-- Tabs
 vim.opt.expandtab = false
 vim.opt.tabstop = 2
+vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
+vim.opt.shiftround = true
+vim.opt.smarttab = true
+vim.opt.autoindent = true
+vim.opt.copyindent = true
+vim.opt.preserveindent = true
+vim.opt.smartindent = true
+
+-- Wrapping
 vim.opt.wrap = true
+vim.opt.breakindent = true
 vim.opt.linebreak = true
+vim.opt.wrapmargin = 4 
 vim.opt.textwidth = 80
+
+-- Misc
+vim.opt.spell = true
 vim.g.leader = ' '
 
 -- Lazy.nvim setup
@@ -86,8 +101,8 @@ vim.keymap.set('n','ca',function () vim.lsp.buf.code_action() end)
 
 lspconfig.rust_analyzer.setup{}
 lspconfig.gdscript.setup{}
-lspconfig.lua_ls.setup{}
-lspconfig.marksman.setup{}
+--lspconfig.lua_ls.setup{}
+--lspconfig.marksman.setup{}
 
 
 require("mini.animate").setup()

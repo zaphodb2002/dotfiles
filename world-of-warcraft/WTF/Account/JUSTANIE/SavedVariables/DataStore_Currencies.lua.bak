@@ -1,0 +1,309 @@
+
+DataStore_CurrenciesDB = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+	},
+	["global"] = {
+		["Reference"] = {
+			["Currencies"] = {
+				"Dragon Isles Supplies|2065578", -- [1]
+				"Drake's Dreaming Crest|5309870", -- [2]
+				"Elemental Overflow|134388", -- [3]
+				"Emerald Dewdrop|1029745", -- [4]
+				"Flightstones|5172976", -- [5]
+				"Paracausal Flakes|3193844", -- [6]
+				"Storm Sigil|651737", -- [7]
+				"Whelpling's Dreaming Crest|5309872", -- [8]
+				"Timewarped Badge|463446", -- [9]
+				"Bloody Tokens|4638431", -- [10]
+				"Conquest|1523630", -- [11]
+				"Honor|1455894", -- [12]
+				"Tol Barad Commendation|409548", -- [13]
+				"Cataloged Research|1506458", -- [14]
+				"Cosmic Flux|4381149", -- [15]
+				"Cyphers of the First Ones|3950362", -- [16]
+				"Grateful Offering|134344", -- [17]
+				"Infused Ruby|133250", -- [18]
+				"Reservoir Anima|3528288", -- [19]
+				"Soul Cinders|4067362", -- [20]
+				"Stygia|3743739", -- [21]
+				"Stygian Ember|636333", -- [22]
+				"7th Legion Service Medal|2565243", -- [23]
+				"Brawler's Gold|237281", -- [24]
+				"Seafarer's Dubloon|1604167", -- [25]
+				"Seal of Wartorn Fate|1416740", -- [26]
+				"Titan Residuum|2065602", -- [27]
+				"War Resources|2032600", -- [28]
+				"Ancient Mana|1377394", -- [29]
+				"Curious Coin|1604168", -- [30]
+				"Legionfall War Supplies|803763", -- [31]
+				"Lingering Soul Fragment|463284", -- [32]
+				"Nethershard|132775", -- [33]
+				"Order Resources|1397630", -- [34]
+				"Seal of Broken Fate|1604167", -- [35]
+				"Sightless Eye|801132", -- [36]
+				"Timeworn Artifact|1061303", -- [37]
+				"Veiled Argunite|1064188", -- [38]
+				"Wakening Essence|236521", -- [39]
+				"Apexis Crystal|1061300", -- [40]
+				"Garrison Resources|1005027", -- [41]
+				"Oil|1131085", -- [42]
+				"Elder Charm of Good Fortune|237281", -- [43]
+				"Lesser Charm of Good Fortune|237282", -- [44]
+				"Essence of Corrupted Deathwing|132851", -- [45]
+				"Mote of Darkness|136192", -- [46]
+				"Spirit Shard|133286", -- [47]
+				"Trader's Tender|4696085", -- [48]
+			},
+			["CurrencyTextRev"] = {
+				["Ancient Mana"] = 29,
+				["Brawler's Gold"] = 24,
+				["Cyphers of the First Ones"] = 16,
+				["Emerald Dewdrop"] = 4,
+				["Nethershard"] = 33,
+				["Paracausal Flakes"] = 6,
+				["Order Resources"] = 34,
+				["Veiled Argunite"] = 38,
+				["Cataloged Research"] = 14,
+				["Cosmic Flux"] = 15,
+				["Elemental Overflow"] = 3,
+				["War Resources"] = 28,
+				["Soul Cinders"] = 20,
+				["Sightless Eye"] = 36,
+				["Essence of Corrupted Deathwing"] = 45,
+				["Grateful Offering"] = 17,
+				["Dragon Isles Supplies"] = 1,
+				["Reservoir Anima"] = 19,
+				["Lingering Soul Fragment"] = 32,
+				["Trader's Tender"] = 48,
+				["Bloody Tokens"] = 10,
+				["Conquest"] = 11,
+				["Drake's Dreaming Crest"] = 2,
+				["Lesser Charm of Good Fortune"] = 44,
+				["Flightstones"] = 5,
+				["Seal of Wartorn Fate"] = 26,
+				["Stygian Ember"] = 22,
+				["Mote of Darkness"] = 46,
+				["Infused Ruby"] = 18,
+				["Seafarer's Dubloon"] = 25,
+				["Titan Residuum"] = 27,
+				["7th Legion Service Medal"] = 23,
+				["Timewarped Badge"] = 9,
+				["Spirit Shard"] = 47,
+				["Tol Barad Commendation"] = 13,
+				["Honor"] = 12,
+				["Seal of Broken Fate"] = 35,
+				["Timeworn Artifact"] = 37,
+				["Storm Sigil"] = 7,
+				["Wakening Essence"] = 39,
+				["Stygia"] = 21,
+				["Apexis Crystal"] = 40,
+				["Curious Coin"] = 30,
+				["Garrison Resources"] = 41,
+				["Oil"] = 42,
+				["Elder Charm of Good Fortune"] = 43,
+				["Whelpling's Dreaming Crest"] = 8,
+				["Legionfall War Supplies"] = 31,
+			},
+			["HeadersRev"] = {
+				["Battle for Azeroth"] = 5,
+				["Miscellaneous"] = 11,
+				["Dungeon and Raid"] = 2,
+				["Dragonflight"] = 1,
+				["Legion"] = 6,
+				["Burning Crusade"] = 10,
+				["Cataclysm"] = 9,
+				["Shadowlands"] = 4,
+				["Mists of Pandaria"] = 8,
+				["Player vs. Player"] = 3,
+				["Warlords of Draenor"] = 7,
+			},
+			["Headers"] = {
+				"Dragonflight", -- [1]
+				"Dungeon and Raid", -- [2]
+				"Player vs. Player", -- [3]
+				"Shadowlands", -- [4]
+				"Battle for Azeroth", -- [5]
+				"Legion", -- [6]
+				"Warlords of Draenor", -- [7]
+				"Mists of Pandaria", -- [8]
+				"Cataclysm", -- [9]
+				"Burning Crusade", -- [10]
+				"Miscellaneous", -- [11]
+			},
+		},
+		["Characters"] = {
+			["Default.Dalaran.Morgntreeman"] = {
+				["Currencies"] = {
+					252182657, -- [1]
+					4194561, -- [2]
+					857211265, -- [3]
+					6554113, -- [4]
+					71434881, -- [5]
+					289669889, -- [6]
+					1442689, -- [7]
+					656385, -- [8]
+					726795394, -- [9]
+					65542155, -- [10]
+					1283, -- [11]
+					1411, -- [12]
+					69338627, -- [13]
+					919171, -- [14]
+					159385348, -- [15]
+					13109124, -- [16]
+					1837060, -- [17]
+					133252, -- [18]
+					5638404, -- [19]
+					840173956, -- [20]
+					26216964, -- [21]
+					38537860, -- [22]
+					1313540, -- [23]
+					18877317, -- [24]
+					134149, -- [25]
+					5246085, -- [26]
+					3333, -- [27]
+					3461, -- [28]
+					549457413, -- [29]
+					86118022, -- [30]
+					1445638, -- [31]
+					38539142, -- [32]
+					135174, -- [33]
+					2954236038, -- [34]
+					711069958, -- [35]
+					4486, -- [36]
+					20976134, -- [37]
+					5116550, -- [38]
+					62132998, -- [39]
+					65540998, -- [40]
+					15350371335, -- [41]
+					844502151, -- [42]
+					1242567943, -- [43]
+					398728, -- [44]
+					103683592, -- [45]
+					267913, -- [46]
+					1185545, -- [47]
+					1972106, -- [48]
+				},
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+				["lastUpdate"] = 1699936762,
+				["CurrencyInfo"] = {
+					[824] = "6443-0-0-10000",
+					[2122] = "11-0-0-0",
+					[2650] = "50-0-0-0",
+					[1979] = "14-0-0-0",
+					[1101] = "9480-0-0-100000",
+					[2123] = "0-0-0-200000",
+					[2706] = "5-0-0-90",
+					[2003] = "1924-0-0-0",
+					[1314] = "1-0-20-40",
+					[1885] = "1-0-0-0",
+					[1767] = "294-0-0-0",
+					[738] = "791-0-0-0",
+					[2707] = "32-0-0-90",
+					[1342] = "294-0-0-1000",
+					[1220] = "5425-0-0-0",
+					[1602] = "0-0-0-0",
+					[1299] = "1-0-0-5000",
+					[823] = "117114-0-0-0",
+					[1508] = "474-0-0-2000",
+					[2118] = "6540-0-0-0",
+					[1268] = "39-0-0-1000",
+					[1906] = "200-0-0-0",
+					[391] = "7-0-0-0",
+					[1977] = "10-0-0-0",
+					[1792] = "529-0-0-15000",
+					[1166] = "5545-0-0-0",
+					[2245] = "545-0-0-2000",
+					[1275] = "11-0-0-0",
+					[1704] = "15-0-0-200",
+					[1560] = "4192-0-0-0",
+					[614] = "9-0-0-0",
+					[2009] = "100-0-0-0",
+					[1717] = "144-0-0-0",
+					[1718] = "0-0-0-0",
+					[1580] = "0-0-0-5",
+					[1710] = "40-0-0-0",
+					[1273] = "0-0-0-6",
+					[615] = "2-0-0-0",
+					[1155] = "657-0-0-1600",
+					[1820] = "43-0-0-100",
+					[1226] = "22539-0-0-0",
+					[1149] = "160-0-0-5000",
+					[1533] = "500-0-0-0",
+					[1931] = "1216-0-0-0",
+					[697] = "3-0-0-20",
+					[1813] = "6410-0-0-200000",
+					[2594] = "2210-0-0-0",
+					[2032] = "500-0-0-0",
+				},
+			},
+			["Default.Dalaran.Jenleeviyah"] = {
+				["Currencies"] = {
+					192544897, -- [1]
+					114033025, -- [2]
+					300417793, -- [3]
+					263041, -- [4]
+					3933185, -- [5]
+					65542155, -- [6]
+					17305093, -- [7]
+					136712, -- [8]
+				},
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+				["lastUpdate"] = 1699940052,
+				["CurrencyInfo"] = {
+					[2003] = "1469-0-0-0",
+					[2118] = "870-0-0-0",
+					[2032] = "500-0-0-0",
+					[2122] = "2-0-0-0",
+					[2594] = "2292-0-0-0",
+					[2706] = "30-0-0-90",
+					[738] = "1-0-0-0",
+					[1560] = "132-0-0-0",
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,11 @@
+
+HandyNotes_BattleForAzerothDB = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Default",
+		["Jenleeviyah - Dalaran"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

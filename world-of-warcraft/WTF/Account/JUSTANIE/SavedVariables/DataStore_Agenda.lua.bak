@@ -1,0 +1,32 @@
+
+DataStore_AgendaDB = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+	},
+	["global"] = {
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 2,
+			["NextWeeklyReset"] = "2023-11-14",
+		},
+		["Characters"] = {
+			["Default.Dalaran.Morgntreeman"] = {
+				["lastUpdate"] = 1699936763,
+			},
+			["Default.Dalaran.Jenleeviyah"] = {
+				["lastUpdate"] = 1699941203,
+				["DungeonIDs"] = {
+					["The Culling of Stratholme Heroic|439786340"] = "32797|1699941203|0|0",
+					["Zul'Gurub Heroic|439786011"] = "32797|1699941203|0|0",
+					["Onyxia's Lair 10 Player|439786254"] = "32797|1699941203|0|1",
+					["Karazhan 10 Player|439785952"] = "32797|1699941203|0|1",
+				},
+				["LFGDungeons"] = {
+					["257.Onyxia"] = true,
+					["257.Count"] = 1,
+				},
+			},
+		},
+	},
+}

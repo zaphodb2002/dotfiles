@@ -1,0 +1,27 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+	},
+	["global"] = {
+		["Guilds"] = {
+			["Default.Dalaran.Grape Soda"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["Characters"] = {
+			["Default.Dalaran.Morgntreeman"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Grape Soda",
+			},
+			["Default.Dalaran.Jenleeviyah"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Grape Soda",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["Dalaran"] = "Dalaran",
+		},
+	},
+}

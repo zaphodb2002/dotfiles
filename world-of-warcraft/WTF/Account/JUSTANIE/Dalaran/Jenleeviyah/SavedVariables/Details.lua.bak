@@ -1,0 +1,4704 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 4,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["totalabsorbed"] = 0.006437,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 788790.006437,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 788790.006437,
+							["spec"] = 70,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-3683-0D9B5F42",
+							["ilvl"] = 226,
+							["boss_fight_component"] = true,
+							["damage_from"] = {
+								["Onyxia"] = true,
+							},
+							["targets"] = {
+								["Risen Zombie"] = 241,
+								["Onyxia"] = 788549,
+							},
+							["colocacao"] = 1,
+							["aID"] = "3683-0D9B5F42",
+							["grupo"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1699940606,
+							["nome"] = "Luckycarbon",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[403695] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 403695,
+										["r_dmg"] = 0,
+										["spellschool"] = 6,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[408385] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 408385,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[20271] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 20271,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[255937] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 121,
+										["targets"] = {
+											["Risen Zombie"] = 241,
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 241,
+										["n_min"] = 120,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 241,
+										["c_max"] = 0,
+										["id"] = 255937,
+										["r_dmg"] = 0,
+										["spellschool"] = 6,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[184575] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Onyxia"] = 709473,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 709473,
+										["c_max"] = 709473,
+										["id"] = 184575,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 709473,
+										["successful_casted"] = 0,
+										["c_total"] = 709473,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[383346] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 383346,
+										["r_dmg"] = 0,
+										["spellschool"] = 6,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 7,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[81297] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 79076,
+										["targets"] = {
+											["Onyxia"] = 79076,
+										},
+										["n_total"] = 79076,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 79076,
+										["c_max"] = 0,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 7,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[406957] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 406957,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 21498.18774187142,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 2.006437,
+							["start_time"] = 1699939668,
+							["delay"] = 1699940575,
+							["last_event"] = 1699940605,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["totalabsorbed"] = 0.002247,
+							["pets"] = {
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 234653.002247,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 234653.002247,
+							["spec"] = 254,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-3683-0A6E9855",
+							["ilvl"] = 422,
+							["boss_fight_component"] = true,
+							["damage_from"] = {
+								["Onyxia"] = true,
+							},
+							["targets"] = {
+								["Risen Zombie"] = 651,
+								["Onyxia"] = 0,
+								["Onyxian Whelp"] = 234002,
+							},
+							["colocacao"] = 2,
+							["aID"] = "3683-0A6E9855",
+							["grupo"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1699940560,
+							["nome"] = "Smolnina",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[120361] = {
+										["c_amt"] = 11,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10174,
+										["targets"] = {
+											["Risen Zombie"] = 651,
+											["Onyxia"] = 0,
+											["Onyxian Whelp"] = 132262,
+										},
+										["n_total"] = 91854,
+										["n_min"] = 46,
+										["g_dmg"] = 0,
+										["counter"] = 29,
+										["total"] = 132913,
+										["c_max"] = 10174,
+										["id"] = 120361,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 121,
+										["successful_casted"] = 0,
+										["c_total"] = 41059,
+										["n_amt"] = 18,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[75] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10174,
+										["targets"] = {
+											["Onyxian Whelp"] = 10174,
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 10174,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 10174,
+										["c_max"] = 0,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[185358] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10174,
+										["targets"] = {
+											["Onyxian Whelp"] = 10174,
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 10174,
+										["n_min"] = 10174,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 10174,
+										["c_max"] = 0,
+										["id"] = 185358,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[269576] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 269576,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[260247] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10174,
+										["targets"] = {
+											["Onyxian Whelp"] = 81392,
+										},
+										["n_total"] = 61044,
+										["n_min"] = 10174,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 81392,
+										["c_max"] = 10174,
+										["id"] = 260247,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 10174,
+										["successful_casted"] = 0,
+										["c_total"] = 20348,
+										["n_amt"] = 6,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 6395.383125207851,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 1.002247,
+							["start_time"] = 1699939645,
+							["delay"] = 0,
+							["last_event"] = 1699940558,
+						}, -- [2]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003362,
+							["pets"] = {
+							},
+							["classe"] = "MAGE",
+							["total_without_pet"] = 121.003362,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 121.003362,
+							["spec"] = 63,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-3683-0D54CC70",
+							["ilvl"] = 310,
+							["boss_fight_component"] = true,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Risen Zombie"] = 121,
+								["Onyxia"] = 0,
+							},
+							["colocacao"] = 3,
+							["aID"] = "3683-0D54CC70",
+							["grupo"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1699940606,
+							["nome"] = "Jenleeviyah",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[419800] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 419800,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 9,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[205345] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 205345,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[390253] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 390253,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["spellschool"] = 48,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 18,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[12654] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 12654,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 9,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[108853] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Risen Zombie"] = 121,
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 121,
+										["c_max"] = 121,
+										["id"] = 108853,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 121,
+										["successful_casted"] = 0,
+										["c_total"] = 121,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 3.297903082499813,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.003362,
+							["start_time"] = 1699939668,
+							["delay"] = 1699939657,
+							["last_event"] = 1699940606,
+						}, -- [3]
+						{
+							["flag_original"] = 1300,
+							["totalabsorbed"] = 0.00247,
+							["pets"] = {
+								"Lesser Dragonkin <Smolnina-Dalaran>", -- [1]
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 0.00247,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.00247,
+							["spec"] = 254,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-3683-0A6E9855",
+							["boss_fight_component"] = true,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Onyxia"] = 0,
+							},
+							["colocacao"] = 4,
+							["aID"] = "3683-0A6E9855",
+							["grupo"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1699939678,
+							["nome"] = "Smolnina-Dalaran",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 6.940931827122979e-05,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.00247,
+							["start_time"] = 1699939664,
+							["delay"] = 1699939653,
+							["last_event"] = 1699939676,
+						}, -- [4]
+						{
+							["flag_original"] = 2584,
+							["totalabsorbed"] = 0.007678,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 507.007678,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 507.007678,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-4231-595-16296-27745-0002D306CE",
+							["damage_from"] = {
+								["Risen Zombie"] = true,
+								["Stratholme Resident"] = true,
+							},
+							["targets"] = {
+								["Risen Zombie"] = 161,
+								["Stratholme Resident"] = 346,
+							},
+							["aID"] = "27745",
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1699940598,
+							["nome"] = "Lordaeron Footman",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 63,
+										["targets"] = {
+											["Risen Zombie"] = 161,
+											["Stratholme Resident"] = 278,
+										},
+										["n_total"] = 439,
+										["n_min"] = 42,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 439,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[25710] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 68,
+										["targets"] = {
+											["Stratholme Resident"] = 68,
+										},
+										["n_total"] = 68,
+										["n_min"] = 68,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 68,
+										["c_max"] = 0,
+										["id"] = 25710,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 115.007678,
+							["start_time"] = 1699940558,
+							["delay"] = 0,
+							["last_event"] = 1699940596,
+						}, -- [5]
+						{
+							["flag_original"] = 68120,
+							["totalabsorbed"] = 0.001105,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 199.001105,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 199.001105,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-4231-595-16296-26499-00005307C4",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Stratholme Resident"] = 199,
+							},
+							["aID"] = "26499",
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1699940598,
+							["nome"] = "Arthas",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 199,
+										["targets"] = {
+											["Stratholme Resident"] = 199,
+										},
+										["n_total"] = 199,
+										["n_min"] = 199,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 199,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.001105,
+							["start_time"] = 1699940595,
+							["delay"] = 0,
+							["last_event"] = 1699940595,
+						}, -- [6]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.004662,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 140.004662,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 140.004662,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-4231-595-16296-28167-0001D306CE",
+							["aID"] = "28167",
+							["damage_from"] = {
+								["High Elf Mage-Priest"] = true,
+								["Jenleeviyah"] = true,
+								["Smolnina"] = true,
+								["Luckycarbon"] = true,
+								["Lordaeron Footman"] = true,
+							},
+							["targets"] = {
+								["High Elf Mage-Priest"] = 46,
+								["Lordaeron Footman"] = 94,
+							},
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1699940560,
+							["nome"] = "Risen Zombie",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 94,
+										["targets"] = {
+											["High Elf Mage-Priest"] = 46,
+											["Lordaeron Footman"] = 94,
+										},
+										["n_total"] = 140,
+										["n_min"] = 46,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 140,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 1218.004662,
+							["start_time"] = 1699940558,
+							["delay"] = 0,
+							["last_event"] = 1699940558,
+						}, -- [7]
+						{
+							["flag_original"] = 2584,
+							["totalabsorbed"] = 0.001118,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 63.00111800000001,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 63.00111800000001,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-4231-595-16296-27747-0000D306CE",
+							["damage_from"] = {
+								["Risen Zombie"] = true,
+							},
+							["targets"] = {
+								["Risen Zombie"] = 44,
+								["Stratholme Resident"] = 19,
+							},
+							["aID"] = "27747",
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1699940598,
+							["nome"] = "High Elf Mage-Priest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[34232] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 24,
+										["targets"] = {
+											["Risen Zombie"] = 44,
+											["Stratholme Resident"] = 19,
+										},
+										["n_total"] = 63,
+										["n_min"] = 19,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 63,
+										["c_max"] = 0,
+										["id"] = 34232,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 46.001118,
+							["start_time"] = 1699940558,
+							["delay"] = 0,
+							["last_event"] = 1699940596,
+						}, -- [8]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.007755,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 21.007755,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 21.007755,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-4231-595-16296-28169-0000D308E1",
+							["damage_from"] = {
+								["High Elf Mage-Priest"] = true,
+								["Arthas"] = true,
+								["Lordaeron Footman"] = true,
+							},
+							["targets"] = {
+								["Lordaeron Footman"] = 21,
+							},
+							["aID"] = "28169",
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1699940598,
+							["nome"] = "Stratholme Resident",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8,
+										["targets"] = {
+											["Lordaeron Footman"] = 21,
+										},
+										["n_total"] = 21,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 21,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 564.007755,
+							["start_time"] = 1699940592,
+							["delay"] = 0,
+							["last_event"] = 1699940596,
+						}, -- [9]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.008092,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 3.008092,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 3.008092,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-4218-249-22119-10184-00005304F5",
+							["aID"] = "10184",
+							["boss_fight_component"] = true,
+							["damage_from"] = {
+								["Jenleeviyah"] = true,
+								["Smolnina"] = true,
+								["Lesser Dragonkin <Smolnina-Dalaran>"] = true,
+								["Luckycarbon"] = true,
+							},
+							["targets"] = {
+								["Smolnina"] = 1,
+								["Luckycarbon"] = 2,
+							},
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1699939678,
+							["nome"] = "Onyxia",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[18392] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Smolnina"] = 1,
+											["Luckycarbon"] = 2,
+										},
+										["n_total"] = 3,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 3,
+										["c_max"] = 0,
+										["id"] = 18392,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 788549.008092,
+							["start_time"] = 1699939672,
+							["delay"] = 0,
+							["last_event"] = 1699939672,
+						}, -- [10]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.006569,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.006569,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.006569,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-4218-249-22119-11262-0003D3053A",
+							["aID"] = "11262",
+							["boss_fight_component"] = true,
+							["damage_from"] = {
+								["Smolnina"] = true,
+							},
+							["targets"] = {
+							},
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1699939678,
+							["nome"] = "Onyxian Whelp",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Jenleeviyah"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 8,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 234002.006569,
+							["start_time"] = 1699939678,
+							["delay"] = 0,
+							["last_event"] = 1699939667,
+						}, -- [11]
+						{
+							["flag_original"] = 4370,
+							["totalabsorbed"] = 0.003582,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 0.003582,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.003582,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-3019-1-8-165189-0204265CBA",
+							["aID"] = "Pet-0-3019-1-8-165189-0204265CBA",
+							["boss_fight_component"] = true,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Onyxia"] = 0,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1699939678,
+							["ownerName"] = "Smolnina-Dalaran",
+							["nome"] = "Lesser Dragonkin <Smolnina-Dalaran>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[16827] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Onyxia"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 16827,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.003582,
+							["start_time"] = 1699939664,
+							["delay"] = 1699939653,
+							["last_event"] = 1699939676,
+						}, -- [12]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.003048,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.003048,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.003048,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-4231-595-16296-28249-00005308E1",
+							["aID"] = "28249",
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1699940586,
+							["nome"] = "Devouring Ghoul",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Smolnina"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 3,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.003048,
+							["start_time"] = 1699940586,
+							["delay"] = 0,
+							["last_event"] = 1699940580,
+						}, -- [13]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.002275,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.002275,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.002275,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-4231-595-16296-27729-00005308E1",
+							["aID"] = "27729",
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1699940586,
+							["nome"] = "Enraging Ghoul",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Smolnina"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.002275,
+							["start_time"] = 1699940586,
+							["delay"] = 0,
+							["last_event"] = 1699940581,
+						}, -- [14]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 4,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 7183.007076,
+							["total_without_pet"] = 0.007076,
+							["total"] = 0.007076,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["totalabsorb"] = 0.007076,
+							["last_hps"] = 0,
+							["aID"] = "3683-0D9B5F42",
+							["spec"] = 70,
+							["targets"] = {
+							},
+							["boss_fight_component"] = true,
+							["serial"] = "Player-3683-0D9B5F42",
+							["totalover_without_pet"] = 0.007076,
+							["grupo"] = true,
+							["healing_taken"] = 0.007076,
+							["healing_from"] = {
+							},
+							["classe"] = "PALADIN",
+							["end_time"] = 1699939678,
+							["targets_overheal"] = {
+								["Luckycarbon"] = 7183,
+							},
+							["start_time"] = 1699939669,
+							["nome"] = "Luckycarbon",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[403044] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Luckycarbon"] = 7183,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Luckycarbon"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["counter"] = 4,
+										["overheal"] = 7183,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 403044,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["spellschool"] = 2,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 4,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["custom"] = 0,
+							["last_event"] = 1699939650,
+							["totaldenied"] = 0.007076,
+							["delay"] = 1699939650,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 4,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["resource"] = 10.008327,
+							["pets"] = {
+							},
+							["aID"] = "3683-0D9B5F42",
+							["passiveover"] = 0.008327,
+							["total"] = 0.008327,
+							["spec"] = 70,
+							["received"] = 0.008327,
+							["targets"] = {
+							},
+							["powertype"] = 0,
+							["alternatepower"] = 0.008327,
+							["boss_fight_component"] = true,
+							["resource_type"] = 9,
+							["nome"] = "Luckycarbon",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["classe"] = "PALADIN",
+							["last_event"] = 1699940605,
+							["totalover"] = 0.008327,
+							["serial"] = "Player-3683-0D9B5F42",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 4,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[269576] = {
+										["activedamt"] = 0,
+										["id"] = 269576,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["pets"] = {
+							},
+							["aID"] = "3683-0A6E9855",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[260243] = {
+										["activedamt"] = 1,
+										["id"] = 260243,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[231390] = {
+										["activedamt"] = 4,
+										["id"] = 231390,
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 4,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[388998] = {
+										["activedamt"] = 1,
+										["id"] = 388998,
+										["targets"] = {
+										},
+										["uptime"] = 15,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[415603] = {
+										["activedamt"] = 1,
+										["id"] = 415603,
+										["targets"] = {
+										},
+										["uptime"] = 37,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[257622] = {
+										["activedamt"] = 1,
+										["id"] = 257622,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[120360] = {
+										["activedamt"] = 1,
+										["id"] = 120360,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 8,
+							["nome"] = "Smolnina",
+							["spec"] = 254,
+							["grupo"] = true,
+							["buff_uptime"] = 81,
+							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["classe"] = "HUNTER",
+							["buff_uptime_targets"] = {
+							},
+							["serial"] = "Player-3683-0A6E9855",
+							["last_event"] = 1699939678,
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[383346] = {
+										["activedamt"] = 0,
+										["id"] = 383346,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 2,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[407475] = {
+										["activedamt"] = -1,
+										["id"] = 407475,
+										["targets"] = {
+										},
+										["uptime"] = 27,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[403695] = {
+										["activedamt"] = 0,
+										["id"] = 403695,
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[197277] = {
+										["activedamt"] = 0,
+										["id"] = 197277,
+										["targets"] = {
+										},
+										["uptime"] = 31,
+										["appliedamt"] = 1,
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[204242] = {
+										["activedamt"] = 0,
+										["id"] = 204242,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["pets"] = {
+							},
+							["aID"] = "3683-0D9B5F42",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[385127] = {
+										["activedamt"] = 1,
+										["id"] = 385127,
+										["targets"] = {
+										},
+										["uptime"] = 32,
+										["appliedamt"] = 1,
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[384029] = {
+										["activedamt"] = 1,
+										["id"] = 384029,
+										["targets"] = {
+										},
+										["uptime"] = 15,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[32223] = {
+										["activedamt"] = 1,
+										["id"] = 32223,
+										["targets"] = {
+										},
+										["uptime"] = 37,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 86,
+							["nome"] = "Luckycarbon",
+							["spec"] = 70,
+							["grupo"] = true,
+							["buff_uptime"] = 84,
+							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["classe"] = "PALADIN",
+							["buff_uptime_targets"] = {
+							},
+							["serial"] = "Player-3683-0D9B5F42",
+							["last_event"] = 1699939678,
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["buff_uptime"] = 148,
+							["pets"] = {
+							},
+							["boss_fight_component"] = true,
+							["classe"] = "MAGE",
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[203277] = {
+										["activedamt"] = 1,
+										["id"] = 203277,
+										["targets"] = {
+										},
+										["uptime"] = 37,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[390250] = {
+										["activedamt"] = 0,
+										["id"] = 390250,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[1459] = {
+										["activedamt"] = 1,
+										["id"] = 1459,
+										["targets"] = {
+										},
+										["uptime"] = 37,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[335152] = {
+										["activedamt"] = 1,
+										["id"] = 335152,
+										["targets"] = {
+										},
+										["uptime"] = 37,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[397734] = {
+										["activedamt"] = 1,
+										["id"] = 397734,
+										["targets"] = {
+										},
+										["uptime"] = 37,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[116267] = {
+										["activedamt"] = 0,
+										["id"] = 116267,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-3683-0D54CC70",
+							["aID"] = "3683-0D54CC70",
+							["nome"] = "Jenleeviyah-Dalaran",
+							["spec"] = 63,
+							["last_event"] = 1699939678,
+							["tipo"] = 4,
+						}, -- [3]
+						{
+							["flag_original"] = 1300,
+							["pets"] = {
+								"Lesser Dragonkin <Smolnina-Dalaran>", -- [1]
+							},
+							["classe"] = "HUNTER",
+							["boss_fight_component"] = true,
+							["grupo"] = true,
+							["serial"] = "Player-3683-0A6E9855",
+							["aID"] = "3683-0A6E9855",
+							["nome"] = "Smolnina-Dalaran",
+							["spec"] = 254,
+							["last_event"] = 0,
+							["tipo"] = 4,
+						}, -- [4]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["boss_fight_component"] = true,
+							["aID"] = "Pet-0-3019-1-8-165189-0204265CBA",
+							["serial"] = "Pet-0-3019-1-8-165189-0204265CBA",
+							["ownerName"] = "Smolnina-Dalaran",
+							["nome"] = "Lesser Dragonkin <Smolnina-Dalaran>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+						}, -- [5]
+						{
+							["flag_original"] = 1297,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[12654] = {
+										["activedamt"] = 0,
+										["id"] = 12654,
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["pets"] = {
+							},
+							["aID"] = "3683-0D54CC70",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[383395] = {
+										["activedamt"] = 1,
+										["id"] = 383395,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[48107] = {
+										["activedamt"] = 1,
+										["id"] = 48107,
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[256374] = {
+										["activedamt"] = 1,
+										["id"] = 256374,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[387678] = {
+										["activedamt"] = 2,
+										["id"] = 387678,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[390250] = {
+										["activedamt"] = 1,
+										["id"] = 390250,
+										["targets"] = {
+										},
+										["actived_at"] = 1699939648,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 9,
+							["nome"] = "Jenleeviyah",
+							["spec"] = 63,
+							["grupo"] = true,
+							["buff_uptime"] = 32,
+							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["classe"] = "MAGE",
+							["buff_uptime_targets"] = {
+							},
+							["serial"] = "Player-3683-0D54CC70",
+							["last_event"] = 1699939672,
+						}, -- [6]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-4218-249-22119-10184-00005304F5",
+							["classe"] = "UNKNOW",
+							["boss_fight_component"] = true,
+							["monster"] = true,
+							["aID"] = "10184",
+							["nome"] = "Onyxia",
+							["last_event"] = 0,
+							["tipo"] = 4,
+						}, -- [7]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 4,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Jenleeviyah-Dalaran"] = "Player-3683-0D54CC70",
+					["Smolnina"] = "Player-3683-0A6E9855",
+					["Luckycarbon"] = "Player-3683-0D9B5F42",
+				},
+				["raid_roster_indexed"] = {
+					"Jenleeviyah-Dalaran", -- [1]
+					"Luckycarbon", -- [2]
+					"Smolnina", -- [3]
+				},
+				["CombatStartedAt"] = 9048.721,
+				["tempo_start"] = 1699939641,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossIcon"] = "",
+				["bossTimers"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals"] = {
+					1024497, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Lesser Dragonkin"] = {
+						["Dash"] = 2,
+						["Claw"] = 4,
+					},
+					["Onyxia"] = {
+						["Fireball"] = 1,
+					},
+					["Jenleeviyah"] = {
+						["Fire Blast"] = 1,
+					},
+					["Lesser Dragonkin <Smolnina-Dalaran>"] = {
+						["Claw"] = 1,
+					},
+					["Smolnina"] = {
+						["Volley"] = 1,
+						["Barrage"] = 1,
+						["Arcane Shot"] = 3,
+					},
+					["Luckycarbon"] = {
+						["Divine Toll"] = 1,
+						["Wake of Ashes"] = 1,
+						["Crusading Strikes"] = 4,
+						["Judgment"] = 1,
+						["Blade of Justice"] = 2,
+					},
+				},
+				["instance_type"] = "raid",
+				["data_fim"] = "21:27:58",
+				["hasTimer"] = 36.08500000000004,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Onyxia",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 0,
+				["CombatEndedAt"] = 9037.322,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "21:27:22",
+				["end_time"] = 8120.79,
+				["combat_id"] = 4,
+				["resincked"] = true,
+				["overall_added"] = true,
+				["combat_counter"] = 24,
+				["frags"] = {
+					["Onyxian Whelp"] = 23,
+					["Onyxia"] = 1,
+				},
+				["is_boss"] = {
+					["diff_string"] = "10 Player",
+					["index"] = 1,
+					["zone"] = "Onyxia's Lair",
+					["encounter"] = "Onyxia",
+					["mapid"] = 249,
+					["try_number"] = 1,
+					["name"] = "Onyxia",
+					["diff"] = 3,
+					["ej_instance_id"] = 760,
+					["id"] = 1084,
+					["unixtime"] = 1699939642,
+					["killed"] = true,
+				},
+				["totals_grupo"] = {
+					1023564, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Luckycarbon"] = 0.007076,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Smolnina-Dalaran"] = 0.00247,
+							["Smolnina"] = 234002.002247,
+							["Jenleeviyah"] = 0.003362,
+							["Luckycarbon"] = 788549.006437,
+						}, -- [1]
+					},
+				},
+				["spells_cast_timeline"] = {
+				},
+				["start_time"] = 8084.099,
+				["contra"] = "Onyxia",
+				["TimeData"] = {
+				},
+			}, -- [1]
+		},
+	},
+	["ocd_tracker"] = {
+		["show_title"] = true,
+		["current_cooldowns"] = {
+		},
+		["lines_per_column"] = 12,
+		["group_frames"] = true,
+		["frames"] = {
+			["defensive-raid"] = {
+			},
+			["main"] = {
+			},
+			["ofensive"] = {
+			},
+			["defensive-target"] = {
+			},
+			["utility"] = {
+			},
+			["defensive-personal"] = {
+			},
+		},
+		["show_options"] = false,
+		["own_frame"] = {
+			["defensive-raid"] = false,
+			["ofensive"] = false,
+			["defensive-target"] = false,
+			["utility"] = false,
+			["defensive-personal"] = false,
+		},
+		["width"] = 120,
+		["framme_locked"] = false,
+		["cooldowns"] = {
+		},
+		["height"] = 18,
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["enabled"] = false,
+		["filters"] = {
+			["itemutil"] = false,
+			["itempower"] = false,
+			["defensive-target"] = false,
+			["itemheal"] = false,
+			["defensive-personal"] = false,
+			["defensive-raid"] = false,
+			["ofensive"] = true,
+			["crowdcontrol"] = false,
+			["utility"] = false,
+		},
+	},
+	["last_version"] = "10.2.0 12038",
+	["player_stats"] = {
+	},
+	["force_font_outline"] = "",
+	["tabela_pets"] = {
+		["Creature-0-3138-532-9038-15550-000052FFEA"] = {
+			"Midnight", -- [1]
+			"Creature-0-3138-532-9038-16151-000052FFC1", -- [2]
+			2600, -- [3]
+			1699938283, -- [4]
+			false, -- [5]
+			"Attumen the Huntsman", -- [6]
+			"Creature-0-3138-532-9038-15550-000052FFEA", -- [7]
+		},
+		["Creature-0-4232-2444-1257-58542-000052FCAE"] = {
+			"Kowimagi", -- [1]
+			"Player-3683-0D975B9B", -- [2]
+			1304, -- [3]
+			1699937454, -- [4]
+			false, -- [5]
+			"Past Self", -- [6]
+			"Creature-0-4232-2444-1257-58542-000052FCAE", -- [7]
+		},
+		["Creature-0-3019-1-8-143622-00005304A7"] = {
+			"Thepuppet-AeriePeak", -- [1]
+			"Player-1426-0E4829E8", -- [2]
+			1304, -- [3]
+			1699939495, -- [4]
+			false, -- [5]
+			"Wild Imp", -- [6]
+			"Creature-0-3019-1-8-143622-00005304A7", -- [7]
+		},
+		["Creature-0-3134-0-1140-143622-000052FECD"] = {
+			"Gabimarie", -- [1]
+			"Player-3683-07BD2BA3", -- [2]
+			1304, -- [3]
+			1699937997, -- [4]
+			false, -- [5]
+			"Wild Imp", -- [6]
+			"Creature-0-3134-0-1140-143622-000052FECD", -- [7]
+		},
+		["Pet-0-4231-595-16296-165189-0104265CBA"] = {
+			"Smolnina", -- [1]
+			"Player-3683-0A6E9855", -- [2]
+			1298, -- [3]
+			1699940629, -- [4]
+			false, -- [5]
+			"Lesser Dragonkin", -- [6]
+			"Pet-0-4231-595-16296-165189-0104265CBA", -- [7]
+		},
+		["Pet-0-4227-2444-24276-165189-0204265CBA"] = {
+			"Smolnina-Dalaran", -- [1]
+			"Player-3683-0A6E9855", -- [2]
+			1300, -- [3]
+			1699937129, -- [4]
+			true, -- [5]
+			"Lesser Dragonkin", -- [6]
+			"Pet-0-4227-2444-24276-165189-0204265CBA", -- [7]
+		},
+		["Pet-0-4227-2444-24276-165189-01042F3AFF"] = {
+			"Kathiira", -- [1]
+			"Player-3683-0D8609AE", -- [2]
+			1352, -- [3]
+			1699937508, -- [4]
+			false, -- [5]
+			"Core Hound", -- [6]
+			"Pet-0-4227-2444-24276-165189-01042F3AFF", -- [7]
+		},
+		["Pet-0-3019-1-8-165189-0104265CBA"] = {
+			"Smolnina-Dalaran", -- [1]
+			"Player-3683-0A6E9855", -- [2]
+			1300, -- [3]
+			1699939493, -- [4]
+			true, -- [5]
+			"Lesser Dragonkin", -- [6]
+			"Pet-0-3019-1-8-165189-0104265CBA", -- [7]
+		},
+		["Creature-0-3138-532-9038-16152-000052FFEC"] = {
+			"Midnight", -- [1]
+			"Creature-0-3138-532-9038-16151-000052FFC1", -- [2]
+			2600, -- [3]
+			1699938284, -- [4]
+			false, -- [5]
+			"Attumen the Huntsman", -- [6]
+			"Creature-0-3138-532-9038-16152-000052FFEC", -- [7]
+		},
+		["Creature-0-4227-2444-24276-143622-000052FCEB"] = {
+			"Vhx", -- [1]
+			"Player-3683-0D9B92B3", -- [2]
+			1304, -- [3]
+			1699937515, -- [4]
+			false, -- [5]
+			"Wild Imp", -- [6]
+			"Creature-0-4227-2444-24276-143622-000052FCEB", -- [7]
+		},
+		["Pet-0-3134-0-1140-26125-0104461523"] = {
+			"Profäne", -- [1]
+			"Player-3683-0D9C9773", -- [2]
+			1304, -- [3]
+			1699937803, -- [4]
+			false, -- [5]
+			"Limbcaller", -- [6]
+			"Pet-0-3134-0-1140-26125-0104461523", -- [7]
+		},
+		["Creature-0-3134-0-1140-143622-000052FEC1"] = {
+			"Gabimarie", -- [1]
+			"Player-3683-07BD2BA3", -- [2]
+			1304, -- [3]
+			1699937984, -- [4]
+			false, -- [5]
+			"Wild Imp", -- [6]
+			"Creature-0-3134-0-1140-143622-000052FEC1", -- [7]
+		},
+		["Creature-0-4227-2444-24276-143622-000052FCF7"] = {
+			"Vhx", -- [1]
+			"Player-3683-0D9B92B3", -- [2]
+			1304, -- [3]
+			1699937527, -- [4]
+			false, -- [5]
+			"Wild Imp", -- [6]
+			"Creature-0-4227-2444-24276-143622-000052FCF7", -- [7]
+		},
+		["Pet-0-3019-0-39-165189-0104265CBA"] = {
+			"Smolnina-Dalaran", -- [1]
+			"Player-3683-0A6E9855", -- [2]
+			1300, -- [3]
+			1699938336, -- [4]
+			true, -- [5]
+			"Lesser Dragonkin", -- [6]
+			"Pet-0-3019-0-39-165189-0104265CBA", -- [7]
+		},
+		["Creature-0-4227-2444-24276-143622-000052FCDF"] = {
+			"Vhx", -- [1]
+			"Player-3683-0D9B92B3", -- [2]
+			1304, -- [3]
+			1699937503, -- [4]
+			false, -- [5]
+			"Wild Imp", -- [6]
+			"Creature-0-4227-2444-24276-143622-000052FCDF", -- [7]
+		},
+	},
+	["tabela_instancias"] = {
+	},
+	["coach"] = {
+		["enabled"] = false,
+		["welcome_panel_pos"] = {
+		},
+		["last_coach_name"] = false,
+	},
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -201.9997863769531,
+					["x"] = 730.0013427734375,
+					["w"] = 309.9999389648438,
+					["h"] = 157.9999847412109,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+	},
+	["cached_talents"] = {
+	},
+	["last_instance_id"] = 595,
+	["data_harvest_for_charsts"] = {
+		["players"] = {
+			{
+				["playerKey"] = "total",
+				["combatObjectContainer"] = 1,
+				["name"] = "Damage of Each Individual Player",
+				["playerOnly"] = true,
+			}, -- [1]
+		},
+		["totals"] = {
+			{
+				["combatObjectSubTableKey"] = 1,
+				["name"] = "Damage of All Player Combined",
+				["combatObjectSubTableName"] = "totals",
+			}, -- [1]
+		},
+	},
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Morgntreeman-Dalaran",
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["last_encounter"] = "Onyxia",
+	["combat_log"] = {
+		["inverse_deathlog_overalldata"] = false,
+		["evoker_calc_damage"] = false,
+		["track_hunter_frenzy"] = false,
+		["merge_critical_heals"] = false,
+		["inverse_deathlog_raid"] = false,
+		["merge_gemstones_1007"] = false,
+		["evoker_show_realtimedps"] = false,
+		["inverse_deathlog_mplus"] = false,
+	},
+	["combat_counter"] = 60,
+	["mythic_plus_log"] = {
+	},
+	["data_harvested_for_charts"] = {
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["on_death_menu"] = false,
+	["nick_tag_cache"] = {
+		["nextreset"] = 1701232785,
+		["last_version"] = 16,
+	},
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["last_realversion"] = 155,
+	["last_instance_time"] = 1699940053,
+	["combat_id"] = 14,
+	["savedStyles"] = {
+	},
+	["last_day"] = "13",
+	["character_data"] = {
+		["logons"] = 2,
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.037678,
+					["pets"] = {
+					},
+					["classe"] = "MAGE",
+					["total_without_pet"] = 95193.037678,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 95193.037678,
+					["spec"] = 63,
+					["serial"] = "Player-3683-0D54CC70",
+					["aID"] = "3683-0D54CC70",
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Patchwork Construct"] = 21049,
+						["Tomb Stalker"] = 10174,
+						["Risen Zombie"] = 4961,
+						["Devouring Ghoul"] = 20348,
+						["Master Necromancer"] = 8139,
+						["Enraging Ghoul"] = 30522,
+					},
+					["grupo"] = true,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1699940652,
+					["nome"] = "Jenleeviyah",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[108853] = {
+								["c_amt"] = 18,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Risen Zombie"] = 1936,
+									["Enraging Ghoul"] = 10174,
+									["Master Necromancer"] = 8139,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 18,
+								["total"] = 20249,
+								["c_max"] = 10174,
+								["id"] = 108853,
+								["r_dmg"] = 0,
+								["spellschool"] = 4,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 20249,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[2120] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 121,
+								["targets"] = {
+									["Risen Zombie"] = 363,
+								},
+								["n_total"] = 242,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 363,
+								["c_max"] = 121,
+								["id"] = 2120,
+								["r_dmg"] = 0,
+								["spellschool"] = 4,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 121,
+								["n_amt"] = 2,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[257542] = {
+								["c_amt"] = 11,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Patchwork Construct"] = 21049,
+									["Tomb Stalker"] = 10174,
+									["Risen Zombie"] = 847,
+									["Devouring Ghoul"] = 10174,
+									["Enraging Ghoul"] = 10174,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 52418,
+								["c_max"] = 21049,
+								["id"] = 257542,
+								["r_dmg"] = 0,
+								["spellschool"] = 4,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 52418,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[11366] = {
+								["c_amt"] = 10,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Risen Zombie"] = 1089,
+									["Devouring Ghoul"] = 10174,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 10,
+								["total"] = 11263,
+								["c_max"] = 10174,
+								["id"] = 11366,
+								["r_dmg"] = 0,
+								["spellschool"] = 4,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 11263,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[390253] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 10174,
+								["targets"] = {
+									["Risen Zombie"] = 726,
+									["Enraging Ghoul"] = 10174,
+								},
+								["n_total"] = 10900,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 10900,
+								["c_max"] = 0,
+								["id"] = 390253,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 7,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 0.037678,
+					["start_time"] = 1699940568,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.036816,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 730.036816,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 730.036816,
+					["serial"] = "Creature-0-4231-595-16296-27737-00015308F7",
+					["aID"] = "27737",
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Lesser Dragonkin <Smolnina>"] = true,
+						["Luckycarbon"] = true,
+						["Jenleeviyah"] = true,
+						["Smolnina"] = true,
+						["Arthas"] = true,
+						["Lordaeron Footman"] = true,
+					},
+					["targets"] = {
+						["Lordaeron Footman"] = 730,
+					},
+					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1699940652,
+					["nome"] = "Risen Zombie",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 120,
+								["targets"] = {
+									["Smolnina"] = 0,
+									["Jenleeviyah"] = 0,
+									["Lordaeron Footman"] = 730,
+									["Luckycarbon"] = 0,
+								},
+								["n_total"] = 556,
+								["a_amt"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 53,
+								["MISS"] = 42,
+								["total"] = 730,
+								["c_max"] = 174,
+								["DODGE"] = 1,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 174,
+								["n_amt"] = 8,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 17954.036816,
+					["start_time"] = 1699940589,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [2]
+				{
+					["flag_original"] = 1298,
+					["totalabsorbed"] = 0.031383,
+					["pets"] = {
+						"Lesser Dragonkin <Smolnina>", -- [1]
+					},
+					["classe"] = "HUNTER",
+					["total_without_pet"] = 131381.031383,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 132228.031383,
+					["spec"] = 254,
+					["serial"] = "Player-3683-0A6E9855",
+					["aID"] = "3683-0A6E9855",
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Crypt Fiend"] = 20348,
+						["Acolyte"] = 9765,
+						["Bile Golem"] = 21049,
+						["Roach"] = 12,
+						["Master Necromancer"] = 8139,
+						["Rat"] = 16,
+						["Risen Zombie"] = 11855,
+						["Tomb Stalker"] = 10174,
+						["Enraging Ghoul"] = 20348,
+						["Devouring Ghoul"] = 30522,
+					},
+					["grupo"] = true,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1699940652,
+					["nome"] = "Smolnina",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[257620] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 121,
+								["targets"] = {
+									["Risen Zombie"] = 726,
+								},
+								["n_total"] = 605,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 726,
+								["c_max"] = 121,
+								["id"] = 257620,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 121,
+								["n_amt"] = 5,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[120361] = {
+								["c_amt"] = 34,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 10174,
+								["targets"] = {
+									["Crypt Fiend"] = 20348,
+									["Acolyte"] = 9765,
+									["Roach"] = 12,
+									["Master Necromancer"] = 8139,
+									["Rat"] = 16,
+									["Risen Zombie"] = 9798,
+									["Tomb Stalker"] = 10174,
+									["Enraging Ghoul"] = 20348,
+									["Devouring Ghoul"] = 30522,
+								},
+								["n_total"] = 91939,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 100,
+								["total"] = 109122,
+								["c_max"] = 10174,
+								["id"] = 120361,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 17183,
+								["n_amt"] = 66,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[75] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 121,
+								["targets"] = {
+									["Risen Zombie"] = 484,
+									["Bile Golem"] = 21049,
+								},
+								["n_total"] = 363,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 21533,
+								["c_max"] = 21049,
+								["id"] = 75,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 21170,
+								["n_amt"] = 3,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 0.031383,
+					["start_time"] = 1699940590,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [3]
+				{
+					["flag_original"] = 2600,
+					["totalabsorbed"] = 0.018825,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.018825,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.018825,
+					["serial"] = "Creature-0-4231-595-16296-4075-00025306D0",
+					["aID"] = "4075",
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Smolnina"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1699940652,
+					["nome"] = "Rat",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 16.018825,
+					["start_time"] = 1699940649,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [4]
+				{
+					["flag_original"] = 1298,
+					["totalabsorbed"] = 0.007519,
+					["pets"] = {
+					},
+					["classe"] = "PALADIN",
+					["total_without_pet"] = 242.007519,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 242.007519,
+					["spec"] = 70,
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["serial"] = "Player-3683-0D9B5F42",
+					["aID"] = "3683-0D9B5F42",
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Risen Zombie"] = 242,
+					},
+					["grupo"] = true,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1699940652,
+					["nome"] = "Luckycarbon",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[53385] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 121,
+								["targets"] = {
+									["Risen Zombie"] = 121,
+								},
+								["n_total"] = 121,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 121,
+								["c_max"] = 0,
+								["id"] = 53385,
+								["r_dmg"] = 0,
+								["spellschool"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[408385] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 121,
+								["targets"] = {
+									["Risen Zombie"] = 121,
+								},
+								["n_total"] = 121,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 121,
+								["c_max"] = 0,
+								["id"] = 408385,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 0.007519,
+					["start_time"] = 1699940644,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [5]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.019329,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.019329,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.019329,
+					["serial"] = "Creature-0-4231-595-16296-28249-00005308F6",
+					["aID"] = "28249",
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Smolnina"] = true,
+						["Jenleeviyah"] = true,
+					},
+					["targets"] = {
+					},
+					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1699940652,
+					["nome"] = "Devouring Ghoul",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 50870.019329,
+					["start_time"] = 1699940649,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [6]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.012086,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.012086,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.012086,
+					["serial"] = "Creature-0-4231-595-16296-27732-00005308F6",
+					["aID"] = "27732",
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Smolnina"] = true,
+						["Jenleeviyah"] = true,
+					},
+					["targets"] = {
+					},
+					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1699940652,
+					["nome"] = "Master Necromancer",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Jenleeviyah"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["MISS"] = 1,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 16278.012086,
+					["start_time"] = 1699940649,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [7]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.013834,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.013834,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.013834,
+					["serial"] = "Creature-0-4231-595-16296-28199-00005308F6",
+					["aID"] = "28199",
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Smolnina"] = true,
+						["Jenleeviyah"] = true,
+					},
+					["targets"] = {
+					},
+					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1699940652,
+					["nome"] = "Tomb Stalker",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Jenleeviyah"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["MISS"] = 1,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 20348.013834,
+					["start_time"] = 1699940649,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [8]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.028377,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.028377,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.028377,
+					["serial"] = "Creature-0-4231-595-16296-27729-00005308F6",
+					["aID"] = "27729",
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Smolnina"] = true,
+						["Jenleeviyah"] = true,
+					},
+					["targets"] = {
+					},
+					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1699940652,
+					["nome"] = "Enraging Ghoul",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Jenleeviyah"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["MISS"] = 1,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 50870.028377,
+					["start_time"] = 1699940649,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [9]
+				{
+					["flag_original"] = 2600,
+					["totalabsorbed"] = 0.006437999999999999,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.006437999999999999,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.006437999999999999,
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-4231-595-16296-4076-00005306CF",
+					["aID"] = "4076",
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Smolnina"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1699940652,
+					["nome"] = "Roach",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 12.006438,
+					["start_time"] = 1699940649,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [10]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.009999000000000001,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.009999000000000001,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.009999000000000001,
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-4231-595-16296-27734-0000530975",
+					["aID"] = "27734",
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Smolnina"] = true,
+					},
+					["targets"] = {
+					},
+					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1699940776,
+					["nome"] = "Crypt Fiend",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 20348.009999,
+					["start_time"] = 1699940773,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [11]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.005292,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.005292,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.005292,
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-4231-595-16296-27736-0000530991",
+					["aID"] = "27736",
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Jenleeviyah"] = true,
+					},
+					["targets"] = {
+					},
+					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1699940776,
+					["nome"] = "Patchwork Construct",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[58808] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 58808,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 21049.005292,
+					["start_time"] = 1699940773,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [12]
+				{
+					["flag_original"] = 4370,
+					["totalabsorbed"] = 0.019001,
+					["pets"] = {
+					},
+					["classe"] = "PET",
+					["total_without_pet"] = 847.019001,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 847.019001,
+					["serial"] = "Pet-0-4231-595-16296-165189-0104265CBA",
+					["aID"] = "Pet-0-4231-595-16296-165189-0104265CBA",
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Risen Zombie"] = 847,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1699940776,
+					["ownerName"] = "Smolnina",
+					["nome"] = "Lesser Dragonkin <Smolnina>",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 121,
+								["targets"] = {
+									["Risen Zombie"] = 726,
+								},
+								["n_total"] = 726,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 726,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 6,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[16827] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 121,
+								["targets"] = {
+									["Risen Zombie"] = 121,
+								},
+								["n_total"] = 121,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 121,
+								["c_max"] = 0,
+								["id"] = 16827,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 0.019001,
+					["start_time"] = 1699940756,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [13]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.009122000000000002,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.009122000000000002,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.009122000000000002,
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-4231-595-16296-27731-0001530A98",
+					["aID"] = "27731",
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Smolnina"] = true,
+					},
+					["targets"] = {
+					},
+					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1699941131,
+					["nome"] = "Acolyte",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 9765.009122000001,
+					["start_time"] = 1699941128,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [14]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.006031,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.006031,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.006031,
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-4231-595-16296-28201-0000D30A96",
+					["aID"] = "28201",
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Smolnina"] = true,
+					},
+					["targets"] = {
+					},
+					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1699941131,
+					["nome"] = "Bile Golem",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 21049.006031,
+					["start_time"] = 1699941128,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [15]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1298,
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 3591.009647,
+					["total_without_pet"] = 0.009647,
+					["total"] = 0.009647,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["aID"] = "3683-0D9B5F42",
+					["totalabsorb"] = 0.009647,
+					["last_hps"] = 0,
+					["spec"] = 70,
+					["targets"] = {
+					},
+					["serial"] = "Player-3683-0D9B5F42",
+					["totalover_without_pet"] = 0.009647,
+					["grupo"] = true,
+					["healing_taken"] = 0.009647,
+					["healing_from"] = {
+					},
+					["classe"] = "PALADIN",
+					["end_time"] = 1699940652,
+					["targets_overheal"] = {
+						["Luckycarbon"] = 3591,
+					},
+					["start_time"] = 1699940644,
+					["nome"] = "Luckycarbon",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[407467] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Luckycarbon"] = 1795,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Luckycarbon"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["counter"] = 1,
+								["overheal"] = 1795,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 407467,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["spellschool"] = 2,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 1,
+								["absorbed"] = 0,
+							},
+							[403044] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Luckycarbon"] = 1796,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Luckycarbon"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["counter"] = 1,
+								["overheal"] = 1796,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 403044,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["spellschool"] = 2,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 1,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["custom"] = 0,
+					["last_event"] = 0,
+					["totaldenied"] = 0.009647,
+					["delay"] = 0,
+					["tipo"] = 2,
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["nome"] = "Smolnina",
+					["spec"] = 254,
+					["grupo"] = true,
+					["buff_uptime_targets"] = {
+					},
+					["buff_uptime"] = 357,
+					["pets"] = {
+						"Lesser Dragonkin <Smolnina>", -- [1]
+					},
+					["aID"] = "3683-0A6E9855",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[257622] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 257622,
+								["uptime"] = 20,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[231390] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 10,
+								["appliedamt"] = 10,
+								["id"] = 231390,
+								["uptime"] = 122,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[388998] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 388998,
+								["uptime"] = 20,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[415603] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 415603,
+								["uptime"] = 172,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[194594] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 194594,
+								["uptime"] = 15,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[120360] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 120360,
+								["uptime"] = 8,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["serial"] = "Player-3683-0A6E9855",
+					["classe"] = "HUNTER",
+				}, -- [1]
+				{
+					["flag_original"] = 1047,
+					["nome"] = "Luckycarbon",
+					["spec"] = 70,
+					["grupo"] = true,
+					["buff_uptime_targets"] = {
+					},
+					["buff_uptime"] = 392,
+					["pets"] = {
+					},
+					["aID"] = "3683-0D9B5F42",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[1044] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 1044,
+								["uptime"] = 15,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[385126] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 385126,
+								["uptime"] = 10,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[406086] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 406086,
+								["uptime"] = 2,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[32223] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 32223,
+								["uptime"] = 172,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[385127] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 385127,
+								["uptime"] = 10,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[221887] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 221887,
+								["uptime"] = 11,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[35479] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 35479,
+								["uptime"] = 172,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["serial"] = "Player-3683-0D9B5F42",
+					["classe"] = "PALADIN",
+				}, -- [2]
+				{
+					["flag_original"] = 1047,
+					["nome"] = "Jenleeviyah-Dalaran",
+					["spec"] = 63,
+					["grupo"] = true,
+					["buff_uptime_targets"] = {
+					},
+					["buff_uptime"] = 1402,
+					["pets"] = {
+					},
+					["aID"] = "3683-0D54CC70",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[397734] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 397734,
+								["uptime"] = 172,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[203277] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 203277,
+								["uptime"] = 172,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[116267] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 116267,
+								["uptime"] = 156,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[382290] = {
+								["actived_at"] = 1699940805,
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 382290,
+								["uptime"] = 10,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[48108] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 2,
+								["activedamt"] = 2,
+								["uptime"] = 50,
+								["id"] = 48108,
+								["actived_at"] = 1699940606,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[1459] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 1459,
+								["uptime"] = 172,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[384360] = {
+								["actived_at"] = 1699941133,
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 384360,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[235313] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 235313,
+								["uptime"] = 30,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[387678] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 387678,
+								["uptime"] = 30,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[383501] = {
+								["actived_at"] = 3399881932,
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 383501,
+								["uptime"] = 10,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[342242] = {
+								["actived_at"] = 1699940822,
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 342242,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[390250] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 390250,
+								["uptime"] = 121,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[383395] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 383395,
+								["uptime"] = 135,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[190319] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 2,
+								["activedamt"] = 2,
+								["uptime"] = 0,
+								["id"] = 190319,
+								["actived_at"] = 3399881567,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[35479] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 35479,
+								["uptime"] = 172,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[335152] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 335152,
+								["uptime"] = 172,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[48107] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 1,
+								["activedamt"] = 1,
+								["uptime"] = 0,
+								["id"] = 48107,
+								["actived_at"] = 1699940745,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["serial"] = "Player-3683-0D54CC70",
+					["classe"] = "MAGE",
+				}, -- [3]
+				{
+					["flag_original"] = 1297,
+					["nome"] = "Jenleeviyah",
+					["spec"] = 63,
+					["grupo"] = true,
+					["buff_uptime_targets"] = {
+					},
+					["buff_uptime"] = 389,
+					["pets"] = {
+					},
+					["aID"] = "3683-0D54CC70",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[390250] = {
+								["refreshamt"] = 4,
+								["appliedamt"] = 13,
+								["activedamt"] = 13,
+								["uptime"] = 96,
+								["id"] = 390250,
+								["actived_at"] = 8499704602,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[256374] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 256374,
+								["uptime"] = 24,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[387678] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 14,
+								["activedamt"] = 14,
+								["uptime"] = 32,
+								["id"] = 387678,
+								["actived_at"] = 5099822294,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[383501] = {
+								["refreshamt"] = 11,
+								["appliedamt"] = 6,
+								["activedamt"] = 6,
+								["uptime"] = 60,
+								["id"] = 383501,
+								["actived_at"] = 6799763367,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[384360] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 1,
+								["activedamt"] = 1,
+								["uptime"] = 0,
+								["id"] = 384360,
+								["actived_at"] = 1699940649,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[48107] = {
+								["actived_at"] = 1699940816,
+								["refreshamt"] = 0,
+								["activedamt"] = 13,
+								["appliedamt"] = 13,
+								["id"] = 48107,
+								["uptime"] = 23,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[381998] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 381998,
+								["uptime"] = 20,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[48108] = {
+								["actived_at"] = 6799763912,
+								["refreshamt"] = 0,
+								["activedamt"] = 14,
+								["appliedamt"] = 14,
+								["id"] = 48108,
+								["uptime"] = 60,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[190319] = {
+								["actived_at"] = 1699940819,
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 190319,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[383395] = {
+								["refreshamt"] = 12,
+								["appliedamt"] = 13,
+								["activedamt"] = 13,
+								["uptime"] = 68,
+								["id"] = 383395,
+								["actived_at"] = 8499704562,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[342242] = {
+								["actived_at"] = 1699940817,
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 342242,
+								["uptime"] = 5,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[236645] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 236645,
+								["uptime"] = 1,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[382290] = {
+								["refreshamt"] = 1,
+								["appliedamt"] = 1,
+								["activedamt"] = 1,
+								["uptime"] = 0,
+								["id"] = 382290,
+								["actived_at"] = 1699940649,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["serial"] = "Player-3683-0D54CC70",
+					["classe"] = "MAGE",
+				}, -- [4]
+				{
+					["flag_original"] = 2632,
+					["serial"] = "Creature-0-4231-595-16296-27736-0000530991",
+					["fight_component"] = true,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["tipo"] = 4,
+					["monster"] = true,
+					["aID"] = "27736",
+					["nome"] = "Patchwork Construct",
+					["last_event"] = 0,
+				}, -- [5]
+				{
+					["flag_original"] = 4370,
+					["pets"] = {
+					},
+					["aID"] = "Pet-0-4231-595-16296-165189-0104265CBA",
+					["tipo"] = 4,
+					["classe"] = "PET",
+					["ownerName"] = "Smolnina",
+					["nome"] = "Lesser Dragonkin <Smolnina>",
+					["serial"] = "Pet-0-4231-595-16296-165189-0104265CBA",
+					["last_event"] = 0,
+				}, -- [6]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["raid_roster_indexed"] = {
+		},
+		["tempo_start"] = 1699940052,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["bossTimers"] = {
+		},
+		["trinketProcs"] = {
+		},
+		["totals"] = {
+			232417.250972, -- [1]
+			0.007809, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+		["amountCasts"] = {
+			["Lesser Dragonkin <Smolnina>"] = {
+				["Dash"] = 1,
+				["Claw"] = 2,
+			},
+			["Patchwork Construct"] = {
+				["Disease Cloud"] = 2,
+			},
+			["Jenleeviyah"] = {
+				["Pyroblast"] = 9,
+				["Shimmer"] = 1,
+				["Flamestrike"] = 1,
+				["Fire Blast"] = 18,
+				["Phoenix Flames"] = 7,
+			},
+			["Lesser Dragonkin"] = {
+				["Claw"] = 3,
+			},
+			["Smolnina"] = {
+				["Call Pet 2"] = 1,
+				["Multi-Shot"] = 5,
+				["Barrage"] = 3,
+			},
+			["Luckycarbon"] = {
+				["Divine Steed"] = 1,
+				["Blessing of Freedom"] = 2,
+				["Divine Storm"] = 1,
+				["Crusading Strikes"] = 1,
+			},
+		},
+		["end_time"] = 9586.396,
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 10.01699999999983,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "21:52:14",
+			}, -- [1]
+			{
+				["elapsed"] = 21.08100000000013,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "21:51:50",
+			}, -- [2]
+			{
+				["elapsed"] = 50.10699999999997,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "21:47:02",
+			}, -- [3]
+			{
+				["elapsed"] = 15.9950000000008,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "21:46:45",
+			}, -- [4]
+			{
+				["elapsed"] = 30.07800000000134,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "21:45:46",
+			}, -- [5]
+			{
+				["elapsed"] = 45.15799999999945,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "21:43:27",
+			}, -- [6]
+		},
+		["totals_grupo"] = {
+			227663.063675, -- [1]
+			0.007809, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["data_inicio"] = "21:43:27",
+		["frags"] = {
+		},
+		["data_fim"] = "21:52:24",
+		["overall_enemy_name"] = "-- x -- x --",
+		["cleu_timeline"] = {
+		},
+		["spells_cast_timeline"] = {
+		},
+		["start_time"] = 9413.96,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["combat_counter"] = 26,
+	},
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["enabled"] = true,
+			["animate"] = false,
+			["hide_pull_bar"] = false,
+			["author"] = "Terciob",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["usefocus"] = false,
+			["updatespeed"] = 1,
+			["useclasscolors"] = false,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["absolute_mode"] = false,
+			["playSound"] = false,
+			["playSoundFile"] = "Details Threat Warning Volume 3",
+			["disable_gouge"] = false,
+		},
+		["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+			["enabled"] = true,
+			["author"] = "Terciob",
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["tank_block_size_height"] = 50,
+			["show_power_bar"] = false,
+			["first_run"] = false,
+			["aura_timer_text_size"] = 14,
+			["tank_block_castbar_size_height"] = 16,
+			["show_health_bar"] = true,
+			["aura_offset_y"] = 0,
+			["enabled"] = true,
+			["show_cast_bar"] = false,
+			["author"] = "Terciob",
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["show_inc_bars"] = true,
+			["tank_block_powerbar_size_height"] = 10,
+			["tank_block_height"] = 40,
+			["tank_block_color"] = {
+				0.074509, -- [1]
+				0.035294, -- [2]
+				0.035294, -- [3]
+				0.832845, -- [4]
+			},
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["last_section_selected"] = "main",
+			["author"] = "Terciob",
+			["window_scale"] = 1,
+			["encounter_timers_dbm"] = {
+			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Terciob",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["use_square_mode"] = false,
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["author"] = "Terciob",
+			["main_frame_size"] = {
+				300, -- [1]
+				500.0000305175781, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["main_frame_locked"] = false,
+			["arrow_anchor_x"] = 0,
+			["font_size"] = 10,
+			["row_texture"] = "Details Serenity",
+			["square_grow_direction"] = "right",
+			["arrow_anchor_y"] = 0,
+			["use_spark"] = true,
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 0.00115966796875,
+				["x"] = 3.0517578125e-05,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
+			["y"] = 0.0009307861328125,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["point"] = "CENTER",
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_height"] = 20,
+			["scale"] = 1,
+		},
+	},
+	["ignore_nicktag"] = false,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["announce_cooldowns"] = {
+		["ignored_cooldowns"] = {
+		},
+		["enabled"] = false,
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["cached_roles"] = {
+	},
+	["cached_specs"] = {
+		["Player-3683-0D9B5F42"] = 70,
+		["Player-3683-0D54CC70"] = 63,
+		["Player-3683-0A6E9855"] = 254,
+	},
+}

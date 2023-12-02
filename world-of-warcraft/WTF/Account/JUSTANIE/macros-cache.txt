@@ -1,0 +1,17 @@
+VER 3 0000000000000021 "APR_MACRO" "134400"
+/script print('no button yet')
+END
+VER 3 0000000000000020 "RXPTargeting" "Ability_eyeoftheowl"
+//RestedXP Guides - current step has no configured targets
+END
+VER 3 000000000000001E "template2" "134400"
+#showtooltip Thrash
+/cast Barkskin
+/cast Thrash
+END
+VER 3 000000000000001F "template3" "134400"
+#showtooltip Rake
+/cast Tiger's Fury
+/cast Berserk
+/cast Rake
+END

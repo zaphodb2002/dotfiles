@@ -1,0 +1,11 @@
+
+HandyNotes_DragonflightDB = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Default",
+		["Jenleeviyah - Dalaran"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

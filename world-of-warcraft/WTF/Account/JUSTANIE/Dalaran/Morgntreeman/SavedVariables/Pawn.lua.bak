@@ -1,0 +1,94 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0805,
+	["LastPlayerFullName"] = "Morgntreeman-Dalaran",
+	["AutoSelectScales"] = true,
+	["ItemLevels"] = {
+		{
+			["ID"] = 209894,
+			["Level"] = 415,
+			["Link"] = "|cff1eff00|Hitem:209894::::::::70:104::25:4:9544:6652:9600:1472:1:28:2699:::::|h[Fearless Faerie's Guise]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 209916,
+			["Level"] = 415,
+			["Link"] = "|cff1eff00|Hitem:209916::::::::70:104::25:5:9544:6652:8783:10244:1472:1:28:2699:::::|h[Sunrise Circlet]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 209899,
+			["Level"] = 415,
+			["Link"] = "|cff1eff00|Hitem:209899::::::::70:104::25:3:9544:6652:1472:1:28:2699:::::|h[Fearless Faerie's Shoulderpads]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 204760,
+			["Level"] = 411,
+			["Link"] = "|cffa335ee|Hitem:204760::::::::70:104::42:6:6652:9223:9221:9316:1533:8767:1:28:2641:::::|h[Suffused Vest]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 209906,
+			["Level"] = 415,
+			["Link"] = "|cff1eff00|Hitem:209906::::::::70:104::25:4:9544:6652:9599:1472:1:28:2699:::::|h[Fearless Faerie's Belt]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 209898,
+			["Level"] = 415,
+			["Link"] = "|cff1eff00|Hitem:209898::::::::70:104::25:3:9544:6652:1472:1:28:2699:::::|h[Fearless Faerie's Trousers]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 210120,
+			["Level"] = 418,
+			["Link"] = "|cff1eff00|Hitem:210120::::::::70:104::26:3:9545:6652:1475:1:28:2699:::::|h[Autumn Druid Treads]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 204596,
+			["Level"] = 392,
+			["Link"] = "|cff0070dd|Hitem:204596::::::::70:104::11:4:8902:9299:1485:8766:1:28:2588:::::|h[Inherited Wristbands]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 210087,
+			["Level"] = 424,
+			["Link"] = "|cff0070dd|Hitem:210087::::::::70:104::28:4:9547:6652:1481:8766:1:28:2699:::::|h[Autumn Druid Grips]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 210121,
+			["Level"] = 418,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff1eff00|Hitem:210121::::::::70:104::26:4:9545:6652:9599:1475:1:28:2699:::::|h[Ring of Season's Sunset]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 195526,
+			["Level"] = 405,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cffa335ee|Hitem:195526::::::::70:104::3:5:41:7936:7979:1472:8767:1:28:2474:::::|h[Seal of Filial Duty]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 207005,
+			["Level"] = 402,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cffa335ee|Hitem:207005::::::::70:104::9:4:6652:9313:1472:8767:1:28:2684:::::|h[Paracausal Fragment of Thunderfin, Humid Blade of the Tideseeker]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 194306,
+			["Level"] = 395,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cffa335ee|Hitem:194306::::::::70:104::3:4:7979:6652:1472:8767:1:28:2474:::::|h[All-Totem of the Master]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 209918,
+			["Level"] = 415,
+			["Link"] = "|cff1eff00|Hitem:209918::::::::70:104::25:3:9544:6652:1472:1:28:2699:::::|h[Summer Soother's Wrap]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 210403,
+			["Level"] = 441,
+			["Link"] = "|cffa335ee|Hitem:210403::::::::70:104::42:4:9552:6652:1472:8767:1:28:2699:::::|h[Winter Forager's Spire]|h|r",
+		}, -- [16]
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "DRUID",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

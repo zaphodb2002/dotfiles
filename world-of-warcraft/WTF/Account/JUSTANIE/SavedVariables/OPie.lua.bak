@@ -1,0 +1,20 @@
+
+OneRing_Config = nil
+OPie_SavedData = {
+	["CharProfiles"] = {
+	},
+	["_GameVersion"] = "10.2.0",
+	["_OPieVersion"] = "Zeta 2 (4.117)",
+	["ProfileStorage"] = {
+		["default"] = {
+		},
+	},
+	["PersistentStorage"] = {
+		["RingKeeper"] = {
+			["OPieFlagStore"] = {
+				["StoreVersion"] = 2,
+			},
+		},
+	},
+	["_GameLocale"] = "enUS",
+}

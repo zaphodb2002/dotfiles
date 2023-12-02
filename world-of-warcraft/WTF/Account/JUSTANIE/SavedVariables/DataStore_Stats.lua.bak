@@ -1,0 +1,37 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Dalaran.Morgntreeman"] = {
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|23.289218902588",
+					["HealthMax"] = 466382,
+					["Melee"] = "11932-13719|2.8770000934601|8348|0|23.289218902588|0",
+					["MaxPower"] = "0|250000",
+					["Spell"] = "11214|12099|0|23.289218902588|3065|12800",
+					["PVP"] = "181|0",
+					["Base"] = "900|6787|20086|2086|0",
+					["Defense"] = "0|0|21.35132598877|0|0|0",
+				},
+				["lastUpdate"] = 1699936763,
+			},
+			["Default.Dalaran.Jenleeviyah"] = {
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|10.888994216919",
+					["HealthMax"] = 189100,
+					["Melee"] = "222-303|3.3550002574921|0|0|10.794547080994|0",
+					["MaxPower"] = "0|250000",
+					["Spell"] = "4824|4991|0|25.888994216919|884|25000",
+					["PVP"] = "0|0",
+					["Base"] = "916|1422|9455|4824|627",
+					["Defense"] = "627|0|3|0|0|0",
+				},
+				["lastUpdate"] = 1699941202,
+			},
+		},
+	},
+}

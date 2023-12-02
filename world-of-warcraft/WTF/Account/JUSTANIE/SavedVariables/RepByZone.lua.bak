@@ -1,0 +1,17 @@
+
+RepByZoneDB = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+	},
+	["profiles"] = {
+		["Morgntreeman - Dalaran"] = {
+			["watchedRepID"] = 1134,
+			["watchedRepName"] = "Gilneas",
+		},
+		["Jenleeviyah - Dalaran"] = {
+			["watchedRepID"] = 69,
+			["watchedRepName"] = "Darnassus",
+		},
+	},
+}

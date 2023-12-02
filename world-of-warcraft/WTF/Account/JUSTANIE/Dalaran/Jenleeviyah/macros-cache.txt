@@ -1,0 +1,5 @@
+VER 3 0100000000000001 "Blazing Barrier" "132221"
+#showtooltip Blazing Barrier
+/cast Combustion
+/cast Blazing Barrier
+END

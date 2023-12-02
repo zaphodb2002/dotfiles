@@ -1,0 +1,11 @@
+
+HandyNotes_ShadowlandsDB = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Default",
+		["Jenleeviyah - Dalaran"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

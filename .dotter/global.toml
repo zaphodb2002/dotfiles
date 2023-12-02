@@ -1,0 +1,34 @@
+[bash.files]
+".bashrc" = "~/.bashrc"
+
+[sway.files]
+"sway/config" = "~/.config/sway/config"
+
+[alacritty.files]
+"alacritty/" = "~/.config/alacritty/"
+
+[neovim.files]
+"nvim/" = "~/.config/nvim/"
+
+[starship.files]
+"starship/starship.toml" = "~/.config/starship.toml"
+
+[taskwarrior.files]
+"taskwarrior/.task/" = "~/.task/"
+"taskwarrior/.taskrc" = "~/.taskrc"
+
+[wofi.files]
+"wofi/" = "~/.config/wofi/"
+
+[world-of-warcraft.files]
+"world-of-warcraft/AddOns/" = { type = "symbolic", target = "~/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/"}
+"world-of-warcraft/WTF/" = {type = "symbolic", target = "~/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/WTF/"}
+
+[scripts.files]
+"scripts/" = "~/.local/scripts"
+
+[bin.files]
+"bin/" = "~/.local/bin"
+
+[git.files]
+".gitconfig" = "~/.gitconfig"
