@@ -43,7 +43,7 @@ function lazy.setup(plugins)
 		return
 	end
 
--- lazy.install(lazy.path)
+ lazy.install(lazy.path)
 
 	vim.opt.rtp:prepend(lazy.path)
 
