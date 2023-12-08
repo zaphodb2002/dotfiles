@@ -14,7 +14,6 @@
 "starship/starship.toml" = "~/.config/starship.toml"
 
 [taskwarrior.files]
-"taskwarrior/.task/" = "~/.task/"
 "taskwarrior/.taskrc" = "~/.taskrc"
 
 [wofi.files]
