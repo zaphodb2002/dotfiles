@@ -159,7 +159,7 @@ local function CheckUnits(rareScannerButton)
 		if (not checkUnitsRoutine) then
 			checkUnitsRoutine = RSRoutines.LoopIndexRoutineNew()
 		end
-		checkUnitsRoutine:Init(function() return npcIDs end, 10)
+		checkUnitsRoutine:Init(function() return npcIDs end, 30)
 	end
 	
 	checkUnitsRoutine:Reset()

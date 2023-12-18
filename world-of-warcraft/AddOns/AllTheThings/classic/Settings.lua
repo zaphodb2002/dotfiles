@@ -913,7 +913,7 @@ end
 BattlePetsCheckBox:SetPoint("TOPLEFT", AchievementsCheckBox, "BOTTOMLEFT", 0, 4);
 
 local BattlePetsAccountWideCheckBox;
-if C_PetJournal then
+if C_PetJournal and app.GameBuildVersion > 30000 then
 BattlePetsAccountWideCheckBox = settings:CreateCheckBox("Account Wide",
 function(self)
 	self:SetChecked(true);
@@ -1085,7 +1085,7 @@ FlightPathsAccountWideCheckBox:SetPoint("TOPLEFT", FlightPathsCheckBox, "TOPLEFT
 
 -- Heirlooms aren't in the game until late Wrath Classic.
 local HeirloomsCheckBox;
-if C_Heirloom then
+if C_Heirloom and app.GameBuildVersion >= 30000 then
 HeirloomsCheckBox = settings:CreateCheckBox(HEIRLOOMS,
 function(self)
 	self:SetChecked(settings:Get("Thing:Heirlooms"));
@@ -1270,7 +1270,7 @@ function(self)
 	settings:UpdateMode();
 	app:RefreshDataCompletely("MountsCheckBox");
 end);
-if C_PetJournal then
+if C_PetJournal and app.GameBuildVersion > 30000 then
 MountsCheckBox:SetATTTooltip("Enable this option to track mounts.");
 else
 MountsCheckBox:SetATTTooltip("Enable this option to track mounts.\n\nFair warning! Do this at your own risk, it will take up a lot of inventory space across your account and they can not be sent between characters!\n\nAdditionally, the cost of all Vendor mounts is reduced to 1/10 of their current prices with Wrath.");
@@ -1996,7 +1996,7 @@ tinsert(settings.MostRecentTab.objects, ClassicPhasesLabel);
 
 -- Classic Phases
 local last, xoffset, yoffset, spacing, vspacing = ClassicPhasesLabel, 0, -4, 8, 1;
-for i,o in ipairs({ { 11, 0, 0 }, {1101, spacing, -vspacing }, { 12, 0, -vspacing }, { 13, 0 }, { 14, 0 }, { 15, 0 }, { 1501, spacing, -vspacing }, { 1502, spacing }, { 1503, spacing }, { 1504, spacing }, { 16, 0, -vspacing }, { 1601, spacing, -vspacing }, { 1602, spacing }, { 1603, spacing }, {1701, spacing, -vspacing }, }) do
+for i,o in ipairs({ { 11, 0, 0 }, {1101, spacing, -vspacing }, { 12, 0, -vspacing }, { 13, 0 }, { 14, 0 }, { 15, 0 }, { 1501, spacing, -vspacing }, { 1502, spacing }, { 1503, spacing }, { 1504, spacing }, { 16, 0, -vspacing }, { 1601, spacing, -vspacing }, { 1602, spacing }, { 1603, 0, -vspacing }, { 1604, 0, -vspacing }, { 1605, 0, -vspacing } }) do
 	local u = o[1];
 	yoffset = o[3] or 6;
 	local reason = reasons[u];
@@ -2018,7 +2018,7 @@ TBCPhasesLabel:Show();
 tinsert(settings.MostRecentTab.objects, TBCPhasesLabel);
 
 last, xoffset, yoffset = TBCPhasesLabel, 0, -4;
-for i,o in ipairs({ { 17, 0, 0 }, { 18, 0 }, {1801, spacing, -vspacing }, { 1802, spacing }, { 19, 0, -vspacing }, { 1901, spacing, -vspacing }, { 1902, spacing }, { 20, 0, -vspacing }, { 21, 0 }, {2101, spacing, -vspacing }, { 2102, spacing }, { 2103, spacing }, { 2104, spacing }, { 2105, spacing }, { 2106, spacing }, { 2107, spacing }, { 1601, spacing, -vspacing }, }) do
+for i,o in ipairs({ { 17, 0, 0 }, {1701, spacing, -vspacing }, { 18, 0, -vspacing }, {1801, spacing, -vspacing }, { 1802, spacing }, { 19, 0, -vspacing }, { 1901, spacing, -vspacing }, { 1902, spacing }, { 20, 0, -vspacing }, { 21, 0 }, {2101, spacing, -vspacing }, { 2102, spacing }, { 2103, spacing }, { 2104, spacing }, { 2105, spacing }, { 2106, spacing }, { 2107, spacing }, { 1601, spacing, -vspacing }, }) do
 	local u = o[1];
 	yoffset = o[3] or 6;
 	local reason = reasons[u];
@@ -2434,6 +2434,7 @@ tinsert(settings.MostRecentTab.objects, DebuggingLabel);
 local ids = {
 	["achievementID"] = "Achievement ID",
 	["artID"] = "Art ID",
+	["awp"] = "Added With Patch",
 	["creatureID"] = "Creature ID",
 	["Coordinates"] = "Coordinates",
 	["currencyID"] = "Currency ID",
@@ -2453,12 +2454,13 @@ local ids = {
 	["Objectives"] = "Objectives",
 	["questID"] = "Quest ID",
 	["QuestGivers"] = "Quest Givers",
+	["rwp"] = "Removed With Patch",
 	["speciesID"] = "Species ID",
 	["spellID"] = "Spell ID",
 	["s"] = "Source ID",
 };
 local last = nil;
-for _,id in pairs({"achievementID","artID", "creatureID","Coordinates","currencyID","Descriptions","displayID","explorationID","factionID","filterID","flightPathID"}) do
+for _,id in pairs({"awp","rwp","achievementID","artID","creatureID","Coordinates","currencyID","Descriptions","displayID","explorationID","factionID","filterID","flightPathID"}) do
 	local filter = settings:CreateCheckBox(ids[id],
 	function(self)
 		self:SetChecked(settings:GetTooltipSetting(id));

@@ -3,9 +3,9 @@
 ## Name: AllTheThings
 ## Notes: Addon for Tracking Collections & Account Completion
 ## Author: Crieve-Sargeras
-## Version: DF-3.8.1
-## Interface: 11404
-## X-Interface: 11404
+## Version: DF-3.8.7
+## Interface: 11500
+## X-Interface: 11500
 ## X-Wago-ID: yQKyY5K7
 ## X-Curse-Project-ID: 267285
 ## SavedVariables: ATTCharacterData, ATTAccountWideData, AllTheThingsSavedVariables, AllTheThingsAD, ATTClassicSettings, ATTClassicAD, ATTClassicAuctionData, ATTClassicDebugData
@@ -55,6 +55,7 @@ src\UI\Objects.lua
 src\UI\Quests.lua
 src\UI\Raid Assistant.lua
 src\UI\Random.lua
+src\UI\Removed From Game.lua
 src\UI\Removed With Patch Drops.lua
 src\UI\Removed With Patch Loot.lua
 src\UI\Soft Reserves.lua

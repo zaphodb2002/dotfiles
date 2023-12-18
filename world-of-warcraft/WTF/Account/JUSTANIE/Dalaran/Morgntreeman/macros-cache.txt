@@ -17,6 +17,8 @@ VER 3 0100000000000012 "Mangle" "134400"
 /cast Rage of the Sleeper
 /cast Survival Instincts
 /cast Incarnation: Guardian of Ursoc
+/use 13
+/use14
 /cast Mangle
 END
 VER 3 0100000000000013 "Maul" "134400"
@@ -94,6 +96,8 @@ END
 VER 3 0100000000000010 "Thrash" "134400"
 #showtooltip Thrash
 /cast Barkskin
+/use 13
+/use 14
 /cast Rage of the Sleeper
 /cast Survival Instincts
 /cast Incarnation: Guardian of Ursoc

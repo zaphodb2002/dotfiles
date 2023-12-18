@@ -1,54 +1,55 @@
 
 DataStore_TalentsDB = {
 	["profileKeys"] = {
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Dalaran.Hyaae"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1702275435,
+				["Specializations"] = {
+					[2] = 0,
+					[3] = 0,
+				},
+				["Class"] = "PALADIN",
+				["activeSpecIndex"] = 3,
+				["activeSpecName"] = "Retribution",
+			},
 			["Default.Dalaran.Morgntreeman"] = {
 				["activeSpecRole"] = "TANK",
-				["lastUpdate"] = 1699936762,
+				["lastUpdate"] = 1702857197,
 				["Specializations"] = {
 					[3] = 0,
 				},
+				["Class"] = "DRUID",
 				["activeSpecIndex"] = 3,
 				["activeSpecName"] = "Guardian",
-				["Class"] = "DRUID",
-			},
-			["Default.Dalaran.Jenleeviyah"] = {
-				["activeSpecRole"] = "DAMAGER",
-				["lastUpdate"] = 1699940052,
-				["Specializations"] = {
-					[2] = 0,
-				},
-				["activeSpecIndex"] = 2,
-				["activeSpecName"] = "Fire",
-				["Class"] = "MAGE",
 			},
 		},
 	},
 }
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 	},
 	["global"] = {
-		["MAGE"] = {
+		["PALADIN"] = {
 			["Locale"] = "enUS",
 			["Specializations"] = {
 				{
-					["id"] = 62,
+					["id"] = 65,
 				}, -- [1]
 				{
-					["id"] = 63,
+					["id"] = 66,
 				}, -- [2]
 				{
-					["id"] = 64,
+					["id"] = 70,
 				}, -- [3]
 			},
-			["Version"] = 52129,
+			["Version"] = 52393,
 		},
 		["DRUID"] = {
 			["Locale"] = "enUS",
@@ -66,7 +67,7 @@ DataStore_TalentsRefDB = {
 					["id"] = 105,
 				}, -- [4]
 			},
-			["Version"] = 52129,
+			["Version"] = 52485,
 		},
 	},
 }

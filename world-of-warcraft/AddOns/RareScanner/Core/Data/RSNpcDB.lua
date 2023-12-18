@@ -78,6 +78,9 @@ function RSNpcDB.InitCustomNpcDB()
 	if (not private.dbglobal.custom_npcs) then
 		private.dbglobal.custom_npcs = {}
 	end
+	if (not private.dbglobal.custom_npcs_groups) then
+		private.dbglobal.custom_npcs_groups = {}
+	end
 end
 
 function RSNpcDB.GetAllCustomNpcInfo()
@@ -131,13 +134,20 @@ function RSNpcDB.SetCustomNpcInfo(npcID, info)
 	private.dbglobal.custom_npcs[npcIDnumber].displayID = tonumber(info.displayID or "0")
 	private.dbglobal.custom_npcs[npcIDnumber].reset = true
 	private.dbglobal.custom_npcs[npcIDnumber].nameplate = true
+	private.dbglobal.custom_npcs[npcIDnumber].group = info.group
 	
 	-- If it spawns in several zones
 	if (completedZonesCounter > 1) then
 		private.dbglobal.custom_npcs[npcIDnumber].zoneID = zones
 		
 		for mapID, zoneInfo in pairs (zones) do
-			RSLogger:PrintDebugMessage(string.format("SetCustomNpcInfo[%s]: %s", npcIDnumber, string.format("zoneID:%s,artID:%s,x:%s,y:%s,displayID:%s", mapID or "", ((type(zoneInfo.artID) == "table" and unpack(zoneInfo.artID)) or zoneInfo.artID or "") or "", zoneInfo.x or "", zoneInfo.y or "", private.dbglobal.custom_npcs[npcIDnumber].displayID or "")))
+			local artID = ""
+			if (type(zoneInfo.artID) == "table") then
+				artID = unpack(zoneInfo.artID)
+			else
+				artID = zoneInfo.artID
+			end
+			RSLogger:PrintDebugMessage(string.format("SetCustomNpcInfo[%s]: %s", npcIDnumber, string.format("zoneID:%s,artID:%s,x:%s,y:%s,displayID:%s", mapID or "", artID or "", zoneInfo.x or "", zoneInfo.y or "", private.dbglobal.custom_npcs[npcIDnumber].displayID or "")))
 		end
 	-- If it spawns in one zone
 	else
@@ -207,6 +217,33 @@ function RSNpcDB.DeleteCustomNpcZone(npcID, zoneID)
 			RSLogger:PrintDebugMessage(string.format("RSNpcDB.DeleteCustomNpcZone[%s]: Eliminado NPC por no contener mas zonas", npcIDnumber))
 			return true
 		end
+	end
+end
+
+function RSNpcDB.GetCustomNpcGroups()
+	return private.dbglobal.custom_npcs_groups
+end
+
+function RSNpcDB.AddCustomNpcGroups(value)
+	if (value) then
+		local key = RSUtils.GetTableLength(private.dbglobal.custom_npcs_groups);
+		private.dbglobal.custom_npcs_groups[key] = value
+	end
+end
+
+function RSNpcDB.DeleteCustomNpcGroup(key)
+	if (key) then
+		private.dbglobal.custom_npcs_groups[key] = nil
+	end
+end
+
+function RSNpcDB.GetCustomNpcGroupByKey(key)
+	return private.dbglobal.custom_npcs_groups[key]
+end
+
+function RSNpcDB.SetCustomNpcGroupByKey(key, value)
+	if (key and value) then
+		private.dbglobal.custom_npcs_groups[key] = value
 	end
 end
 

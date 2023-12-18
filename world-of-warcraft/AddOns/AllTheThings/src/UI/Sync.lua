@@ -331,7 +331,7 @@ if C_PetJournal then
 		end
 	end
 end
-if C_ToyBox then
+if C_ToyBox and app.GameBuildVersion >= 30000 then
 	-- After the C_ToyBox API was added, nearly every toy became account wide learned.
 	local PlayerHasToy = _G["PlayerHasToy"];
 	AccountWideDataHandlers.Toys = function(olddata, data)
@@ -950,8 +950,10 @@ app:GetWindow("Synchronization", {
 		-- Cache the current character's BattleTag. 
 		if BNGetInfo then
 			local battleTag = select(2, BNGetInfo());
-			SilentlyLinkedCharacters[battleTag] = true;
-			CurrentCharacter.battleTag = battleTag;
+			if battleTag then
+				SilentlyLinkedCharacters[battleTag] = true;
+				CurrentCharacter.battleTag = battleTag;
+			end
 		end
 		
 		-- Register for Addon Messaging

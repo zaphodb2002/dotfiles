@@ -3,7 +3,7 @@
 ## Name: AllTheThings
 ## Notes: Addon for Tracking Collections & Account Completion
 ## Author: Crieve-Sargeras
-## Version: DF-3.8.1
+## Version: DF-3.8.7
 ## Interface: 20504
 ## X-Interface: 20504
 ## X-Wago-ID: yQKyY5K7
@@ -55,6 +55,7 @@ src\UI\Objects.lua
 src\UI\Quests.lua
 src\UI\Raid Assistant.lua
 src\UI\Random.lua
+src\UI\Removed From Game.lua
 src\UI\Removed With Patch Drops.lua
 src\UI\Removed With Patch Loot.lua
 src\UI\Soft Reserves.lua

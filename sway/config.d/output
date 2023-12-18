@@ -1,0 +1,7 @@
+# Output config
+# Get outputs with 'swaymsg -t get_outputs'
+set $OUTPUT-PRIMARY DP-1
+set $OUTPUT-SECONDARY DP-2
+
+output $OUTPUT-SECONDARY pos 0 0 mode 1920x1080@144Hz transform 270 
+output $OUTPUT-PRIMARY pos 1080 400 mode 1920x1080@144Hz transform 0

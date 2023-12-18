@@ -1,30 +1,37 @@
 
 DataStore_AgendaDB = {
 	["profileKeys"] = {
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 	},
 	["global"] = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2023-11-14",
+			["NextWeeklyReset"] = "2023-12-19",
 		},
 		["Characters"] = {
-			["Default.Dalaran.Morgntreeman"] = {
-				["lastUpdate"] = 1699936763,
+			["Default.Dalaran.Hyaae"] = {
+				["lastUpdate"] = 1702275435,
 			},
-			["Default.Dalaran.Jenleeviyah"] = {
-				["lastUpdate"] = 1699941203,
+			["Default.Dalaran.Morgntreeman"] = {
 				["DungeonIDs"] = {
-					["The Culling of Stratholme Heroic|439786340"] = "32797|1699941203|0|0",
-					["Zul'Gurub Heroic|439786011"] = "32797|1699941203|0|0",
-					["Onyxia's Lair 10 Player|439786254"] = "32797|1699941203|0|1",
-					["Karazhan 10 Player|439785952"] = "32797|1699941203|0|1",
+					["Amirdrassil, the Dream's Hope Looking For Raid|1320288051"] = "140803|1702857198|0|1",
 				},
+				["lastUpdate"] = 1702857198,
 				["LFGDungeons"] = {
-					["257.Onyxia"] = true,
-					["257.Count"] = 1,
+					["2466.Igira the Cruel"] = true,
+					["2466.Gnarlroot"] = true,
+					["2466.Smolderon"] = true,
+					["2466.Count"] = 3,
+					["2467.Count"] = 2,
+					["2467.Council of Dreams"] = true,
+					["2468.Larodar, Keeper of the Flame"] = true,
+					["2469.Count"] = 2,
+					["2467.Nymue, Weaver of the Cycle"] = true,
+					["2469.Fyrakk the Blazing"] = true,
+					["2468.Count"] = 1,
+					["2469.Tindral Sageswift, Seer of the Flame"] = true,
 				},
 			},
 		},

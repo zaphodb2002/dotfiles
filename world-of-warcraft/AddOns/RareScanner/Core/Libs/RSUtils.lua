@@ -83,13 +83,16 @@ end
 
 function RSUtils.GetSortedKeysByValue(tbl, sortFunction)
 	local keys = {}
-	for key in pairs(tbl) do
-    	table.insert(keys, key)
- 	end
-
-  	table.sort(keys, function(a, b)
-    	return sortFunction(tbl[a], tbl[b])
-  	end)
+	
+	if (tbl) then
+		for key in pairs(tbl) do
+	    	table.insert(keys, key)
+	 	end
+	
+	  	table.sort(keys, function(a, b)
+	    	return sortFunction(tbl[a], tbl[b])
+	  	end)
+	end
 
   	return keys
 end
@@ -194,9 +197,9 @@ end
 ---============================================================================
 
 function RSUtils.FixCoord(coord)
-	if (tonumber(coord) <= 1) then
-		return tonumber(coord)
+	if (tonumber(strsub(coord, 1, 2)) == 0) then
+		return tonumber(string.format("0.%s00", strsub(coord, 3)));
 	else
-		return tonumber("0."..coord);
+		return tonumber(string.format("0.%s", coord));
 	end
 end

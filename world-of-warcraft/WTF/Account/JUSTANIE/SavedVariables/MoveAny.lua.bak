@@ -4,35 +4,33 @@ MATAB = {
 		["DEFAULT"] = {
 			["FRAMES"] = {
 				["POINTS"] = {
+					["MajorFactionRenownFrame"] = {
+					},
+					["ClassTrainerFrame"] = {
+					},
 					["AddonList"] = {
 					},
-					["GameMenuFrame"] = {
+					["ItemUpgradeFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 214,
+						["PX"] = 169,
+						["RE"] = "BOTTOMLEFT",
 					},
-					["SettingsPanel"] = {
+					["ClassTalentFrame"] = {
 					},
-					["WardrobeFrame"] = {
+					["CharacterFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 526,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 742,
 					},
-					["SplashFrame"] = {
+					["MailFrame"] = {
 					},
-					["OpenMailFrame"] = {
-					},
-					["QuickKeybindFrame"] = {
-					},
-					["AchievementFrame"] = {
-					},
-					["CollectionsJournal"] = {
-					},
-					["ChannelFrame"] = {
-					},
-					["DressUpFrame"] = {
-					},
-					["TimeManagerFrame"] = {
-					},
-					["FriendsFrame"] = {
-					},
-					["PlayerChoiceFrame"] = {
-					},
-					["QuestLogPopupDetailFrame"] = {
+					["MacroFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 409,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 759,
 					},
 					["ScriptErrorsFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -40,49 +38,63 @@ MATAB = {
 						["RE"] = "BOTTOMLEFT",
 						["PX"] = 291,
 					},
-					["TaxiFrame"] = {
-					},
-					["PVEFrame"] = {
-					},
-					["PVPMatchScoreboard"] = {
-					},
-					["WorldMapFrame"] = {
-					},
-					["TradeFrame"] = {
-					},
-					["PetStableFrame"] = {
-					},
-					["HelpFrame"] = {
-					},
-				},
-				["SIZES"] = {
-					["MajorFactionRenownFrame"] = {
-					},
-					["AddonList"] = {
-					},
-					["ExpansionLandingPage"] = {
-					},
-					["CharacterFrame"] = {
-					},
-					["MailFrame"] = {
-					},
-					["ScriptErrorsFrame"] = {
-					},
 					["AchievementFrame"] = {
 					},
+					["GuildBankFrame"] = {
+					},
 					["SpellBookFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 439,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 17,
 					},
 					["QuestFrame"] = {
 					},
-					["TradeFrame"] = {
+					["ChallengesKeystoneFrame"] = {
 					},
 					["PetStableFrame"] = {
 					},
-					["BankFrame"] = {
+					["ProfessionsFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PX"] = 248,
+						["PY"] = 229,
+						["RE"] = "BOTTOMLEFT",
+					},
+					["ChannelFrame"] = {
+					},
+					["ItemTextFrame"] = {
+					},
+					["CommunitiesFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 538,
+						["PX"] = 16,
+						["RE"] = "BOTTOMLEFT",
+					},
+					["CollectionsJournal"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 358,
+						["PX"] = 16,
+						["RE"] = "BOTTOMLEFT",
 					},
 					["SettingsPanel"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 243,
+						["PX"] = 502,
+						["RE"] = "BOTTOMLEFT",
 					},
 					["WardrobeFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 372,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 240,
+					},
+					["ProfessionsCustomerOrdersFrame"] = {
+					},
+					["FriendsFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 515,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 543,
 					},
 					["SplashFrame"] = {
 					},
@@ -92,33 +104,142 @@ MATAB = {
 					},
 					["GossipFrame"] = {
 					},
-					["ChannelFrame"] = {
+					["GameMenuFrame"] = {
+					},
+					["QuickKeybindFrame"] = {
 					},
 					["MerchantFrame"] = {
 					},
+					["WorldMapFrame"] = {
+					},
+					["DressUpFrame"] = {
+					},
+					["TimeManagerFrame"] = {
+					},
+					["WeeklyRewardsFrame"] = {
+					},
+					["PlayerChoiceFrame"] = {
+					},
+					["GenericTraitFrame"] = {
+					},
+					["QuestLogPopupDetailFrame"] = {
+					},
+					["AuctionHouseFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 318,
+						["PX"] = 37,
+						["RE"] = "BOTTOMLEFT",
+					},
+					["PVEFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 516,
+						["PX"] = 422,
+						["RE"] = "BOTTOMLEFT",
+					},
+					["PVPMatchScoreboard"] = {
+					},
+					["FlightMapFrame"] = {
+					},
+					["EncounterJournal"] = {
+					},
+					["ExpansionLandingPage"] = {
+					},
+					["HelpFrame"] = {
+					},
+				},
+				["SIZES"] = {
+					["MajorFactionRenownFrame"] = {
+					},
+					["ClassTrainerFrame"] = {
+					},
+					["AddonList"] = {
+					},
+					["ExpansionLandingPage"] = {
+					},
+					["ClassTalentFrame"] = {
+					},
+					["CharacterFrame"] = {
+					},
+					["MailFrame"] = {
+					},
+					["MacroFrame"] = {
+					},
+					["ScriptErrorsFrame"] = {
+					},
+					["AuctionHouseFrame"] = {
+					},
+					["GuildBankFrame"] = {
+					},
+					["SpellBookFrame"] = {
+					},
+					["QuestFrame"] = {
+					},
+					["TradeFrame"] = {
+					},
+					["PetStableFrame"] = {
+					},
+					["ChannelFrame"] = {
+					},
+					["ChallengesKeystoneFrame"] = {
+					},
+					["ProfessionsCustomerOrdersFrame"] = {
+					},
+					["ProfessionsFrame"] = {
+						["SCALE"] = 1.024,
+					},
+					["AchievementFrame"] = {
+					},
+					["ItemUpgradeFrame"] = {
+					},
+					["CommunitiesFrame"] = {
+					},
+					["BankFrame"] = {
+					},
+					["SettingsPanel"] = {
+					},
+					["WardrobeFrame"] = {
+					},
+					["GameMenuFrame"] = {
+					},
+					["QuickKeybindFrame"] = {
+					},
+					["SplashFrame"] = {
+					},
+					["OpenMailFrame"] = {
+					},
+					["TaxiFrame"] = {
+					},
+					["GossipFrame"] = {
+					},
+					["MerchantFrame"] = {
+					},
+					["WeeklyRewardsFrame"] = {
+					},
 					["ContainerFrameCombinedBags"] = {
+					},
+					["QuestLogPopupDetailFrame"] = {
 					},
 					["DressUpFrame"] = {
 					},
 					["WorldMapFrame"] = {
 					},
-					["QuickKeybindFrame"] = {
+					["TimeManagerFrame"] = {
 					},
 					["PlayerChoiceFrame"] = {
 					},
-					["QuestLogPopupDetailFrame"] = {
-					},
-					["FriendsFrame"] = {
+					["GenericTraitFrame"] = {
 					},
 					["ItemTextFrame"] = {
+					},
+					["FriendsFrame"] = {
 					},
 					["PVEFrame"] = {
 					},
 					["PVPMatchScoreboard"] = {
 					},
-					["GameMenuFrame"] = {
+					["FlightMapFrame"] = {
 					},
-					["TimeManagerFrame"] = {
+					["EncounterJournal"] = {
 					},
 					["CollectionsJournal"] = {
 					},

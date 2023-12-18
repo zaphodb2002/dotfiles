@@ -24,8 +24,8 @@ RSConstants.LOOT_ITEM_ID = nil
 -- Current versions
 ---============================================================================
 
-RSConstants.CURRENT_DB_VERSION = 116
-RSConstants.CURRENT_LOOT_DB_VERSION = 128
+RSConstants.CURRENT_DB_VERSION = 118
+RSConstants.CURRENT_LOOT_DB_VERSION = 131
 
 ---============================================================================
 -- Current maps (newer)
@@ -73,15 +73,15 @@ RSConstants.DRAGONFLIGHT_DREAMSEED_MINIEVENT = 9
 
 -- Minievents that will have an option to filter/unfilter the icons from the worldmap
 RSConstants.MINIEVENTS_WORLDMAP_FILTERS = {
-	[RSConstants.DRAGONFLIGHT_DREAMSURGE_MINIEVENT] = true;
-	[RSConstants.DRAGONFLIGHT_STORM_INVASTION_FIRE_MINIEVENT] = true;
-	[RSConstants.DRAGONFLIGHT_STORM_INVASTION_WATER_MINIEVENT] = true;
-	[RSConstants.DRAGONFLIGHT_STORM_INVASTION_EARTH_MINIEVENT] = true;
-	[RSConstants.DRAGONFLIGHT_STORM_INVASTION_AIR_MINIEVENT] = true;
-	[RSConstants.DRAGONFLIGHT_HUNTING_PARTY_MINIEVENT] = true;
-	[RSConstants.DRAGONFLIGHT_FYRAKK_MINIEVENT] = true;
-	[RSConstants.DRAGONFLIGHT_WARCRAFT_RUMBLE_MINIEVENT] = true;
-	[RSConstants.DRAGONFLIGHT_DREAMSEED_MINIEVENT] = true;
+	[RSConstants.DRAGONFLIGHT_DREAMSURGE_MINIEVENT] = { active = true, mapIDs = { 2025, 2024, 2023, 2022 } };
+	[RSConstants.DRAGONFLIGHT_STORM_INVASTION_FIRE_MINIEVENT] = { active = true, mapIDs = { 2025, 2024, 2023, 2022 } };
+	[RSConstants.DRAGONFLIGHT_STORM_INVASTION_WATER_MINIEVENT] = { active = true, mapIDs = { 2025, 2024, 2023, 2022 } };
+	[RSConstants.DRAGONFLIGHT_STORM_INVASTION_EARTH_MINIEVENT] = { active = true, mapIDs = { 2025, 2024, 2023, 2022 } };
+	[RSConstants.DRAGONFLIGHT_STORM_INVASTION_AIR_MINIEVENT] = { active = true, mapIDs = { 2025, 2024, 2023, 2022 } };
+	[RSConstants.DRAGONFLIGHT_HUNTING_PARTY_MINIEVENT] = { active = true, mapIDs = { 2025, 2024, 2023, 2022 } };
+	[RSConstants.DRAGONFLIGHT_FYRAKK_MINIEVENT] = { active = true, mapIDs = { 2023, 2024} };
+	[RSConstants.DRAGONFLIGHT_WARCRAFT_RUMBLE_MINIEVENT] = { active = true, mapIDs = { 2025, 2024, 2023, 2022, 2199, 2112, 1, 84, 85 } };
+	[RSConstants.DRAGONFLIGHT_DREAMSEED_MINIEVENT] = { active = true, mapIDs = { 2200 } };
 }
 
 ---============================================================================
@@ -139,6 +139,7 @@ RSConstants.MAP_ANIMATIONS_ON_BOTH = 3
 RSConstants.PROFILE_DEFAULTS = {
 	profile = {
 		general = {
+			rescanTimer = 5,
 			scanRares = true,
 			scanContainers = true,
 			scanEvents = true,
@@ -151,39 +152,34 @@ RSConstants.PROFILE_DEFAULTS = {
 			scanWorldmapVignette = true,
 			scanTargetUnit = false,
 			ignoreCompletedEntities = true,
-			filteredRares = {},
-			filteredContainers = {},
-			filteredEvents = {},
-			filteredZones = {},
-			enableTomtomSupport = false,
-			autoTomtomWaypoints = false,
-			enableWaypointsSupport = false,
-			autoWaypoints = false,
 			showMaker = true,
 			marker = 8,
-			rescanTimer = 5
+			enableWaypointsSupport = false,
+			autoWaypoints = false,
+			enableTomtomSupport = false,
+			autoTomtomWaypoints = false
 		},
 		sound = {
 			soundDisabled = false,
-			soundPlayed = "Horn",
 			soundObjectDisabled = false,
-			soundObjectPlayed = "PVP Horde",
-			soundVolume = 4,
 			soundChannel = "Master",
+			soundVolume = 4,
+			soundPlayed = "Horn",
+			soundObjectPlayed = "PVP Horde",
 			soundCustomFolder = "RareScannerSounds"
 		},
 		display = {
 			displayButton = true,
 			displayMiniature = true,
 			displayButtonContainers = true,
-			scale = 0.8,
 			autoHideButton = 0,
+			scale = 0.8,
+			lockPosition = false,
 			displayRaidWarning = true,
 			displayChatMessage = true,
 			displayTimestampChatMessage = true,
 			enableNavigation = true,
 			navigationLockEntity = false,
-			lockPosition = false,
 			minimapButton = {
 				hide = false
 			},
@@ -199,8 +195,7 @@ RSConstants.PROFILE_DEFAULTS = {
 			defaultEventFilterType = RSConstants.ENTITY_FILTER_ALL
 		},
 		zoneFilters = {
-			filtersToggled = true,
-			filterOnlyMap = false
+			defaultZoneFilterType = RSConstants.ENTITY_FILTER_ALL
 		},
 		collections = {
 			filteredOnlyOnWorldMap = false,
@@ -289,6 +284,7 @@ RSConstants.PROFILE_DEFAULTS = {
 			lootTooltipPosition = "ANCHOR_LEFT",
 			lootMinQuality = 0,
 			filterItemsCompletedQuest = true,
+			filterNotEquipableItems = false,
 			filterNotMatchingClass = false,
 			filterNotMatchingFaction = true,
 			filterAnimaItems = true,
@@ -594,6 +590,7 @@ RSConstants.NPCS_WITH_PRE_EVENT = {
 	[209980] = 209913;
 	[210155] = 209898;
 	[210083] = 209912;
+	[210063] = 209915;
 }
 
 -- Contains that spawn after completing an event

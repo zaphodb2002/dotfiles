@@ -2,7 +2,7 @@
 ".bashrc" = "~/.bashrc"
 
 [sway.files]
-"sway/config" = "~/.config/sway/config"
+"sway/" = "~/.config/sway/"
 
 [alacritty.files]
 "alacritty/" = "~/.config/alacritty/"

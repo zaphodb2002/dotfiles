@@ -1,9 +1,1716 @@
 
 EncounterDetailsDB = {
 	["chartData"] = {
+		[290] = {
+		},
+		[291] = {
+		},
+		[292] = {
+		},
+		[293] = {
+			["Raid Damage Done"] = {
+				23351, -- [1]
+				47602, -- [2]
+				69197, -- [3]
+				17410, -- [4]
+				86974, -- [5]
+				55529, -- [6]
+				170319, -- [7]
+				110911, -- [8]
+				65313, -- [9]
+				84622, -- [10]
+				30419, -- [11]
+				39255, -- [12]
+				12517, -- [13]
+				39699, -- [14]
+				49403, -- [15]
+				18499, -- [16]
+				39036, -- [17]
+				34320, -- [18]
+				13367, -- [19]
+				3772, -- [20]
+				9339, -- [21]
+				7544, -- [22]
+				9117, -- [23]
+				12900, -- [24]
+				7545, -- [25]
+				9499, -- [26]
+				3772, -- [27]
+				99688, -- [28]
+				40613, -- [29]
+				45257, -- [30]
+				235836, -- [31]
+				13234, -- [32]
+				0, -- [33]
+				3772, -- [34]
+				0, -- [35]
+				3773, -- [36]
+				3773, -- [37]
+				["max_value"] = 235836,
+				["__time"] = 1702688228,
+			},
+		},
+		[294] = {
+			["Raid Damage Done"] = {
+				13035, -- [1]
+				4473, -- [2]
+				32755, -- [3]
+				14781, -- [4]
+				25925, -- [5]
+				12534, -- [6]
+				4045, -- [7]
+				22455, -- [8]
+				14797, -- [9]
+				12855, -- [10]
+				18270, -- [11]
+				16084, -- [12]
+				11633, -- [13]
+				12224, -- [14]
+				13266, -- [15]
+				5024, -- [16]
+				12898, -- [17]
+				7306, -- [18]
+				22534, -- [19]
+				6306, -- [20]
+				3153, -- [21]
+				6306, -- [22]
+				3152, -- [23]
+				6306, -- [24]
+				3152, -- [25]
+				3153, -- [26]
+				3153, -- [27]
+				0, -- [28]
+				["max_value"] = 32755,
+				["__time"] = 1702688706,
+			},
+		},
+		[295] = {
+			["Raid Damage Done"] = {
+				25980, -- [1]
+				11635, -- [2]
+				25654, -- [3]
+				78377, -- [4]
+				97295, -- [5]
+				58825, -- [6]
+				152902, -- [7]
+				4129, -- [8]
+				61827, -- [9]
+				16765, -- [10]
+				113518, -- [11]
+				9277, -- [12]
+				5551, -- [13]
+				3849, -- [14]
+				1870, -- [15]
+				0, -- [16]
+				0, -- [17]
+				0, -- [18]
+				0, -- [19]
+				0, -- [20]
+				0, -- [21]
+				0, -- [22]
+				0, -- [23]
+				0, -- [24]
+				0, -- [25]
+				0, -- [26]
+				["max_value"] = 152902,
+				["__time"] = 1702689664,
+			},
+		},
+		[296] = {
+			["Raid Damage Done"] = {
+				6807, -- [1]
+				2962, -- [2]
+				2963, -- [3]
+				5924, -- [4]
+				2962, -- [5]
+				3123, -- [6]
+				["max_value"] = 6807,
+				["__time"] = 1702690340,
+			},
+		},
+		[297] = {
+			["Raid Damage Done"] = {
+				4356, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				["max_value"] = 4356,
+				["__time"] = 1702692384,
+			},
+		},
+		[298] = {
+			["Raid Damage Done"] = {
+				17965, -- [1]
+				115974, -- [2]
+				["max_value"] = 115974,
+				["__time"] = 1702692415,
+			},
+		},
+		[299] = {
+			["Raid Damage Done"] = {
+				174666, -- [1]
+				21788, -- [2]
+				140401, -- [3]
+				8234, -- [4]
+				3297, -- [5]
+				137497, -- [6]
+				12007, -- [7]
+				["max_value"] = 174666,
+				["__time"] = 1702692430,
+			},
+		},
+		[300] = {
+			["Raid Damage Done"] = {
+				89533, -- [1]
+				13108, -- [2]
+				5593, -- [3]
+				237141, -- [4]
+				6089, -- [5]
+				0, -- [6]
+				17660, -- [7]
+				24833, -- [8]
+				["max_value"] = 237141,
+				["__time"] = 1702692446,
+			},
+		},
+		[301] = {
+			["Raid Damage Done"] = {
+				21589, -- [1]
+				6187, -- [2]
+				38564, -- [3]
+				9525, -- [4]
+				85289, -- [5]
+				65234, -- [6]
+				["max_value"] = 85289,
+				["__time"] = 1702692459,
+			},
+		},
+		[302] = {
+			["Raid Damage Done"] = {
+				12112, -- [1]
+				30374, -- [2]
+				74749, -- [3]
+				["max_value"] = 74749,
+				["__time"] = 1702692467,
+			},
+		},
+		[303] = {
+			["Raid Damage Done"] = {
+				3768, -- [1]
+				6466, -- [2]
+				24652, -- [3]
+				["max_value"] = 24652,
+				["__time"] = 1702692474,
+			},
+		},
+		[304] = {
+			["Raid Damage Done"] = {
+				2292, -- [1]
+				0, -- [2]
+				2294, -- [3]
+				0, -- [4]
+				0, -- [5]
+				2294, -- [6]
+				4587, -- [7]
+				14469, -- [8]
+				43422, -- [9]
+				11782, -- [10]
+				14381, -- [11]
+				110975, -- [12]
+				21312, -- [13]
+				["max_value"] = 110975,
+				["__time"] = 1702693028,
+			},
+		},
+		[305] = {
+			["Raid Damage Done"] = {
+				4245, -- [1]
+				6468, -- [2]
+				3232, -- [3]
+				8332, -- [4]
+				["max_value"] = 8332,
+				["__time"] = 1702693033,
+			},
+		},
+		[306] = {
+			["Raid Damage Done"] = {
+				0, -- [1]
+				0, -- [2]
+				18149, -- [3]
+				874, -- [4]
+				["max_value"] = 18149,
+				["__time"] = 1702694151,
+			},
+		},
+		[307] = {
+			["Raid Damage Done"] = {
+				152503, -- [1]
+				29544, -- [2]
+				32095, -- [3]
+				238991, -- [4]
+				33113, -- [5]
+				5727, -- [6]
+				25365, -- [7]
+				30755, -- [8]
+				58121, -- [9]
+				3818, -- [10]
+				50587, -- [11]
+				15491, -- [12]
+				24253, -- [13]
+				6768, -- [14]
+				27295, -- [15]
+				0, -- [16]
+				55421, -- [17]
+				48842, -- [18]
+				12066, -- [19]
+				16214, -- [20]
+				126360, -- [21]
+				11123, -- [22]
+				117095, -- [23]
+				3819, -- [24]
+				0, -- [25]
+				3820, -- [26]
+				0, -- [27]
+				3820, -- [28]
+				0, -- [29]
+				15617, -- [30]
+				26691, -- [31]
+				68109, -- [32]
+				4839, -- [33]
+				8395, -- [34]
+				93587, -- [35]
+				31303, -- [36]
+				74776, -- [37]
+				106046, -- [38]
+				["max_value"] = 238991,
+				["__time"] = 1702694262,
+			},
+		},
+		[308] = {
+			["Raid Damage Done"] = {
+				122116, -- [1]
+				235832, -- [2]
+				["max_value"] = 235832,
+				["__time"] = 1702694327,
+			},
+		},
+		[309] = {
+			["Raid Damage Done"] = {
+				48254, -- [1]
+				1419, -- [2]
+				9234, -- [3]
+				108498, -- [4]
+				117397, -- [5]
+				239394, -- [6]
+				["max_value"] = 239394,
+				["__time"] = 1702694351,
+			},
+		},
+		[310] = {
+			["Raid Damage Done"] = {
+				5206, -- [1]
+				33529, -- [2]
+				36198, -- [3]
+				68985, -- [4]
+				21072, -- [5]
+				30499, -- [6]
+				["max_value"] = 68985,
+				["__time"] = 1702694384,
+			},
+		},
+		[311] = {
+			["Raid Damage Done"] = {
+				129519, -- [1]
+				163614, -- [2]
+				["max_value"] = 163614,
+				["__time"] = 1702694401,
+			},
+		},
+		[312] = {
+			["Raid Damage Done"] = {
+				132225, -- [1]
+				16561, -- [2]
+				21989, -- [3]
+				235721, -- [4]
+				15082, -- [5]
+				6369, -- [6]
+				56053, -- [7]
+				8106, -- [8]
+				61103, -- [9]
+				56766, -- [10]
+				89049, -- [11]
+				14599, -- [12]
+				30798, -- [13]
+				61802, -- [14]
+				15295, -- [15]
+				["max_value"] = 235721,
+				["__time"] = 1702694434,
+			},
+		},
+		[313] = {
+			["Raid Damage Done"] = {
+				17284, -- [1]
+				11687, -- [2]
+				28984, -- [3]
+				28588, -- [4]
+				82710, -- [5]
+				62392, -- [6]
+				1868, -- [7]
+				67010, -- [8]
+				19885, -- [9]
+				7544, -- [10]
+				19547, -- [11]
+				19536, -- [12]
+				7510, -- [13]
+				["max_value"] = 82710,
+				["__time"] = 1702697087,
+			},
+		},
+		[314] = {
+			["Raid Damage Done"] = {
+				1629, -- [1]
+				812, -- [2]
+				0, -- [3]
+				["max_value"] = 1629,
+				["__time"] = 1702697091,
+			},
+		},
+		[315] = {
+			["Raid Damage Done"] = {
+				60393, -- [1]
+				97142, -- [2]
+				4672, -- [3]
+				18229, -- [4]
+				246136, -- [5]
+				21413, -- [6]
+				6344, -- [7]
+				20375, -- [8]
+				24164, -- [9]
+				4009, -- [10]
+				15963, -- [11]
+				9396, -- [12]
+				19554, -- [13]
+				8746, -- [14]
+				23993, -- [15]
+				7808, -- [16]
+				20187, -- [17]
+				2291, -- [18]
+				8746, -- [19]
+				4580, -- [20]
+				25688, -- [21]
+				24308, -- [22]
+				29322, -- [23]
+				22130, -- [24]
+				12019, -- [25]
+				11374, -- [26]
+				5589, -- [27]
+				31572, -- [28]
+				14382, -- [29]
+				10441, -- [30]
+				8293, -- [31]
+				["max_value"] = 246136,
+				["__time"] = 1702697127,
+			},
+		},
+		[316] = {
+			["Raid Damage Done"] = {
+				40383, -- [1]
+				18152, -- [2]
+				82704, -- [3]
+				82865, -- [4]
+				980, -- [5]
+				71247, -- [6]
+				19561, -- [7]
+				75990, -- [8]
+				28470, -- [9]
+				80001, -- [10]
+				6673, -- [11]
+				14981, -- [12]
+				20465, -- [13]
+				46361, -- [14]
+				16883, -- [15]
+				78364, -- [16]
+				11439, -- [17]
+				0, -- [18]
+				31800, -- [19]
+				24206, -- [20]
+				5628, -- [21]
+				73253, -- [22]
+				4725, -- [23]
+				9002, -- [24]
+				9397, -- [25]
+				17137, -- [26]
+				4010, -- [27]
+				15680, -- [28]
+				5628, -- [29]
+				3942, -- [30]
+				3228, -- [31]
+				3228, -- [32]
+				3228, -- [33]
+				1644, -- [34]
+				0, -- [35]
+				0, -- [36]
+				0, -- [37]
+				0, -- [38]
+				["max_value"] = 82865,
+				["__time"] = 1702697460,
+			},
+		},
+		[317] = {
+			["Raid Damage Done"] = {
+				104585, -- [1]
+				9880, -- [2]
+				81371, -- [3]
+				62009, -- [4]
+				75236, -- [5]
+				13264, -- [6]
+				120619, -- [7]
+				9214, -- [8]
+				69981, -- [9]
+				16514, -- [10]
+				125654, -- [11]
+				16049, -- [12]
+				17462, -- [13]
+				61767, -- [14]
+				76193, -- [15]
+				15131, -- [16]
+				9604, -- [17]
+				8764, -- [18]
+				9061, -- [19]
+				11684, -- [20]
+				9713, -- [21]
+				10222, -- [22]
+				0, -- [23]
+				8764, -- [24]
+				8762, -- [25]
+				0, -- [26]
+				["max_value"] = 125654,
+				["__time"] = 1702697573,
+			},
+		},
+		[318] = {
+			["Raid Damage Done"] = {
+				143590, -- [1]
+				22662, -- [2]
+				13027, -- [3]
+				422485, -- [4]
+				8168, -- [5]
+				10164, -- [6]
+				0, -- [7]
+				["max_value"] = 422485,
+				["__time"] = 1702697604,
+			},
+		},
+		[319] = {
+			["Raid Damage Done"] = {
+				4082, -- [1]
+				6871, -- [2]
+				3293, -- [3]
+				4595, -- [4]
+				6455, -- [5]
+				["max_value"] = 6871,
+				["__time"] = 1702697610,
+			},
+		},
+		[320] = {
+			["Raid Damage Done"] = {
+				673078, -- [1]
+				["max_value"] = 673078,
+				["__time"] = 1702698273,
+			},
+		},
+		[321] = {
+			["Raid Damage Done"] = {
+				668596, -- [1]
+				["max_value"] = 668596,
+				["__time"] = 1702857365,
+			},
+		},
+		[322] = {
+			["Raid Damage Done"] = {
+				668596, -- [1]
+				["max_value"] = 668596,
+				["__time"] = 1702857396,
+			},
+		},
+		[281] = {
+		},
+		[282] = {
+		},
+		[283] = {
+		},
+		[284] = {
+		},
+		[285] = {
+		},
+		[286] = {
+		},
+		[287] = {
+		},
+		[288] = {
+		},
+		[289] = {
+		},
 	},
 	["encounter_spells"] = {
+		[268308] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lady Waycrest",
+		},
+		[260923] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Sister Solena",
+		},
+		[260700] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sister Malady",
+		},
+		[372859] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kokia Blazehoof",
+		},
+		[260541] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Soulbound Goliath",
+		},
+		[414552] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[264931] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Raal the Gluttonous",
+		},
+		[372860] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Kokia Blazehoof",
+		},
+		[260701] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sister Briar",
+		},
+		[414300] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[372863] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kokia Blazehoof",
+		},
+		[268122] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sister Briar",
+		},
+		[53351] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Niñabruja",
+		},
+		[409584] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[260926] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Sister Solena",
+		},
+		[260703] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Sister Malady",
+		},
+		[409266] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[260512] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Soulbound Goliath",
+		},
+		[409268] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[414177] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[268126] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sister Briar",
+		},
+		[384024] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Melidrussa Chillworn",
+		},
+		[261438] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Lord Waycrest",
+		},
+		[261439] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Lord Waycrest",
+		},
+		[260547] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Soulbound Goliath",
+		},
+		[273294] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
+		[372808] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Melidrussa Chillworn",
+		},
+		[372107] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Kokia Blazehoof",
+		},
+		[261440] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Lord Waycrest",
+		},
+		[372682] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[414184] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[414376] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[381864] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kyrakka",
+		},
+		[260900] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Sister Solena",
+		},
+		[408385] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Luckycarbon",
+		},
+		[264693] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Raal the Gluttonous",
+		},
+		[260805] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Sister Solena",
+		},
+		[264694] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Raal the Gluttonous",
+		},
+		[266225] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Gorak Tul",
+		},
+		[260551] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Soulbound Goliath",
+		},
+		[268202] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Deathtouched Slaver",
+		},
+		[264698] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Raal the Gluttonous",
+		},
+		[268077] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sister Solena",
+		},
+		[372819] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kokia Blazehoof",
+		},
+		[272668] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Burning Soul",
+		},
+		[372820] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Kokia Blazehoof",
+		},
+		[272669] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Burning Soul",
+		},
+		[261446] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lady Waycrest",
+		},
+		[268271] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lady Waycrest",
+		},
+		[409287] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[261447] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lord Waycrest",
+		},
+		[271590] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Lady Waycrest",
+		},
+		[373017] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Blazebound Firestorm",
+		},
+		[260907] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Sister Solena",
+		},
+		[403044] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Luckycarbon",
+		},
+		[414583] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[383346] = {
+			["school"] = 6,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Luckycarbon",
+		},
+		[371489] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Flashfrost Chillweaver",
+		},
+		[268278] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Lady Waycrest",
+		},
+		[268088] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sister Malady",
+		},
+		[108446] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Gobyal",
+		},
+		[414205] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[385518] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Melidrussa Chillworn",
+		},
+		[373087] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Blazebound Firestorm",
+		},
+		[383925] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Melidrussa Chillworn",
+		},
+		[387113] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Luckycarbon",
+		},
+		[266181] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Gorak Tul",
+		},
+		[372963] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Melidrussa Chillworn",
+		},
+		[404139] = {
+			["school"] = 3,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Luckycarbon",
+		},
+		[409558] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[396044] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Melidrussa Chillworn",
+		},
+		[403695] = {
+			["school"] = 6,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Luckycarbon",
+		},
+		[409879] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[261265] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sister Briar",
+		},
+		[181089] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Erkhart Stormvein",
+		},
+		[381605] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Kyrakka",
+		},
+		[381607] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kyrakka",
+		},
+		[381512] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Erkhart Stormvein",
+		},
+		[416256] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Iridikron's Creation",
+		},
+		[414535] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[381862] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Kyrakka",
+		},
+		[261266] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sister Malady",
+		},
+		[416257] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Iridikron's Creation",
+		},
+		[392398] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Primal Thundercloud",
+		},
+		[204242] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Luckycarbon",
+		},
+		[381514] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Erkhart Stormvein",
+		},
+		[416258] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Iridikron's Creation",
+		},
+		[381602] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Kyrakka",
+		},
+		[381526] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Kyrakka",
+		},
+		[381515] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Erkhart Stormvein",
+		},
+		[409884] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[385723] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Luckycarbon",
+		},
+		[381513] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Erkhart Stormvein",
+		},
+		[381516] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Erkhart Stormvein",
+		},
+		[384823] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Blazebound Firestorm",
+		},
+		[409456] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[373803] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Infused Whelp",
+		},
+		[381517] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Erkhart Stormvein",
+		},
+		[384494] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kyrakka",
+		},
+		[381518] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Erkhart Stormvein",
+		},
+		[414604] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[266258] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Drust Slaver Summoning Portal",
+		},
+		[261264] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sister Solena",
+		},
+		[217200] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Niñabruja",
+		},
+		[409261] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[260852] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Sister Solena",
+		},
+		[372988] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Melidrussa Chillworn",
+		},
+		[372811] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kokia Blazehoof",
+		},
+		[266266] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Gorak Tul",
+		},
+		[269576] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Niñabruja",
+		},
+		[409635] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[260696] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sister Malady",
+		},
+		[264923] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Raal the Gluttonous",
+		},
+		[372851] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Melidrussa Chillworn",
+		},
+		[373680] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Melidrussa Chillworn",
+		},
+		[425509] = {
+			["school"] = 36,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Luckycarbon",
+		},
+		[384773] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Kyrakka",
+		},
+		[397077] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Melidrussa Chillworn",
+		},
+		[273657] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Deathtouched Slaver",
+		},
+		[260697] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sister Briar",
+		},
+		[268234] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Bile Oozeling",
+		},
+		[273658] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Deathtouched Slaver",
+		},
+		[373688] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Melidrussa Chillworn",
+		},
+		[260570] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[260741] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Sister Briar",
+		},
+		[264734] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Raal the Gluttonous",
+		},
+		[414483] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[260698] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sister Solena",
+		},
+		[373046] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Melidrussa Chillworn",
+		},
+		[381525] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kyrakka",
+		},
+		[260702] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[427498] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Life Warden Gola",
+		},
+		[414652] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Iridikron",
+		},
+		[268306] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Lady Waycrest",
+		},
+		[372858] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kokia Blazehoof",
+		},
+		[260699] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sister Solena",
+		},
+		[81297] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Luckycarbon",
+		},
+		[260508] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Soulbound Goliath",
+		},
+		[168040] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Earthshaper Telu",
+		},
+		[406086] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Luckycarbon",
+		},
 	},
 	["emotes"] = {
+		{
+			["boss"] = "Kyrakka and Erkhart Stormvein",
+		}, -- [1]
+		{
+			["boss"] = "Kokia Blazehoof",
+		}, -- [2]
+		{
+			["boss"] = "Melidrussa Chillworn",
+		}, -- [3]
 	},
 }

@@ -25,7 +25,20 @@ end
 
 -- Static mapping of BonusID -> Next Unlock BonusID for a corresponding Item. Unlock will most-likely always be an Appearance
 -- Thanks @Addon:ItemUpgradeTip for this compiled list of BonusIDs! Wish Blizzard did this for us by default...
+-- https://github.com/filliph/ItemUpgradeTip/blob/master/upgradeHandlers/Flightstones.lua
 local BonusIDNextUnlock = {
+
+	-- 10.0.7
+	-- Primalist 1/3
+	[9342] = 9344,
+	-- Primalist 2/3
+	[9343] = 9344,
+	-- Primalist 3/3
+	[9344] = 0,
+
+	-- 10.1
+	-- Prior to 10.2 these existed, then Blizzard decided to hate us for no reason
+	--[[
     -- Explorer 1/8
     [9294] = 9298,
     -- Explorer 2/8
@@ -106,12 +119,65 @@ local BonusIDNextUnlock = {
     [9381] = 0,
     -- Myth 3/3
     [9382] = 0,
-	-- Primalist 1/3
-	[9342] = 9344,
-	-- Primalist 2/3
-	[9343] = 9344,
-	-- Primalist 3/3
-	[9344] = 0,
+	--]]
+
+	-- 10.2
+
+    -- Explorer
+	-- These convert to S2 LFR tier which does not upgrade
+    -- [9544] = 9548,
+    -- [9545] = 9548,
+    -- [9546] = 9548,
+    -- [9547] = 9548,
+    -- [9548] = 0,
+    -- [9549] = 0,
+    -- [9550] = 0,
+    -- [9551] = 0,
+
+    -- Adventurer
+	-- These convert to S2 LFR tier which does not upgrade
+    -- [9536] = 9540,
+    -- [9537] = 9540,
+    -- [9538] = 9540,
+    -- [9539] = 9540,
+    -- [9540] = 0,
+    -- [9541] = 0,
+    -- [9542] = 0,
+    -- [9543] = 0,
+
+    -- Veteran
+    [9552] = 9556,
+    [9553] = 9556,
+    [9554] = 9556,
+    [9555] = 9556,
+    [9556] = 0,
+    [9557] = 0,
+    [9558] = 0,
+    [9559] = 0,
+
+    -- Champion
+    [9560] = 9564,
+    [9561] = 9564,
+    [9562] = 9564,
+    [9563] = 9564,
+    [9564] = 0,
+    [9565] = 0,
+    [9566] = 0,
+    [9567] = 0,
+
+    -- Hero
+    [9568] = 9572,
+    [9569] = 9572,
+    [9570] = 9572,
+    [9571] = 9572,
+    [9572] = 0,
+    [9581] = 0,
+
+    -- Myth
+    [9573] = 0,
+    [9574] = 0,
+    [9575] = 0,
+    [9576] = 0,
 }
 
 local function GetFirstValueAndKey(t, keys)
@@ -170,8 +236,8 @@ local function GetUpgrade(t, upmodID, upbonusID)
 	local itemID = t.itemID
 	local up = {
 		itemID = itemID,
-		modID = upmodID > 0 and upmodID or t.modID,
-		bonusID = upbonusID > 0 and upbonusID or t.bonusID
+		modID = upmodID > 0 and upmodID or nil,
+		bonusID = upbonusID > 0 and upbonusID or nil
 	}
 	return CreateItem(itemID, up).AsItemSource;
 end
@@ -200,7 +266,7 @@ local function HasUpgrade(t)
 
 	-- upgrade has to actually be different than the source item
 	local uphash = up.hash;
-	if uphash and uphash == t.hash then
+	if uphash and uphash == t.hash or up.s == t.s then
 		-- app.PrintDebug("HU:upgrade is same",t.hash,t.modItemID,"=+>",up.__type,uphash,up.modItemID)
 		-- t.isUpgraded = true;
 		return;
@@ -208,10 +274,6 @@ local function HasUpgrade(t)
 
 	-- if up.modID == t.modID and up.bonusID == t.bonusID then
 	-- 	app.print("SAME ITEM AS UPGRADE!?",t.hash,t.modItemID,"=+>",up.__type,up.hash,up.modItemID)
-	-- end
-
-	-- if up.s == t.s then
-	-- 	app.print("SAME SOURCE AS UPGRADE!?",t.hash,t.modItemID,"=+>",up.__type,up.hash,up.modItemID)
 	-- end
 
 	t._up = up;
@@ -273,7 +335,7 @@ api.NextUpgrade = function(t)
 
 	-- upgrade has to actually be different than the source item
 	local uphash = up.hash;
-	if uphash and uphash == t.hash then
+	if uphash and uphash == t.hash or up.s == t.s then
 		-- app.PrintDebug("NU:upgrade is same",uphash,up.modItemID)
 		-- t.isUpgraded = true;
 		return;

@@ -1,25 +1,25 @@
 
 HandyNotesDB = {
 	["profileKeys"] = {
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 	},
 	["profiles"] = {
-		["Morgntreeman - Dalaran"] = {
+		["Hyaae - Dalaran"] = {
 		},
-		["Jenleeviyah - Dalaran"] = {
+		["Morgntreeman - Dalaran"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 	},
 	["profiles"] = {
-		["Morgntreeman - Dalaran"] = {
+		["Hyaae - Dalaran"] = {
 		},
-		["Jenleeviyah - Dalaran"] = {
+		["Morgntreeman - Dalaran"] = {
 		},
 	},
 }

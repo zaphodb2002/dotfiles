@@ -93,7 +93,7 @@ lazy.setup({
 	{'tools-life/taskwiki'},
 })
 
-vim.g.taskwiki_sort_order='urgency-'
+vim.g.taskwiki_sort_order='urgency+'
 vim.g.taskwiki_maplocalleader=",t"
 vim.keymap.set('n', 'tm', ':TaskWikiMod<CR>')
 local lspconfig = require('lspconfig')

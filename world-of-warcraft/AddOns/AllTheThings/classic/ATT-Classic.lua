@@ -657,7 +657,7 @@ local function GetAddedWithPatchString(awp, addedBack)
 			return nil;	-- Don't want to show this at the moment, let's add a configuration first!
 		end
 		if addedBack then formatString = formatString .. "_BACK"; end
-		return sformat(L[formatString .. "_WITH_PATCH_FORMAT"], 
+		return sformat(L[formatString .. "_WITH_PATCH_FORMAT"],
 		math.floor(awp / 10000) .. "." .. (math.floor(awp / 100) % 10) .. "." .. (awp % 10));
 	end
 end
@@ -876,7 +876,7 @@ local function GetBestMapForGroup(group, currentMapID)
 		if mapID and mapID == currentMapID then
 			return mapID;
 		end
-		
+
 		local coords = group.coords;
 		if coords then
 			for i,coord in ipairs(coords) do
@@ -895,7 +895,7 @@ local function GetBestMapForGroup(group, currentMapID)
 				end
 			end
 		end
-		
+
 		return mapID or GetBestMapForGroup(group.parent, currentMapID);
 	end
 end
@@ -1114,13 +1114,18 @@ local function MergeClone(g, o)
 	local e = GetRelativeValue(o, "e");
 	if e then clone.e = e; end
 	if not o.itemID or o.b == 1 then
-		local r = GetRelativeValue(o, "r");
-		if r then
-			clone.r = r;
-			clone.races = nil;
+		local races = o.races;
+		if races then
+			clone.races = CloneArray(races);
 		else
-			local races = GetRelativeValue(o, "races");
-			if races then clone.races = CloneArray(races); end
+			local r = GetRelativeValue(o, "r");
+			if r then
+				clone.r = r;
+				clone.races = nil;
+			else
+				races = GetRelativeValue(o, "races");
+				if races then clone.races = CloneArray(races); end
+			end
 		end
 		local c = GetRelativeValue(o, "c");
 		if c then clone.c = CloneArray(c); end
@@ -1947,7 +1952,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 				end
 				for left,splitCount in pairs(splitCounts) do
 					if splitCount.count < 6 then
-						if #splitCount.variants < 1 then
+						if #splitCount.variants == 0 then
 							tinsert(info, 1, { left = left, wrap = not string.find(left, " > ") });
 							count = count + 1;
 						else
@@ -2018,7 +2023,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 				group.g = merged;
 			end
 		end
-		
+
 		if mostAccessibleSource then
 			group.rwp = mostAccessibleSource.rwp;
 			group.e = mostAccessibleSource.e;
@@ -2102,7 +2107,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 				end
 			end
 		end
-		
+
 		local awp, rwp = GetRelativeValue(group, "awp"), group.rwp;
 		local awpGreaterThanRWP = true;
 		if awp and ((rwp or (group.u and group.u < 3)) or awp >= app.GameBuildVersion) then
@@ -2667,16 +2672,21 @@ local onClickForDynamicCategory = function(row, button)
 	end
 end
 local onUpdateForDynamicCategory = function(data)
+	local window = data.dynamicWindow;
 	data.progress = nil; data.total = nil;
-	data.dynamicWindow:ForceRebuild();
-	--print("onUpdateForDynamicCategory", data.text, data.progress, data.total);
-	local parent, total = data.parent, data.total;
-	if parent and total then
-		parent.progress = parent.progress + data.progress;
-		parent.total = parent.total + total;
-		data.visible = app.GroupVisibilityFilter(data);
+	if window then
+		window:ForceRebuild();
+		--print("onUpdateForDynamicCategory", data.text, data.progress, data.total);
+		local parent, total = data.parent, data.total;
+		if parent and total then
+			parent.progress = parent.progress + data.progress;
+			parent.total = parent.total + total;
+			data.visible = app.GroupVisibilityFilter(data);
+		else
+			data.visible = true;
+		end
 	else
-		data.visible = true;
+		data.visible = false;
 	end
 	return true;
 end
@@ -2804,7 +2814,7 @@ function app:GetDataCache()
 				isCraftedCategory = true
 			});
 		end
-		
+
 		-- Group Finder
 		if app.Categories.GroupFinder then
 			tinsert(g, {
@@ -2814,7 +2824,7 @@ function app:GetDataCache()
 				g = app.Categories.GroupFinder,
 			});
 		end
-		
+
 		-- Professions
 		if app.Categories.Professions then
 			tinsert(g, {
@@ -2886,7 +2896,14 @@ function app:GetDataCache()
 				isPromotionCategory = true
 			});
 		end
-
+		
+		-- Season of Discovery
+		if app.Categories.SeasonOfDiscovery then
+			for i,o in ipairs(app.Categories.SeasonOfDiscovery) do
+				tinsert(g, o);
+			end
+		end
+		
 		-- Skills
 		if app.Categories.Skills then
 			tinsert(g, {
@@ -2919,7 +2936,7 @@ function app:GetDataCache()
 		tinsert(g, app.CreateDynamicCategory("Battle Pets"));
 		tinsert(g, app.CreateDynamicCategory("Factions"));
 		tinsert(g, app.CreateDynamicCategory("Flight Paths"));
-		if C_Heirloom then tinsert(g, app.CreateDynamicCategory("Heirlooms")); end
+		if C_Heirloom and app.GameBuildVersion >= 30000 then tinsert(g, app.CreateDynamicCategory("Heirlooms")); end
 		tinsert(g, app.CreateDynamicCategory("Mounts"));
 		tinsert(g, app.CreateDynamicCategory("Titles"));
 		tinsert(g, app.CreateDynamicCategory("Toys"));
@@ -2992,6 +3009,11 @@ function app:GetDataCache()
 end
 
 -- Tooltip Functions
+local AUTHOR = {
+	["Player-76-0895E23B"] = true,		-- Crieve-Sargeras
+	["Player-4372-0000390A"] = true,	-- Crieve-Atiesh
+	["Player-5813-01CEF978"] = true,	-- Crieve-Wild Growth (SOD)
+};
 local EXTERMINATOR = {
 	["Player-4372-00B131BB"] = true,	-- Aivet
 	["Player-4372-004A0418"] = true,	-- Jubilee
@@ -3063,6 +3085,11 @@ local SCARAB_LORD = {
 };
 local function AttachTooltipRawSearchResults(self, lineNumber, group)
 	if group then
+		-- If nothing was put into the tooltip initially, mark the text of the source.
+		if self:NumLines() == 0 then
+			self:AddDoubleLine(group.name or group.text, " ", 1, 1, 1, 1);
+		end
+		
 		-- If there was info text generated for this search result, then display that first.
 		if group.tooltipInfo and #group.tooltipInfo > 0 then
 			local left, right, o;
@@ -3139,12 +3166,6 @@ local function AttachTooltip(self)
 
 				-- Does the tooltip have an owner?
 				local owner = self:GetOwner();
-				if owner then
-					if owner.SpellHighlightTexture and false then
-						-- Actionbars, don't want that.
-						return true;
-					end
-				end
 
 				-- Does the tooltip have a target?
 				local target = select(2, self:GetUnit());
@@ -3155,7 +3176,7 @@ local function AttachTooltip(self)
 						local type, zero, server_id, instance_id, zone_uid, npcID, spawn_uid = strsplit("-",guid);
 						-- print(guid, type, npcID);
 						if type == "Player" then
-							if guid == "Player-4372-0000390A" then
+							if AUTHOR[guid] then
 								local leftSide = _G[self:GetName() .. "TextLeft1"];
 								if leftSide then
 									leftSide:SetText("|c" .. app.Colors.Raid .. UnitName(target) .. " the Completionist|r");
@@ -3200,6 +3221,10 @@ local function AttachTooltip(self)
 				-- Does the tooltip have a spell? [Mount Journal, Action Bars, etc]
 				local spellID = select(2, self:GetSpell());
 				if spellID then
+					if owner.SpellHighlightTexture then
+						-- Actionbars, don't want that.
+						return true;
+					end
 					AttachTooltipSearchResults(self, 1, "spellID:" .. spellID, SearchForField, "spellID", spellID);
 					self:Show();
 					if owner and owner.ActiveTexture then
@@ -3210,7 +3235,7 @@ local function AttachTooltip(self)
 
 				-- Does the tooltip have an itemlink?
 				local itemName, link = self:GetItem();
-				if link then 
+				if link then
 					if owner and owner.cooldownWrapper then
 						local parent = owner:GetParent();
 						if parent then
@@ -3226,9 +3251,10 @@ local function AttachTooltip(self)
 							end
 						end
 					end
-					
+
 					-- Normal item tooltip, not on the Toy Box.
 					AttachTooltipSearchResults(self, 1, link, SearchForLink, link);
+					return true;
 				end
 
 				-- If the owner has a ref, it's an ATT row. Ignore it.
@@ -3432,7 +3458,7 @@ if TooltipDataProcessor then
 				local type, zero, server_id, instance_id, zone_uid, npcID, spawn_uid = strsplit("-",guid);
 				-- print(guid, type, npcID);
 				if type == "Player" then
-					if guid == "Player-4372-0000390A" or guid == "Player-76-0895E23B" then
+					if AUTHOR[guid] then
 						local leftSide = _G[tooltip:GetName() .. "TextLeft1"];
 						if leftSide then
 							leftSide:SetText("|c" .. app.Colors.Raid .. name .. " the Completionist|r");
@@ -3549,7 +3575,7 @@ else
 	WorldMapTooltip:HookScript("OnTooltipSetQuest", AttachTooltip);
 	WorldMapTooltip:HookScript("OnTooltipCleared", ClearTooltip);
 	WorldMapTooltip:HookScript("OnShow", AttachTooltip);
-	
+
 	tinsert(app.EventHandlers.OnReady, function()
 		local GameTooltip_SetLFGDungeonReward = GameTooltip.SetLFGDungeonReward;
 		if GameTooltip_SetLFGDungeonReward then
@@ -3567,7 +3593,7 @@ else
 				end
 			end
 		end
-		
+
 		local GameTooltip_SetLFGDungeonShortageReward = GameTooltip.SetLFGDungeonShortageReward;
 		if GameTooltip_SetLFGDungeonShortageReward then
 			GameTooltip.SetLFGDungeonShortageReward = function(self, dungeonID, shortageSeverity, lootIndex)
@@ -3961,6 +3987,9 @@ local categoryFields = {
 	["icon"] = function(t)
 		return app.asset("Category_Achievements");
 	end,
+	["ignoreSourceLookup"] = function(t)
+		return true;
+	end,
 };
 if GetCategoryInfo and (GetCategoryInfo(92) ~= "" and GetCategoryInfo(92) ~= nil) then
 	-- Achievements are in. We can use the API.
@@ -4123,7 +4152,7 @@ if GetCategoryInfo and (GetCategoryInfo(92) ~= "" and GetCategoryInfo(92) ~= nil
 				if criteriaID then
 					local name = t.GetInfo(achievementID, criteriaID, true);
 					if not IsRetrieving(name) then return name; end
-					
+
 					local providers = t.providers;
 					if providers then
 						for k,v in ipairs(providers) do
@@ -4138,7 +4167,7 @@ if GetCategoryInfo and (GetCategoryInfo(92) ~= "" and GetCategoryInfo(92) ~= nil
 							end
 						end
 					end
-					
+
 					local sourceQuests = t.sourceQuests;
 					if sourceQuests then
 						for k,id in ipairs(sourceQuests) do
@@ -4881,6 +4910,9 @@ app.CreateCategory = app.CreateClass("Category", "categoryID", {
 	["icon"] = function(t)
 		return app.CategoryIcons[t.categoryID] or defaultIcon;
 	end,
+	["ignoreSourceLookup"] = function(t)
+		return true;
+	end,
 });
 end)();
 
@@ -4940,6 +4972,9 @@ app.CreateCharacterClass, app.BaseCharacterClass = app.CreateClass("CharacterCla
 	end,
 	["classColors"] = function(t)
 		return RAID_CLASS_COLORS[C_CreatureInfo.GetClassInfo(t.classID).classFile];
+	end,
+	["ignoreSourceLookup"] = function(t)
+		return true;
 	end,
 });
 app.CreateUnit = app.CreateClass("Unit", "unit", {
@@ -5043,6 +5078,9 @@ app.CreateUnit = app.CreateClass("Unit", "unit", {
 		if icon then text = "|T" .. icon .. ":0|t " .. text; end
 		return text;
 	end,
+	["ignoreSourceLookup"] = function(t)
+		return true;
+	end,
 });
 app.CreateQuestUnit = app.ExtendClass("Unit", "QuestUnit", "unit", {
 	["visible"] = app.ReturnTrue,
@@ -5070,6 +5108,9 @@ app.CreateQuestUnit = app.ExtendClass("Unit", "QuestUnit", "unit", {
 				end
 			end
 		end
+	end,
+	["ignoreSourceLookup"] = function(t)
+		return true;
 	end,
 });
 end)();
@@ -5140,7 +5181,7 @@ local mountFields = {
 	end,
 };
 
-if C_PetJournal then
+if C_PetJournal and app.GameBuildVersion > 30000 then
 	-- Once the Pet Journal API is available, then all pets become account wide.
 	SetBattlePetCollected = function(t, speciesID, collected)
 		return app.SetAccountCollected(t, "BattlePets", speciesID, collected);
@@ -5164,7 +5205,7 @@ if C_PetJournal then
 		local count = C_PetJournal.GetNumCollectedInfo(t.speciesID);
 		return SetBattlePetCollected(t, t.speciesID, count and count > 0);
 	end
-	
+
 	local C_MountJournal = _G["C_MountJournal"];
 	if C_MountJournal then
 		-- Once the Mount Journal API is available, then all mounts become account wide.
@@ -5619,11 +5660,12 @@ app.CreateDeathClass = app.CreateClass("DeathsTracker", "deaths", fields);
 end)();
 
 -- Difficulty Lib
+local GetDifficultyInfo = GetDifficultyInfo;
 (function()
 local difficulties = {
 	[1] = { 9, 148, 173 },
 	[2] = { 174 },
-	[3] = { 175 },
+	[3] = { 175, 198 },
 	[4] = { 176 },
 	[9] = { 1 },
 	[148] = { 1 },
@@ -5631,6 +5673,7 @@ local difficulties = {
 	[174] = { 2 },
 	[175] = { 3 },
 	[176] = { 4 },
+	[198] = { 3 },
 };
 app.DifficultyColors = {
 	[2] = "ff0070dd",
@@ -5664,6 +5707,16 @@ app.DifficultyIcons = {
 	[24] = app.asset("Difficulty_Timewalking"),
 	[33] = app.asset("Difficulty_Timewalking"),
 };
+if not GetDifficultyInfo(3) then
+	local difficultyData = {
+		[1] = "Normal",
+		[3] = "10-Player",
+		[198] = "10-Player",
+	};
+	GetDifficultyInfo = function(difficultyID)
+		return difficultyData[difficultyID] or "Unknown Difficulty";
+	end
+end
 app.CreateDifficulty = app.CreateClass("Difficulty", "difficultyID", {
 	["text"] = function(t)
 		return t.sourceParent and sformat("%s [%s]", t.name, t.sourceParent.text or UNKNOWN) or t.name;
@@ -5753,17 +5806,26 @@ if EJ_GetEncounterInfo then
 	}, (function(t) return t.questID; end));
 else
 	app.CreateEncounter = function(id, t)
-		local npcID = t.creatureID or (t.crs and t.crs[1]) or t.npcID or (t.qgs and t.qgs[1]);
-		if npcID then
-			t = app.CreateNPC(npcID, t);
+		local providers = t.providers;
+		if providers then
+			local provider = providers[1];
+			--tremove(providers, 1);
+			if #providers < 1 then t.providers = nil; end
+			t = (provider[1] == "n" and app.CreateNPC or app.CreateObject)(provider[2], t);
 			t.encounterID = id;
 			return t;
 		else
-			t = constructor(id, t, "encounterID");
-			t.text = "INVALID ENCOUNTER " .. id;
-			print(t.text);
-			return t;
+			local npcID = t.creatureID or (t.crs and t.crs[1]) or t.npcID or (t.qgs and t.qgs[1]);
+			if npcID then
+				t = app.CreateNPC(npcID, t);
+				t.encounterID = id;
+				return t;
+			end
 		end
+		t = constructor(id, t, "encounterID");
+		t.text = "INVALID ENCOUNTER " .. id;
+		print(t.text);
+		return t;
 	end
 end
 end)();
@@ -5904,7 +5966,7 @@ local fields = {
 		return title;
 	end,
 	["reputation"] = function(t)
-		return select(6, GetFactionInfoByID(t.factionID));
+		return select(6, GetFactionInfoByID(t.factionID)) or 0;
 	end,
 	["ceiling"] = function(t)
 		local _, _, _, m, ma = GetFactionInfoByID(t.factionID);
@@ -6518,7 +6580,7 @@ app.CreateItem = app.CreateClass("Item", "itemID", itemFields,
 }, (function(t) return t.factionID; end));
 
 -- Heirloom Lib
-if C_Heirloom then
+if C_Heirloom and app.GameBuildVersion >= 30000 then
 	-- Heirloom API is available. Awesome!
 	local C_Heirloom_GetHeirloomInfo = C_Heirloom.GetHeirloomInfo;
 	local C_Heirloom_GetHeirloomLink = C_Heirloom.GetHeirloomLink;
@@ -6542,7 +6604,7 @@ if C_Heirloom then
 			return C_Heirloom_PlayerHasHeirloom(t.heirloomUnlockID);
 		end,
 	});
-	
+
 	-- Clone base item fields and extend the properties.
 	local heirloomFields = {
 		icon = function(t)
@@ -6624,7 +6686,7 @@ if C_Heirloom then
 		app.CacheHeirlooms = function()
 			-- app.PrintDebug("CacheHeirlooms",#heirloomIDs)
 			if #heirloomIDs < 1 then return; end
-			
+
 			-- Setup upgrade tokens that contain levels for the heirlooms. Order matters.
 			-- Ranks 1 & 2 were added with WOD (6.1.0.19445)
 			local armorTokenItemIDs = {
@@ -6738,7 +6800,7 @@ if C_Heirloom then
 			wipe(heirloomIDs);
 		end
 	end
-	
+
 	local CreateHeirloom = app.ExtendClass("Item", "Heirloom", "itemID", heirloomFields,
 	"AsRWP", {
 		collectible = function(t)
@@ -6781,7 +6843,7 @@ if C_Heirloom then
 	app.CreateHeirloom = function(id, t)
 		t = CreateHeirloom(id, t);
 		--t.b = 2;	-- Heirlooms are always BoA
-		
+
 		-- unlocking the heirloom is the only thing contained in the heirloom
 		t.g = { CreateHeirloomUnlock(id, { e = t.e, u = t.u }); }
 		tinsert(heirloomIDs, id);
@@ -6804,7 +6866,7 @@ end
 fields.itemID = function(t)
 	return t.toyID;
 end
-if C_ToyBox then
+if C_ToyBox and app.GameBuildVersion >= 30000 then
 	-- Toy API is in!
 	local C_ToyBox_GetToyInfo = C_ToyBox.GetToyInfo;
 	local function isBNETCollectible(toyID)
@@ -6829,7 +6891,7 @@ if C_ToyBox then
 	fields.isBNETCollectible = function(t)
 		return isBNETCollectible(t.toyID);
 	end
-	
+
 	app.events.TOYS_UPDATED = function(toyID, new)
 		if toyID then
 			app.SetAccountCollected(app.SearchForField("toyID", toyID)[1] or app.CreateToy(toyID), "Toys", toyID, PlayerHasToy(toyID));
@@ -6997,10 +7059,8 @@ local C_Map_GetBestMapForUnit = C_Map.GetBestMapForUnit;
 local C_MapExplorationInfo_GetExploredMapTextures = C_MapExplorationInfo.GetExploredMapTextures;
 local C_MapExplorationInfo_GetExploredAreaIDsAtPosition = C_MapExplorationInfo.GetExploredAreaIDsAtPosition;
 local mapIDToMapName, mapIDToAreaID = {}, {
-	[427] = { 132, 800 },	-- Coldridge Valley, Coldridge Pass
 	[465] = { 154 },	-- Deathknell
 	[425] = { 9, 59, 24, 34 },	-- Northshire Valley, Northshire Vineyards, Northshire Abbey, Echo Ridge Mine
-	[460] = { 188 },	-- Shadowglen
 	[462] = { 221 },	-- Camp Narache
 	[467] = { 3431 },	-- Sunstrider Isle
 	[468] = { 3526, 3527, 3560, 3528, 3559, 3529, 3530, 3561 },	-- Ammen Vale, Crash Site, Ammen Fields, Silverline Lake, Nestlewood Hills, Nestlewood Thicket, Shadow Ridge, The Sacred Grove
@@ -7066,7 +7126,7 @@ app.GetMapName = function(mapID)
 		local zoneTextSubstitution = L.MAP_ID_TO_ZONE_TEXT[mapID];
 		if zoneTextSubstitution then return zoneTextSubstitution; end
 		if mapIDToMapName[mapID] then return mapIDToMapName[mapID]; end
-		
+
 		local info = C_Map_GetMapInfo(mapID);
 		return (info and info.name) or ("Map ID #" .. mapID);
 	else
@@ -7422,6 +7482,9 @@ local createMap, mapClass = app.CreateClass("Map", "mapID", {
 	["lvl"] = function(t)
 		return C_Map_GetMapLevels(t.mapID);
 	end,
+	["ignoreSourceLookup"] = function(t)
+		return true;
+	end,
 });
 app.BaseMap = mapClass;
 app.CreateMap = function(id, t)
@@ -7546,6 +7609,9 @@ app.CreateInstance = app.CreateClass("Instance", "instanceID", {
 	["saved"] = function(t)
 		return t.locks;
 	end,
+	["ignoreSourceLookup"] = function(t)
+		return true;
+	end,
 },
 "WithCreature", {}, (function(t)
 	if t.creatureID and t.creatureID < 0 then
@@ -7589,6 +7655,7 @@ app.events.MAP_EXPLORATION_UPDATED = function(...)
 		end
 	end);
 end
+tinsert(app.EventHandlers.OnRecalculate, app.events.MAP_EXPLORATION_UPDATED);
 app.events.UI_INFO_MESSAGE = function(messageID)
 	if messageID == 372 then
 		app.events.MAP_EXPLORATION_UPDATED();
@@ -7732,6 +7799,9 @@ local createCustomHeader = app.CreateClass("Header", "headerID", {
 	["trackable"] = function(t)
 		return t.questID;
 	end,
+	["ignoreSourceLookup"] = function(t)
+		return true;
+	end,
 },
 "WithEvent", app.Modules.Events.Fields, (function(t) return L.HEADER_EVENTS[t.headerID]; end));
 app.CreateCustomHeader = createCustomHeader;
@@ -7826,6 +7896,9 @@ app.CreateHeader = app.CreateClass("AutomaticHeader", "autoID", {
 		end
 		print("Unhandled Header Type", t.type, t.autoID, typ);
 		return app.EmptyTable;
+	end,
+	["ignoreSourceLookup"] = function(t)
+		return true;
 	end,
 },
 "WithQuest", {
@@ -7999,6 +8072,9 @@ app.CreateProfession = app.CreateClass("Profession", "professionID", {
 	end,
 	["requireSkill"] = function(t)
 		return t.professionID;
+	end,
+	["ignoreSourceLookup"] = function(t)
+		return true;
 	end,
 	["sym"] = function(t)
 		return {{"selectprofession", t.professionID}};
@@ -8349,47 +8425,55 @@ end),
 	end
 }, (function(t) return t.isBreadcrumb; end));
 app.CreateQuest = createQuest;
-app.CreateQuestWithFactionData = function(t)
+local ResolveQuestData = function(t)
 	local aqd, hqd = t.aqd, t.hqd;
-	local questData, otherQuestData;
-	if app.FactionID == HORDE_FACTION_ID then
-		questData = hqd;
-		otherQuestData = aqd;
-	else
-		questData = aqd;
-		otherQuestData = hqd;
-	end
-
-	-- Move over the quest data's groups.
-	if questData.g then
-		if not t.g then
-			t.g = questData.g;
+	if aqd and hqd then
+		local questData, otherQuestData;
+		if app.FactionID == HORDE_FACTION_ID then
+			questData = hqd;
+			otherQuestData = aqd;
 		else
-			for _,o in ipairs(questData.g) do
-				tinsert(t.g, 1, o);
+			questData = aqd;
+			otherQuestData = hqd;
+		end
+
+		-- Move over the quest data's groups.
+		if questData.g then
+			if not t.g then
+				t.g = questData.g;
+			else
+				for _,o in ipairs(questData.g) do
+					tinsert(t.g, 1, o);
+				end
+			end
+			questData.g = nil;
+		end
+		if otherQuestData.g then
+			for _,o in ipairs(otherQuestData.g) do
+				o.parent = otherQuestData;
 			end
 		end
-		questData.g = nil;
-	end
-	if otherQuestData.g then
-		for _,o in ipairs(otherQuestData.g) do
-			o.parent = otherQuestData;
-		end
-	end
 
-	-- Apply this quest's current data into the other faction's quest. (this is for tooltip caching and source quest resolution)
-	for key,value in pairs(t) do
-		if key ~= "g" then
-			otherQuestData[key] = value;
+		-- Apply this quest's current data into the other faction's quest. (this is for tooltip caching and source quest resolution)
+		for key,value in pairs(t) do
+			if key ~= "g" then
+				otherQuestData[key] = value;
+			end
 		end
-	end
 
-	-- Apply the faction specific quest data to this object.
-	for key,value in pairs(questData) do t[key] = value; end
-	aqd.r = ALLIANCE_FACTION_ID;
-	hqd.r = HORDE_FACTION_ID;
-	t.otherQuestData = otherQuestData;
-	otherQuestData.nmr = 1;
+		-- Apply the faction specific quest data to this object.
+		for key,value in pairs(questData) do t[key] = value; end
+		aqd.r = ALLIANCE_FACTION_ID;
+		hqd.r = HORDE_FACTION_ID;
+		t.otherQuestData = otherQuestData;
+		otherQuestData.nmr = 1;
+	else
+		error("Missing AQD / HQD", aqd and true or false, hqd and true or false);
+	end
+end
+app.ResolveQuestData = ResolveQuestData;
+app.CreateQuestWithFactionData = function(t)
+	ResolveQuestData(t);
 	return createQuest(t.questID, t);
 end
 app.CreateQuestObjective = app.CreateClass("Objective", "objectiveID", {
@@ -8806,6 +8890,9 @@ local spellFields = {
 		end
 		return "Interface\\ICONS\\INV_Scroll_04";
 	end,
+	["description"] = function(t)
+		return GetSpellDescription(t.spellID);
+	end,
 	["craftTypeID"] = function(t)
 		return app.CurrentCharacter.SpellRanks[t.spellID];
 	end,
@@ -8875,6 +8962,8 @@ end)();
 		__index = function(t, key)
 			if key == "key" then
 				return "tierID";
+			elseif key == "ignoreSourceLookup" then
+				return true;
 			else
 				local info = rawget(L.TIER_DATA, t.tierID);
 				return info and rawget(info, key);
@@ -9593,7 +9682,7 @@ local function RefreshCollections()
 			end
 			coroutine.yield();
 		end
-		
+
 		-- Refresh Toys
 		local collected;
 		for id,t in pairs(app.SearchForFieldContainer("toyID")) do
@@ -10691,16 +10780,8 @@ local function RowOnEnter(self)
 				local link = reference.link;
 				if link then
 					pcall(GameTooltip.SetHyperlink, GameTooltip, link);
-					if reference.spellID then
-						local requireSkill = GetRelativeValue(reference, "requireSkill");
-						if requireSkill == 333 then
-							AttachTooltipSearchResults(GameTooltip, 1, "spellID:" .. reference.spellID, SearchForField, "spellID", reference.spellID);
-						elseif requireSkill == 960 then
-							GameTooltip:AddLine(GameTooltipTextLeft1:GetText(), 1, 1, 1, true);
-							GameTooltipTextLeft1:SetText(reference.name);
-							GameTooltip:Show();
-						end
-					end
+					local spellID = reference.spellID;
+					if spellID then AttachTooltipSearchResults(GameTooltip, 1, "spellID:" .. spellID, SearchForField, "spellID", spellID); end
 				end
 			end
 		end
@@ -10723,13 +10804,14 @@ local function RowOnEnter(self)
 				--GameTooltip:AddLine(reference.parent.text or RETRIEVING_DATA, 1, 1, 1);
 			end
 		end
-		
-		local linesByText = {};
+
+		local linesByText = {}, title;
 		for i=1,GameTooltip:NumLines() do
-			linesByText[_G["GameTooltipTextLeft"..i]:GetText()] = true;
+			title = _G["GameTooltipTextLeft"..i]:GetText();
+			if title then linesByText[title] = true; end
 		end
 
-		local title = reference.title;
+		title = reference.title;
 		if title then
 			local left, right = strsplit(DESCRIPTION_SEPARATOR, title);
 			if right then
@@ -11147,7 +11229,7 @@ local function RowOnEnter(self)
 						if key == "shared" then
 							-- Skip
 						else
-							GameTooltip:AddDoubleLine(Colorize(GetDifficultyInfo(key), app.DifficultyColors[key] or app.Colors.DefaultDifficulty), date("%c", value.reset));
+							GameTooltip:AddDoubleLine(Colorize(GetDifficultyInfo(key) or LOCK, app.DifficultyColors[key] or app.Colors.DefaultDifficulty), date("%c", value.reset));
 							for encounterIter,encounter in pairs(value.encounters) do
 								GameTooltip:AddDoubleLine(" " .. encounter.name, GetCompletionIcon(encounter.isKilled));
 							end
@@ -11693,7 +11775,7 @@ local BuildCategory = function(self, headers, searchResults, inst)
 					headerType = "holiday";
 				elseif GetRelativeValue(o, "isPromotionCategory") then
 					headerType = "promo";
-				elseif GetRelativeValue(o, "isPVPCategory") then
+				elseif GetRelativeValue(o, "isPVPCategory") or o.pvp then
 					headerType = "pvp";
 				elseif GetRelativeValue(o, "isEventCategory") then
 					headerType = "event";
@@ -12617,8 +12699,9 @@ local function OnInitForPopout(self, group)
 		end
 	end
 	]]--
-
-	if self.data.key then
+	
+	local dataKey = self.data.key;
+	if dataKey then
 		if group.cost and type(group.cost) == "table" then
 			local costGroup = {
 				["text"] = "Cost",
@@ -12693,6 +12776,16 @@ local function OnInitForPopout(self, group)
 			if #sourceGroup.g > 0 then
 				if not self.data.g then self.data.g = {}; end
 				MergeObject(self.data.g, sourceGroup, 1);
+			end
+		end
+		
+		if not self.data.ignoreSourceLookup then
+			local results = app:BuildSearchResponse(app:GetDataCache().g, dataKey, self.data[dataKey]);
+			if results and #results > 0 then
+				if not self.data.g then self.data.g = {}; end
+				for i,result in ipairs(results) do
+					tinsert(self.data.g, result);
+				end
 			end
 		end
 	end
@@ -12909,7 +13002,7 @@ local function SortForMiniList(a,b)
 		-- neither a or b exists, equality returns false
 		return false;
 	end
-	
+
 	if a.isRaid then
 		if not b.isRaid then
 			return true;
@@ -12923,7 +13016,7 @@ local function SortForMiniList(a,b)
 	elseif a.maps then
 		return false;
 	end
-	
+
 	-- Any two similar-type groups with text
 	return tostring(a.name or a.text) < tostring(b.name or b.text);
 end
@@ -12947,7 +13040,7 @@ local CachedMapData = setmetatable({}, {
 							return o;
 						end
 					end
-					
+
 					local o = app.CreateNPC(headerID);
 					tinsert(groups, o);
 					t[headerID] = o;
@@ -12958,7 +13051,7 @@ local CachedMapData = setmetatable({}, {
 			local function MergeIntoHeader(headerID, o)
 				MergeObject(headers[headerID].g, o);
 			end
-			
+
 			local header = {};
 			header.mapID = mapID;
 			header.g = groups;
@@ -12987,8 +13080,10 @@ local CachedMapData = setmetatable({}, {
 				if c then clone.c = c; end
 				local r = GetRelativeValue(group, "r");
 				if r then clone.r = r; end
+				local lvl = GetRelativeValue(group, "lvl");
+				if lvl then clone.lvl = lvl; end
 				setmetatable(clone, getmetatable(group));
-				
+
 				local key = group.key;
 				if (key == "mapID" or key == "instanceID") or ((key == "headerID" or key == "npcID") and (group.maps and (mapID < 0 and contains(group.maps, mapID)))) then
 					header.key = key;
@@ -13034,7 +13129,7 @@ local CachedMapData = setmetatable({}, {
 					end
 				end
 			end
-			
+
 			-- Swap out the map data for the header.
 			results = ((results.classID and app.CreateCharacterClass) or (header.key == "instanceID" and app.CreateInstance) or app.CreateMap)(header[header.key], header);
 			ExpandGroupsRecursively(results, true);
@@ -13043,7 +13138,7 @@ local CachedMapData = setmetatable({}, {
 			results.mapID = mapID;
 			results.back = 1;
 			results.indent = 0;
-			
+
 			local difficultyID = (IsInInstance() and select(3, GetInstanceInfo())) or (EJ_GetDifficulty and EJ_GetDifficulty()) or 0;
 			if difficultyID ~= 0 then
 				for _,row in ipairs(header.g) do
@@ -13056,7 +13151,7 @@ local CachedMapData = setmetatable({}, {
 					end
 				end
 			end
-			
+
 			-- Sort the list, but not for instances.
 			if not results.instanceID then
 				app.Sort(groups, SortForMiniList);
@@ -14221,7 +14316,7 @@ app.events.ADDON_LOADED = function(addonName)
 	-- Only execute for this addon.
 	if addonName ~= appName then return; end
 	app:UnregisterEvent("ADDON_LOADED");
-	
+
 	AllTheThingsAD = _G["AllTheThingsAD"];	-- For account-wide data.
 	if not AllTheThingsAD then
 		AllTheThingsAD = _G["ATTClassicAD"];
@@ -14493,6 +14588,8 @@ app.events.ADDON_LOADED = function(addonName)
 				local now = time();
 				timeStamps[field] = now;
 				currentCharacter.lastPlayed = now;
+			else
+				accountWideData[field][id] = 1;
 			end
 			return 1;
 		elseif oldstate then
@@ -14529,6 +14626,8 @@ app.events.ADDON_LOADED = function(addonName)
 				local now = time();
 				timeStamps[field] = now;
 				currentCharacter.lastPlayed = now;
+			else
+				accountWideData[field][id] = 1;
 			end
 			return 1;
 		elseif oldstate then
@@ -14601,6 +14700,9 @@ end
 app.events.VARIABLES_LOADED = function()
 	app:StartATTCoroutine("Startup", function()
 		coroutine.yield();
+		
+		-- Check for Season of Discovery
+		getmetatable(ATTClassicSettings.Unobtainables).__index[1605] = C_Engraving and C_Engraving.IsEngravingEnabled();
 
 		-- Prepare the Sound Pack!
 		app.Audio:ReloadSoundPack();
@@ -14638,7 +14740,7 @@ app.events.VARIABLES_LOADED = function()
 
 		-- Now that all the windows are loaded, cache flight paths!
 		app.CacheFlightPathData();
-	
+
 		-- Execute the OnReady handlers.
 		for i,handler in ipairs(app.EventHandlers.OnReady) do
 			handler();

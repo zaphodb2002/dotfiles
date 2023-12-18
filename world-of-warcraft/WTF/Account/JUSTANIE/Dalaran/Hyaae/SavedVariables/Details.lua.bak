@@ -1,0 +1,6625 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 8,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008578,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 552996.008578,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 552996.008578,
+							["spec"] = 66,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-3683-0D9B60C9",
+							["colocacao"] = 1,
+							["aID"] = "3683-0D9B60C9",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 243802,
+								["PvP Training Dummy"] = 15742,
+								["Raider's Training Dummy"] = 293452,
+							},
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 0,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+							["isTank"] = true,
+							["grupo"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260950,
+							["nome"] = "Hyaae",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5241,
+										["targets"] = {
+											["Raider's Training Dummy"] = 30121,
+										},
+										["n_total"] = 20294,
+										["n_min"] = 4958,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 30121,
+										["c_max"] = 9827,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 9827,
+										["successful_casted"] = 0,
+										["c_total"] = 9827,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[53600] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 11175,
+										["targets"] = {
+											["Raider's Training Dummy"] = 11175,
+										},
+										["n_total"] = 11175,
+										["n_min"] = 11175,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 11175,
+										["c_max"] = 0,
+										["id"] = 53600,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[275779] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 30468,
+										["targets"] = {
+											["Raider's Training Dummy"] = 60495,
+										},
+										["n_total"] = 60495,
+										["n_min"] = 30027,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 60495,
+										["c_max"] = 0,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[385723] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3780,
+										["targets"] = {
+											["Raider's Training Dummy"] = 26282,
+										},
+										["n_total"] = 11280,
+										["n_min"] = 3720,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 26282,
+										["c_max"] = 7562,
+										["id"] = 385723,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 7440,
+										["successful_casted"] = 0,
+										["c_total"] = 15002,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[31935] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 12933,
+										["targets"] = {
+											["Training Dummy"] = 187615,
+											["PvP Training Dummy"] = 12933,
+											["Raider's Training Dummy"] = 50269,
+										},
+										["n_total"] = 126355,
+										["n_min"] = 12354,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 250817,
+										["c_max"] = 25435,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 24512,
+										["successful_casted"] = 0,
+										["c_total"] = 124462,
+										["n_amt"] = 10,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[378286] = {
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2809,
+										["targets"] = {
+											["Training Dummy"] = 56187,
+											["PvP Training Dummy"] = 2809,
+											["Raider's Training Dummy"] = 10660,
+										},
+										["n_total"] = 32198,
+										["n_min"] = 2633,
+										["g_dmg"] = 0,
+										["counter"] = 19,
+										["total"] = 69656,
+										["c_max"] = 5352,
+										["id"] = 378286,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 5351,
+										["successful_casted"] = 0,
+										["c_total"] = 37458,
+										["n_amt"] = 12,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[81297] = {
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1161,
+										["targets"] = {
+											["Raider's Training Dummy"] = 23562,
+										},
+										["n_total"] = 7724,
+										["n_min"] = 909,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 23562,
+										["c_max"] = 2319,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 2236,
+										["successful_casted"] = 0,
+										["c_total"] = 15838,
+										["n_amt"] = 7,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[24275] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Raider's Training Dummy"] = 80888,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 80888,
+										["c_max"] = 80888,
+										["id"] = 24275,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 80888,
+										["successful_casted"] = 0,
+										["c_total"] = 80888,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 42482.60033632998,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.008578,
+							["start_time"] = 1702260937,
+							["delay"] = 0,
+							["last_event"] = 1702260950,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.002153,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.002153,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.002153,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3883-0-18320-31146-0000766977",
+							["aID"] = "31146",
+							["damage_from"] = {
+								["Hyaae"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260950,
+							["nome"] = "Raider's Training Dummy",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 293452.002153,
+							["start_time"] = 1702260950,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.001387,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.001387,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.001387,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3883-0-18320-114832-0000766977",
+							["aID"] = "114832",
+							["damage_from"] = {
+								["Viendrah"] = true,
+								["Hyaae"] = true,
+								["Tina <Viendrah>"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260950,
+							["nome"] = "PvP Training Dummy",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 163423.001387,
+							["start_time"] = 1702260950,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.001884,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.001884,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.001884,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3883-0-18320-153292-0000766977",
+							["aID"] = "153292",
+							["damage_from"] = {
+								["Hyaae"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260950,
+							["nome"] = "Training Dummy",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 243802.001884,
+							["start_time"] = 1702260950,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 8,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 7439.001236,
+							["total_without_pet"] = 0.001236,
+							["total"] = 0.001236,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["isTank"] = true,
+							["totalabsorb"] = 0.001236,
+							["last_hps"] = 0,
+							["aID"] = "3683-0D9B60C9",
+							["targets"] = {
+							},
+							["spec"] = 66,
+							["serial"] = "Player-3683-0D9B60C9",
+							["totalover_without_pet"] = 0.001236,
+							["grupo"] = true,
+							["healing_taken"] = 0.001236,
+							["healing_from"] = {
+							},
+							["classe"] = "PALADIN",
+							["end_time"] = 1702260950,
+							["targets_overheal"] = {
+								["Hyaae"] = 7439,
+							},
+							["start_time"] = 1702260949,
+							["nome"] = "Hyaae",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[407467] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Hyaae"] = 7439,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Hyaae"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 7439,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 407467,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["spellschool"] = 2,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["custom"] = 0,
+							["last_event"] = 1702260939,
+							["totaldenied"] = 0.001236,
+							["delay"] = 1702260939,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 8,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 5.007791,
+							["pets"] = {
+							},
+							["aID"] = "3683-0D9B60C9",
+							["passiveover"] = 0.007791,
+							["total"] = 0.007791,
+							["spec"] = 66,
+							["isTank"] = true,
+							["received"] = 0.007791,
+							["targets"] = {
+							},
+							["powertype"] = 0,
+							["alternatepower"] = 0.007791,
+							["resource_type"] = 9,
+							["nome"] = "Hyaae",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["classe"] = "PALADIN",
+							["last_event"] = 1702260944,
+							["totalover"] = 0.007791,
+							["serial"] = "Player-3683-0D9B60C9",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 8,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["classe"] = "PALADIN",
+							["buff_uptime"] = 39,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[225787] = {
+										["activedamt"] = 1,
+										["id"] = 225787,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[378974] = {
+										["activedamt"] = 0,
+										["id"] = 378974,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188370] = {
+										["activedamt"] = 1,
+										["id"] = 188370,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260937,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[386730] = {
+										["activedamt"] = 0,
+										["id"] = 386730,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[182104] = {
+										["activedamt"] = 0,
+										["id"] = 182104,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[393038] = {
+										["activedamt"] = 0,
+										["id"] = 393038,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[386652] = {
+										["activedamt"] = 0,
+										["id"] = 386652,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[209388] = {
+										["activedamt"] = 0,
+										["id"] = 209388,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[465] = {
+										["activedamt"] = 1,
+										["id"] = 465,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[397734] = {
+										["activedamt"] = 1,
+										["id"] = 397734,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[385724] = {
+										["activedamt"] = 0,
+										["id"] = 385724,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[385127] = {
+										["activedamt"] = 0,
+										["id"] = 385127,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[383389] = {
+										["activedamt"] = 0,
+										["id"] = 383389,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[389539] = {
+										["activedamt"] = 0,
+										["id"] = 389539,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-3683-0D9B60C9",
+							["aID"] = "3683-0D9B60C9",
+							["nome"] = "Hyaae-Dalaran",
+							["spec"] = 66,
+							["last_event"] = 1702260950,
+							["isTank"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[31935] = {
+										["activedamt"] = 0,
+										["id"] = 31935,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 4,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[204242] = {
+										["activedamt"] = -1,
+										["id"] = 204242,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260949,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[197277] = {
+										["activedamt"] = 1,
+										["id"] = 197277,
+										["targets"] = {
+										},
+										["uptime"] = 11,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["cooldowns_defensive"] = 1.008626,
+							["pets"] = {
+							},
+							["last_cooldown"] = {
+								1702260938.154, -- [1]
+								389539, -- [2]
+							},
+							["aID"] = "3683-0D9B60C9",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[280375] = {
+										["activedamt"] = 1,
+										["id"] = 280375,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[378974] = {
+										["activedamt"] = 1,
+										["id"] = 378974,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260937,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[132403] = {
+										["activedamt"] = 1,
+										["id"] = 132403,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188370] = {
+										["activedamt"] = 0,
+										["id"] = 188370,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[386730] = {
+										["activedamt"] = 1,
+										["id"] = 386730,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260944,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[383389] = {
+										["activedamt"] = 1,
+										["id"] = 383389,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260939,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[393038] = {
+										["activedamt"] = 1,
+										["id"] = 393038,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260949,
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 5,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[386652] = {
+										["activedamt"] = 1,
+										["id"] = 386652,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260950,
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 17,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[209388] = {
+										["activedamt"] = 1,
+										["id"] = 209388,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260945,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[385724] = {
+										["activedamt"] = 1,
+										["id"] = 385724,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260949,
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 5,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[385127] = {
+										["activedamt"] = 1,
+										["id"] = 385127,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260940,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[389539] = {
+										["activedamt"] = 1,
+										["id"] = 389539,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260937,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[182104] = {
+										["activedamt"] = 1,
+										["id"] = 182104,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260939,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 14,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 66,
+							["cc_done_targets"] = {
+								["Training Dummy"] = 3,
+								["PvP Training Dummy"] = 1,
+							},
+							["isTank"] = true,
+							["buff_uptime"] = 29,
+							["cc_done_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[31935] = {
+										["id"] = 31935,
+										["targets"] = {
+											["Training Dummy"] = 3,
+											["PvP Training Dummy"] = 1,
+										},
+										["counter"] = 4,
+									},
+								},
+							},
+							["cooldowns_defensive_targets"] = {
+								["Hyaae"] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["cc_done"] = 4.001628,
+							["nome"] = "Hyaae",
+							["cooldowns_defensive_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[389539] = {
+										["id"] = 389539,
+										["targets"] = {
+											["Hyaae"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["classe"] = "PALADIN",
+							["last_event"] = 1702260950,
+							["tipo"] = 4,
+							["grupo"] = true,
+							["serial"] = "Player-3683-0D9B60C9",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 8,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Hyaae-Dalaran"] = "Player-3683-0D9B60C9",
+				},
+				["raid_roster_indexed"] = {
+					"Hyaae-Dalaran", -- [1]
+				},
+				["CombatStartedAt"] = 17091.727,
+				["tempo_start"] = 1702260937,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 13,
+				["playing_solo"] = true,
+				["totals"] = {
+					700677, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 1,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["amountCasts"] = {
+					["Tina"] = {
+						["Bite"] = 3,
+						["Growl"] = 2,
+					},
+					["Hyaae"] = {
+						["Shield of the Righteous"] = 1,
+						["Sentinel"] = 1,
+						["Judgment"] = 2,
+						["Divine Toll"] = 1,
+						["Hammer of Wrath"] = 1,
+						["Bastion of Light"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "18:15:50",
+				["hasTimer"] = 13.03399999999965,
+				["pvp"] = true,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Training Dummy",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 13.26699999999983,
+				["CombatEndedAt"] = 17104.994,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "18:15:37",
+				["end_time"] = 17104.994,
+				["combat_id"] = 8,
+				["frags"] = {
+				},
+				["overall_added"] = true,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					552996, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 1,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Hyaae"] = 0.001236,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Hyaae"] = 552996.008578,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 17091.727,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 7,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002983,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 4598.002983,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 4598.002983,
+							["spec"] = 66,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-3683-0D9B60C9",
+							["colocacao"] = 1,
+							["aID"] = "3683-0D9B60C9",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Squirrel"] = 1816,
+								["Raider's Training Dummy"] = 2782,
+							},
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 0,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+							["isTank"] = true,
+							["grupo"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260936,
+							["nome"] = "Hyaae",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[81297] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 939,
+										["targets"] = {
+											["Squirrel"] = 1816,
+											["Raider's Training Dummy"] = 2782,
+										},
+										["n_total"] = 4598,
+										["n_min"] = 907,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 4598,
+										["c_max"] = 0,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 4054.676351845296,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.002983,
+							["start_time"] = 1702260935,
+							["delay"] = 0,
+							["last_event"] = 1702260936,
+						}, -- [1]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.00847,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.00847,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.00847,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-0-11824-61081-00007670AE",
+							["aID"] = "61081",
+							["damage_from"] = {
+								["Hyaae"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260936,
+							["nome"] = "Squirrel",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 1816.00847,
+							["start_time"] = 1702260936,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.001934,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.001934,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.001934,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3883-0-18320-31146-0000766977",
+							["aID"] = "31146",
+							["damage_from"] = {
+								["Hyaae"] = true,
+								["Viendrah"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260936,
+							["nome"] = "Raider's Training Dummy",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 9068.001934,
+							["start_time"] = 1702260936,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 7,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 7,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 7,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["classe"] = "PALADIN",
+							["buff_uptime"] = 3,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[225787] = {
+										["activedamt"] = 1,
+										["id"] = 225787,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[465] = {
+										["activedamt"] = 1,
+										["id"] = 465,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[397734] = {
+										["activedamt"] = 1,
+										["id"] = 397734,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188370] = {
+										["activedamt"] = 0,
+										["id"] = 188370,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-3683-0D9B60C9",
+							["aID"] = "3683-0D9B60C9",
+							["nome"] = "Hyaae-Dalaran",
+							["spec"] = 66,
+							["last_event"] = 1702260936,
+							["isTank"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[204242] = {
+										["activedamt"] = 1,
+										["id"] = 204242,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 0,
+							["aID"] = "3683-0D9B60C9",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[188370] = {
+										["activedamt"] = 1,
+										["id"] = 188370,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260935,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 1,
+							["nome"] = "Hyaae",
+							["spec"] = 66,
+							["grupo"] = true,
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 1702260935,
+							["buff_uptime_targets"] = {
+							},
+							["isTank"] = true,
+							["serial"] = "Player-3683-0D9B60C9",
+							["classe"] = "PALADIN",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 7,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Hyaae-Dalaran"] = "Player-3683-0D9B60C9",
+				},
+				["raid_roster_indexed"] = {
+					"Hyaae-Dalaran", -- [1]
+				},
+				["CombatStartedAt"] = 17089.894,
+				["tempo_start"] = 1702260935,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 12,
+				["playing_solo"] = true,
+				["totals"] = {
+					36896, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "18:15:36",
+				["hasTimer"] = 1.001000000000204,
+				["pvp"] = true,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Squirrel",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 1.134000000001834,
+				["CombatEndedAt"] = 17091.028,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "18:15:35",
+				["end_time"] = 17091.028,
+				["combat_id"] = 7,
+				["frags"] = {
+					["Squirrel"] = 2,
+				},
+				["overall_added"] = true,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					4598, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Hyaae"] = 4598.002983,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 17089.894,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 6,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008477,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 15811.008477,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 15811.008477,
+							["spec"] = 66,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-3683-0D9B60C9",
+							["colocacao"] = 1,
+							["aID"] = "3683-0D9B60C9",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Raider's Training Dummy"] = 15811,
+							},
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 0,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+							["isTank"] = true,
+							["grupo"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260868,
+							["nome"] = "Hyaae",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[81297] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 946,
+										["targets"] = {
+											["Raider's Training Dummy"] = 15811,
+										},
+										["n_total"] = 10230,
+										["n_min"] = 913,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 15811,
+										["c_max"] = 1878,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 1826,
+										["successful_casted"] = 0,
+										["c_total"] = 5581,
+										["n_amt"] = 11,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 908.6786481035622,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.008477,
+							["start_time"] = 1702260850,
+							["delay"] = 0,
+							["last_event"] = 1702260862,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.007249,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.007249,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.007249,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3883-0-18320-31146-0000766977",
+							["aID"] = "31146",
+							["damage_from"] = {
+								["Voncrekt"] = true,
+								["Viendrah"] = true,
+								["Hyaae"] = true,
+								["Tina <Viendrah>"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260868,
+							["nome"] = "Raider's Training Dummy",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 643982.007249,
+							["start_time"] = 1702260868,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 6,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 6,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 6,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["classe"] = "PALADIN",
+							["buff_uptime"] = 54,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[225787] = {
+										["activedamt"] = 1,
+										["id"] = 225787,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[465] = {
+										["activedamt"] = 1,
+										["id"] = 465,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[397734] = {
+										["activedamt"] = 1,
+										["id"] = 397734,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188370] = {
+										["activedamt"] = 1,
+										["id"] = 188370,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260850,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-3683-0D9B60C9",
+							["aID"] = "3683-0D9B60C9",
+							["nome"] = "Hyaae-Dalaran",
+							["spec"] = 66,
+							["last_event"] = 1702260868,
+							["isTank"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[204242] = {
+										["activedamt"] = -1,
+										["id"] = 204242,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260863,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 0,
+							["aID"] = "3683-0D9B60C9",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[188370] = {
+										["activedamt"] = 0,
+										["id"] = 188370,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 0,
+							["nome"] = "Hyaae",
+							["spec"] = 66,
+							["grupo"] = true,
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 1702260863,
+							["buff_uptime_targets"] = {
+							},
+							["isTank"] = true,
+							["serial"] = "Player-3683-0D9B60C9",
+							["classe"] = "PALADIN",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 6,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Hyaae-Dalaran"] = "Player-3683-0D9B60C9",
+				},
+				["raid_roster_indexed"] = {
+					"Hyaae-Dalaran", -- [1]
+				},
+				["tempo_start"] = 1702260850,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 11,
+				["playing_solo"] = true,
+				["totals"] = {
+					4626837, -- [1]
+					0, -- [2]
+					{
+						149.4000010490418, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["amountCasts"] = {
+					["Tina"] = {
+						["Bite"] = 6,
+						["Growl"] = 2,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "18:14:28",
+				["hasTimer"] = 17,
+				["pvp"] = true,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Raider's Training Dummy",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 17022.696,
+				["CombatEndedAt"] = 17022.696,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "18:14:11",
+				["end_time"] = 17022.696,
+				["combat_id"] = 6,
+				["frags"] = {
+				},
+				["overall_added"] = true,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					15811, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Hyaae"] = 15811.008477,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 17005.296,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 5,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008822,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 4643.008822,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 4643.008822,
+							["spec"] = 66,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-3683-0D9B60C9",
+							["colocacao"] = 1,
+							["aID"] = "3683-0D9B60C9",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Raider's Training Dummy"] = 2810,
+								["Rabbit"] = 1833,
+							},
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 0,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+							["isTank"] = true,
+							["grupo"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260850,
+							["nome"] = "Hyaae",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[81297] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 936,
+										["targets"] = {
+											["Raider's Training Dummy"] = 2810,
+											["Rabbit"] = 1833,
+										},
+										["n_total"] = 2769,
+										["n_min"] = 910,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 4643,
+										["c_max"] = 1874,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 1874,
+										["successful_casted"] = 0,
+										["c_total"] = 1874,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 4976.429605568606,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.008822,
+							["start_time"] = 1702260849,
+							["delay"] = 0,
+							["last_event"] = 1702260849,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.008604,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.008604,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.008604,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3883-0-18320-31146-0000766977",
+							["aID"] = "31146",
+							["damage_from"] = {
+								["Hyaae"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260850,
+							["nome"] = "Raider's Training Dummy",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 2810.008604,
+							["start_time"] = 1702260850,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.0014,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.0014,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.0014,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-0-11824-61080-0000766FF9",
+							["aID"] = "61080",
+							["damage_from"] = {
+								["Hyaae"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260850,
+							["nome"] = "Rabbit",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 1833.0014,
+							["start_time"] = 1702260850,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 5,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 5,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 5,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["classe"] = "PALADIN",
+							["buff_uptime"] = 3,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[225787] = {
+										["activedamt"] = 1,
+										["id"] = 225787,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[465] = {
+										["activedamt"] = 1,
+										["id"] = 465,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[397734] = {
+										["activedamt"] = 1,
+										["id"] = 397734,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188370] = {
+										["activedamt"] = 0,
+										["id"] = 188370,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-3683-0D9B60C9",
+							["aID"] = "3683-0D9B60C9",
+							["nome"] = "Hyaae-Dalaran",
+							["spec"] = 66,
+							["last_event"] = 1702260850,
+							["isTank"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[204242] = {
+										["activedamt"] = 1,
+										["id"] = 204242,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 0,
+							["aID"] = "3683-0D9B60C9",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[188370] = {
+										["activedamt"] = 1,
+										["id"] = 188370,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260849,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 1,
+							["nome"] = "Hyaae",
+							["spec"] = 66,
+							["grupo"] = true,
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 1702260849,
+							["buff_uptime_targets"] = {
+							},
+							["isTank"] = true,
+							["serial"] = "Player-3683-0D9B60C9",
+							["classe"] = "PALADIN",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 5,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Hyaae-Dalaran"] = "Player-3683-0D9B60C9",
+				},
+				["raid_roster_indexed"] = {
+					"Hyaae-Dalaran", -- [1]
+				},
+				["CombatStartedAt"] = 17005.296,
+				["tempo_start"] = 1702260849,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 10,
+				["playing_solo"] = true,
+				["totals"] = {
+					67799, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "18:14:11",
+				["pvp"] = true,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Raider's Training Dummy",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 0.8329999999987194,
+				["CombatEndedAt"] = 17005.196,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "18:14:10",
+				["end_time"] = 17005.196,
+				["combat_id"] = 5,
+				["frags"] = {
+					["Rabbit"] = 2,
+				},
+				["overall_added"] = true,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					4643, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Hyaae"] = 4643.008822,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 17004.263,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [4]
+			{
+				{
+					["combatId"] = 4,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008851,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 16735.008851,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 16735.008851,
+							["spec"] = 66,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-3683-0D9B60C9",
+							["colocacao"] = 1,
+							["aID"] = "3683-0D9B60C9",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Raider's Training Dummy"] = 16735,
+							},
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 0,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+							["isTank"] = true,
+							["grupo"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260714,
+							["nome"] = "Hyaae",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[81297] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 944,
+										["targets"] = {
+											["Raider's Training Dummy"] = 16735,
+										},
+										["n_total"] = 7429,
+										["n_min"] = 915,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 16735,
+										["c_max"] = 1881,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 1845,
+										["successful_casted"] = 0,
+										["c_total"] = 9306,
+										["n_amt"] = 8,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 923.7695325126039,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.008851,
+							["start_time"] = 1702260696,
+							["delay"] = 0,
+							["last_event"] = 1702260707,
+						}, -- [1]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.007118,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.007118,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.007118,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3883-0-18320-31146-0000766977",
+							["aID"] = "31146",
+							["damage_from"] = {
+								["Hyaae"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260714,
+							["nome"] = "Raider's Training Dummy",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 16735.007118,
+							["start_time"] = 1702260714,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 4,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 4,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 4,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime"] = 54,
+							["pets"] = {
+							},
+							["serial"] = "Player-3683-0D9B60C9",
+							["classe"] = "PALADIN",
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[225787] = {
+										["activedamt"] = 1,
+										["id"] = 225787,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[465] = {
+										["activedamt"] = 1,
+										["id"] = 465,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[397734] = {
+										["activedamt"] = 1,
+										["id"] = 397734,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188370] = {
+										["activedamt"] = 1,
+										["id"] = 188370,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260696,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+							},
+							["tipo"] = 4,
+							["grupo"] = true,
+							["aID"] = "3683-0D9B60C9",
+							["nome"] = "Hyaae-Dalaran",
+							["spec"] = 66,
+							["last_event"] = 1702260714,
+							["isTank"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[204242] = {
+										["activedamt"] = -1,
+										["id"] = 204242,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260708,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 0,
+							["aID"] = "3683-0D9B60C9",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[188370] = {
+										["activedamt"] = 0,
+										["id"] = 188370,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 0,
+							["nome"] = "Hyaae",
+							["spec"] = 66,
+							["grupo"] = true,
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 1702260708,
+							["buff_uptime_targets"] = {
+							},
+							["isTank"] = true,
+							["serial"] = "Player-3683-0D9B60C9",
+							["classe"] = "PALADIN",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 4,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Hyaae-Dalaran"] = "Player-3683-0D9B60C9",
+				},
+				["raid_roster_indexed"] = {
+					"Hyaae-Dalaran", -- [1]
+				},
+				["tempo_start"] = 1702260696,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 9,
+				["playing_solo"] = true,
+				["totals"] = {
+					2167095, -- [1]
+					3850, -- [2]
+					{
+						52.40000057220459, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["amountCasts"] = {
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "18:11:54",
+				["hasTimer"] = 18,
+				["pvp"] = true,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Raider's Training Dummy",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 16868.699,
+				["CombatEndedAt"] = 16868.699,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "18:11:36",
+				["end_time"] = 16868.699,
+				["combat_id"] = 4,
+				["frags"] = {
+				},
+				["overall_added"] = true,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					16735, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Hyaae"] = 16735.008851,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 16850.583,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [5]
+			{
+				{
+					["combatId"] = 3,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00434,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 5592.00434,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 5592.00434,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-3683-0D9B60C9",
+							["colocacao"] = 1,
+							["aID"] = "3683-0D9B60C9",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Raider's Training Dummy"] = 2787,
+								["Squirrel"] = 2805,
+							},
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 0,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+							["isTank"] = true,
+							["grupo"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260695,
+							["nome"] = "Hyaae",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[81297] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 950,
+										["targets"] = {
+											["Raider's Training Dummy"] = 2787,
+											["Squirrel"] = 2805,
+										},
+										["n_total"] = 3733,
+										["n_min"] = 915,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 5592,
+										["c_max"] = 1859,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 1859,
+										["successful_casted"] = 0,
+										["c_total"] = 1859,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 5240.866298036296,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.00434,
+							["start_time"] = 1702260694,
+							["delay"] = 0,
+							["last_event"] = 1702260695,
+						}, -- [1]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.007959,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.007959,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.007959,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-0-11824-61081-0002766F91",
+							["aID"] = "61081",
+							["damage_from"] = {
+								["Hyaae"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260695,
+							["nome"] = "Squirrel",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 2805.007959,
+							["start_time"] = 1702260695,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.004154,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.004154,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.004154,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3883-0-18320-31146-0000766977",
+							["aID"] = "31146",
+							["damage_from"] = {
+								["Hyaae"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260695,
+							["nome"] = "Raider's Training Dummy",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 2787.004154,
+							["start_time"] = 1702260695,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 3,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 3,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 3,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["serial"] = "Player-3683-0D9B60C9",
+							["pets"] = {
+							},
+							["buff_uptime"] = 3,
+							["classe"] = "PALADIN",
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[225787] = {
+										["activedamt"] = 1,
+										["id"] = 225787,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[465] = {
+										["activedamt"] = 1,
+										["id"] = 465,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[397734] = {
+										["activedamt"] = 1,
+										["id"] = 397734,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188370] = {
+										["activedamt"] = 0,
+										["id"] = 188370,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["tipo"] = 4,
+							["grupo"] = true,
+							["aID"] = "3683-0D9B60C9",
+							["nome"] = "Hyaae-Dalaran",
+							["last_event"] = 1702260695,
+							["isTank"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["serial"] = "Player-3683-0D9B60C9",
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[204242] = {
+										["activedamt"] = 1,
+										["id"] = 204242,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 0,
+							["pets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["classe"] = "PALADIN",
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[188370] = {
+										["activedamt"] = 1,
+										["id"] = 188370,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260694,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+							},
+							["tipo"] = 4,
+							["debuff_uptime"] = 1,
+							["aID"] = "3683-0D9B60C9",
+							["nome"] = "Hyaae",
+							["last_event"] = 1702260694,
+							["isTank"] = true,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 3,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Hyaae-Dalaran"] = "Player-3683-0D9B60C9",
+				},
+				["raid_roster_indexed"] = {
+					"Hyaae-Dalaran", -- [1]
+				},
+				["CombatStartedAt"] = 16850.583,
+				["tempo_start"] = 1702260694,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 8,
+				["playing_solo"] = true,
+				["totals"] = {
+					5592, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "18:11:35",
+				["hasTimer"] = 1,
+				["pvp"] = true,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Raider's Training Dummy",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 1.066999999999098,
+				["CombatEndedAt"] = 16849.767,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "18:11:34",
+				["end_time"] = 16849.767,
+				["combat_id"] = 3,
+				["frags"] = {
+					["Squirrel"] = 2,
+				},
+				["overall_added"] = true,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					5592, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Hyaae"] = 5592.00434,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 16848.7,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [6]
+			{
+				{
+					["combatId"] = 2,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003459,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 265502.003459,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 265502.003459,
+							["spec"] = 66,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-3683-0D9B60C9",
+							["colocacao"] = 1,
+							["aID"] = "3683-0D9B60C9",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Raider's Training Dummy"] = 262135,
+								["Rabbit"] = 3367,
+							},
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 0,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+							["isTank"] = true,
+							["grupo"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260600,
+							["nome"] = "Hyaae",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5130,
+										["targets"] = {
+											["Raider's Training Dummy"] = 49768,
+										},
+										["n_total"] = 19888,
+										["n_min"] = 4876,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 49768,
+										["c_max"] = 10076,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 9900,
+										["successful_casted"] = 0,
+										["c_total"] = 29880,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[275779] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Raider's Training Dummy"] = 120725,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 120725,
+										["c_max"] = 60546,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 60179,
+										["successful_casted"] = 0,
+										["c_total"] = 120725,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[24275] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 39929,
+										["targets"] = {
+											["Raider's Training Dummy"] = 39929,
+										},
+										["n_total"] = 39929,
+										["n_min"] = 39929,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 39929,
+										["c_max"] = 0,
+										["id"] = 24275,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[81297] = {
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1137,
+										["targets"] = {
+											["Raider's Training Dummy"] = 25673,
+											["Rabbit"] = 3367,
+										},
+										["n_total"] = 13342,
+										["n_min"] = 1089,
+										["g_dmg"] = 0,
+										["counter"] = 19,
+										["total"] = 29040,
+										["c_max"] = 2277,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 2188,
+										["successful_casted"] = 0,
+										["c_total"] = 15698,
+										["n_amt"] = 12,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[385723] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3720,
+										["targets"] = {
+											["Raider's Training Dummy"] = 26040,
+										},
+										["n_total"] = 26040,
+										["n_min"] = 3720,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 26040,
+										["c_max"] = 0,
+										["id"] = 385723,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 7,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 12524.27017590637,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.003459,
+							["start_time"] = 1702260579,
+							["delay"] = 0,
+							["last_event"] = 1702260595,
+						}, -- [1]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.007655,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.007655,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.007655,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3137-0-13476-61080-0000766F23",
+							["aID"] = "61080",
+							["damage_from"] = {
+								["Hyaae"] = true,
+								["Redrickson-Zul'jin"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260600,
+							["nome"] = "Rabbit",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 3670.007655,
+							["start_time"] = 1702260600,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.001198,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.001198,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.001198,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3883-0-18320-31146-0000766977",
+							["aID"] = "31146",
+							["damage_from"] = {
+								["Hyaae"] = true,
+								["Voncrekt"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260600,
+							["nome"] = "Raider's Training Dummy",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 742293.001198,
+							["start_time"] = 1702260600,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 2,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 2,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 2.006437,
+							["pets"] = {
+							},
+							["aID"] = "3683-0D9B60C9",
+							["passiveover"] = 0.006437,
+							["total"] = 0.006437,
+							["spec"] = 66,
+							["isTank"] = true,
+							["received"] = 0.006437,
+							["targets"] = {
+							},
+							["powertype"] = 0,
+							["alternatepower"] = 0.006437,
+							["resource_type"] = 9,
+							["nome"] = "Hyaae",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["classe"] = "PALADIN",
+							["last_event"] = 1702260587,
+							["totalover"] = 0.006437,
+							["serial"] = "Player-3683-0D9B60C9",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 2,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["classe"] = "PALADIN",
+							["buff_uptime"] = 126,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[465] = {
+										["activedamt"] = 1,
+										["id"] = 465,
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[294250] = {
+										["activedamt"] = 1,
+										["id"] = 294250,
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[385127] = {
+										["activedamt"] = 0,
+										["id"] = 385127,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[225787] = {
+										["activedamt"] = 1,
+										["id"] = 225787,
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[389539] = {
+										["activedamt"] = 1,
+										["id"] = 389539,
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[378974] = {
+										["activedamt"] = 1,
+										["id"] = 378974,
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[397734] = {
+										["activedamt"] = 1,
+										["id"] = 397734,
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-3683-0D9B60C9",
+							["aID"] = "3683-0D9B60C9",
+							["nome"] = "Hyaae-Dalaran",
+							["spec"] = 66,
+							["last_event"] = 1702260600,
+							["isTank"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[197277] = {
+										["activedamt"] = 1,
+										["id"] = 197277,
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[204242] = {
+										["activedamt"] = 0,
+										["id"] = 204242,
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 14,
+							["aID"] = "3683-0D9B60C9",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[188370] = {
+										["activedamt"] = 1,
+										["id"] = 188370,
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[385127] = {
+										["activedamt"] = 1,
+										["id"] = 385127,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260585,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 35,
+							["nome"] = "Hyaae",
+							["spec"] = 66,
+							["grupo"] = true,
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 1702260595,
+							["classe"] = "PALADIN",
+							["isTank"] = true,
+							["serial"] = "Player-3683-0D9B60C9",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 2,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Hyaae-Dalaran"] = "Player-3683-0D9B60C9",
+				},
+				["raid_roster_indexed"] = {
+					"Hyaae-Dalaran", -- [1]
+				},
+				["tempo_start"] = 1702260579,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 7,
+				["playing_solo"] = true,
+				["totals"] = {
+					2956123, -- [1]
+					0, -- [2]
+					{
+						201.600001335144, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Hyaae"] = {
+						["Consecration"] = 1,
+						["Hammer of Wrath"] = 1,
+						["Judgment"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "18:10:00",
+				["hasTimer"] = 21.03199999999924,
+				["pvp"] = true,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Raider's Training Dummy",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 16755.119,
+				["CombatEndedAt"] = 16755.119,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "18:09:39",
+				["end_time"] = 16755.119,
+				["combat_id"] = 2,
+				["frags"] = {
+					["Rabbit"] = 2,
+				},
+				["overall_added"] = true,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					265502, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Hyaae"] = 265502.003459,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 16733.92,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [7]
+			{
+				{
+					["combatId"] = 1,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005461,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 2624272.005461,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 2624272.005461,
+							["spec"] = 66,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-3683-0D9B60C9",
+							["colocacao"] = 1,
+							["aID"] = "3683-0D9B60C9",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 660158,
+								["Rabbit"] = 1867,
+								["Raider's Training Dummy"] = 1913971,
+								["PvP Training Dummy"] = 48276,
+							},
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 0,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+							["isTank"] = true,
+							["grupo"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260520,
+							["nome"] = "Hyaae",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 23,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4522,
+										["targets"] = {
+											["Raider's Training Dummy"] = 344863,
+										},
+										["n_total"] = 149399,
+										["n_min"] = 4071,
+										["g_dmg"] = 0,
+										["counter"] = 58,
+										["total"] = 344863,
+										["c_max"] = 9095,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 8108,
+										["successful_casted"] = 0,
+										["c_total"] = 195464,
+										["n_amt"] = 35,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[31935] = {
+										["c_amt"] = 18,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 11031,
+										["targets"] = {
+											["Training Dummy"] = 538729,
+											["PvP Training Dummy"] = 41623,
+											["Raider's Training Dummy"] = 273859,
+										},
+										["n_total"] = 475765,
+										["n_min"] = 10048,
+										["g_dmg"] = 0,
+										["counter"] = 63,
+										["total"] = 854211,
+										["c_max"] = 21868,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 20251,
+										["successful_casted"] = 0,
+										["c_total"] = 378446,
+										["n_amt"] = 45,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[275779] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 25653,
+										["targets"] = {
+											["Raider's Training Dummy"] = 578641,
+										},
+										["n_total"] = 277207,
+										["n_min"] = 24677,
+										["g_dmg"] = 0,
+										["counter"] = 17,
+										["total"] = 578641,
+										["c_max"] = 52803,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 48075,
+										["successful_casted"] = 0,
+										["c_total"] = 301434,
+										["n_amt"] = 11,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[385723] = {
+										["c_amt"] = 23,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3252,
+										["targets"] = {
+											["Raider's Training Dummy"] = 254986,
+										},
+										["n_total"] = 110468,
+										["n_min"] = 3100,
+										["g_dmg"] = 0,
+										["counter"] = 58,
+										["total"] = 254986,
+										["c_max"] = 6502,
+										["id"] = 385723,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 6200,
+										["successful_casted"] = 0,
+										["c_total"] = 144518,
+										["n_amt"] = 35,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[204301] = {
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2362,
+										["targets"] = {
+											["Raider's Training Dummy"] = 50323,
+										},
+										["n_total"] = 18345,
+										["n_min"] = 2232,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 50323,
+										["c_max"] = 4643,
+										["id"] = 204301,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 4496,
+										["successful_casted"] = 0,
+										["c_total"] = 31978,
+										["n_amt"] = 8,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[378286] = {
+										["c_amt"] = 16,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2301,
+										["targets"] = {
+											["Training Dummy"] = 121429,
+											["PvP Training Dummy"] = 6653,
+											["Raider's Training Dummy"] = 58397,
+										},
+										["n_total"] = 114563,
+										["n_min"] = 2193,
+										["g_dmg"] = 0,
+										["counter"] = 67,
+										["total"] = 186479,
+										["c_max"] = 4602,
+										["id"] = 378286,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 4387,
+										["successful_casted"] = 0,
+										["c_total"] = 71916,
+										["n_amt"] = 51,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[81297] = {
+										["c_amt"] = 28,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 999,
+										["targets"] = {
+											["Raider's Training Dummy"] = 122704,
+											["Rabbit"] = 1867,
+										},
+										["n_total"] = 71253,
+										["n_min"] = 910,
+										["g_dmg"] = 0,
+										["counter"] = 103,
+										["total"] = 124571,
+										["c_max"] = 1989,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 1815,
+										["successful_casted"] = 0,
+										["c_total"] = 53318,
+										["n_amt"] = 75,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[53600] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 23715,
+										["targets"] = {
+											["Raider's Training Dummy"] = 230198,
+										},
+										["n_total"] = 102007,
+										["n_min"] = 6858,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 230198,
+										["c_max"] = 38891,
+										["id"] = 53600,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 17726,
+										["successful_casted"] = 0,
+										["c_total"] = 128191,
+										["n_amt"] = 7,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 17690.33001085968,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.005461,
+							["start_time"] = 1702260372,
+							["delay"] = 0,
+							["last_event"] = 1702260515,
+						}, -- [1]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.008174,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.008174,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.008174,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3137-0-13476-61080-0000766E95",
+							["aID"] = "61080",
+							["damage_from"] = {
+								["Hyaae"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260520,
+							["nome"] = "Rabbit",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 1867.008174,
+							["start_time"] = 1702260520,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.007166,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.007166,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.007166,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3883-0-18320-114832-0000766977",
+							["aID"] = "114832",
+							["damage_from"] = {
+								["Voncrekt"] = true,
+								["Hyaae"] = true,
+								["Phimix"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260520,
+							["nome"] = "PvP Training Dummy",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 1429471.007166,
+							["start_time"] = 1702260520,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.006823,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.006823,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.006823,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3883-0-18320-31146-0000766977",
+							["aID"] = "31146",
+							["damage_from"] = {
+								["Voncrekt"] = true,
+								["Hyaae"] = true,
+								["Punchynitsua"] = true,
+								["Phimix"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260520,
+							["nome"] = "Raider's Training Dummy",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 3981212.006823,
+							["start_time"] = 1702260520,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [4]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.002414,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.002414,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.002414,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3883-0-18320-153292-0002766977",
+							["aID"] = "153292",
+							["damage_from"] = {
+								["Voncrekt"] = true,
+								["Punchynitsua"] = true,
+								["Hyaae"] = true,
+								["Phimix"] = true,
+							},
+							["targets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702260520,
+							["nome"] = "Training Dummy",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 2477845.002414,
+							["start_time"] = 1702260520,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [5]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 245124.006329,
+							["total_without_pet"] = 0.006329,
+							["total"] = 0.006329,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["isTank"] = true,
+							["totalabsorb"] = 0.006329,
+							["last_hps"] = 0,
+							["aID"] = "3683-0D9B60C9",
+							["spec"] = 66,
+							["targets"] = {
+							},
+							["serial"] = "Player-3683-0D9B60C9",
+							["totalover_without_pet"] = 0.006329,
+							["grupo"] = true,
+							["healing_taken"] = 0.006329,
+							["healing_from"] = {
+							},
+							["classe"] = "PALADIN",
+							["end_time"] = 1702260520,
+							["targets_overheal"] = {
+								["Hyaae"] = 245124,
+							},
+							["start_time"] = 1702260467,
+							["nome"] = "Hyaae",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[407467] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Hyaae"] = 72835,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Hyaae"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["counter"] = 11,
+										["overheal"] = 72835,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 407467,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["spellschool"] = 2,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 11,
+										["absorbed"] = 0,
+									},
+									[403044] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Hyaae"] = 106859,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Hyaae"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["counter"] = 8,
+										["overheal"] = 106859,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 403044,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["spellschool"] = 2,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 8,
+										["absorbed"] = 0,
+									},
+									[85673] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Hyaae"] = 65430,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Hyaae"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 65430,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 85673,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["spellschool"] = 2,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["custom"] = 0,
+							["last_event"] = 1702260454,
+							["totaldenied"] = 0.006329,
+							["delay"] = 1702260454,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 30.007077,
+							["pets"] = {
+							},
+							["aID"] = "3683-0D9B60C9",
+							["passiveover"] = 0.007077,
+							["total"] = 0.007077,
+							["spec"] = 66,
+							["isTank"] = true,
+							["received"] = 0.007077,
+							["targets"] = {
+							},
+							["powertype"] = 0,
+							["alternatepower"] = 0.007077,
+							["resource_type"] = 9,
+							["nome"] = "Hyaae",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["classe"] = "PALADIN",
+							["last_event"] = 1702260579,
+							["totalover"] = 0.007077,
+							["serial"] = "Player-3683-0D9B60C9",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["serial"] = "Player-3683-0D9B60C9",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[465] = {
+										["activedamt"] = 1,
+										["id"] = 465,
+										["targets"] = {
+										},
+										["uptime"] = 148,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[294250] = {
+										["activedamt"] = 0,
+										["id"] = 294250,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[225787] = {
+										["activedamt"] = 1,
+										["id"] = 225787,
+										["targets"] = {
+										},
+										["uptime"] = 148,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[397734] = {
+										["activedamt"] = 1,
+										["id"] = 397734,
+										["targets"] = {
+										},
+										["uptime"] = 148,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[378974] = {
+										["activedamt"] = 1,
+										["id"] = 378974,
+										["targets"] = {
+										},
+										["actived_at"] = 1702260372,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 444,
+							["grupo"] = true,
+							["aID"] = "3683-0D9B60C9",
+							["nome"] = "Hyaae-Dalaran",
+							["spec"] = 66,
+							["last_event"] = 1702260520,
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[204301] = {
+										["activedamt"] = 0,
+										["id"] = 204301,
+										["targets"] = {
+										},
+										["uptime"] = 61,
+										["appliedamt"] = 3,
+										["refreshamt"] = 12,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[197277] = {
+										["activedamt"] = 0,
+										["id"] = 197277,
+										["targets"] = {
+										},
+										["uptime"] = 67,
+										["appliedamt"] = 9,
+										["refreshamt"] = 8,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[204242] = {
+										["activedamt"] = 0,
+										["id"] = 204242,
+										["targets"] = {
+										},
+										["uptime"] = 84,
+										["appliedamt"] = 6,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[31935] = {
+										["activedamt"] = 0,
+										["id"] = 31935,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 6,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[280375] = {
+										["activedamt"] = 4,
+										["id"] = 280375,
+										["targets"] = {
+										},
+										["uptime"] = 69,
+										["appliedamt"] = 4,
+										["refreshamt"] = 9,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[385724] = {
+										["activedamt"] = 4,
+										["id"] = 385724,
+										["targets"] = {
+										},
+										["uptime"] = 87,
+										["appliedamt"] = 4,
+										["refreshamt"] = 19,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[132403] = {
+										["activedamt"] = 5,
+										["id"] = 132403,
+										["targets"] = {
+										},
+										["uptime"] = 50,
+										["appliedamt"] = 5,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188370] = {
+										["activedamt"] = 6,
+										["id"] = 188370,
+										["targets"] = {
+										},
+										["uptime"] = 84,
+										["appliedamt"] = 6,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[386730] = {
+										["activedamt"] = 2,
+										["id"] = 386730,
+										["targets"] = {
+										},
+										["uptime"] = 30,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[182104] = {
+										["activedamt"] = 2,
+										["id"] = 182104,
+										["targets"] = {
+										},
+										["uptime"] = 30,
+										["appliedamt"] = 2,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[393038] = {
+										["activedamt"] = 2,
+										["id"] = 393038,
+										["targets"] = {
+										},
+										["uptime"] = 99,
+										["appliedamt"] = 2,
+										["refreshamt"] = 21,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[386652] = {
+										["activedamt"] = 8,
+										["id"] = 386652,
+										["targets"] = {
+										},
+										["uptime"] = 70,
+										["appliedamt"] = 8,
+										["refreshamt"] = 70,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[385126] = {
+										["activedamt"] = 4,
+										["id"] = 385126,
+										["targets"] = {
+										},
+										["uptime"] = 57,
+										["appliedamt"] = 4,
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[85416] = {
+										["activedamt"] = 2,
+										["id"] = 85416,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[378974] = {
+										["activedamt"] = 0,
+										["id"] = 378974,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[327510] = {
+										["activedamt"] = 2,
+										["id"] = 327510,
+										["targets"] = {
+										},
+										["uptime"] = 67,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[209388] = {
+										["activedamt"] = 6,
+										["id"] = 209388,
+										["targets"] = {
+										},
+										["uptime"] = 79,
+										["appliedamt"] = 6,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[385127] = {
+										["activedamt"] = 8,
+										["id"] = 385127,
+										["targets"] = {
+										},
+										["uptime"] = 35,
+										["appliedamt"] = 8,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[383389] = {
+										["activedamt"] = 2,
+										["id"] = 383389,
+										["targets"] = {
+										},
+										["uptime"] = 79,
+										["appliedamt"] = 2,
+										["refreshamt"] = 12,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 220,
+							["debuff_uptime_targets"] = {
+							},
+							["spec"] = 66,
+							["cc_done_targets"] = {
+								["Training Dummy"] = 4,
+								["PvP Training Dummy"] = 2,
+							},
+							["isTank"] = true,
+							["buff_uptime"] = 840,
+							["cc_done_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[31935] = {
+										["id"] = 31935,
+										["targets"] = {
+											["Training Dummy"] = 4,
+											["PvP Training Dummy"] = 2,
+										},
+										["counter"] = 6,
+									},
+								},
+							},
+							["cc_done"] = 6.006526,
+							["nome"] = "Hyaae",
+							["buff_uptime_targets"] = {
+							},
+							["aID"] = "3683-0D9B60C9",
+							["last_event"] = 1702260482,
+							["serial"] = "Player-3683-0D9B60C9",
+							["grupo"] = true,
+							["tipo"] = 4,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Hyaae-Dalaran"] = "Player-3683-0D9B60C9",
+				},
+				["raid_roster_indexed"] = {
+					"Hyaae-Dalaran", -- [1]
+				},
+				["CombatStartedAt"] = 16733.92,
+				["tempo_start"] = 1702260372,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 6,
+				["playing_solo"] = true,
+				["totals"] = {
+					7963663, -- [1]
+					19906, -- [2]
+					{
+						233.6000001430512, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Hyaae"] = {
+						["Shield of the Righteous"] = 11,
+						["Word of Glory"] = 1,
+						["Blessed Hammer"] = 8,
+						["Judgment"] = 16,
+						["Avenger's Shield"] = 7,
+						["Divine Toll"] = 2,
+						["Consecration"] = 6,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "18:08:41",
+				["hasTimer"] = 148.3280000000013,
+				["pvp"] = true,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Training Dummy",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 16676.005,
+				["CombatEndedAt"] = 16676.005,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "18:06:13",
+				["end_time"] = 16676.005,
+				["combat_id"] = 1,
+				["frags"] = {
+					["Stormwind Rat"] = 1,
+					["Rabbit"] = 2,
+				},
+				["overall_added"] = true,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					2624272, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Hyaae"] = 0.006329,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Hyaae"] = 2624272.005461,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 16527.66,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [8]
+		},
+	},
+	["ocd_tracker"] = {
+		["show_title"] = true,
+		["current_cooldowns"] = {
+		},
+		["lines_per_column"] = 12,
+		["group_frames"] = true,
+		["frames"] = {
+			["defensive-raid"] = {
+			},
+			["main"] = {
+			},
+			["ofensive"] = {
+			},
+			["defensive-target"] = {
+			},
+			["utility"] = {
+			},
+			["defensive-personal"] = {
+			},
+		},
+		["show_options"] = false,
+		["own_frame"] = {
+			["defensive-raid"] = false,
+			["ofensive"] = false,
+			["defensive-target"] = false,
+			["utility"] = false,
+			["defensive-personal"] = false,
+		},
+		["width"] = 120,
+		["framme_locked"] = false,
+		["cooldowns"] = {
+		},
+		["height"] = 18,
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["enabled"] = false,
+		["filters"] = {
+			["itemutil"] = false,
+			["itempower"] = false,
+			["defensive-target"] = false,
+			["itemheal"] = false,
+			["defensive-personal"] = false,
+			["defensive-raid"] = false,
+			["ofensive"] = true,
+			["crowdcontrol"] = false,
+			["utility"] = false,
+		},
+	},
+	["last_version"] = "10.2.0 12038",
+	["player_stats"] = {
+	},
+	["force_font_outline"] = "",
+	["tabela_instancias"] = {
+	},
+	["coach"] = {
+		["enabled"] = false,
+		["welcome_panel_pos"] = {
+		},
+		["last_coach_name"] = false,
+	},
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = true,
+			["snap"] = {
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -425.9996566772461,
+					["x"] = 805,
+					["w"] = 309.9999389648438,
+					["h"] = 157.9999694824219,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+	},
+	["cached_talents"] = {
+	},
+	["last_instance_id"] = 0,
+	["data_harvest_for_charsts"] = {
+		["players"] = {
+			{
+				["playerKey"] = "total",
+				["combatObjectContainer"] = 1,
+				["name"] = "Damage of Each Individual Player",
+				["playerOnly"] = true,
+			}, -- [1]
+		},
+		["totals"] = {
+			{
+				["combatObjectSubTableKey"] = 1,
+				["name"] = "Damage of All Player Combined",
+				["combatObjectSubTableName"] = "totals",
+			}, -- [1]
+		},
+	},
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Morgntreeman-Dalaran",
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["combat_log"] = {
+		["inverse_deathlog_overalldata"] = false,
+		["evoker_calc_damage"] = false,
+		["track_hunter_frenzy"] = false,
+		["merge_critical_heals"] = false,
+		["inverse_deathlog_raid"] = false,
+		["merge_gemstones_1007"] = false,
+		["evoker_show_realtimedps"] = false,
+		["inverse_deathlog_mplus"] = false,
+	},
+	["combat_counter"] = 13,
+	["mythic_plus_log"] = {
+	},
+	["data_harvested_for_charts"] = {
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["on_death_menu"] = false,
+	["nick_tag_cache"] = {
+		["nextreset"] = 1703555106,
+		["last_version"] = 16,
+	},
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["last_realversion"] = 155,
+	["last_instance_time"] = 0,
+	["combat_id"] = 8,
+	["savedStyles"] = {
+	},
+	["last_day"] = "10",
+	["character_data"] = {
+		["logons"] = 2,
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.05863499999999999,
+					["pets"] = {
+					},
+					["classe"] = "PALADIN",
+					["total_without_pet"] = 3490149.058635001,
+					["serial"] = "Player-3683-0D9B60C9",
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 3490149.058635001,
+					["aID"] = "3683-0D9B60C9",
+					["spec"] = 66,
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Training Dummy"] = 903960,
+						["Rabbit"] = 7067,
+						["PvP Training Dummy"] = 64018,
+						["Raider's Training Dummy"] = 2510483,
+						["Squirrel"] = 4621,
+					},
+					["avoidance"] = {
+						["overall"] = {
+							["DODGE"] = 0,
+							["FULL_ABSORB_AMT"] = 0,
+							["BLOCKED_AMT"] = 0,
+							["BLOCKED_HITS"] = 0,
+							["FULL_ABSORBED"] = 0,
+							["ALL"] = 0,
+							["PARTIAL_ABSORBED"] = 0,
+							["PARRY"] = 0,
+							["PARTIAL_ABSORB_AMT"] = 0,
+							["ABSORB"] = 0,
+							["ABSORB_AMT"] = 0,
+							["FULL_HIT"] = 0,
+							["HITS"] = 0,
+							["FULL_HIT_AMT"] = 0,
+						},
+					},
+					["isTank"] = true,
+					["grupo"] = true,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1702260521,
+					["nome"] = "Hyaae",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 27,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 5241,
+								["targets"] = {
+									["Raider's Training Dummy"] = 424752,
+								},
+								["n_total"] = 189581,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 70,
+								["total"] = 424752,
+								["c_max"] = 10076,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 235171,
+								["n_amt"] = 43,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[24275] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 39929,
+								["targets"] = {
+									["Raider's Training Dummy"] = 120817,
+								},
+								["n_total"] = 39929,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 120817,
+								["c_max"] = 80888,
+								["id"] = 24275,
+								["r_dmg"] = 0,
+								["spellschool"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 80888,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[31935] = {
+								["c_amt"] = 23,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 12933,
+								["targets"] = {
+									["Training Dummy"] = 726344,
+									["PvP Training Dummy"] = 54556,
+									["Raider's Training Dummy"] = 324128,
+								},
+								["n_total"] = 602120,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 78,
+								["total"] = 1105028,
+								["c_max"] = 25435,
+								["id"] = 31935,
+								["r_dmg"] = 0,
+								["spellschool"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 502908,
+								["n_amt"] = 55,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[275779] = {
+								["c_amt"] = 8,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 30468,
+								["targets"] = {
+									["Raider's Training Dummy"] = 759861,
+								},
+								["n_total"] = 337702,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 21,
+								["total"] = 759861,
+								["c_max"] = 60546,
+								["id"] = 275779,
+								["r_dmg"] = 0,
+								["spellschool"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 422159,
+								["n_amt"] = 13,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[385723] = {
+								["c_amt"] = 25,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3780,
+								["targets"] = {
+									["Raider's Training Dummy"] = 307308,
+								},
+								["n_total"] = 147788,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 70,
+								["total"] = 307308,
+								["c_max"] = 7562,
+								["id"] = 385723,
+								["r_dmg"] = 0,
+								["spellschool"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 159520,
+								["n_amt"] = 45,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[204301] = {
+								["c_amt"] = 7,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2362,
+								["targets"] = {
+									["Raider's Training Dummy"] = 50323,
+								},
+								["n_total"] = 18345,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 15,
+								["total"] = 50323,
+								["c_max"] = 4643,
+								["id"] = 204301,
+								["r_dmg"] = 0,
+								["spellschool"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 31978,
+								["n_amt"] = 8,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[378286] = {
+								["c_amt"] = 23,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2809,
+								["targets"] = {
+									["Training Dummy"] = 177616,
+									["PvP Training Dummy"] = 9462,
+									["Raider's Training Dummy"] = 69057,
+								},
+								["n_total"] = 146761,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 86,
+								["total"] = 256135,
+								["c_max"] = 5352,
+								["id"] = 378286,
+								["r_dmg"] = 0,
+								["spellschool"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 109374,
+								["n_amt"] = 63,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[81297] = {
+								["c_amt"] = 52,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1161,
+								["targets"] = {
+									["Rabbit"] = 7067,
+									["Raider's Training Dummy"] = 212864,
+									["Squirrel"] = 4621,
+								},
+								["n_total"] = 121078,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 177,
+								["total"] = 224552,
+								["c_max"] = 2319,
+								["id"] = 81297,
+								["r_dmg"] = 0,
+								["spellschool"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 103474,
+								["n_amt"] = 125,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[53600] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 23715,
+								["targets"] = {
+									["Raider's Training Dummy"] = 241373,
+								},
+								["n_total"] = 113182,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 241373,
+								["c_max"] = 38891,
+								["id"] = 53600,
+								["r_dmg"] = 0,
+								["spellschool"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 128191,
+								["n_amt"] = 8,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 0.05863499999999999,
+					["start_time"] = 1702260297,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.045413,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.045413,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.045413,
+					["serial"] = "Creature-0-3883-0-18320-31146-0000766977",
+					["aID"] = "31146",
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Viendrah"] = true,
+						["Hyaae"] = true,
+						["Voncrekt"] = true,
+						["Punchynitsua"] = true,
+						["Phimix"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1702260521,
+					["nome"] = "Raider's Training Dummy",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 4488195.045413,
+					["start_time"] = 1702260518,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [2]
+				{
+					["flag_original"] = 2600,
+					["totalabsorbed"] = 0.01636,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.01636,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.01636,
+					["serial"] = "Creature-0-3883-0-18320-153292-0002766977",
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["aID"] = "153292",
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Viendrah"] = true,
+						["Hyaae"] = true,
+						["Voncrekt"] = true,
+						["Punchynitsua"] = true,
+						["Phimix"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1702260521,
+					["nome"] = "Training Dummy",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 2562202.01636,
+					["start_time"] = 1702260518,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [3]
+				{
+					["flag_original"] = 2600,
+					["totalabsorbed"] = 0.019864,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.019864,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.019864,
+					["serial"] = "Creature-0-3137-0-13476-61080-0000766E95",
+					["aID"] = "61080",
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Hyaae"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1702260521,
+					["nome"] = "Rabbit",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 7067.019864000001,
+					["start_time"] = 1702260518,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [4]
+				{
+					["flag_original"] = 2600,
+					["totalabsorbed"] = 0.032792,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.032792,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.032792,
+					["serial"] = "Creature-0-3883-0-18320-114832-0000766977",
+					["aID"] = "114832",
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Viendrah"] = true,
+						["Hyaae"] = true,
+						["Voncrekt"] = true,
+						["Tina <Viendrah>"] = true,
+						["Phimix"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1702260521,
+					["nome"] = "PvP Training Dummy",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 2001027.032792001,
+					["start_time"] = 1702260518,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [5]
+				{
+					["flag_original"] = 2600,
+					["totalabsorbed"] = 0.024109,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.024109,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.024109,
+					["serial"] = "Creature-0-3882-0-11824-61081-0002766F91",
+					["on_hold"] = false,
+					["total_extra"] = 0,
+					["aID"] = "61081",
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Hyaae"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1702260695,
+					["nome"] = "Squirrel",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 4621.024109,
+					["start_time"] = 1702260692,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [6]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 252563.01451,
+					["total_without_pet"] = 0.01451,
+					["total"] = 0.01451,
+					["targets_absorbs"] = {
+					},
+					["aID"] = "3683-0D9B60C9",
+					["heal_enemy"] = {
+					},
+					["spec"] = 66,
+					["on_hold"] = false,
+					["isTank"] = true,
+					["totalabsorb"] = 0.01451,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["serial"] = "Player-3683-0D9B60C9",
+					["totalover_without_pet"] = 0.01451,
+					["grupo"] = true,
+					["healing_taken"] = 0.01451,
+					["healing_from"] = {
+					},
+					["classe"] = "PALADIN",
+					["end_time"] = 1702260521,
+					["targets_overheal"] = {
+						["Hyaae"] = 252563,
+					},
+					["start_time"] = 1702260464,
+					["nome"] = "Hyaae",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[407467] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Hyaae"] = 80274,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Hyaae"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["counter"] = 12,
+								["overheal"] = 80274,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 407467,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["spellschool"] = 2,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 12,
+								["absorbed"] = 0,
+							},
+							[403044] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Hyaae"] = 106859,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Hyaae"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["counter"] = 8,
+								["overheal"] = 106859,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 403044,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["spellschool"] = 2,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 8,
+								["absorbed"] = 0,
+							},
+							[85673] = {
+								["c_amt"] = 1,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Hyaae"] = 65430,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Hyaae"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["counter"] = 1,
+								["overheal"] = 65430,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 85673,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["spellschool"] = 2,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["custom"] = 0,
+					["last_event"] = 0,
+					["totaldenied"] = 0.01451,
+					["delay"] = 0,
+					["tipo"] = 2,
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["resource"] = 35.029146,
+					["pets"] = {
+					},
+					["aID"] = "3683-0D9B60C9",
+					["passiveover"] = 0.007841,
+					["total"] = 0.029146,
+					["spec"] = 66,
+					["isTank"] = true,
+					["received"] = 0.029146,
+					["targets"] = {
+					},
+					["powertype"] = 0,
+					["resource_type"] = 9,
+					["alternatepower"] = 0.029146,
+					["nome"] = "Hyaae",
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+						},
+					},
+					["grupo"] = true,
+					["classe"] = "PALADIN",
+					["last_event"] = 0,
+					["totalover"] = 0.007841,
+					["serial"] = "Player-3683-0D9B60C9",
+					["tipo"] = 3,
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["aID"] = "3683-0D9B60C9",
+					["buff_uptime"] = 726,
+					["classe"] = "PALADIN",
+					["pets"] = {
+					},
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[294250] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 294250,
+								["uptime"] = 21,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[378974] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 2,
+								["activedamt"] = 2,
+								["uptime"] = 21,
+								["id"] = 378974,
+								["actived_at"] = 1702260372,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[383389] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = 383389,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[188370] = {
+								["actived_at"] = 5106782483,
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 188370,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[386730] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = 386730,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[389539] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 389539,
+								["uptime"] = 21,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[393038] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = 393038,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[386652] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = 386652,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[385724] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = 385724,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[465] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 8,
+								["appliedamt"] = 8,
+								["id"] = 465,
+								["uptime"] = 221,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[397734] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 8,
+								["appliedamt"] = 8,
+								["id"] = 397734,
+								["uptime"] = 221,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[209388] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = 209388,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[385127] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = 385127,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[182104] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = 182104,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[225787] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 8,
+								["appliedamt"] = 8,
+								["id"] = 225787,
+								["uptime"] = 221,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["buff_uptime_targets"] = {
+					},
+					["tipo"] = 4,
+					["nome"] = "Hyaae-Dalaran",
+					["spec"] = 66,
+					["grupo"] = true,
+					["serial"] = "Player-3683-0D9B60C9",
+					["last_event"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 1297,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[204301] = {
+								["refreshamt"] = 12,
+								["activedamt"] = 0,
+								["appliedamt"] = 3,
+								["id"] = 204301,
+								["uptime"] = 61,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[197277] = {
+								["refreshamt"] = 9,
+								["activedamt"] = 2,
+								["appliedamt"] = 12,
+								["id"] = 197277,
+								["uptime"] = 99,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[204242] = {
+								["actived_at"] = 5106782520,
+								["refreshamt"] = 4,
+								["activedamt"] = 0,
+								["appliedamt"] = 10,
+								["id"] = 204242,
+								["uptime"] = 101,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[31935] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 10,
+								["id"] = 31935,
+								["uptime"] = 11,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["cooldowns_defensive"] = 1.00987,
+					["pets"] = {
+					},
+					["classe"] = "PALADIN",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[280375] = {
+								["refreshamt"] = 9,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 280375,
+								["uptime"] = 79,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[385724] = {
+								["actived_at"] = 1702260949,
+								["refreshamt"] = 24,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 385724,
+								["uptime"] = 92,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[389539] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 1,
+								["activedamt"] = 1,
+								["uptime"] = 0,
+								["id"] = 389539,
+								["actived_at"] = 1702260937,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[132403] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 132403,
+								["uptime"] = 54,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[188370] = {
+								["actived_at"] = 5106782478,
+								["refreshamt"] = 0,
+								["activedamt"] = 10,
+								["appliedamt"] = 10,
+								["id"] = 188370,
+								["uptime"] = 98,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[386730] = {
+								["actived_at"] = 1702260944,
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 386730,
+								["uptime"] = 30,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[182104] = {
+								["actived_at"] = 1702260939,
+								["refreshamt"] = 2,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 182104,
+								["uptime"] = 30,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[393038] = {
+								["actived_at"] = 1702260949,
+								["refreshamt"] = 26,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 393038,
+								["uptime"] = 104,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[386652] = {
+								["actived_at"] = 1702260950,
+								["refreshamt"] = 87,
+								["activedamt"] = 9,
+								["appliedamt"] = 9,
+								["id"] = 386652,
+								["uptime"] = 75,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[385126] = {
+								["refreshamt"] = 3,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 385126,
+								["uptime"] = 57,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[383389] = {
+								["actived_at"] = 1702260939,
+								["refreshamt"] = 12,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 383389,
+								["uptime"] = 79,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[385127] = {
+								["actived_at"] = 3404521525,
+								["refreshamt"] = 0,
+								["activedamt"] = 10,
+								["appliedamt"] = 10,
+								["id"] = 385127,
+								["uptime"] = 35,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[327510] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 327510,
+								["uptime"] = 67,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[209388] = {
+								["actived_at"] = 1702260945,
+								["refreshamt"] = 0,
+								["activedamt"] = 7,
+								["appliedamt"] = 7,
+								["id"] = 209388,
+								["uptime"] = 79,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[378974] = {
+								["actived_at"] = 1702260937,
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 378974,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[85416] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 85416,
+								["uptime"] = 4,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["debuff_uptime"] = 272,
+					["buff_uptime_targets"] = {
+					},
+					["spec"] = 66,
+					["cc_done_targets"] = {
+						["Training Dummy"] = 7,
+						["PvP Training Dummy"] = 3,
+					},
+					["isTank"] = true,
+					["cooldowns_defensive_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[389539] = {
+								["id"] = 389539,
+								["targets"] = {
+									["Hyaae"] = 1,
+								},
+								["counter"] = 1,
+							},
+						},
+					},
+					["buff_uptime"] = 883,
+					["cc_done_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[31935] = {
+								["id"] = 31935,
+								["targets"] = {
+									["Training Dummy"] = 7,
+									["PvP Training Dummy"] = 3,
+								},
+								["counter"] = 10,
+							},
+						},
+					},
+					["cooldowns_defensive_targets"] = {
+						["Hyaae"] = 1,
+					},
+					["cc_done"] = 10.012892,
+					["nome"] = "Hyaae",
+					["debuff_uptime_targets"] = {
+					},
+					["grupo"] = true,
+					["last_event"] = 0,
+					["aID"] = "3683-0D9B60C9",
+					["tipo"] = 4,
+					["serial"] = "Player-3683-0D9B60C9",
+				}, -- [2]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["raid_roster_indexed"] = {
+		},
+		["tempo_start"] = 1702260372,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["bossTimers"] = {
+		},
+		["trinketProcs"] = {
+		},
+		["totals"] = {
+			9179238.244571, -- [1]
+			19906.022207, -- [2]
+			{
+				271.5138342384186, -- [1]
+				[0] = 0.021305,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 1.008626,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+		["amountCasts"] = {
+			["Hyaae"] = {
+				["Divine Toll"] = 3,
+				["Word of Glory"] = 1,
+				["Blessed Hammer"] = 8,
+				["Judgment"] = 19,
+				["Hammer of Wrath"] = 2,
+				["Shield of the Righteous"] = 12,
+				["Sentinel"] = 1,
+				["Consecration"] = 7,
+				["Avenger's Shield"] = 7,
+				["Bastion of Light"] = 1,
+			},
+			["Tina"] = {
+				["Bite"] = 9,
+				["Growl"] = 4,
+			},
+		},
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 13.26699999999983,
+				["type"] = 0,
+				["name"] = "Training Dummy",
+				["clock"] = "18:15:37",
+			}, -- [1]
+			{
+				["elapsed"] = 1.134000000001834,
+				["type"] = 0,
+				["name"] = "Squirrel",
+				["clock"] = "18:15:35",
+			}, -- [2]
+			{
+				["elapsed"] = 17.39999999999782,
+				["type"] = 0,
+				["name"] = "Raider's Training Dummy",
+				["clock"] = "18:14:11",
+			}, -- [3]
+			{
+				["elapsed"] = 0.9330000000009022,
+				["type"] = 0,
+				["name"] = "Raider's Training Dummy",
+				["clock"] = "18:14:10",
+			}, -- [4]
+			{
+				["elapsed"] = 18.1160000000018,
+				["type"] = 0,
+				["name"] = "Raider's Training Dummy",
+				["clock"] = "18:11:36",
+			}, -- [5]
+			{
+				["elapsed"] = 1.066999999999098,
+				["type"] = 0,
+				["name"] = "Raider's Training Dummy",
+				["clock"] = "18:11:34",
+			}, -- [6]
+			{
+				["elapsed"] = 21.19899999999689,
+				["type"] = 0,
+				["name"] = "Raider's Training Dummy",
+				["clock"] = "18:09:39",
+			}, -- [7]
+			{
+				["elapsed"] = 148.3450000000012,
+				["type"] = 0,
+				["name"] = "Training Dummy",
+				["clock"] = "18:06:13",
+			}, -- [8]
+		},
+		["totals_grupo"] = {
+			3490149.050971001, -- [1]
+			0.007565000000000001, -- [2]
+			{
+				0, -- [1]
+				[0] = 0.021305,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 1.008626,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["end_time"] = 17104.994,
+		["data_inicio"] = "18:06:13",
+		["frags"] = {
+		},
+		["data_fim"] = "18:15:50",
+		["overall_enemy_name"] = "-- x -- x --",
+		["cleu_timeline"] = {
+		},
+		["spells_cast_timeline"] = {
+		},
+		["start_time"] = 16883.533,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["combat_counter"] = 5,
+	},
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["enabled"] = true,
+			["animate"] = false,
+			["hide_pull_bar"] = false,
+			["author"] = "Terciob",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["usefocus"] = false,
+			["updatespeed"] = 1,
+			["useclasscolors"] = false,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["absolute_mode"] = false,
+			["playSound"] = false,
+			["playSoundFile"] = "Details Threat Warning Volume 3",
+			["disable_gouge"] = false,
+		},
+		["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+			["enabled"] = true,
+			["author"] = "Terciob",
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["tank_block_size_height"] = 50,
+			["show_power_bar"] = false,
+			["first_run"] = false,
+			["aura_timer_text_size"] = 14,
+			["tank_block_castbar_size_height"] = 16,
+			["show_health_bar"] = true,
+			["aura_offset_y"] = 0,
+			["enabled"] = true,
+			["show_cast_bar"] = false,
+			["author"] = "Terciob",
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["show_inc_bars"] = true,
+			["tank_block_powerbar_size_height"] = 10,
+			["tank_block_height"] = 40,
+			["tank_block_color"] = {
+				0.074509, -- [1]
+				0.035294, -- [2]
+				0.035294, -- [3]
+				0.832845, -- [4]
+			},
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["last_section_selected"] = "main",
+			["author"] = "Terciob",
+			["window_scale"] = 1,
+			["encounter_timers_dbm"] = {
+			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Terciob",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["use_square_mode"] = false,
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["author"] = "Terciob",
+			["main_frame_size"] = {
+				300, -- [1]
+				500.0000305175781, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["main_frame_locked"] = false,
+			["arrow_anchor_x"] = 0,
+			["font_size"] = 10,
+			["row_texture"] = "Details Serenity",
+			["square_grow_direction"] = "right",
+			["arrow_anchor_y"] = 0,
+			["use_spark"] = true,
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 0.00115966796875,
+				["x"] = 3.0517578125e-05,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
+			["y"] = 0.0009307861328125,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["point"] = "CENTER",
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_height"] = 20,
+			["scale"] = 1,
+		},
+	},
+	["ignore_nicktag"] = false,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["announce_cooldowns"] = {
+		["ignored_cooldowns"] = {
+		},
+		["enabled"] = false,
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["cached_roles"] = {
+	},
+	["cached_specs"] = {
+		["Player-3683-0D9B60C9"] = 66,
+		["Player-3683-0D15932B"] = 254,
+		["Player-3683-0C87E3F0"] = 72,
+		["Player-61-0EC567BE"] = 250,
+		["Player-3683-0D9B32BC"] = 267,
+	},
+}

@@ -20,16 +20,24 @@ export PAGER='most'
 alias df='df -h'
 alias du='du -h'
 
+alias cal='task calendar'
+
 #clear
-alias clean="clear; seq 1 $(tput cols) | sort -R | sparklines | lolcat"
+alias clear="clear; seq 1 $(tput cols) | sort -R | sparklines | lolcat"
+
+### zoxide instead of cd
+alias cd='z'
 
 ### eza instead of ls
 alias ls='eza -a --color=always'
 alias lsp='eza -al --color=always'
 
+### bat instead of cat
+alias cat='bat'
+
 ### make less and grep handle colors
-alias less='less -r'
-alias grep='grep --color=auto'
+alias less='most'
+alias grep='grep --color=always'
 
 ### get the weather
 alias weather='curl https://wttr.in/'
@@ -38,6 +46,13 @@ alias weather='curl https://wttr.in/'
 alias gtd=~/.local/scripts/gtd.sh # The gtd report
 alias progress=~/.local/scripts/recurring-progress-report.sh # call with the uuid of the parent recurring task
 alias grade=~/.local/scripts/project-progress.sh # call with a project name
+
+### Pomodoro timers
+alias startpom='termdown 25m -c 60 -bsv --font=banner3'
+alias startbreak='termdown 5m -c 60 -bsv --font=banner3'
+
+### LMS
+alias lms='nvim "$HOME/Documents/Life Management System/README.md"'
 
 #arcolinux applications
 #att is a symbolic link now
@@ -55,7 +70,10 @@ alias awa="arcolinux-welcome-app"
 
 ## some fun on new terminal
 ## exec 'seq 1 $(tput cols) | sort -R | sparklines | lolcat'
-neofetch
+rxfetch
+cal
 
+## zoxide
+eval "$(zoxide init bash)"
 ## Starship prompt
 eval "$(starship init bash)"

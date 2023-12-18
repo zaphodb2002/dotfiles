@@ -5,7 +5,7 @@ local FOLDER_NAME, private = ...
 
 private.CONTINENT_ZONE_IDS = {
 	[905] = { zonefilter = true, npcfilter = true, id = 9, zones = {830,882,885} }; --Argus
-	[619] = { zonefilter = true, npcfilter = true, id = 8, zones = {630,646,790,650,634,680,641,649,652} }; --Broken Isles
+	[619] = { zonefilter = true, npcfilter = true, id = 8, zones = {627,630,646,790,650,634,680,641,649,652} }; --Broken Isles
 	[572] = { zonefilter = true, npcfilter = true, id = 7, zones = {525,534,535,539,542,543,550,582,588,590} }; --Draenor
 	[13] = { zonefilter = true, npcfilter = true, id = 2, zones = {14,15,17,18,21,22,23,25,26,27,32,36,37,47,48,49,50,51,52,56,76,84,94,95,201,203,204,205,210,241,425,465,469,943,1470} }; --Eastern Kingdoms
 	[12] = { zonefilter = true, npcfilter = true, id = 1, zones = {1,7,10,57,62,63,64,65,66,69,70,71,76,77,78,80,81,83,97,103,106,198,199,249,327,338,1332,1469,1527,1571} }; --Kalimdor
@@ -60,6 +60,7 @@ private.SUBZONES_IDS = {
 	[32] = {33,35}; --Searing Gorge minimaps
 	[543] = {549}; --Gorgrond minimaps
 	[535] = {537}; --Talador minimaps
+	[627] = {626,628,629}; --Dalaran Legion
 	[830] = {833}; --Krokuun minimap
 	[942] = {1183}; --Stormsong Valley minimap
 	[1015] = {1016,1017,1018,1019}; --Waycrest manor

@@ -1,0 +1,5 @@
+
+Scrap_Sets = {
+	["list"] = {
+	},
+}

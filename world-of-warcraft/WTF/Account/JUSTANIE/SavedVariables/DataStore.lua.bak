@@ -1,8 +1,8 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 	},
 	["global"] = {
 		["Guilds"] = {
@@ -11,11 +11,11 @@ DataStoreDB = {
 			},
 		},
 		["Characters"] = {
-			["Default.Dalaran.Morgntreeman"] = {
-				["faction"] = "Alliance",
+			["Default.Dalaran.Hyaae"] = {
 				["guildName"] = "Grape Soda",
+				["faction"] = "Alliance",
 			},
-			["Default.Dalaran.Jenleeviyah"] = {
+			["Default.Dalaran.Morgntreeman"] = {
 				["faction"] = "Alliance",
 				["guildName"] = "Grape Soda",
 			},

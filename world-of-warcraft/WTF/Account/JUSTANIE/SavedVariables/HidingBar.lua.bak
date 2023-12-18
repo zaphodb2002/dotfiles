@@ -1,70 +1,103 @@
 
 HidingBarDB = {
-	["tstmp"] = 1699937134,
+	["tstmp"] = 1702857203,
 	["profiles"] = {
 		{
 			["isDefault"] = true,
 			["config"] = {
 				["addFromDataBroker"] = true,
 				["mbtnSettings"] = {
-					["LibDBIcon10_MoveAnyMinimapIcon"] = {
-						["tstmp"] = 1699937134,
+					["LibDBIcon10_RareScannerMinimapIcon"] = {
+						["tstmp"] = 1702857203,
 					},
 					["BtWQuestsMinimapButton"] = {
-						["tstmp"] = 1699937134,
+						["tstmp"] = 1702857203,
 					},
-					["LibDBIcon10_Leatrix_Maps"] = {
-						["tstmp"] = 1699937134,
-					},
-					["AltoholicMinimapButton"] = {
-						["tstmp"] = 1699937134,
-					},
-					["LibDBIcon10_RareScannerMinimapIcon"] = {
-						["tstmp"] = 1699937134,
-					},
-					["LibDBIcon10_Bartender4"] = {
-						["tstmp"] = 1699936423,
-					},
-					["AllTheThings-Minimap"] = {
-						["tstmp"] = 1699937134,
-					},
-					["LibDBIcon10_Details"] = {
-						["tstmp"] = 1699937134,
+					["LibDBIcon10_DBM"] = {
+						["tstmp"] = 1702857203,
 					},
 					["LibDBIcon10_Rarity"] = {
-						["tstmp"] = 1699937134,
+						["tstmp"] = 1702857203,
 					},
-					["LibDBIcon10_Plater"] = {
-						["tstmp"] = 1699937134,
+					["LibDBIcon10_AstralKeys"] = {
+						["tstmp"] = 1702857203,
 					},
 					["LibDBIcon10_Leatrix_Plus"] = {
-						["tstmp"] = 1699937134,
+						["tstmp"] = 1702857203,
 					},
-					["Narci_MinimapButton"] = {
-						["tstmp"] = 1699937134,
+					["LibDBIcon10_Masque"] = {
+						["tstmp"] = 1702857203,
+					},
+					["LibDBIcon10_MoveAnyMinimapIcon"] = {
+						["tstmp"] = 1702857203,
+					},
+					["LibDBIcon10_Leatrix_Maps"] = {
+						["tstmp"] = 1702857203,
+					},
+					["AltoholicMinimapButton"] = {
+						["tstmp"] = 1702857203,
+					},
+					["ZPerl_MinimapButton_Frame"] = {
+						["tstmp"] = 1702857203,
+					},
+					["LibDBIcon10_Bartender4"] = {
+						["tstmp"] = 1702857203,
+					},
+					["AllTheThings-Minimap"] = {
+						["tstmp"] = 1702857203,
+					},
+					["LibDBIcon10_WeakAuras"] = {
+						["tstmp"] = 1702857203,
 					},
 					["LibDBIcon10_DetailsStreamer"] = {
-						["tstmp"] = 1699937134,
+						["tstmp"] = 1702857203,
+					},
+					["LibDBIcon10_Raven"] = {
+						["tstmp"] = 1702857203,
+					},
+					["LibDBIcon10_Plater"] = {
+						["tstmp"] = 1702857203,
+					},
+					["LibDBIcon10_Details"] = {
+						["tstmp"] = 1702857203,
+					},
+					["LibDBIcon10_Hekili"] = {
+						["tstmp"] = 1702346393,
 					},
 				},
 				["btnSettings"] = {
-					["Altoholic"] = {
-						["tstmp"] = 1699937134,
+					["|cffb4b4ffALL THE THINGS|r"] = {
+						["tstmp"] = 1702857203,
 					},
-					["Narcissus"] = {
-						["tstmp"] = 1699937134,
+					["Raven"] = {
+						["tstmp"] = 1702857203,
 					},
 					["HidingBar"] = {
-						["tstmp"] = 1699937134,
+						["tstmp"] = 1702857203,
 					},
 					["BtWQuests"] = {
-						["tstmp"] = 1699937134,
+						["tstmp"] = 1702857203,
 					},
 					["Bartender4"] = {
-						["tstmp"] = 1699936423,
+						["tstmp"] = 1702857203,
 					},
-					["|cffb4b4ffALL THE THINGS|r"] = {
-						["tstmp"] = 1699937134,
+					["DBM"] = {
+						["tstmp"] = 1702857203,
+					},
+					["Altoholic"] = {
+						["tstmp"] = 1702857203,
+					},
+					["GatherMate2"] = {
+						["tstmp"] = 1702436332,
+					},
+					["X-Perl UnitFrames"] = {
+						["tstmp"] = 1702857203,
+					},
+					["WeakAuras"] = {
+						["tstmp"] = 1702857203,
+					},
+					["Masque"] = {
+						["tstmp"] = 1702857203,
 					},
 				},
 				["grabMinimap"] = true,

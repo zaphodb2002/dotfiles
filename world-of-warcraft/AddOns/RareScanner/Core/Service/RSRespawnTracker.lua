@@ -38,7 +38,7 @@ local function CheckRespawnTimers(firstScan)
 				-- It's possible that the quest takes a little bit longer to reset, so check for this NPC later
 				local hasRespawn = true
 				if (npcInfo and npcInfo.questID) then
-					if (firstScan or (not npcInfo.reset and not npcInfo.questReset and not npcInfo.weeklyReset and not npcInfo.resetTimer)) then
+					if (firstScan or (not npcInfo.reset and not npcInfo.questReset and not npcInfo.weeklyReset)) then
 						for _, questID in ipairs (npcInfo.questID) do
 							if (C_QuestLog.IsQuestFlaggedCompleted(questID)) then
 								-- Check this same NPC every 5 minutes during the next 15
@@ -79,7 +79,7 @@ local function CheckRespawnTimers(firstScan)
 				-- It's possible that the quest takes a little bit longer to reset, so check for this container later
 				local hasRespawn = true
 				if (containerInfo and containerInfo.questID) then
-					if (firstScan or (not containerInfo.reset and not containerInfo.questReset and not containerInfo.weeklyReset and not containerInfo.resetTimer)) then
+					if (firstScan or (not containerInfo.reset and not containerInfo.questReset and not containerInfo.weeklyReset)) then
 						for _, questID in ipairs (containerInfo.questID) do
 							if (C_QuestLog.IsQuestFlaggedCompleted(questID)) then
 								RSLogger:PrintDebugMessage(string.format("CheckRespawnTimers [Contenedor: %s], sigue cerrado acorde a su quest [%s]", containerID, questID))

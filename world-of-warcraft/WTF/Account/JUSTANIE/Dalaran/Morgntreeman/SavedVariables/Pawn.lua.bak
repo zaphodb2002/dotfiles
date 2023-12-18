@@ -6,83 +6,83 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 209894,
-			["Level"] = 415,
-			["Link"] = "|cff1eff00|Hitem:209894::::::::70:104::25:4:9544:6652:9600:1472:1:28:2699:::::|h[Fearless Faerie's Guise]|h|r",
+			["Level"] = 437,
+			["Link"] = "|cff0070dd|Hitem:209894::::::::70:104::27:5:6652:9600:9551:1494:8766:1:28:2699:::::|h[Fearless Faerie's Guise]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 209916,
-			["Level"] = 415,
-			["Link"] = "|cff1eff00|Hitem:209916::::::::70:104::25:5:9544:6652:8783:10244:1472:1:28:2699:::::|h[Sunrise Circlet]|h|r",
+			["ID"] = 210380,
+			["Level"] = 454,
+			["Link"] = "|cffa335ee|Hitem:210380::192979::::::70:104::54:6:6652:8783:9516:9556:1485:8767:1:28:2699:::::|h[Glittering Gelid Goldchain]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 209899,
-			["Level"] = 415,
-			["Link"] = "|cff1eff00|Hitem:209899::::::::70:104::25:3:9544:6652:1472:1:28:2699:::::|h[Fearless Faerie's Shoulderpads]|h|r",
+			["ID"] = 207252,
+			["Level"] = 454,
+			["Link"] = "|cffa335ee|Hitem:207252::::::::70:104::4:7:6652:7982:8096:9511:9556:1485:8767::::::|h[Benevolent Embersage's Wisdom]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 204760,
-			["Level"] = 411,
-			["Link"] = "|cffa335ee|Hitem:204760::::::::70:104::42:6:6652:9223:9221:9316:1533:8767:1:28:2641:::::|h[Suffused Vest]|h|r",
+			["ID"] = 207257,
+			["Level"] = 463,
+			["Link"] = "|cffa335ee|Hitem:207257::::::::70:104::4:6:6652:7982:9515:9559:1494:8767:1:28:1040:::::|h[Benevolent Embersage's Robe]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 209906,
-			["Level"] = 415,
-			["Link"] = "|cff1eff00|Hitem:209906::::::::70:104::25:4:9544:6652:9599:1472:1:28:2699:::::|h[Fearless Faerie's Belt]|h|r",
+			["ID"] = 210371,
+			["Level"] = 450,
+			["Link"] = "|cffa335ee|Hitem:210371::::::::70:104::42:6:9506:6652:9600:9555:1481:8767:1:28:2699:::::|h[Crystalline Tender's Belt]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 209898,
-			["Level"] = 415,
-			["Link"] = "|cff1eff00|Hitem:209898::::::::70:104::25:3:9544:6652:1472:1:28:2699:::::|h[Fearless Faerie's Trousers]|h|r",
+			["ID"] = 207253,
+			["Level"] = 450,
+			["Link"] = "|cffa335ee|Hitem:207253::::::::70:104::42:5:6652:9512:9555:1481:8767::::::|h[Benevolent Embersage's Leggings]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 210120,
-			["Level"] = 418,
-			["Link"] = "|cff1eff00|Hitem:210120::::::::70:104::26:3:9545:6652:1475:1:28:2699:::::|h[Autumn Druid Treads]|h|r",
+			["ID"] = 207256,
+			["Level"] = 457,
+			["Link"] = "|cffa335ee|Hitem:207256:6612:::::::70:104::54:4:6652:9557:1488:8767::::::|h[Benevolent Embersage's Lined Boots]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 204596,
-			["Level"] = 392,
-			["Link"] = "|cff0070dd|Hitem:204596::::::::70:104::11:4:8902:9299:1485:8766:1:28:2588:::::|h[Inherited Wristbands]|h|r",
+			["ID"] = 210206,
+			["Level"] = 444,
+			["Link"] = "|cffa335ee|Hitem:210206::::::::70:104::4:7:6652:9516:9507:7982:9553:1475:8767::::::|h[Verdant Sanctuary Bands]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 210087,
-			["Level"] = 424,
-			["Link"] = "|cff0070dd|Hitem:210087::::::::70:104::28:4:9547:6652:1481:8766:1:28:2699:::::|h[Autumn Druid Grips]|h|r",
+			["ID"] = 193661,
+			["Level"] = 441,
+			["Link"] = "|cffa335ee|Hitem:193661::::::::70:104::2:6:9636:43:9504:9540:1663:8767:1:28:2155:::::|h[Blightweaver's Clutches]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 210121,
-			["Level"] = 418,
+			["ID"] = 207159,
+			["Level"] = 463,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:210121::::::::70:104::26:4:9545:6652:9599:1475:1:28:2699:::::|h[Ring of Season's Sunset]|h|r",
+			["Link"] = "|cffa335ee|Hitem:207159:6566:::::::70:104::3:6:6652:9599:7979:9563:1494:8767:1:28:2474:::::|h[Band of Burning Thorns]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 195526,
-			["Level"] = 405,
+			["ID"] = 207159,
+			["Level"] = 460,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:195526::::::::70:104::3:5:41:7936:7979:1472:8767:1:28:2474:::::|h[Seal of Filial Duty]|h|r",
+			["Link"] = "|cffa335ee|Hitem:207159:6566:::::::70:104::3:6:6652:9599:7979:9562:1491:8767:1:28:2474:::::|h[Band of Burning Thorns]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 207005,
-			["Level"] = 402,
+			["ID"] = 207165,
+			["Level"] = 467,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:207005::::::::70:104::9:4:6652:9313:1472:8767:1:28:2684:::::|h[Paracausal Fragment of Thunderfin, Humid Blade of the Tideseeker]|h|r",
+			["Link"] = "|cffa335ee|Hitem:207165::::::::70:104::5:5:6652:7980:9568:1498:8767:1:28:2474:::::|h[Bandolier of Twisted Blades]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 194306,
-			["Level"] = 395,
+			["ID"] = 158319,
+			["Level"] = 454,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:194306::::::::70:104::3:4:7979:6652:1472:8767:1:28:2474:::::|h[All-Totem of the Master]|h|r",
+			["Link"] = "|cffa335ee|Hitem:158319::::::::70:104::102:6:9636:6652:9144:9556:3324:8767::::::|h[My'das Talisman]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 209918,
-			["Level"] = 415,
-			["Link"] = "|cff1eff00|Hitem:209918::::::::70:104::25:3:9544:6652:1472:1:28:2699:::::|h[Summer Soother's Wrap]|h|r",
+			["ID"] = 207160,
+			["Level"] = 450,
+			["Link"] = "|cffa335ee|Hitem:207160:6588:::::::70:104::4:6:6652:9507:7982:9555:1481:8767::::::|h[Inflammable Drapeleaf]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 210403,
-			["Level"] = 441,
-			["Link"] = "|cffa335ee|Hitem:210403::::::::70:104::42:4:9552:6652:1472:8767:1:28:2699:::::|h[Winter Forager's Spire]|h|r",
+			["Level"] = 463,
+			["Link"] = "|cffa335ee|Hitem:210403::::::::70:104::42:4:6652:9559:1494:8767:1:28:2701:::::|h[Winter Forager's Spire]|h|r",
 		}, -- [16]
 	},
 	["LastKeybindingsSet"] = 1,

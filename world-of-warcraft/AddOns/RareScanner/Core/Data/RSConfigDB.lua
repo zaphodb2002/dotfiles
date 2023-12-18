@@ -57,6 +57,10 @@ function RSConfigDB.GetMarkerOnTarget()
 	return private.db.general.marker
 end
 
+function RSConfigDB.SetMarkerOnTarget(value)
+	private.db.general.marker = value
+end
+
 function RSConfigDB.IsLockingPosition()
 	return private.db.display.lockPosition
 end
@@ -111,23 +115,6 @@ function RSConfigDB.DeleteCustomSound(name)
 			RSConfigDB.SetSoundPlayedWithNpcs("Horn")
 		end
 	end
-end
-
-function RSConfigDB.GetSoundList()
-	local defaultList = {} 
-	
-	-- Add internal sounds
-	for name, file in pairs (RSConstants.DEFAULT_SOUNDS) do
-		defaultList[name] = file
-	end
-	
-	-- Add custom sounds
-	if (RSConfigDB.GetCustomSounds()) then
-		for name, file in pairs (RSConfigDB.GetCustomSounds()) do
-			defaultList[name] = string.format(RSConstants.EXTERNAL_SOUND_FOLDER, RSConfigDB.GetCustomSoundsFolder(), file)
-		end
-	end
-	return defaultList;
 end
 
 function RSConfigDB.IsPlayingSound()
@@ -1150,6 +1137,14 @@ end
 
 function RSConfigDB.SetFilteringLootByCompletedQuest(value)
 	private.db.loot.filterItemsCompletedQuest = value
+end
+
+function RSConfigDB.IsFilteringLootByNotEquipableItems()
+	return private.db.loot.filterNotEquipableItems
+end
+
+function RSConfigDB.SetFilteringLootByNotEquipableItems(value)
+	private.db.loot.filterNotEquipableItems = value
 end
 
 function RSConfigDB.IsFilteringLootByNotMatchingClass()

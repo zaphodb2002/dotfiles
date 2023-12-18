@@ -1,7 +1,53 @@
 
 DataStore_MailsDB = {
 	["profileKeys"] = {
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Dalaran.Hyaae"] = {
+				["lastUpdate"] = 1702268627,
+				["Mails"] = {
+					{
+						["lastCheck"] = 1702268627,
+						["sender"] = "Hyaae",
+						["subject"] = "Character Boost",
+						["returned"] = true,
+						["money"] = 0,
+						["text"] = "We've supplied you with a whole new set of high-level gear, but attached you'll find all the old items and equipment you once carried.\r\n\r\n - The WoW Dev Team",
+						["icon"] = 134327,
+						["daysLeft"] = 177.0392150878906,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2023/12/10 20:23",
+			},
+			["Default.Dalaran.Morgntreeman"] = {
+				["lastUpdate"] = 1702838839,
+				["Mails"] = {
+					{
+						["link"] = "|cffffffff|Hitem:205982::::::::70:104::11::1:28:2649:::::|h[Lost Dig Map]|h|r",
+						["sender"] = "The Postmaster",
+						["itemID"] = 205982,
+						["returned"] = false,
+						["icon"] = 1500869,
+						["count"] = 1,
+						["lastCheck"] = 1702838839,
+						["daysLeft"] = 15.20200252532959,
+					}, -- [1]
+					{
+						["icon"] = 134327,
+						["sender"] = "The Postmaster",
+						["subject"] = "Recovered Item",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "We recovered a lost item in the twisting nether and noted that it was yours.\n\nPlease find said object enclosed.",
+						["lastCheck"] = 1702838839,
+						["daysLeft"] = 15.20200252532959,
+					}, -- [2]
+				},
+				["lastVisitDate"] = "2023/12/17 10:47",
+			},
+		},
 	},
 }

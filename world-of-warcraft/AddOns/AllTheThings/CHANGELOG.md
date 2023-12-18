@@ -1,121 +1,152 @@
 # AllTheThings
 
-## [DF-3.8.1](https://github.com/DFortun81/AllTheThings/tree/DF-3.8.1) (2023-11-12)
-[Full Changelog](https://github.com/DFortun81/AllTheThings/compare/DF-3.8.0...DF-3.8.1) [Previous Releases](https://github.com/DFortun81/AllTheThings/releases)
+## [DF-3.8.7](https://github.com/DFortun81/AllTheThings/tree/DF-3.8.7) (2023-12-10)
+[Full Changelog](https://github.com/DFortun81/AllTheThings/compare/DF-3.8.6...DF-3.8.7) [Previous Releases](https://github.com/DFortun81/AllTheThings/releases)
 
-- parser  
-- Fixed Bloody Token currency being used as item instead.  
-- Forest Lord's Antlers moved back to treasures achievement again.  
-- moved grimoires to its own common boss drop headers for time rift as they didnt display on the mobs.  
-    should now show properly  
-- Fixed a tiny Parser logic issue that actually caused huge differences (that no one on Git noticed, sigh)  
-- Added a special workaround for Achievement Criteria which use a sourceQuest to determine their name when the quest name doesn't exist  
-- Retail: Attempted global ATT window refreshes will now be performed more quickly and allowed during combat (previously they incurred a 0.1 sec delay between attempts and only outside of combat, but Refresh is pretty cheap, so it should be fine)  
-- 'Character Unlocks' is now tracked Account-Wide by default  
-- shortened some names for amirdrassil, the dreams hope  
-- Update Quests.lua  
-- Moved Lifeblood and Toughness back to their respective profession files.  
-- Sprout quest update  
+- Unsorted NYI items are back in the unsorted file.  
+    satchel is symlinked for release  
+- Doti update.  
+- Every Day I'm Truffling shouldn't show its criteria. Also took out a no longer relevant TODO comment.  
+- Dreamsurge breadcrumb seems removed in 10.2.0  
+- a little bit more DF items  
+- Added BMAH vendor in Valdrakken.  
+- Backlogging with sorting some DF NYI items  
+- NYI items and parsed  
+- Update Grizzly Hills.lua  
+    Added some quest data  
+- Objects with models  
+- SOD: Gnomeregan quests are not currently available.  
+- SOD: Fixed a handful of BFD quests.  
+- SOD: Added all of the loot to Blackfathom Deeps.  
+- Merged the dynamic object db files into ObjectDB.  
+- Excluding the Conditional ObjectDB when in DEBUG mode. (this helps build the ObjectDB without putting in the stuff that breaks the filtering.)  
+- SOD: Fixed a typo on the Wandering Swordsman.  
+- NYI Items  
+    From Retail-Errors  
+- NYI and Retail-Errors  
+- Couple further tweaks on upgrade handling within search context due to some items showing upgrades when they in fact are in a state which does not allow upgrades  
+- NYI and Errors  
+- When running parser in DEBUG Mode, you can now use the DEBUG preprocessor.  
+- Classic: Fixed a bug with the Removed From Game window logic.  
+- Fixed an issue with /attsync when blizzard services are unavailable.  
+- SOD: Added Carrodin to Wetlands.  
+- Corrected a coordinate in Duskwood that was preventing retail from parsing.  
+    Added some more objects.  
+- SOD: Added the Wandering Swordsman and the Rune of Blood Frenzy.  
+- Classic: Elmore's Task now shows up in SW. Also made AUTHOR a bit easier.  
+- SOD: Added Phoenix Bindings.  
+    Added more missing quest objects.  
+- weekly reputation quest from emerald dream has no longer symlinked rewards.  
+    almost all items are unique transmog and are limited by 2 weekly quests, so we should show all sources  
+- another tistle tea source  
+- Adding corrections and details to 10.1.7 Duskwood drops.  
+- *slaps _noautomation on misbehaving achievements* I fix :D  
+- Master Draenor Crafter seems to exist out of 90 criteria, one for every item you can craft. Don't really think we need to see all that, right?  
+- Raiding with Leashes series item providers  
+- NYI  
+- BuildSearchResponse modified on how it can keep certain fields when cloning in groups  
+- Couple ResolveSymlink adjustments  
+- More fixes to SearchForObject  
+- Fixed a SearchForObject issue where any modItemID search would be empty  
+- Top level Achievements category now properly shows progress  
+- Added the Underspore object.  
+- Classic: Fixed a tooltip bug with items that share the same name as their containing object.  
+- Conquest points were Cata onwards + parsed everything for retail  
+- Achievement cleanup (#1529)  
+    * Pandaria quests already exist elsewhere  
+    * BFA quest achievements moved to their new homes  
+    * General quest achievements also moved to their new home  
+    * Some fixes to moved data  
+    * Pandaria reputation achievements moved  
+    * Draenor reputation achievements moved  
+    * Legion reputation achievements moved  
+    * BFA reputation achievements moved  
+    * General reputation achievements also moved  
+    * Parser was getting a tad too enthusiastic with the criteria under the exalted reputation achievements  
+    * Formatting and some small adjustments so everything displays properly ingame  
+    * Pet battle achievements moved to new homes  
+    * FoS achievements moved to new homes  
+    * Legacy achievements moved to new homes  
+    * Header fix  
+    * First pass of PR review comments  
+    * A bunch of timelines (PR feedback)  
+    * These two seem to have survived the purge  
+    * Don't need both sourcequests and _quests  
+    * Timelines  
+    * Deleted some sourceQuests we no longer need  
+    * Timelines, moved some stuff around  
+    * Reworked and fixed Bizmos Brawlpub and Brawlgar Arena achievement sections + some style stuff  
+    * Valor points  
+    * Moved achievements that take place everywhere in KT/DA up to continent wide achievements rather than in their main hub  
+    * All PVP achievements timelines, ordered, and deepwind gorge stuff taken to its own file  
+    * All Character achievements properly timelined, decoupled, some stuff moved to the raids where they belong  
+    * Pet battle achievements reviewed, cleaned up, moved to better homes  
+- Added object for Sanguine Hibiscus.  
+- Added a proper timeline for That's Just Cruel.  
+- veteran leggings are likely removed, but prolly can drop from dented raiders leggings. requires confirmation however  
+- Commented out a symlink because it's searching for something not sourced and idk where to source it  
+- Fixed some Legion symlinks  
+- SOD: Added Phoenix Bindings.  
+- Classic: Added a fallback difficulty string if one doesn't return a proper name by Blizzard.  
+- SOD: Added Sturdy Courier Bag and Mantle of the Second War  
 - Retail Errors  
-- Update 4 - Sepulcher of the First Ones.lua  
-    You can not get achievement progress for heroic on mythic.  
-- Added another DM from purse and prep for special lines in quests  
-- Update Timewalking.lua  
-    There ya go Runaway :)  
-- Classic: Added souce ID to the tooltip  
-- CLASSIC: SourceID data now gets exported with the database.  
-- Classic: Added back AWP as a hierarchicalNonRepeatField.  
-- First Skinning Elusive Blooming Brierhide  
-- 10.2 errors cleanup  
-- Merge branch 'master' of https://github.com/DFortun81/AllTheThings  
-    * 'master' of https://github.com/DFortun81/AllTheThings:  
-      Fixed Emerald Dream dragonracing providers and added coordinates to races  
-- reversed default sound pack to NOT play report sounds  
-    you can now pick the reporting soundpack if you wish so.  
-    change is made for new wow patches, as the sound gets very spammy  
-- Fixed Emerald Dream dragonracing providers and added coordinates to races  
-- One more doti item.  
-- reduced even more in tooltip length  
-- reduced the monstrous size of dragon riding achievement tooltips due blizzard naming them this (no joke)  
-    The Forbidden Reach Challenge Racing Completionist: Gold  
-- First week of mythic doti mythic farming.  
-- updated grand hunt.  
-    Removed various symlinks & while there is some duplication, it should be more clear, especially when you didnt do any GH in the last 10 months  
-    clairity & ease of acess should prio symlinking/number reduce  
-- updated seedbloom  
-- removed note from m+ crests as blizzard added them on the item baseline  
-- Fixed a Lua bug when toggling settings after loading with Debug enabled and Show Trackable un-checked  
-    Debug mode once again allows toggling Show Completed content  
-- Fixed Dream Infusion Currency mixup  
-- Update Emerald Bounty.lua  
-- shipment recipes no longer show as learnable (they rotate)  
-- Retail Errors and WOD TW Daily Bag  
-- TryColorizeName now supports 'raceID'  
-    Races in ATT tooltips will now be colorized according to their appropriate Faction when 'Show Colors' is enabled  
-- Update Quests.lua  
-    Auto-Accept quest from 10.1.7 removed with patch.  
-- Big rares seems like have daily lockout  
-- Use valid Quest name for Superbloom instead of a bad 'name' field  
-- Unmangled the criteria for emerald dream challenge race achievements and quests  
-- Classic: RWP now works correctly once again.  
-- BNet API Harvest 10.2 (Items/Quests)  
-- Another BNet API harvest down, another small set of consistency tweaks to the harvester  
-- Partially reverted & fixed Triflesnatcher (Don't use q() if it isn't a real in-your-logs Quest. Just fix the creatureID since it was duped)  
-- Emerald Dream fixes  
-- didn't remove it from unsorted .-.  
-- Raszageth's Last Breath actually make it to live, also some ru localisation update  
-- Added lil'Wrathion  
-- Added Runebound Firelord  
-- my bad, it was actually dm qid  
-- Fixed the itemID for Murloc Costume.  
-- Wrath Classic: Added Lil’ Wrathion, Avatar of Flame, and Nightmarish Emerald Drake.  
-- Superbloom - more DM, new weekly hqts?  
-- Emerald Bounty - mounts are now listed at vendor, again.  
-- Superbloom last cosmetic. May be.  
-- More Superbloom cosmetic  
-- i(204078), -- Aspect's Shadowflame Crest Fragment still drops, but useless  
-- superbloom now returns a valid name and resorted some data the way its sorted in other locations  
-- Headers which have a mapID matching the current map are again allowed to be the root of a minilist even if they aren't a 'fake' map (i.e Darkmoon Faire)  
-- Fixed Nazjatar Pet Battle Items/Quests  
-- Few more unnecessary 'Retrieving data' removed  
-- Fixed a couple minor discrepancies on where 'Retrieving data' is used for quest names  
-- #errors cleanup  
-- Emerald Bounty now should stop yelling with missing qids  
-- A bit more fixing hqts  
-- Couple Timeless Isle & more Quest-Items converted  
-- Updated max Item/Quest for BNet harvest  
-- Future Parser builds will warn when data export fails to use a known export type  
-    Future Parser builds will automatically convert & warn about any Item with Quest (with no groups or sym field) as a Character Unlock  
-    Moved a lot of auto Character Unlocks into CharacterItemDB (maybe someone wants them categorized elsewhere? idk)  
-    Converted a bunch of Items with Quests into proper Quests with provider Item [WIP]  
-- Some hqt fixing  
-- Rare loot and DM from dream racer purse  
-- Item from a rare  
-- More DMs  
-- Fixed Manuscript timeline.  
-    Fixed Time Rifts file.  
-- Another DM for Superbloom, moved rare loot which was actually zone drop  
-- Dreamsurge  & Time Rifts weekly have new itemID  
-- Added Emerald Dream FP map  
-- Update AchievementDB.lua  
-- Update Achievements.lua  
-    They changed pathfinder!  
-- addded i(203344), -- Winding Slitherdrake: Single Jaw Horn (DM!)  
-- PTR: added cloth/mail/plate armor rewards for ch.5  
-- Retail: Fixed parser config current data patch  
-- Various Parser Cleanup & Improvement  
-    * Added a Debug-Warn logging method  
-    * awp/rwp are parsed as long instead of string  
-    * Cleaned up parsing of race-lists  
-    * Added more efficient-collection comparison & fixed a possible logic gap  
-    * Data Validator cleaning now performs Debug Warn logging  
-    * Data Validator now performs Validation during Validation stage, and Cleaning during Consolidation stage (this way we can complain about contribs doing things wrong, but clean up when Blizzard does things wrong)  
-    * Added parser.config 'HierarchicalNonRepeatFields' which will remove field values on child groups which match the same field value on their parent (added to classic version configs as well since they also included this functionality)  
-    * Consolidated handling of hierarchically-persistant field values (lvl, modID, awp)  
-    * Cleaned up format of data validation method  
-    * Processing now uses a function assignment to perform the necessary processing rather than performing a conditional check for every processed piece of data  
-    * Fixed lvl consolidation to actually consolidate lvl data  
-    * awp is only applied when it's higher than the default (10000) (same as rwp)  
-- PTR: chapter 5 is up now, only leather armor is sourced  
-- Seat of the Triumvirate Ensemble contains mythic items too! (after relog)  
-- DF winterpelt furbolg wrong npc for quest  
+- NYI  
+- Update Superbloom.lua  
+- NYI and Superbloom Description update  
+- Classic: Added locations for Boar Intestines.  
+- Classic: Added locations for Bear Meat.  
+- Classic: Some source quest clarification for Rejold's New Brew.  
+- Small doti update.  
+- Classic: Walking into the Aldrassil subzone now shows the correct map data.  
+- Classic: Walking into the Shadowthread Cave in Shadowglen now shows the correct map.  
+- SOD: Added the Adventurer's Spirit.  
+- Coldridge Valley now uses zone-text-areas.  
+- Parser no longer sorts zone-text-areaIDs (the order is very specific)  
+- Quick fix for some M+ vault items showing that they upgrade into themselves  
+- Another one Dream Wardens Insignia from Superbloom  
+- Fix #1528: Use InGame for character filters instead of Unobtainable  
+- Dream Wardens Insignia  
+- SOD: Updated the tooltip on the Factions to properly calculate how many supplies you need.  
+- SOD: Greatly improved the design of the Waylaid Supplies section and combined it with the quest header that was there previously.  
+- Couple NYI  
+- Minor fix for Upgrade logic where the wrong upgrade was being considered due to bonusID on the base item  
+- SOD: Added another npcID for the Kor Gem.  
+- Classic: Disabled spell tooltips on action bars.  
+- SOD: Separated the Sunken Reliquary from the libram for visibility.  
+- SOD: Added a note to the drone version of the drop.  
+- SOD: Added Libram of Justice for Paladins.  
+- SOD: Added the ACA / DSL Reputation Vendor Items.  
+- Classic: Added ResolveQuestData as a function you can call.  
+- Some ED treasures are daily  
+    Fixed Dream Infusion providers again  
+- SOD: Added Shredder Autosalvage Unit for Engineers.  
+- SOD: Added Libram of Banishment for Paladins.  
+- 'The Great Vault' is likely not a breadcrumb. It remains available even after looting the vault without the quest  
+- SOD: Added the Rune Vendor Grizzby in The Barrens.  
+- Fixed a Parser issue which was allowing Achievement-merge data into every Criteria of a given Achievement (we basically never want to put anything under a Criteria)  
+- Classic: Added spell descriptions.  
+- SOD: Added Elixir of Coelesced Regret for Alchemists.  
+- Fixed some classic object tooltips.  
+    SOD: Added some rare spawn runes.  
+- Moved That's Just Cruel (doesn't require Leatherworking, will probably do this with all achievements that meet this criteria)  
+    Some ED linkage  
+- Classic: Right clicking a thing in the addon now summarizes where it is.  
+- SOD: Added all of the Rune Engravings.  
+- SOD: Added Rune of Furious Thunder and Rune of Explosive Shot.  
+- SOD: Added a parser preprocessor for SEASON\_OF\_DISCOVERY. (rather than using BEFORE TBC)  
+- SOD: Added Monster Hunting for the Rune of Devastate for Warriors.  
+- Moved Tier Set data for Tiers 11, 12, and 13 into the structures lib.  
+- The Legend of Stalvan (4/13) turn in is in Elwynn Forest.  
+- Bumped retail build  
+    So that promos are correctly marked as removed  
+- Marked Twitch promos as removed  
+- Classic: Stormpike's Order turn in is in Stormwind City.  
+- Some items find their home (and Dream Wardens alt quest)  
+- Fyrakk bad luck protection qid  
+- Fixed Dream Infusion pet providers  
+- Fixed/simplified some symlinks based on testing which were failing to return results (WIP there are more...)  
+- Symlink 'select' command now uses a SearchForObject with multiple results to accurately perform selections of data based on 'field' match requirements of the select (i.e. the selected data field has to match the value, whereas previously it would grab anything cached for the field/value. This would lead to weirdness and excessive results that required additional filtering to reduce to the proper result)  
+- Added symlink command 'find' which works essentially like 'extract' but with a value to match on the field. (This should help make some situations cleaner where the symlink basically is just where-pop repeatedly to find a single unique header. Now you can just 'find' from the point where it would give you the group(s) needed)  
+- Moved 'SearchForObject' into Cache and simplified some logic branches. Additionally it can now handle multiple results if specified by the caller, as well as proper handling of itemID searches depending on the search id being either a base itemID or modItemID  
+- Couple NYI cleaned  
+    Added RNG protection Fyr'alath items  
