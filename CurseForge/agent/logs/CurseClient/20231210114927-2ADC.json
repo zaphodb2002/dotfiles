@@ -1,0 +1,1094 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 10972,
+  "Arguments": [
+    "/tmp/.mount_CurseFzoUP1E/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=51555",
+    "--to-port=51575",
+    "--pid=10835",
+    "--appDataPath=/home/zaphod/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2023-12-10T19:49:27.2392367Z",
+  "Version": "0.239.3.14963",
+  "BuildDate": "2000-01-04T16:18:46Z",
+  "Start": "2023-12-10T11:49:27.7265074-08:00",
+  "Log": [
+{
+  "timestamp": "2023-12-10T11:49:27.7185868-08:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2023-12-10T11:49:27.7231459-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 0.239.3.14963"
+},
+{
+  "timestamp": "2023-12-10T11:49:27.7243391-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=51555,--to-port=51575,--pid=10835,--appDataPath=/home/zaphod/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2023-12-10T11:49:27.7263235-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 10835"
+},
+{
+  "timestamp": "2023-12-10T11:49:28.2365196-08:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "missing implementation of: getForegroundWindowFromPoint"
+},
+{
+  "timestamp": "2023-12-10T11:49:28.260334-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 51555"
+},
+{
+  "timestamp": "2023-12-10T11:49:28.8073587-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2023-12-10T11:49:28.9206947-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2023-12-10T11:49:28.9230037-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e33670924a0c5e38f47c840b/launcher.jar, 4481683"
+},
+{
+  "timestamp": "2023-12-10T11:49:28.9238669-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2023-12-10T11:49:28.9406224-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2023-12-10T11:49:29.007001-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.0135086-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.4249497-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.4256817-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.4762168-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Loaded 25 games from the server"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.4764254-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/zaphod/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.4946485-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "68.00"
+  }
+},
+{
+  "timestamp": "2023-12-10T11:49:29.5133363-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2023-12-10T11:49:29.513731-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2023-12-10T11:49:29.5280904-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.5285412-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.5290393-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.6049871-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 1 instances"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.6090204-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"Retail\" Version from /run/media/zaphod/Storage/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Wow.exe"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.616471-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for Retail"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.6204736-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.6560324-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.6573209-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game World of Warcraft (Id: 1) was detected at /run/media/zaphod/Storage/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.6605099-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonSyncManager] No auth token. Aborting sync groups cache update"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.6668162-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"Retail\" Version from /run/media/zaphod/Storage/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Wow.exe"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.6668979-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for Retail"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.6694264-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2023-12-10T11:49:29.6726432-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0166544-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 347 ms"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0166578-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initialized game Retail instance"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0168097-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0179968-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 25 games..."
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0236031-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 1 detected game instances. Operation took 6 ms"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0247764-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0252367-08:00",
+  "level": "Warn",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "/home/zaphod/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2023-12-10T11:49:30.025399-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Beginning initialization of InstanceManager"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0257018-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "InstanceManager initialized."
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0263395-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0263655-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0267872-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0698162-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0730637-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0731087-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0731164-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0733602-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0798888-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.0799022-08:00",
+  "level": "Warn",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "/home/zaphod/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2023-12-10T11:49:30.1777502-08:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[ModLoaderDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "115.00"
+  }
+},
+{
+  "timestamp": "2023-12-10T11:49:30.1883282-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 115 ms"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.1893319-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 119 ms"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.2623311-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "45.00"
+  }
+},
+{
+  "timestamp": "2023-12-10T11:49:30.5772022-08:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.5772145-08:00",
+  "level": "Warn",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "/home/zaphod/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2023-12-10T11:49:30.6386031-08:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.6386138-08:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "/home/zaphod/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2023-12-10T11:49:30.7488826-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2023-12-10T11:49:30.748902-08:00",
+  "level": "Warn",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/zaphod/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2023-12-10T11:50:39.420396-08:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T11:50:39.4668222-08:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T11:52:40.422265-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T11:52:40.4713828-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T11:54:41.4201123-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T11:54:41.4711015-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T11:56:42.4287638-08:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T11:56:42.4790091-08:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T11:58:43.4287864-08:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T11:58:43.4882471-08:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:00:44.4550698-08:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:00:44.5073457-08:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:01:50.5089125-08:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2023-12-10T12:01:50.8045182-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2023-12-10T12:01:50.9253021-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "[AddonInstalltask] Downloading mod from https://edge.forgecdn.net/files/4937/416/Scrap-10.2.3.zip"
+},
+{
+  "timestamp": "2023-12-10T12:01:50.9376104-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/4937/416/Scrap-10.2.3.zip to /tmp/CF/EwPZAIYeMUm4yrYfGvkXg/1.zip"
+},
+{
+  "timestamp": "2023-12-10T12:01:51.7872462-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2023-12-10T12:01:51.8396849-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2023-12-10T12:01:51.8431364-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2023-12-10T12:01:52.0355304-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 192ms"
+},
+{
+  "timestamp": "2023-12-10T12:01:54.7806838-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2023-12-10T12:01:54.9058781-08:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2023-12-10T12:01:55.0073226-08:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "[AddonInstalltask] Downloading mod from https://edge.forgecdn.net/files/2862/70/Scrap_Cleaner-8.3.0-8.3.0.zip"
+},
+{
+  "timestamp": "2023-12-10T12:01:55.0075389-08:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/2862/70/Scrap_Cleaner-8.3.0-8.3.0.zip to /tmp/CF/EwPZAIYeMUm4yrYfGvkXg/5.zip"
+},
+{
+  "timestamp": "2023-12-10T12:01:55.8933979-08:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2023-12-10T12:01:55.8949124-08:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2023-12-10T12:01:55.8950091-08:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2023-12-10T12:01:56.0312142-08:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 136ms"
+},
+{
+  "timestamp": "2023-12-10T12:02:45.4492171-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:02:45.4904651-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:04:46.4333274-08:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:04:46.4927586-08:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:06:47.4418312-08:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:06:47.4888979-08:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:08:48.4320826-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:08:48.4897451-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:10:49.4424054-08:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:10:49.4962469-08:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:12:50.4455526-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:12:50.4991333-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:14:51.4352512-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:14:51.4800913-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:16:52.4366402-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:16:52.4876563-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:18:53.4421121-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:18:53.510842-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:20:54.4350192-08:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:20:54.4976633-08:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:22:55.4565348-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:22:55.5028166-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:24:56.4020846-08:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:24:56.4550026-08:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:26:57.4584392-08:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:26:57.4996318-08:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:28:58.448693-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:28:58.4993154-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:30:59.441567-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:30:59.4878961-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:33:00.4320052-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:33:00.4790135-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:35:01.4184091-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:35:01.490349-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:37:02.4383635-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:37:02.4827424-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:39:03.4084585-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:39:03.4847261-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:41:04.425299-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:41:04.4775176-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:43:05.4345368-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:43:05.4948295-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:45:06.4274018-08:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2023-12-10T12:45:06.4816301-08:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2023-12-10T12:46:26.6897855-08:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Curse Mods Agent is shutting down"
+},
+{
+  "timestamp": "2023-12-10T12:46:26.6898426-08:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Shutting down periodic tasks"
+},
+{
+  "timestamp": "2023-12-10T12:46:26.6899042-08:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Disabling periodic timers"
+},
+{
+  "timestamp": "2023-12-10T12:46:26.691101-08:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2023-12-10T12:46:26.6911054-08:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2023-12-10T12:46:26.6911063-08:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2023-12-10T12:46:26.6911717-08:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Shutdown game instances."
+},
+{
+  "timestamp": "2023-12-10T12:46:26.6916948-08:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2023-12-10T12:46:26.8263081-08:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 134ms"
+},
+{
+  "timestamp": "2023-12-10T12:46:26.826533-08:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2023-12-10T12:46:26.9164457-08:00",
+  "level": "Warn",
+  "thread": 5,
+  "memory": 0.0,
+  "message": "Parent process is no longer active. Mods Agent will shutdown."
+},
+{
+  "timestamp": "2023-12-10T12:46:26.8760937-08:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 49ms"
+},
+{
+  "timestamp": "2023-12-10T12:46:26.8874986-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Received a shutdown command. Shutting down..."
+},
+{
+  "timestamp": "2023-12-10T12:46:26.889093-08:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Web Socket session disconnected"
+},
+{
+  "timestamp": "2023-12-10T12:46:26.8900703-08:00",
+  "level": "Warn",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Client disconnected from server"
+},
+{
+  "timestamp": "2023-12-10T12:46:26.8909679-08:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2023-12-10T12:46:26.9470343-08:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Logging worker finished"
+}
+]}

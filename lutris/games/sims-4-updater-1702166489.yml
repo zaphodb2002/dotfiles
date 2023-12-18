@@ -1,0 +1,6 @@
+game:
+  exe: /home/zaphod/Games/sims-4/drive_c/Games/sims-4-updater/sims-4-updater-v1.3.2.exe
+  prefix: /home/zaphod/Games/sims-4
+system:
+  locale: ''
+wine: {}
