@@ -9,8 +9,9 @@ base=(
 	scripts
 	fontconfig
 	starship
-	nvim
+	neovim
 	)
+
 
 server=(
 
@@ -18,6 +19,7 @@ server=(
 
 workstation=(
 	git
+	gh
 	i3
 	rofi
 	alacritty
@@ -28,6 +30,16 @@ gaming=(
 	world-of-warcraft
 	)
 
+#sudo pacman -S --needed base-devel
+#git clone https://aur.archlinux.org/paru.git
+#cd paru
+#makepkg -si
+#cd ..
+#rm -rf paru
+
+#paru -S stow
+
+
 stowit() {
 	category=$1
 	app=$2
@@ -35,26 +47,34 @@ stowit() {
 	stow -vRt ${category} ${app}
 }
 
-deploy() {
-	category=$1
-	folder=$2
+#deploy() {
+#	category=$1
+#	folder=$2
+#
+#	for app in $1[@]; do
+#		stowit $2 $app
+#	done
+#}
 
-	for app in $1[@]; do
-		stowit $2 $app
-	done
-}
-
-deploy base $HOME
+#deploy base $HOME
 
 for app in ${base[@]}; do
 	stowit "${HOME}" $app
 done
 
-if [ "${1}" = "workstation" ]; then
+#paru -S starship
+#paru -S neovim
 
-for app in ${workstation[@]}; do
-	stowit "${HOME}" $app
-done
+	if [ "${1}" = "workstation" ]; then
+
+	for app in ${workstation[@]}; do
+		stowit "${HOME}" $app
+	done
+
+#	paru -S git
+#	paru -S alacritty
+#	paru -S taskwarrior
+
 	if [ "${2}" = "gaming" ]; then
 		for app in ${gaming[@]}; do
 			stowit "${HOME}/Games/" $app
