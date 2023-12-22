@@ -1,0 +1,41 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+	},
+	["global"] = {
+		["Guilds"] = {
+			["Default.Dalaran.Grape Soda"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Stormreaver.Grape Soda"] = {
+				["faction"] = "Horde",
+			},
+		},
+		["Characters"] = {
+			["Default.Stormreaver.Bretanomyces"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Grape Soda",
+			},
+			["Default.Dalaran.Hyaae"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Grape Soda",
+			},
+			["Default.Dalaran.Pangdai"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Grape Soda",
+			},
+			["Default.Dalaran.Morgntreeman"] = {
+				["guildName"] = "Grape Soda",
+				["faction"] = "Alliance",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["Dalaran"] = "Dalaran",
+			["Stormreaver"] = "Stormreaver",
+		},
+	},
+}

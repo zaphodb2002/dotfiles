@@ -1,0 +1,37 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+	},
+	["profiles"] = {
+		["Pangdai - Dalaran"] = {
+		},
+		["Morgntreeman - Dalaran"] = {
+		},
+		["Hyaae - Dalaran"] = {
+		},
+		["Bretanomyces - Stormreaver"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+	},
+	["profiles"] = {
+		["Pangdai - Dalaran"] = {
+		},
+		["Morgntreeman - Dalaran"] = {
+		},
+		["Hyaae - Dalaran"] = {
+		},
+		["Bretanomyces - Stormreaver"] = {
+		},
+	},
+}

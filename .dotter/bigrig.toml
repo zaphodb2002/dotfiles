@@ -1,9 +1,0 @@
-packages = [
-	"bash",
-	"scripts",
-	"starship",
-	"git",
-	"neovim",
-	"taskwarrior",
-	"sway"
-]

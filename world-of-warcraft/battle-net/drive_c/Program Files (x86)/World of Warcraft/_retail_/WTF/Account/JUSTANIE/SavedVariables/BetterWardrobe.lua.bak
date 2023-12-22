@@ -1,0 +1,87 @@
+
+BetterWardrobe_Options = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Default",
+		["Bretanomyces - Stormreaver"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+BetterWardrobe_CharacterData = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+	},
+}
+BetterWardrobe_SavedSetData = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+	},
+	["global"] = {
+		["sets"] = {
+			["Morgntreeman - Dalaran"] = {
+			},
+			["Bretanomyces - Stormreaver"] = {
+			},
+		},
+	},
+}
+BetterWardrobe_SubstituteItemData = {
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Default",
+		["Bretanomyces - Stormreaver"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+BetterWardrobe_ListData = {
+	["favoritesDB"] = {
+		["profileKeys"] = {
+			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+			["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		},
+		["profiles"] = {
+			["Bretanomyces - Stormreaver"] = {
+			},
+		},
+	},
+	["collectionListDB"] = {
+		["profileKeys"] = {
+			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+			["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		},
+		["profiles"] = {
+			["Morgntreeman - Dalaran"] = {
+			},
+			["Bretanomyces - Stormreaver"] = {
+			},
+		},
+	},
+	["OutfitDB"] = {
+		["profileKeys"] = {
+			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+			["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		},
+	},
+	["lastUpdte"] = 1,
+	["HiddenAppearanceDB"] = {
+		["profileKeys"] = {
+			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+			["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		},
+		["profiles"] = {
+			["Bretanomyces - Stormreaver"] = {
+			},
+		},
+	},
+}
+BetterWardrobe_Mogitdata = nil
+BetterWardrobe_Updates = {
+	["8_4"] = true,
+}
+BTT = nil

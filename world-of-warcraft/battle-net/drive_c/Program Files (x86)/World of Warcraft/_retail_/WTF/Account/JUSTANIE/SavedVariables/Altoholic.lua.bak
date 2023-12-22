@@ -1,0 +1,9 @@
+
+AltoholicDB = {
+	["profileKeys"] = {
+		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+	},
+}

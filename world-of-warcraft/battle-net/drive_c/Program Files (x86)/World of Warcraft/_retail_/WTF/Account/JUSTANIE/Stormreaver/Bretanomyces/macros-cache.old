@@ -1,0 +1,14 @@
+VER 3 0100000000000002 "Blackout Kick" "134400"
+#showtooltip Blackout Kick
+/cast Purifying Brew
+/cast Blackout Kick
+END
+VER 3 0100000000000003 "Rushing Jade Win" "134400"
+#showtooltip Rushing Jade Wind
+/cast Purifying Brew
+/cast Rushing Jade Wind
+END
+VER 3 0100000000000001 "Touch of Death" "134400"
+#showtooltip Touch of Death
+/cast Touch of Death
+END

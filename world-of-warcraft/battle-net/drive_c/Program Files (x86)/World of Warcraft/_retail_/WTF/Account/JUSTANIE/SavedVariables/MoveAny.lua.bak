@@ -1,0 +1,509 @@
+
+MATAB = {
+	["PROFILES"] = {
+		["DEFAULT"] = {
+			["FRAMES"] = {
+				["POINTS"] = {
+					["MajorFactionRenownFrame"] = {
+					},
+					["ClassTrainerFrame"] = {
+					},
+					["AddonList"] = {
+					},
+					["ItemUpgradeFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 214,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 169,
+					},
+					["ClassTalentFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PX"] = 151,
+						["PY"] = 156,
+						["RE"] = "BOTTOMLEFT",
+					},
+					["CharacterFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 526,
+						["PX"] = 742,
+						["RE"] = "BOTTOMLEFT",
+					},
+					["MailFrame"] = {
+					},
+					["MacroFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["RE"] = "BOTTOMLEFT",
+						["PY"] = 409,
+						["PX"] = 759,
+					},
+					["ScriptErrorsFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 254,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 292,
+					},
+					["AchievementFrame"] = {
+					},
+					["GuildBankFrame"] = {
+					},
+					["SpellBookFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 439,
+						["PX"] = 17,
+						["RE"] = "BOTTOMLEFT",
+					},
+					["QuestFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 468,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 16,
+					},
+					["ChallengesKeystoneFrame"] = {
+					},
+					["PetStableFrame"] = {
+					},
+					["HelpFrame"] = {
+					},
+					["ProfessionsFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 241,
+						["PX"] = 250,
+						["RE"] = "BOTTOMLEFT",
+					},
+					["TradeFrame"] = {
+					},
+					["ExpansionLandingPage"] = {
+					},
+					["CommunitiesFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 538,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 16,
+					},
+					["CollectionsJournal"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 358,
+						["PX"] = 16,
+						["RE"] = "BOTTOMLEFT",
+					},
+					["SettingsPanel"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 243,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 502,
+					},
+					["WardrobeFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 372,
+						["PX"] = 240,
+						["RE"] = "BOTTOMLEFT",
+					},
+					["ProfessionsCustomerOrdersFrame"] = {
+					},
+					["TaxiFrame"] = {
+					},
+					["SplashFrame"] = {
+					},
+					["OpenMailFrame"] = {
+					},
+					["FriendsFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 517,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 545,
+					},
+					["GossipFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 398,
+						["PX"] = 280,
+						["RE"] = "BOTTOMLEFT",
+					},
+					["GameMenuFrame"] = {
+					},
+					["AuctionHouseFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 467,
+						["PX"] = -0,
+						["RE"] = "BOTTOMLEFT",
+					},
+					["MerchantFrame"] = {
+					},
+					["QuestLogPopupDetailFrame"] = {
+					},
+					["DressUpFrame"] = {
+					},
+					["TimeManagerFrame"] = {
+					},
+					["GenericTraitFrame"] = {
+					},
+					["PlayerChoiceFrame"] = {
+					},
+					["WeeklyRewardsFrame"] = {
+					},
+					["WorldMapFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 298,
+						["PX"] = 442,
+						["RE"] = "BOTTOMLEFT",
+					},
+					["QuickKeybindFrame"] = {
+					},
+					["PVEFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 397,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 305,
+					},
+					["PVPMatchScoreboard"] = {
+					},
+					["FlightMapFrame"] = {
+					},
+					["EncounterJournal"] = {
+					},
+					["ItemTextFrame"] = {
+					},
+					["ChannelFrame"] = {
+					},
+				},
+				["SIZES"] = {
+					["MajorFactionRenownFrame"] = {
+					},
+					["ClassTrainerFrame"] = {
+					},
+					["AddonList"] = {
+					},
+					["ExpansionLandingPage"] = {
+					},
+					["ClassTalentFrame"] = {
+					},
+					["CharacterFrame"] = {
+					},
+					["MailFrame"] = {
+					},
+					["MacroFrame"] = {
+					},
+					["ScriptErrorsFrame"] = {
+					},
+					["AuctionHouseFrame"] = {
+					},
+					["GuildBankFrame"] = {
+					},
+					["SpellBookFrame"] = {
+						["SCALE"] = 1.006,
+					},
+					["QuestFrame"] = {
+					},
+					["TradeFrame"] = {
+					},
+					["PetStableFrame"] = {
+					},
+					["HelpFrame"] = {
+					},
+					["CollectionsJournal"] = {
+					},
+					["ProfessionsCustomerOrdersFrame"] = {
+					},
+					["ProfessionsFrame"] = {
+						["SCALE"] = 1.024,
+					},
+					["AchievementFrame"] = {
+					},
+					["ItemUpgradeFrame"] = {
+					},
+					["CommunitiesFrame"] = {
+					},
+					["BankFrame"] = {
+					},
+					["SettingsPanel"] = {
+					},
+					["WardrobeFrame"] = {
+					},
+					["GameMenuFrame"] = {
+					},
+					["QuickKeybindFrame"] = {
+					},
+					["SplashFrame"] = {
+					},
+					["OpenMailFrame"] = {
+					},
+					["TaxiFrame"] = {
+					},
+					["GossipFrame"] = {
+					},
+					["ItemTextFrame"] = {
+					},
+					["GenericTraitFrame"] = {
+					},
+					["ContainerFrameCombinedBags"] = {
+					},
+					["QuestLogPopupDetailFrame"] = {
+					},
+					["DressUpFrame"] = {
+					},
+					["WorldMapFrame"] = {
+					},
+					["TimeManagerFrame"] = {
+					},
+					["PlayerChoiceFrame"] = {
+					},
+					["WeeklyRewardsFrame"] = {
+					},
+					["MerchantFrame"] = {
+						["SCALE"] = 0.994,
+					},
+					["FriendsFrame"] = {
+					},
+					["PVEFrame"] = {
+					},
+					["PVPMatchScoreboard"] = {
+					},
+					["FlightMapFrame"] = {
+					},
+					["EncounterJournal"] = {
+					},
+					["ChallengesKeystoneFrame"] = {
+					},
+					["ChannelFrame"] = {
+					},
+				},
+			},
+			["MMICON"] = {
+			},
+			["ELES"] = {
+				["POINTS"] = {
+					["MALock"] = {
+					},
+				},
+				["SIZES"] = {
+				},
+				["OPTIONS"] = {
+					["SHOWMINIMAPBUTTON"] = {
+						["ENABLED"] = true,
+					},
+					["GAMETOOLTIP"] = {
+						["ENABLED"] = false,
+					},
+					["MINIMAP"] = {
+						["ENABLED"] = false,
+					},
+					["TOTEMFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["LOSSOFCONTROLFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["CASTINGBAR"] = {
+						["ENABLED"] = false,
+					},
+					["ESSENCEPLAYERFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["RUNEFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["RAIDBOSSEMOTEFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["GHOSTFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["ARCHEOLOGYDIGSITEPROGRESSBAR"] = {
+						["ENABLED"] = false,
+					},
+					["MICROMENU"] = {
+						["ENABLED"] = false,
+					},
+					["ROLEPOLLPOPUP"] = {
+						["ENABLED"] = false,
+					},
+					["MAGEARCANECHARGESFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["BAGS"] = {
+						["ENABLED"] = false,
+					},
+					["TARGETFRAMESPELLBAR"] = {
+						["ENABLED"] = false,
+					},
+					["SAVEFRAMEPOSITION"] = {
+						["ENABLED"] = true,
+					},
+					["COMPACTARENAFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["DURABILITY"] = {
+						["ENABLED"] = false,
+					},
+					["UIERRORSFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["VEHICLESEATINDICATOR"] = {
+						["ENABLED"] = false,
+					},
+					["MONKSTAGGERBAR"] = {
+						["ENABLED"] = false,
+					},
+					["UIWIDGETTOPCENTER"] = {
+						["ENABLED"] = false,
+					},
+					["EDITMODE"] = {
+						["ENABLED"] = false,
+					},
+					["UIWIDGETBELOWMINIMAP"] = {
+						["ENABLED"] = false,
+					},
+					["CASTINGBARTIMER"] = {
+						["ENABLED"] = false,
+					},
+					["MAFPSFrame"] = {
+						["ENABLED"] = false,
+					},
+					["BOSSTARGETFRAMECONTAINER"] = {
+						["ENABLED"] = false,
+					},
+					["MIRRORTIMER1"] = {
+						["ENABLED"] = false,
+					},
+					["TARGETOFTARGETFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["!KalielsTrackerButtons"] = {
+						["ENABLED"] = false,
+					},
+					["CHATBUTTONFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["CHATQUICKJOIN"] = {
+						["ENABLED"] = false,
+					},
+					["BNToastFrame"] = {
+						["ENABLED"] = false,
+					},
+					["FRAMESKEYSCALE"] = {
+						["ENABLED"] = false,
+					},
+					["ALERTFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["ACTIONBARS"] = {
+					},
+					["ZONEABILITYFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["FOCUSFRAMESPELLBAR"] = {
+						["ENABLED"] = false,
+					},
+					["TARGETOFFOCUSFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["BOSSBANNER"] = {
+						["ENABLED"] = false,
+					},
+					["QUEUESTATUSFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["BUFFS"] = {
+						["ENABLED"] = false,
+					},
+					["CHATEDITBOX"] = {
+						["ENABLED"] = false,
+					},
+					["EventToastManagerFrame"] = {
+						["ENABLED"] = false,
+					},
+					["SecondaryStatusTrackingBarContainer"] = {
+						["ENABLED"] = false,
+					},
+					["MOVEFRAMES"] = {
+						["ENABLED"] = true,
+					},
+					["COMPACTRAIDFRAMEMANAGER"] = {
+						["ENABLED"] = false,
+					},
+					["MAPROFILES"] = {
+						["ENABLED"] = false,
+					},
+					["MALOCK"] = {
+						["ENABLED"] = false,
+					},
+					["FRAMESKEYDRAG"] = {
+						["ENABLED"] = false,
+					},
+					["READYCHECKLISTENERFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["TICKETSTATUSFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["DEBUFFS"] = {
+						["ENABLED"] = false,
+					},
+					["WARLOCKPOWERFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["UIWIDGETPOWERBAR"] = {
+						["ENABLED"] = false,
+					},
+					["QUEUESTATUSBUTTON"] = {
+						["ENABLED"] = false,
+					},
+					["SPELLACTIVATIONOVERLAYFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["MAPETFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["SAVEFRAMESCALE"] = {
+						["ENABLED"] = true,
+					},
+					["MOVESMALLBAGS"] = {
+						["ENABLED"] = false,
+					},
+					["STANCEBAR"] = {
+						["ENABLED"] = false,
+					},
+					["SHOWTIPS"] = {
+						["ENABLED"] = true,
+					},
+					["ZONETEXTFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["MOVELOOTFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["OBJECTIVETRACKERBONUSBANNERFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["BONUSROLLFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["MainStatusTrackingBarContainer"] = {
+						["ENABLED"] = false,
+					},
+					["COMBOPOINTPLAYERFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["GROUPLOOTFRAME1"] = {
+						["ENABLED"] = false,
+					},
+					["GAMETOOLTIP_ONCURSOR"] = {
+						["ENABLED"] = false,
+					},
+					["GROUPLOOTCONTAINER"] = {
+						["ENABLED"] = false,
+					},
+					["MONKHARMONYBARFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["PALADINPOWERBARFRAME"] = {
+						["ENABLED"] = false,
+					},
+					["POWERBAR"] = {
+						["ENABLED"] = false,
+					},
+				},
+			},
+		},
+	},
+	["VERSION"] = 2,
+}

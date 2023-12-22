@@ -1,0 +1,906 @@
+
+MasqueDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Pangdai - Dalaran"] = "Default",
+		["Morgntreeman - Dalaran"] = "Default",
+		["Bretanomyces - Stormreaver"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Groups"] = {
+				["WeakAuras_Mwa83HlTcOk"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_DL1Z5HVYqSI"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_LmsgVsWPxHg"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_2f3zmwr9rp3"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_XWHrGMmR4qO"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_6CF4mYRvxCC"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["AdiBags_Backpack"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_0BZ8Qmk1prh"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_XrsMeuAQLb)"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_sYEb(qoiAIs"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_71V7JlpzA8Q"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_wO0IY(Wyyb2"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_9s0R9FSrt3W"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_uuZQOUitnFJ"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Bartender4_PetBar"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_qS0lFHnD74y"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_YLRo0pACRd0"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_)ZvvOSHzfOj"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Bartender4_6"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["Raven_Short Buffs"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_hjPZhwohi7p"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_IgWPsKa9)AH"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_NTmcBywK(6Q"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_Z)ijyuLUoiW"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_XtT0H8cGUlh"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_xFbMXcbhTuq"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_b5H4)HmJV1F"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_vnCg)FY7cSH"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_rvm2uMY8nOG"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_jsm5gDj2ZH8"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_m3mtTA70ktQ"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_MoRia5Yasoj"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_kbw4)0WNE7K"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_2OkZoyk9x6F"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_kFrKC4Inlye"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_Xff0DT4zxkL"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_oPz)jl(pULs"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["AdiBags_Bank"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_EOg6FdKsjmG"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_VGKSxWnER6V"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_0FSZKDMnttO"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras"] = {
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["AdiBags"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_seLs6oxtdIv"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_fAVfMkQQJf9"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_GGo4rCdGSO7"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_T7qRbFn7fFy"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_GMlc8PlyFyd"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_btdy4tbgSDK"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_vrU4CVu4o78"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_dy8whjFMCN)"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Raven_Debuffs"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_lPfEyKFr(nh"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["HidingBar"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_uCzhcrsyjx1"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_hl(2XWa6(f5"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_Zk1F5y9sqBW"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_UgPHPzrCRxW"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_ZBHUDekccQu"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_jdDJoyyJ0Mu"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_VRKawSEjN1B"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Bartender4"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_WixntDhF3ik"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_6A7M4E8OsN6"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_)pJ6JmyMl0w"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_)acIIGeiw)5"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_oQ4pIIVjh9O"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_H05X2xgDcmA"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_4v8iY(7qNd2"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_BANE7xsfMbl"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_rKOTuuw8cam"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_8j6B2JKvvBK"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_dL9Yug3hWdX"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_LrFTyizR3Y7"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_1mDcbAoj(Zx"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_c7vYMKwHn)S"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_Yc08W16m2au"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Kaliel's Tracker_Quest Active Button"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_2EbAZa3HfuZ"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_8q5MgG)2E4N"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_Feev5s4yEOs"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_RAvMy)IrWCO"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_82pvIWhsIth"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_DsDWyl8H7zQ"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_1z3nYdgY4Vz"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Kaliel's Tracker"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_NEf)ovkhel3"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_SG0uvMlfCqO"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_vv6wY8863Jj"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_p0DniecoBM7"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_UC(DURzFNVU"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_ENua6U8gZGt"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_Od8gXRn6)6h"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_A2tqHaNKW3h"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_JdmyBaG2Lz0"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_9VFUCmBK7Ip"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_UYqyTsZ(Tn9"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_yoUgYJuz)tG"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_)kizAEysL9F"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_KRPdoJDBC1F"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Raven"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_nqX9v)6djt5"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Raven_Long Buffs"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_vDuwd6U7hkQ"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_j6f7fxrj1t5"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_JEvcttZVSsR"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_FmBKCt4xpBn"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_NO6KeuWrgPX"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_4tRcY)LhgZF"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_J4D9Tz4dUZj"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_GstKuUrDQl7"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_zzdxpJH3MFZ"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_65MfCaRSxpi"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_aFuyLEfJoNh"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_19Wp3ZjFYxz"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_lWVmo2Bt27m"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_vMsgIv0YZS2"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_FNulISqQYxq"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Masque"] = {
+					["SkinID"] = "Simplicity",
+				},
+				["Bartender4_StanceBar"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_h0BnBIIndzX"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_ZgXqcfoQaXs"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_GRwDmsN5AJw"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Bartender4_1"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_QL5df4kPOaY"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_9CZ52s2rvxX"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Bartender4_3"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_7lJKvyCwhRN"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_D(iOUxfDOP("] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_f8PseE49Fc1"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_5m43colFL8P"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_kCawuyOZH6x"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Bartender4_4"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_ptgOTEcvf50"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Kaliel's Tracker_Quest Item Buttons"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["Hekili"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_RJILnU3V2NL"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Bartender4_5"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_fVWikya3IMC"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_vChwxqBL24r"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_rtcuQbDuOrF"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_wESiDTKWKSX"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_Hick9yAY1Tr"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_AEc5ChsbR9d"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_auQUzhGR14k"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Bartender4_Flyout"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_UdMVzUGaaT7"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_Y1aYo(Krmt0"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_d(XYqw00PTF"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_6rF8ArFTRR9"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_ffoKgm6ltHa"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_kKX7Kidocdz"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["HidingBar_MinimapButtons"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["HidingBar_DataBroker"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_Mfa4T9aa5dy"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_X4w3nGkL4ya"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_01OtqLk(lEo"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_8xocQO6bwPt"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_n(0JuQBu)h1"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_7sbS23RfcD)"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Bartender4_2"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_oeeB8QfRJuy"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_she7U3l0oNu"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["Bartender4_BagBar"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_dIAC8nNaorT"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_8hBnYhvlHIT"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_nL6a(iejF(B"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_aPdXI4u2reX"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_5jp67dDIyc6"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_Gf2c9nRgpmO"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_dpvkwk4A0DK"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_dPgxYlnaftx"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_F52(Orus7d0"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_fcFKj7GeK(X"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["HidingBar_CGButtons"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_2EMR4q3E()h"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_l)R9DMOzqwI"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_xce)R9oxjos"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_cl2C7Zz9HMX"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+				["WeakAuras_KmNeeub1E0c"] = {
+					["Upgraded"] = true,
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
+				},
+			},
+			["CB_Warn"] = {
+				["Hekili"] = false,
+				["AdiBags"] = false,
+			},
+			["API_VERSION"] = 100105,
+		},
+	},
+}
