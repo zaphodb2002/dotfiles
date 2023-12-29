@@ -116,6 +116,12 @@
             <Anchor point="BOTTOMRIGHT" x="11" y="-9"/>
           </Anchors>
         </Texture>
+        <Texture parentKey="CustomOverlay" atlas="Adventure-Mission-Gold-Dragon">
+          <Anchors>
+            <Anchor point="TOPLEFT" x="-3" y="5"/>
+            <Anchor point="BOTTOMRIGHT" x="11" y="-9"/>
+          </Anchors>
+        </Texture>
         <MaskTexture parentKey="CircleMask" file="Interface\CharacterFrame\TempPortraitAlphaMask" hWrapMode="CLAMPTOBLACKADDITIVE" vWrapMode="CLAMPTOBLACKADDITIVE">
           <Anchors>
             <Anchor point="TOPLEFT" relativeKey="$parent.Icon" x="2" y="-2"/>

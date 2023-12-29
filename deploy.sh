@@ -27,6 +27,7 @@ workstation=(
 	)
 
 gaming=(
+	sims-4
 	world-of-warcraft
 	)
 

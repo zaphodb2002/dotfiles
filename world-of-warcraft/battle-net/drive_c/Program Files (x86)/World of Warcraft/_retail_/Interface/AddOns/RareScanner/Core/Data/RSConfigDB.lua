@@ -553,6 +553,20 @@ function RSConfigDB.SetShowingOtherRareNPCs(value)
 	private.db.map.displayOtherRaresNpcIcons = value
 end
 
+function RSConfigDB.IsCustomNpcGroupFiltered(group)
+	if (group and private.db.map.displayCustomGroupNpcIcons[group]) then
+		return private.db.map.displayCustomGroupNpcIcons[group]
+	end
+	
+	return false
+end
+
+function RSConfigDB.SetCustomNpcGroupFiltered(group, filtered)
+	if (group) then
+		private.db.map.displayCustomGroupNpcIcons[group] = filtered
+	end
+end
+
 ---============================================================================
 -- Container filters database
 ---============================================================================
@@ -1080,14 +1094,6 @@ end
 ---============================================================================
 -- Loot filters
 ---============================================================================
-
-function RSConfigDB.IsItemFiltered(itemID)
-	if (itemID) then
-		return private.db.loot.filteredItems[itemID] == true
-	end
-
-	return false
-end
 
 function RSConfigDB.GetItemFiltered(itemID)
 	if (itemID) then

@@ -1,4 +1,11 @@
 Version: 1
+Frame: AllTheThings-Window-CurrentInstance
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 1
+Y: 0
+W: 278
+H: 320
 Frame: scanner_button
 FrameLevel: 200
 Anchor: BOTTOMLEFT
@@ -6,13 +13,6 @@ X: 214
 Y: 181
 W: 200
 H: 50
-Frame: AllTheThings-Window-CurrentInstance
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 0
-Y: 0
-W: 278
-H: 320
 Frame: GroupLootHistoryFrame
 FrameLevel: 1
 Anchor: LEFT

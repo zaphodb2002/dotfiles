@@ -10,11 +10,9 @@ app:GetWindow("Mounts", {
 	parent = UIParent,
 	Silent = true,
 	AllowCompleteSound = true,
+	IsDynamicCategory = true,
+	Commands = { "attmounts" },
 	OnInit = function(self, handlers)
-		SLASH_ATTMOUNTS1 = "/attmounts";
-		SlashCmdList["ATTMOUNTS"] = function(cmd)
-			self:Toggle();
-		end
 		self.data = {
 			text = MOUNTS,
 			icon = app.asset("Category_Mounts"),

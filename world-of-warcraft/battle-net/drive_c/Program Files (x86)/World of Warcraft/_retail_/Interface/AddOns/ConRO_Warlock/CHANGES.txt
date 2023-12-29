@@ -1,10 +1,12 @@
-lightweight tag d3506884a48edc00c1316b0fddc7e31250dfa5cb v10.1.0
+lightweight tag d22087b6fe431d75e695cec2688adb4c7d81a9f1 v10.2.0
 Author:	Vae <emuha17@gmail.com>
-Date:	Sat May 6 18:31:24 2023 -1000
+Date:	Tue Dec 19 18:24:06 2023 -1000
 
-commit d3506884a48edc00c1316b0fddc7e31250dfa5cb
+commit d22087b6fe431d75e695cec2688adb4c7d81a9f1
 Author: Vae <emuha17@gmail.com>
-Date:   Sat May 6 18:31:24 2023 -1000
+Date:   Tue Dec 19 18:24:06 2023 -1000
 
-    Updated for 10.1
+    Updated ToC for v10.2
+    Adjusted for patch spell changes
+    Tweaked Demonology rotation
 

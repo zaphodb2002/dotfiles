@@ -9,7 +9,7 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Stormreaver.Bretanomyces"] = {
-				["lastUpdate"] = 1703204940,
+				["lastUpdate"] = 1703287724,
 				["Mails"] = {
 					{
 						["icon"] = 134327,
@@ -18,18 +18,18 @@ DataStore_MailsDB = {
 						["returned"] = true,
 						["money"] = 0,
 						["text"] = "We've supplied you with a whole new set of high-level gear, but attached you'll find all the old items and equipment you once carried.\r\n\r\n - The WoW Dev Team",
-						["lastCheck"] = 1703204940,
-						["daysLeft"] = 179.793212890625,
+						["lastCheck"] = 1703287724,
+						["daysLeft"] = 178.8350219726563,
 					}, -- [1]
 					{
-						["link"] = "|cffffffff|Hitem:6948::::::::22:268:::::::::|h[Hearthstone]|h|r",
+						["link"] = "|cffffffff|Hitem:6948::::::::31:268:::::::::|h[Hearthstone]|h|r",
 						["sender"] = "Bretanomyces",
 						["itemID"] = 6948,
 						["returned"] = true,
 						["icon"] = 134414,
 						["count"] = 1,
-						["lastCheck"] = 1703204940,
-						["daysLeft"] = 179.793212890625,
+						["lastCheck"] = 1703287724,
+						["daysLeft"] = 178.8350219726563,
 					}, -- [2]
 					{
 						["icon"] = 134327,
@@ -38,8 +38,8 @@ DataStore_MailsDB = {
 						["returned"] = true,
 						["money"] = 0,
 						["text"] = "We've supplied you with a whole new set of high-level gear, but attached you'll find all the old items and equipment you once carried.\r\n\r\n - The WoW Dev Team",
-						["lastCheck"] = 1703204940,
-						["daysLeft"] = 179.793212890625,
+						["lastCheck"] = 1703287724,
+						["daysLeft"] = 178.8350219726563,
 					}, -- [3]
 					{
 						["icon"] = 134327,
@@ -48,8 +48,8 @@ DataStore_MailsDB = {
 						["returned"] = true,
 						["money"] = 0,
 						["text"] = "We've supplied you with a whole new set of high-level gear, but attached you'll find all the old items and equipment you once carried.\r\n\r\n - The WoW Dev Team",
-						["lastCheck"] = 1703204940,
-						["daysLeft"] = 179.793212890625,
+						["lastCheck"] = 1703287724,
+						["daysLeft"] = 178.8350219726563,
 					}, -- [4]
 					{
 						["icon"] = 134327,
@@ -58,11 +58,11 @@ DataStore_MailsDB = {
 						["returned"] = true,
 						["money"] = 0,
 						["text"] = "We've supplied you with a whole new set of high-level gear, but attached you'll find all the old items and equipment you once carried.\r\n\r\n - The WoW Dev Team",
-						["lastCheck"] = 1703204940,
-						["daysLeft"] = 179.793212890625,
+						["lastCheck"] = 1703287724,
+						["daysLeft"] = 178.8350219726563,
 					}, -- [5]
 				},
-				["lastVisitDate"] = "2023/12/21 16:29",
+				["lastVisitDate"] = "2023/12/22 15:28",
 			},
 			["Default.Dalaran.Hyaae"] = {
 				["lastUpdate"] = 1702268627,
@@ -81,30 +81,30 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2023/12/10 20:23",
 			},
 			["Default.Dalaran.Morgntreeman"] = {
-				["lastUpdate"] = 1703138070,
+				["lastUpdate"] = 1703455029,
 				["Mails"] = {
 					{
 						["returned"] = false,
 						["sender"] = "The Postmaster",
 						["itemID"] = 205982,
 						["link"] = "|cffffffff|Hitem:205982::::::::70:104::11::1:28:2649:::::|h[Lost Dig Map]|h|r",
-						["lastCheck"] = 1703138070,
+						["lastCheck"] = 1703455029,
 						["count"] = 1,
 						["icon"] = 1500869,
-						["daysLeft"] = 11.73909759521484,
+						["daysLeft"] = 8.070242881774902,
 					}, -- [1]
 					{
-						["lastCheck"] = 1703138070,
+						["lastCheck"] = 1703455029,
 						["sender"] = "The Postmaster",
 						["subject"] = "Recovered Item",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "We recovered a lost item in the twisting nether and noted that it was yours.\n\nPlease find said object enclosed.",
 						["icon"] = 134327,
-						["daysLeft"] = 11.73909759521484,
+						["daysLeft"] = 8.070242881774902,
 					}, -- [2]
 				},
-				["lastVisitDate"] = "2023/12/20 21:54",
+				["lastVisitDate"] = "2023/12/24 13:57",
 			},
 		},
 	},

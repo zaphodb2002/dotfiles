@@ -24,7 +24,7 @@ RSConstants.LOOT_ITEM_ID = nil
 -- Current versions
 ---============================================================================
 
-RSConstants.CURRENT_DB_VERSION = 118
+RSConstants.CURRENT_DB_VERSION = 119
 RSConstants.CURRENT_LOOT_DB_VERSION = 131
 
 ---============================================================================
@@ -218,10 +218,8 @@ RSConstants.PROFILE_DEFAULTS = {
 			displayAlreadyKilledNpcIconsReseteable = false,
 			displayProfessionRaresNpcIcons = true,
 			displayAchievementRaresNpcIcons = true,
-			displayMinieventsNpcIcons = {
-				[RSConstants.DRAGONFLIGHT_HUNTING_PARTY_MINIEVENT] = false;
-				[RSConstants.DRAGONFLIGHT_FYRAKK_MINIEVENT] = false;
-			},
+			displayMinieventsNpcIcons = { true, true, true, true, true, false, false },
+			displayCustomGroupNpcIcons = {},
 			displayOtherRaresNpcIcons = true,
 			displayContainerIcons = true,
 			displayAlreadyOpenedContainersIcons = false,
@@ -642,6 +640,12 @@ RSConstants.CONTAINERS_WITH_MULTIPLE_SPAWNS = { 375366, 375530, 375362, 375363, 
 RSConstants.FIRIM_EXILE_OBJECTS = { 375973, 375982, 375983, 375984, 375985, 375986, 375987 }
 
 ---============================================================================
+-- Custom NPCs
+---============================================================================
+
+RSConstants.DEFAULT_GROUP = 0
+
+---============================================================================
 -- ItemIDs
 ---============================================================================
 
@@ -683,6 +687,7 @@ RSConstants.NORMAL_NPC_TEXTURE_FILE = "OriginalSkull"
 RSConstants.RED_NPC_TEXTURE_FILE = "RedSkullDark"
 RSConstants.PINK_NPC_TEXTURE_FILE = "PinkSkullDark"
 RSConstants.BLUE_NPC_TEXTURE_FILE = "BlueSkullDark"
+RSConstants.PURPLE_NPC_TEXTURE_FILE = "CustomSkull"
 RSConstants.LIGHT_BLUE_NPC_TEXTURE_FILE = "BlueSkullLight"
 RSConstants.NORMAL_CONTAINER_TEXTURE_FILE = "OriginalChest"
 RSConstants.RED_CONTAINER_TEXTURE_FILE = "RedChest"
@@ -741,6 +746,10 @@ RSConstants.LIGHT_BLUE_NPC_TEXTURE = string.format(RSConstants.TEXTURE_PATH, RSC
 RSConstants.GROUP_LIGHT_BLUE_NPC_T_TEXTURE = string.format(RSConstants.TEXTURE_PATH, string.format("%s%s", RSConstants.LIGHT_BLUE_NPC_TEXTURE_FILE, RSConstants.GROUP_TOP_TEXTURE_FILE));
 RSConstants.GROUP_LIGHT_BLUE_NPC_L_TEXTURE = string.format(RSConstants.TEXTURE_PATH, string.format("%s%s", RSConstants.LIGHT_BLUE_NPC_TEXTURE_FILE, RSConstants.GROUP_LEFT_TEXTURE_FILE));
 RSConstants.GROUP_LIGHT_BLUE_NPC_R_TEXTURE = string.format(RSConstants.TEXTURE_PATH, string.format("%s%s", RSConstants.LIGHT_BLUE_NPC_TEXTURE_FILE, RSConstants.GROUP_RIGHT_TEXTURE_FILE));
+RSConstants.PURPLE_NPC_TEXTURE = string.format(RSConstants.TEXTURE_PATH, RSConstants.PURPLE_NPC_TEXTURE_FILE);
+RSConstants.GROUP_PURPLE_NPC_T_TEXTURE = string.format(RSConstants.TEXTURE_PATH, string.format("%s%s", RSConstants.PURPLE_NPC_TEXTURE_FILE, RSConstants.GROUP_TOP_TEXTURE_FILE));
+RSConstants.GROUP_PURPLE_NPC_L_TEXTURE = string.format(RSConstants.TEXTURE_PATH, string.format("%s%s", RSConstants.PURPLE_NPC_TEXTURE_FILE, RSConstants.GROUP_LEFT_TEXTURE_FILE));
+RSConstants.GROUP_PURPLE_NPC_R_TEXTURE = string.format(RSConstants.TEXTURE_PATH, string.format("%s%s", RSConstants.PURPLE_NPC_TEXTURE_FILE, RSConstants.GROUP_RIGHT_TEXTURE_FILE));
 RSConstants.NORMAL_CONTAINER_TEXTURE = string.format(RSConstants.TEXTURE_PATH, RSConstants.NORMAL_CONTAINER_TEXTURE_FILE);
 RSConstants.GROUP_NORMAL_CONTAINER_T_TEXTURE = string.format(RSConstants.TEXTURE_PATH, string.format("%s%s", RSConstants.NORMAL_CONTAINER_TEXTURE_FILE, RSConstants.GROUP_TOP_TEXTURE_FILE));
 RSConstants.GROUP_NORMAL_CONTAINER_L_TEXTURE = string.format(RSConstants.TEXTURE_PATH, string.format("%s%s", RSConstants.NORMAL_CONTAINER_TEXTURE_FILE, RSConstants.GROUP_LEFT_TEXTURE_FILE));

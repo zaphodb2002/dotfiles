@@ -12,6 +12,7 @@ local RSUtils = private.ImportLib("RareScannerUtils")
 
 -- RareScanner database libraries
 local RSConfigDB = private.ImportLib("RareScannerConfigDB")
+local RSNpcDB = private.ImportLib("RareScannerNpcDB")
 
 -- RareScanner service libraries
 local RSMinimap = private.ImportLib("RareScannerMinimap")
@@ -33,6 +34,7 @@ local SHOW_HUNTING_PARTY_NPC_ICONS = "rsHideHuntingPartyRareNpcs"
 local SHOW_PRIMAL_STORM_NPC_ICONS = "rsHidePrimalStormRareNpcs"
 local SHOW_DREAMSURGE_NPC_ICONS = "rsHideDreamsurgeRareNpcs"
 local SHOW_FYRAKK_NPC_ICONS = "rsHideFyrakkRareNpcs"
+local SHOW_CUSTOM_GROUP_NPC_ICONS = "rsHideCustomGroup"
 local SHOW_OTHER_NPC_ICONS = "rsHideOtherRareNpcs"
 local DISABLE_LAST_SEEN_FILTER = "rsDisableLastSeenFilter"
 
@@ -65,6 +67,7 @@ local eventsID = 3
 local othersID = 4
 
 local function WorldMapButtonDropDownMenu_Initialize(dropDown, mapID)
+	local groups = RSNpcDB.GetCustomGroupsByMapID(mapID)
 	local OnSelection = function(self, value)
 	
 		-- Rare NPCs (general)
@@ -259,6 +262,19 @@ local function WorldMapButtonDropDownMenu_Initialize(dropDown, mapID)
 			end
 		end
 		
+		-- Custom NPCs
+		if (RSUtils.GetTableLength(groups) > 0) then
+			for _, group in ipairs(groups) do
+				if (value == SHOW_CUSTOM_GROUP_NPC_ICONS .. group) then
+					if (RSConfigDB.IsCustomNpcGroupFiltered(group)) then
+						RSConfigDB.SetCustomNpcGroupFiltered(group, false)
+					else
+						RSConfigDB.SetCustomNpcGroupFiltered(group, true)
+					end
+				end
+			end
+		end
+		
 		RSMinimap.RefreshAllData(true)
 		WorldMapFrame:RefreshAllDataProviders();
 	end
@@ -337,6 +353,17 @@ local function WorldMapButtonDropDownMenu_Initialize(dropDown, mapID)
 				info.checked = RSConfigDB.IsShowingFriendlyNpcs()
 				info.disabled = not RSConfigDB.IsShowingNpcs()
 				LibDD:UIDropDownMenu_AddButton(info, level);
+				
+				-- Custom NPCs
+				if (RSUtils.GetTableLength(groups) > 0) then
+					for _, group in ipairs(groups) do
+						info.text = "|T"..RSConstants.PURPLE_NPC_TEXTURE..":18:18:::::0:32:0:32|t "..string.format(AL["MAP_MENU_SHOW_CUSTOM_NPC_GROUP"], RSNpcDB.GetCustomNpcGroupByKey(group))
+						info.arg1 = SHOW_CUSTOM_GROUP_NPC_ICONS .. group;
+						info.checked = not RSConfigDB.IsCustomNpcGroupFiltered(group)
+						info.disabled = not RSConfigDB.IsShowingNpcs()
+						LibDD:UIDropDownMenu_AddButton(info, level);
+					end
+				end
 				
 				LibDD:UIDropDownMenu_AddSeparator(level)
 			

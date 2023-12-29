@@ -1,6 +1,7 @@
 VER 3 0100000000000002 "Blackout Kick" "134400"
 #showtooltip Blackout Kick
 /cast Purifying Brew
+/cast Dampen Harm
 /cast Blackout Kick
 END
 VER 3 0100000000000003 "Rushing Jade Win" "134400"

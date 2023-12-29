@@ -1,3 +1,9 @@
+if vim.g.neovide then
+	vim.o.guifont = "Iosevka Nerd Font Mono:h10"
+	
+	vim.g.neovide_transparency = 0.8
+end
+
 -- Tabs
 vim.opt.expandtab = false
 vim.opt.tabstop = 2

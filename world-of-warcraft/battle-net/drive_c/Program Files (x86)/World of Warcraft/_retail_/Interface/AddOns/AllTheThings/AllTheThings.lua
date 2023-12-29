@@ -56,9 +56,9 @@ local InCombatLockdown = _G["InCombatLockdown"];
 local MAX_CREATURES_PER_ENCOUNTER = 9;
 local DESCRIPTION_SEPARATOR = "`";
 local rawget, rawset, tostring, ipairs, pairs, tonumber, wipe, select, setmetatable, getmetatable, tinsert, tremove, string_lower,
-		string_match, sformat, string_gsub, strsplit, GetTimePreciseSec, type
+		string_match, sformat, string_gsub, strsplit, GetTimePreciseSec, type, math_floor
 	= rawget, rawset, tostring, ipairs, pairs, tonumber, wipe, select, setmetatable, getmetatable, tinsert, tremove, string.lower,
-		string.match, string.format, string.gsub, strsplit, GetTimePreciseSec, type;
+		string.match, string.format, string.gsub, strsplit, GetTimePreciseSec, type, math.floor
 local ATTAccountWideData;
 
 -- App & Module locals
@@ -346,7 +346,7 @@ end
 local function GetMoneyString(amount)
 	if amount > 0 then
 		local formatted
-		local g,s,c = math.floor(amount / 100 / 100), math.floor((amount / 100) % 100), math.floor(amount % 100)
+		local g,s,c = math_floor(amount / 100 / 100), math_floor((amount / 100) % 100), math_floor(amount % 100)
 		if g > 0 then
 			formatted = formatNumericWithCommas(g) .. "|TInterface\\MONEYFRAME\\UI-GoldIcon:0|t"
 		end
@@ -361,7 +361,7 @@ local function GetMoneyString(amount)
 	return amount
 end
 app.GetPatchString = function(patch)
-	return math.floor(patch / 10000) .. "." .. (math.floor(patch / 100) % 10) .. "." .. (patch % 10)
+	return math_floor(patch / 10000) .. "." .. (math_floor(patch / 100) % 10) .. "." .. (patch % 10)
 end
 
 do -- TradeSkill Functionality
@@ -652,7 +652,7 @@ for i=1,MAX_CREATURES_PER_ENCOUNTER do
 	model:SetCamDistanceScale(1.7);
 	model:SetDisplayInfo(987);
 	model:SetFacing(MODELFRAME_DEFAULT_ROTATION);
-	fi = math.floor(i / 2);
+	fi = math_floor(i / 2);
 	model:SetPosition(fi * -0.1, (fi * (i % 2 == 0 and -1 or 1)) * ((MAX_CREATURES_PER_ENCOUNTER - i) * 0.1), fi * 0.2 - 0.3);
 	--model:SetDepth(i);
 	model:Hide();
@@ -664,31 +664,53 @@ GameTooltipModel.HideAllModels = function(self)
 	end
 	GameTooltipModel.Model:Hide();
 end
-GameTooltipModel.SetCreatureID = function(self, creatureID)
-	GameTooltipModel.HideAllModels(self);
-	if creatureID > 0 then
-		self.Model:SetUnit("none");
-		self.Model:SetCreature(creatureID);
-		local displayID = self.Model:GetDisplayInfo();
-		if not displayID then
-			Push(app, "SetCreatureID", function()
-				if self.lastModel == creatureID then
-					self:SetCreatureID(creatureID);
-				end
-			end);
-		end
-	end
-	self:Show();
-end
 GameTooltipModel.SetRotation = function(number)
 	GameTooltipModel.Model:SetFacing(number and ((number * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
 end
 GameTooltipModel.SetScale = function(number)
 	GameTooltipModel.Model:SetCamDistanceScale(number or 1);
 end
+local GetDisplayID
+do
+	-- returns the input key unless it's blocked by being set to 0
+	local BlockedDisplayID = {
+		[11686] = 0,	-- empty blue thing
+		[56187] = 0,	-- generic bunny
+		[52318] = 0,	-- generic bunny
+	}
+	local AllowedDisplayID = setmetatable({},
+		{ __index = function(t, key)
+			if not key or BlockedDisplayID[key] then return end
+			return key
+		end
+	})
+GameTooltipModel.SetCreatureID = function(self, creatureID)
+	GameTooltipModel.HideAllModels(self);
+	if creatureID > 0 then
+		self.Model:SetUnit("none");
+		self.Model:SetCreature(creatureID);
+			local displayID = self.Model:GetDisplayInfo()
+		if not displayID then
+			Push(app, "SetCreatureID", function()
+				if self.lastModel == creatureID then
+					self:SetCreatureID(creatureID);
+				end
+			end);
+				self:Hide()
+				return
+			end
+			if not AllowedDisplayID[displayID] then
+				self.Model:SetUnit("none");
+				self:Hide()
+				return
+		end
+	end
+	self:Show();
+end
 GameTooltipModel.TrySetDisplayInfos = function(self, reference, displayInfos)
 	if displayInfos then
 		local count = #displayInfos;
+			local displayID, shown
 		if count > 0 then
 			local rotation = reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION;
 			local scale = reference.modelScale or 1;
@@ -697,38 +719,51 @@ GameTooltipModel.TrySetDisplayInfos = function(self, reference, displayInfos)
 				local ratio = count / MAX_CREATURES_PER_ENCOUNTER;
 				if count < 3 then
 					for i=1,count do
+							displayID = AllowedDisplayID[displayInfos[i]]
+							if displayID then
 						model = self.Models[i];
-						model:SetDisplayInfo(displayInfos[i]);
+								model:SetDisplayInfo(displayID);
 						model:SetCamDistanceScale(scale);
 						model:SetFacing(rotation);
 						model:SetPosition(0, (i % 2 == 0 and 0.5 or -0.5), 0);
 						model:Show();
+								shown = true
+							end
 					end
 				else
 					scale = (1 + (ratio * 0.5)) * scale;
 					for i=1,count do
+							displayID = AllowedDisplayID[displayInfos[i]]
+							if displayID then
 						model = self.Models[i];
-						model:SetDisplayInfo(displayInfos[i]);
+								model:SetDisplayInfo(displayID);
 						model:SetCamDistanceScale(scale);
 						model:SetFacing(rotation);
-						fi = math.floor(i / 2);
+						fi = math_floor(i / 2);
 						model:SetPosition(fi * -0.1, (fi * (i % 2 == 0 and -1 or 1)) * ((MAX_CREATURES_PER_ENCOUNTER - i) * 0.1), fi * 0.2 - (ratio * 0.15));
 						model:Show();
+								shown = true
+							end
 					end
 				end
 			else
+					displayID = AllowedDisplayID[displayInfos[1]]
+					if displayID then
 				self.Model:SetFacing(rotation);
 				self.Model:SetCamDistanceScale(scale);
-				self.Model:SetDisplayInfo(displayInfos[1]);
+						self.Model:SetDisplayInfo(displayID);
+						app.PrintDebug("SetDisplayInfo",displayID)
 				self.Model:Show();
+						shown = true
 			end
-			self:Show();
-			return true;
+				end
+				if shown then self:Show(); else self:Hide() end
+				return shown;
 		end
 	end
 end
 -- Attempts to return the displayID for the data, or every displayID if 'all' is specified
-local function GetDisplayID(data, all)
+	GetDisplayID = function(data, all)
 	-- don't create a displayID for groups with a sourceID/itemID/difficultyID/mapID
 	if data.s or data.itemID or data.difficultyID or data.mapID then return; end
 	if all then
@@ -738,7 +773,7 @@ local function GetDisplayID(data, all)
 		if _ then tinsert(displayInfo, _); data.displayInfo = displayInfo; return displayInfo; end
 
 		-- specific creatureID for displayID
-		_ = data.creatureID and app.NPCDisplayIDFromID[data.creatureID];
+			_ = AllowedDisplayID[data.creatureID and app.NPCDisplayIDFromID[data.creatureID]]
 		if _ then tinsert(displayInfo, _); data.displayInfo = displayInfo; return displayInfo; end
 
 		-- loop through "n" providers
@@ -746,7 +781,7 @@ local function GetDisplayID(data, all)
 			for k,v in pairs(data.providers) do
 				-- if one of the providers is an NPC, we should show its texture regardless of other providers
 				if v[1] == "n" then
-					_ = v[2] and app.NPCDisplayIDFromID[v[2]];
+						_ = AllowedDisplayID[v[2] and app.NPCDisplayIDFromID[v[2]]];
 					if _ then tinsert(displayInfo, _); end
 				end
 			end
@@ -756,18 +791,18 @@ local function GetDisplayID(data, all)
 		-- for quest givers
 		if data.qgs then
 			for k,v in pairs(data.qgs) do
-				_ = v and app.NPCDisplayIDFromID[v];
+					_ = AllowedDisplayID[v and app.NPCDisplayIDFromID[v]];
 				if _ then tinsert(displayInfo, _); end
 			end
 		end
 		if displayInfo[1] then data.displayInfo = displayInfo; return displayInfo; end
 	else
 		-- specific displayID
-		local _ = data.displayID or data.fetchedDisplayID;
+			local _ = data.displayID or data.fetchedDisplayID
 		if _ then return _; end
 
 		-- specific creatureID for displayID
-		_ = data.creatureID and app.NPCDisplayIDFromID[data.creatureID];
+			_ = AllowedDisplayID[data.creatureID and app.NPCDisplayIDFromID[data.creatureID]]
 		if _ then data.fetchedDisplayID = _; return _; end
 
 		-- loop through "n" providers
@@ -775,7 +810,7 @@ local function GetDisplayID(data, all)
 			for k,v in pairs(data.providers) do
 				-- if one of the providers is an NPC, we should show its texture regardless of other providers
 				if v[1] == "n" then
-					_ = v[2] and app.NPCDisplayIDFromID[v[2]];
+						_ = AllowedDisplayID[v[2] and app.NPCDisplayIDFromID[v[2]]]
 					if _ then data.fetchedDisplayID = _; return _; end
 				end
 			end
@@ -784,8 +819,9 @@ local function GetDisplayID(data, all)
 		-- for quest givers
 		if data.qgs then
 			for k,v in pairs(data.qgs) do
-				_ = v and app.NPCDisplayIDFromID[v];
+					_ = AllowedDisplayID[v and app.NPCDisplayIDFromID[v]]
 				if _ then data.fetchedDisplayID = _; return _; end
+				end
 			end
 		end
 	end
@@ -1787,11 +1823,11 @@ end
 local function GetItemIDAndModID(modItemID)
 	if modItemID and tonumber(modItemID) then
 		-- print("GetItemIDAndModID",modItemID)
-		local itemID = math.floor(modItemID);
+		local itemID = math_floor(modItemID);
 		modItemID = (modItemID - itemID) * 100.0 + 0.0000005;
-		local modID = math.floor(modItemID);
+		local modID = math_floor(modItemID);
 		modItemID = (modItemID - modID) * 10000.0 + 0.0000005;
-		local bonusID = math.floor(modItemID);
+		local bonusID = math_floor(modItemID);
 		-- print(itemID,modID,bonusID)
 		return itemID, modID, bonusID;
 	end
@@ -2133,8 +2169,8 @@ app.BuildDiscordQuestInfoTable = function(id, infoText, questChange, questRef, c
 	end
 	if position then
 		local x,y = position:GetXY();
-		x = math.floor(x * 1000) / 10;
-		y = math.floor(y * 1000) / 10;
+		x = math_floor(x * 1000) / 10;
+		y = math_floor(y * 1000) / 10;
 		coord = x..", "..y;
 	end
 	local skills = {};
@@ -2691,23 +2727,23 @@ local function ContainsValue(val, ...)
 end
 local function Resolve_Extract(results, group, field)
 	if group[field] then
-		tinsert(results, group);
+		results[#results + 1] = group
 	elseif group.g then
 		for _,o in ipairs(group.g) do
 			Resolve_Extract(results, o, field);
 		end
 	end
-	return results;
 end
-local function Resolve_Find(results, group, field, val)
-	if group[field] == val then
-		tinsert(results, group);
-	elseif group.g then
-		for _,o in ipairs(group.g) do
-			Resolve_Find(results, o, field, val);
+local function Resolve_Find(results, groups, field, val)
+	if groups then
+		for _,o in ipairs(groups) do
+			if o[field] == val then
+				results[#results + 1] = o
+			else
+				Resolve_Find(results, o.g, field, val)
 		end
 	end
-	return results;
+	end
 end
 local GetAchievementNumCriteria = GetAchievementNumCriteria
 
@@ -2857,15 +2893,11 @@ local ResolveFunctions = {
 	end,
 	-- Instruction to find all nested results which contain a given field/value
 	["find"] = function(finalized, searchResults, o, cmd, field, val)
-		local orig;
 		if #searchResults > 0 then
-			orig = RawCloneData(searchResults);
-		end
-		wipe(searchResults);
-		if orig then
-			for _,o in ipairs(orig) do
-				Resolve_Find(searchResults, o, field, val);
-			end
+			local resolved = {}
+			Resolve_Find(resolved, searchResults, field, val)
+			wipe(searchResults)
+			ArrayAppend(searchResults, resolved)
 		end
 	end,
 	-- Instruction to include the search result with a given index within each of the selection's groups
@@ -3203,74 +3235,49 @@ end
 
 -- Subroutine Logic Cache
 local SubroutineCache = {
-	["pvp_gear_base"] = function(finalized, searchResults, o, cmd, tierID, headerID1, headerID2)
-		local select, pop, where = ResolveFunctions.select, ResolveFunctions.pop, ResolveFunctions.where;
-		select(finalized, searchResults, o, "select", "tierID", tierID);	-- Select the Expansion header
-		pop(finalized, searchResults);	-- Discard the Expansion header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", headerID1);	-- Select the Season header
+	["pvp_gear_base"] = function(finalized, searchResults, o, cmd, _, headerID1, headerID2)
+		local select, find = ResolveFunctions.select, ResolveFunctions.find
+		select(finalized, searchResults, o, "select", "headerID", headerID1);	-- Select the Season header
 		if headerID2 then
-			pop(finalized, searchResults);	-- Discard the Season header and acquire the children.
-			where(finalized, searchResults, o, "where", "headerID", headerID2);	-- Select the Set header
+			find(finalized, searchResults, o, "find", "headerID", headerID2);	-- Find the Set header
 		end
 	end,
-	["pvp_gear_faction_base"] = function(finalized, searchResults, o, cmd, tierID, headerID1, headerID2, headerID3)
-		local select, pop, where = ResolveFunctions.select, ResolveFunctions.pop, ResolveFunctions.where;
-		select(finalized, searchResults, o, "select", "tierID", tierID);	-- Select the Expansion header
-		pop(finalized, searchResults);	-- Discard the Expansion header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", headerID1);	-- Select the Season header
-		pop(finalized, searchResults);	-- Discard the Season header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", headerID2);	-- Select the Faction header
-		pop(finalized, searchResults);	-- Discard the Faction header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", headerID3);	-- Select the Set header
+	["pvp_gear_faction_base"] = function(finalized, searchResults, o, cmd, _, headerID1, headerID2, headerID3)
+		local select, find = ResolveFunctions.select, ResolveFunctions.find
+		select(finalized, searchResults, o, "select", "headerID", headerID1);	-- Select the Season header
+		find(finalized, searchResults, o, "find", "headerID", headerID2);	-- Select the Faction header
+		find(finalized, searchResults, o, "find", "headerID", headerID3);	-- Select the Set header
 	end,
 	-- Set Gear
-	["pvp_set_ensemble"] = function(finalized, searchResults, o, cmd, tierID, headerID1, headerID2, classID)
-		local select, pop, where, extract = ResolveFunctions.select, ResolveFunctions.pop, ResolveFunctions.where, ResolveFunctions.extract;
-		select(finalized, searchResults, o, "select", "tierID", tierID);	-- Select the Expansion header
-		pop(finalized, searchResults);	-- Discard the Expansion header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", headerID1);	-- Select the Season header
-		pop(finalized, searchResults);	-- Discard the Season header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", headerID2);	-- Select the Set header
-		pop(finalized, searchResults);	-- Discard the Set header and acquire the children.
-		where(finalized, searchResults, o, "where", "classID", classID);	-- Select all the class header.
+	["pvp_set_ensemble"] = function(finalized, searchResults, o, cmd, _, headerID1, headerID2, classID)
+		local select, find, extract = ResolveFunctions.select, ResolveFunctions.find, ResolveFunctions.extract
+		select(finalized, searchResults, o, "select", "headerID", headerID1);	-- Select the Season header
+		find(finalized, searchResults, o, "find", "headerID", headerID2);	-- Select the Set header
+		find(finalized, searchResults, o, "find", "classID", classID);		-- Select the class header
 		extract(finalized, searchResults, o, "extract", "s");	-- Extract all Items with a SourceID
 	end,
-	["pvp_set_faction_ensemble"] = function(finalized, searchResults, o, cmd, tierID, headerID1, headerID2, headerID3, classID)
-		local select, pop, where, extract = ResolveFunctions.select, ResolveFunctions.pop, ResolveFunctions.where, ResolveFunctions.extract;
-		select(finalized, searchResults, o, "select", "tierID", tierID);	-- Select the Expansion header
-		pop(finalized, searchResults);	-- Discard the Expansion header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", headerID1);	-- Select the Season header
-		pop(finalized, searchResults);	-- Discard the Season header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", headerID2);	-- Select the Faction header
-		pop(finalized, searchResults);	-- Discard the Faction header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", headerID3);	-- Select the Set header
-		pop(finalized, searchResults);	-- Discard the Set header and acquire the children.
-		where(finalized, searchResults, o, "where", "classID", classID);	-- Select all the class header.
+	["pvp_set_faction_ensemble"] = function(finalized, searchResults, o, cmd, _, headerID1, headerID2, headerID3, classID)
+		local select, find, extract = ResolveFunctions.select, ResolveFunctions.find, ResolveFunctions.extract
+		select(finalized, searchResults, o, "select", "headerID", headerID1);	-- Select the Season header
+		find(finalized, searchResults, o, "find", "headerID", headerID2);	-- Select the Faction header
+		find(finalized, searchResults, o, "find", "headerID", headerID3);	-- Select the Set header
+		find(finalized, searchResults, o, "find", "classID", classID);		-- Select the class header
 		extract(finalized, searchResults, o, "extract", "s");	-- Extract all Items with a SourceID
 	end,
 	-- Weapons
-	["pvp_weapons_ensemble"] = function(finalized, searchResults, o, cmd, tierID, headerID1, headerID2)
-		local select, pop, where, extract = ResolveFunctions.select, ResolveFunctions.pop, ResolveFunctions.where, ResolveFunctions.extract;
-		select(finalized, searchResults, o, "select", "tierID", tierID);	-- Select the Expansion header
-		pop(finalized, searchResults);	-- Discard the Expansion header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", headerID1);	-- Select the Season header
-		pop(finalized, searchResults);	-- Discard the Season header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", headerID2);	-- Select the Set header
-		pop(finalized, searchResults);	-- Discard the Set header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", app.HeaderConstants.WEAPONS);	-- Select the "Weapons" header.
+	["pvp_weapons_ensemble"] = function(finalized, searchResults, o, cmd, _, headerID1, headerID2)
+		local select, find, extract = ResolveFunctions.select, ResolveFunctions.find, ResolveFunctions.extract
+		select(finalized, searchResults, o, "select", "headerID", headerID1);	-- Select the Season header
+		find(finalized, searchResults, o, "find", "headerID", headerID2);	-- Select the Set header
+		find(finalized, searchResults, o, "find", "headerID", app.HeaderConstants.WEAPONS);	-- Select the "Weapons" header.
 		extract(finalized, searchResults, o, "extract", "s");	-- Extract all Items with a SourceID
 	end,
-	["pvp_weapons_faction_ensemble"] = function(finalized, searchResults, o, cmd, tierID, headerID1, headerID2, headerID3)
-		local select, pop, where, extract = ResolveFunctions.select, ResolveFunctions.pop, ResolveFunctions.where, ResolveFunctions.extract;
-		select(finalized, searchResults, o, "select", "tierID", tierID);	-- Select the Expansion header
-		pop(finalized, searchResults);	-- Discard the Expansion header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", headerID1);	-- Select the Season header
-		pop(finalized, searchResults);	-- Discard the Season header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", headerID2);	-- Select the Faction header
-		pop(finalized, searchResults);	-- Discard the Faction header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", headerID3);	-- Select the Set header
-		pop(finalized, searchResults);	-- Discard the Set header and acquire the children.
-		where(finalized, searchResults, o, "where", "headerID", app.HeaderConstants.WEAPONS);	-- Select the "Weapons" header.
+	["pvp_weapons_faction_ensemble"] = function(finalized, searchResults, o, cmd, _, headerID1, headerID2, headerID3)
+		local select, find, extract = ResolveFunctions.select, ResolveFunctions.find, ResolveFunctions.extract
+		select(finalized, searchResults, o, "select", "headerID", headerID1);	-- Select the Season header
+		find(finalized, searchResults, o, "find", "headerID", headerID2);	-- Select the Faction header
+		find(finalized, searchResults, o, "find", "headerID", headerID3);	-- Select the Set header
+		find(finalized, searchResults, o, "find", "headerID", app.HeaderConstants.WEAPONS);	-- Select the "Weapons" header.
 		extract(finalized, searchResults, o, "extract", "s");	-- Extract all Items with a SourceID
 	end,
 	-- Common Northrend/Cataclysm Recipes Vendor
@@ -3714,9 +3721,43 @@ ResolveFunctions.sub = function(finalized, searchResults, o, cmd, sub, ...)
 	end
 	app.print("Could not find subroutine", sub);
 end;
+local HandleCommands = app.Debugging and function(finalized, searchResults, o, oSym)
+	local cmd, cmdFunc
+	local debug = true
+	for _,sym in ipairs(oSym) do
+		cmd = sym[1];
+		cmdFunc = ResolveFunctions[cmd];
+		-- app.PrintDebug("sym: '",cmd,"' for",o.hash,"with:",unpack(sym))
+		if cmdFunc then
+			cmdFunc(finalized, searchResults, o, unpack(sym));
+			if debug and #searchResults == 0 and cmd ~= "finalize" and cmd ~= "achievement_criteria" and cmd ~= "sub" then
+				app.PrintDebug(Colorize("Symlink command with no results for: "..(o.link or o.hash), app.Colors.ChatLinkError),"@",_,unpack(sym))
+				app.PrintTable(oSym)
+				debug = nil
+			end
+		else
+			app.print("Unknown symlink command",cmd);
+		end
+		-- app.PrintDebug("Finalized",#finalized,"Results",#searchResults,"after '",cmd,"' for",o.hash,"with:",unpack(sym))
+	end
+end or function(finalized, searchResults, o, oSym)
+	local cmd, cmdFunc
+	for _,sym in ipairs(oSym) do
+		cmd = sym[1];
+		cmdFunc = ResolveFunctions[cmd];
+		if cmdFunc then
+			cmdFunc(finalized, searchResults, o, unpack(sym));
+		else
+			app.print("Unknown symlink command",cmd);
+		end
+	end
+end
 local ResolveCache = {};
 ResolveSymbolicLink = function(o)
-	local oHash, oKey, oSym = o.hash, o.key, o.sym;
+	local oSym = o.sym
+	if not oSym then return end
+
+	local oHash, oKey = o.hash, o.key;
 	if o.resolved or (oKey and app.ThingKeys[oKey] and ResolveCache[oHash]) then
 		-- app.PrintDebug(o.resolved and "Object Resolve" or "Cache Resolve",oHash,#(o.resolved or ResolveCache[oHash]))
 		local cloned = {};
@@ -3724,28 +3765,14 @@ ResolveSymbolicLink = function(o)
 		return cloned;
 	end
 
-	if not oSym then return end
-
 	FinalizeModID = nil;
 	PruneFinalized = nil;
 	-- app.PrintDebug("Fresh Resolve:",oHash)
 	local searchResults, finalized = {}, {};
-	local cmd, cmdFunc;
-	for _,sym in ipairs(oSym) do
-		cmd = sym[1];
-		cmdFunc = ResolveFunctions[cmd];
-		-- app.PrintDebug("sym: '",cmd,"' for",oHash,"with:",unpack(sym))
-		if cmdFunc then
-			cmdFunc(finalized, searchResults, o, unpack(sym));
-		else
-			app.print("Unknown symlink command",cmd);
-		end
-		-- app.PrintDebug("Finalized",#finalized,"Results",#searchResults,"after '",cmd,"' for",oHash,"with:",unpack(sym))
-	end
+	HandleCommands(finalized, searchResults, o, oSym)
 
 	-- Verify the final result is finalized
-	cmdFunc = ResolveFunctions.finalize;
-	cmdFunc(finalized, searchResults);
+	ResolveFunctions.finalize(finalized, searchResults);
 	-- app.PrintDebug("Forced Finalize",oKey,oKey and o[oKey],#finalized)
 
 	-- If we had any finalized search results, then clone all the records, store the results, and return them
@@ -5122,12 +5149,18 @@ local NPCExpandHeaders = {
 	[app.HeaderConstants.COMMON_BOSS_DROPS] = true,
 	[app.HeaderConstants.COMMON_VENDOR_ITEMS] = true,
 	[app.HeaderConstants.DROPS] = true,
+	-- [app.HeaderConstants.FACTION_HEADER_ALLIANCE] = true,
+	-- [app.HeaderConstants.FACTION_HEADER_HORDE] = true,
+	-- [app.HeaderConstants.PVP_GLADIATOR] = true,
+	-- [app.HeaderConstants.PVP_ELITE] = true,
 	[app.HeaderConstants.REWARDS] = true,
 	[app.HeaderConstants.ZONE_DROPS] = true,
 };
--- Pulls in Common drop content for specific NPCs if any exists (so we don't need to always symlink every NPC which is included in common boss drops somewhere)
+-- Pulls in Common drop content for specific NPCs if any exists
+-- (so we don't need to always symlink every NPC which is included in common boss drops somewhere)
 local function DetermineNPCDrops(group, FillData)
-	-- assuming for any 'crs' references on an encounter group that all crs are linked to the same resulting content
+	-- assuming for any 'crs' references on an encounter/header group that all crs are linked to the same resulting content
+	-- Fyrakk Assaults uses two headers with 'crs' test that when changing this check
 	local npcID = group.npcID or group.creatureID or (group.encounterID and group.crs and group.crs[1]);
 	if npcID and FillData.NestNPCData then
 		-- app.PrintDebug("NPC Group",group.hash,npcID)
@@ -6130,7 +6163,7 @@ app.SearchForLink = SearchForLink;
 
 -- Map Information Lib
 do
-local math_floor, C_SuperTrack = math.floor, C_SuperTrack;
+local C_SuperTrack = C_SuperTrack;
 local __TomTomWaypointCacheIndexY = { __index = function(t, y)
 	local o = {};
 	t[y] = o;
@@ -6868,8 +6901,8 @@ end)();
 (function()
 local C_QuestLog_GetQuestObjectives,C_QuestLog_IsOnQuest,C_QuestLog_IsQuestReplayable,C_QuestLog_IsQuestReplayedRecently,C_QuestLog_ReadyForTurnIn,C_QuestLog_RequestLoadQuestByID,QuestUtils_GetQuestName,GetNumQuestLogRewards,GetQuestLogRewardInfo,GetNumQuestLogRewardCurrencies,GetQuestLogRewardCurrencyInfo,HaveQuestRewardData,C_QuestLog_GetQuestTagInfo =
 	  C_QuestLog.GetQuestObjectives,C_QuestLog.IsOnQuest,C_QuestLog.IsQuestReplayable,C_QuestLog.IsQuestReplayedRecently,C_QuestLog.ReadyForTurnIn,C_QuestLog.RequestLoadQuestByID,QuestUtils_GetQuestName,GetNumQuestLogRewards,GetQuestLogRewardInfo,GetNumQuestLogRewardCurrencies,GetQuestLogRewardCurrencyInfo,HaveQuestRewardData,C_QuestLog.GetQuestTagInfo;
-local GetSpellInfo,math_floor,C_TaskQuest_GetQuestTimeLeftMinutes =
-	  GetSpellInfo,math.floor,C_TaskQuest.GetQuestTimeLeftMinutes;
+local GetSpellInfo,C_TaskQuest_GetQuestTimeLeftMinutes =
+	  GetSpellInfo,C_TaskQuest.GetQuestTimeLeftMinutes;
 local Search = app.SearchForObject;
 -- Quest Harvesting Lib (http://www.wowinterface.com/forums/showthread.php?t=46934)
 local QuestHarvester = CreateFrame("GameTooltip", "AllTheThingsQuestHarvester", UIParent, "GameTooltipTemplate");
@@ -8194,6 +8227,11 @@ local function default_name(t)
 				-- app.PrintDebug("criteria sq no name",t.achievementID,t.criteriaID,rawget(t,"name"))
 				return
 			end
+
+			-- criteria with spellID (TODO)
+
+			-- criteria fallback to base achievement name
+			name = "Criteria: "..select(2, GetAchievementInfo(achievementID))
 		end
 	end
 	app.PrintDebug("failed to retrieve criteria name",achievementID,t.criteriaID,name,t._default_name_retry)
@@ -8671,7 +8709,7 @@ local fields = {
 			-- 1 -> Off-Hand Appearance
 			-- 2 -> Main-Hand Appearance
 			-- return select(2, GetItemInfo(sformat("item:%d::::::::%d:::11:::8:%d:", itemID, app.Level, t.artifactID)));
-			local link = sformat("item:%d::::::::%d:::11::%d:8:%d:", math.floor(itemID), app.Level, t.isOffHand and 1 or 2, t.artifactID);
+			local link = sformat("item:%d::::::::%d:::11::%d:8:%d:", math_floor(itemID), app.Level, t.isOffHand and 1 or 2, t.artifactID);
 			-- app.PrintDebug("Artifact link",t.artifactID,itemID,link);
 			local link = select(2, GetItemInfo(link));
 			if not link then return end
@@ -9050,7 +9088,6 @@ app.ClassDB = setmetatable({}, { __index = function(t, className)
 		end
 	end
 end });
-local math_floor = math.floor;
 local cache = app.CreateCache("classID");
 local function CacheInfo(t, field)
 	local _t, id = cache.GetCached(t);
@@ -11669,8 +11706,8 @@ local mapFields = {
 			local position = C_Map_GetPlayerMapPosition(myMapID, "player")
 			if position then
 				local x,y = position:GetXY()
-				x = math.floor(x * 1000) / 10;
-				y = math.floor(y * 1000) / 10;
+				x = math_floor(x * 1000) / 10;
+				y = math_floor(y * 1000) / 10;
 				local _coord = t._coord or {};
 				t._coord = _coord;
 				_coord[1] = x;
@@ -12151,8 +12188,8 @@ local AlternateDataTypes = {
 		return name;
 	end,
 	["crit"] = function(id)
-		local ach = math.floor(id);
-		local crit = math.floor(100 * (id - ach) + 0.005);
+		local ach = math_floor(id);
+		local crit = math_floor(100 * (id - ach) + 0.005);
 		local name = GetAchievementCriteriaInfo(ach, crit);
 		return name;
 	end,
@@ -12161,8 +12198,8 @@ local AlternateDataTypes = {
 		return name, textureFilename;
 	end,
 	["df"] = function(id)
-		local aid = math.floor(id);
-		local hid = math.floor(10000 * (id - aid) + 0.005);
+		local aid = math_floor(id);
+		local hid = math_floor(10000 * (id - aid) + 0.005);
 		id = app.FactionID == Enum.FlightPathFaction.Alliance and tonumber(aid) or tonumber(hid);
 		local name, _, _, _, _, _, _, _, _, _, textureFilename = GetLFGDungeonInfo(id);
 		return name, textureFilename;
@@ -12850,7 +12887,6 @@ end)();
 -- Tier Lib
 do
 local EJ_GetTierInfo = EJ_GetTierInfo;
-local math_floor = math.floor;
 local cache = app.CreateCache("tierID");
 local function CacheInfo(t, field)
 	local _t, id = cache.GetCached(t);
@@ -13800,7 +13836,7 @@ local function CreateMinimapButton()
 			x = math.max(-radius, math.min(cos*diagRadius, radius))
 			y = math.max(-radius, math.min(sin*diagRadius, radius))
 		end
-		self:SetPoint("CENTER", "Minimap", "CENTER", -math.floor(x), math.floor(y));
+		self:SetPoint("CENTER", "Minimap", "CENTER", -math_floor(x), math_floor(y));
 	end
 	local update = function(self)
 		local w, x = GetCursorPosition();
@@ -14672,10 +14708,10 @@ local StoreWindowPosition = function(self)
 			profile.Windows[self.Suffix] = points;
 			for i=1,self:GetNumPoints() do
 				local point, _, refPoint, x, y = self:GetPoint(i);
-				points[i] = { Point = point, PointRef = refPoint, X = math.floor(x), Y = math.floor(y) };
+				points[i] = { Point = point, PointRef = refPoint, X = math_floor(x), Y = math_floor(y) };
 			end
-			points.Width = math.floor(self:GetWidth());
-			points.Height = math.floor(self:GetHeight());
+			points.Width = math_floor(self:GetWidth());
+			points.Height = math_floor(self:GetHeight());
 			points.Locked = self.isLocked or nil;
 			-- print("saved window",self.Suffix)
 			-- app.PrintTable(points)
@@ -15260,7 +15296,7 @@ RowOnEnter = function (self)
 					str = "";
 				end
 				GameTooltip:AddDoubleLine(i == 1 and L["COORDINATES_STRING"] or " ",
-					str.. GetNumberWithZeros(math.floor(x * 10) * 0.1, 1) .. ", " .. GetNumberWithZeros(math.floor(y * 10) * 0.1, 1), 1, 1, 1, 1, 1, 1);
+					str.. GetNumberWithZeros(math_floor(x * 10) * 0.1, 1) .. ", " .. GetNumberWithZeros(math_floor(y * 10) * 0.1, 1), 1, 1, 1, 1, 1, 1);
 			end
 			if additionaLine then
 				GameTooltip:AddDoubleLine(" ", additionaLine, 1, 1, 1, 1, 1, 1);
@@ -15308,8 +15344,8 @@ RowOnEnter = function (self)
 		local coord = reference.coord or reference.coord_tooltip;
 		if coord and app.Settings:GetTooltipSetting("Coordinates") then
 			GameTooltip:AddDoubleLine("Coordinate",
-				GetNumberWithZeros(math.floor(coord[1] * 10) * 0.1, 1) .. ", " ..
-				GetNumberWithZeros(math.floor(coord[2] * 10) * 0.1, 1), 1, 1, 1, 1, 1, 1);
+				GetNumberWithZeros(math_floor(coord[1] * 10) * 0.1, 1) .. ", " ..
+				GetNumberWithZeros(math_floor(coord[2] * 10) * 0.1, 1), 1, 1, 1, 1, 1, 1);
 		end
 		if reference.speciesID then
 			local progress, total = C_PetJournal.GetNumCollectedInfo(reference.speciesID);
@@ -17392,6 +17428,14 @@ app.ResetCustomWindowParam = function(suffix)
 	customWindowUpdates.params[suffix] = nil;
 	-- app.PrintDebug("ResetCustomWindowParam",suffix)
 end
+-- Allows externally adding custom window update logic which doesn't exist already
+app.AddCustomWindowOnUpdate = function(customName, onUpdate)
+	if customWindowUpdates[customName] then
+		app.print("Cannot replace Custom Window: "..customName)
+	end
+	app.print("Added",customName)
+	customWindowUpdates[customName] = onUpdate
+end
 customWindowUpdates["AchievementHarvester"] = function(self, ...)
 	-- /run AllTheThings:GetWindow("AchievementHarvester"):Toggle();
 	if self:IsVisible() then
@@ -17436,7 +17480,7 @@ customWindowUpdates["AchievementHarvester"] = function(self, ...)
 				end
 			end;
 			-- add a bunch of raw, delay-loaded items in order into the window
-			local groupCount = math.floor(self.Limit / self.PartitionSize);
+			local groupCount = math_floor(self.Limit / self.PartitionSize);
 			local g, overrides = {}, {visible=true};
 			local partition, partitionStart, partitionGroups;
 			local dlo, obj = app.DelayLoadedObject, app.CreateAchievementHarvester;
@@ -19873,8 +19917,8 @@ customWindowUpdates["list"] = function(self, force, got)
 			StartCoroutine("AutoHarvestFirstPartitionCoroutine", self.AutoHarvestFirstPartitionCoroutine);
 		end
 		-- add a bunch of raw, delay-loaded objects in order into the window
-		local groupCount = math.floor(self.Limit / self.PartitionSize);
-		local groupStart = math.floor(min / self.PartitionSize);
+		local groupCount = math_floor(self.Limit / self.PartitionSize);
+		local groupStart = math_floor(min / self.PartitionSize);
 		local partition, partitionStart, partitionGroups;
 		local dlo = app.DelayLoadedObject;
 		for j=groupStart,groupCount,1 do
@@ -19908,8 +19952,8 @@ customWindowUpdates["Tradeskills"] = function(self, force, got)
 	if not self.initialized then
 		-- cache some common functions
 		local C_TradeSkillUI = C_TradeSkillUI;
-		local C_TradeSkillUI_GetCategoryInfo, C_TradeSkillUI_GetRecipeInfo, C_TradeSkillUI_GetRecipeSchematic
-			= C_TradeSkillUI.GetCategoryInfo, C_TradeSkillUI.GetRecipeInfo, C_TradeSkillUI.GetRecipeSchematic;
+		local C_TradeSkillUI_GetCategoryInfo, C_TradeSkillUI_GetRecipeInfo, C_TradeSkillUI_GetRecipeSchematic, C_TradeSkillUI_GetTradeSkillLineForRecipe
+			= C_TradeSkillUI.GetCategoryInfo, C_TradeSkillUI.GetRecipeInfo, C_TradeSkillUI.GetRecipeSchematic, C_TradeSkillUI.GetTradeSkillLineForRecipe
 
 		self.initialized = true;
 		self.SkillsInit = {};
@@ -19933,12 +19977,19 @@ customWindowUpdates["Tradeskills"] = function(self, force, got)
 		});
 
 		AllTheThingsAD.Reagents = nil;
+		local MissingRecipes = {}
 		-- Adds the pertinent information about a given recipeID to the reagentcache
 		local function CacheRecipeSchematic(recipeID)
 			-- TODO: this can be called successfilly without tradeskillUI open... potentially use function runner
 			local schematic = C_TradeSkillUI_GetRecipeSchematic(recipeID, false);
 			local craftedItemID = schematic.outputItemID;
 			if not craftedItemID then return end
+			if not app.SearchForObject("spellID",recipeID) then
+				local tradeSkillID, skillLineName, parentTradeSkillID = C_TradeSkillUI_GetTradeSkillLineForRecipe(recipeID)
+				local missing = app.TableConcat({"Missing Recipe:",recipeID,skillLineName,tradeSkillID,"=>",parentTradeSkillID}, nil, nil, " ")
+				-- app.PrintDebug(missing)
+				MissingRecipes[#MissingRecipes + 1] = missing
+			end
 			-- app.PrintDebug("Recipe",recipeID,"==>",craftedItemID)
 			-- Recipes now have Slots for available Regeants...
 			-- TODO: schematic.reagentSlotSchematics is often EMPTY on first query??
@@ -19946,9 +19997,6 @@ customWindowUpdates["Tradeskills"] = function(self, force, got)
 				-- Milling Recipes...
 				-- app.PrintDebug("EMPTY SCHEMATICS",recipeID)
 				return;
-			end
-			if not app.SearchForObject("spellID",recipeID) then
-				app.PrintDebug("Missing Recipe",recipeID,"Prof",self.lastTradeSkillID)
 			end
 			local reagentCache = GetDataMember("Reagents", app.ReagentsDB);
 			local itemRecipes, reagentCount, reagentItemID;
@@ -20007,6 +20055,7 @@ customWindowUpdates["Tradeskills"] = function(self, force, got)
 			if not updates["Recipes"] then
 				-- app.PrintDebug("UpdateLearnedRecipes",self.lastTradeSkillID)
 				updates["Recipes"] = true;
+				wipe(MissingRecipes)
 				local learned, recipeID = {};
 				local recipeIDs = C_TradeSkillUI.GetAllRecipeIDs();
 				local acctSpells, charSpells = ATTAccountWideData.Spells, app.CurrentCharacter.Spells;
@@ -20065,6 +20114,14 @@ customWindowUpdates["Tradeskills"] = function(self, force, got)
 					app:PlayFanfare();
 					app:TakeScreenShot("Recipes");
 					self.force = true;
+				end
+				-- In Debugging, pop a dialog of all found missing recipes
+				if app.Debugging then
+					if #MissingRecipes > 0 then
+						app:ShowPopupDialogWithMultiLineEditBox(app.TableConcat(MissingRecipes, nil, nil, "\n"), nil, "Missing Recipes")
+					else
+						app.PrintDebug("No Missing Recipes!")
+					end
 				end
 			end
 		end
@@ -22381,8 +22438,8 @@ end
     -- 	local position = C_Map.GetPlayerMapPosition(mapID, "player")
 	-- 	if position then
     --     	local x,y = position:GetXY();
-    --         x = math.floor(x * 1000) / 10;
-    --         y = math.floor(y * 1000) / 10;
+    --         x = math_floor(x * 1000) / 10;
+    --         y = math_floor(y * 1000) / 10;
 	-- 		coord = x..","..y;
 	-- 	end
 	-- 	app:SetupReportDialog("test", "TEST Report Dialog",

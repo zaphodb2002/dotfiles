@@ -30,6 +30,10 @@ function Options:OnEnable()
 end
 
 function Options:OnMain()
+	self:Add('RedButton', SETTINGS_KEYBINDINGS_LABEL):SetKeys{top = -5, bottom = 15}:SetCall('OnClick', function()
+		SettingsPanel:SelectCategory(SettingsPanel.keybindingsCategory)
+	end)
+
 	self:AddHeader(L.Behaviour)
 	self:AddCheck {set = 'sell', text = 'AutoSell'}
 	self:AddCheck {set = 'repair', text = 'AutoRepair'}
@@ -47,8 +51,8 @@ function Options:OnMain()
 end
 
 function Options:OnFilters()
-	self:Add('Check', L.CharSpecific):SetChecked(not Scrap_CharSets.share):SetCall('OnInput', function(share, v)
-		Scrap_CharSets.share = not v
+	self:Add('Check', L.CharSpecific):SetChecked(not Scrap.charsets.share):SetCall('OnInput', function(share, v)
+		Scrap.charsets.share = not v
 		self:SendSignal('SETS_CHANGED')
 	end)
 	self:AddCheck {set = 'learn', text = 'Learning'}
@@ -56,7 +60,9 @@ function Options:OnFilters()
 	self:AddHeader(CALENDAR_FILTERS)
 	self:AddCheck {set = 'unusable', text = 'Unusable', char = true}
 	self:AddCheck {set = 'equip', text = 'LowEquip', char = true}
+	self:AddTreshold ('equip')
 	self:AddCheck {set = 'consumable', text = 'LowConsume', char = true}
+	self:AddTreshold ('consumable')
 end
 
 function Options:OnHelp()
@@ -102,7 +108,7 @@ function BasePanel:AddHeader(text)
 end
 
 function BasePanel:AddCheck(info)
-	local sets = info.char and Scrap_CharSets or Scrap_Sets
+	local sets = info.char and Scrap.charsets or Scrap.sets
 	local b = self:Add('Check', L[info.text])
 	b.left = b.left + (info.parent and 10 or 0)
 	b:SetEnabled(not info.parent or sets[info.parent])
@@ -115,8 +121,14 @@ function BasePanel:AddCheck(info)
 	end)
 end
 
-function BasePanel:SetDefaults()
-	Scrap_Sets, Scrap_CharSets = nil
-	self:SendSignal('SETS_CHANGED')
-	self:Update()
+function BasePanel:AddTreshold(set)
+	if Scrap.charsets[set] then
+		local set = set .. 'Factor'
+		local s = self:Add('Slider', L.iLevelTreshold, (Scrap.charsets[set] - 1) * 100, 0,100,1, '%s%')
+		s:SetSmall(true):SetKeys {top = 5, left = 40, bottom = 15}
+		s:SetCall('OnInput', function(s, v)
+			Scrap.charsets[set] = 1 + v / 100
+			Options:SendSignal('LIST_CHANGED')
+		end)
+	end
 end

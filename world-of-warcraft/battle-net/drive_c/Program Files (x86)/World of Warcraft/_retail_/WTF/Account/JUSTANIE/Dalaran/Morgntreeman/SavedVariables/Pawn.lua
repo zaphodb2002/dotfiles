@@ -1,13 +1,13 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0805,
+	["LastVersion"] = 2.0807,
 	["LastPlayerFullName"] = "Morgntreeman-Dalaran",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 209894,
-			["Level"] = 437,
-			["Link"] = "|cff0070dd|Hitem:209894::::::::70:104::27:5:6652:9600:9551:1494:8766:1:28:2699:::::|h[Fearless Faerie's Guise]|h|r",
+			["ID"] = 207254,
+			["Level"] = 450,
+			["Link"] = "|cffa335ee|Hitem:207254::::::::70:104::4:7:6652:9600:7982:9555:9513:1481:8767::::::|h[Benevolent Embersage's Casque]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 210380,
@@ -42,8 +42,8 @@ PawnOptions = {
 		}, -- [8]
 		{
 			["ID"] = 210375,
-			["Level"] = 447,
-			["Link"] = "|cffa335ee|Hitem:210375::::::::70:104::53:6:9554:9506:6652:9599:1478:8767:1:28:2701:::::|h[Crystalline Tender's Wristbands]|h|r",
+			["Level"] = 450,
+			["Link"] = "|cffa335ee|Hitem:210375::::::::70:104::53:6:9506:6652:9599:9555:1481:8767:1:28:2701:::::|h[Crystalline Tender's Wristbands]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 207255,

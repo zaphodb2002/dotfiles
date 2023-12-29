@@ -489,25 +489,25 @@ private.CONTAINER_INFO = {
 	[356819] = { zoneID = 1533, artID = { 1321 }, x = 6026, y = 7817, overlay = { "6026-7817" }, questReset = true, questID = { 61688 }, worldmap = true }; --Test of Penitence
 	[356823] = { zoneID = 1533, artID = { 1321 }, x = 6104, y = 1508, overlay = { "6100-1510" }, questID = { 61698 } }; --Cloudwalker's Coffer
 	[165037] = { zoneID = 1536, artID = { 1323 }, x = 5589, y = 3897, overlay = { "5589-3897" }, questID = { 59429 } }; --Objects
-	[169664] = { zoneID = 1536, artID = { 1323 }, x = 3274, y = 2127, overlay = { "3274-2127" }, questID = { 60587 } }; --Objects
+	[169664] = { zoneID = 1536, artID = { 1323 }, x = 3274, y = 2127, overlay = { "3274-2127" }, questID = { 60587 }, reset = false }; --Objects
 	[171337] = { zoneID = 1536, artID = { 1323 }, x = 5262, y = 1469, overlay = { "5368-3679","5471-3752","5262-1469" }, questReset = true, questID = { 61111 }, worldmap = true }; --Objects
-	[180273] = { zoneID = 1536, artID = { 1323 }, x = 5143, y = 4847, questID = { 61128 } }; --Objects
+	[180273] = { zoneID = 1536, artID = { 1323 }, x = 5143, y = 4847, questID = { 61128 }, reset = false }; --Objects
 	[181164] = { zoneID = 1536, artID = { 1323 }, x = 5143, y = 4847, reset = false, questID = { 61127 } }; --Objects
 	[341424] = { zoneID = {
 				[1536] = { x = 2450, y = 3162, artID = { 1323 }, overlay = { "2450-3162" } };
 				[1649] = { x = 3457, y = 5551, artID = { 1613 }, overlay = { "3457-5551" } };
-			  }, questID = { 58710 } }; --Forgotten Mementos
-	[345456] = { zoneID = 1536, artID = { 1323 }, x = 4831, y = 1630, overlay = { "4840-1630" }, questID = { 59244 } }; --Chest of Eyes
+			  }, questID = { 58710 }, reset = false }; --Forgotten Mementos
+	[345456] = { zoneID = 1536, artID = { 1323 }, x = 4831, y = 1630, overlay = { "4840-1630" }, questID = { 59244 }, reset = false }; --Chest of Eyes
 	[345458] = { zoneID = 1536, artID = { 1323 }, x = 4985, y = 4964, overlay = { "4870-4880","4890-4600","4890-4740","4940-4490","4990-4960","5070-4600","5090-4860","5120-4730","5140-4440","5220-4890","5240-4740" } }; --Prize Bag
 	[345459] = { zoneID = 1536, artID = { 1323 }, x = 3316, y = 8110, overlay = { "3260-7800","3320-8100","3340-7260","3520-7640","3680-7870" }, questReset = true }; --Bladesworn Supply Cache
-	[347444] = { zoneID = 1536, artID = { 1323 }, x = 4725, y = 6215, overlay = { "4720-6210" }, questID = { 59358 } }; --Ornate Bone Shield
+	[347444] = { zoneID = 1536, artID = { 1323 }, x = 4725, y = 6215, overlay = { "4720-6210" }, questID = { 59358 }, reset = false }; --Ornate Bone Shield
 	[348521] = { zoneID = 1536, artID = { 1323 }, x = 5589, y = 3898, overlay = { "5590-3890" }, questID = { 59428 } }; --Strange Growth
 	[350802] = { zoneID = 1536, artID = { 1323 }, x = 5495, y = 2612, overlay = { "5495-2612","5310-2100","5500-1780","5540-2440","5580-2300","5600-2160","5670-1820" } }; --Web Sealed Chest
-	[351980] = { zoneID = 1536, artID = { 1323 }, x = 6240, y = 6000, overlay = { "6240-6000" }, questID = { 60311 } }; --Misplaced Supplies
+	[351980] = { zoneID = 1536, artID = { 1323 }, x = 6240, y = 6000, overlay = { "6240-6000" }, questID = { 60311 }, reset = false }; --Misplaced Supplies
 	[352086] = { zoneID = 1536, artID = { 1323 }, x = 4412, y = 4002, overlay = { "4410-4000" }, questID = { 60368 } }; --Blackhound Cache
 	[352596] = { zoneID = 1536, artID = { 1323 }, x = 3968, y = 5179, overlay = { "3480-5490","3640-4530","3640-4980","3670-4250","3740-5580","3870-4700","3970-5180","4000-4390","4080-4710","4080-5470" }, questReset = true, questID = { 60556 }, worldmap = true }; --Sprouting Growth
 	[353231] = { zoneID = 1536, artID = { 1323 }, x = 3386, y = 7634, overlay = { "3040-7780","3330-8160","3380-7640","3620-8160" }, questReset = true, questID = { 60662 }, worldmap = true }; --Bonebound Chest
-	[353380] = { zoneID = 1536, artID = { 1323 }, x = 3079, y = 2874, overlay = { "3080-2870" }, questID = { 60730 } }; --Halis's Lunch Pail
+	[353380] = { zoneID = 1536, artID = { 1323 }, x = 3079, y = 2874, overlay = { "3080-2870" }, questID = { 60730 }, reset = false }; --Halis's Lunch Pail
 	[353626] = { zoneID = 1536, artID = { 1323 }, x = 3814, y = 4258, overlay = { "3810-4270" } }; --Locked Toolbox
 	[353627] = { zoneID = 1536, artID = { 1323 }, x = 3793, y = 4543, overlay = { "3793-4543" } }; --Battlefront Rations
 	[354852] = { zoneID = 1536, artID = { 1323 }, x = 6692, y = 4379, overlay = { "6530-4960","6690-4380","6880-4720","7100-5080","7340-4980","7540-4560","7610-4940" }, questReset = true, questID = { 61090 }, worldmap = true }; --Sprouting Growth
@@ -516,13 +516,13 @@ private.CONTAINER_INFO = {
 	[355036] = { zoneID = 1536, artID = { 1323 }, x = 6587, y = 2472, overlay = { "6480-3330","6590-2470","6910-2770","6960-3350" }, questReset = true, worldmap = true }; --Runebound Coffer
 	[355037] = { zoneID = 1536, artID = { 1323 }, x = 3225, y = 3713, overlay = { "2730-4600","2870-3420","3120-2520","3220-3710","3240-2560","3490-3090" }, questReset = true, questID = { 61120 }, worldmap = true }; --Runebound Coffer
 	[355038] = { zoneID = 1536, artID = { 1323 }, x = 6904, y = 2768, overlay = { "6480-3330","6590-2470","6900-2760","6960-3350" }, questReset = true, questID = { 61116 }, worldmap = true }; --Runebound Coffer
-	[355865] = { zoneID = 1536, artID = { 1323 }, x = 5986, y = 7906, overlay = { "5986-7906" }, questID = { 61444 } }; --Vat of Conspicuous Slime
-	[355872] = { zoneID = 1536, artID = { 1323 }, x = 6613, y = 5027, overlay = { "6613-5027" }, questID = { 61451 } }; --Stolen Jar
-	[355880] = { zoneID = 1536, artID = { 1323 }, x = 4238, y = 2333, overlay = { "4238-2333" }, questID = { 61470 } }; --The Necronom-i-nom
-	[355886] = { zoneID = 1536, artID = { 1323 }, x = 5765, y = 7581, overlay = { "5770-7590" }, questID = { 61474 } }; --Plaguefallen Chest
-	[355947] = { zoneID = 1536, artID = { 1323 }, x = 7288, y = 5365, overlay = { "7280-5360" }, questID = { 61484 } }; --Glutharn's Stash
-	[355980] = { zoneID = 1536, artID = { 1323 }, x = 6466, y = 2475, overlay = { "6470-2470" }, questID = { 61539 } }; --Ritualist's Cache
-	[356535] = { zoneID = 1536, artID = { 1323 }, x = 3173, y = 7003, overlay = { "3180-7000" }, questID = { 61491 } }; --Runespeaker's Trove
+	[355865] = { zoneID = 1536, artID = { 1323 }, x = 5986, y = 7906, overlay = { "5986-7906" }, questID = { 61444 }, reset = false }; --Vat of Conspicuous Slime
+	[355872] = { zoneID = 1536, artID = { 1323 }, x = 6613, y = 5027, overlay = { "6613-5027" }, questID = { 61451 }, reset = false }; --Stolen Jar
+	[355880] = { zoneID = 1536, artID = { 1323 }, x = 4238, y = 2333, overlay = { "4238-2333" }, questID = { 61470 }, reset = false }; --The Necronom-i-nom
+	[355886] = { zoneID = 1536, artID = { 1323 }, x = 5765, y = 7581, overlay = { "5770-7590" }, questID = { 61474 }, reset = false }; --Plaguefallen Chest
+	[355947] = { zoneID = 1536, artID = { 1323 }, x = 7288, y = 5365, overlay = { "7280-5360" }, questID = { 61484 }, reset = false }; --Glutharn's Stash
+	[355980] = { zoneID = 1536, artID = { 1323 }, x = 6466, y = 2475, overlay = { "6470-2470" }, questID = { 61539 }, reset = false }; --Ritualist's Cache
+	[356535] = { zoneID = 1536, artID = { 1323 }, x = 3173, y = 7003, overlay = { "3180-7000" }, questID = { 61491 }, reset = false }; --Runespeaker's Trove
 	[364531] = { zoneID = 1536, artID = { 1323 }, x = 2729, y = 4610, overlay = { "2720-4610","2860-3410","3120-2520","3220-3710","3240-2560","3490-3080" }, questReset = true, questID = { 61115 }, worldmap = true }; --Runebound Coffer
 	[368205] = { zoneID = 1543, artID = { 1329,1693 }, x = 3221, y = 6754, overlay = { "3040-5600","3220-6740" }, zoneQuestId = { 63543 }, questID = { 63815 } }; --Mawsworn Cache
 	[368206] = { zoneID = 1543, artID = { 1329,1693 }, x = 3009, y = 6497, overlay = { "3020-6500" }, zoneQuestId = { 63543 } }; --Mawsworn Cache
@@ -916,7 +916,7 @@ private.CONTAINER_INFO = {
 	[392581] = { zoneID = 2133, artID = { 1775 }, x = 4818, y = 2793, overlay = { "4815-2789" }, reset = false, questID = { 75183 }, prof = 202 }; --Haphazardly Discarded Bombs
 	[392582] = { zoneID = 2133, artID = { 1775 }, x = 5056, y = 4796, overlay = { "5051-4794" }, reset = false, questID = { 75184 }, prof = 202 }; --Defective Survival Pack
 	[392587] = { zoneID = 2133, artID = { 1775 }, x = 3779, y = 5887, overlay = { "3783-5884" }, reset = false, questID = { 75186 }, prof = 202 }; --Busted Wyrmhole Generator
-	[392591] = { zoneID = 2133, artID = { 1775 }, x = 5601, y = 0307, overlay = { "5604-0304" }, questID = { 75187 } }; --Chest of the Flights
+	[392591] = { zoneID = 2133, artID = { 1775 }, x = 5601, y = 0307, overlay = { "5604-0304" }, reset = false, questID = { 75187 } }; --Chest of the Flights
 	[392593] = { zoneID = 2133, artID = { 1775 }, x = 4985, y = 5922, overlay = { "4989-5925" }, reset = false, questID = { 75188 }, prof = 202 }; --Inconspicuous Data Miner
 	[396019] = { zoneID = 2133, artID = { 1775 }, x = 6066, y = 4625, overlay = { "6066-4625" }, questID = { 75302 } }; --Stolen Stash
 	[396020] = { zoneID = {

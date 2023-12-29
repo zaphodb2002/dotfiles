@@ -1,6 +1,6 @@
 local _, MoveAny = ...
 local config = {
-	["title"] = format("MoveAny |T135994:16:16:0:0|t v|cff3FC7EB%s", "1.6.78")
+	["title"] = format("MoveAny |T135994:16:16:0:0|t v|cff3FC7EB%s", "1.6.99")
 }
 
 local MAMMBTN = nil
@@ -343,7 +343,7 @@ function MoveAny:IsFrameKeyDown()
 	if keybind == "SHIFT" then
 		return IsShiftKeyDown()
 	elseif keybind == "CTRL" then
-		return IsCtrlKeyDown()
+		return IsControlKeyDown()
 	elseif keybind == "ALT" then
 		return IsAltKeyDown()
 	end
@@ -357,6 +357,10 @@ function MoveAny:InitMALock()
 	MALock:SetPoint("CENTER", MoveAny:GetMainPanel(), "CENTER", 0, 0)
 	MALock:SetFrameStrata("HIGH")
 	MALock:SetFrameLevel(999)
+	if MALock.CloseButton then
+		MALock.CloseButton:SetFrameLevel(1000)
+	end
+
 	MALock:SetClampedToScreen(true)
 	MALock:SetMovable(true)
 	MALock:EnableMouse(true)
@@ -441,6 +445,10 @@ function MoveAny:InitMALock()
 			AddCheckBox(posx, "TARGETFRAMEBUFF1", false, nil, nil, "ShowTargetAndFocus")
 		end
 
+		if MoveAny:GetWoWBuild() ~= "RETAIL" then
+			AddCheckBox(posx, "TARGETFRAMETOTDEBUFF1", false, nil, nil, "ShowTargetAndFocus")
+		end
+
 		if FocusFrame then
 			AddCheckBox(posx, "FOCUSFRAME", false, nil, nil, "ShowTargetAndFocus")
 			if MoveAny:GetWoWBuild() ~= "RETAIL" then
@@ -486,6 +494,10 @@ function MoveAny:InitMALock()
 			end
 		end
 
+		if ActionBarUpButton and ActionBarDownButton then
+			AddCheckBox(4, "MAPAGES", false)
+		end
+
 		for i = 1, 10 do
 			if _G["ChatFrame" .. i] and _G["ChatFrame" .. i .. "Tab"] and _G["ChatFrame" .. i .. "Tab"]:GetParent() ~= GeneralDockManager or i == 1 then
 				AddCheckBox(posx, "CHAT", false, nil, i)
@@ -495,6 +507,10 @@ function MoveAny:InitMALock()
 		AddCheckBox(posx, "MINIMAP", false)
 		AddCheckBox(posx, "QUESTTRACKER", false)
 		AddCheckBox(posx, "MAPETFRAME", false)
+		if PetFrameHappiness then
+			AddCheckBox(posx, "PETFRAMEHAPPINESS", false)
+		end
+
 		if PartyFrame or PartyMemberFrame1 then
 			AddCheckBox(posx, "PARTYFRAME", false, nil, nil, "ShowPartyFrames")
 		end
@@ -681,7 +697,12 @@ function MoveAny:InitMALock()
 		end
 
 		AddCheckBox(4, "ALERTFRAME", false)
-		AddCheckBox(4, "CHATBUTTONFRAME", false)
+		for i = 1, 10 do
+			if _G["ChatFrame" .. i] and _G["ChatFrame" .. i .. "Tab"] and _G["ChatFrame" .. i .. "ButtonFrame"] ~= nil then
+				AddCheckBox(4, "CHATBUTTONFRAME" .. i, false)
+			end
+		end
+
 		AddCheckBox(4, "CHATEDITBOX", false)
 		if BNToastFrame then
 			AddCheckBox(4, "BNToastFrame", false)
@@ -1729,6 +1750,7 @@ function MoveAny:LoadAddon()
 	if MoveAny:IsEnabled("SHOWTIPS", true) then
 		MoveAny:MSG(MoveAny:GT("LID_STARTHELP"))
 		MoveAny:MSG(MoveAny:GT("LID_STARTHELP2"))
+		MoveAny:MSG(MoveAny:GT("LID_STARTHELP3"))
 	end
 
 	if MoveAny:GetWoWBuild() ~= "RETAIL" and MoveAny:IsEnabled("ACTIONBARS", false) then
@@ -1841,6 +1863,21 @@ function MoveAny:LoadAddon()
 		end
 	else
 		if MoveAny:IsEnabled("CASTINGBAR", false) then
+			if CastingBarFrame_ApplyAlpha then
+				hooksecurefunc(
+					"CastingBarFrame_ApplyAlpha",
+					function(sel, alpha)
+						if sel.ma_setalpha then return end
+						sel.ma_setalpha = true
+						if alpha == 1 then
+							MoveAny:UpdateAlpha(CastingBarFrame, mouseEle)
+						end
+
+						sel.ma_setalpha = false
+					end
+				)
+			end
+
 			MoveAny:RegisterWidget(
 				{
 					["name"] = "CastingBarFrame",
@@ -1943,13 +1980,38 @@ function MoveAny:LoadAddon()
 	end
 
 	if EssencePlayerFrame and MoveAny:IsEnabled("ESSENCEPLAYERFRAME", false) and class == "EVOKER" then
-		EssencePlayerFrame.unit = "player"
-		EssencePlayerFrame:SetParent(MoveAny:GetMainPanel())
-		MoveAny:RegisterWidget(
-			{
-				["name"] = "EssencePlayerFrame",
-				["lstr"] = "LID_ESSENCEPLAYERFRAME"
-			}
+		local wasrun = false
+		hooksecurefunc(
+			EssencePlayerFrame,
+			"Setup",
+			function()
+				EssencePlayerFrame.unit = "player"
+				EssencePlayerFrame:SetParent(MoveAny:GetMainPanel())
+				MoveAny:RegisterWidget(
+					{
+						["name"] = "EssencePlayerFrame",
+						["lstr"] = "LID_ESSENCEPLAYERFRAME"
+					}
+				)
+
+				wasrun = true
+			end
+		)
+
+		C_Timer.After(
+			4,
+			function()
+				if not wasrun then
+					EssencePlayerFrame.unit = "player"
+					EssencePlayerFrame:SetParent(MoveAny:GetMainPanel())
+					MoveAny:RegisterWidget(
+						{
+							["name"] = "EssencePlayerFrame",
+							["lstr"] = "LID_ESSENCEPLAYERFRAME"
+						}
+					)
+				end
+			end
 		)
 	end
 
@@ -2029,6 +2091,64 @@ function MoveAny:LoadAddon()
 							local alpha = _G["TargetFrameBuff" .. 1]:GetAlpha()
 							for i = 1, 32 do
 								local bb = _G["TargetFrameBuff" .. i]
+								if bb and i > 1 then
+									bb:SetScale(scale)
+									bb:SetAlpha(alpha)
+								end
+
+								local db = _G["TargetFrameDebuff" .. i]
+								if db then
+									db:SetScale(scale)
+									db:SetAlpha(alpha)
+								end
+							end
+						end
+
+						local bbf = CreateFrame("FRAME")
+						bbf:RegisterEvent("UNIT_AURA")
+						bbf:SetScript(
+							"OnEvent",
+							function()
+								frame:UpdateBuffScaleAlpha()
+							end
+						)
+
+						hooksecurefunc(
+							frame,
+							"SetPoint",
+							function()
+								frame:UpdateBuffScaleAlpha()
+							end
+						)
+
+						hooksecurefunc(
+							frame,
+							"SetScale",
+							function()
+								frame:UpdateBuffScaleAlpha()
+							end
+						)
+
+						frame:UpdateBuffScaleAlpha()
+					end,
+				}
+			)
+		end
+
+		if MoveAny:GetWoWBuild() ~= "RETAIL" and MoveAny:IsEnabled("TARGETFRAMETOTDEBUFF1", false) then
+			MoveAny:RegisterWidget(
+				{
+					["name"] = "TargetFrameToTDebuff1",
+					["lstr"] = "LID_TARGETFRAMETOTDEBUFF1",
+					["userplaced"] = true,
+					["setup"] = function()
+						local frame = TargetFrameToTDebuff1
+						function frame:UpdateBuffScaleAlpha()
+							if _G["TargetFrameToTDebff" .. 1] == nil then return end
+							local scale = _G["TargetFrameToTDebff" .. 1]:GetScale()
+							local alpha = _G["TargetFrameToTDebff" .. 1]:GetAlpha()
+							for i = 1, 32 do
+								local bb = _G["TargetFrameToTDebff" .. i]
 								if bb and i > 1 then
 									bb:SetScale(scale)
 									bb:SetAlpha(alpha)
@@ -2216,6 +2336,13 @@ function MoveAny:LoadAddon()
 		end
 
 		if MoveAny:IsEnabled("STANCEBAR", false) and StanceBar then
+			for i = 1, 12 do
+				if _G["StanceButton" .. i] and _G["StanceButton" .. i .. "NormalTexture2"] then
+					_G["StanceButton" .. i .. "NormalTexture2"]:ClearAllPoints()
+					_G["StanceButton" .. i .. "NormalTexture2"]:SetPoint("CENTER", _G["StanceButton" .. i], "CENTER", 0, 0)
+				end
+			end
+
 			MoveAny:RegisterWidget(
 				{
 					["name"] = "StanceBar",
@@ -2495,7 +2622,7 @@ function MoveAny:LoadAddon()
 					cright = 16
 				end
 
-				if MoveAny:IsEnabled("CHATBUTTONFRAME", false) then
+				if MoveAny:IsEnabled("CHATBUTTONFRAME" .. x, false) then
 					cleft = -2
 				end
 
@@ -2530,6 +2657,28 @@ function MoveAny:LoadAddon()
 					cf:SetClampRectInsets(cleft, cright, ctop, cbottom)
 				end
 			end
+		end
+
+		if ActionBarUpButton and ActionBarDownButton and MoveAny:IsEnabled("MAPAGES", false) then
+			local MAPages = CreateFrame("FRAME", "MAPages", MoveAny:GetMainPanel())
+			local asw, ash = 18, 18
+			MAPages:SetSize(asw, 2 * ash)
+			MAPages:SetPoint("CENTER", 0, 0)
+			ActionBarUpButton:SetParent(MAPages)
+			ActionBarUpButton:ClearAllPoints()
+			ActionBarUpButton:SetPoint("TOP", MAPages, "TOP", 0, 7)
+			ActionBarDownButton:SetParent(MAPages)
+			ActionBarDownButton:ClearAllPoints()
+			ActionBarDownButton:SetPoint("BOTTOM", MAPages, "BOTTOM", 0, -8)
+			MainMenuBarPageNumber:SetParent(MAPages)
+			MainMenuBarPageNumber:ClearAllPoints()
+			MainMenuBarPageNumber:SetPoint("LEFT", MAPages, "RIGHT", 4, 0)
+			MoveAny:RegisterWidget(
+				{
+					["name"] = "MAPages",
+					["lstr"] = "LID_MAPAGES",
+				}
+			)
 		end
 
 		if MoveAny:IsEnabled("QUESTTRACKER", false) then
@@ -2600,21 +2749,21 @@ function MoveAny:LoadAddon()
 							WatchFrame:SetSize(ObjectiveTrackerFrame:GetSize())
 						end
 					end
-
-					if ObjectiveTrackerFrame then
-						ObjectiveTrackerFrame:SetHeight(600)
-					end
 				end
 			)
 
-			MoveAny:RegisterWidget(
-				{
-					["name"] = "ObjectiveTrackerFrame",
-					["lstr"] = "LID_QUESTTRACKER",
-					["sh"] = 600,
-					["userplaced"] = true,
-					["secure"] = true,
-				}
+			C_Timer.After(
+				0,
+				function()
+					MoveAny:RegisterWidget(
+						{
+							["name"] = "ObjectiveTrackerFrame",
+							["lstr"] = "LID_QUESTTRACKER",
+							["userplaced"] = true,
+							["secure"] = true,
+						}
+					)
+				end
 			)
 		end
 
@@ -2686,6 +2835,15 @@ function MoveAny:LoadAddon()
 				["name"] = "MAPetFrame",
 				["lstr"] = "LID_PETFRAME",
 				["userplaced"] = true
+			}
+		)
+	end
+
+	if PetFrameHappiness and MoveAny:IsEnabled("PETFRAMEHAPPINESS", true) then
+		MoveAny:RegisterWidget(
+			{
+				["name"] = "PetFrameHappiness",
+				["lstr"] = "LID_PETFRAMEHAPPINESS"
 			}
 		)
 	end
@@ -3164,12 +3322,29 @@ function MoveAny:LoadAddon()
 	end
 
 	if MoveAny:IsEnabled("MINIMAP", false) then
-		MoveAny:RegisterWidget(
-			{
-				["name"] = "MinimapCluster",
-				["lstr"] = "LID_MINIMAP"
-			}
-		)
+		if MoveAny:GetWoWBuild() == "RETAIL" then
+			MoveAny:RegisterWidget(
+				{
+					["name"] = "MinimapCluster",
+					["lstr"] = "LID_MINIMAP",
+					["ctop"] = -44,
+					["cright"] = -10,
+					["cbottom"] = 10,
+					["cleft"] = 31
+				}
+			)
+		else
+			MoveAny:RegisterWidget(
+				{
+					["name"] = "MinimapCluster",
+					["lstr"] = "LID_MINIMAP",
+					["ctop"] = -25,
+					["cright"] = -20,
+					["cbottom"] = 30,
+					["cleft"] = 35
+				}
+			)
+		end
 	end
 
 	local gtp4 = nil
@@ -3238,28 +3413,6 @@ function MoveAny:LoadAddon()
 		)
 
 		GameTooltip:SetScale(MAGameTooltip:GetScale())
-		hooksecurefunc(
-			GameTooltip,
-			"SetAlpha",
-			function(sel, ...)
-				if sel.gtsetalpha then return end
-				sel.gtsetalpha = true
-				sel:SetAlpha(MAGameTooltip:GetAlpha())
-				sel.gtsetalpha = false
-			end
-		)
-
-		hooksecurefunc(
-			MAGameTooltip,
-			"SetAlpha",
-			function(sel, ...)
-				if sel.gtsetalpha2 then return end
-				sel.gtsetalpha2 = true
-				GameTooltip:SetAlpha(sel:GetAlpha())
-				sel.gtsetalpha2 = false
-			end
-		)
-
 		function MAGameTooltip:GetMAEle()
 			return GameTooltip
 		end
@@ -3268,7 +3421,34 @@ function MoveAny:LoadAddon()
 			return MAGameTooltip
 		end
 
-		GameTooltip:SetAlpha(MAGameTooltip:GetAlpha())
+		local children = {GameTooltip:GetChildren()}
+		hooksecurefunc(
+			GameTooltip,
+			"SetAlpha",
+			function(sel, alpha)
+				if sel.gtsetalpha then return end
+				sel.gtsetalpha = true
+				sel:SetAlpha(MAGameTooltip:GetAlpha())
+				for i, v in pairs(children) do
+					v:SetAlpha(MAGameTooltip:GetAlpha())
+				end
+
+				sel.gtsetalpha = false
+			end
+		)
+
+		hooksecurefunc(
+			MAGameTooltip,
+			"SetAlpha",
+			function(sel, alpha)
+				if sel.gtsetalpha then return end
+				sel.gtsetalpha = true
+				GameTooltip:SetAlpha(MAGameTooltip:GetAlpha())
+				sel.gtsetalpha = false
+			end
+		)
+
+		GameTooltip:SetAlpha(1)
 		if not MoveAny:IsEnabled("GAMETOOLTIP_ONCURSOR", false) then
 			hooksecurefunc(
 				GameTooltip,
@@ -3722,7 +3902,7 @@ function MoveAny:LoadAddon()
 	for i = 1, 10 do
 		local cf = _G["ChatFrame" .. i]
 		if cf and i > 1 then
-			if MoveAny:IsEnabled("CHATBUTTONFRAME", false) then
+			if MoveAny:IsEnabled("CHATBUTTONFRAME" .. i, false) then
 				local cbf = _G["ChatFrame" .. i .. "ButtonFrame"]
 				if cbf then
 					hooksecurefunc(
@@ -3739,7 +3919,7 @@ function MoveAny:LoadAddon()
 							C_Timer.After(
 								0.0,
 								function()
-									local ssw, _ = _G["ChatFrame" .. 1 .. "ButtonFrame"]:GetSize()
+									local ssw, _ = _G["ChatFrame" .. i .. "ButtonFrame"]:GetSize()
 									sel:SetSize(ssw, ssw * 6)
 									sel:ClearAllPoints()
 									sel:SetPoint("BOTTOM", _G["ChatFrame" .. 1 .. "ButtonFrame"], "BOTTOM", 0, 0)
@@ -3817,27 +3997,31 @@ function MoveAny:LoadAddon()
 		end
 	end
 
-	if MoveAny:IsEnabled("CHATBUTTONFRAME", false) then
-		local cbf = _G["ChatFrame" .. 1 .. "ButtonFrame"]
-		cbf:EnableMouse(true)
-		MoveAny:RegisterWidget(
-			{
-				["name"] = "ChatFrame" .. 1 .. "ButtonFrame",
-				["lstr"] = "LID_CHATBUTTONFRAME",
-			}
-		)
+	for i = 1, 10 do
+		if MoveAny:IsEnabled("CHATBUTTONFRAME" .. i, false) then
+			local cbf = _G["ChatFrame" .. i .. "ButtonFrame"]
+			cbf:EnableMouse(true)
+			MoveAny:RegisterWidget(
+				{
+					["name"] = "ChatFrame" .. i .. "ButtonFrame",
+					["lstr"] = "LID_CHATBUTTONFRAME" .. i,
+				}
+			)
 
-		if ChatFrameMenuButton then
-			ChatFrameMenuButton:SetParent(cbf)
-			function ChatFrameMenuButton:GetMAEle()
-				return cbf
-			end
-		end
+			if i == 1 then
+				if ChatFrameMenuButton then
+					ChatFrameMenuButton:SetParent(cbf)
+					function ChatFrameMenuButton:GetMAEle()
+						return cbf
+					end
+				end
 
-		if ChatFrameChannelButton then
-			ChatFrameChannelButton:SetParent(cbf)
-			function ChatFrameChannelButton:GetMAEle()
-				return cbf
+				if ChatFrameChannelButton then
+					ChatFrameChannelButton:SetParent(cbf)
+					function ChatFrameChannelButton:GetMAEle()
+						return cbf
+					end
+				end
 			end
 		end
 	end
@@ -3896,7 +4080,7 @@ function MoveAny:LoadAddon()
 		)
 	end
 
-	if UIPARENT_MANAGED_FRAME_POSITIONS and UIPARENT_MANAGED_FRAME_POSITIONS["ArenaEnemyFrames"] then
+	if UIPARENT_MANAGED_FRAME_POSITIONS and UIPARENT_MANAGED_FRAME_POSITIONS["ArenaEnemyFrames"] and ArenaEnemyFrames then
 		ArenaEnemyFrames:SetMovable(true)
 		ArenaEnemyFrames:SetUserPlaced(true)
 		UIPARENT_MANAGED_FRAME_POSITIONS["ArenaEnemyFrames"] = nil

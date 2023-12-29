@@ -3,15 +3,10 @@ local appName, app = ...;
 local tinsert = tinsert;
 
 -- Implementation
-app:GetWindow("RemovedFromGame", {
+app:GetWindow("Removed From Game", {
 	parent = UIParent,
 	Silent = true,
-	OnInit = function(self, handlers)
-		SLASH_ATTRFG1 = "/attrfg";
-		SlashCmdList["ATTRFG"] = function()
-			self:Toggle();
-		end
-	end,
+	Commands = { "attrfg" },
 	OnRebuild = function(self)
 		if self.data then return true; end
 		self.data = {

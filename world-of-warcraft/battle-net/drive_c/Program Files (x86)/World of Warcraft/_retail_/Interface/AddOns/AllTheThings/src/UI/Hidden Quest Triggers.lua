@@ -2,16 +2,11 @@
 local appName, app = ...;
 
 -- Implementation
-app:GetWindow("HiddentQuestTriggers", {
+app:GetWindow("Hiddent Quest Triggers", {
 	parent = UIParent,
 	Silent = true,
-	OnInit = function(self)
-		SLASH_ATTHQTS1 = "/atthqt";
-		SLASH_ATTHQTS2 = "/atthqts";
-		SlashCmdList["ATTHQTS"] = function(cmd)
-			self:Toggle();
-		end
-	end,
+	HideFromSettings = true,
+	Commands = { "atthqt", "atthqts" },
 	OnLoad = function(self, settings)
 		local hqt = app.Categories.HiddenQuestTriggers;
 		if hqt then

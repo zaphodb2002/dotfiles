@@ -1,12 +1,40 @@
 local _, MoveAny = ...
-local MAFRAMES = {"PVPParentFrame", "SettingsPanel", "SplashFrame", "GameMenuFrame", "InterfaceOptionsFrame", "QuickKeybindFrame", "VideoOptionsFrame", "KeyBindingFrame", "MacroFrame", "AddonList", "ContainerFrameCombinedBags", "LFGParentFrame", "CharacterFrame", "InspectFrame", "SpellBookFrame", "PlayerTalentFrame", "ClassTalentFrame", "FriendsFrame", "HelpFrame", "TradeFrame", "TradeSkillFrame", "CraftFrame", "QuestLogFrame", "WorldMapFrame", "ChallengesKeystoneFrame", "CovenantMissionFrame", "OrderHallMissionFrame", "PVPMatchScoreboard", "GossipFrame", "MerchantFrame", "PetStableFrame", "QuestFrame", "ClassTrainerFrame", "AchievementFrame", "PVEFrame", "EncounterJournal", "WeeklyRewardsFrame", "BankFrame", "WardrobeFrame", "DressUpFrame", "MailFrame", "OpenMailFrame", "AuctionHouseFrame", "AuctionFrame", "ProfessionsCustomerOrdersFrame", "AnimaDiversionFrame", "CovenantSanctumFrame", "SoulbindViewer", "GarrisonLandingPage", "PlayerChoiceFrame", "WorldStateScoreFrame", "ItemTextFrame", "ExpansionLandingPage", "MajorFactionRenownFrame", "GenericTraitFrame", "FlightMapFrame", "TaxiFrame", "ItemUpgradeFrame", "ProfessionsFrame", "CommunitiesFrame", "CollectionsJournal", "CovenantRenownFrame", "ChallengesKeystoneFrame", "ScriptErrorsFrame", "CalendarFrame", "TimeManagerFrame", "GuildBankFrame", "ItemSocketingFrame", "BlackMarketFrame", "QuestLogPopupDetailFrame", "ItemInteractionFrame", "GarrisonCapacitiveDisplayFrame", "ChannelFrame",}
-if MoveAny:GetWoWBuild() ~= "RETAIL" then
-	-- Buggy on retail
+local MAFRAMES = {"PVPParentFrame", "SettingsPanel", "SplashFrame", "GameMenuFrame", "InterfaceOptionsFrame", "QuickKeybindFrame", "VideoOptionsFrame", "KeyBindingFrame", "MacroFrame", "AddonList", "ContainerFrameCombinedBags", "LFGParentFrame", "CharacterFrame", "InspectFrame", "SpellBookFrame", "PlayerTalentFrame", "ClassTalentFrame", "FriendsFrame", "HelpFrame", "TradeFrame", "TradeSkillFrame", "CraftFrame", "QuestLogFrame", "WorldMapFrame", "ChallengesKeystoneFrame", "CovenantMissionFrame", "OrderHallMissionFrame", "PVPMatchScoreboard", "GossipFrame", "MerchantFrame", "PetStableFrame", "QuestFrame", "ClassTrainerFrame", "AchievementFrame", "PVEFrame", "EncounterJournal", "WeeklyRewardsFrame", "BankFrame", "WardrobeFrame", "DressUpFrame", "MailFrame", "OpenMailFrame", "AuctionHouseFrame", "AuctionFrame", "ProfessionsCustomerOrdersFrame", "AnimaDiversionFrame", "CovenantSanctumFrame", "SoulbindViewer", "GarrisonLandingPage", "PlayerChoiceFrame", "GenericPlayerChoiseTobbleButton", "WorldStateScoreFrame", "ItemTextFrame", "ExpansionLandingPage", "MajorFactionRenownFrame", "GenericTraitFrame", "FlightMapFrame", "TaxiFrame", "ItemUpgradeFrame", "ProfessionsFrame", "CommunitiesFrame", "CollectionsJournal", "CovenantRenownFrame", "ChallengesKeystoneFrame", "ScriptErrorsFrame", "CalendarFrame", "TimeManagerFrame", "GuildBankFrame", "ItemSocketingFrame", "BlackMarketFrame", "QuestLogPopupDetailFrame", "ItemInteractionFrame", "GarrisonCapacitiveDisplayFrame", "ChannelFrame",}
+--[[if MoveAny:GetWoWBuild() ~= "RETAIL" then]]
+-- Buggy on retail --
+if StaticPopup1 then
+	hooksecurefunc(
+		StaticPopup1,
+		"Hide",
+		function(sel)
+			if not InCombatLockdown() then
+				sel:ClearAllPoints()
+			end
+		end
+	)
+
+	StaticPopup1:ClearAllPoints()
 	tinsert(MAFRAMES, "StaticPopup1")
-	tinsert(MAFRAMES, "StaticPopup2")
-	tinsert(MAFRAMES, "ReadyCheckFrame")
 end
 
+if StaticPopup2 then
+	hooksecurefunc(
+		StaticPopup2,
+		"Hide",
+		function(sel)
+			if not InCombatLockdown() then
+				sel:ClearAllPoints()
+			end
+		end
+	)
+
+	StaticPopup2:ClearAllPoints()
+	tinsert(MAFRAMES, "StaticPopup2")
+end
+
+tinsert(MAFRAMES, "ReadyCheckFrame")
+-- Buggy on retail --
+--end
 local MAFS = {}
 for i, v in pairs(MAFRAMES) do
 	MAFS[v] = v
@@ -102,8 +130,26 @@ function MoveAny:FrameDragInfo(c)
 	end
 end
 
+local EnableMouseFrames = {"PlayerChoiceFrame", "GenericPlayerChoiseTobbleButton"}
+local HookedEnableMouseFrames = {}
 function MoveAny:UpdateMoveFrames()
 	if MoveAny:IsEnabled("MOVEFRAMES", true) then
+		for i, name in pairs(EnableMouseFrames) do
+			local frame = _G[name]
+			if frame and HookedEnableMouseFrames[name] == nil then
+				HookedEnableMouseFrames[name] = true
+				hooksecurefunc(
+					frame,
+					"Show",
+					function(sel)
+						sel:EnableMouse(true)
+					end
+				)
+
+				frame:EnableMouse(true)
+			end
+		end
+
 		if not InCombatLockdown() then
 			for i, name in pairs(MAFS) do
 				local frame = MoveAny:GetFrame(_G[name], name)

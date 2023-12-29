@@ -8,6 +8,7 @@ RarityDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["sortMode"] = "SORT_DIFFICULTY",
 			["groups"] = {
 				["pets"] = {
 					["Elementium Back Plate"] = {
@@ -66,7 +67,15 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
-					["Whistle of Chromatic Bone"] = {
+					["Lil' Bling"] = {
+						["dates"] = {
+							[20231222] = {
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
+					},
+					["Strand Crawler"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
@@ -124,22 +133,19 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
+					["Pygmy Direhorn"] = {
+						["attempts"] = 4,
+					},
 					["Puddle of Black Liquid"] = {
 						["known"] = true,
 						["attempts"] = 4,
 						["enabled"] = false,
 						["found"] = true,
 					},
-					["Pygmy Direhorn"] = {
-						["attempts"] = 4,
-					},
-					["Clockwork Rocket Bot"] = {
-						["dates"] = {
-							[20231217] = {
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 1,
+					["Toxic Wasteling"] = {
+						["known"] = true,
+						["enabled"] = false,
+						["found"] = true,
 					},
 					["Dusty Clutch of Eggs"] = {
 						["enabled"] = false,
@@ -256,6 +262,14 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
+					["Sky-Bo"] = {
+						["dates"] = {
+							[20231222] = {
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
+					},
 					["Severed Tentacle"] = {
 						["attempts"] = 4,
 					},
@@ -284,40 +298,6 @@ RarityDB = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
-					},
-					["Echo of the Depths"] = {
-						["lastAttempts"] = 150,
-						["known"] = true,
-						["finds"] = {
-							{
-								["num"] = 1,
-								["totalAttempts"] = 150,
-								["time"] = 46.87100000001374,
-								["totalTime"] = 46.87100000001374,
-								["attempts"] = 150,
-							}, -- [1]
-						},
-						["time"] = 46.87100000001374,
-						["dates"] = {
-							[20231210] = {
-								["time"] = 8,
-								["attempts"] = 54,
-							},
-							[20231212] = {
-								["time"] = 4,
-								["attempts"] = 7,
-							},
-							[20231217] = {
-								["time"] = 34.87100000001374,
-								["attempts"] = 89,
-							},
-						},
-						["attempts"] = 150,
-						["enabled"] = false,
-						["realAttempts"] = 150,
-						["totalFinds"] = 1,
-						["found"] = true,
-						["lastTime"] = 46.87100000001374,
 					},
 					["Jingling Bell"] = {
 						["known"] = true,
@@ -348,7 +328,7 @@ RarityDB = {
 					["Gooey Sha-ling"] = {
 						["attempts"] = 2,
 					},
-					["Strand Crawler"] = {
+					["Whistle of Chromatic Bone"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
@@ -385,6 +365,40 @@ RarityDB = {
 						},
 						["attempts"] = 150,
 					},
+					["Echo of the Depths"] = {
+						["lastAttempts"] = 150,
+						["known"] = true,
+						["finds"] = {
+							{
+								["num"] = 1,
+								["totalAttempts"] = 150,
+								["time"] = 46.87100000001374,
+								["totalTime"] = 46.87100000001374,
+								["attempts"] = 150,
+							}, -- [1]
+						},
+						["time"] = 46.87100000001374,
+						["dates"] = {
+							[20231210] = {
+								["time"] = 8,
+								["attempts"] = 54,
+							},
+							[20231212] = {
+								["time"] = 4,
+								["attempts"] = 7,
+							},
+							[20231217] = {
+								["time"] = 34.87100000001374,
+								["attempts"] = 89,
+							},
+						},
+						["attempts"] = 150,
+						["enabled"] = false,
+						["realAttempts"] = 150,
+						["totalFinds"] = 1,
+						["found"] = true,
+						["lastTime"] = 46.87100000001374,
+					},
 					["Remains of a Blood Beast"] = {
 						["attempts"] = 4,
 					},
@@ -393,10 +407,13 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
-					["Toxic Wasteling"] = {
-						["known"] = true,
-						["enabled"] = false,
-						["found"] = true,
+					["Clockwork Rocket Bot"] = {
+						["dates"] = {
+							[20231217] = {
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
 					},
 				},
 				["mounts"] = {
@@ -442,14 +459,26 @@ RarityDB = {
 						["attempts"] = 1,
 					},
 					["Reins of the Infinite Timereaver"] = {
-						["time"] = 3425.338000000003,
+						["time"] = 9435.724000000031,
 						["dates"] = {
+							[20231224] = {
+								["time"] = 4415.588000000018,
+								["attempts"] = 26,
+							},
+							[20231222] = {
+								["time"] = 1594.79800000001,
+								["attempts"] = 10,
+							},
 							[20231220] = {
 								["time"] = 3425.338000000003,
 								["attempts"] = 16,
 							},
 						},
-						["attempts"] = 16,
+						["session"] = {
+							["time"] = 2630.940999999992,
+							["attempts"] = 14,
+						},
+						["attempts"] = 52,
 					},
 					["Flametalon of Alysrazor"] = {
 						["attempts"] = 4,
@@ -471,11 +500,6 @@ RarityDB = {
 					["Reins of the Grand Black War Mammoth Horde"] = {
 						["attempts"] = 24,
 					},
-					["Reins of the Drake of the North Wind"] = {
-						["known"] = true,
-						["enabled"] = false,
-						["found"] = true,
-					},
 					["Fossilized Raptor"] = {
 						["enabled"] = false,
 						["known"] = true,
@@ -483,23 +507,6 @@ RarityDB = {
 					},
 					["Ashes of Al'ar"] = {
 						["attempts"] = 14,
-					},
-					["Reins of the Winter Night Dreamsaber"] = {
-						["lastAttempts"] = 1,
-						["known"] = true,
-						["finds"] = {
-							{
-								["time"] = 0,
-								["num"] = 1,
-								["totalAttempts"] = 1,
-								["attempts"] = 1,
-							}, -- [1]
-						},
-						["attempts"] = 1,
-						["enabled"] = false,
-						["realAttempts"] = 1,
-						["totalFinds"] = 1,
-						["found"] = true,
 					},
 					["G.M.O.D."] = {
 						["tooltipNpcs"] = {
@@ -523,6 +530,16 @@ RarityDB = {
 					["Smoldering Egg of Millagazor"] = {
 						["attempts"] = 3,
 					},
+					["Swift White Hawkstrider"] = {
+						["time"] = 1,
+						["dates"] = {
+							[20231222] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
+					},
 					["Living Infernal Core"] = {
 						["attempts"] = 3,
 					},
@@ -534,8 +551,30 @@ RarityDB = {
 						["enabled"] = false,
 						["found"] = true,
 					},
+					["Reins of the Winter Night Dreamsaber"] = {
+						["lastAttempts"] = 1,
+						["known"] = true,
+						["finds"] = {
+							{
+								["time"] = 0,
+								["num"] = 1,
+								["totalAttempts"] = 1,
+								["attempts"] = 1,
+							}, -- [1]
+						},
+						["attempts"] = 1,
+						["enabled"] = false,
+						["realAttempts"] = 1,
+						["totalFinds"] = 1,
+						["found"] = true,
+					},
 					["Reins of the Azure Drake"] = {
 						["attempts"] = 11,
+					},
+					["Reins of the Drake of the North Wind"] = {
+						["known"] = true,
+						["enabled"] = false,
+						["found"] = true,
 					},
 					["Felsteel Annihilator"] = {
 						["attempts"] = 3,
@@ -3491,7 +3530,7 @@ RarityDB = {
 						[14135] = 0,
 						[1391] = 0,
 						[14094] = 0,
-						[14130] = 0,
+						[13365] = 0,
 						[13612] = 0,
 						[15146] = 0,
 						[13592] = 0,
@@ -3500,7 +3539,7 @@ RarityDB = {
 						[14108] = 0,
 						[14110] = 0,
 						[13602] = 0,
-						[13620] = 0,
+						[14130] = 0,
 						[1394] = 0,
 						[5560] = 0,
 						[15140] = 0,
@@ -3508,7 +3547,7 @@ RarityDB = {
 						[13614] = 0,
 						[13616] = 0,
 						[13618] = 0,
-						[13365] = 0,
+						[13620] = 0,
 						[15152] = 0,
 						[15154] = 0,
 						[14136] = 0,
@@ -3674,7 +3713,7 @@ RarityDB = {
 						[14135] = 0,
 						[1391] = 0,
 						[14094] = 0,
-						[13365] = 0,
+						[13620] = 0,
 						[15142] = 0,
 						[15146] = 0,
 						[13592] = 0,
@@ -3683,7 +3722,7 @@ RarityDB = {
 						[14108] = 0,
 						[14110] = 0,
 						[13602] = 0,
-						[14130] = 0,
+						[13365] = 0,
 						[1394] = 0,
 						[5560] = 0,
 						[15140] = 0,
@@ -3691,7 +3730,7 @@ RarityDB = {
 						[15144] = 0,
 						[13616] = 0,
 						[13618] = 0,
-						[13620] = 0,
+						[14130] = 0,
 						[15152] = 0,
 						[15154] = 0,
 						[14136] = 0,
@@ -3786,8 +3825,11 @@ RarityDB = {
 					["server"] = "Dalaran",
 				},
 			},
+			["bar"] = {
+				["visible"] = true,
+			},
 			["trackedGroup"] = "mounts",
-			["trackedItem"] = 44083,
+			["trackedItem"] = 133543,
 		},
 	},
 }

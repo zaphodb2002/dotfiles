@@ -519,6 +519,7 @@ function RSExplorerRareList:AddFilteredRareToList(npcID, npcInfo, npcName)
 	self.raresListInfo[npcID].name = npcName
 	self.raresListInfo[npcID].filtered = RSConfigDB.GetNpcFiltered(npcID) ~= nil
 	self.raresListInfo[npcID].dead = RSNpcDB.IsNpcKilled(npcID)
+	self.raresListInfo[npcID].custom = npcInfo.custom
 					
 	tinsert(self.raresList, npcID)
 	
@@ -697,6 +698,14 @@ function RSExplorerRareList:UpdateData()
 				button.RareNPC.ToyTexture:SetDesaturated(nil)
 				button.RareNPC.AppearanceTexture:SetDesaturated(nil)
 				button.RareNPC.AppearanceTexture:SetDesaturated(nil)
+			end
+			
+			if (self.raresListInfo[npcID].custom) then
+				button.RareNPC.PortraitFrame.RareOverlay:Hide()
+				button.RareNPC.PortraitFrame.CustomOverlay:Show()
+			else
+				button.RareNPC.PortraitFrame.RareOverlay:Show()
+				button.RareNPC.PortraitFrame.CustomOverlay:Hide()
 			end
 			
 			button:Show()
@@ -892,7 +901,7 @@ function RSExplorerRareList:SelectNpc(npcID)
 	local npcPOI = RSNpcPOI.GetNpcPOI(npcID, self.mapID, internalInfo, RSGeneralDB.GetAlreadyFoundEntity(npcID))
 	if (npcPOI) then
 		local mainIcon = mapFrame.iconsPool:Acquire();
-		AddIcon(mainIcon, npcPOI.Texture, internalInfo.x, internalInfo.y)
+		AddIcon(mainIcon, npcPOI.Texture, tonumber(internalInfo.x), tonumber(internalInfo.y))
 	end
 	
 	-- Achievement

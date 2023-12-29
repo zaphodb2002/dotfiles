@@ -1,10 +1,11 @@
-lightweight tag 6c39117f6c48202e091d632090330ea0f3b3b62d v10.1.0
+lightweight tag 702b8f8a9d3e668f5e86363f25b79159c29cf253 v10.2.0
 Author:	Vae <emuha17@gmail.com>
-Date:	Sat May 20 16:52:35 2023 -1000
+Date:	Tue Dec 19 11:04:55 2023 -1000
 
-commit 6c39117f6c48202e091d632090330ea0f3b3b62d
+commit 702b8f8a9d3e668f5e86363f25b79159c29cf253
 Author: Vae <emuha17@gmail.com>
-Date:   Sat May 20 16:52:35 2023 -1000
+Date:   Tue Dec 19 11:04:55 2023 -1000
 
-    Updated for v10.1.0
+    Updated ToC to 10.2
+    Fixed errors from patches
 

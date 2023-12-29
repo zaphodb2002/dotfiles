@@ -534,6 +534,7 @@ app.print = function(...)
 	print(L["TITLE"], ...);
 end
 
+
 -- Color Lib
 local CS = CreateFrame("ColorSelect", nil, app.frame);
 local function Colorize(str, color)
@@ -867,7 +868,6 @@ local function GetDisplayID(data)
 		return app.NPCDisplayIDFromID[data.qgs[1]];
 	end
 end
-
 
 
 local function GetBestMapForGroup(group, currentMapID)
@@ -2926,20 +2926,21 @@ function app:GetDataCache()
 
 		-- Now that we have all of the root data, cache it.
 		app.CacheFields(rootData);
-
-		-- The achievements window has a mix of dynamic and non-dynamic information.
-		local achievementDynamicCategory = app.CreateDynamicCategory("Achievements");
-		BuildGroups(achievementDynamicCategory.dynamicWindow.data);
-		tinsert(g, achievementDynamicCategory);
-
-		-- Dynamic Categories (Content generated and managed by a separate Window)
-		tinsert(g, app.CreateDynamicCategory("Battle Pets"));
-		tinsert(g, app.CreateDynamicCategory("Factions"));
-		tinsert(g, app.CreateDynamicCategory("Flight Paths"));
-		if C_Heirloom and app.GameBuildVersion >= 30000 then tinsert(g, app.CreateDynamicCategory("Heirlooms")); end
-		tinsert(g, app.CreateDynamicCategory("Mounts"));
-		tinsert(g, app.CreateDynamicCategory("Titles"));
-		tinsert(g, app.CreateDynamicCategory("Toys"));
+		
+		-- Dynamic Categories
+		local keys,sortedList = {},{};
+		for suffix,window in pairs(app.Windows) do
+			if window and window.IsDynamicCategory then
+				keys[suffix] = window;
+			end
+		end
+		for suffix,window in pairs(keys) do
+			tinsert(sortedList, suffix);
+		end
+		app.Sort(sortedList, app.SortDefaults.Text);
+		for i,suffix in ipairs(sortedList) do
+			tinsert(g, app.CreateDynamicCategory(suffix));
+		end
 
 		-- Track Deaths!
 		tinsert(g, app:CreateDeathClass());
@@ -7803,6 +7804,28 @@ local createCustomHeader = app.CreateClass("Header", "headerID", {
 		return true;
 	end,
 },
+"WithReputation", {
+	collectible = function(t)
+		if app.Settings.Collectibles.Reputations then
+			return true;
+		end
+	end,
+	collected = function(t)
+		if (select(6, GetFactionInfoByID(t.maxReputation[1])) or 0) >= t.maxReputation[2] then
+			return 1;
+		end
+		if app.Settings.AccountWide.Reputations then
+			local searchResults = SearchForField("factionID", t.maxReputation[1]);
+			if #searchResults > 0 then
+				for i,searchResult in ipairs(searchResults) do
+					if searchResult.key == "factionID" and searchResult.collected then
+						return 2;
+					end
+				end
+			end
+		end
+	end
+}, (function(t) return t.maxReputation; end),
 "WithEvent", app.Modules.Events.Fields, (function(t) return L.HEADER_EVENTS[t.headerID]; end));
 app.CreateCustomHeader = createCustomHeader;
 app.CreateNPC = function(id, t)
@@ -8391,7 +8414,7 @@ end),
 				local searchResults = SearchForField("factionID", t.maxReputation[1]);
 				if #searchResults > 0 then
 					for i,searchResult in ipairs(searchResults) do
-						if searchResult.key ~= "questID" and searchResult.collected then
+						if searchResult.key == "factionID" and searchResult.collected then
 							return 2;
 						end
 					end
@@ -8641,23 +8664,6 @@ app.CreateQuestObjective = app.CreateClass("Objective", "objectiveID", {
 		return 0;
 	end
 });
-app.CompareQuestieDB = function()
-	if QuestieLoader then
-		local QuestieDB,missingQuestIDs = QuestieLoader:ImportModule("QuestieDB"), {};
-		for id,_ in pairs(QuestieDB.QuestPointers) do
-			local s = SearchForField("questID", id);
-			if #s == 0 then
-				tinsert(missingQuestIDs, id);
-			end
-		end
-		app.Sort(missingQuestIDs, app.SortDefaults.Number);
-		for _,id in ipairs(missingQuestIDs) do
-			print("Missing Quest ", id);
-		end
-	else
-		print("Error: Questie not available. Please enable it!");
-	end
-end
 app.AddQuestObjectivesToTooltip = function(tooltip, reference)
 	local objectified = false;
 	local questLogIndex = GetQuestLogIndexByID(reference.questID);
@@ -12293,6 +12299,29 @@ function app:GetWindow(suffix, settings)
 		if settings.OnInit then
 			settings.OnInit(window, handlers);
 		end
+		if settings.Commands then
+			window.Commands = settings.Commands;
+			window.HideFromSettings = settings.HideFromSettings;
+			window.SettingsName = settings.SettingsName or window.Suffix;
+			local commandRoot = string.upper(window.Commands[settings.RootCommandIndex or 1]);
+			if settings.OnCommand then
+				SlashCmdList[commandRoot] = function(cmd) 
+					if not settings.OnCommand(window, cmd) then
+						window:Toggle(cmd);
+					end
+				end
+			else
+				SlashCmdList[commandRoot] = function(cmd) 
+					window:Toggle(cmd);
+				end
+			end
+			for i,command in ipairs(window.Commands) do
+				_G["SLASH_" .. commandRoot .. i] = "/" .. command;
+			end
+		end
+		if settings.IsDynamicCategory then
+			window.IsDynamicCategory = settings.IsDynamicCategory;
+		end
 		LoadSettingsForWindow(window);
 	end
 	return window;
@@ -12779,7 +12808,7 @@ local function OnInitForPopout(self, group)
 			end
 		end
 		
-		if not self.data.ignoreSourceLookup then
+		if not (self.data.ignoreSourceLookup or (self.data.g and #self.data.g > 0)) then
 			local results = app:BuildSearchResponse(app:GetDataCache().g, dataKey, self.data[dataKey]);
 			if results and #results > 0 then
 				if not self.data.g then self.data.g = {}; end
@@ -12827,6 +12856,7 @@ function app:CreateMiniListForGroup(group)
 			OnInitForPopout(self, (group.OnPopout and group:OnPopout()) or group);
 		end,
 		OnLoad = function(self, settings)
+			self.dynamic = true;
 			settings.dynamic = true;
 			settings.sourcePath = self.Suffix;
 
@@ -12918,6 +12948,7 @@ app:GetWindow("Prime", {
 	parent = UIParent,
 	Silent = true,
 	AllowCompleteSound = true,
+	SettingsName = "Main List",
 	Defaults = {
 		["y"] = 20,
 		["x"] = 0,
@@ -12928,28 +12959,25 @@ app:GetWindow("Prime", {
 		["point"] = "CENTER",
 		["relativePoint"] = "CENTER",
 	},
+	Commands = {
+		"att",
+		"allthethings",
+		"attc",
+	},
+	RootCommandIndex = 2,
+	OnCommand = function(self, cmd)
+		if cmd and strlen(cmd) > 0 then
+			-- Search for the Link in the database
+			cmd = string.lower(cmd);
+			local group = GetCachedSearchResults(cmd, SearchForLink, cmd);
+			if group then app:CreateMiniListForGroup(group); end
+			return true;
+		end
+	end,
 	OnInit = function(self)
 		app.ToggleMainList = function()
 			self:Toggle();
 		end
-
-		SLASH_ATTPRIME1 = "/allthethings";
-		SLASH_ATTPRIME2 = "/att";
-		SLASH_ATTPRIME3 = "/attc";
-		SLASH_ATTPRIME4 = "/things";
-		SLASH_ATTPRIME5 = "/attmain";
-		SlashCmdList["ATTPRIME"] = function(cmd)
-			if cmd and strlen(cmd) > 0 then
-				-- Search for the Link in the database
-				cmd = string.lower(cmd);
-				local group = GetCachedSearchResults(cmd, SearchForLink, cmd);
-				if group then app:CreateMiniListForGroup(group); end
-			else
-				-- Default command
-				self:Toggle();
-			end
-		end
-
 	end,
 	OnLoad = function(self, settings)
 		if not settings.visible then
@@ -13188,6 +13216,7 @@ app:GetWindow("CurrentInstance", {
 	parent = UIParent,
 	Silent = true,
 	AllowCompleteSound = true,
+	SettingsName = "Mini List",
 	Defaults = {
 		["y"] = 0,
 		["x"] = 0,
@@ -13198,11 +13227,12 @@ app:GetWindow("CurrentInstance", {
 		["point"] = "BOTTOMRIGHT",
 		["relativePoint"] = "BOTTOMRIGHT",
 	},
+	Commands = {
+		"attmini",
+		"attminilist",
+	},
 	OnInit = function(self, handlers)
-		SLASH_ATTMINILIST1 = "/attmini";
-		SLASH_ATTMINILIST2 = "/attminilist";
 		app.ToggleMiniListForCurrentZone = function() self:Toggle(); end;
-		SlashCmdList["ATTMINILIST"] = app.ToggleMiniListForCurrentZone;
 
 		local delayedUpdate = function()
 			self:DelayedUpdate(true);
@@ -13245,6 +13275,7 @@ app:GetWindow("CurrentInstance", {
 app:GetWindow("Debugger", {
 	parent = UIParent,
 	Silent = true,
+	HideFromSettings = true,
 	OnInit = function(self, handlers)
 		self.AddObject = function(self, info)
 			-- Bubble Up the Maps
@@ -13509,6 +13540,7 @@ app:GetWindow("Debugger", {
 app:GetWindow("ItemFilter", {
 	parent = UIParent,
 	Silent = true,
+	HideFromSettings = true,
 	OnUpdate = function(self, ...)
 		if not self.initialized then
 			self.initialized = true;
@@ -13603,6 +13635,7 @@ app:GetWindow("ItemFilter", {
 app:GetWindow("ItemFinder", {
 	parent = UIParent,
 	Silent = true,
+	HideFromSettings = true,
 	OnUpdate = function(self, ...)
 		if not self.initialized then
 			self.initialized = true;
@@ -13668,14 +13701,14 @@ app:GetWindow("Tradeskills", {
 	parent = UIParent,
 	Silent = true,
 	AllowCompleteSound = true,
+	Commands = {
+		"attskills",
+		"atttradeskill",
+		"attprofession",
+		"attprof",
+	},
+	HideFromSettings = true,
 	OnInit = function(self, handlers)
-		SLASH_ATTSKILLS1 = "/attskills";
-		SLASH_ATTSKILLS2 = "/atttradeskill";
-		SLASH_ATTSKILLS3 = "/attprofession";
-		SLASH_ATTSKILLS4 = "/attprof";
-		SlashCmdList["ATTSKILLS"] = function(cmd)
-			self:Toggle();
-		end
 		self:SetMovable(false);
 		self:SetClampedToScreen(false);
 		self.wait = 5;
@@ -14702,7 +14735,7 @@ app.events.VARIABLES_LOADED = function()
 		coroutine.yield();
 		
 		-- Check for Season of Discovery
-		getmetatable(ATTClassicSettings.Unobtainables).__index[1605] = C_Engraving and C_Engraving.IsEngravingEnabled();
+		getmetatable(ATTClassicSettings.Unobtainables).__index[1605] = C_Seasons and C_Seasons.GetActiveSeason() == 2;
 
 		-- Prepare the Sound Pack!
 		app.Audio:ReloadSoundPack();

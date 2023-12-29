@@ -6,4 +6,9 @@ AltoholicDB = {
 		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
 		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 	},
+	["global"] = {
+		["options"] = {
+			["UI.Tabs.Summary.CurrentRealms"] = 3,
+		},
+	},
 }

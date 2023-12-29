@@ -3,7 +3,7 @@ local addonId, platerInternal = ...
 local Plater = Plater
 local DF = DetailsFramework
 local LibSharedMedia = LibStub:GetLibrary ("LibSharedMedia-3.0")
-local LibRangeCheck = LibStub:GetLibrary ("LibRangeCheck-2.0")
+local LibRangeCheck = LibStub:GetLibrary ("LibRangeCheck-3.0")
 local _
 
 local IS_WOW_PROJECT_MAINLINE = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
@@ -1741,7 +1741,9 @@ local debuff_options = {
 				Plater.DisableAuraTest = false
 				auraOptionsFrame.EnableAuraTest()
 			end
-			auraOptionsFrame:RefreshOptions()
+
+			--refresh the aura options panel, as the canvasFrame was passed to BuildMenu() it require here to get the scrollChild to call RefreshOptions()
+			auraOptionsFrame.canvasFrame:GetScrollChild():RefreshOptions()
 		end,
 		name = "OPTIONS_ENABLED",
 		desc = "OPTIONS_ENABLED",
@@ -2638,12 +2640,14 @@ _G.C_Timer.After(0.850, function() --~delay
 	debuff_options.language_addonId = addonId
 
 	debuff_options.align_as_pairs = true
-	debuff_options.align_as_pairs_string_space = 185
+	debuff_options.align_as_pairs_string_space = 181
 	debuff_options.widget_width = 150
+	debuff_options.slider_buttons_to_left = true
 
     local canvasFrame = DF:CreateCanvasScrollBox(auraOptionsFrame)
     canvasFrame:SetPoint("topleft", auraOptionsFrame, "topleft", 0, platerInternal.optionsYStart)
     canvasFrame:SetPoint("bottomright", auraOptionsFrame, "bottomright", -26, 25)
+	auraOptionsFrame.canvasFrame = canvasFrame
 
 	debuff_options.use_scrollframe = true
 
@@ -2786,8 +2790,6 @@ Plater.CreateAuraTesting()
 	buffTrackList.bottomTexture:SetBlendMode("ADD")
 	buffTrackList.bottomTexture:SetTexCoord(0, 1, 1, 0)
 	buffTrackList.bottomTexture:SetVertexColor(0, .1, 1, 0.2)
-
-	
 	
 	function auraFilterFrame.RefreshOptions()
 		auraConfigPanel:OnProfileChanged (Plater.db.profile)
@@ -7619,7 +7621,7 @@ local relevance_options = {
 							Plater.GetSpellForRangeCheck()
 						end
 						local t = {}
-						local checkers = LibRangeCheck:GetHarmCheckers()
+						local checkers = LibRangeCheck:GetHarmCheckers(true)
 						for range, checker in checkers do
 							tinsert (t, {label = range, onclick = onSelectFunc, value = range})
 						end
@@ -7642,7 +7644,7 @@ local relevance_options = {
 					Plater.GetSpellForRangeCheck()
 				end
 				local t = {}
-				local checkers = LibRangeCheck:GetHarmCheckers()
+				local checkers = LibRangeCheck:GetHarmCheckers(true)
 				for range, checker in checkers do
 					tinsert (t, {label = range, onclick = onSelectFunc, value = range})
 				end
@@ -7680,7 +7682,7 @@ local relevance_options = {
 							Plater.GetSpellForRangeCheck()
 						end
 						local t = {}
-						local checkers = LibRangeCheck:GetFriendCheckers()
+						local checkers = LibRangeCheck:GetFriendCheckers(true)
 						for range, checker in checkers do
 							tinsert (t, {label = range, onclick = onSelectFunc, value = range})
 						end
@@ -7702,7 +7704,7 @@ local relevance_options = {
 					Plater.GetSpellForRangeCheck()
 				end
 				local t = {}
-				local checkers = LibRangeCheck:GetFriendCheckers()
+				local checkers = LibRangeCheck:GetFriendCheckers(true)
 				for range, checker in checkers do
 					tinsert (t, {label = range, onclick = onSelectFunc, value = range})
 				end

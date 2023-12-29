@@ -1150,6 +1150,97 @@ do
 			end
 		end
 	})
+	
+	--#33 Reset range check values if necessary....
+	tinsert (PlaterPatchLibrary, {
+		NotEssential = false,
+		
+		Notes = {
+			"- Reset range check distance settings if necessary."
+		},
+		Func = function()
+			--range check spells
+			local LibRangeCheck = LibStub:GetLibrary ("LibRangeCheck-3.0")
+			LibRangeCheck.RegisterCallback(PlaterPatchLibrary, LibRangeCheck.CHECKERS_CHANGED, function() 
+				local harmCheckers = {}
+				for range, func in LibRangeCheck:GetHarmCheckers(true) do
+					harmCheckers[range] = func
+				end
+				local friendCheckers = {}
+				for range, func in LibRangeCheck:GetFriendCheckers(true) do
+					friendCheckers[range] = func
+				end
+				if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then
+					for specID, _ in pairs (Plater.SpecList [select (2, UnitClass ("player"))]) do
+						if harmCheckers then
+							if (PlaterDBChr.spellRangeCheckRangeEnemy [specID] == nil or not harmCheckers[PlaterDBChr.spellRangeCheckRangeEnemy [specID]]) then
+								PlaterDBChr.spellRangeCheckRangeEnemy [specID] = Plater.DefaultSpellRangeList [specID]
+							end
+						end
+						if friendCheckers then
+							if (PlaterDBChr.spellRangeCheckRangeFriendly [specID] == nil or not friendCheckers[PlaterDBChr.spellRangeCheckRangeFriendly [specID]]) then
+								PlaterDBChr.spellRangeCheckRangeFriendly [specID] = Plater.DefaultSpellRangeListF [specID]
+							end
+						end
+					end
+				else
+					local playerClass = select (3, UnitClass ("player"))
+					if harmCheckers then
+						if (PlaterDBChr.spellRangeCheckRangeEnemy [playerClass] == nil or not harmCheckers[PlaterDBChr.spellRangeCheckRangeEnemy [playerClass]]) then
+							PlaterDBChr.spellRangeCheckRangeEnemy [playerClass] = Plater.DefaultSpellRangeList [playerClass]
+						end
+					end
+					if friendCheckers then
+						if (PlaterDBChr.spellRangeCheckRangeFriendly [playerClass] == nil or not friendCheckers[PlaterDBChr.spellRangeCheckRangeFriendly [playerClass]]) then
+							PlaterDBChr.spellRangeCheckRangeFriendly [playerClass] = Plater.DefaultSpellRangeListF [playerClass]
+						end
+					end
+				end
+				Plater.GetSpellForRangeCheck()
+			end)
+		end
+	})
+
+	--#34 triggers for 10.2 season 3 dragonflight m+ dungeons
+	tinsert (PlaterPatchLibrary, {
+		NotEssential = true,
+
+		Notes = {
+			"- Added support for season 3 mythic dungeons."
+		},
+		Func = function()
+			local addTriggers = {
+				["Add - Explode on Die [P]"] = {135052, npc = true},
+				["Add - Health Percent Text"] = {125977, npc = true},
+				["Add - Important [P]"] = {131009, 127315, 133361, 136330, 214117, 212483, 101008, npc = true},
+				["Add - Warning [P]"] = {npc = true},
+				["Aura - Big Stack Counter"] = {260512},
+				["Aura - Buff Alert [Plater]"] = {},
+				["Cast - Big Alert [Plater]"] = {225573, 278444, 168082, 164887, 168082, 76813, 227913, 265368},
+				["Fixate by Unit Buff [P]"] = {426662, 426663},
+				["Cast - Circle AoE [P]"] = {256882, 172578, 412063},
+				["Cast - Frontal Cone [Plater]"] = {201226, 204667, 198379, 200768, 253239, 250258, 255567, 194956, 427510, 426645, 412505, 412129, 419351, 401482, 404916, 200345, 200261, 198641, 265372, 271174, 264694, 264923},
+				["Cast - Glowing [P]"] = {169445},
+				["Cast - Quick Flash [P]"] = {200630, 255824, 252781, 250096, 200248, 197797, 264520, 418202, 201839, 412012, 411958},
+				["Cast - Small Alert [Plater]"] = {200658, 266036, 265407, 164965, 429176, 428526, 418200, 407124, 200630, 415437, 264050, 264050, 267824},
+				["Cast - Stop Casting [P]"] = {200291, 268202},
+				["Cast - Ultra Important [P]"] = {255041, 428926, 76634, 200050, 197546, 198079, 199193, 266181},
+				["Cast - Very Important [Plater]"] = {259572, 255371, 427460, 429172, 426500, 413607, 412922, 417481, 201399, 411994, 415770, 260907, 260703, 260741, 265876, 263959, 266225},
+			}
+
+			for scriptName, triggerList in pairs(addTriggers) do
+				if (triggerList.npc) then
+					for _, npcId in ipairs(triggerList) do
+						Plater.AddTriggerToScript(npcId, "npc", scriptName)
+					end
+				else
+					for _, spellId in ipairs(triggerList) do
+						Plater.AddTriggerToScript(spellId, "cast", scriptName)
+					end
+				end
+			end
+		end,
+	})
 
 	--to tag an update as non-essential, add "NotEssential = true," to the table
 	--/run Plater.db.profile.patch_version = 30

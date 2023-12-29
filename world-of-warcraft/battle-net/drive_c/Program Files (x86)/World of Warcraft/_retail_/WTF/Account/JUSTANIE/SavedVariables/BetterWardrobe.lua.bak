@@ -16,16 +16,20 @@ BetterWardrobe_CharacterData = {
 	},
 }
 BetterWardrobe_SavedSetData = {
-	["profileKeys"] = {
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
-	},
 	["global"] = {
 		["sets"] = {
 			["Morgntreeman - Dalaran"] = {
 			},
 			["Bretanomyces - Stormreaver"] = {
 			},
+		},
+	},
+	["profileKeys"] = {
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+	},
+	["profiles"] = {
+		["Bretanomyces - Stormreaver"] = {
 		},
 	},
 }

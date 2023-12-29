@@ -3,15 +3,10 @@ local appName, app = ...;
 local tinsert = tinsert;
 
 -- Implementation
-app:GetWindow("RWP", {
+app:GetWindow("Removed With Patch", {
 	parent = UIParent,
 	Silent = true,
-	OnInit = function(self, handlers)
-		SLASH_ATTRWP1 = "/attrwp";
-		SlashCmdList["ATTRWP"] = function()
-			self:Toggle();
-		end
-	end,
+	Commands = { "attrwp" },
 	OnRebuild = function(self)
 		if self.data then return true; end
 		self.data = {

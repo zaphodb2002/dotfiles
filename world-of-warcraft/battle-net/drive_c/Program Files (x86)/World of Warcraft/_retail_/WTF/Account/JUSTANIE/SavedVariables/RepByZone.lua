@@ -12,8 +12,8 @@ RepByZoneDB = {
 			["watchedRepName"] = "Shang Xi's Academy",
 		},
 		["Morgntreeman - Dalaran"] = {
-			["watchedRepName"] = "Gilneas",
 			["watchedRepID"] = 1134,
+			["watchedRepName"] = "Gilneas",
 		},
 		["Bretanomyces - Stormreaver"] = {
 			["watchedRepID"] = 1216,

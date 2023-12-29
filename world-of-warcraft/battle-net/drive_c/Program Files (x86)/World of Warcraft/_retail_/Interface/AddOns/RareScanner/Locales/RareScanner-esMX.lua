@@ -554,6 +554,25 @@ AL["CUSTOM_NPC_DELETE_ZONE_CONFIRM"] = "¿Estás seguro de querer eliminar esta 
 AL["CUSTOM_NPC_DELETE_ZONE_DESC"] = "Elimina esta zona de la lista de zonas donde puedes encontrar a este NPC."
 AL["CUSTOM_NPC_DISPLAY_ID"] = "Display ID"
 AL["CUSTOM_NPC_DISPLAY_ID_DESC"] = "(Opcional) El Display ID es un número único que identifica el modelo del NPC. Se utiliza para mostrar la miniatura del NPC encima del botón cuando lo encuentras. Puedes localizar estos identificadores en Wowhead o sitios web similares."
+AL["CUSTOM_NPC_ERROR1_COORDX"] = "COORDX: Error en la cadena."
+AL["CUSTOM_NPC_ERROR1_COORDY"] = "COORDY: Error en la cadena."
+AL["CUSTOM_NPC_ERROR1_DISPLAYID"] = "DISPLAYID [%s]: Debería ser un número."
+AL["CUSTOM_NPC_ERROR1_GROUP"] = "GRUPO [%s]: No puede tener mas de 20 caracteres."
+AL["CUSTOM_NPC_ERROR1_ITEMID"] = "ITEMID: Error en la cadena."
+AL["CUSTOM_NPC_ERROR1_MAPID"] = "MAPID: Error en la cadena."
+AL["CUSTOM_NPC_ERROR1_NPCID"] = "NPCID: Es obligatorio."
+AL["CUSTOM_NPC_ERROR2_COORDX"] = "COORDX [%s]: Debería ser un número."
+AL["CUSTOM_NPC_ERROR2_COORDY"] = "COORDY [%s]: Debería ser un número."
+AL["CUSTOM_NPC_ERROR2_ITEMID"] = "ITEMID [%s]: Debería ser un número."
+AL["CUSTOM_NPC_ERROR2_MAPID"] = "MAPID [%s]: Debería ser un número."
+AL["CUSTOM_NPC_ERROR2_NPCID"] = "NPCID [%s]: Debería ser un número."
+AL["CUSTOM_NPC_ERROR3_COORDX"] = "COORDX [%s]: Debería tener 4 dígitos."
+AL["CUSTOM_NPC_ERROR3_COORDY"] = "COORDY [%s]: Debería tener 4 dígitos."
+AL["CUSTOM_NPC_ERROR3_MAPID"] = "MAPID [%s]: Este mapa no está soportado por RareScanner (repórtalo en CurseForge)."
+AL["CUSTOM_NPC_ERROR3_NPCID"] = "NPCID [%s]: Este NPC no existe."
+AL["CUSTOM_NPC_EXPORT_DESC"] = "Click para abrir la ventana desde donde copiar las cadenas exportadas"
+AL["CUSTOM_NPC_EXPORT_GROUP"] = "Exporta este grupo"
+AL["CUSTOM_NPC_EXPORT_NPC"] = "Exporta este NPC"
 AL["CUSTOM_NPC_EXTRA_INFO"] = "Información opcional extra"
 AL["CUSTOM_NPC_FIND_ZONES"] = "Busca la zona donde puedes encontrar a este NPC"
 AL["CUSTOM_NPC_GROUP"] = "Grupo"
@@ -567,12 +586,65 @@ AL["CUSTOM_NPC_GROUP_DELETE_DESC"] = "Elimina el grupo y todos los NPCs personal
 AL["CUSTOM_NPC_GROUP_DESC"] = "Selecciona el grupo del NPC personalizado"
 AL["CUSTOM_NPC_GROUP_NAME"] = "Nombre"
 AL["CUSTOM_NPC_GROUP_NAME_DESC"] = "Escribe un nombre nuevo para cambiar el valor actual"
+AL["CUSTOM_NPC_IMPORT_HELP"] = [=[# Si una línea empieza con '#' será ignorada.
+# Los parámetros en la cadena están separados por el carácter espacio en blanco ' '.
+# El formato de la cadena es el siguiente:
+#
+# |cffffcc00NPCID MAPSTRING LOOTSTRING DISPLAYID NOMBREGRUPO|r
+#
+# - |cffffff00NPCID|r: (obligatorio) Número -> ID del NPC a importar
+#
+# - |cffffff00MAPSTRING|r: (opcional) Texto -> Formato: |cffffcc00MAPID1:X1-Y1,X2-Y2,...|MAPID2:X1-Y1,X2-Y2,..|r.
+#   * |cff00ffffMAPIDx|r: (obligatorio) Número -> ID del mapa. Puedes extraerlo de aquí |cffFF4500https://wago.tools/db2/UiMap|r
+#      * El MAPID y las coordenadas están separadas por el carácter dos puntos ':'.
+#   * |cff00ffffX1-Y1|r: (opcional) Par de coordenadas donde aparece el NPC, en formato XXXX-YYYY, ejemplos:
+#      * |cff00ffff0001-4012|r: Se transforma en 0.01-40.12
+#      * |cff00ffff0010-2045|r: Se transforma en 0.1-20.45
+#      * |cff00ffff0103-2045|r: Se transforma en 1.03-20.45
+#      * |cff00ffff1023-8960|r: Se transforma en 10.23-89.6
+#   * Si el NPC aparece en múltiples mapas, utiliza el carácter tubería '|' para añadir múltiples parejas de mapas:coordenadas.
+#   * Si no estableces el MAPID ni las coordenadas, se buscará al NPC en todo el mundo.
+#   * Si no estableces las coordenadas, el NPC no aparecerá en el mapa.
+#   * Si el NPC aparece en múltiples puntos en el mismo mapa, utiliza el carácter coma ',' para añadir múltiples parejas de coordenadas.
+#
+# - |cffffff00LOOTSTRING|r: (opcional) Texto -> Formato: |cffffcc00ITEMID1,ITEMID2,...|r
+#   * |cff00ffffITEMIDx|r: Número -> ID del botín del NPC.
+#   * Si el NPC otorga múltiples objetos de botín, utiliza el carácter coma ',' para añadir múltiples objetos.
+#   * Si no estableces el botín, no se mostrará en los tooltips del mapa del mundo ni en la barra de botín.
+#
+# - |cffffff00DISPLAYID|r: (Opcional) Número -> ID del modelo del NPC. Puedes encontrarlo en |cffFF4500https://www.wowhead.com|r
+#   * Si no estableces el DISPLAYID, no se mostrará la miniatura cuando encuentres al NPC.
+#
+# - |cffffff00GROUPNAME|r: (Opcional) Texto -> Nombre del grupo donde quieres añadir a este NPC.
+#   * Si no estableces el NOMBREGRUPO, se añadirá al grupo 'Predeterminado'.
+#   * Si el grupo no existe se creará automáticamente.
+#
+# Si quieres saltarte algún parámetro utiliza el carácter asterisco '*'.
+#
+# Ejemplos:
+#
+# 154394 390:8680-4260,8540-4180 * 154394 Grupo1
+#    * NPC = 154394, MAPA = 390, COORDENADAS = 86.8-42.6,85.4-41.8, BOTÍN = nada, DISPLAYID = 154394, GRUPO = Grupo1.
+#
+# 210908 2200 * * Grupo2
+#    * NPC = 210908, MAPA = 2200, COORDENADAS = nada, BOTÍN = nada, DISPLAYID = nada, GRUPO = Grupo2.
+#
+# 210983 2200:0720-4780 207780,207172
+#    * NPC = 210983, MAPA = 2200, COORDENADAS = 7.2-47.8, BOTÍN = 207780,207172, DISPLAYID = nada, GRUPO = Predeterminado.
+#
+# 210983
+#    * NPC = 210983, MAPA = Todo el mundo, COORDENADAS = nada, BOTÍN = nada, DISPLAYID = nada, GRUPO = Predeterminado.]=]
+AL["CUSTOM_NPC_IMPORT_NPC"] = "Importa NPCs"
+AL["CUSTOM_NPC_IMPORT_NPC_DESC"] = "Click para abrir la ventana donde pegar las cadenas importadas"
+AL["CUSTOM_NPC_IMPORT_OK"] = "Importado [%s]."
+AL["CUSTOM_NPC_IMPORT_OR"] = " o "
 AL["CUSTOM_NPC_INFO"] = "Atención: El NPC no se grabará hasta que añadas una zona."
 AL["CUSTOM_NPC_LOOT"] = "Botín"
 AL["CUSTOM_NPC_LOOT_DESC"] = "(Opcional) IDs de los objetos del botín que puede soltar este NPC. Introduce la lista de IDs con el siguiente formato: ID1,ID2,.... Por ejemplo: 184198,184198. Puedes localizar estos identificadores en Wowhead o sitios web similares."
 AL["CUSTOM_NPC_TEXT"] = "Importante: RareScanner busca los NPCs personalizados por medio de sus placas de nombre, así que no olvides activarlos o no recibirás alertas al encontrarlos."
 AL["CUSTOM_NPC_VALIDATION_CHAR"] = "El valor introducido contiene caracteres distintos de '%s'"
 AL["CUSTOM_NPC_VALIDATION_COORD"] = "Las coordenadas introducidas son incorrectas. La cadena debe tener este formato: X1-Y1,X2-Y2,..."
+AL["CUSTOM_NPC_VALIDATION_GROUP"] = "El nombre del grupo no puede tener mas de 20 caracteres."
 AL["CUSTOM_NPC_VALIDATION_ITEM"] = "Los IDs de los objetos introducidos son incorrectos. La cadena debe tener este formato: ID1,ID2,..."
 AL["CUSTOM_NPC_VALIDATION_NUMBER"] = "El valor introducido tiene que ser un número."
 AL["CUSTOM_NPCS"] = "NPCs personalizados"
@@ -715,7 +787,7 @@ AL["FILTER_CONTINENT"] = "Continente/Categoría"
 AL["FILTER_CONTINENT_DESC"] = "Nombre del continente o categoría."
 AL["FILTER_DEFAULT"] = "Comportamiento predeterminado del filtro"
 AL["FILTER_DEFAULT_DESC"] = "Este es el comportamiento predeterminado que se aplicará al filtrar haciendo uso de cualquier opción disponible en el addon (comandos del mapa del mundo, alertas visuales, el explorador de Rarescanner, etc.)"
-AL["FILTER_DESC"] = "Desmarca para filtrarlo. Una vez filtrado se aplicará el comportamiento seleccionado: \n- %s: No aparecerá en el mapa y tampoco recibirás alertas.\n- %s: No aparecerá en el mapa pero si recibirás alertas.\n- %s: Aparecerá en el mapa pero no recibirás alertas.\nMarca para quitar el filtro:\n- Aparecerá en tu mapa y recibirás alertas."
+AL["FILTER_DESC"] = "Desmarca para filtrarlo. Una vez filtrado se aplicará el comportamiento seleccionado: \\n- %s: No aparecerá en el mapa y tampoco recibirás alertas.\\n- %s: No aparecerá en el mapa pero si recibirás alertas.\\n- %s: Aparecerá en el mapa pero no recibirás alertas.\\nMarca para quitar el filtro:\\n- Aparecerá en tu mapa y recibirás alertas."
 AL["FILTER_EVENT_LIST"] = "Filtro de avisos para eventos"
 AL["FILTER_TYPE_ALERTS"] = "Filtrar solo alertas de audio/visuales"
 AL["FILTER_TYPE_ALL"] = "Filtrar completamente"
@@ -853,6 +925,7 @@ AL["MAP_MENU_SHOW_ACHIEVEMENT_CONTAINERS"] = "Mostrar iconos de contenedores de 
 AL["MAP_MENU_SHOW_ACHIEVEMENT_RARE_NPCS"] = "Mostrar iconos de NPCs raros de logros sin completar"
 AL["MAP_MENU_SHOW_COMPLETED_EVENTS"] = "Mostrar iconos de eventos completados"
 AL["MAP_MENU_SHOW_CONTAINERS"] = "Mostrar iconos de contenedores"
+AL["MAP_MENU_SHOW_CUSTOM_NPC_GROUP"] = "Mostrar iconos de NPCs personalizados del grupo '%s'"
 AL["MAP_MENU_SHOW_DEAD_RARE_NPCS"] = "Mostrar iconos de NPCs raros ya matados"
 AL["MAP_MENU_SHOW_DRAGON_GLYPHS"] = "Mostrar iconos de glifos de dragón"
 AL["MAP_MENU_SHOW_DREAMSEED_CONTAINERS"] = "Dragonflight: Mostrar iconos de contenedores de semillas del sueño"
@@ -1804,7 +1877,7 @@ AL["SOUND_RELOAD_DESC"] = "Recarga el interfaz. Utiliza este botón si has copia
 AL["SOUND_VOLUME"] = "Volumen"
 AL["SOUND_VOLUME_DESC"] = "Establece el volumen de los sonidos. No aplica a los sonidos personalizados."
 AL["STOLEN_ANIMA_VESSEL"] = "Receptáculo de ánima robado"
-AL["TARGET_UNIT_WARNING"] = "¡¡ATENCIÓN!! Leer detenidamente.\n\nEste rastreador hace uso de una función protegida que los addons no pueden utilizar, de modo que cada vez que el addon detecte un NPC por medio de este sistema, el juego lanzará un error LUA.\n\n|cffFF00001. No es posible evitar este error, con lo que debes utilizar este rastreador ÚNICAMENTE cuando estés buscando un NPC de modo intensivo.|r\n2. El punto donde se muestre la calavera rosa en el mapa del mundo para los NPCs encontrados con este sistema no será preciso en la mayoría de los casos. No hay modo de saber donde se encuentra el NPC exactamente, con lo que se mostrará la calavera en uno de los puntos donde puede estar.\n3. Para evitar constantes errores, si activas este rastreador, |cffFFBF00sólamente se utilizará para detectar NPCs en expansiones anteriores a Pandaria y para detectar NPCs personalizados|r.\n\n¿Estás seguro de querer activarlo?"
+AL["TARGET_UNIT_WARNING"] = "¡¡ATENCIÓN!! Leer detenidamente.\\n\\nEste rastreador hace uso de una función protegida que los addons no pueden utilizar, de modo que cada vez que el addon detecte un NPC por medio de este sistema, el juego lanzará un error LUA.\\n\\n|cffFF00001. No es posible evitar este error, con lo que debes utilizar este rastreador ÚNICAMENTE cuando estés buscando un NPC de modo intensivo.|r\\n2. El punto donde se muestre la calavera rosa en el mapa del mundo para los NPCs encontrados con este sistema no será preciso en la mayoría de los casos. No hay modo de saber donde se encuentra el NPC exactamente, con lo que se mostrará la calavera en uno de los puntos donde puede estar.\\n3. Para evitar constantes errores, si activas este rastreador, |cffFFBF00sólamente se utilizará para detectar NPCs en expansiones anteriores a Pandaria y para detectar NPCs personalizados|r.\\n\\n¿Estás seguro de querer activarlo?"
 AL["TEST"] = "Lanzar Test"
 AL["TEST_DESC"] = "Pulsa el botón para mostrar un ejemplo de alerta. Puedes arrastrar el panel a otra posición donde se mostrarán las futuras alertas."
 AL["TOC_NOTES"] = "Escaner del minimapa. Avisa con un mensaje, una miniatura y reproduce un sonido cada vez que un NPC raro, tesoro o evento aparece en tu minimapa."

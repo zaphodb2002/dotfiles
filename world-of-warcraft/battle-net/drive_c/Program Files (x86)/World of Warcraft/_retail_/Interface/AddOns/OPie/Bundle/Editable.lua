@@ -53,7 +53,7 @@ R:AddDefaultRing("OPieAutoQuest", {
 if not MODERN then return end
 
 R:AddDefaultRing("DruidShift", {
-	{id="/cancelform [noflyable,noform:moonkin]\n#imp critical\n/cast [flyable,outdoors,nocombat,noswimming,nomod][flying,flyable] {{spell:783}}; [outpost:corral,nomod,nospec:103/104] {{spell:161691}}; [swimming,nomod][flyable,nomod] {{spell:783}}; [nocombat,outdoors,nomod:alt,advflyable] {{mount:dragon}}; [nocombat,outdoors,nomod:alt] {{mount:ground}}; [outdoors] {{spell:783}}\n/stopmacro [swimming,nomod][flyable,nomod][flying][mounted]\n/changeactionbar [advflyable,nocombat,outdoors,nomod:alt] 1", fastClick=true, _u="f"}, -- Travel
+	{id="/cancelform [noflyable,noform:moonkin]\n#imp critical\n/cast [nocombat,outdoors,nomod,advflyable] {{mount:dragon}}; [flyable,outdoors,nocombat,noswimming,nomod,noadvflyable][flyable,advflyable,nocombat,outdoors,mod:alt][flying,flyable] {{spell:783}}; [outpost:corral,nomod,nospec:103/104] {{spell:161691}}; [swimming,nomod][flyable,nomod] {{spell:783}}; [nocombat,outdoors,nomod:alt] {{mount:ground}}; [outdoors] {{spell:783}}\n/stopmacro [swimming,nomod][flyable,nomod][flying][mounted]\n/changeactionbar [advflyable,nocombat,outdoors,nomod:alt] 1", fastClick=true, _u="f"}, -- Travel
 	{c="c74cff", id=24858, _u="k"}, -- Moonkin
 	{c="fff04d", id=768, _u="c"}, -- Cat
 	{c="ff0000", id=5487, _u="b"}, -- Bear
@@ -253,7 +253,10 @@ R:AddDefaultRing("CommonHearth", {
 	{"toy", 190237, _u="bt"},
 	{"toy", 193588, _u="tw"},
 	{"toy", 200630, _u="ws"},
-	name=L"Hearthstones", internal=true, _u="OPCHS", v=1
+	{"toy", 206195, _u="pn"},
+	{"toy", 208704, _u="dd"},
+	{"toy", 209035, _u="df"},
+	name=L"Hearthstones", internal=true, _u="OPCHS", v=2
 })
 R:AddDefaultRing("SpecMenu", {
 	{"specset", 1, _u="1"},

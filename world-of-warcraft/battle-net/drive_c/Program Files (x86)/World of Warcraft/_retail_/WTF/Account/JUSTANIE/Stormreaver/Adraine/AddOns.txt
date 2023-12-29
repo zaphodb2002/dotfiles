@@ -144,3 +144,4 @@ Blizzard_CompactRaidFrames: enabled
 Blizzard_CombatText: enabled
 WeakAurasCompanion: enabled
 XPerl_TeamSpeak: disabled
+OPie_Classic: disabled

@@ -8423,7 +8423,6 @@ end
 
 -- itIT: Italian
 if GameLocale == "itIT" then
-L["(scroll the list for more)"] = "(scorrere l'elenco per saperne di più)"
 
 end
 

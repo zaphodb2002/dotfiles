@@ -15,8 +15,8 @@ fi
 
 ## Defaults
 export TERMINAL='alacritty'
-export EDITOR='nvim'
-export VISUAL='nvim'
+export EDITOR='neovide'
+export VISUAL='neovide'
 export PAGER='most'
 
 ## Aliases
@@ -24,6 +24,10 @@ alias df='df -h'
 alias du='du -h'
 
 alias cal='task calendar'
+
+# Neovide for nvim
+alias nvim='neovide'
+alias nv='neovide'
 
 #clear
 alias clear="clear; seq 1 $(tput cols) | sort -R | sparklines | lolcat"
@@ -51,8 +55,8 @@ alias progress=~/.local/scripts/recurring-progress-report.sh # call with the uui
 alias grade=~/.local/scripts/project-progress.sh # call with a project name
 
 ### Pomodoro timers
-alias startpom='termdown 25m -c 60 -bsv --font=banner3'
-alias startbreak='termdown 5m -c 60 -bsv --font=banner3'
+alias startpom='~/.local/scripts/startpom.sh'
+alias startbreak='~/.local/scripts/startbreak.sh'
 
 ### LMS
 alias lms='nvim "$HOME/Documents/Life Management System/README.md"'
@@ -60,15 +64,15 @@ alias lms='nvim "$HOME/Documents/Life Management System/README.md"'
 #arcolinux applications
 #att is a symbolic link now
 #alias att="archlinux-tweak-tool"
-alias adt="arcolinux-desktop-trasher"
-alias abl="arcolinux-betterlockscreen"
-alias agm="arcolinux-get-mirrors"
-alias amr="arcolinux-mirrorlist-rank-info"
-alias aom="arcolinux-osbeck-as-mirror"
-alias ars="arcolinux-reflector-simple"
-alias atm="arcolinux-tellme"
-alias avs="arcolinux-vbox-share"
-alias awa="arcolinux-welcome-app"
+#alias adt="arcolinux-desktop-trasher"
+#alias abl="arcolinux-betterlockscreen"
+#alias agm="arcolinux-get-mirrors"
+#alias amr="arcolinux-mirrorlist-rank-info"
+#alias aom="arcolinux-osbeck-as-mirror"
+#alias ars="arcolinux-reflector-simple"
+#alias atm="arcolinux-tellme"
+#alias avs="arcolinux-vbox-share"
+#alias awa="arcolinux-welcome-app"
 
 
 ## some fun on new terminal

@@ -62,15 +62,11 @@ local function Export(g, strings)
 end
 
 -- Implementation
-app:GetWindow("RWPD", {
+app:GetWindow("Removed With Patch Drops", {
 	parent = UIParent,
 	Silent = true,
-	OnInit = function(self, handlers)
-		SLASH_ATTRWPDROPS1 = "/attrwpdrops";
-		SlashCmdList["ATTRWPDROPS"] = function()
-			self:Toggle();
-		end
-	end,
+	HideFromSettings = true,
+	Commands = { "attrwpdrops" },
 	OnLoad = function(self, settings)
 		ExcludeRecipes = settings.ExcludeRecipes;
 		ExcludeRemovedMaps = settings.ExcludeRemovedMaps;

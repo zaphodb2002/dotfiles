@@ -1,0 +1,6 @@
+import = [
+	"/home/zaphod/.config/alacritty/themes/everforest-gsgvariant.toml"
+	]
+
+[window]
+opacity = 0.90

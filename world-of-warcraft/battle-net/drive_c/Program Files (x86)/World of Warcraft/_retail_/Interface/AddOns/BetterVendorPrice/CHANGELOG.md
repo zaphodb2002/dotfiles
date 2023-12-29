@@ -1,6 +1,6 @@
 # Better Vendor Price
 
-## [v1.19.04](https://github.com/mooreatv/BetterVendorPrice/tree/v1.19.04) (2023-10-25)
-[Full Changelog](https://github.com/mooreatv/BetterVendorPrice/compare/v1.19.03...v1.19.04) [Previous Releases](https://github.com/mooreatv/BetterVendorPrice/releases)
+## [v1.19.05](https://github.com/mooreatv/BetterVendorPrice/tree/v1.19.05) (2023-11-18)
+[Full Changelog](https://github.com/mooreatv/BetterVendorPrice/compare/v1.19.04...v1.19.05) [Previous Releases](https://github.com/mooreatv/BetterVendorPrice/releases)
 
-- Wrath is now 3.4.3  
+- Classic and DF toc updates  

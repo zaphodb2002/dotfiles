@@ -95,21 +95,28 @@ local function LoadSubcategoryCombo(mainClassID)
 end
 
 local function LoadFilteredItems()
-	for itemID, value in pairs(RSConfigDB.GetAllFilteredItems()) do
-		local itemLink, _, _, _, _, _ = RSGeneralDB.GetItemInfo(itemID)
-		if (itemLink) then
-			options.args.filters.args.individual.args.filteredItems.values[itemID] = itemLink
-		end
+	for itemID, _ in pairs(RSConfigDB.GetAllFilteredItems()) do
+		local item = Item:CreateFromItemID(itemID)
+		item:ContinueOnItemLoad(function()
+			local itemLink = item:GetItemLink()
+			if (itemLink) then
+				options.args.filters.args.individual.args.filteredItems.values[itemID] = itemLink
+			end
+		end)
 	end
 end
 
 local function SearchItem(name)
 	if (name) then
-		for itemID, value in pairs(RSConfigDB.GetAllFilteredItems()) do
-			local itemLink, _, _, _, _, _ = RSGeneralDB.GetItemInfo(itemID)
-			if ((itemLink and RSUtils.Contains(itemLink,name)) or not itemLink) then
-				options.args.filters.args.individual.args.filteredItems.values[itemID] = itemLink
-			end
+		for itemID, _ in pairs(RSConfigDB.GetAllFilteredItems()) do
+			local item = Item:CreateFromItemID(itemID)
+			item:ContinueOnItemLoad(function()
+				local itemName = item:GetItemName()
+				local itemLink = item:GetItemLink()
+				if (itemName and RSUtils.Contains(itemName,name) and itemLink) then
+					options.args.filters.args.individual.args.filteredItems.values[itemID] = itemLink
+				end
+			end)
 		end
 	else
 		LoadFilteredItems()
@@ -565,10 +572,10 @@ function RSLootOptions.GetLootOptions()
 				},
 			},
 		}
-		
-		-- Load filtered items
-		LoadFilteredItems()
 	end
+		
+	-- Load filtered items
+	LoadFilteredItems()
 
 	return options
 end

@@ -148,6 +148,19 @@ function RSUtils.Lpad(s, l, c)
 	return res, res ~= s
 end
 
+function RSUtils.Rpad(s, l, c)
+	if (type(s) ~= "string") then
+		s = tostring(s)
+	end
+	
+	if (l - #s > 0) then
+		local res = s.. string.rep(c or ' ', l - #s)
+		return res, res ~= s
+	end
+
+	return s
+end
+
 function RSUtils.tostring(s)
 	if (s) then
 		return tostring(s)
@@ -197,6 +210,10 @@ end
 ---============================================================================
 
 function RSUtils.FixCoord(coord)
+	if (RSUtils.Contains(tostring(coord), "0.")) then
+		coord = RSUtils.Rpad(tostring(coord):gsub('(0%.)',''), 4, '0')
+	end
+	
 	if (tonumber(strsub(coord, 1, 2)) == 0) then
 		return tonumber(string.format("0.%s00", strsub(coord, 3)));
 	else

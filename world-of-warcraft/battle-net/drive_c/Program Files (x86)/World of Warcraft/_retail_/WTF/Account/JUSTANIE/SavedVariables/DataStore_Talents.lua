@@ -10,7 +10,7 @@ DataStore_TalentsDB = {
 		["Characters"] = {
 			["Default.Stormreaver.Bretanomyces"] = {
 				["activeSpecRole"] = "TANK",
-				["lastUpdate"] = 1703217386,
+				["lastUpdate"] = 1703477003,
 				["Specializations"] = {
 					0, -- [1]
 				},
@@ -41,7 +41,7 @@ DataStore_TalentsDB = {
 			},
 			["Default.Dalaran.Morgntreeman"] = {
 				["activeSpecRole"] = "TANK",
-				["lastUpdate"] = 1703137980,
+				["lastUpdate"] = 1703470846,
 				["Specializations"] = {
 					[3] = 0,
 					[2] = 0,

@@ -2,15 +2,10 @@
 local appName, app = ...;
 
 -- Implementation
-app:GetWindow("NeverImplemented", {
+app:GetWindow("Never Implemented", {
 	parent = UIParent,
 	Silent = true,
-	OnInit = function(self)
-		SLASH_ATTNYI1 = "/attnyi";
-		SlashCmdList["ATTNYI"] = function(cmd)
-			self:Toggle();
-		end
-	end,
+	Commands = { "attnyi" },
 	OnLoad = function(self, settings)
 		local g = app.Categories.NeverImplemented;
 		if g then

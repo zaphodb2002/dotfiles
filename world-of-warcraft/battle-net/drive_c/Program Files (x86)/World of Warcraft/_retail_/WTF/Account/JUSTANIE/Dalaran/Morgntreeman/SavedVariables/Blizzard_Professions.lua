@@ -6,5 +6,5 @@ g_professionsSpecsSelectedTabs = {
 g_professionsSpecsSelectedPaths = {
 	[641] = 59649,
 	[276] = 22479,
-	[239] = 19487,
+	[239] = 19484,
 }

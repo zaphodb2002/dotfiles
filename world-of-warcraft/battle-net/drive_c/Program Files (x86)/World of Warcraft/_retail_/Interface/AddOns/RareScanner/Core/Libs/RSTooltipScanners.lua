@@ -9,10 +9,36 @@ local RSTooltipScanners = private.NewLib("RareScannerTooltipScanners")
 local RSUtils = private.ImportLib("RareScannerUtils")
 
 ---============================================================================
--- NPCs tooltip scanner
+-- Frame to control the event TOOLTIP_DATA_UPDATE
 ---============================================================================
 
-function RSTooltipScanners.ScanNpcName(npcID)
+local waitingForUpdate = {}
+
+local function OnTooltipDataUpdate(dataInstanceID)
+	if (dataInstanceID) then
+		for npcID, info in pairs(waitingForUpdate) do
+			if (info.dataInstanceID == dataInstanceID) then
+				waitingForUpdate[npcID] = nil
+				RSTooltipScanners.ScanNpcName(npcID, info.callback)
+				break
+			end
+		end
+	end
+end
+
+local tooltipScannersFrame = CreateFrame("FRAME");
+tooltipScannersFrame:RegisterEvent("TOOLTIP_DATA_UPDATE")
+tooltipScannersFrame:SetScript("OnEvent", function(self, event, ...)
+	if (event == "TOOLTIP_DATA_UPDATE") then
+		OnTooltipDataUpdate(...)
+	end
+end)
+
+---============================================================================
+-- NPCs tooltip scanner
+---============================================================================
+	
+function RSTooltipScanners.ScanNpcName(npcID, callback, secondTry)
 	local tooltipData = C_TooltipInfo.GetHyperlink('unit:Creature-0-0-0-0-' .. npcID .. '-0')
 	if (tooltipData) then
 		TooltipUtil.SurfaceArgs(tooltipData)
@@ -21,8 +47,18 @@ function RSTooltipScanners.ScanNpcName(npcID)
 		end
 		
 		if (tooltipData.lines and tooltipData.lines[1] and tooltipData.lines[1].leftText) then
-			private.dbglobal.rare_names[GetLocale()][npcID] = tooltipData.lines[1].leftText
+			local name = tooltipData.lines[1].leftText
+			private.dbglobal.rare_names[GetLocale()][npcID] = name
+			if (callback) then
+				callback(name)
+			end
 		end
+	elseif (not secondTry) then
+		C_Timer.After(1, function()
+			RSTooltipScanners.ScanNpcName(npcID, callback, true)
+		end)
+	elseif (callback) then
+		callback()
 	end
 end
 

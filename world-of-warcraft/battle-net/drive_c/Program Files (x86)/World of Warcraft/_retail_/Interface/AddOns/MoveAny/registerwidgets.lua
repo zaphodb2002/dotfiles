@@ -43,7 +43,7 @@ function MoveAny:GetFrameName(frame)
 	return fnt[frame]
 end
 
-local framelevel = 100
+local framelevel = 1100
 local function SelectTab(sel)
 	PanelTemplates_SetTab(sel:GetParent(), sel:GetID())
 	local content = sel:GetParent().currentcontent
@@ -939,7 +939,12 @@ function MoveAny:RegisterWidget(tab)
 						dragframe.opt.TitleText:SetText(name)
 						dragframe.opt:SetFrameStrata("HIGH")
 						dragframe.opt:SetFrameLevel(framelevel)
-						framelevel = framelevel + 510 -- 509 <- closebutton height
+						framelevel = framelevel + 1
+						if dragframe.opt.CloseButton then
+							dragframe.opt.CloseButton:SetFrameLevel(framelevel)
+						end
+
+						framelevel = framelevel + 100
 						dragframe.opt:SetSize(500, 500)
 						dragframe.opt:SetPoint("CENTER")
 						dragframe.opt:SetClampedToScreen(true)
@@ -1324,10 +1329,11 @@ function MoveAny:RegisterWidget(tab)
 			local newScale = MoveAny:GetEleScale(name) or 1
 			if newScale and newScale > 0 and scale ~= newScale and not InCombatLockdown() then
 				sel:SetScale(newScale)
-				local dragframe = _G[name .. "_DRAG"]
-				if dragframe then
-					dragframe:SetScale(newScale)
-				end
+			end
+
+			local dragframe = _G[name .. "_DRAG"]
+			if dragframe then
+				dragframe:SetScale(newScale)
 			end
 
 			sel.masetscale_ele = false
@@ -1463,7 +1469,7 @@ function MoveAny:UpdateAlpha(ele, mouseEle)
 		MoveAny:MSG("UpdateAlphas: ele is nil")
 	else
 		local name = MoveAny:GetFrameName(ele)
-		if name then
+		if name ~= nil then
 			local alphaInCombat = MoveAny:GetEleOption(name, "ALPHAINCOMBAT", 1, "Alpha1")
 			local alphaIsFullHealth = MoveAny:GetEleOption(name, "ALPHAISFULLHEALTH", 1, "Alpha2")
 			local alphaInVehicle = MoveAny:GetEleOption(name, "ALPHAINVEHICLE", 1, "Alpha3")
@@ -1472,7 +1478,9 @@ function MoveAny:UpdateAlpha(ele, mouseEle)
 			local alphaIsStealthed = MoveAny:GetEleOption(name, "ALPHAISSTEALTHED", 1, "Alpha6")
 			local alphaIsInPetBattle = MoveAny:GetEleOption(name, "ALPHAISINPETBATTLE", 1, "Alpha7")
 			local alphaNotInCombat = MoveAny:GetEleOption(name, "ALPHANOTINCOMBAT", 1, "Alpha8")
-			if ele == mouseEle then
+			if MoveAny.IsInPetBattle and MoveAny:IsInPetBattle() then
+				MoveAny:SetEleAlpha(ele, alphaIsInPetBattle)
+			elseif ele == mouseEle then
 				MoveAny:SetEleAlpha(ele, 1)
 			elseif incombat then
 				MoveAny:SetEleAlpha(ele, alphaInCombat)
@@ -1486,8 +1494,6 @@ function MoveAny:UpdateAlpha(ele, mouseEle)
 				MoveAny:SetEleAlpha(ele, alphaInRestedArea)
 			elseif IsStealthed and isstealthed then
 				MoveAny:SetEleAlpha(ele, alphaIsStealthed)
-			elseif MoveAny.IsInPetBattle and MoveAny:IsInPetBattle() then
-				MoveAny:SetEleAlpha(ele, alphaIsInPetBattle)
 			elseif not incombat then
 				MoveAny:SetEleAlpha(ele, alphaNotInCombat)
 			end

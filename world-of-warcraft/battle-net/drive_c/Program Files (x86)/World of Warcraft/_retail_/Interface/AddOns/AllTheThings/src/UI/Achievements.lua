@@ -79,11 +79,10 @@ app:GetWindow("Achievements", {
 	parent = UIParent,
 	Silent = true,
 	AllowCompleteSound = true,
+	IsDynamicCategory = true,
+	Commands = { "attach", "attachievements" },
+	RootCommandIndex = 2,
 	OnInit = function(self, handlers)
-		SLASH_ATTACHIEVEMENTS1 = "/attachievements";
-		SlashCmdList["ATTACHIEVEMENTS"] = function(cmd)
-			self:Toggle();
-		end
 		self.data = app.CreateCustomHeader(app.HeaderConstants.ACHIEVEMENTS, {
 			description = "This list shows you all of the achievements that you can collect.",
 			visible = true,

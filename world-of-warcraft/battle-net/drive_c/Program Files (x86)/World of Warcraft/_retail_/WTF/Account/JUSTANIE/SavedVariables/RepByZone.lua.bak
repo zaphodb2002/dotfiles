@@ -12,8 +12,8 @@ RepByZoneDB = {
 			["watchedRepID"] = 1216,
 		},
 		["Morgntreeman - Dalaran"] = {
-			["watchedRepID"] = 1134,
 			["watchedRepName"] = "Gilneas",
+			["watchedRepID"] = 1134,
 		},
 		["Hyaae - Dalaran"] = {
 			["watchedRepName"] = "Exodar",

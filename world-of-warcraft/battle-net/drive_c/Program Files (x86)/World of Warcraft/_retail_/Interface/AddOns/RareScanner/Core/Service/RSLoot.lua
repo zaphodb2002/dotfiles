@@ -150,17 +150,6 @@ local function IsCollectionFiltered(type, entityID, itemID)
 end
 
 function RSLoot.IsFiltered(entityID, itemID, itemLink, itemRarity, itemEquipLoc, itemClassID, itemSubClassID)
-	-- Filter by explorer results
-	if (RSConfigDB.IsFilteringByExplorerResults() and RSUtils.GetTableLength(RSCollectionsDB.GetAllEntitiesCollectionsLoot()) > 0) then
-		return IsCollectionFiltered(RSConstants.ITEM_SOURCE.NPC, entityID, itemID) and IsCollectionFiltered(RSConstants.ITEM_SOURCE.CONTAINER, entityID, itemID)
-	end
-
-	-- Category filter
-	if (not RSConfigDB.IsFilteringByExplorerResults() and IsFilteredByCategory(itemLink, itemID, itemClassID, itemSubClassID)) then
-		RSLogger:PrintDebugMessageItemID(itemID, string.format("Item [%s]. Filtrado por su categoria.", itemID))
-		return true
-	end
-	
 	-- Quality filter
 	if (itemRarity < tonumber(RSConfigDB.GetLootFilterMinQuality())) then
 		RSLogger:PrintDebugMessageItemID(itemID, string.format("Item [%s]. Filtrado por su calidad.", itemID))
@@ -168,7 +157,7 @@ function RSLoot.IsFiltered(entityID, itemID, itemLink, itemRarity, itemEquipLoc,
 	end
 	
 	-- Individual filter
-	if (RSConfigDB.IsItemFiltered(itemID)) then
+	if (RSConfigDB.GetItemFiltered(itemID)) then
 		RSLogger:PrintDebugMessageItemID(itemID, string.format("Item [%s]. Filtrado individualmente.", itemID))
 		return true
 	end
@@ -244,6 +233,17 @@ function RSLoot.IsFiltered(entityID, itemID, itemLink, itemRarity, itemEquipLoc,
 				end
 			end
 		end
+	end
+	
+	-- Filter by explorer results
+	if (RSConfigDB.IsFilteringByExplorerResults() and RSUtils.GetTableLength(RSCollectionsDB.GetAllEntitiesCollectionsLoot()) > 0) then
+		return IsCollectionFiltered(RSConstants.ITEM_SOURCE.NPC, entityID, itemID) and IsCollectionFiltered(RSConstants.ITEM_SOURCE.CONTAINER, entityID, itemID)
+	end
+
+	-- Category filter
+	if (not RSConfigDB.IsFilteringByExplorerResults() and IsFilteredByCategory(itemLink, itemID, itemClassID, itemSubClassID)) then
+		RSLogger:PrintDebugMessageItemID(itemID, string.format("Item [%s]. Filtrado por su categoria.", itemID))
+		return true
 	end
 	
 	return false

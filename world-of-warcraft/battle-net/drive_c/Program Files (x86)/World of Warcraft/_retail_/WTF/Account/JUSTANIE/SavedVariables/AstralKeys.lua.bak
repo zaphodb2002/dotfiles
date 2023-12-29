@@ -9,7 +9,7 @@ AstralKeys = {
 		["dungeon_id"] = 456,
 		["week"] = 335,
 		["faction"] = 0,
-		["time_stamp"] = 139993,
+		["time_stamp"] = 472846,
 	}, -- [1]
 }
 AstralCharacters = {
