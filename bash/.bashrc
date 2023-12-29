@@ -26,7 +26,7 @@ alias du='du -h'
 alias cal='task calendar'
 
 # Neovide for nvim
-alias nvim='neovide'
+#alias nvim='neovide'
 alias nv='neovide'
 
 #clear

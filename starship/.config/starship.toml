@@ -27,6 +27,18 @@ $time\
 [ ](fg:purple)\
 """
 
+palette = 'everforest-gsgvariant'
+
+[palettes.everforest-gsgvariant]
+green = "#a7c080"
+yellow = "#dbbc7f"
+red = "#e67e80"
+blue = "#7fbbb3"
+cyan = "#83c092"
+purple = "#d699b6"
+black = "#2d353b"
+
+
 # Disable the blank line at the start of the prompt
 # add_newline = false
 
@@ -42,8 +54,11 @@ disabled = false
 # An alternative to the username module which displays a symbol that
 # represents the current operating system
 [os]
-style = "bg:green fg:black"
+style = "bg:green fg:black bold"
 disabled = false # Disabled by default
+
+[os.symbols]
+#EndeavourOS = " "
 
 [directory]
 style = "bg:yellow fg:black"
