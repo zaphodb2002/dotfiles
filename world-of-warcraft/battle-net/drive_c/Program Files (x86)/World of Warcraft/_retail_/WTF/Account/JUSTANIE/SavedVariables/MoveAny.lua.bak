@@ -36,8 +36,8 @@ MATAB = {
 					},
 					["MacroFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PX"] = 446,
 						["PY"] = 493,
+						["PX"] = 446,
 						["RE"] = "BOTTOMLEFT",
 					},
 					["ScriptErrorsFrame"] = {
@@ -130,11 +130,7 @@ MATAB = {
 					},
 					["OpenMailFrame"] = {
 					},
-					["FriendsFrame"] = {
-						["AN"] = "BOTTOMLEFT",
-						["PY"] = 517,
-						["RE"] = "BOTTOMLEFT",
-						["PX"] = 545,
+					["TaxiFrame"] = {
 					},
 					["GossipFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -174,7 +170,11 @@ MATAB = {
 					},
 					["QuickKeybindFrame"] = {
 					},
-					["TaxiFrame"] = {
+					["FriendsFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 517,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 545,
 					},
 					["PVEFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -254,13 +254,13 @@ MATAB = {
 					},
 					["ItemTextFrame"] = {
 					},
-					["TaxiFrame"] = {
+					["FriendsFrame"] = {
 					},
 					["SplashFrame"] = {
 					},
 					["OpenMailFrame"] = {
 					},
-					["FriendsFrame"] = {
+					["QuickKeybindFrame"] = {
 					},
 					["GossipFrame"] = {
 					},
@@ -271,11 +271,11 @@ MATAB = {
 					},
 					["ContainerFrameCombinedBags"] = {
 					},
-					["TimeManagerFrame"] = {
+					["WorldMapFrame"] = {
 					},
 					["DressUpFrame"] = {
 					},
-					["WorldMapFrame"] = {
+					["TimeManagerFrame"] = {
 					},
 					["QuestLogPopupDetailFrame"] = {
 					},
@@ -283,7 +283,7 @@ MATAB = {
 					},
 					["WeeklyRewardsFrame"] = {
 					},
-					["QuickKeybindFrame"] = {
+					["TaxiFrame"] = {
 					},
 					["GameMenuFrame"] = {
 					},

@@ -41,7 +41,7 @@ DataStore_TalentsDB = {
 			},
 			["Default.Dalaran.Morgntreeman"] = {
 				["activeSpecRole"] = "TANK",
-				["lastUpdate"] = 1703470846,
+				["lastUpdate"] = 1703971369,
 				["Specializations"] = {
 					[3] = 0,
 					[2] = 0,

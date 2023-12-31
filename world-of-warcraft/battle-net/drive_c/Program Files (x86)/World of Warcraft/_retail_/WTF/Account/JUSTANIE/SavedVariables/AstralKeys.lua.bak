@@ -1,23 +1,12 @@
 
 AstralKeys = {
-	{
-		["source"] = "guild",
-		["weekly_best"] = 0,
-		["class"] = "DRUID",
-		["key_level"] = 5,
-		["unit"] = "Morgntreeman-Dalaran",
-		["dungeon_id"] = 456,
-		["week"] = 335,
-		["faction"] = 0,
-		["time_stamp"] = 472846,
-	}, -- [1]
 }
 AstralCharacters = {
 	{
 		["weekly_best"] = 0,
 		["class"] = "DRUID",
-		["unit"] = "Morgntreeman-Dalaran",
 		["faction"] = 0,
+		["unit"] = "Morgntreeman-Dalaran",
 	}, -- [1]
 }
 AstralKeysSettings = {
@@ -26,7 +15,7 @@ AstralKeysSettings = {
 		["show_minimap_button"] = {
 			["isEnabled"] = true,
 		},
-		["init_time"] = 1703602800,
+		["init_time"] = 1704207600,
 		["expanded_tooltip"] = {
 			["isEnabled"] = true,
 		},

@@ -58,10 +58,18 @@ TomTomWaypointsM = {
 					["from"] = "Rarity",
 					["callbacks"] = {
 						["distance"] = {
-						},
-						["minimap"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -75,35 +83,27 @@ TomTomWaypointsM = {
 					1, -- [1]
 					0.554, -- [2]
 					0.112, -- [3]
+					["crazy"] = true,
+					["worldmap_displayID"] = 48768,
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_displayID"] = 48768,
+					["desc"] = "Ravika",
 					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Ravika",
-					["from"] = "ATT",
-					["worldmap_displayID"] = 48768,
-					["desc"] = "Ravika",
 					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
+					["from"] = "ATT",
+					["minimap_displayID"] = 48768,
+					["title"] = "Ravika",
+					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["world"] = true,
 				},
 			}, -- [1]
@@ -112,35 +112,27 @@ TomTomWaypointsM = {
 					388, -- [1]
 					0.365, -- [2]
 					0.856, -- [3]
+					["crazy"] = true,
+					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
-					["persistent"] = true,
 					["desc"] = "Zandalari Warbringer",
+					["persistent"] = true,
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Zandalari Warbringer",
-					["minimap_displayID"] = 47681,
-					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["worldmap_displayID"] = 47681,
+					["minimap_displayID"] = 47681,
 					["from"] = "ATT",
+					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["world"] = true,
 				},
 			},
@@ -152,18 +144,10 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["crazy"] = true,
@@ -173,9 +157,9 @@ TomTomWaypointsM = {
 					["cleardistance"] = 10,
 					["title"] = "Rise of the Horde",
 					["from"] = "ATT",
-					["minimap"] = true,
 					["minimap_icon"] = "Interface/Icons/INV_Misc_Book_09",
 					["worldmap_icon"] = "Interface/Icons/INV_Misc_Book_09",
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
@@ -184,35 +168,27 @@ TomTomWaypointsM = {
 					418, -- [1]
 					0.398, -- [2]
 					0.659, -- [3]
+					["crazy"] = true,
+					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
-					["persistent"] = true,
 					["desc"] = "Zandalari Warbringer",
+					["persistent"] = true,
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Zandalari Warbringer",
-					["minimap_displayID"] = 47681,
-					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["worldmap_displayID"] = 47681,
+					["minimap_displayID"] = 47681,
 					["from"] = "ATT",
+					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["world"] = true,
 				},
 			},
@@ -221,35 +197,27 @@ TomTomWaypointsM = {
 					379, -- [1]
 					0.751, -- [2]
 					0.674, -- [3]
+					["crazy"] = true,
+					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
-					["persistent"] = true,
 					["desc"] = "Zandalari Warbringer",
+					["persistent"] = true,
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Zandalari Warbringer",
-					["minimap_displayID"] = 47681,
-					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["worldmap_displayID"] = 47681,
+					["minimap_displayID"] = 47681,
 					["from"] = "ATT",
+					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["world"] = true,
 				},
 			},
@@ -258,70 +226,27 @@ TomTomWaypointsM = {
 					422, -- [1]
 					0.474, -- [2]
 					0.615, -- [3]
+					["crazy"] = true,
+					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
-					["persistent"] = true,
 					["desc"] = "Zandalari Warbringer",
+					["persistent"] = true,
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Zandalari Warbringer",
-					["minimap_displayID"] = 47681,
-					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["worldmap_displayID"] = 47681,
+					["minimap_displayID"] = 47681,
 					["from"] = "ATT",
-					["world"] = true,
-				},
-			},
-			[51] = {
-				["51:495000000:553000000:Rise of the Horde"] = {
-					51, -- [1]
-					0.495, -- [2]
-					0.553, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Rise of the Horde",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Rise of the Horde",
-					["from"] = "ATT",
-					["minimap"] = true,
-					["minimap_icon"] = "Interface/Icons/INV_Misc_Book_09",
-					["worldmap_icon"] = "Interface/Icons/INV_Misc_Book_09",
+					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["world"] = true,
 				},
 			},

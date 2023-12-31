@@ -389,11 +389,6 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Simplicity",
 				},
-				["WeakAuras_vDuwd6U7hkQ"] = {
-					["Upgraded"] = true,
-					["Inherit"] = false,
-					["SkinID"] = "Simplicity",
-				},
 				["WeakAuras_Yc08W16m2au"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
@@ -403,6 +398,10 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Simplicity",
+				},
+				["Kaliel's Tracker"] = {
+					["SkinID"] = "Simplicity",
+					["Inherit"] = false,
 				},
 				["WeakAuras_2EbAZa3HfuZ"] = {
 					["Upgraded"] = true,
@@ -439,16 +438,17 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Simplicity",
 				},
-				["Kaliel's Tracker"] = {
-					["SkinID"] = "Simplicity",
-					["Inherit"] = false,
-				},
 				["WeakAuras_l)R9DMOzqwI"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Simplicity",
 				},
 				["WeakAuras_SG0uvMlfCqO"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_A2tqHaNKW3h"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Simplicity",
@@ -478,17 +478,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Simplicity",
 				},
-				["WeakAuras_A2tqHaNKW3h"] = {
-					["Upgraded"] = true,
-					["Inherit"] = false,
-					["SkinID"] = "Simplicity",
-				},
 				["WeakAuras_fcFKj7GeK(X"] = {
-					["Upgraded"] = true,
-					["Inherit"] = false,
-					["SkinID"] = "Simplicity",
-				},
-				["WeakAuras_9VFUCmBK7Ip"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Simplicity",
@@ -498,7 +488,17 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Simplicity",
 				},
+				["WeakAuras_9VFUCmBK7Ip"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
 				["WeakAuras_yoUgYJuz)tG"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Simplicity",
+				},
+				["WeakAuras_vDuwd6U7hkQ"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Simplicity",
@@ -561,7 +561,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Simplicity",
 				},
-				["WeakAuras_65MfCaRSxpi"] = {
+				["WeakAuras_dIAC8nNaorT"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Simplicity",
@@ -571,7 +571,7 @@ MasqueDB = {
 					["SkinID"] = "Simplicity",
 					["Inherit"] = false,
 				},
-				["WeakAuras_dIAC8nNaorT"] = {
+				["WeakAuras_65MfCaRSxpi"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Simplicity",

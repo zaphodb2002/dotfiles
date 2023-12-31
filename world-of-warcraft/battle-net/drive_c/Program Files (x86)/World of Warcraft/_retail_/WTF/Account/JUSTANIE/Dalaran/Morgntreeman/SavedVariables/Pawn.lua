@@ -47,8 +47,8 @@ PawnOptions = {
 		}, -- [9]
 		{
 			["ID"] = 207255,
-			["Level"] = 447,
-			["Link"] = "|cffa335ee|Hitem:207255::::::::70:104::4:6:6652:7982:9514:9554:1478:8767::::::|h[Benevolent Embersage's Talons]|h|r",
+			["Level"] = 460,
+			["Link"] = "|cffa335ee|Hitem:207255::::::::70:103::4:6:6652:7982:9514:9558:1491:8767::::::|h[Benevolent Embersage's Talons]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 207159,

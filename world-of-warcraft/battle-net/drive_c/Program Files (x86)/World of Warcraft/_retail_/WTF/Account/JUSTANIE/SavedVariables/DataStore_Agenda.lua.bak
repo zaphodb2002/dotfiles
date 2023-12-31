@@ -10,11 +10,11 @@ DataStore_AgendaDB = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2023-12-26",
+			["NextWeeklyReset"] = "2024-01-02",
 		},
 		["Characters"] = {
 			["Default.Stormreaver.Bretanomyces"] = {
-				["lastUpdate"] = 1703471491,
+				["lastUpdate"] = 1703477004,
 			},
 			["Default.Dalaran.Hyaae"] = {
 				["lastUpdate"] = 1702275435,
@@ -23,25 +23,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1703137686,
 			},
 			["Default.Dalaran.Morgntreeman"] = {
-				["DungeonIDs"] = {
-					["Amirdrassil, the Dream's Hope Looking For Raid|1322506840"] = "131957|1703470846|0|1",
-				},
-				["lastUpdate"] = 1703470846,
-				["LFGDungeons"] = {
-					["2466.Igira the Cruel"] = true,
-					["2468.Volcoross"] = true,
-					["2467.Nymue, Weaver of the Cycle"] = true,
-					["2466.Count"] = 3,
-					["2466.Smolderon"] = true,
-					["2467.Count"] = 2,
-					["2468.Count"] = 2,
-					["2468.Larodar, Keeper of the Flame"] = true,
-					["2469.Count"] = 2,
-					["2467.Council of Dreams"] = true,
-					["2469.Fyrakk the Blazing"] = true,
-					["2469.Tindral Sageswift, Seer of the Flame"] = true,
-					["2466.Gnarlroot"] = true,
-				},
+				["lastUpdate"] = 1703962754,
 			},
 		},
 	},

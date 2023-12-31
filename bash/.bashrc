@@ -36,8 +36,8 @@ alias clear="clear; seq 1 $(tput cols) | sort -R | sparklines | lolcat"
 alias cd='z'
 
 ### eza instead of ls
-alias ls='eza -a --color=always'
-alias lsp='eza -al --color=always'
+alias ls='eza --color=always'
+alias lsp='eza -l --color=always'
 
 ### bat instead of cat
 alias cat='bat'
