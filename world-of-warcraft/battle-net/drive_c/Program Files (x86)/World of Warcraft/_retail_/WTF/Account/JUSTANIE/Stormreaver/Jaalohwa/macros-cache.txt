@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "Consecration" "134400"
+#showtooltip Consecration
+/cast Consecration
+END

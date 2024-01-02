@@ -1,6 +1,6 @@
 
 HidingBarDB = {
-	["tstmp"] = 1703963023,
+	["tstmp"] = 1704177035,
 	["profiles"] = {
 		{
 			["isDefault"] = true,
@@ -8,61 +8,61 @@ HidingBarDB = {
 				["addFromDataBroker"] = true,
 				["mbtnSettings"] = {
 					["LibDBIcon10_RareScannerMinimapIcon"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["BtWQuestsMinimapButton"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["LibDBIcon10_DBM"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["LibDBIcon10_Rarity"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["LibDBIcon10_AstralKeys"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["LibDBIcon10_Leatrix_Plus"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["LibDBIcon10_Masque"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["LibDBIcon10_MoveAnyMinimapIcon"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["Narci_MinimapButton"] = {
 						["tstmp"] = 1703203065,
 					},
 					["LibDBIcon10_Leatrix_Maps"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["AltoholicMinimapButton"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
+					},
+					["LibDBIcon10_Details"] = {
+						["tstmp"] = 1704177035,
+					},
+					["LibDBIcon10_Bartender4"] = {
+						["tstmp"] = 1704177035,
+					},
+					["AllTheThings-Minimap"] = {
+						["tstmp"] = 1704177035,
+					},
+					["LibDBIcon10_Raven"] = {
+						["tstmp"] = 1704177035,
+					},
+					["LibDBIcon10_DetailsStreamer"] = {
+						["tstmp"] = 1704177035,
+					},
+					["LibDBIcon10_WeakAuras"] = {
+						["tstmp"] = 1704177035,
+					},
+					["LibDBIcon10_Plater"] = {
+						["tstmp"] = 1704177035,
 					},
 					["ZPerl_MinimapButton_Frame"] = {
 						["tstmp"] = 1703203153,
-					},
-					["LibDBIcon10_Bartender4"] = {
-						["tstmp"] = 1703963023,
-					},
-					["AllTheThings-Minimap"] = {
-						["tstmp"] = 1703963023,
-					},
-					["LibDBIcon10_WeakAuras"] = {
-						["tstmp"] = 1703963023,
-					},
-					["LibDBIcon10_DetailsStreamer"] = {
-						["tstmp"] = 1703963023,
-					},
-					["LibDBIcon10_Raven"] = {
-						["tstmp"] = 1703963023,
-					},
-					["LibDBIcon10_Plater"] = {
-						["tstmp"] = 1703963023,
-					},
-					["LibDBIcon10_Details"] = {
-						["tstmp"] = 1703963023,
 					},
 					["LibDBIcon10_Hekili"] = {
 						["tstmp"] = 1702346393,
@@ -70,25 +70,25 @@ HidingBarDB = {
 				},
 				["btnSettings"] = {
 					["|cffb4b4ffALL THE THINGS|r"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["Raven"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["HidingBar"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["BtWQuests"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["Bartender4"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["DBM"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["Altoholic"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 					["Narcissus"] = {
 						["tstmp"] = 1703203065,
@@ -96,21 +96,21 @@ HidingBarDB = {
 					["GatherMate2"] = {
 						["tstmp"] = 1702436332,
 					},
+					["WeakAuras"] = {
+						["tstmp"] = 1704177035,
+					},
 					["X-Perl UnitFrames"] = {
 						["tstmp"] = 1703203153,
 					},
-					["WeakAuras"] = {
-						["tstmp"] = 1703963023,
-					},
 					["Masque"] = {
-						["tstmp"] = 1703963023,
+						["tstmp"] = 1704177035,
 					},
 				},
 				["grabMinimap"] = true,
 				["grabMinimapAfterN"] = 1,
-				["customGrabList"] = {
-				},
 				["ombGrabQueue"] = {
+				},
+				["customGrabList"] = {
 				},
 				["ignoreMBtn"] = {
 				},
@@ -164,25 +164,25 @@ HidingBarDB = {
 						["gapSize"] = 0,
 						["interceptTooltip"] = true,
 						["buttonDirection"] = {
-							["V"] = 0,
 							["H"] = 0,
+							["V"] = 0,
 						},
 						["borderOffset"] = 4,
 						["omb"] = {
-							["hide"] = true,
+							["distanceToBar"] = 0,
 							["anchor"] = "right",
 							["barDisplacement"] = 0,
 							["size"] = 31,
-							["distanceToBar"] = 0,
+							["hide"] = true,
 						},
 						["buttonSize"] = 31,
 						["frameStrata"] = 2,
 						["lineBorderSize"] = 2,
 						["fadeOpacity"] = 0.2,
 						["orientation"] = 0,
-						["barOffset"] = 2,
-						["hideHandler"] = 2,
 						["borderSize"] = 16,
+						["hideHandler"] = 2,
+						["barOffset"] = 2,
 					},
 					["name"] = "Bar 1",
 				}, -- [1]

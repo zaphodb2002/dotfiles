@@ -42,8 +42,8 @@ OPie_SavedData = {
 				["save"] = true,
 				["v"] = 1,
 				["vm"] = 127,
-				["limit"] = "DRUID",
 				["name"] = "Shapeshifts",
+				["limit"] = "DRUID",
 				["hotkey"] = "BUTTON4",
 			},
 			["OPieFlagStore"] = {

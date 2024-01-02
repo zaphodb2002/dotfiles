@@ -2,7 +2,7 @@ Version: 1
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: TOPLEFT
-X: 0
+X: 1
 Y: 0
 W: 278
 H: 320

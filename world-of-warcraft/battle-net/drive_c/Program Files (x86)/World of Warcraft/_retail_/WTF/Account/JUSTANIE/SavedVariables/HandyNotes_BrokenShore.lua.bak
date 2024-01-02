@@ -1,0 +1,34 @@
+
+HandyNotes_BrokenShoreDB = {
+	["profileKeys"] = {
+		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
+		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
+		["Arila - Stormreaver"] = "Arila - Stormreaver",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
+		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+	},
+	["profiles"] = {
+		["Pangdai - Dalaran"] = {
+		},
+		["Deeohteez - Stormreaver"] = {
+		},
+		["Arila - Stormreaver"] = {
+		},
+		["Morgntreeman - Dalaran"] = {
+		},
+		["Petitmort - Dalaran"] = {
+		},
+		["Feloril - Stormreaver"] = {
+		},
+		["Jenleeviyah - Dalaran"] = {
+		},
+		["Ruderalis - Stormreaver"] = {
+		},
+		["Attacknknees - Dalaran"] = {
+		},
+	},
+}

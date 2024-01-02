@@ -16,7 +16,7 @@ AdiBagsDB = {
 		},
 		["AdiBags_TooltipInfo"] = {
 		},
-		["Equipment"] = {
+		["MoneyFrame"] = {
 		},
 		["ItemSets"] = {
 		},
@@ -26,14 +26,26 @@ AdiBagsDB = {
 		},
 		["Junk"] = {
 		},
-		["MoneyFrame"] = {
+		["Equipment"] = {
 		},
 	},
 	["profileKeys"] = {
 		["Pangdai - Dalaran"] = "Default",
-		["Morgntreeman - Dalaran"] = "Default",
+		["Deeohteez - Stormreaver"] = "Default",
+		["Arila - Stormreaver"] = "Default",
 		["Hyaae - Dalaran"] = "Default",
+		["Pontiffikate - Dalaran"] = "Default",
+		["Attacknknees - Dalaran"] = "Default",
+		["Feloril - Stormreaver"] = "Default",
 		["Bretanomyces - Stormreaver"] = "Default",
+		["Morgntreeman - Dalaran"] = "Default",
+		["Jenleeviyah - Dalaran"] = "Default",
+		["Petitmort - Dalaran"] = "Default",
+		["Dumpiss - Stormreaver"] = "Default",
+		["Ruderalis - Stormreaver"] = "Default",
+		["Jaalohwa - Stormreaver"] = "Default",
+		["Deeohteez - Dalaran"] = "Default",
+		["Icanglidewee - Dalaran"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -47,9 +59,9 @@ AdiBagsDB = {
 			},
 			["positions"] = {
 				["Backpack"] = {
-					["xOffset"] = -56.4998779296875,
+					["xOffset"] = -677.5003662109375,
 					["point"] = "TOPRIGHT",
-					["yOffset"] = -203.7489624023438,
+					["yOffset"] = -181.4985961914063,
 				},
 			},
 		},

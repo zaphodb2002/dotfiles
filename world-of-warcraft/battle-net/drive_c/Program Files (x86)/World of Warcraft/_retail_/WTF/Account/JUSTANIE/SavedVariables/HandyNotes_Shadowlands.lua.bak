@@ -2,9 +2,21 @@
 HandyNotes_ShadowlandsDB = {
 	["profileKeys"] = {
 		["Pangdai - Dalaran"] = "Default",
-		["Morgntreeman - Dalaran"] = "Default",
+		["Deeohteez - Stormreaver"] = "Default",
+		["Arila - Stormreaver"] = "Default",
 		["Hyaae - Dalaran"] = "Default",
+		["Pontiffikate - Dalaran"] = "Default",
+		["Attacknknees - Dalaran"] = "Default",
+		["Feloril - Stormreaver"] = "Default",
 		["Bretanomyces - Stormreaver"] = "Default",
+		["Morgntreeman - Dalaran"] = "Default",
+		["Jenleeviyah - Dalaran"] = "Default",
+		["Petitmort - Dalaran"] = "Default",
+		["Dumpiss - Stormreaver"] = "Default",
+		["Ruderalis - Stormreaver"] = "Default",
+		["Jaalohwa - Stormreaver"] = "Default",
+		["Deeohteez - Dalaran"] = "Default",
+		["Icanglidewee - Dalaran"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

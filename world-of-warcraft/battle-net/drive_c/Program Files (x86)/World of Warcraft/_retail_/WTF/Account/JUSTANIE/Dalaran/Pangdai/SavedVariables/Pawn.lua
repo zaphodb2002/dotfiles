@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0805,
+	["LastVersion"] = 2.0807,
 	["LastPlayerFullName"] = "Pangdai-Dalaran",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {

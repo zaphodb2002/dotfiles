@@ -2,8 +2,20 @@
 RoutesDB = {
 	["profileKeys"] = {
 		["Pangdai - Dalaran"] = "Default",
-		["Morgntreeman - Dalaran"] = "Default",
+		["Deeohteez - Stormreaver"] = "Default",
+		["Arila - Stormreaver"] = "Default",
+		["Attacknknees - Dalaran"] = "Default",
 		["Bretanomyces - Stormreaver"] = "Default",
+		["Deeohteez - Dalaran"] = "Default",
+		["Pontiffikate - Dalaran"] = "Default",
+		["Feloril - Stormreaver"] = "Default",
+		["Jenleeviyah - Dalaran"] = "Default",
+		["Petitmort - Dalaran"] = "Default",
+		["Dumpiss - Stormreaver"] = "Default",
+		["Ruderalis - Stormreaver"] = "Default",
+		["Jaalohwa - Stormreaver"] = "Default",
+		["Morgntreeman - Dalaran"] = "Default",
+		["Icanglidewee - Dalaran"] = "Default",
 	},
 	["global"] = {
 		["routes"] = {
@@ -825,11 +837,11 @@ RoutesDB = {
 					},
 					["selection"] = {
 						["Lush Saxifrage"] = "Lush Saxifrage",
-						["Frigid Saxifrage"] = "Frigid Saxifrage",
+						["Saxifrage"] = "Saxifrage",
 						["Infurious Saxifrage"] = "Infurious Saxifrage",
 						["Titan-Touched Saxifrage"] = "Titan-Touched Saxifrage",
 						["Windswept Saxifrage"] = "Windswept Saxifrage",
-						["Saxifrage"] = "Saxifrage",
+						["Frigid Saxifrage"] = "Frigid Saxifrage",
 					},
 					["length"] = 69839.05204195093,
 					["cluster_dist"] = 200,

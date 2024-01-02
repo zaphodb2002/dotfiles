@@ -2,36 +2,108 @@
 HandyNotesDB = {
 	["profileKeys"] = {
 		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
+		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
+		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
+		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
+		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
 	},
 	["profiles"] = {
 		["Pangdai - Dalaran"] = {
 		},
-		["Morgntreeman - Dalaran"] = {
+		["Deeohteez - Stormreaver"] = {
+		},
+		["Arila - Stormreaver"] = {
 		},
 		["Hyaae - Dalaran"] = {
 		},
+		["Pontiffikate - Dalaran"] = {
+		},
+		["Attacknknees - Dalaran"] = {
+		},
+		["Feloril - Stormreaver"] = {
+		},
 		["Bretanomyces - Stormreaver"] = {
+		},
+		["Morgntreeman - Dalaran"] = {
+		},
+		["Jenleeviyah - Dalaran"] = {
+		},
+		["Petitmort - Dalaran"] = {
+		},
+		["Dumpiss - Stormreaver"] = {
+		},
+		["Ruderalis - Stormreaver"] = {
+		},
+		["Jaalohwa - Stormreaver"] = {
+		},
+		["Deeohteez - Dalaran"] = {
+		},
+		["Icanglidewee - Dalaran"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
 		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
+		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
+		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
+		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
+		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
 	},
 	["profiles"] = {
 		["Pangdai - Dalaran"] = {
 		},
-		["Morgntreeman - Dalaran"] = {
+		["Deeohteez - Stormreaver"] = {
+		},
+		["Arila - Stormreaver"] = {
 		},
 		["Hyaae - Dalaran"] = {
 		},
+		["Pontiffikate - Dalaran"] = {
+		},
+		["Attacknknees - Dalaran"] = {
+		},
+		["Feloril - Stormreaver"] = {
+		},
 		["Bretanomyces - Stormreaver"] = {
+		},
+		["Morgntreeman - Dalaran"] = {
+		},
+		["Jenleeviyah - Dalaran"] = {
+		},
+		["Petitmort - Dalaran"] = {
+		},
+		["Dumpiss - Stormreaver"] = {
+		},
+		["Ruderalis - Stormreaver"] = {
+		},
+		["Jaalohwa - Stormreaver"] = {
+		},
+		["Deeohteez - Dalaran"] = {
+		},
+		["Icanglidewee - Dalaran"] = {
 		},
 	},
 }

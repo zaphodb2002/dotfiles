@@ -1,0 +1,91 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0807,
+	["LastPlayerFullName"] = "Dumpiss-Stormreaver",
+	["AutoSelectScales"] = true,
+	["ItemLevels"] = {
+		{
+			["ID"] = 122248,
+			["Level"] = 47,
+			["Link"] = "|cff00ccff|Hitem:122248::::::::17:260:::1:9354::::::|h[Stained Shadowcraft Cap]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 122668,
+			["Level"] = 47,
+			["Link"] = "|cff00ccff|Hitem:122668::::::::17:260:::1:583::::::|h[Eternal Will of the Martyr]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 122358,
+			["Level"] = 47,
+			["Link"] = "|cff00ccff|Hitem:122358::::::::17:260:::1:9354::::::|h[Stained Shadowcraft Spaulders]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 122383,
+			["Level"] = 47,
+			["Link"] = "|cff00ccff|Hitem:122383::::::::17:260:::1:3592::::::|h[Stained Shadowcraft Tunic]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 52914,
+			["Level"] = 22,
+			["Link"] = "|cff1eff00|Hitem:52914::::::::14:260::11:1:3631:2:28:79:9:14:::::|h[Rescue Ladder Cord]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 122255,
+			["Level"] = 47,
+			["Link"] = "|cff00ccff|Hitem:122255::::::::17:260:::1:583::::::|h[Preened Wildfeather Leggings]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 52958,
+			["Level"] = 19,
+			["Link"] = "|cff1eff00|Hitem:52958::::::::14:260::11:1:3631:2:28:79:9:13:::::|h[S.B.R.B. Prototype 2]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 62335,
+			["Level"] = 40,
+			["Link"] = "|cff0070dd|Hitem:62335::::::::17:260::11:1:6691:2:28:79:9:17:::::|h[Thrall's Gift]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 52916,
+			["Level"] = 32,
+			["Link"] = "|cff0070dd|Hitem:52916::::::::14:260::11:2:3631:6697:2:28:79:9:14:::::|h[Gunner's Gloves]|h|r",
+		}, -- [10]
+		nil, -- [11]
+		nil, -- [12]
+		{
+			["ID"] = 199686,
+			["Level"] = 47,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff00ccff|Hitem:199686::::::::17:260:::::::::|h[Unstable Elemental Confluence]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 122361,
+			["Level"] = 47,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::17:260:::1:583::::::|h[Swift Hand of Justice]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 122261,
+			["Level"] = 47,
+			["Link"] = "|cff00ccff|Hitem:122261::::::::17:260:::1:3592::::::|h[Inherited Cape of the Black Baron]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 122351,
+			["Level"] = 47,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122351::::::::17:260:::1:583::::::|h[Venerable Dal'Rend's Sacred Charge]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 122351,
+			["Level"] = 44,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff00ccff|Hitem:122351::::::::16:260:::1:583::::::|h[Venerable Dal'Rend's Sacred Charge]|h|r",
+		}, -- [17]
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "ROGUE",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

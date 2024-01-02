@@ -6,7 +6,7 @@ WeakAurasArchive = {
 	},
 	["Repository"] = {
 		["history"] = {
-			["timestamp"] = 1703203971,
+			["timestamp"] = 1704173999,
 			["version"] = 1,
 			["data"] = "lUIlj)IsTyRuZiD0rnd1bWp",
 		},

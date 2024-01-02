@@ -2,15 +2,27 @@
 AltoholicDB = {
 	["profileKeys"] = {
 		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
+		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
+		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
+		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
+		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
 	},
 	["global"] = {
 		["options"] = {
 			["UI.Tabs.Summary.CurrentRealms"] = 3,
 			["UI.Tabs.Summary.CurrentMode"] = 9,
-			["UI.Mail.LastExpiryWarning"] = 1703962762,
+			["UI.Mail.LastExpiryWarning"] = 1704174871,
 		},
 	},
 }

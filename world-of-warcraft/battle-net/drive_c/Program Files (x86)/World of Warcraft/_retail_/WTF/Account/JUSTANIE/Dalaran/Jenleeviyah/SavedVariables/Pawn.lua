@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0805,
+	["LastVersion"] = 2.0807,
 	["LastPlayerFullName"] = "Jenleeviyah-Dalaran",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -36,9 +36,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:197650::::::::70:63::25:1:8768:2:9:68:28:2437:::::|h[Ohn'ir Initiate Leggings]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 193498,
-			["Level"] = 309,
-			["Link"] = "|cff0070dd|Hitem:193498::::::::70:63::13:4:8837:8838:4785:9402:5:28:2164:29:40:30:32:38:5:40:427:::::|h[Surveyor's Cloth Treads |A:Professions-ChatIcon-Quality-Tier2:17:23::1|a]|h|r",
+			["ID"] = 209410,
+			["Level"] = 415,
+			["Link"] = "|cff1eff00|Hitem:209410::::::::70:63::42:4:9544:9223:9219:1537::::::|h[Dreambound Sandals]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 193497,
