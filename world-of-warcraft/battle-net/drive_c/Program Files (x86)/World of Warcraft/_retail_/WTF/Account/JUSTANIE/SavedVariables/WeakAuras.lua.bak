@@ -3,6 +3,16 @@ WeakAurasSaved = {
 	["dynamicIconCache"] = {
 	},
 	["editor_tab_spaces"] = 4,
+	["login_squelch_time"] = 10,
+	["lastArchiveClear"] = 1702355539,
+	["minimap"] = {
+		["hide"] = false,
+	},
+	["lastUpgrade"] = 1702355542,
+	["dbVersion"] = 70,
+	["registered"] = {
+	},
+	["editor_font_size"] = 12,
 	["displays"] = {
 		["Rushing Jade Wind"] = {
 			["iconSource"] = -1,
@@ -106,11 +116,11 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["use_alive"] = true,
-				["spec"] = {
+				["class"] = {
 					["multi"] = {
 					},
 				},
+				["use_class_and_spec"] = false,
 				["class_and_spec"] = {
 					["multi"] = {
 						[268] = true,
@@ -120,12 +130,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_class_and_spec"] = false,
-				["use_combat"] = true,
-				["class"] = {
+				["use_alive"] = true,
+				["spec"] = {
 					["multi"] = {
 					},
 				},
+				["use_combat"] = true,
 				["size"] = {
 					["multi"] = {
 					},
@@ -170,18 +180,18 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["alpha"] = 1,
 			["uid"] = "rvm2uMY8nOG",
 			["id"] = "Rushing Jade Wind",
-			["frameStrata"] = 1,
 			["useCooldownModRate"] = true,
-			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["width"] = 64,
+			["anchorFrameType"] = "SCREEN",
 			["config"] = {
 			},
 			["inverse"] = false,
-			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
@@ -238,7 +248,7 @@ WeakAurasSaved = {
 			["stagger"] = 0,
 			["subRegions"] = {
 			},
-			["fullCircle"] = true,
+			["limit"] = 5,
 			["load"] = {
 				["size"] = {
 					["multi"] = {
@@ -256,6 +266,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+			},
+			["xOffset"] = 0,
+			["backdropColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
 			},
 			["animation"] = {
 				["start"] = {
@@ -277,15 +294,8 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["backdropColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
-			},
-			["selfPoint"] = "CENTER",
 			["animate"] = false,
-			["rotation"] = 0,
+			["fullCircle"] = true,
 			["scale"] = 1,
 			["centerType"] = "LR",
 			["border"] = false,
@@ -293,8 +303,8 @@ WeakAurasSaved = {
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
 			["sort"] = "none",
-			["xOffset"] = 0,
-			["limit"] = 5,
+			["rotation"] = 0,
+			["radius"] = 200,
 			["constantFactor"] = "RADIUS",
 			["borderInset"] = 1,
 			["borderOffset"] = 4,
@@ -305,15 +315,15 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["stepAngle"] = 15,
-			["uid"] = "v5O3r6KJ1(i",
 			["config"] = {
 			},
-			["grow"] = "HORIZONTAL",
+			["uid"] = "v5O3r6KJ1(i",
+			["selfPoint"] = "CENTER",
 			["conditions"] = {
 			},
 			["information"] = {
 			},
-			["radius"] = 200,
+			["grow"] = "HORIZONTAL",
 		},
 		["Touch of Death"] = {
 			["iconSource"] = -1,
@@ -450,16 +460,16 @@ WeakAurasSaved = {
 			["xOffset"] = 0,
 			["authorOptions"] = {
 			},
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
-			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["useCooldownModRate"] = true,
 			["config"] = {
 			},
 			["id"] = "Touch of Death",
-			["width"] = 64,
-			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["useCooldownModRate"] = true,
+			["alpha"] = 1,
+			["width"] = 64,
+			["frameStrata"] = 1,
 			["uid"] = "xce)R9oxjos",
 			["inverse"] = false,
 			["actions"] = {
@@ -664,18 +674,18 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["alpha"] = 1,
 			["uid"] = "u3F67Sr(Zkl",
 			["id"] = "Instant Poison",
-			["frameStrata"] = 1,
 			["useCooldownModRate"] = true,
-			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["width"] = 64,
+			["anchorFrameType"] = "SCREEN",
 			["config"] = {
 			},
 			["inverse"] = false,
-			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
@@ -785,7 +795,10 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["use_combat"] = true,
+				["class"] = {
+					["multi"] = {
+					},
+				},
 				["class_and_spec"] = {
 					["single"] = 103,
 				},
@@ -793,15 +806,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_class_and_spec"] = true,
 				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["use_class_and_spec"] = true,
-				["class"] = {
-					["multi"] = {
-					},
-				},
+				["use_combat"] = true,
 				["size"] = {
 					["multi"] = {
 					},
@@ -849,15 +859,15 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["cooldownTextDisabled"] = false,
 			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["alpha"] = 1,
 			["uid"] = "V8nAdc4umtQ",
 			["id"] = "Adaptive Swarm",
-			["useCooldownModRate"] = true,
 			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
+			["useCooldownModRate"] = true,
 			["width"] = 64,
+			["anchorFrameType"] = "SCREEN",
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -1036,18 +1046,18 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["cooldownTextDisabled"] = false,
-			["useCooldownModRate"] = true,
+			["zoom"] = 0,
+			["alpha"] = 1,
 			["uid"] = "(lserCM5kar",
 			["id"] = "Celestial Brew",
-			["width"] = 64,
-			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["useCooldownModRate"] = true,
 			["config"] = {
 			},
 			["inverse"] = false,
-			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
@@ -1097,8 +1107,7 @@ WeakAurasSaved = {
 			["stagger"] = 0,
 			["subRegions"] = {
 			},
-			["config"] = {
-			},
+			["uid"] = "PhN(z3bIG44",
 			["load"] = {
 				["talent"] = {
 					["multi"] = {
@@ -1117,15 +1126,44 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["rotation"] = 0,
+			["authorOptions"] = {
+			},
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["limit"] = 5,
+			["useLimit"] = false,
 			["animate"] = false,
+			["rotation"] = 0,
+			["scale"] = 1,
+			["centerType"] = "LR",
+			["border"] = false,
+			["borderEdge"] = "Square Full White",
+			["regionType"] = "dynamicgroup",
+			["borderSize"] = 2,
+			["limit"] = 5,
+			["radius"] = 200,
+			["borderColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["constantFactor"] = "RADIUS",
+			["config"] = {
+			},
+			["borderOffset"] = 4,
+			["stepAngle"] = 15,
+			["rowSpace"] = 1,
+			["id"] = "Paladin",
+			["frameStrata"] = 1,
+			["gridWidth"] = 5,
+			["anchorFrameType"] = "SCREEN",
+			["gridType"] = "RD",
+			["borderInset"] = 1,
+			["sort"] = "none",
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -1146,39 +1184,11 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["scale"] = 1,
-			["centerType"] = "LR",
-			["border"] = false,
-			["borderEdge"] = "Square Full White",
-			["regionType"] = "dynamicgroup",
-			["borderSize"] = 2,
-			["sort"] = "none",
-			["borderColor"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				1, -- [4]
-			},
-			["authorOptions"] = {
-			},
-			["constantFactor"] = "RADIUS",
-			["uid"] = "PhN(z3bIG44",
-			["borderOffset"] = 4,
-			["stepAngle"] = 15,
-			["rowSpace"] = 1,
-			["id"] = "Paladin",
-			["frameStrata"] = 1,
-			["gridWidth"] = 5,
-			["anchorFrameType"] = "SCREEN",
-			["gridType"] = "RD",
-			["borderInset"] = 1,
-			["arcLength"] = 360,
-			["radius"] = 200,
 			["conditions"] = {
 			},
 			["information"] = {
 			},
-			["useLimit"] = false,
+			["arcLength"] = 360,
 		},
 		["Rake"] = {
 			["iconSource"] = -1,
@@ -1314,29 +1324,26 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["use_combat"] = true,
+				["class"] = {
+					["multi"] = {
+					},
+				},
 				["class_and_spec"] = {
 					["single"] = 104,
 					["multi"] = {
 						[103] = true,
-						[104] = true,
-						[102] = true,
-						[105] = true,
 					},
 				},
 				["talent"] = {
 					["multi"] = {
 					},
 				},
+				["use_class_and_spec"] = false,
 				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["use_class_and_spec"] = false,
-				["class"] = {
-					["multi"] = {
-					},
-				},
+				["use_combat"] = true,
 				["size"] = {
 					["multi"] = {
 					},
@@ -1350,18 +1357,18 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["authorOptions"] = {
 			},
-			["cooldownTextDisabled"] = false,
-			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["useCooldownModRate"] = true,
 			["uid"] = "AESieBS1j4O",
 			["id"] = "Rake",
-			["width"] = 64,
-			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["useCooldownModRate"] = true,
+			["alpha"] = 1,
+			["width"] = 64,
+			["frameStrata"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
-			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
@@ -1420,7 +1427,7 @@ WeakAurasSaved = {
 			["stagger"] = 0,
 			["subRegions"] = {
 			},
-			["limit"] = 5,
+			["fullCircle"] = true,
 			["load"] = {
 				["size"] = {
 					["multi"] = {
@@ -1439,7 +1446,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["arcLength"] = 360,
+			["rotation"] = 0,
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
@@ -1448,6 +1455,30 @@ WeakAurasSaved = {
 			},
 			["internalVersion"] = 70,
 			["animate"] = false,
+			["arcLength"] = 360,
+			["scale"] = 1,
+			["centerType"] = "LR",
+			["border"] = false,
+			["borderEdge"] = "Square Full White",
+			["regionType"] = "dynamicgroup",
+			["borderSize"] = 2,
+			["sort"] = "none",
+			["authorOptions"] = {
+			},
+			["limit"] = 5,
+			["constantFactor"] = "RADIUS",
+			["borderInset"] = 1,
+			["borderOffset"] = 4,
+			["gridType"] = "RD",
+			["rowSpace"] = 1,
+			["id"] = "Monk",
+			["gridWidth"] = 5,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stepAngle"] = 15,
+			["uid"] = "HT0W62cwlZO",
+			["config"] = {
+			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -1468,35 +1499,11 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["scale"] = 1,
-			["centerType"] = "LR",
-			["border"] = false,
-			["borderEdge"] = "Square Full White",
-			["regionType"] = "dynamicgroup",
-			["borderSize"] = 2,
-			["sort"] = "none",
-			["rotation"] = 0,
-			["fullCircle"] = true,
-			["constantFactor"] = "RADIUS",
-			["borderInset"] = 1,
-			["borderOffset"] = 4,
-			["gridType"] = "RD",
-			["rowSpace"] = 1,
-			["id"] = "Monk",
-			["gridWidth"] = 5,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["stepAngle"] = 15,
-			["config"] = {
-			},
-			["uid"] = "HT0W62cwlZO",
-			["useLimit"] = false,
 			["conditions"] = {
 			},
 			["information"] = {
 			},
-			["authorOptions"] = {
-			},
+			["useLimit"] = false,
 		},
 		["Moonfire"] = {
 			["iconSource"] = -1,
@@ -1601,10 +1608,7 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["class"] = {
-					["multi"] = {
-					},
-				},
+				["use_combat"] = true,
 				["class_and_spec"] = {
 					["single"] = 104,
 					["multi"] = {
@@ -1618,12 +1622,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_class_and_spec"] = false,
 				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
+				["use_class_and_spec"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
 				["size"] = {
 					["multi"] = {
 					},
@@ -1668,18 +1675,18 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["alpha"] = 1,
 			["uid"] = "9VFUCmBK7Ip",
 			["id"] = "Moonfire",
-			["frameStrata"] = 1,
 			["useCooldownModRate"] = true,
-			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["width"] = 64,
+			["anchorFrameType"] = "SCREEN",
 			["config"] = {
 			},
 			["inverse"] = false,
-			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
@@ -1757,7 +1764,8 @@ WeakAurasSaved = {
 			["stagger"] = 0,
 			["subRegions"] = {
 			},
-			["uid"] = "ZKaqbE1pWki",
+			["config"] = {
+			},
 			["load"] = {
 				["talent"] = {
 					["multi"] = {
@@ -1776,29 +1784,27 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["useLimit"] = false,
+			["rotation"] = 0,
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["arcLength"] = 360,
+			["limit"] = 5,
 			["animate"] = false,
-			["authorOptions"] = {
-			},
+			["useLimit"] = false,
 			["scale"] = 1,
 			["centerType"] = "LR",
 			["border"] = false,
 			["borderEdge"] = "Square Full White",
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
-			["limit"] = 5,
+			["sort"] = "none",
 			["fullCircle"] = true,
-			["rotation"] = 0,
+			["selfPoint"] = "CENTER",
 			["constantFactor"] = "RADIUS",
-			["config"] = {
-			},
+			["uid"] = "ZKaqbE1pWki",
 			["borderOffset"] = 4,
 			["stepAngle"] = 15,
 			["rowSpace"] = 1,
@@ -1808,13 +1814,14 @@ WeakAurasSaved = {
 			["anchorFrameType"] = "SCREEN",
 			["gridType"] = "RD",
 			["borderInset"] = 1,
-			["sort"] = "none",
-			["radius"] = 200,
+			["authorOptions"] = {
+			},
+			["arcLength"] = 360,
 			["conditions"] = {
 			},
 			["information"] = {
 			},
-			["selfPoint"] = "CENTER",
+			["radius"] = 200,
 		},
 		["Consecration"] = {
 			["iconSource"] = -1,
@@ -1918,13 +1925,11 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["spec"] = {
+				["class_and_spec"] = {
 					["multi"] = {
-					},
-				},
-				["use_dragonriding"] = false,
-				["class"] = {
-					["multi"] = {
+						[70] = true,
+						[65] = true,
+						[66] = true,
 					},
 				},
 				["talent"] = {
@@ -1932,8 +1937,18 @@ WeakAurasSaved = {
 					},
 				},
 				["use_vehicle"] = false,
-				["use_alive"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_dragonriding"] = false,
+				["use_class_and_spec"] = false,
 				["use_combat"] = true,
+				["use_alive"] = true,
+				["class"] = {
+					["multi"] = {
+					},
+				},
 				["size"] = {
 					["multi"] = {
 					},
@@ -1945,16 +1960,16 @@ WeakAurasSaved = {
 			["xOffset"] = 0,
 			["authorOptions"] = {
 			},
-			["cooldownTextDisabled"] = false,
 			["zoom"] = 0,
-			["useCooldownModRate"] = true,
+			["cooldownTextDisabled"] = false,
+			["frameStrata"] = 1,
 			["config"] = {
 			},
 			["id"] = "Consecration",
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
 			["width"] = 64,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["useCooldownModRate"] = true,
 			["uid"] = "2plkuh0Kgul",
 			["inverse"] = false,
 			["actions"] = {
@@ -2101,29 +2116,26 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["use_class_and_spec"] = false,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
 				["class_and_spec"] = {
 					["single"] = 104,
 					["multi"] = {
 						[103] = true,
-						[104] = true,
-						[102] = true,
-						[105] = true,
 					},
 				},
 				["talent"] = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["class"] = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
+				["use_combat"] = true,
+				["use_class_and_spec"] = false,
 				["size"] = {
 					["multi"] = {
 					},
@@ -2159,18 +2171,18 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["zoom"] = 0,
-			["alpha"] = 1,
+			["cooldownTextDisabled"] = false,
+			["useCooldownModRate"] = true,
 			["config"] = {
 			},
 			["id"] = "Rip",
-			["width"] = 64,
-			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["useCooldownModRate"] = true,
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["alpha"] = 1,
 			["uid"] = "GTnSn7aGdnw",
 			["inverse"] = false,
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["conditions"] = {
 			},
 			["information"] = {
@@ -2276,7 +2288,10 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["use_class_and_spec"] = false,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
 				["class_and_spec"] = {
 					["single"] = 104,
 					["multi"] = {
@@ -2290,15 +2305,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["class"] = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
+				["use_combat"] = true,
+				["use_class_and_spec"] = false,
 				["size"] = {
 					["multi"] = {
 					},
@@ -2346,18 +2358,18 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["zoom"] = 0,
-			["frameStrata"] = 1,
+			["cooldownTextDisabled"] = false,
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["id"] = "Thrash",
-			["anchorFrameType"] = "SCREEN",
-			["useCooldownModRate"] = true,
 			["width"] = 64,
-			["alpha"] = 1,
+			["useCooldownModRate"] = true,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["uid"] = "NEf)ovkhel3",
 			["inverse"] = false,
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["conditions"] = {
 			},
 			["information"] = {
@@ -2463,11 +2475,8 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["use_alive"] = true,
-				["class"] = {
-					["multi"] = {
-					},
-				},
+				["use_combat"] = true,
+				["use_class_and_spec"] = false,
 				["class_and_spec"] = {
 					["multi"] = {
 						[268] = true,
@@ -2477,12 +2486,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_class_and_spec"] = false,
+				["use_alive"] = true,
+				["class"] = {
+					["multi"] = {
+					},
+				},
 				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["size"] = {
 					["multi"] = {
 					},
@@ -2525,15 +2537,15 @@ WeakAurasSaved = {
 				},
 			},
 			["parent"] = "Monk",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["alpha"] = 1,
 			["uid"] = "k9)SUGMbM6V",
 			["id"] = "Breath of Fire",
-			["frameStrata"] = 1,
 			["useCooldownModRate"] = true,
-			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["width"] = 64,
+			["anchorFrameType"] = "SCREEN",
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -2651,11 +2663,11 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["use_alive"] = true,
-				["spec"] = {
+				["class"] = {
 					["multi"] = {
 					},
 				},
+				["use_class_and_spec"] = false,
 				["class_and_spec"] = {
 					["multi"] = {
 						[268] = true,
@@ -2665,12 +2677,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_class_and_spec"] = false,
-				["use_combat"] = true,
-				["class"] = {
+				["use_alive"] = true,
+				["spec"] = {
 					["multi"] = {
 					},
 				},
+				["use_combat"] = true,
 				["size"] = {
 					["multi"] = {
 					},
@@ -2682,16 +2694,16 @@ WeakAurasSaved = {
 			["xOffset"] = 0,
 			["authorOptions"] = {
 			},
-			["cooldownTextDisabled"] = false,
 			["zoom"] = 0,
-			["useCooldownModRate"] = true,
+			["cooldownTextDisabled"] = false,
+			["frameStrata"] = 1,
 			["config"] = {
 			},
 			["id"] = "Keg Smash",
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
 			["width"] = 64,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["useCooldownModRate"] = true,
 			["uid"] = "rKOTuuw8cam",
 			["inverse"] = false,
 			["actions"] = {
@@ -2864,8 +2876,8 @@ WeakAurasSaved = {
 				},
 				["use_dragonriding"] = false,
 				["use_class_and_spec"] = false,
-				["use_combat"] = true,
 				["use_alive"] = true,
+				["use_combat"] = true,
 				["class"] = {
 					["multi"] = {
 					},
@@ -2881,16 +2893,16 @@ WeakAurasSaved = {
 			["xOffset"] = 0,
 			["authorOptions"] = {
 			},
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
-			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["useCooldownModRate"] = true,
 			["config"] = {
 			},
 			["id"] = "Blade Flurry",
-			["width"] = 64,
-			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["useCooldownModRate"] = true,
+			["alpha"] = 1,
+			["width"] = 64,
+			["frameStrata"] = 1,
 			["uid"] = "IxrInrH4ks)",
 			["inverse"] = false,
 			["actions"] = {
@@ -2931,15 +2943,5 @@ WeakAurasSaved = {
 			},
 		},
 	},
-	["lastArchiveClear"] = 1702355539,
-	["minimap"] = {
-		["hide"] = false,
-	},
-	["lastUpgrade"] = 1702355542,
-	["dbVersion"] = 70,
-	["login_squelch_time"] = 10,
-	["registered"] = {
-	},
-	["editor_font_size"] = 12,
 	["editor_theme"] = "Monokai",
 }

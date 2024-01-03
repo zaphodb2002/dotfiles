@@ -13,9 +13,17 @@ DynamicCamDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["standardSettings"] = {
+				["cvars"] = {
+					["test_cameraTargetFocusInteractEnable"] = 1,
+					["test_cameraTargetFocusEnemyEnable"] = 1,
+					["cameraDistanceMaxZoomFactor"] = 2,
+				},
+			},
 			["version"] = 3,
 		},
 	},
 }
 minZoomValues = {
+	[234885] = 0.7913018465042114,
 }

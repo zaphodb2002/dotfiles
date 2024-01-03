@@ -5,17 +5,17 @@ DataStore_AuctionsDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
-		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
 		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 	},
 	["global"] = {
@@ -23,6 +23,11 @@ DataStore_AuctionsDB = {
 			["Default.Stormreaver.Bretanomyces"] = {
 				["lastUpdate"] = 1703287707,
 				["lastVisitDate"] = "2023/12/22 15:28",
+			},
+			["Default.Dalaran.Morgntreeman"] = {
+				["lastAuctionsScan"] = 1704069961,
+				["lastVisitDate"] = "2023/12/31 16:42",
+				["lastUpdate"] = 1704069961,
 			},
 			["Default.Stormreaver.Jaalohwa"] = {
 				["lastAuctionsScan"] = 1704169741,
@@ -43,34 +48,6 @@ DataStore_AuctionsDB = {
 					"0|176799|1||0|6912300|172713|1927405635", -- [12]
 					"0|36556|1||0|13619000|172734|1927406721", -- [13]
 					"0|176987|1||0|150755900|172766|1927408470", -- [14]
-				},
-			},
-			["Default.Dalaran.Morgntreeman"] = {
-				["lastAuctionsScan"] = 1704069961,
-				["lastVisitDate"] = "2023/12/31 16:42",
-				["lastUpdate"] = 1704069961,
-				["Auctions"] = {
-					"0|124120|3||0|300|172612|1922591257", -- [1]
-					"0|21877|319||0|900|172603|1922590854", -- [2]
-					"0|7076|3||0|2300|172641|1922592919", -- [3]
-					"0|22790|1||0|4500|172652|1922593610", -- [4]
-					"0|21882|7||0|9900|172695|1922596233", -- [5]
-					"0|17010|12||0|10000|172689|1922595794", -- [6]
-					"0|23572|6||0|26100|172628|1922592124", -- [7]
-					"0|24892|1||0|32800|172715|1922597420", -- [8]
-					"0|24654|1||0|52500|172751|1922599311", -- [9]
-					"0|16819|1||0|126800|172773|1922600514", -- [10]
-					"0|24786|1||0|134900|172710|1922597156", -- [11]
-					"0|16851|1||0|259900|172744|1922598955", -- [12]
-					"0|16851|1||0|259900|172737|1922598549", -- [13]
-					"0|24673|1||0|343800|172702|1922596640", -- [14]
-					"0|25012|1||0|355200|172720|1922597672", -- [15]
-					"0|13107|1||0|421800|172776|1922600684", -- [16]
-					"0|24684|1||0|919900|172760|1922599839", -- [17]
-					"0|21371|1||0|2500000|172799|1922601882", -- [18]
-					"0|144405|1||0|5000000|172730|1922598246", -- [19]
-					"0|25216|1||0|24068600|172785|1922601076", -- [20]
-					"0|25157|1||0|25009700|172791|1922601460", -- [21]
 				},
 			},
 		},

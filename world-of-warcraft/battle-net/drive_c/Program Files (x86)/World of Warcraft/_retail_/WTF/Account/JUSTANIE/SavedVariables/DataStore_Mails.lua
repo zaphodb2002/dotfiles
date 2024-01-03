@@ -5,17 +5,17 @@ DataStore_MailsDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
-		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
 		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 	},
 	["global"] = {
@@ -136,9 +136,21 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1704174674,
 				["lastVisitDate"] = "2024/01/01 21:51",
 			},
-			["Default.Dalaran.Petitmort"] = {
-				["lastUpdate"] = 1704175593,
-				["lastVisitDate"] = "2024/01/01 22:06",
+			["Default.Dalaran.Hyaae"] = {
+				["lastUpdate"] = 1702268627,
+				["Mails"] = {
+					{
+						["icon"] = 134327,
+						["sender"] = "Hyaae",
+						["subject"] = "Character Boost",
+						["returned"] = true,
+						["money"] = 0,
+						["text"] = "We've supplied you with a whole new set of high-level gear, but attached you'll find all the old items and equipment you once carried.\r\n\r\n - The WoW Dev Team",
+						["lastCheck"] = 1702268627,
+						["daysLeft"] = 177.0392150878906,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2023/12/10 20:23",
 			},
 			["Default.Dalaran.Attacknknees"] = {
 				["lastUpdate"] = 1704175741,
@@ -164,21 +176,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1704176665,
 				["lastVisitDate"] = "2024/01/01 22:24",
 			},
-			["Default.Dalaran.Hyaae"] = {
-				["lastUpdate"] = 1702268627,
-				["Mails"] = {
-					{
-						["icon"] = 134327,
-						["sender"] = "Hyaae",
-						["subject"] = "Character Boost",
-						["returned"] = true,
-						["money"] = 0,
-						["text"] = "We've supplied you with a whole new set of high-level gear, but attached you'll find all the old items and equipment you once carried.\r\n\r\n - The WoW Dev Team",
-						["lastCheck"] = 1702268627,
-						["daysLeft"] = 177.0392150878906,
-					}, -- [1]
-				},
-				["lastVisitDate"] = "2023/12/10 20:23",
+			["Default.Dalaran.Petitmort"] = {
+				["lastUpdate"] = 1704175593,
+				["lastVisitDate"] = "2024/01/01 22:06",
 			},
 			["Default.Stormreaver.Arila"] = {
 				["lastUpdate"] = 1704176236,

@@ -117,3 +117,4 @@ taskd.cert=\/home\/zaphod\/.task\/zaphod.cert.pem
 journal.info=off
 
 weekstart=monday
+recurrence.limit=14

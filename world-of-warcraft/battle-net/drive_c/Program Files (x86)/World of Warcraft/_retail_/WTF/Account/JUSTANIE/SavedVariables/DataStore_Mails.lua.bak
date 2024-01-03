@@ -5,17 +5,17 @@ DataStore_MailsDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
 		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
-		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
 	},
 	["global"] = {
@@ -132,10 +132,6 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1704176236,
 				["lastVisitDate"] = "2024/01/01 22:17",
 			},
-			["Default.Dalaran.Petitmort"] = {
-				["lastUpdate"] = 1704175593,
-				["lastVisitDate"] = "2024/01/01 22:06",
-			},
 			["Default.Dalaran.Hyaae"] = {
 				["lastUpdate"] = 1702268627,
 				["Mails"] = {
@@ -151,6 +147,10 @@ DataStore_MailsDB = {
 					}, -- [1]
 				},
 				["lastVisitDate"] = "2023/12/10 20:23",
+			},
+			["Default.Dalaran.Petitmort"] = {
+				["lastUpdate"] = 1704175593,
+				["lastVisitDate"] = "2024/01/01 22:06",
 			},
 			["Default.Dalaran.Attacknknees"] = {
 				["lastUpdate"] = 1704175741,

@@ -5,17 +5,17 @@ DataStore_TalentsDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
-		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
 		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 	},
 	["global"] = {
@@ -32,7 +32,7 @@ DataStore_TalentsDB = {
 			},
 			["Default.Stormreaver.Jaalohwa"] = {
 				["activeSpecRole"] = "TANK",
-				["lastUpdate"] = 1704173636,
+				["lastUpdate"] = 1704260651,
 				["Specializations"] = {
 					0, -- [1]
 					0, -- [2]
@@ -41,15 +41,15 @@ DataStore_TalentsDB = {
 				["activeSpecIndex"] = 2,
 				["activeSpecName"] = "Protection",
 			},
-			["Default.Dalaran.Pangdai"] = {
-				["activeSpecRole"] = "TANK",
-				["lastUpdate"] = 1704175774,
+			["Default.Stormreaver.Ruderalis"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1704177029,
 				["Specializations"] = {
 					0, -- [1]
 				},
-				["Class"] = "MONK",
+				["Class"] = "DRUID",
 				["activeSpecIndex"] = 1,
-				["activeSpecName"] = "Brewmaster",
+				["activeSpecName"] = "Balance",
 			},
 			["Default.Stormreaver.Dumpiss"] = {
 				["activeSpecRole"] = "DAMAGER",
@@ -82,15 +82,15 @@ DataStore_TalentsDB = {
 				["activeSpecIndex"] = 2,
 				["activeSpecName"] = "Fire",
 			},
-			["Default.Stormreaver.Ruderalis"] = {
-				["activeSpecRole"] = "DAMAGER",
-				["lastUpdate"] = 1704177029,
+			["Default.Dalaran.Pangdai"] = {
+				["activeSpecRole"] = "TANK",
+				["lastUpdate"] = 1704175774,
 				["Specializations"] = {
 					0, -- [1]
 				},
-				["Class"] = "DRUID",
+				["Class"] = "MONK",
 				["activeSpecIndex"] = 1,
-				["activeSpecName"] = "Balance",
+				["activeSpecName"] = "Brewmaster",
 			},
 			["Default.Dalaran.Icanglidewee"] = {
 				["activeSpecRole"] = "TANK",
@@ -102,27 +102,6 @@ DataStore_TalentsDB = {
 				["activeSpecIndex"] = 2,
 				["activeSpecName"] = "Vengeance",
 			},
-			["Default.Dalaran.Petitmort"] = {
-				["activeSpecRole"] = "DAMAGER",
-				["lastUpdate"] = 1704175493,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["Class"] = "DEATHKNIGHT",
-				["activeSpecIndex"] = 3,
-				["activeSpecName"] = "Unholy",
-			},
-			["Default.Dalaran.Morgntreeman"] = {
-				["activeSpecRole"] = "TANK",
-				["lastUpdate"] = 1704175933,
-				["Specializations"] = {
-					[3] = 0,
-					[2] = 0,
-				},
-				["Class"] = "DRUID",
-				["activeSpecIndex"] = 3,
-				["activeSpecName"] = "Guardian",
-			},
 			["Default.Dalaran.Hyaae"] = {
 				["activeSpecRole"] = "DAMAGER",
 				["lastUpdate"] = 1702275435,
@@ -133,6 +112,27 @@ DataStore_TalentsDB = {
 				["Class"] = "PALADIN",
 				["activeSpecIndex"] = 3,
 				["activeSpecName"] = "Retribution",
+			},
+			["Default.Dalaran.Morgntreeman"] = {
+				["activeSpecRole"] = "TANK",
+				["lastUpdate"] = 1704257856,
+				["Specializations"] = {
+					[3] = 0,
+					[2] = 0,
+				},
+				["Class"] = "DRUID",
+				["activeSpecIndex"] = 3,
+				["activeSpecName"] = "Guardian",
+			},
+			["Default.Dalaran.Petitmort"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1704175493,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "DEATHKNIGHT",
+				["activeSpecIndex"] = 3,
+				["activeSpecName"] = "Unholy",
 			},
 			["Default.Dalaran.Attacknknees"] = {
 				["activeSpecRole"] = "DAMAGER",
@@ -193,17 +193,17 @@ DataStore_TalentsRefDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
-		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
 		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 	},
 	["global"] = {

@@ -12,9 +12,9 @@ MATAB = {
 					},
 					["ItemUpgradeFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 291,
+						["PX"] = 1189,
+						["PY"] = 344,
 						["RE"] = "BOTTOMLEFT",
-						["PX"] = 1223,
 					},
 					["ClassTalentFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -24,9 +24,9 @@ MATAB = {
 					},
 					["CharacterFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 420,
+						["PX"] = 496,
+						["PY"] = 528,
 						["RE"] = "BOTTOMLEFT",
-						["PX"] = 742,
 					},
 					["MailFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -70,9 +70,15 @@ MATAB = {
 						["PX"] = 17,
 						["RE"] = "BOTTOMLEFT",
 					},
+					["ChallengesKeystoneFrame"] = {
+					},
 					["ChannelFrame"] = {
 					},
-					["PetStableFrame"] = {
+					["CalendarFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 361,
+						["PX"] = 16,
+						["RE"] = "BOTTOMLEFT",
 					},
 					["QuestFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -80,13 +86,13 @@ MATAB = {
 						["RE"] = "BOTTOMLEFT",
 						["PX"] = 13,
 					},
-					["ChallengesKeystoneFrame"] = {
-					},
-					["CalendarFrame"] = {
+					["TradeFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 361,
+						["PY"] = 518,
 						["PX"] = 16,
 						["RE"] = "BOTTOMLEFT",
+					},
+					["PetStableFrame"] = {
 					},
 					["CovenantMissionFrame"] = {
 					},
@@ -122,15 +128,15 @@ MATAB = {
 					},
 					["SettingsPanel"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 243,
+						["PY"] = 278,
+						["PX"] = 595,
 						["RE"] = "BOTTOMLEFT",
-						["PX"] = 502,
 					},
 					["WardrobeFrame"] = {
 						["AN"] = "BOTTOMLEFT",
 						["PY"] = 358,
-						["RE"] = "BOTTOMLEFT",
 						["PX"] = 320,
+						["RE"] = "BOTTOMLEFT",
 					},
 					["WeeklyRewardsFrame"] = {
 					},
@@ -214,11 +220,7 @@ MATAB = {
 					},
 					["EncounterJournal"] = {
 					},
-					["TradeFrame"] = {
-						["AN"] = "BOTTOMLEFT",
-						["PY"] = 518,
-						["PX"] = 16,
-						["RE"] = "BOTTOMLEFT",
+					["ItemInteractionFrame"] = {
 					},
 					["HelpFrame"] = {
 					},
@@ -247,6 +249,8 @@ MATAB = {
 					["GarrisonLandingPage"] = {
 					},
 					["GarrisonCapacitiveDisplayFrame"] = {
+					},
+					["CollectionsJournal"] = {
 					},
 					["StaticPopup1"] = {
 					},
@@ -300,7 +304,7 @@ MATAB = {
 					},
 					["OpenMailFrame"] = {
 					},
-					["QuickKeybindFrame"] = {
+					["TaxiFrame"] = {
 					},
 					["GossipFrame"] = {
 					},
@@ -317,7 +321,7 @@ MATAB = {
 					},
 					["TimeManagerFrame"] = {
 					},
-					["TaxiFrame"] = {
+					["QuickKeybindFrame"] = {
 					},
 					["PlayerChoiceFrame"] = {
 					},
@@ -335,7 +339,7 @@ MATAB = {
 					},
 					["EncounterJournal"] = {
 					},
-					["CollectionsJournal"] = {
+					["ItemInteractionFrame"] = {
 					},
 					["HelpFrame"] = {
 					},

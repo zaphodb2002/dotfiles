@@ -3,6 +3,13 @@ WeakAurasSaved = {
 	["dynamicIconCache"] = {
 	},
 	["editor_tab_spaces"] = 4,
+	["login_squelch_time"] = 10,
+	["lastArchiveClear"] = 1702355539,
+	["minimap"] = {
+		["hide"] = false,
+	},
+	["lastUpgrade"] = 1702355542,
+	["dbVersion"] = 70,
 	["displays"] = {
 		["Rushing Jade Wind"] = {
 			["iconSource"] = -1,
@@ -106,14 +113,8 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
+				["use_class_and_spec"] = false,
+				["use_combat"] = true,
 				["class_and_spec"] = {
 					["multi"] = {
 						[268] = true,
@@ -123,9 +124,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
 				["use_alive"] = true,
-				["use_class_and_spec"] = false,
 				["size"] = {
 					["multi"] = {
 					},
@@ -137,16 +144,16 @@ WeakAurasSaved = {
 			["xOffset"] = 0,
 			["authorOptions"] = {
 			},
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
-			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["useCooldownModRate"] = true,
 			["config"] = {
 			},
 			["id"] = "Rushing Jade Wind",
-			["width"] = 64,
-			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["useCooldownModRate"] = true,
+			["alpha"] = 1,
+			["width"] = 64,
+			["frameStrata"] = 1,
 			["uid"] = "rvm2uMY8nOG",
 			["inverse"] = false,
 			["actions"] = {
@@ -238,8 +245,7 @@ WeakAurasSaved = {
 			["stagger"] = 0,
 			["subRegions"] = {
 			},
-			["config"] = {
-			},
+			["uid"] = "v5O3r6KJ1(i",
 			["load"] = {
 				["talent"] = {
 					["multi"] = {
@@ -258,23 +264,23 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["grow"] = "HORIZONTAL",
+			["selfPoint"] = "CENTER",
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["rotation"] = 0,
+			["sort"] = "none",
 			["animate"] = false,
-			["radius"] = 200,
+			["grow"] = "HORIZONTAL",
 			["scale"] = 1,
 			["centerType"] = "LR",
 			["border"] = false,
 			["borderEdge"] = "Square Full White",
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
-			["sort"] = "none",
+			["limit"] = 5,
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -295,9 +301,10 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["selfPoint"] = "CENTER",
+			["fullCircle"] = true,
 			["constantFactor"] = "RADIUS",
-			["uid"] = "v5O3r6KJ1(i",
+			["config"] = {
+			},
 			["borderOffset"] = 4,
 			["stepAngle"] = 15,
 			["rowSpace"] = 1,
@@ -307,13 +314,13 @@ WeakAurasSaved = {
 			["anchorFrameType"] = "SCREEN",
 			["gridType"] = "RD",
 			["borderInset"] = 1,
-			["limit"] = 5,
-			["xOffset"] = 0,
+			["radius"] = 200,
+			["rotation"] = 0,
 			["conditions"] = {
 			},
 			["information"] = {
 			},
-			["fullCircle"] = true,
+			["xOffset"] = 0,
 		},
 		["Touch of Death"] = {
 			["iconSource"] = -1,
@@ -483,18 +490,18 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["alpha"] = 1,
 			["uid"] = "xce)R9oxjos",
 			["id"] = "Touch of Death",
-			["useCooldownModRate"] = true,
 			["frameStrata"] = 1,
-			["width"] = 64,
+			["useCooldownModRate"] = true,
 			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
 			["config"] = {
 			},
 			["inverse"] = false,
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
@@ -633,16 +640,16 @@ WeakAurasSaved = {
 			["xOffset"] = 0,
 			["authorOptions"] = {
 			},
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
-			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["useCooldownModRate"] = true,
 			["config"] = {
 			},
 			["id"] = "Instant Poison",
-			["width"] = 64,
-			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["useCooldownModRate"] = true,
+			["alpha"] = 1,
+			["width"] = 64,
+			["frameStrata"] = 1,
 			["uid"] = "u3F67Sr(Zkl",
 			["inverse"] = false,
 			["actions"] = {
@@ -785,10 +792,7 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["spec"] = {
-					["multi"] = {
-					},
-				},
+				["use_class_and_spec"] = true,
 				["class_and_spec"] = {
 					["single"] = 103,
 				},
@@ -796,12 +800,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_combat"] = true,
 				["class"] = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
-				["use_class_and_spec"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
 				["size"] = {
 					["multi"] = {
 					},
@@ -831,18 +838,18 @@ WeakAurasSaved = {
 			},
 			["authorOptions"] = {
 			},
-			["cooldownTextDisabled"] = false,
-			["useCooldownModRate"] = true,
+			["zoom"] = 0,
+			["frameStrata"] = 1,
 			["config"] = {
 			},
 			["id"] = "Adaptive Swarm",
-			["width"] = 64,
-			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
+			["width"] = 64,
+			["useCooldownModRate"] = true,
 			["uid"] = "V8nAdc4umtQ",
 			["inverse"] = false,
-			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["conditions"] = {
 			},
 			["information"] = {
@@ -1028,16 +1035,16 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["frameStrata"] = 1,
 			["config"] = {
 			},
 			["id"] = "Celestial Brew",
-			["alpha"] = 1,
 			["useCooldownModRate"] = true,
-			["width"] = 64,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
 			["uid"] = "(lserCM5kar",
 			["inverse"] = false,
 			["color"] = {
@@ -1097,7 +1104,7 @@ WeakAurasSaved = {
 			["stagger"] = 0,
 			["subRegions"] = {
 			},
-			["arcLength"] = 360,
+			["sort"] = "none",
 			["load"] = {
 				["size"] = {
 					["multi"] = {
@@ -1116,28 +1123,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["radius"] = 200,
-			["backdropColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
-			},
-			["borderColor"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				1, -- [4]
-			},
-			["animate"] = false,
-			["useLimit"] = false,
-			["scale"] = 1,
-			["centerType"] = "LR",
-			["border"] = false,
-			["borderEdge"] = "Square Full White",
-			["regionType"] = "dynamicgroup",
-			["borderSize"] = 2,
-			["limit"] = 5,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -1158,7 +1143,24 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["sort"] = "none",
+			["backdropColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["radius"] = 200,
+			["animate"] = false,
+			["arcLength"] = 360,
+			["scale"] = 1,
+			["centerType"] = "LR",
+			["border"] = false,
+			["borderEdge"] = "Square Full White",
+			["regionType"] = "dynamicgroup",
+			["borderSize"] = 2,
+			["limit"] = 5,
+			["useLimit"] = false,
+			["rotation"] = 0,
 			["constantFactor"] = "RADIUS",
 			["borderInset"] = 1,
 			["borderOffset"] = 4,
@@ -1169,16 +1171,21 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["stepAngle"] = 15,
+			["uid"] = "PhN(z3bIG44",
 			["config"] = {
 			},
-			["uid"] = "PhN(z3bIG44",
-			["authorOptions"] = {
+			["borderColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
 			},
 			["conditions"] = {
 			},
 			["information"] = {
 			},
-			["rotation"] = 0,
+			["authorOptions"] = {
+			},
 		},
 		["Rake"] = {
 			["iconSource"] = -1,
@@ -1314,29 +1321,26 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["spec"] = {
-					["multi"] = {
-					},
-				},
+				["use_class_and_spec"] = false,
 				["class_and_spec"] = {
 					["single"] = 104,
 					["multi"] = {
 						[103] = true,
-						[104] = true,
-						[102] = true,
-						[105] = true,
 					},
 				},
 				["talent"] = {
 					["multi"] = {
 					},
 				},
+				["use_combat"] = true,
 				["class"] = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
-				["use_class_and_spec"] = false,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
 				["size"] = {
 					["multi"] = {
 					},
@@ -1347,16 +1351,16 @@ WeakAurasSaved = {
 			["parent"] = "Druid",
 			["selfPoint"] = "CENTER",
 			["xOffset"] = 0,
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["alpha"] = 1,
 			["config"] = {
 			},
 			["id"] = "Rake",
-			["useCooldownModRate"] = true,
 			["frameStrata"] = 1,
-			["width"] = 64,
+			["useCooldownModRate"] = true,
 			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
 			["uid"] = "AESieBS1j4O",
 			["inverse"] = false,
 			["authorOptions"] = {
@@ -1420,7 +1424,8 @@ WeakAurasSaved = {
 			["stagger"] = 0,
 			["subRegions"] = {
 			},
-			["uid"] = "HT0W62cwlZO",
+			["config"] = {
+			},
 			["load"] = {
 				["talent"] = {
 					["multi"] = {
@@ -1439,25 +1444,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["useLimit"] = false,
-			["backdropColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
-			},
-			["sort"] = "none",
-			["animate"] = false,
-			["authorOptions"] = {
-			},
-			["scale"] = 1,
-			["centerType"] = "LR",
-			["border"] = false,
-			["borderEdge"] = "Square Full White",
-			["regionType"] = "dynamicgroup",
-			["borderSize"] = 2,
-			["limit"] = 5,
-			["internalVersion"] = 70,
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -1478,9 +1464,26 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["constantFactor"] = "RADIUS",
-			["config"] = {
+			["backdropColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
 			},
+			["arcLength"] = 360,
+			["animate"] = false,
+			["useLimit"] = false,
+			["scale"] = 1,
+			["centerType"] = "LR",
+			["border"] = false,
+			["borderEdge"] = "Square Full White",
+			["regionType"] = "dynamicgroup",
+			["borderSize"] = 2,
+			["sort"] = "none",
+			["rotation"] = 0,
+			["internalVersion"] = 70,
+			["constantFactor"] = "RADIUS",
+			["uid"] = "HT0W62cwlZO",
 			["borderOffset"] = 4,
 			["stepAngle"] = 15,
 			["rowSpace"] = 1,
@@ -1490,13 +1493,14 @@ WeakAurasSaved = {
 			["anchorFrameType"] = "SCREEN",
 			["gridType"] = "RD",
 			["borderInset"] = 1,
-			["fullCircle"] = true,
-			["rotation"] = 0,
+			["limit"] = 5,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 			},
 			["information"] = {
 			},
-			["arcLength"] = 360,
+			["fullCircle"] = true,
 		},
 		["Moonfire"] = {
 			["iconSource"] = -1,
@@ -1601,7 +1605,10 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["use_class_and_spec"] = false,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
 				["class_and_spec"] = {
 					["single"] = 104,
 					["multi"] = {
@@ -1615,15 +1622,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["class"] = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
+				["use_combat"] = true,
+				["use_class_and_spec"] = false,
 				["size"] = {
 					["multi"] = {
 					},
@@ -1635,16 +1639,16 @@ WeakAurasSaved = {
 			["xOffset"] = 0,
 			["authorOptions"] = {
 			},
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
-			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["useCooldownModRate"] = true,
 			["config"] = {
 			},
 			["id"] = "Moonfire",
-			["width"] = 64,
-			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["useCooldownModRate"] = true,
+			["alpha"] = 1,
+			["width"] = 64,
+			["frameStrata"] = 1,
 			["uid"] = "9VFUCmBK7Ip",
 			["inverse"] = false,
 			["actions"] = {
@@ -1757,7 +1761,8 @@ WeakAurasSaved = {
 			["stagger"] = 0,
 			["subRegions"] = {
 			},
-			["sort"] = "none",
+			["authorOptions"] = {
+			},
 			["load"] = {
 				["size"] = {
 					["multi"] = {
@@ -1776,7 +1781,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["radius"] = 200,
+			["arcLength"] = 360,
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
@@ -1785,7 +1790,7 @@ WeakAurasSaved = {
 			},
 			["fullCircle"] = true,
 			["animate"] = false,
-			["selfPoint"] = "CENTER",
+			["radius"] = 200,
 			["scale"] = 1,
 			["centerType"] = "LR",
 			["border"] = false,
@@ -1793,9 +1798,8 @@ WeakAurasSaved = {
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
 			["limit"] = 5,
-			["arcLength"] = 360,
-			["authorOptions"] = {
-			},
+			["useLimit"] = false,
+			["sort"] = "none",
 			["constantFactor"] = "RADIUS",
 			["borderInset"] = 1,
 			["borderOffset"] = 4,
@@ -1806,15 +1810,15 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["stepAngle"] = 15,
-			["uid"] = "ZKaqbE1pWki",
 			["config"] = {
 			},
-			["rotation"] = 0,
+			["uid"] = "ZKaqbE1pWki",
+			["selfPoint"] = "CENTER",
 			["conditions"] = {
 			},
 			["information"] = {
 			},
-			["useLimit"] = false,
+			["rotation"] = 0,
 		},
 		["Blade Flurry"] = {
 			["iconSource"] = -1,
@@ -1946,8 +1950,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["use_alive"] = true,
+				["use_combat"] = true,
 				["size"] = {
 					["multi"] = {
 					},
@@ -1991,18 +1995,18 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["alpha"] = 1,
 			["uid"] = "IxrInrH4ks)",
 			["id"] = "Blade Flurry",
-			["useCooldownModRate"] = true,
 			["frameStrata"] = 1,
-			["width"] = 64,
+			["useCooldownModRate"] = true,
 			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
 			["config"] = {
 			},
 			["inverse"] = false,
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
@@ -2111,14 +2115,8 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
+				["use_class_and_spec"] = false,
+				["use_combat"] = true,
 				["class_and_spec"] = {
 					["multi"] = {
 						[268] = true,
@@ -2128,9 +2126,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
 				["use_alive"] = true,
-				["use_class_and_spec"] = false,
 				["size"] = {
 					["multi"] = {
 					},
@@ -2181,18 +2185,18 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["alpha"] = 1,
 			["uid"] = "rKOTuuw8cam",
 			["id"] = "Keg Smash",
-			["frameStrata"] = 1,
 			["useCooldownModRate"] = true,
-			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["width"] = 64,
+			["anchorFrameType"] = "SCREEN",
 			["config"] = {
 			},
 			["inverse"] = false,
-			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
@@ -2297,7 +2301,10 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["use_combat"] = true,
+				["class"] = {
+					["multi"] = {
+					},
+				},
 				["class_and_spec"] = {
 					["single"] = 104,
 					["multi"] = {
@@ -2311,15 +2318,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_class_and_spec"] = false,
 				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["use_class_and_spec"] = false,
-				["class"] = {
-					["multi"] = {
-					},
-				},
+				["use_combat"] = true,
 				["size"] = {
 					["multi"] = {
 					},
@@ -2350,15 +2354,15 @@ WeakAurasSaved = {
 				},
 			},
 			["xOffset"] = 0,
-			["cooldownTextDisabled"] = false,
 			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["useCooldownModRate"] = true,
 			["uid"] = "NEf)ovkhel3",
 			["id"] = "Thrash",
-			["alpha"] = 1,
 			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["width"] = 64,
+			["anchorFrameType"] = "SCREEN",
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -2484,11 +2488,11 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["class"] = {
+				["use_class_and_spec"] = false,
+				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["class_and_spec"] = {
 					["multi"] = {
 						[268] = true,
@@ -2498,12 +2502,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
+				["class"] = {
 					["multi"] = {
 					},
 				},
+				["use_combat"] = true,
 				["use_alive"] = true,
-				["use_class_and_spec"] = false,
 				["size"] = {
 					["multi"] = {
 					},
@@ -2532,18 +2536,18 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["zoom"] = 0,
-			["frameStrata"] = 1,
+			["cooldownTextDisabled"] = false,
+			["useCooldownModRate"] = true,
 			["config"] = {
 			},
 			["id"] = "Breath of Fire",
-			["width"] = 64,
-			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["useCooldownModRate"] = true,
+			["alpha"] = 1,
+			["width"] = 64,
+			["frameStrata"] = 1,
 			["uid"] = "k9)SUGMbM6V",
 			["inverse"] = false,
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["conditions"] = {
 			},
 			["information"] = {
@@ -2680,29 +2684,26 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["use_combat"] = true,
+				["class"] = {
+					["multi"] = {
+					},
+				},
 				["class_and_spec"] = {
 					["single"] = 104,
 					["multi"] = {
 						[103] = true,
-						[104] = true,
-						[102] = true,
-						[105] = true,
 					},
 				},
 				["talent"] = {
 					["multi"] = {
 					},
 				},
+				["use_class_and_spec"] = false,
 				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["use_class_and_spec"] = false,
-				["class"] = {
-					["multi"] = {
-					},
-				},
+				["use_combat"] = true,
 				["size"] = {
 					["multi"] = {
 					},
@@ -2733,15 +2734,15 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["cooldownTextDisabled"] = false,
 			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["frameStrata"] = 1,
 			["uid"] = "GTnSn7aGdnw",
 			["id"] = "Rip",
-			["useCooldownModRate"] = true,
 			["alpha"] = 1,
-			["width"] = 64,
+			["useCooldownModRate"] = true,
 			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -2858,12 +2859,13 @@ WeakAurasSaved = {
 			},
 			["height"] = 64,
 			["load"] = {
-				["class"] = {
+				["class_and_spec"] = {
 					["multi"] = {
+						[70] = true,
+						[65] = true,
+						[66] = true,
 					},
 				},
-				["use_dragonriding"] = false,
-				["use_combat"] = true,
 				["talent"] = {
 					["multi"] = {
 					},
@@ -2873,6 +2875,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_dragonriding"] = false,
+				["use_class_and_spec"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
 				["use_alive"] = true,
 				["size"] = {
 					["multi"] = {
@@ -2913,33 +2922,26 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["alpha"] = 1,
 			["uid"] = "2plkuh0Kgul",
 			["id"] = "Consecration",
-			["frameStrata"] = 1,
 			["useCooldownModRate"] = true,
-			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["width"] = 64,
+			["anchorFrameType"] = "SCREEN",
 			["config"] = {
 			},
 			["inverse"] = false,
-			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
 			["parent"] = "Paladin",
 		},
 	},
-	["lastArchiveClear"] = 1702355539,
-	["minimap"] = {
-		["hide"] = false,
-	},
-	["lastUpgrade"] = 1702355542,
-	["dbVersion"] = 70,
-	["editor_font_size"] = 12,
 	["registered"] = {
 	},
-	["login_squelch_time"] = 10,
+	["editor_font_size"] = 12,
 	["editor_theme"] = "Monokai",
 }

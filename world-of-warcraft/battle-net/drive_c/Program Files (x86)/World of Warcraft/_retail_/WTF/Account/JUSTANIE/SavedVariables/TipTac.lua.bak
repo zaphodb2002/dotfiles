@@ -13,7 +13,7 @@ TipTac_Config = {
 	["hideTipsInCombatSpellTips"] = true,
 	["anchorWorldTipType"] = "mouse",
 	["classification_rareelite"] = "+%s|r (Rare)",
-	["hideTipsInCombatFrameTips"] = true,
+	["anchorWorldUnitType"] = "mouse",
 	["classification_minus"] = "-%s",
 	["targetYouText"] = "<<YOU>>",
 	["hideTipsInCombatActionTips"] = true,
@@ -22,7 +22,7 @@ TipTac_Config = {
 	["classification_normal"] = "%s",
 	["reactColoredBorder"] = true,
 	["hideTipsInCombatWorldTips"] = true,
-	["anchorWorldUnitType"] = "mouse",
+	["hideTipsInCombatFrameTips"] = true,
 	["anchorFrameUnitType"] = "mouse",
 	["hideTipsInCombatFrameUnits"] = true,
 }

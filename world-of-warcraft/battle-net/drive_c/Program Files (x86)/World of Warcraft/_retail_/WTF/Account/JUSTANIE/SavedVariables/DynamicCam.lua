@@ -6,8 +6,9 @@ DynamicCamDB = {
 		["Arila - Stormreaver"] = "Default",
 		["Morgntreeman - Dalaran"] = "Default",
 		["Petitmort - Dalaran"] = "Default",
-		["Feloril - Stormreaver"] = "Default",
 		["Attacknknees - Dalaran"] = "Default",
+		["Feloril - Stormreaver"] = "Default",
+		["Jaalohwa - Stormreaver"] = "Default",
 		["Ruderalis - Stormreaver"] = "Default",
 		["Jenleeviyah - Dalaran"] = "Default",
 	},
@@ -25,4 +26,5 @@ DynamicCamDB = {
 	},
 }
 minZoomValues = {
+	[234885] = 0.7913018465042114,
 }

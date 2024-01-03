@@ -57,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178781::::::::60:65::33:6:7359:6652:7194:7379:1508:6646:1:28:1279:::::|h[Ritual Commander's Ring]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 181702,
-			["Level"] = 181,
+			["ID"] = 178781,
+			["Level"] = 194,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:181702::::::::60:65::25:5:6652:7194:1472:5878:6616:1:28:1707:::::|h[Sanctified Guardian's Signet]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178781::::::::60:66::33:6:7359:6652:7194:7379:1508:6646:1:28:1279:::::|h[Ritual Commander's Ring]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 184024,
@@ -69,21 +69,21 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:184024::::::::60:65::5:4:7188:6652:1485:6646:1:28:2060:::::|h[Macabre Sheet Music]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 179350,
-			["Level"] = 200,
+			["ID"] = 184024,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:179350::::::::60:65::35:5:7367:7359:6652:1514:6646::::::|h[Inscrutable Quantum Device]|h|r",
+			["Link"] = "|cffa335ee|Hitem:184024::::::::60:66::5:4:7188:6652:1485:6646:1:28:2060:::::|h[Macabre Sheet Music]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 173242,
-			["Level"] = 190,
-			["Link"] = "|cffff8000|Hitem:173242::::::::60:65::63:6:7066:6716:6649:6648:1487:8156::::::|h[Relentless Inquisitor's Mantle]|h|r",
+			["Level"] = 235,
+			["Link"] = "|cffffffff|Hitem:173242::::::::60:66::66:3:6758:1532:8156::::::|h[Grim-Veiled Cape]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 178709,
-			["Level"] = 184,
+			["ID"] = 184800,
+			["Level"] = 190,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:178709::::::::60:65::23:5:7432:7359:42:1498:6646:1:28:749:::::|h[Scithewood Scepter]|h|r",
+			["Link"] = "|cffa335ee|Hitem:184800::::::::60:66:::3:6652:1472:6646:1:28:1707:::::|h[Klontzas' Precise Pummeler]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 178750,
