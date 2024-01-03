@@ -1,1 +1,0 @@
-{"description":"PM Check-In","due":"20240102T065900Z","entry":"20240101T173003Z","imask":133.000000,"modified":"20231230T185715Z","parent":"dfa84126-bd11-45bb-8509-0e3b6cb42e49","priority":"M","project":"LMS.Process.CheckIns","recur":"1d","rtype":"periodic","status":"pending","uuid":"95e9396d-b975-4cc4-9801-086b7763cfdb","wait":"20240101T230000Z","tags":["daily","pm"]}
