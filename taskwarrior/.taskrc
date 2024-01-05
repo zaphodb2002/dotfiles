@@ -14,12 +14,16 @@ report.next.filter=+READY limit:page
 report.next.sort=scheduled-/,urgency-,due-
 
 report.now.description=what needs doing now
-report.now.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.remaining,due.relative,until.remaining,description.count,urgency
-report.now.filter=+READY (due.before:1d or scheduled.before:1d) limit:page
-report.now.sort=scheduled-/,urgency-,due-
+report.now.columns=urgency,description.count,due.relative,project,tags,start.age,scheduled.relative,entry.age,depends,priority,recur,wait.remaining,until.remaining
+report.now.filter=(scheduled:today or (scheduled: due:today)) end: +READY
+report.now.sort=urgency-,due-
+
+report.overdue.columns=urgency,description.count,due.relative,project,tags,scheduled.relative
+report.overdue.labels=urgency,desc,due,project,tags,scheduled
+report.overdue.filter=(scheduled.before:today or (scheduled: due.before:today) ) end: -TEMPLATE
 
 report.soon.description=in the next 3 days
-report.soon.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.remaining,due.relative,until.remaining,description.count,urgency
+report.soon.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled,due.relative,until.remaining,description.count,urgency
 report.soon.filter=(+PENDING or +WAITING) (recur.none: or recur>1d) (due.before:3d or scheduled.before:3d) limit:page
 report.soon.sort=scheduled-/,due+
 
@@ -34,7 +38,7 @@ report.later.filter=(+PENDING or +WAITING) (scheduled.after:7d or due.after:7d) 
 report.later.sort=scheduled-/,due-
 
 report.templates.description=master recurrence templates
-report.templates.columns=id,project,description.desc,recur,wait,due,until,tags
+report.templates.columns=uuid.short,project,description.desc,recur,wait,due,until,tags
 report.templates.filter=+TEMPLATE status:recurring
 report.templates.sort=project+/,recur+/,wait-,due-
 
@@ -118,3 +122,4 @@ journal.info=off
 
 weekstart=monday
 recurrence.limit=14
+recurrence.confirmation=no

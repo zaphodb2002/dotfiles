@@ -1,6 +1,7 @@
 ## PATH
 export PATH=$PATH:/home/zaphod/.local/bin
 export PATH=$PATH:/home/zaphod/.local/scripts
+export PATH=$PATH:/home/zaphod/.config/taskmaster
 export PATH=$PATH:/home/zaphod/venv/bin
 
 ## History
