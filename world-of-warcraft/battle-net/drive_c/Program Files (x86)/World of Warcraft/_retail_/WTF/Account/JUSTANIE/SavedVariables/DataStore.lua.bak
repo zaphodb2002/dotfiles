@@ -5,17 +5,17 @@ DataStoreDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
-		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
 		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
+		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
 	},
 	["global"] = {
@@ -51,9 +51,9 @@ DataStoreDB = {
 				["guildName"] = "Grape Soda",
 				["faction"] = "Alliance",
 			},
-			["Default.Dalaran.Pangdai"] = {
+			["Default.Stormreaver.Ruderalis"] = {
+				["faction"] = "Horde",
 				["guildName"] = "Grape Soda",
-				["faction"] = "Alliance",
 			},
 			["Default.Dalaran.Icanglidewee"] = {
 				["faction"] = "Alliance",
@@ -67,9 +67,9 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 				["guildName"] = "Grape Soda",
 			},
-			["Default.Dalaran.Petitmort"] = {
-				["faction"] = "Alliance",
+			["Default.Dalaran.Hyaae"] = {
 				["guildName"] = "Grape Soda",
+				["faction"] = "Alliance",
 			},
 			["Default.Dalaran.Morgntreeman"] = {
 				["faction"] = "Alliance",
@@ -83,13 +83,13 @@ DataStoreDB = {
 				["guildName"] = "Grape Soda",
 				["faction"] = "Horde",
 			},
-			["Default.Dalaran.Hyaae"] = {
+			["Default.Dalaran.Petitmort"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Grape Soda",
+			},
+			["Default.Dalaran.Pangdai"] = {
 				["guildName"] = "Grape Soda",
 				["faction"] = "Alliance",
-			},
-			["Default.Stormreaver.Ruderalis"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Grape Soda",
 			},
 		},
 		["ShortToLongRealmNames"] = {

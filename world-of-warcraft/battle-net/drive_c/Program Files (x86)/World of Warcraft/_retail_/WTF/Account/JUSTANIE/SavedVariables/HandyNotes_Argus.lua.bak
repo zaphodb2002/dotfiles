@@ -6,8 +6,9 @@ HandyNotes_ArgusDB = {
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
-		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
+		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
 		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
 	},
@@ -22,9 +23,11 @@ HandyNotes_ArgusDB = {
 		},
 		["Petitmort - Dalaran"] = {
 		},
+		["Jenleeviyah - Dalaran"] = {
+		},
 		["Feloril - Stormreaver"] = {
 		},
-		["Jenleeviyah - Dalaran"] = {
+		["Jaalohwa - Stormreaver"] = {
 		},
 		["Ruderalis - Stormreaver"] = {
 		},

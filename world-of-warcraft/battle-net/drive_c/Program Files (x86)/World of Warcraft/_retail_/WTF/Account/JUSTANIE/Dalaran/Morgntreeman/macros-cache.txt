@@ -89,6 +89,10 @@ VER 3 0100000000000014 "Swipe" "134400"
 #showtooltip Swipe
 /cast Barkskin
 /cast Rage of the Sleeper
+/cast Tiger's Fury
+/cast Berserk
+/use 13
+/use 14
 /cast Survival Instincts
 /cast Incarnation: Guardian of Ursoc
 /cast Swipe
@@ -96,8 +100,8 @@ END
 VER 3 0100000000000010 "Thrash" "134400"
 #showtooltip Thrash
 /cast Barkskin
-/use 13
-/use 14
+/cast Tiger's Fury
+/cast Berserk
 /cast Rage of the Sleeper
 /cast Survival Instincts
 /cast Incarnation: Guardian of Ursoc

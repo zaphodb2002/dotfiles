@@ -8,50 +8,37 @@ data.location=~/.task
 # news.version=2.6.0
 
 # Reports
+## Next: The default report.  This is the primary working report
+report.next.labels=ID,Urgency,Desc,Due,Tags,Project
+report.next.columns=id,urgency,description.count,due.relative,tags,project
+### Anything ready
+report.next.filter=+READY limit:5 end:
+### Sorted by urgency
+report.next.sort=urgency-,due-
 
-report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.remaining,due.relative,until.remaining,description.count,urgency
-report.next.filter=+READY limit:page
-report.next.sort=scheduled-/,urgency-,due-
-
+## Now: Things that need to be done today
 report.now.description=what needs doing now
-report.now.columns=urgency,description.count,due.relative,project,tags,start.age,scheduled.relative,entry.age,depends,priority,recur,wait.remaining,until.remaining
-report.now.filter=(scheduled:today or (scheduled: due:today)) end: +READY
+report.now.labels=ID,Urgency,Desc,Due,Tags,Project
+report.now.columns=id,urgency,description.count,due.relative,tags,project
+### scheduled or due today
+report.now.filter=due:today end: +READY limit:5
 report.now.sort=urgency-,due-
 
-report.overdue.columns=urgency,description.count,due.relative,project,tags,scheduled.relative
-report.overdue.labels=urgency,desc,due,project,tags,scheduled
+## Overdue
+report.overdue.labels=ID,Urgency,Desc,Due,Tags,Project
+report.overdue.columns=id,urgency,description.count,due.relative,tags,project
+report.overdue.labels=id,urgency,desc,due,project,tags,scheduled
 report.overdue.filter=(scheduled.before:today or (scheduled: due.before:today) ) end: -TEMPLATE
-
-report.soon.description=in the next 3 days
-report.soon.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled,due.relative,until.remaining,description.count,urgency
-report.soon.filter=(+PENDING or +WAITING) (recur.none: or recur>1d) (due.before:3d or scheduled.before:3d) limit:page
-report.soon.sort=scheduled-/,due+
-
-report.planning.description=the rest of the week
-report.planning.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.remaining,due.relative,until.remaining,description.count,urgency
-report.planning.filter=(+PENDING or +WAITING) (scheduled.after:3d or due.after:3d) (scheduled.before:7d or due.before:7d) limit:page
-report.planning.sort=scheduled-/,due-
-
-report.later.description=stuff further out
-report.later.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.remaining,due.relative,until.remaining,description.count,urgency
-report.later.filter=(+PENDING or +WAITING) (scheduled.after:7d or due.after:7d) limit:page
-report.later.sort=scheduled-/,due-
 
 report.templates.description=master recurrence templates
 report.templates.columns=uuid.short,project,description.desc,recur,wait,due,until,tags
 report.templates.filter=+TEMPLATE status:recurring
 report.templates.sort=project+/,recur+/,wait-,due-
 
-report.recurrences.description=recurrences of templates
-report.recurrences.columns=status,project,description.desc,recur,wait,due,until,end,tags
-report.recurrences.filter=(+COMPLETED or +DELETED) +CHILD
-report.recurrences.sort=due+/,end+,status+
-
-report.due-before-wait.description=Templates that are impossible to complete on time
-report.due-before-wait.columns=id,uuid,description,recur,wait,due
-report.due-before-wait.filter=+TEMPLATE (due.after:2023-08-31T23:59:59)
-report.due-before-wait.sort=due+/,wait+
-
+report.week.description=This Week
+report.week.columns=id,description.count,due.relative,project,tags,scheduled.relative
+report.week.filter=(scheduled.after:sow scheduled.before:eow) or (scheduled: due.after:sow due.before:eow) +READY limit:page
+report.week.sort=urgency-
 
 default.command=next
 default.project=LMS.Inbox
@@ -106,6 +93,7 @@ context.chores.read=+next or +shopping or project:LMS.Process or project:Subsist
 
 # Tags
 #urgency.user.tag.am.coefficient=3.0
+urgency.user.tag.daily.coefficient=2.0
 urgency.user.tag.weekly.coefficient=3.0
 urgency.user.tag.monthly.coefficient=4.0
 

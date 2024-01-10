@@ -16,8 +16,6 @@ DynamicCamDB = {
 		["Default"] = {
 			["standardSettings"] = {
 				["cvars"] = {
-					["test_cameraTargetFocusInteractEnable"] = 1,
-					["test_cameraTargetFocusEnemyEnable"] = 1,
 					["cameraDistanceMaxZoomFactor"] = 2,
 				},
 			},

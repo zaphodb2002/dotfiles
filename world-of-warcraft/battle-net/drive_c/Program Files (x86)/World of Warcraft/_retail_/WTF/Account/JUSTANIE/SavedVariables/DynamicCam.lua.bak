@@ -6,8 +6,9 @@ DynamicCamDB = {
 		["Arila - Stormreaver"] = "Default",
 		["Morgntreeman - Dalaran"] = "Default",
 		["Petitmort - Dalaran"] = "Default",
-		["Feloril - Stormreaver"] = "Default",
 		["Jenleeviyah - Dalaran"] = "Default",
+		["Feloril - Stormreaver"] = "Default",
+		["Jaalohwa - Stormreaver"] = "Default",
 		["Ruderalis - Stormreaver"] = "Default",
 		["Attacknknees - Dalaran"] = "Default",
 	},
@@ -15,8 +16,6 @@ DynamicCamDB = {
 		["Default"] = {
 			["standardSettings"] = {
 				["cvars"] = {
-					["test_cameraTargetFocusInteractEnable"] = 1,
-					["test_cameraTargetFocusEnemyEnable"] = 1,
 					["cameraDistanceMaxZoomFactor"] = 2,
 				},
 			},

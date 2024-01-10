@@ -1,0 +1,1 @@
+{"description":"Lunch Check-In","due":"20240115T200000Z","entry":"20240102T075028Z","imask":147.000000,"modified":"20240102T073610Z","parent":"0af6407d-ed70-4c1d-ba12-a7c2109c76de","priority":"M","project":"LMS.Process.CheckIns","recur":"1d","rtype":"periodic","status":"pending","uuid":"1d4aa463-8987-4c69-825a-bbfbfc3cf76d","wait":"20240115T180000Z","tags":["daily","lunch"]}

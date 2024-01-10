@@ -107,7 +107,7 @@ vim.keymap.set('n','ca',function () vim.lsp.buf.code_action() end)
 
 lspconfig.rust_analyzer.setup{}
 lspconfig.gdscript.setup{}
---lspconfig.lua_ls.setup{}
+lspconfig.lua_ls.setup{}
 --lspconfig.marksman.setup{}
 
 

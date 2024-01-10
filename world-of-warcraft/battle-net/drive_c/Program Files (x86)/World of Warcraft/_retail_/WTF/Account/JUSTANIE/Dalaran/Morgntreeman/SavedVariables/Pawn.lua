@@ -6,8 +6,8 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 207254,
-			["Level"] = 450,
-			["Link"] = "|cffa335ee|Hitem:207254::::::::70:104::4:7:6652:9600:7982:9555:9513:1481:8767::::::|h[Benevolent Embersage's Casque]|h|r",
+			["Level"] = 457,
+			["Link"] = "|cffa335ee|Hitem:207254:7052:::::::70:104::4:7:6652:9600:7982:9513:9557:1488:8767::::::|h[Benevolent Embersage's Casque]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 210380,
@@ -21,9 +21,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 207129,
-			["Level"] = 473,
-			["Link"] = "|cffa335ee|Hitem:207129::::::::70:104::5:6:6652:9508:7980:9570:1504:8767:1:28:2474:::::|h[Robes of the Ashen Grove]|h|r",
+			["ID"] = 207257,
+			["Level"] = 476,
+			["Link"] = "|cffa335ee|Hitem:207257::::::::70:104::5:7:6652:7980:8094:9515:9571:1507:8767::::::|h[Benevolent Embersage's Robe]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 210371,

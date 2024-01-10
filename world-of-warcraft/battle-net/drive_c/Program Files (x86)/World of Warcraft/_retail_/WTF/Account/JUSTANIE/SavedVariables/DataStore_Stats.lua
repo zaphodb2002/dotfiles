@@ -5,17 +5,17 @@ DataStore_StatsDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
-		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
 		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
 		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
 		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 	},
 	["global"] = {
@@ -44,26 +44,32 @@ DataStore_StatsDB = {
 					["Base"] = "1097|155|3151|465|0",
 					["Spell"] = "1669|1835|0|15.114179611206|142|2560",
 				},
+				["lastUpdate"] = 1704261250,
 				["Dungeons"] = {
 					[456] = {
 					},
 					[248] = {
 					},
 				},
-				["lastUpdate"] = 1704261250,
 			},
-			["Default.Stormreaver.Ruderalis"] = {
+			["Default.Dalaran.Pangdai"] = {
 				["Stats"] = {
-					["Ranged"] = "257-258|0|0|0|25.249294281006",
-					["HealthMax"] = 8205,
-					["Melee"] = "278-288|3.1370000839233|145|0|25.249294281006|0",
-					["MaxPower"] = "8|100",
-					["Defense"] = "0|0|6.2947654724121|0|0|0",
+					["Ranged"] = "1-2|0|0|0|19.040063858032",
+					["HealthMax"] = 143340,
+					["Melee"] = "1195-1290|2.4860000610352|2242|0|19.040063858032|3",
+					["MaxPower"] = "3|100",
+					["Spell"] = "2459|2646|0|19.040063858032|299|5590",
 					["PVP"] = "0|0",
-					["Base"] = "62|145|547|423|0",
-					["Spell"] = "423|431|0|25.249294281006|137|228",
+					["Base"] = "486|1930|7167|1130|0",
+					["Defense"] = "0|0|18.354640960693|3|0|0",
 				},
-				["lastUpdate"] = 1704178266,
+				["lastUpdate"] = 1704175800,
+				["Dungeons"] = {
+					[456] = {
+					},
+					[248] = {
+					},
+				},
 			},
 			["Default.Stormreaver.Dumpiss"] = {
 				["Stats"] = {
@@ -110,24 +116,18 @@ DataStore_StatsDB = {
 				},
 				["lastUpdate"] = 1704175889,
 			},
-			["Default.Dalaran.Pangdai"] = {
+			["Default.Stormreaver.Ruderalis"] = {
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|19.040063858032",
-					["HealthMax"] = 143340,
-					["Melee"] = "1195-1290|2.4860000610352|2242|0|19.040063858032|3",
-					["MaxPower"] = "3|100",
-					["Spell"] = "2459|2646|0|19.040063858032|299|5590",
+					["Ranged"] = "257-258|0|0|0|25.249294281006",
+					["HealthMax"] = 8205,
+					["Melee"] = "278-288|3.1370000839233|145|0|25.249294281006|0",
+					["MaxPower"] = "8|100",
+					["Defense"] = "0|0|6.2947654724121|0|0|0",
 					["PVP"] = "0|0",
-					["Base"] = "486|1930|7167|1130|0",
-					["Defense"] = "0|0|18.354640960693|3|0|0",
+					["Base"] = "62|145|547|423|0",
+					["Spell"] = "423|431|0|25.249294281006|137|228",
 				},
-				["lastUpdate"] = 1704175800,
-				["Dungeons"] = {
-					[456] = {
-					},
-					[248] = {
-					},
-				},
+				["lastUpdate"] = 1704178266,
 			},
 			["Default.Dalaran.Icanglidewee"] = {
 				["Stats"] = {
@@ -141,6 +141,96 @@ DataStore_StatsDB = {
 					["Spell"] = "102|102|0|35.243560791016|209|0",
 				},
 				["lastUpdate"] = 1704174808,
+			},
+			["Default.Dalaran.Petitmort"] = {
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|19.066486358643",
+					["HealthMax"] = 3324,
+					["Melee"] = "120-143|2.9620001316071|166|0|19.066486358643|0",
+					["MaxPower"] = "6|105",
+					["Defense"] = "0|0|3|9.077000617981|0|0",
+					["PVP"] = "0|0",
+					["Base"] = "166|71|277|49|0",
+					["Spell"] = "49|49|0|19.066486358643|112|0",
+				},
+				["lastUpdate"] = 1704175582,
+			},
+			["Default.Dalaran.Morgntreeman"] = {
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|27.489334106445",
+					["HealthMax"] = 733697,
+					["Melee"] = "16957-19233|2.7650001049042|11683|0|27.489334106445|0",
+					["MaxPower"] = "0|250000",
+					["Defense"] = "0|0|26.370330810547|0|0|0",
+					["PVP"] = "586|0",
+					["Base"] = "900|9269|31028|2190|0",
+					["Spell"] = "15240|17070|0|27.489334106445|3879|12800",
+				},
+				["Dungeons"] = {
+					[198] = {
+						["weeklyBestTimeInSeconds"] = 958,
+						["seasonBestLevel"] = 3,
+						["seasonBestTimeInSeconds"] = 1069,
+						["weeklyBestLevel"] = 3,
+						["weeklyRunHistory"] = {
+							{
+								["completed"] = true,
+								["level"] = 3,
+							}, -- [1]
+							{
+								["completed"] = true,
+								["level"] = 3,
+							}, -- [2]
+						},
+					},
+					[248] = {
+						["weeklyRunHistory"] = {
+						},
+						["seasonBestLevel"] = 6,
+						["seasonBestTimeInSeconds"] = 1658,
+					},
+					[168] = {
+						["weeklyBestTimeInSeconds"] = 1188,
+						["seasonBestLevel"] = 3,
+						["seasonBestTimeInSeconds"] = 1188,
+						["weeklyBestLevel"] = 3,
+						["weeklyRunHistory"] = {
+							{
+								["completed"] = true,
+								["level"] = 3,
+							}, -- [1]
+						},
+					},
+					[456] = {
+						["seasonBestLevel"] = 6,
+						["seasonBestTimeInSeconds"] = 1677,
+					},
+				},
+				["WeeklyBestKeystone"] = {
+					["level"] = 3,
+					["name"] = "Darkheart Thicket",
+					["timeInSeconds"] = 958,
+				},
+				["lastUpdate"] = 1704782925,
+				["WeeklyActivities"] = {
+					4, -- [1]
+					[3] = 7,
+				},
+				["WeeklyRunHistoryTop10"] = {
+					{
+						["level"] = 3,
+						["mapID"] = 198,
+					}, -- [1]
+					{
+						["level"] = 3,
+						["mapID"] = 198,
+					}, -- [2]
+					{
+						["level"] = 3,
+						["mapID"] = 168,
+					}, -- [3]
+				},
+				["dungeonScore"] = 360,
 			},
 			["Default.Dalaran.Hyaae"] = {
 				["Stats"] = {
@@ -160,55 +250,6 @@ DataStore_StatsDB = {
 					[248] = {
 					},
 				},
-			},
-			["Default.Dalaran.Morgntreeman"] = {
-				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|27.344884872437",
-					["HealthMax"] = 725586,
-					["Melee"] = "17310-19647|2.7660000324249|11597|0|27.344884872437|0",
-					["MaxPower"] = "0|250000",
-					["Defense"] = "0|0|26.225292205811|0|0|0",
-					["PVP"] = "586|0",
-					["Base"] = "900|9202|30688|2086|0",
-					["Spell"] = "15157|17432|0|27.344884872437|3870|12800",
-				},
-				["Dungeons"] = {
-					[456] = {
-						["seasonBestLevel"] = 6,
-						["seasonBestTimeInSeconds"] = 1677,
-					},
-					[248] = {
-						["seasonBestLevel"] = 6,
-						["weeklyRunHistory"] = {
-							{
-								["completed"] = true,
-								["level"] = 6,
-							}, -- [1]
-						},
-						["seasonBestTimeInSeconds"] = 1658,
-					},
-				},
-				["lastUpdate"] = 1704257934,
-				["WeeklyRunHistoryTop10"] = {
-					{
-						["mapID"] = 248,
-						["level"] = 6,
-					}, -- [1]
-				},
-				["dungeonScore"] = 210,
-			},
-			["Default.Dalaran.Petitmort"] = {
-				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|19.066486358643",
-					["HealthMax"] = 3324,
-					["Melee"] = "120-143|2.9620001316071|166|0|19.066486358643|0",
-					["MaxPower"] = "6|105",
-					["Defense"] = "0|0|3|9.077000617981|0|0",
-					["PVP"] = "0|0",
-					["Base"] = "166|71|277|49|0",
-					["Spell"] = "49|49|0|19.066486358643|112|0",
-				},
-				["lastUpdate"] = 1704175582,
 			},
 			["Default.Dalaran.Attacknknees"] = {
 				["Stats"] = {

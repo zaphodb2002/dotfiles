@@ -5,17 +5,17 @@ DataStore_AgendaDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
-		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
 		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
+		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
 	},
 	["global"] = {
@@ -29,7 +29,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1704174567,
 			},
 			["Default.Stormreaver.Jaalohwa"] = {
-				["lastUpdate"] = 1704173918,
+				["lastUpdate"] = 1704259589,
 			},
 			["Default.Stormreaver.Feloril"] = {
 				["lastUpdate"] = 1704176776,
@@ -43,8 +43,8 @@ DataStore_AgendaDB = {
 			["Default.Dalaran.Jenleeviyah"] = {
 				["lastUpdate"] = 1704175872,
 			},
-			["Default.Dalaran.Pangdai"] = {
-				["lastUpdate"] = 1704175775,
+			["Default.Stormreaver.Ruderalis"] = {
+				["lastUpdate"] = 1704177031,
 			},
 			["Default.Dalaran.Icanglidewee"] = {
 				["lastUpdate"] = 1704174708,
@@ -55,14 +55,27 @@ DataStore_AgendaDB = {
 			["Default.Dalaran.Attacknknees"] = {
 				["lastUpdate"] = 1704175683,
 			},
-			["Default.Dalaran.Petitmort"] = {
-				["lastUpdate"] = 1704175512,
+			["Default.Dalaran.Hyaae"] = {
+				["lastUpdate"] = 1702275435,
 			},
 			["Default.Dalaran.Morgntreeman"] = {
 				["DungeonIDs"] = {
-					["Ruby Life Pools Mythic|1326995255"] = "554544|1704257859|0|0",
+					["Amirdrassil, the Dream's Hope Looking For Raid|1327922253"] = "46587|1704765813|0|1",
+					["Ruby Life Pools Mythic|1326995255"] = "46587|1704765813|0|0",
 				},
-				["lastUpdate"] = 1704257859,
+				["lastUpdate"] = 1704765813,
+				["LFGDungeons"] = {
+					["2466.Igira the Cruel"] = true,
+					["2466.Smolderon"] = true,
+					["2467.Count"] = 2,
+					["2466.Gnarlroot"] = true,
+					["2466.Count"] = 3,
+					["2469.Count"] = 2,
+					["2467.Council of Dreams"] = true,
+					["2469.Fyrakk the Blazing"] = true,
+					["2467.Nymue, Weaver of the Cycle"] = true,
+					["2469.Tindral Sageswift, Seer of the Flame"] = true,
+				},
 			},
 			["Default.Stormreaver.Bretanomyces"] = {
 				["lastUpdate"] = 1703477004,
@@ -70,11 +83,11 @@ DataStore_AgendaDB = {
 			["Default.Stormreaver.Deeohteez"] = {
 				["lastUpdate"] = 1704176557,
 			},
-			["Default.Dalaran.Hyaae"] = {
-				["lastUpdate"] = 1702275435,
+			["Default.Dalaran.Petitmort"] = {
+				["lastUpdate"] = 1704175512,
 			},
-			["Default.Stormreaver.Ruderalis"] = {
-				["lastUpdate"] = 1704177031,
+			["Default.Dalaran.Pangdai"] = {
+				["lastUpdate"] = 1704175775,
 			},
 		},
 	},

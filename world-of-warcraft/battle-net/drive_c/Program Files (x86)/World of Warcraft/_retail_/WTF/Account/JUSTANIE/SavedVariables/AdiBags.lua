@@ -18,11 +18,11 @@ AdiBagsDB = {
 		},
 		["Equipment"] = {
 		},
-		["ItemSets"] = {
-		},
 		["CurrencyFrame"] = {
 		},
 		["DataSource"] = {
+		},
+		["ItemSets"] = {
 		},
 		["Junk"] = {
 		},
@@ -34,17 +34,17 @@ AdiBagsDB = {
 		["Deeohteez - Stormreaver"] = "Default",
 		["Arila - Stormreaver"] = "Default",
 		["Icanglidewee - Dalaran"] = "Default",
-		["Morgntreeman - Dalaran"] = "Default",
-		["Attacknknees - Dalaran"] = "Default",
-		["Ruderalis - Stormreaver"] = "Default",
-		["Bretanomyces - Stormreaver"] = "Default",
 		["Deeohteez - Dalaran"] = "Default",
+		["Morgntreeman - Dalaran"] = "Default",
+		["Ruderalis - Stormreaver"] = "Default",
+		["Pontiffikate - Dalaran"] = "Default",
 		["Jenleeviyah - Dalaran"] = "Default",
+		["Attacknknees - Dalaran"] = "Default",
 		["Petitmort - Dalaran"] = "Default",
 		["Dumpiss - Stormreaver"] = "Default",
 		["Feloril - Stormreaver"] = "Default",
 		["Jaalohwa - Stormreaver"] = "Default",
-		["Pontiffikate - Dalaran"] = "Default",
+		["Bretanomyces - Stormreaver"] = "Default",
 		["Hyaae - Dalaran"] = "Default",
 	},
 	["profiles"] = {
@@ -52,16 +52,16 @@ AdiBagsDB = {
 			["experiments"] = {
 				["Bag Lag Fix"] = {
 					["Enabled"] = false,
+					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
 					["Percent"] = 1,
 					["Name"] = "Bag Lag Fix",
-					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
 				},
 			},
 			["positions"] = {
 				["Backpack"] = {
-					["xOffset"] = 575.4993286132812,
+					["xOffset"] = 348.4985961914063,
 					["point"] = "TOPLEFT",
-					["yOffset"] = -117.4983520507813,
+					["yOffset"] = -216.4982299804688,
 				},
 			},
 		},

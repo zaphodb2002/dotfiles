@@ -5,17 +5,17 @@ DataStore_MailsDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
-		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
 		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
 		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
 		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 	},
 	["global"] = {
@@ -136,6 +136,22 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1704174674,
 				["lastVisitDate"] = "2024/01/01 21:51",
 			},
+			["Default.Dalaran.Petitmort"] = {
+				["lastUpdate"] = 1704175593,
+				["lastVisitDate"] = "2024/01/01 22:06",
+			},
+			["Default.Dalaran.Attacknknees"] = {
+				["lastUpdate"] = 1704175741,
+				["lastVisitDate"] = "2024/01/01 22:09",
+			},
+			["Default.Dalaran.Morgntreeman"] = {
+				["lastUpdate"] = 1704767371,
+				["lastVisitDate"] = "2024/01/08 18:29",
+			},
+			["Default.Stormreaver.Deeohteez"] = {
+				["lastUpdate"] = 1704176665,
+				["lastVisitDate"] = "2024/01/01 22:24",
+			},
 			["Default.Dalaran.Hyaae"] = {
 				["lastUpdate"] = 1702268627,
 				["Mails"] = {
@@ -151,34 +167,6 @@ DataStore_MailsDB = {
 					}, -- [1]
 				},
 				["lastVisitDate"] = "2023/12/10 20:23",
-			},
-			["Default.Dalaran.Attacknknees"] = {
-				["lastUpdate"] = 1704175741,
-				["lastVisitDate"] = "2024/01/01 22:09",
-			},
-			["Default.Dalaran.Morgntreeman"] = {
-				["lastUpdate"] = 1704175989,
-				["Mails"] = {
-					{
-						["lastCheck"] = 1704175989,
-						["sender"] = "Vaskarn",
-						["subject"] = "Dreaming Crest Breakthrough",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "We've discovered something spectacular! Exciting! Fascinating! Well, I've discovered it. But Cuzolth confirmed it. This is real!\r\n\r\nCome visit me in the Central Encampment. I've figured out how to transmute your Whelpling's Dreaming Crests into Drake's Dreaming Crests!\r\n\r\nYour friend,\r\nVaskarn",
-						["icon"] = 134327,
-						["daysLeft"] = 27.54148101806641,
-					}, -- [1]
-				},
-				["lastVisitDate"] = "2024/01/01 22:13",
-			},
-			["Default.Stormreaver.Deeohteez"] = {
-				["lastUpdate"] = 1704176665,
-				["lastVisitDate"] = "2024/01/01 22:24",
-			},
-			["Default.Dalaran.Petitmort"] = {
-				["lastUpdate"] = 1704175593,
-				["lastVisitDate"] = "2024/01/01 22:06",
 			},
 			["Default.Stormreaver.Arila"] = {
 				["lastUpdate"] = 1704176236,

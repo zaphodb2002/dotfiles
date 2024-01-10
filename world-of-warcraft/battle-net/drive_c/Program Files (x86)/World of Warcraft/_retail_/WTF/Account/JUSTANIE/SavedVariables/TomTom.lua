@@ -4,17 +4,17 @@ TomTomDB = {
 		["Pangdai - Dalaran"] = "Default",
 		["Deeohteez - Stormreaver"] = "Default",
 		["Arila - Stormreaver"] = "Default",
-		["Attacknknees - Dalaran"] = "Default",
-		["Jenleeviyah - Dalaran"] = "Default",
 		["Deeohteez - Dalaran"] = "Default",
-		["Pontiffikate - Dalaran"] = "Default",
-		["Ruderalis - Stormreaver"] = "Default",
 		["Morgntreeman - Dalaran"] = "Default",
+		["Jenleeviyah - Dalaran"] = "Default",
+		["Bretanomyces - Stormreaver"] = "Default",
+		["Ruderalis - Stormreaver"] = "Default",
+		["Attacknknees - Dalaran"] = "Default",
 		["Petitmort - Dalaran"] = "Default",
 		["Dumpiss - Stormreaver"] = "Default",
 		["Feloril - Stormreaver"] = "Default",
 		["Jaalohwa - Stormreaver"] = "Default",
-		["Bretanomyces - Stormreaver"] = "Default",
+		["Pontiffikate - Dalaran"] = "Default",
 		["Icanglidewee - Dalaran"] = "Default",
 	},
 	["profiles"] = {
@@ -37,8 +37,8 @@ TomTomDB = {
 					"BOTTOMRIGHT", -- [1]
 					nil, -- [2]
 					"BOTTOMRIGHT", -- [3]
-					-6.999133110046387, -- [4]
-					39.00038146972656, -- [5]
+					0, -- [4]
+					34.00057983398438, -- [5]
 				},
 			},
 		},
@@ -50,17 +50,17 @@ TomTomWaypointsM = {
 		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
-		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
 	},
 	["profiles"] = {
@@ -70,25 +70,42 @@ TomTomWaypointsM = {
 		},
 		["Arila - Stormreaver"] = {
 		},
-		["Attacknknees - Dalaran"] = {
-		},
-		["Jenleeviyah - Dalaran"] = {
-		},
 		["Deeohteez - Dalaran"] = {
 		},
-		["Pontiffikate - Dalaran"] = {
-		},
-		["Ruderalis - Stormreaver"] = {
-		},
 		["Morgntreeman - Dalaran"] = {
+			[2133] = {
+				["2133:442533000:799174000:Go to Briggul"] = {
+					2133, -- [1]
+					0.442533, -- [2]
+					0.799174, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Go to Briggul",
+					["from"] = "?",
+					["crazy"] = true,
+					["world"] = true,
+				},
+			},
 		},
-		["Petitmort - Dalaran"] = {
-		},
-		["Dumpiss - Stormreaver"] = {
-		},
-		["Feloril - Stormreaver"] = {
-		},
-		["Jaalohwa - Stormreaver"] = {
+		["Jenleeviyah - Dalaran"] = {
 		},
 		["Bretanomyces - Stormreaver"] = {
 			{
@@ -97,7 +114,7 @@ TomTomWaypointsM = {
 					0.554, -- [2]
 					0.112, -- [3]
 					["crazy"] = true,
-					["desc"] = "Ravika",
+					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -107,16 +124,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["from"] = "ATT",
+					["worldmap_displayID"] = 48768,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Ravika",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Ravika",
-					["worldmap_displayID"] = 48768,
-					["minimap_displayID"] = 48768,
 					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
-					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
+					["from"] = "ATT",
+					["minimap_displayID"] = 48768,
+					["title"] = "Ravika",
+					["minimap"] = true,
 					["world"] = true,
 				},
 			}, -- [1]
@@ -126,7 +143,7 @@ TomTomWaypointsM = {
 					0.365, -- [2]
 					0.856, -- [3]
 					["crazy"] = true,
-					["desc"] = "Zandalari Warbringer",
+					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -136,16 +153,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["title"] = "Zandalari Warbringer",
+					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Zandalari Warbringer",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
-					["from"] = "ATT",
-					["minimap_displayID"] = 47681,
+					["title"] = "Zandalari Warbringer",
 					["worldmap_displayID"] = 47681,
-					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
+					["minimap_displayID"] = 47681,
+					["from"] = "ATT",
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
@@ -182,7 +199,7 @@ TomTomWaypointsM = {
 					0.398, -- [2]
 					0.659, -- [3]
 					["crazy"] = true,
-					["desc"] = "Zandalari Warbringer",
+					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -192,16 +209,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["title"] = "Zandalari Warbringer",
+					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Zandalari Warbringer",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
-					["from"] = "ATT",
-					["minimap_displayID"] = 47681,
+					["title"] = "Zandalari Warbringer",
 					["worldmap_displayID"] = 47681,
-					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
+					["minimap_displayID"] = 47681,
+					["from"] = "ATT",
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
@@ -211,7 +228,7 @@ TomTomWaypointsM = {
 					0.751, -- [2]
 					0.674, -- [3]
 					["crazy"] = true,
-					["desc"] = "Zandalari Warbringer",
+					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -221,16 +238,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["title"] = "Zandalari Warbringer",
+					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Zandalari Warbringer",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
-					["from"] = "ATT",
-					["minimap_displayID"] = 47681,
+					["title"] = "Zandalari Warbringer",
 					["worldmap_displayID"] = 47681,
-					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
+					["minimap_displayID"] = 47681,
+					["from"] = "ATT",
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
@@ -240,7 +257,7 @@ TomTomWaypointsM = {
 					0.474, -- [2]
 					0.615, -- [3]
 					["crazy"] = true,
-					["desc"] = "Zandalari Warbringer",
+					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -250,19 +267,33 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["title"] = "Zandalari Warbringer",
+					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Zandalari Warbringer",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["minimap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
-					["from"] = "ATT",
-					["minimap_displayID"] = 47681,
+					["title"] = "Zandalari Warbringer",
 					["worldmap_displayID"] = 47681,
-					["worldmap_icon"] = "Interface\\Addons\\AllTheThings\\assets\\Difficulty_Normal",
+					["minimap_displayID"] = 47681,
+					["from"] = "ATT",
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
+		},
+		["Ruderalis - Stormreaver"] = {
+		},
+		["Attacknknees - Dalaran"] = {
+		},
+		["Petitmort - Dalaran"] = {
+		},
+		["Dumpiss - Stormreaver"] = {
+		},
+		["Feloril - Stormreaver"] = {
+		},
+		["Jaalohwa - Stormreaver"] = {
+		},
+		["Pontiffikate - Dalaran"] = {
 		},
 		["Icanglidewee - Dalaran"] = {
 		},
