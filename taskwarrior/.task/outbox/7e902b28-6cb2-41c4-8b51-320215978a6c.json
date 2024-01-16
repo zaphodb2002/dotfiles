@@ -1,0 +1,1 @@
+{"status":"pending","uuid":"7e902b28-6cb2-41c4-8b51-320215978a6c","entry":"20240102T075047Z","description":"Audit Recreation.Podcasts recurring Tasks","due":"20241123T080000Z","imask":10.0,"modified":"20240102T073552Z","parent":"0f6cefcf-4a45-46cf-9a71-805f8dd93967","project":"LMS.Process.Auditing","recur":"1mo","wait":"20241026T080000Z","rtype":"periodic"}

@@ -552,6 +552,9 @@ PawnCommon = {
 		["\"MrRobot\":DRUID2"] = {
 			["IconTexturePath"] = 132115,
 			["PerCharacterOptions"] = {
+				["Morgntreeman-Dalaran"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff7c0a",
 			["ClassID"] = 11,
@@ -585,9 +588,6 @@ PawnCommon = {
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,
 			["PerCharacterOptions"] = {
-				["Morgntreeman-Dalaran"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "ff7c0a",
 			["ClassID"] = 11,

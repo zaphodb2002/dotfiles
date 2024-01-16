@@ -51,9 +51,9 @@ alias grep='grep --color=always'
 alias weather='curl https://wttr.in/'
 
 ### TaskWarrior
-alias gtd=~/.local/scripts/gtd.sh # The gtd report
-alias progress=~/.local/scripts/recurring-progress-report.sh # call with the uuid of the parent recurring task
-alias grade=~/.local/scripts/project-progress.sh # call with a project name
+alias gtd=~/.config/taskmaster/scripts/gtd.sh # The gtd report
+alias progress=~/.config/taskmaster/scripts/recurring-progress-report.sh # call with the uuid of the parent recurring task
+alias grade=~/.config/taskmaster/scripts/project-progress.sh # call with a project name
 
 ### Pomodoro timers
 alias startpom='~/.local/scripts/startpom.sh'
@@ -79,7 +79,7 @@ alias lms='nvim "$HOME/Documents/Life Management System/README.md"'
 ## some fun on new terminal
 ## exec 'seq 1 $(tput cols) | sort -R | sparklines | lolcat'
 rxfetch
-cal
+#cal
 
 ## zoxide
 eval "$(zoxide init bash)"

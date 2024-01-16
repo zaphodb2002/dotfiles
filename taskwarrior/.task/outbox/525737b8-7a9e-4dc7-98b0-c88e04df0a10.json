@@ -1,0 +1,1 @@
+{"status":"pending","uuid":"525737b8-7a9e-4dc7-98b0-c88e04df0a10","entry":"20240104T200827Z","description":"Top off TV 20G","due":"20240128T170000Z","imask":3.0,"modified":"20240104T200554Z","parent":"ec8879b8-2e69-4633-884c-cb59be554267","project":"Recreation.Fishkeeping.TV20","recur":"1w","tags":["am","weekly"],"wait":"20240122T170000Z","rtype":"periodic"}

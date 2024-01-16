@@ -1,0 +1,1 @@
+{"status":"pending","uuid":"2f90a6cc-54a2-4e66-8499-3112a3f5eb9b","entry":"20240102T075036Z","description":"Move clothes to the drier","due":"20240206T070000Z","imask":42.0,"modified":"20240102T073543Z","parent":"cf74c785-caad-4dae-bbad-e68cbe6e237d","priority":"M","project":"Protection.Maintenance","recur":"4d","wait":"20240203T070000Z","rtype":"periodic"}

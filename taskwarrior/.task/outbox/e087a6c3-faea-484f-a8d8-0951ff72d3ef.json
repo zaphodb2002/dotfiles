@@ -1,0 +1,1 @@
+{"status":"recurring","uuid":"e087a6c3-faea-484f-a8d8-0951ff72d3ef","entry":"20230822T232231Z","description":"Verify CVS got my renewal","due":"20230828T160000Z","mask":"+++++WWWWWWWWWWWWWW","modified":"20240102T075035Z","priority":"M","project":"Subsistence.Medication","recur":"1mo","tags":["adhd","monthly","task"],"wait":"20230801T070000Z","rtype":"periodic"}

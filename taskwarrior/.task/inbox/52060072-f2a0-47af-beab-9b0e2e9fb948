@@ -1,1 +1,0 @@
-{"description":"Top off TV 10G","due":"20240107T170000Z","entry":"20240104T200800Z","mask":"+-WWWWWWWWWWWWW","modified":"20240108T193759Z","project":"Recreation.Fishkeeping.TV10","recur":"1w","rtype":"periodic","status":"recurring","uuid":"52060072-f2a0-47af-beab-9b0e2e9fb948","wait":"20240101T170000Z","tags":["am","weekly"]}

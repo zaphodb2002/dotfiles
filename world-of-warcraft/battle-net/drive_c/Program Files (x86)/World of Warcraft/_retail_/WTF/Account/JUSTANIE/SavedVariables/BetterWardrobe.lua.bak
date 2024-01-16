@@ -1,8 +1,8 @@
 
 BetterWardrobe_Options = {
 	["profileKeys"] = {
-		["Morgntreeman - Dalaran"] = "Default",
 		["Deeohteez - Stormreaver"] = "Default",
+		["Morgntreeman - Dalaran"] = "Default",
 		["Arila - Stormreaver"] = "Default",
 		["Dumpiss - Stormreaver"] = "Default",
 		["Feloril - Stormreaver"] = "Default",
@@ -17,8 +17,8 @@ BetterWardrobe_Options = {
 }
 BetterWardrobe_CharacterData = {
 	["profileKeys"] = {
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
@@ -28,11 +28,21 @@ BetterWardrobe_CharacterData = {
 	},
 }
 BetterWardrobe_SavedSetData = {
+	["profileKeys"] = {
+		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Arila - Stormreaver"] = "Arila - Stormreaver",
+		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
+		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
+		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+	},
 	["global"] = {
 		["sets"] = {
-			["Morgntreeman - Dalaran"] = {
-			},
 			["Deeohteez - Stormreaver"] = {
+			},
+			["Morgntreeman - Dalaran"] = {
 			},
 			["Arila - Stormreaver"] = {
 				{
@@ -156,27 +166,17 @@ BetterWardrobe_SavedSetData = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
-		["Arila - Stormreaver"] = "Arila - Stormreaver",
-		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
-		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
-		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
-	},
 	["profiles"] = {
-		["Jaalohwa - Stormreaver"] = {
-		},
 		["Bretanomyces - Stormreaver"] = {
+		},
+		["Jaalohwa - Stormreaver"] = {
 		},
 	},
 }
 BetterWardrobe_SubstituteItemData = {
 	["profileKeys"] = {
-		["Morgntreeman - Dalaran"] = "Default",
 		["Deeohteez - Stormreaver"] = "Default",
+		["Morgntreeman - Dalaran"] = "Default",
 		["Arila - Stormreaver"] = "Default",
 		["Dumpiss - Stormreaver"] = "Default",
 		["Feloril - Stormreaver"] = "Default",
@@ -192,8 +192,8 @@ BetterWardrobe_SubstituteItemData = {
 BetterWardrobe_ListData = {
 	["favoritesDB"] = {
 		["profileKeys"] = {
-			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 			["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
+			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 			["Arila - Stormreaver"] = "Arila - Stormreaver",
 			["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 			["Feloril - Stormreaver"] = "Feloril - Stormreaver",
@@ -218,8 +218,8 @@ BetterWardrobe_ListData = {
 	},
 	["collectionListDB"] = {
 		["profileKeys"] = {
-			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 			["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
+			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 			["Arila - Stormreaver"] = "Arila - Stormreaver",
 			["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 			["Feloril - Stormreaver"] = "Feloril - Stormreaver",
@@ -228,9 +228,9 @@ BetterWardrobe_ListData = {
 			["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
 		},
 		["profiles"] = {
-			["Morgntreeman - Dalaran"] = {
-			},
 			["Deeohteez - Stormreaver"] = {
+			},
+			["Morgntreeman - Dalaran"] = {
 			},
 			["Arila - Stormreaver"] = {
 			},
@@ -246,10 +246,11 @@ BetterWardrobe_ListData = {
 			},
 		},
 	},
+	["lastUpdte"] = 1,
 	["OutfitDB"] = {
 		["profileKeys"] = {
-			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 			["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
+			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 			["Arila - Stormreaver"] = "Arila - Stormreaver",
 			["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 			["Feloril - Stormreaver"] = "Feloril - Stormreaver",
@@ -258,11 +259,10 @@ BetterWardrobe_ListData = {
 			["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
 		},
 	},
-	["lastUpdte"] = 1,
 	["HiddenAppearanceDB"] = {
 		["profileKeys"] = {
-			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 			["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
+			["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 			["Arila - Stormreaver"] = "Arila - Stormreaver",
 			["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 			["Feloril - Stormreaver"] = "Feloril - Stormreaver",

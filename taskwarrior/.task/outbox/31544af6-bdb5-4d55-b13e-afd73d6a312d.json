@@ -1,0 +1,1 @@
+{"status":"pending","uuid":"31544af6-bdb5-4d55-b13e-afd73d6a312d","entry":"20240110T162615Z","description":"Check the Honey-Do list","due":"20240124T050000Z","imask":154.0,"modified":"20240110T031319Z","parent":"9e824161-3e91-4124-9699-92a1f7b0d9df","priority":"M","project":"LMS.Process.HoneyDo","recur":"1d","tags":["am","daily"],"wait":"20240124T030000Z","rtype":"periodic"}

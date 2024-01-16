@@ -1,0 +1,1 @@
+{"status":"recurring","uuid":"f0c2258a-846d-45c3-b027-b7affd68e8c7","entry":"20230822T203741Z","description":"Clean CPAP","due":"20230827T160000Z","mask":"++++++X+X+X++X+XXXXX+WWWWWWWWWWWWW","modified":"20240109T180936Z","priority":"M","project":"Subsistence.Sleep","recur":"7d","tags":["am","task","weekly"],"wait":"20230821T140000Z","rtype":"periodic"}

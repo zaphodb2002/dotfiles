@@ -5,12 +5,12 @@ DataStore_StatsDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
@@ -54,20 +54,24 @@ DataStore_StatsDB = {
 			},
 			["Default.Dalaran.Pangdai"] = {
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|19.040063858032",
-					["HealthMax"] = 143340,
-					["Melee"] = "1195-1290|2.4860000610352|2242|0|19.040063858032|3",
+					["Ranged"] = "1-2|0|0|0|19.675914764404",
+					["HealthMax"] = 203640,
+					["Melee"] = "1625-1720|2.5060000419617|3162|0|19.675914764404|3",
 					["MaxPower"] = "3|100",
-					["Spell"] = "2459|2646|0|19.040063858032|299|5590",
+					["Spell"] = "3333|3562|0|19.675914764404|368|9059",
 					["PVP"] = "0|0",
-					["Base"] = "486|1930|7167|1130|0",
-					["Defense"] = "0|0|18.354640960693|3|0|0",
+					["Base"] = "718|2796|10182|1671|0",
+					["Defense"] = "0|0|18.252662658691|3|0|0",
 				},
-				["lastUpdate"] = 1704175800,
+				["lastUpdate"] = 1705199296,
 				["Dungeons"] = {
-					[456] = {
+					[198] = {
 					},
 					[248] = {
+					},
+					[456] = {
+					},
+					[168] = {
 					},
 				},
 			},
@@ -157,21 +161,17 @@ DataStore_StatsDB = {
 			},
 			["Default.Dalaran.Morgntreeman"] = {
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|27.489334106445",
-					["HealthMax"] = 733697,
-					["Melee"] = "16957-19233|2.7650001049042|11683|0|27.489334106445|0",
-					["MaxPower"] = "0|250000",
-					["Defense"] = "0|0|26.370330810547|0|0|0",
+					["Ranged"] = "1-2|0|0|0|33.589336395264",
+					["HealthMax"] = 625440,
+					["Melee"] = "3448-3818|0.7950000166893|9790|0|33.589336395264|0",
+					["MaxPower"] = "3|160",
+					["Defense"] = "0|0|16.627851486206|0|0|0",
 					["PVP"] = "586|0",
-					["Base"] = "900|9269|31028|2190|0",
-					["Spell"] = "15240|17070|0|27.489334106445|3879|12800",
+					["Base"] = "900|9790|31272|2086|0",
+					["Spell"] = "12589|14101|0|33.589336395264|4377|12800",
 				},
 				["Dungeons"] = {
 					[198] = {
-						["weeklyBestTimeInSeconds"] = 958,
-						["seasonBestLevel"] = 3,
-						["seasonBestTimeInSeconds"] = 1069,
-						["weeklyBestLevel"] = 3,
 						["weeklyRunHistory"] = {
 							{
 								["completed"] = true,
@@ -182,6 +182,8 @@ DataStore_StatsDB = {
 								["level"] = 3,
 							}, -- [2]
 						},
+						["seasonBestLevel"] = 3,
+						["seasonBestTimeInSeconds"] = 1069,
 					},
 					[248] = {
 						["weeklyRunHistory"] = {
@@ -190,32 +192,21 @@ DataStore_StatsDB = {
 						["seasonBestTimeInSeconds"] = 1658,
 					},
 					[168] = {
-						["weeklyBestTimeInSeconds"] = 1188,
-						["seasonBestLevel"] = 3,
-						["seasonBestTimeInSeconds"] = 1188,
-						["weeklyBestLevel"] = 3,
 						["weeklyRunHistory"] = {
 							{
 								["completed"] = true,
 								["level"] = 3,
 							}, -- [1]
 						},
+						["seasonBestLevel"] = 3,
+						["seasonBestTimeInSeconds"] = 1188,
 					},
 					[456] = {
 						["seasonBestLevel"] = 6,
 						["seasonBestTimeInSeconds"] = 1677,
 					},
 				},
-				["WeeklyBestKeystone"] = {
-					["level"] = 3,
-					["name"] = "Darkheart Thicket",
-					["timeInSeconds"] = 958,
-				},
-				["lastUpdate"] = 1704782925,
-				["WeeklyActivities"] = {
-					4, -- [1]
-					[3] = 7,
-				},
+				["lastUpdate"] = 1705205790,
 				["WeeklyRunHistoryTop10"] = {
 					{
 						["level"] = 3,
@@ -266,23 +257,27 @@ DataStore_StatsDB = {
 			},
 			["Default.Stormreaver.Bretanomyces"] = {
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|21.593879699707",
-					["HealthMax"] = 20859,
-					["Melee"] = "387-407|3.1960000991821|483|0|21.593879699707|3",
+					["Ranged"] = "1-2|0|0|0|28.208198547363",
+					["HealthMax"] = 6604,
+					["Melee"] = "159-170|3.2500002384186|194|0|28.208198547363|3",
 					["MaxPower"] = "3|100",
-					["Spell"] = "558|610|0|21.593879699707|200|500",
+					["Spell"] = "237|253|0|28.208198547363|62|100",
 					["PVP"] = "0|0",
-					["Base"] = "104|444|1227|243|0",
-					["Defense"] = "0|0|8.6995077133179|3|0|0",
+					["Base"] = "38|180|508|88|0",
+					["Defense"] = "0|0|9.2854309082031|3|0|0",
 				},
-				["lastUpdate"] = 1703477056,
+				["lastUpdate"] = 1705284297,
 				["WeeklyActivities"] = {
 					4, -- [1]
 				},
 				["Dungeons"] = {
-					[456] = {
+					[198] = {
 					},
 					[248] = {
+					},
+					[456] = {
+					},
+					[168] = {
 					},
 				},
 			},

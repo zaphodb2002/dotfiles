@@ -1,0 +1,1 @@
+{"status":"recurring","uuid":"57efc1f8-da09-432b-8839-366d64f45a8d","entry":"20230823T162129Z","description":"Tidy Entryway for 15 minutes","due":"20230828T065959Z","mask":"++XX++XX+XX+XXXXXXXXWWWWWWWWWWWWWW","modified":"20240108T193913Z","priority":"M","project":"Protection.Maintenance","recur":"7d","tags":["weekly"],"wait":"20230821T070000Z","rtype":"periodic"}

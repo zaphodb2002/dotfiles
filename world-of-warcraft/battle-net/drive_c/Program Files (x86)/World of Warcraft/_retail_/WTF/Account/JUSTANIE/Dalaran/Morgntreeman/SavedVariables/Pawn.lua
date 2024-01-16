@@ -6,8 +6,8 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 207254,
-			["Level"] = 457,
-			["Link"] = "|cffa335ee|Hitem:207254:7052:::::::70:104::4:7:6652:9600:7982:9513:9557:1488:8767::::::|h[Benevolent Embersage's Casque]|h|r",
+			["Level"] = 463,
+			["Link"] = "|cffa335ee|Hitem:207254:7052:::::::70:104::4:7:6652:9600:7982:9513:9559:1494:8767::::::|h[Benevolent Embersage's Casque]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 210380,
@@ -36,9 +36,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:207253::::::::70:104::42:5:6652:9512:9555:1481:8767::::::|h[Benevolent Embersage's Leggings]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 207256,
-			["Level"] = 457,
-			["Link"] = "|cffa335ee|Hitem:207256:6612:::::::70:104::54:4:6652:9557:1488:8767::::::|h[Benevolent Embersage's Lined Boots]|h|r",
+			["ID"] = 208439,
+			["Level"] = 460,
+			["Link"] = "|cffa335ee|Hitem:208439::::::::70:104::81:6:6652:9505:7979:9562:1491:8767:1:28:2471:::::|h[Rousing Earth Striders]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 210375,
@@ -52,15 +52,15 @@ PawnOptions = {
 		}, -- [10]
 		{
 			["ID"] = 207159,
-			["Level"] = 463,
+			["Level"] = 467,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:207159:6566:::::::70:104::3:6:6652:9599:7979:9563:1494:8767:1:28:2474:::::|h[Band of Burning Thorns]|h|r",
+			["Link"] = "|cffa335ee|Hitem:207159:6566:::::::70:104::3:6:6652:9599:7979:9564:1498:8767:1:28:2474:::::|h[Band of Burning Thorns]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 207159,
-			["Level"] = 463,
+			["Level"] = 467,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:207159:6566:::::::70:103::3:6:6652:9599:7979:9563:1494:8767:1:28:2474:::::|h[Band of Burning Thorns]|h|r",
+			["Link"] = "|cffa335ee|Hitem:207159:6566:::::::70:103::3:6:6652:9599:7979:9564:1498:8767:1:28:2474:::::|h[Band of Burning Thorns]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 207165,

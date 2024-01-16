@@ -1,0 +1,5 @@
+VER 3 0100000000000001 "Keg Smash" "134400"
+#showtooltip Keg Smash
+/cast Purifying Brew
+/cast Keg Smash
+END

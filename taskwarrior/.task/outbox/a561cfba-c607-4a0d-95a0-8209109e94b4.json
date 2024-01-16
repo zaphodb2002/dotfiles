@@ -1,0 +1,1 @@
+{"status":"pending","uuid":"a561cfba-c607-4a0d-95a0-8209109e94b4","entry":"20240102T075036Z","description":"Run the washing machine","due":"20240222T070000Z","imask":46.0,"modified":"20240102T073543Z","parent":"c5477b30-3d43-4e04-a306-76fb28b7748b","priority":"M","project":"Protection.Maintenance.Clothes","recur":"4d","wait":"20240219T070000Z","rtype":"periodic"}

@@ -6,10 +6,10 @@ AstralKeys = {
 		["class"] = "DRUID",
 		["key_level"] = 3,
 		["unit"] = "Morgntreeman-Dalaran",
-		["dungeon_id"] = 463,
-		["week"] = 337,
+		["dungeon_id"] = 199,
+		["week"] = 338,
 		["faction"] = 0,
-		["time_stamp"] = 558216,
+		["time_stamp"] = 392831,
 	}, -- [1]
 }
 AstralCharacters = {
@@ -26,7 +26,7 @@ AstralKeysSettings = {
 		["show_minimap_button"] = {
 			["isEnabled"] = true,
 		},
-		["init_time"] = 1704812400,
+		["init_time"] = 1705417200,
 		["expanded_tooltip"] = {
 			["isEnabled"] = true,
 		},
@@ -88,17 +88,17 @@ AstralMinimap = {
 		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
 	},
 	["profiles"] = {
@@ -108,17 +108,17 @@ AstralMinimap = {
 		},
 		["Arila - Stormreaver"] = {
 		},
-		["Attacknknees - Dalaran"] = {
+		["Jenleeviyah - Dalaran"] = {
 		},
 		["Bretanomyces - Stormreaver"] = {
 		},
-		["Deeohteez - Dalaran"] = {
+		["Morgntreeman - Dalaran"] = {
 		},
 		["Pontiffikate - Dalaran"] = {
 		},
 		["Feloril - Stormreaver"] = {
 		},
-		["Jenleeviyah - Dalaran"] = {
+		["Attacknknees - Dalaran"] = {
 		},
 		["Petitmort - Dalaran"] = {
 		},
@@ -128,7 +128,7 @@ AstralMinimap = {
 		},
 		["Jaalohwa - Stormreaver"] = {
 		},
-		["Morgntreeman - Dalaran"] = {
+		["Deeohteez - Dalaran"] = {
 		},
 		["Icanglidewee - Dalaran"] = {
 		},

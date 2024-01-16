@@ -874,21 +874,21 @@ MATAB = {
 					},
 					["ItemUpgradeFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PX"] = 1028,
 						["PY"] = 289,
+						["PX"] = 1028,
 						["RE"] = "BOTTOMLEFT",
 					},
 					["ClassTalentFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 156,
-						["PX"] = 151,
+						["PY"] = 92,
 						["RE"] = "BOTTOMLEFT",
+						["PX"] = 42,
 					},
 					["CharacterFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PX"] = 443,
-						["PY"] = 300,
+						["PY"] = 381,
 						["RE"] = "BOTTOMLEFT",
+						["PX"] = 471,
 					},
 					["MailFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -916,9 +916,11 @@ MATAB = {
 					},
 					["StaticPopup1"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 632,
-						["PX"] = 792,
+						["PY"] = 871,
 						["RE"] = "BOTTOMLEFT",
+						["PX"] = 979,
+					},
+					["HelpFrame"] = {
 					},
 					["GuildBankFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -928,11 +930,9 @@ MATAB = {
 					},
 					["SpellBookFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 439,
+						["PY"] = 415,
+						["PX"] = 183,
 						["RE"] = "BOTTOMLEFT",
-						["PX"] = 17,
-					},
-					["HelpFrame"] = {
 					},
 					["TradeFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -942,16 +942,18 @@ MATAB = {
 					},
 					["EncounterJournal"] = {
 					},
+					["StaticPopup2"] = {
+					},
 					["QuestFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["RE"] = "BOTTOMLEFT",
 						["PY"] = 464,
+						["RE"] = "BOTTOMLEFT",
 						["PX"] = 13,
 					},
 					["ChallengesKeystoneFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PX"] = 1065,
 						["PY"] = 391,
+						["PX"] = 1065,
 						["RE"] = "BOTTOMLEFT",
 					},
 					["CalendarFrame"] = {
@@ -965,6 +967,10 @@ MATAB = {
 					["PVPMatchScoreboard"] = {
 					},
 					["ReadyCheckFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 578,
+						["PX"] = 845,
+						["RE"] = "BOTTOMLEFT",
 					},
 					["ProfessionsFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -980,23 +986,23 @@ MATAB = {
 					},
 					["AuctionHouseFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PX"] = 2,
 						["PY"] = 468,
 						["RE"] = "BOTTOMLEFT",
+						["PX"] = 2,
 					},
 					["CommunitiesFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 538,
+						["PY"] = 443,
+						["PX"] = 681,
 						["RE"] = "BOTTOMLEFT",
-						["PX"] = 16,
 					},
 					["QuestLogPopupDetailFrame"] = {
 					},
 					["SettingsPanel"] = {
 						["AN"] = "BOTTOMLEFT",
-						["RE"] = "BOTTOMLEFT",
-						["PY"] = 125,
 						["PX"] = 612,
+						["PY"] = 125,
+						["RE"] = "BOTTOMLEFT",
 					},
 					["WardrobeFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -1020,20 +1026,20 @@ MATAB = {
 					},
 					["OpenMailFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["RE"] = "BOTTOMLEFT",
 						["PY"] = 540,
+						["RE"] = "BOTTOMLEFT",
 						["PX"] = 400,
 					},
 					["FriendsFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 517,
+						["PY"] = 565,
 						["RE"] = "BOTTOMLEFT",
-						["PX"] = 545,
+						["PX"] = 290,
 					},
 					["GossipFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["RE"] = "BOTTOMLEFT",
 						["PY"] = 398,
+						["RE"] = "BOTTOMLEFT",
 						["PX"] = 280,
 					},
 					["TimeManagerFrame"] = {
@@ -1042,8 +1048,8 @@ MATAB = {
 					},
 					["MerchantFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PX"] = 1118,
-						["PY"] = 260,
+						["PY"] = 479,
+						["PX"] = 262,
 						["RE"] = "BOTTOMLEFT",
 					},
 					["QuickKeybindFrame"] = {
@@ -1066,8 +1072,8 @@ MATAB = {
 					},
 					["WeeklyRewardsFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PX"] = 377,
 						["PY"] = 227,
+						["PX"] = 377,
 						["RE"] = "BOTTOMLEFT",
 					},
 					["ExpansionLandingPage"] = {
@@ -1080,8 +1086,8 @@ MATAB = {
 					},
 					["PVEFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 398,
-						["PX"] = 39,
+						["PX"] = 908,
+						["PY"] = 432,
 						["RE"] = "BOTTOMLEFT",
 					},
 					["OrderHallMissionFrame"] = {
@@ -1194,6 +1200,7 @@ MATAB = {
 					["QuestLogPopupDetailFrame"] = {
 					},
 					["PlayerChoiceFrame"] = {
+						["SCALE"] = 1.018,
 					},
 					["WeeklyRewardsFrame"] = {
 					},

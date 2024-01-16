@@ -1,0 +1,1 @@
+{"status":"recurring","uuid":"37fbba65-db27-4336-878d-27a63f4a3f30","entry":"20230822T222143Z","description":"Check the Mail","due":"20230825T200000Z","mask":"++X+++XX++++++++++X+++++XXX+XXXXXX+WWWWWWWWWWWWWW","modified":"20240108T200002Z","priority":"M","project":"Subsistence.Travel","recur":"4d","tags":["inTown"],"wait":"20230822T180000Z","rtype":"periodic"}

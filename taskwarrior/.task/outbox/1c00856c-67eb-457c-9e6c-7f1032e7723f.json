@@ -1,0 +1,1 @@
+{"status":"pending","uuid":"1c00856c-67eb-457c-9e6c-7f1032e7723f","entry":"20240108T164820Z","description":"Pull weeds for 5 minutes","due":"20240415T065959Z","imask":33.0,"modified":"20240102T075039Z","parent":"cf3d9ca7-e81b-4dbc-9c93-b9468f060acf","priority":"M","project":"Protection.Maintenance","recur":"7d","tags":["weekly"],"wait":"20240408T070000Z","rtype":"periodic"}

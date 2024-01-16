@@ -1,0 +1,1 @@
+{"status":"recurring","uuid":"586731f2-3d9a-4fc5-8ec6-1b03364080ca","entry":"20230823T164440Z","description":"Mow the lawn","due":"20230901T065959Z","mask":"XXXXX-WWWWWWWWWWWWW","modified":"20240102T075039Z","priority":"M","project":"Protection.Maintenance","recur":"1mo","tags":["monthly"],"wait":"20230801T070000Z","rtype":"periodic"}

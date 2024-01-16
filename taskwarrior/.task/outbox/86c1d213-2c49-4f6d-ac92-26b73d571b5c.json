@@ -1,0 +1,1 @@
+{"status":"pending","uuid":"86c1d213-2c49-4f6d-ac92-26b73d571b5c","entry":"20240102T075032Z","description":"Feed dogs AM","due":"20240114T050000Z","imask":144.0,"modified":"20240102T073608Z","parent":"f16a4d21-bff5-4c14-abc9-373e2256dcb4","priority":"M","project":"Belonging.Dogs","recur":"1d","tags":["am","daily"],"wait":"20240114T030000Z","rtype":"periodic"}

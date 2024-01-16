@@ -5,12 +5,12 @@ RepByZoneDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
@@ -20,8 +20,8 @@ RepByZoneDB = {
 	},
 	["profiles"] = {
 		["Pangdai - Dalaran"] = {
-			["watchedRepID"] = 1216,
 			["watchedRepName"] = "Shang Xi's Academy",
+			["watchedRepID"] = 1216,
 		},
 		["Deeohteez - Stormreaver"] = {
 			["watchedRepName"] = "Undercity",
@@ -35,13 +35,13 @@ RepByZoneDB = {
 			["watchedRepID"] = 69,
 			["watchedRepName"] = "Darnassus",
 		},
-		["Deeohteez - Dalaran"] = {
+		["Attacknknees - Dalaran"] = {
 			["watchedRepName"] = "Gnomeregan",
 			["watchedRepID"] = 54,
 		},
-		["Morgntreeman - Dalaran"] = {
-			["watchedRepID"] = 1134,
-			["watchedRepName"] = "Gilneas",
+		["Jenleeviyah - Dalaran"] = {
+			["watchedRepName"] = "Darnassus",
+			["watchedRepID"] = 69,
 		},
 		["Ruderalis - Stormreaver"] = {
 			["watchedRepID"] = 530,
@@ -51,11 +51,11 @@ RepByZoneDB = {
 			["watchedRepName"] = "Stormwind",
 			["watchedRepID"] = 72,
 		},
-		["Jenleeviyah - Dalaran"] = {
-			["watchedRepName"] = "Darnassus",
-			["watchedRepID"] = 69,
+		["Morgntreeman - Dalaran"] = {
+			["watchedRepID"] = 1134,
+			["watchedRepName"] = "Gilneas",
 		},
-		["Attacknknees - Dalaran"] = {
+		["Deeohteez - Dalaran"] = {
 			["watchedRepName"] = "Gnomeregan",
 			["watchedRepID"] = 54,
 		},
@@ -76,8 +76,8 @@ RepByZoneDB = {
 			["watchedRepName"] = "Thunder Bluff",
 		},
 		["Bretanomyces - Stormreaver"] = {
-			["watchedRepName"] = "Shang Xi's Academy",
 			["watchedRepID"] = 1216,
+			["watchedRepName"] = "Shang Xi's Academy",
 		},
 		["Hyaae - Dalaran"] = {
 			["watchedRepName"] = "Exodar",

@@ -5,12 +5,12 @@ HandyNotesDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
@@ -27,17 +27,17 @@ HandyNotesDB = {
 		},
 		["Icanglidewee - Dalaran"] = {
 		},
-		["Deeohteez - Dalaran"] = {
+		["Attacknknees - Dalaran"] = {
 		},
-		["Morgntreeman - Dalaran"] = {
+		["Jenleeviyah - Dalaran"] = {
 		},
 		["Ruderalis - Stormreaver"] = {
 		},
 		["Pontiffikate - Dalaran"] = {
 		},
-		["Jenleeviyah - Dalaran"] = {
+		["Morgntreeman - Dalaran"] = {
 		},
-		["Attacknknees - Dalaran"] = {
+		["Deeohteez - Dalaran"] = {
 		},
 		["Petitmort - Dalaran"] = {
 		},
@@ -59,12 +59,12 @@ HandyNotes_HandyNotesDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
@@ -81,17 +81,17 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Icanglidewee - Dalaran"] = {
 		},
-		["Deeohteez - Dalaran"] = {
+		["Attacknknees - Dalaran"] = {
 		},
-		["Morgntreeman - Dalaran"] = {
+		["Jenleeviyah - Dalaran"] = {
 		},
 		["Ruderalis - Stormreaver"] = {
 		},
 		["Pontiffikate - Dalaran"] = {
 		},
-		["Jenleeviyah - Dalaran"] = {
+		["Morgntreeman - Dalaran"] = {
 		},
-		["Attacknknees - Dalaran"] = {
+		["Deeohteez - Dalaran"] = {
 		},
 		["Petitmort - Dalaran"] = {
 		},

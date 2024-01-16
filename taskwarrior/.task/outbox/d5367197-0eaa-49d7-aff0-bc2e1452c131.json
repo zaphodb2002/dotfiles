@@ -1,0 +1,1 @@
+{"status":"pending","uuid":"d5367197-0eaa-49d7-aff0-bc2e1452c131","entry":"20240104T202652Z","description":"Take out office trash","due":"20240121T170000Z","imask":2.0,"modified":"20240104T202640Z","parent":"ab8fe1ac-0cba-4baf-9eb8-966550deed44","project":"Protection.Maintenance.Office","recur":"1w","tags":["am","weekly"],"wait":"20240115T170000Z","rtype":"periodic"}

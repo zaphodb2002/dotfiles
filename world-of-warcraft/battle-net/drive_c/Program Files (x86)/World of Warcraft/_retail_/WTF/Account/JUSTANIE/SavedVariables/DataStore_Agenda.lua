@@ -5,12 +5,12 @@ DataStore_AgendaDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
@@ -22,7 +22,7 @@ DataStore_AgendaDB = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2024-01-09",
+			["NextWeeklyReset"] = "2024-01-16",
 		},
 		["Characters"] = {
 			["Default.Dalaran.Pontiffikate"] = {
@@ -32,7 +32,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1704259589,
 			},
 			["Default.Dalaran.Pangdai"] = {
-				["lastUpdate"] = 1704175775,
+				["lastUpdate"] = 1705199282,
 			},
 			["Default.Stormreaver.Dumpiss"] = {
 				["lastUpdate"] = 1704091139,
@@ -54,20 +54,22 @@ DataStore_AgendaDB = {
 			},
 			["Default.Dalaran.Morgntreeman"] = {
 				["DungeonIDs"] = {
-					["Ruby Life Pools Mythic|1326995255"] = "29561|1704782841|0|0",
-					["Amirdrassil, the Dream's Hope Looking For Raid|1327922253"] = "29561|1704782841|0|1",
+					["Amirdrassil, the Dream's Hope Looking For Raid|1330287855"] = "211422|1705205777|0|1",
 				},
-				["lastUpdate"] = 1704782841,
+				["lastUpdate"] = 1705205777,
 				["LFGDungeons"] = {
 					["2466.Igira the Cruel"] = true,
-					["2466.Smolderon"] = true,
-					["2467.Count"] = 2,
 					["2469.Tindral Sageswift, Seer of the Flame"] = true,
-					["2467.Nymue, Weaver of the Cycle"] = true,
-					["2469.Count"] = 2,
+					["2468.Volcoross"] = true,
 					["2467.Council of Dreams"] = true,
-					["2469.Fyrakk the Blazing"] = true,
 					["2466.Count"] = 3,
+					["2467.Count"] = 2,
+					["2467.Nymue, Weaver of the Cycle"] = true,
+					["2468.Larodar, Keeper of the Flame"] = true,
+					["2469.Count"] = 2,
+					["2468.Count"] = 2,
+					["2469.Fyrakk the Blazing"] = true,
+					["2466.Smolderon"] = true,
 					["2466.Gnarlroot"] = true,
 				},
 			},
@@ -78,7 +80,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1704175683,
 			},
 			["Default.Stormreaver.Bretanomyces"] = {
-				["lastUpdate"] = 1703477004,
+				["lastUpdate"] = 1705284297,
 			},
 			["Default.Stormreaver.Deeohteez"] = {
 				["lastUpdate"] = 1704176557,

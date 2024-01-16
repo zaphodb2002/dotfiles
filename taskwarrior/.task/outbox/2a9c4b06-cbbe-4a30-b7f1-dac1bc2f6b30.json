@@ -1,0 +1,1 @@
+{"status":"recurring","uuid":"2a9c4b06-cbbe-4a30-b7f1-dac1bc2f6b30","entry":"20230823T173548Z","description":"Record water parameters in TV 10 Gallon","due":"20230901T065959Z","mask":"XX++++WWWWWWWWWWWWW","modified":"20240102T075042Z","priority":"M","project":"Recreation.Fishkeeping.TV10","recur":"1mo","tags":["monthly"],"wait":"20230801T070000Z","rtype":"periodic"}

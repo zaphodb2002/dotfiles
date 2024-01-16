@@ -1,0 +1,1 @@
+{"status":"recurring","uuid":"cf3d9ca7-e81b-4dbc-9c93-b9468f060acf","entry":"20230823T164353Z","description":"Pull weeds for 5 minutes","due":"20230828T065959Z","mask":"XX+X++XXXXXX+XXXXX+X-WWWWWWWWWWWWW","modified":"20240108T203149Z","priority":"M","project":"Protection.Maintenance","recur":"7d","tags":["weekly"],"wait":"20230821T070000Z","rtype":"periodic"}

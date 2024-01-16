@@ -1,0 +1,1 @@
+{"status":"pending","uuid":"df486207-b0af-43b5-a14d-d85e59c42131","entry":"20240104T201057Z","description":"Top off Upstairs 27G","due":"20240331T170000Z","imask":12.0,"modified":"20240104T200850Z","parent":"5d94728f-7cae-4a65-bfb5-695135acd35f","project":"Recreation.Fishkeeping.Upstairs27","recur":"1w","tags":["am","weekly"],"wait":"20240325T170000Z","rtype":"periodic"}

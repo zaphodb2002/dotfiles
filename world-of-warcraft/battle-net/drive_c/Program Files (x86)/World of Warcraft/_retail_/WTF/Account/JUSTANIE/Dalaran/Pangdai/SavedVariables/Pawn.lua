@@ -5,9 +5,9 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 194349,
-			["Level"] = 262,
-			["Link"] = "|cff0070dd|Hitem:194349::::::::65:268::25:1:8776:2:9:63:28:2437:::::|h[Field Scout's Helmet]|h|r",
+			["ID"] = 188441,
+			["Level"] = 358,
+			["Link"] = "|cff0070dd|Hitem:188441::::::::68:268::22:2:9534:7756:2:28:181:9:67:::::|h[Battlemap Hide Helm]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 200210,
@@ -46,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:194365::::::::65:268::25:1:8768:2:9:63:28:2437:::::|h[Field Scout's Bindings]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 137480,
-			["Level"] = 244,
-			["Link"] = "|cff0070dd|Hitem:137480::::::::65:268::22:3:6652:8171:7756:2:9:63:28:181:::::|h[Guileful Intruder Handguards]|h|r",
+			["ID"] = 127526,
+			["Level"] = 311,
+			["Link"] = "|cff0070dd|Hitem:127526::::::::67:268::22:3:9534:7756:40:2:9:65:28:181:::::|h[Awakened Handguards]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 134531,
@@ -57,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:134531::::::::65:268::22:4:6652:8812:8171:7756:2:9:64:28:181:::::|h[Band of Twisted Bark]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 197989,
-			["Level"] = 252,
+			["ID"] = 134531,
+			["Level"] = 260,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:197989::::::::65:268::25:1:8768:2:9:63:28:2437:::::|h[Water-Ordained Signet]|h|r",
+			["Link"] = "|cff0070dd|Hitem:134531::::::::66:268::22:4:6652:8812:8171:7756:2:9:64:28:181:::::|h[Band of Twisted Bark]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 194399,
@@ -69,15 +69,15 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:194399::::::::65:268::25:1:8768:2:9:63:28:2437:::::|h[Lifegift Ruby]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 141618,
-			["Level"] = 146,
+			["ID"] = 194399,
+			["Level"] = 252,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:141618::::::::65:268::11:1:3631:2:9:54:28:1705:::::|h[Life-Giving Berries]|h|r",
+			["Link"] = "|cff1eff00|Hitem:194399::::::::66:268::25:1:8768:2:9:63:28:2437:::::|h[Lifegift Ruby]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 194370,
-			["Level"] = 250,
-			["Link"] = "|cff1eff00|Hitem:194370::::::::65:268::27:1:8771:2:9:62:28:2270:::::|h[Drape of the Djaradin Slayer]|h|r",
+			["ID"] = 127600,
+			["Level"] = 358,
+			["Link"] = "|cff0070dd|Hitem:127600::::::::67:268::22:2:9534:7756:2:9:67:28:181:::::|h[Rippling Azure Cloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 194389,

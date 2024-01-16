@@ -1,0 +1,1 @@
+{"status":"pending","uuid":"e7267e1d-86b9-4195-94fb-cc73b75a9a40","entry":"20240102T073552Z","description":"Audit Recreation.TTRPGs recurring Tasks","due":"20240527T080000Z","imask":4.0,"modified":"20231228T221951Z","parent":"d1a02a2a-8806-4451-92ca-84de1b178216","project":"LMS.Process.Auditing","recur":"1mo","wait":"20240429T080000Z","rtype":"periodic"}

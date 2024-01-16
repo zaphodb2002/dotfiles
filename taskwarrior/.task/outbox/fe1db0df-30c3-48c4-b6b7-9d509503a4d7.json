@@ -1,0 +1,1 @@
+{"status":"recurring","uuid":"fe1db0df-30c3-48c4-b6b7-9d509503a4d7","entry":"20231016T200956Z","description":"Turn the compost pile","due":"20230829T050000Z","mask":"XXXXX-WWWWWWWWWWWWW","modified":"20240102T075044Z","priority":"M","project":"Application.Gardening","recur":"1mo","tags":["monthly","task"],"wait":"20230802T030000Z","rtype":"periodic"}

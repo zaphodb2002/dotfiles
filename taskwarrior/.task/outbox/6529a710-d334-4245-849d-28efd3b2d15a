@@ -1,0 +1,1 @@
+{"description":"Out of bed before 0800","due":"20240130T160000Z","entry":"20240116T163804Z","imask":162,"modified":"20240115T164502Z","parent":"5cda2fb1-be77-4ed9-855a-dbb981e4396d","project":"Subsistence.Discipline","recur":"1d","rtype":"periodic","status":"pending","uuid":"6529a710-d334-4245-849d-28efd3b2d15a","wait":"20240130T140000Z","tags":["am","daily","goal"]}

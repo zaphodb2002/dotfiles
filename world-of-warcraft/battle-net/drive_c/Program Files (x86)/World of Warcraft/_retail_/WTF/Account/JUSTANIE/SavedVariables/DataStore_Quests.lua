@@ -5,12 +5,12 @@ DataStore_QuestsDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
@@ -1064,123 +1064,122 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Dalaran.Pangdai"] = {
-				["HistoryBuild"] = "52649",
-				["HistorySize"] = 956,
-				["HistoryLastUpdate"] = 1704175781,
+				["lastUpdate"] = 1705199282,
+				["HistorySize"] = 980,
+				["HistoryLastUpdate"] = 1705197975,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:75918:2688|h[Fire Season]|h|r", -- [1]
-					"|cffffff00|Hquest:72068:2437|h[Aiding the Accord: A Feast For All]|h|r", -- [2]
+					"|cffffff00|Hquest:77254:2684|h[Aiding the Accord: Time Rift]|h|r", -- [2]
 					"|cffffff00|Hquest:72585:2401|h[Open Orientation]|h|r", -- [3]
 					"|cff808080|Hquest:48641:347|h[Armies of Legionfall]|h|r", -- [4]
-					"|cffffff00|Hquest:71029:2523|h[Hunting Tactics: Companion Training]|h|r", -- [5]
-					"|cffffff00|Hquest:65783:2152|h[Welcome at Our Fire]|h|r", -- [6]
-					"|cff808080|Hquest:42234:347|h[The Valarjar]|h|r", -- [7]
-					"|cff808080|Hquest:42421:347|h[The Nightfallen]|h|r", -- [8]
-					"|cffffff00|Hquest:66167:2390|h[Southern Exposure]|h|r", -- [9]
-					"|cffffff00|Hquest:71219:2382|h[The Wayward Waywatcher]|h|r", -- [10]
-					"|cffffff00|Hquest:67174:2153|h[Arcane Detection]|h|r", -- [11]
-					"|cffffff00|Hquest:66699:2153|h[Ask the Locals]|h|r", -- [12]
-					"|cffffff00|Hquest:69904:2317|h[Suspiciously Quiet]|h|r", -- [13]
-					"|cffffff00|Hquest:67177:2153|h[WANTED: Gorger]|h|r", -- [14]
-					"|cffffff00|Hquest:70179:2466|h[A Two for One Deal]|h|r", -- [15]
-					"|cffffff00|Hquest:72122:2151|h[Erstwhile Ecologists]|h|r", -- [16]
-					"|cffffff00|Hquest:70351:2295|h[Garden Party]|h|r", -- [17]
-					"|cffffff00|Hquest:66879:2293|h[Hornstrider Havoc]|h|r", -- [18]
-					"|cffffff00|Hquest:66997:2295|h[Nursery Direction]|h|r", -- [19]
-					"|cffffff00|Hquest:72481:2424|h[The Waking Shores Tour]|h|r", -- [20]
-					"|cff808080|Hquest:53436:289|h[Azerite for the Alliance]|h|r", -- [21]
-					"|cffffff00|Hquest:77203:877|h[Preserving Rarities]|h|r", -- [22]
-					"|cffffff00|Hquest:72135:2551|h[Neltharus: Secrets Within]|h|r", -- [23]
-					"|cffffff00|Hquest:66119:2155|h[Ruby Life Pools: Primalist Invasion]|h|r", -- [24]
-					"|cffffff00|Hquest:72560:2523|h[Climbing]|h|r", -- [25]
-					"|cff808080|Hquest:42186:340|h[Growing Power]|h|r", -- [26]
-					"|cffffff00|Hquest:67100:2296|h[A Gift for Miguel]|h|r", -- [27]
-					"|cffffff00|Hquest:75887:2641|h[Fyrakk's Forces]|h|r", -- [28]
-					"|cffffff00|Hquest:77236:2682|h[When Time Needs Mending]|h|r", -- [29]
-					"|cffffff00|Hquest:76113:444|h[Report to the Trading Post]|h|r", -- [30]
-					"|cff808080|Hquest:45540:347|h[A Call from the Caverns]|h|r", -- [31]
-					"|cff808080|Hquest:46293:347|h[Deadmines, Part Three?]|h|r", -- [32]
-					"|cffffff00|Hquest:31927:373|h[Battle Pet Tamers: Northrend]|h|r", -- [33]
-					"|cffffff00|Hquest:32863:373|h[What We've Been Training For]|h|r", -- [34]
+					"|cff808080|Hquest:42422:347|h[The Wardens]|h|r", -- [5]
+					"|cff808080|Hquest:42233:347|h[Highmountain Tribes]|h|r", -- [6]
+					"|cffffff00|Hquest:71029:2523|h[Hunting Tactics: Companion Training]|h|r", -- [7]
+					"|cffffff00|Hquest:65783:2152|h[Welcome at Our Fire]|h|r", -- [8]
+					"|cff808080|Hquest:24683:242|h[The Pit of Saron]|h|r", -- [9]
+					"|cffffff00|Hquest:66167:2390|h[Southern Exposure]|h|r", -- [10]
+					"|cffffff00|Hquest:71219:2382|h[The Wayward Waywatcher]|h|r", -- [11]
+					"|cffffff00|Hquest:67174:2153|h[Arcane Detection]|h|r", -- [12]
+					"|cffffff00|Hquest:66699:2153|h[Ask the Locals]|h|r", -- [13]
+					"|cffffff00|Hquest:69904:2317|h[Suspiciously Quiet]|h|r", -- [14]
+					"|cffffff00|Hquest:67177:2153|h[WANTED: Gorger]|h|r", -- [15]
+					"|cff808080|Hquest:13094:245|h[Have They No Shame?]|h|r", -- [16]
+					"|cff808080|Hquest:11905:245|h[Postponing the Inevitable]|h|r", -- [17]
+					"|cff808080|Hquest:11973:245|h[Prisoner of War]|h|r", -- [18]
+					"|cff808080|Hquest:11911:245|h[Quickening]|h|r", -- [19]
+					"|cffffff00|Hquest:70179:2466|h[A Two for One Deal]|h|r", -- [20]
+					"|cffffff00|Hquest:72122:2151|h[Erstwhile Ecologists]|h|r", -- [21]
+					"|cffffff00|Hquest:70351:2295|h[Garden Party]|h|r", -- [22]
+					"|cffffff00|Hquest:66879:2293|h[Hornstrider Havoc]|h|r", -- [23]
+					"|cffffff00|Hquest:66997:2295|h[Nursery Direction]|h|r", -- [24]
+					"|cffffff00|Hquest:72481:2424|h[The Waking Shores Tour]|h|r", -- [25]
+					"|cff808080|Hquest:53436:289|h[Azerite for the Alliance]|h|r", -- [26]
+					"|cffffff00|Hquest:77203:877|h[Preserving Rarities]|h|r", -- [27]
+					"|cffffff00|Hquest:72192:2554|h[Halls of Infusion: Entropy to Order]|h|r", -- [28]
+					"|cffffff00|Hquest:72135:2551|h[Neltharus: Secrets Within]|h|r", -- [29]
+					"|cffffff00|Hquest:66119:2155|h[Ruby Life Pools: Primalist Invasion]|h|r", -- [30]
+					"|cffffff00|Hquest:72560:2523|h[Climbing]|h|r", -- [31]
+					"|cff808080|Hquest:42186:340|h[Growing Power]|h|r", -- [32]
+					"|cffffff00|Hquest:74436:2594|h[Storm Warning]|h|r", -- [33]
+					"|cffffff00|Hquest:67100:2296|h[A Gift for Miguel]|h|r", -- [34]
+					"|cffffff00|Hquest:75887:2641|h[Fyrakk's Forces]|h|r", -- [35]
+					"|cffffff00|Hquest:77236:2682|h[When Time Needs Mending]|h|r", -- [36]
+					"|cff808080|Hquest:45540:347|h[A Call from the Caverns]|h|r", -- [37]
+					"|cff808080|Hquest:46293:347|h[Deadmines, Part Three?]|h|r", -- [38]
+					"|cffffff00|Hquest:31927:373|h[Battle Pet Tamers: Northrend]|h|r", -- [39]
+					"|cffffff00|Hquest:32863:373|h[What We've Been Training For]|h|r", -- [40]
 				},
+				["HistoryBuild"] = "52808",
 				["QuestHeaders"] = {
 					"Guardians of the Dream", -- [1]
 					"Dragonflight", -- [2]
 					"Broken Shore", -- [3]
-					"Ohn'ahran Plains", -- [4]
-					"Stormheim", -- [5]
-					"Suramar", -- [6]
-					"Thaldraszus", -- [7]
-					"The Azure Span", -- [8]
-					"The Waking Shores", -- [9]
-					"Tiragarde Sound", -- [10]
-					"Valdrakken", -- [11]
-					"Dungeon", -- [12]
-					"Missing header! (quest designers)", -- [13]
-					"Monk Campaign", -- [14]
-					"Professions", -- [15]
-					"Suffusion Camps", -- [16]
-					"Time Rifts", -- [17]
-					"Trading Post", -- [18]
-					"Battle Pets", -- [19]
+					"Dalaran", -- [4]
+					"Highmountain", -- [5]
+					"Ohn'ahran Plains", -- [6]
+					"Pit of Saron", -- [7]
+					"Thaldraszus", -- [8]
+					"The Azure Span", -- [9]
+					"The Nexus", -- [10]
+					"The Waking Shores", -- [11]
+					"Tiragarde Sound", -- [12]
+					"Valdrakken", -- [13]
+					"Dungeon", -- [14]
+					"Missing header! (quest designers)", -- [15]
+					"Monk Campaign", -- [16]
+					"Primalist Storms", -- [17]
+					"Professions", -- [18]
+					"Suffusion Camps", -- [19]
+					"Time Rifts", -- [20]
+					"Battle Pets", -- [21]
 				},
 				["Rewards"] = {
-					[33] = "r|89125|1|1",
-					[34] = "r|98095|1|1",
+					[28] = "c|193725|1|1,c|193743|1|1,c|193731|1|1",
+					[29] = "c|193768|1|1,c|193776|1|1,c|193787|1|1",
+					[26] = "r|166883|1|1",
+					[36] = "r|208090|1|1",
+					[2] = "r|200073|1|1",
+					[4] = "r|157830|1|1",
+					[30] = "c|193751|1|1,c|193757|1|1,c|193763|1|1",
+					[16] = "c|43182|1|1",
+					[17] = "c|42761|1|1",
+					[34] = "r|194715|1|1",
+					[19] = "c|42762|1|1",
+					[39] = "r|89125|1|1",
+					[40] = "r|98095|1|1",
+					[6] = "r|157823|1|1",
+					[18] = "c|38223|1|1,c|38222|1|1,c|38221|1|1",
+					[5] = "r|157827|1|1",
 				},
-				["lastUpdate"] = 1704175792,
-				["QuestTitles"] = {
-					"Fire Season", -- [1]
-					"Aiding the Accord: A Feast For All", -- [2]
-					"Open Orientation", -- [3]
-					"Armies of Legionfall", -- [4]
-					"Hunting Tactics: Companion Training", -- [5]
-					"Welcome at Our Fire", -- [6]
-					"The Valarjar", -- [7]
-					"The Nightfallen", -- [8]
-					"Southern Exposure", -- [9]
-					"The Wayward Waywatcher", -- [10]
-					"Arcane Detection", -- [11]
-					"Ask the Locals", -- [12]
-					"Suspiciously Quiet", -- [13]
-					"WANTED: Gorger", -- [14]
-					"A Two for One Deal", -- [15]
-					"Erstwhile Ecologists", -- [16]
-					"Garden Party", -- [17]
-					"Hornstrider Havoc", -- [18]
-					"Nursery Direction", -- [19]
-					"The Waking Shores Tour", -- [20]
-					"Azerite for the Alliance", -- [21]
-					"Preserving Rarities", -- [22]
-					"Neltharus: Secrets Within", -- [23]
-					"Ruby Life Pools: Primalist Invasion", -- [24]
-					"Climbing", -- [25]
-					"Growing Power", -- [26]
-					"A Gift for Miguel", -- [27]
-					"Fyrakk's Forces", -- [28]
-					"When Time Needs Mending", -- [29]
-					"Report to the Trading Post", -- [30]
-					"A Call from the Caverns", -- [31]
-					"Deadmines, Part Three?", -- [32]
-					"Battle Pet Tamers: Northrend", -- [33]
-					"What We've Been Training For", -- [34]
+				["Weeklies"] = {
+					{
+						["id"] = 40173,
+						["timestamp"] = 1704948291,
+						["title"] = "The Unstable Prism",
+						["expiresIn"] = 468908,
+					}, -- [1]
 				},
 				["QuestTags"] = {
-					[24] = 81,
-					[25] = 265,
-					[7] = 128,
-					[27] = 267,
-					[2] = "WEEKLY",
-					[29] = "WEEKLY",
-					[30] = 102,
-					[31] = 102,
-					[34] = 102,
-					[33] = 102,
-					[14] = 1,
-					[21] = 261,
+					[15] = 1,
+					[30] = 81,
 					[4] = 128,
-					[23] = 81,
-					[8] = 128,
+					[31] = 265,
+					[16] = 81,
+					[17] = 81,
+					[9] = 81,
+					[18] = 81,
+					[36] = "WEEKLY",
+					[19] = 81,
+					[39] = 102,
+					[40] = 102,
+					[6] = 128,
+					[26] = 261,
+					[5] = 128,
+					[34] = 267,
+					[28] = 81,
+					[2] = "WEEKLY",
+					[29] = 81,
+					[37] = 102,
 				},
 				["History"] = {
 					[2024] = 268435456,
@@ -1197,6 +1196,7 @@ DataStore_QuestsDB = {
 					[1270] = 1442840576,
 					[1271] = 32768,
 					[893] = 147456,
+					[766] = 2148007936,
 					[1275] = 234881024,
 					[1022] = 12,
 					[1276] = 32768,
@@ -1258,29 +1258,31 @@ DataStore_QuestsDB = {
 					[1337] = 16,
 					[2160] = 32,
 					[1849] = 136,
-					[2162] = 66060288,
-					[2163] = 2184724768,
+					[2162] = 66093056,
+					[2163] = 3258466592,
 					[2164] = 26,
-					[2166] = 2435579905,
+					[2166] = 2435645441,
 					[1341] = 4096,
-					[2168] = 384,
+					[2168] = 392,
 					[1855] = 2623488,
-					[2174] = 1426063360,
+					[2174] = 1426079744,
 					[929] = 3758096436,
 					[2176] = 972,
 					[930] = 2147483680,
-					[2182] = 5088512,
-					[931] = 4,
+					[2181] = 67108864,
+					[2182] = 273523968,
+					[931] = 28,
 					[2184] = 256,
 					[2185] = 2243952640,
 					[2187] = 8192,
 					[2188] = 4096,
 					[1863] = 67108864,
 					[2190] = 9216,
+					[933] = 1166336,
 					[2192] = 8403968,
 					[2193] = 4096,
 					[2194] = 112,
-					[934] = 3087007744,
+					[934] = 3087007856,
 					[2198] = 4096,
 					[1868] = 82313089,
 					[2200] = 256,
@@ -1337,7 +1339,7 @@ DataStore_QuestsDB = {
 					[1154] = 16777216,
 					[834] = 2067262513,
 					[2307] = 612370432,
-					[2308] = 33816576,
+					[2308] = 35913728,
 					[2309] = 256,
 					[835] = 2684878863,
 					[2311] = 1,
@@ -1347,62 +1349,65 @@ DataStore_QuestsDB = {
 					[838] = 15880,
 					[1165] = 768,
 					[1934] = 262148,
+					[2061] = 524288,
 					[1680] = 16515072,
+					[2306] = 67108864,
 					[1289] = 16,
+					[2093] = 102400,
 					[1171] = 2080376320,
 					[2339] = 939524097,
 					[1172] = 59785216,
-					[2095] = 440401920,
+					[1664] = 16,
 					[1173] = 88096841,
 					[1429] = 2147483648,
 					[1174] = 1610612804,
 					[2345] = 3758096384,
 					[844] = 134217728,
-					[2061] = 524288,
+					[2167] = 834766984,
 					[1687] = 16,
 					[2349] = 262144,
 					[1177] = 526516224,
-					[1664] = 16,
-					[1178] = 67125248,
 					[2250] = 131284,
+					[1178] = 67125248,
+					[2175] = 1680111905,
 					[1179] = 3221225473,
 					[1946] = 1024,
 					[1180] = 294,
-					[2258] = 720897,
-					[1181] = 524288,
 					[2285] = 57344,
+					[1181] = 524288,
+					[892] = 2097408,
 					[1182] = 536870913,
-					[924] = 98244608,
+					[2340] = 30,
 					[1183] = 2684354561,
 					[1950] = 671088640,
 					[1184] = 8314,
 					[2365] = 1024,
 					[849] = 32,
-					[892] = 2097408,
-					[2340] = 30,
 					[891] = 8126536,
+					[890] = 1,
+					[1251] = 768,
 					[1187] = 416,
 					[2371] = 8388608,
 					[1188] = 3221225600,
-					[890] = 1,
-					[2322] = 49152,
+					[789] = 524288,
+					[1761] = 16777216,
 					[1956] = 128,
-					[1251] = 768,
+					[2224] = 639693828,
 					[1446] = 268435488,
+					[2379] = 203136,
+					[1958] = 2147483648,
 					[1192] = 3221225473,
-					[2379] = 72064,
-					[2380] = 2147483648,
 					[2381] = 213909504,
 					[1193] = 26,
 					[1960] = 13631488,
-					[1761] = 16777216,
+					[2221] = 640,
 					[1961] = 570425344,
 					[1195] = 687996928,
 					[1963] = 262144,
 					[1196] = 64,
 					[2389] = 8192,
-					[2224] = 639693828,
-					[2221] = 640,
+					[2225] = 66560,
+					[2394] = 134217728,
 					[1198] = 786434,
 					[2393] = 3758096384,
 					[1199] = 524288,
@@ -1410,29 +1415,29 @@ DataStore_QuestsDB = {
 					[1200] = 90640,
 					[1967] = 134217728,
 					[1201] = 128,
-					[1718] = 384,
+					[1717] = 35684352,
 					[1202] = 276826112,
-					[1206] = 4194304,
+					[1207] = 24,
 					[858] = 128,
 					[986] = 4026531841,
-					[860] = 2692743169,
-					[1460] = 536870912,
 					[1209] = 268992704,
+					[1460] = 536870912,
+					[1976] = 1572864,
 					[1461] = 25600,
-					[1717] = 35684352,
+					[1206] = 4194304,
 					[1462] = 8192,
-					[1207] = 24,
+					[860] = 2692743169,
 					[2411] = 1087538176,
 					[1208] = 2147614720,
 					[1464] = 536936448,
 					[861] = 538968064,
 					[2415] = 32,
-					[2217] = 16777216,
-					[935] = 64,
-					[2418] = 2,
-					[432] = 32768,
+					[2183] = 12556,
 					[1723] = 262144,
+					[2418] = 2,
 					[1214] = 262144,
+					[1212] = 2,
+					[865] = 2097152,
 					[863] = 264192,
 					[1469] = 16777216,
 					[1725] = 369426528,
@@ -1440,89 +1445,131 @@ DataStore_QuestsDB = {
 					[864] = 127360,
 					[992] = 4294144001,
 					[2428] = 41943040,
-					[865] = 2097152,
+					[866] = 201326592,
 					[1217] = 1024,
 					[993] = 2,
-					[2432] = 2097152,
-					[1219] = 262144,
-					[866] = 201326592,
+					[2432] = 270532608,
+					[1753] = 16777216,
+					[2434] = 2147483648,
 					[994] = 512,
 					[1220] = 2097152,
-					[1221] = 1073741824,
 					[867] = 67108864,
+					[1221] = 1073741824,
 					[995] = 33546288,
 					[1314] = 16,
-					[1753] = 16777216,
+					[1215] = 512,
 					[868] = 198656,
-					[988] = 1022,
-					[850] = 268962048,
 					[1866] = 524288,
+					[1447] = 16384,
+					[2352] = 512,
 					[869] = 14,
 					[997] = 1074412544,
-					[1447] = 16384,
-					[2450] = 262144,
-					[870] = 4026531840,
-					[998] = 108544,
+					[2451] = 1082130432,
 					[1739] = 8388608,
+					[2450] = 262144,
+					[998] = 108544,
+					[2452] = 393216,
 					[2453] = 32768,
 					[2454] = 18153472,
-					[2352] = 512,
 					[1232] = 2,
+					[1743] = 1572864,
 					[1997] = 2097152,
 					[1231] = 25165824,
 					[1000] = 8576,
-					[1743] = 1572864,
-					[1561] = 512,
+					[2460] = 6291456,
+					[894] = 67108864,
 					[873] = 1835008,
 					[1001] = 512,
 					[2464] = 1073741824,
 					[2465] = 33,
 					[2466] = 16777280,
-					[987] = 4294901787,
-					[1747] = 1664,
 					[1355] = 8192,
+					[1747] = 1664,
+					[987] = 4294901787,
 					[875] = 33554432,
-					[894] = 67108864,
+					[1561] = 512,
 					[1749] = 536870912,
-					[2460] = 6291456,
+					[870] = 4026531840,
 					[1750] = 32514048,
-					[2452] = 393216,
-					[2451] = 1082130432,
 					[1362] = 16777216,
+					[850] = 268962048,
+					[988] = 1022,
 					[1752] = 524292,
-					[1215] = 512,
+					[1219] = 262144,
 					[1242] = 64,
 					[2009] = 64,
-					[2183] = 12556,
-					[2434] = 2147483648,
-					[2199] = 40,
 					[1216] = 16384,
+					[432] = 32768,
+					[2199] = 40,
+					[935] = 64,
 					[879] = 66048,
-					[1212] = 2,
+					[1718] = 384,
 					[979] = 1060864,
-					[1976] = 1572864,
+					[2217] = 16777216,
 					[880] = 139456,
-					[2225] = 66560,
 					[2255] = 512,
-					[2394] = 134217728,
 					[2267] = 16,
 					[2277] = 134080,
+					[2380] = 2147483648,
+					[2322] = 49152,
 					[1250] = 917504,
 					[2017] = 20,
 					[882] = 262976,
-					[1958] = 2147483648,
-					[789] = 524288,
 					[2287] = 1344798720,
 					[1258] = 4096,
 					[2358] = 1572864,
+					[924] = 98244608,
+					[2258] = 720897,
 					[1254] = 3422552064,
 					[2021] = 32768,
 					[884] = 3145728,
-					[2175] = 1613003041,
-					[2167] = 834766984,
+					[2095] = 440401920,
+					[1256] = 8192,
 					[379] = 128,
 					[885] = 8,
-					[2093] = 102400,
+					[932] = 2048,
+				},
+				["Money"] = {
+					27620, -- [1]
+					0, -- [2]
+					276200, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					27620, -- [8]
+					26250, -- [9]
+					138100, -- [10]
+					27620, -- [11]
+					276200, -- [12]
+					69050, -- [13]
+					27620, -- [14]
+					828600, -- [15]
+					105000, -- [16]
+					105000, -- [17]
+					105000, -- [18]
+					105000, -- [19]
+					276200, -- [20]
+					27620, -- [21]
+					27620, -- [22]
+					27620, -- [23]
+					27620, -- [24]
+					552400, -- [25]
+					0, -- [26]
+					0, -- [27]
+					1104800, -- [28]
+					1104800, -- [29]
+					1104800, -- [30]
+					0, -- [31]
+					20220, -- [32]
+					27620, -- [33]
+					276200, -- [34]
+					27620, -- [35]
+					0, -- [36]
+					20220, -- [37]
+					20220, -- [38]
+					276200, -- [39]
+					276200, -- [40]
 				},
 				["StorylineProgress"] = {
 					["10.1"] = 0,
@@ -1533,82 +1580,94 @@ DataStore_QuestsDB = {
 					["10.0"] = 0,
 					["10.2"] = 0,
 				},
-				["Money"] = {
-					26915, -- [1]
-					0, -- [2]
-					269148, -- [3]
-					0, -- [4]
-					0, -- [5]
-					26915, -- [6]
-					0, -- [7]
-					0, -- [8]
-					134574, -- [9]
-					26915, -- [10]
-					269148, -- [11]
-					67287, -- [12]
-					26915, -- [13]
-					807444, -- [14]
-					269148, -- [15]
-					26915, -- [16]
-					26915, -- [17]
-					26915, -- [18]
-					26915, -- [19]
-					538296, -- [20]
-					0, -- [21]
-					0, -- [22]
-					0, -- [23]
-					0, -- [24]
-					0, -- [25]
-					20220, -- [26]
-					269148, -- [27]
-					26915, -- [28]
-					0, -- [29]
-					26915, -- [30]
-					20220, -- [31]
-					20220, -- [32]
-					269148, -- [33]
-					269148, -- [34]
+				["QuestTitles"] = {
+					"Fire Season", -- [1]
+					"Aiding the Accord: Time Rift", -- [2]
+					"Open Orientation", -- [3]
+					"Armies of Legionfall", -- [4]
+					"The Wardens", -- [5]
+					"Highmountain Tribes", -- [6]
+					"Hunting Tactics: Companion Training", -- [7]
+					"Welcome at Our Fire", -- [8]
+					"The Pit of Saron", -- [9]
+					"Southern Exposure", -- [10]
+					"The Wayward Waywatcher", -- [11]
+					"Arcane Detection", -- [12]
+					"Ask the Locals", -- [13]
+					"Suspiciously Quiet", -- [14]
+					"WANTED: Gorger", -- [15]
+					"Have They No Shame?", -- [16]
+					"Postponing the Inevitable", -- [17]
+					"Prisoner of War", -- [18]
+					"Quickening", -- [19]
+					"A Two for One Deal", -- [20]
+					"Erstwhile Ecologists", -- [21]
+					"Garden Party", -- [22]
+					"Hornstrider Havoc", -- [23]
+					"Nursery Direction", -- [24]
+					"The Waking Shores Tour", -- [25]
+					"Azerite for the Alliance", -- [26]
+					"Preserving Rarities", -- [27]
+					"Halls of Infusion: Entropy to Order", -- [28]
+					"Neltharus: Secrets Within", -- [29]
+					"Ruby Life Pools: Primalist Invasion", -- [30]
+					"Climbing", -- [31]
+					"Growing Power", -- [32]
+					"Storm Warning", -- [33]
+					"A Gift for Miguel", -- [34]
+					"Fyrakk's Forces", -- [35]
+					"When Time Needs Mending", -- [36]
+					"A Call from the Caverns", -- [37]
+					"Deadmines, Part Three?", -- [38]
+					"Battle Pet Tamers: Northrend", -- [39]
+					"What We've Been Training For", -- [40]
 				},
 				["Quests"] = {
-					4261888, -- [1]
-					4263936, -- [2]
-					4263936, -- [3]
-					4266024, -- [4]
-					4268032, -- [5]
-					4268032, -- [6]
-					4270120, -- [7]
-					4272168, -- [8]
-					4274176, -- [9]
-					4274176, -- [10]
-					4276224, -- [11]
-					4276224, -- [12]
-					4276224, -- [13]
-					4276992, -- [14]
-					4278272, -- [15]
-					4278272, -- [16]
-					4278272, -- [17]
-					4278272, -- [18]
-					4278272, -- [19]
-					4278272, -- [20]
-					4280352, -- [21]
-					4282368, -- [22]
-					4284416, -- [23]
-					4284416, -- [24]
-					4286506, -- [25]
-					2977808, -- [26]
-					4290560, -- [27]
-					4292608, -- [28]
-					4294656, -- [29]
-					4296704, -- [30]
-					4298752, -- [31]
-					4298752, -- [32]
-					4298752, -- [33]
-					4298752, -- [34]
+					4458496, -- [1]
+					4460544, -- [2]
+					4460544, -- [3]
+					4462632, -- [4]
+					4464680, -- [5]
+					4466728, -- [6]
+					4468736, -- [7]
+					4468736, -- [8]
+					1980416, -- [9]
+					4472832, -- [10]
+					4472832, -- [11]
+					4474880, -- [12]
+					4474880, -- [13]
+					4474880, -- [14]
+					4475648, -- [15]
+					1986560, -- [16]
+					1986560, -- [17]
+					1986560, -- [18]
+					1986560, -- [19]
+					4478976, -- [20]
+					4478976, -- [21]
+					4478976, -- [22]
+					4478976, -- [23]
+					4478976, -- [24]
+					4478976, -- [25]
+					4481056, -- [26]
+					4483072, -- [27]
+					4486400, -- [28]
+					4485120, -- [29]
+					4485120, -- [30]
+					4487210, -- [31]
+					2981904, -- [32]
+					4491264, -- [33]
+					4493312, -- [34]
+					4495360, -- [35]
+					4497408, -- [36]
+					4499456, -- [37]
+					4499456, -- [38]
+					4499456, -- [39]
+					4499456, -- [40]
 				},
 				["Emissaries"] = {
-					[48641] = "0|4|0|0/4 Complete 4 world quests on the Broken Shore|1704175792|Armies of Legionfall",
-					[42421] = "0|4|0|0/4 Complete 4 world quests in Suramar|1704175792|The Nightfallen",
-					[42234] = "0|4|0|0/4 Complete 4 world quests in Stormheim|1704175792|The Valarjar",
+					[42422] = "0|4|753|0/4 Complete 4 Wardens World Quests|1705199282|The Wardens",
+					[48641] = "0|4|2193|0/4 Complete 4 world quests on the Broken Shore|1705199282|Armies of Legionfall",
+					[42233] = "0|4|3633|0/4 Complete 4 world quests in Highmountain.|1705199282|Highmountain Tribes",
 				},
 			},
 			["Default.Stormreaver.Dumpiss"] = {
@@ -3777,291 +3836,90 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Dalaran.Morgntreeman"] = {
-				["lastUpdate"] = 1704783160,
-				["HistorySize"] = 8179,
+				["lastUpdate"] = 1705205595,
+				["HistorySize"] = 8223,
 				["activeCovenantID"] = 3,
-				["QuestTitles"] = {
-					"A Worthy Ally: Dream Wardens", -- [1]
-					"Blooming Dreamseeds", -- [2]
-					"Emerald Bounty", -- [3]
-					"Argussian Reach", -- [4]
-					"Army of the Light", -- [5]
-					"The Waveblade Ankoan", -- [6]
-					"Hunting Tactics: Companion Training", -- [7]
-					"The Valarjar", -- [8]
-					"Storm's Wake", -- [9]
-					"Community Feast", -- [10]
-					"Fishing: Aileron Seamoth", -- [11]
-					"Protect And Herd", -- [12]
-					"Creche Cache", -- [13]
-					"Primordial Embellishment", -- [14]
-					"Snake Wrangling", -- [15]
-					"Zskera Vault: Ix", -- [16]
-					"Every Door, Everywhere, All At Once", -- [17]
-					"Tarjin's Tales", -- [18]
-					"Proudmoore Admiralty", -- [19]
-					"Azerite for the Alliance", -- [20]
-					"A Worthy Ally: Loamm Niffen", -- [21]
-					"Deepflayer Dust", -- [22]
-					"Mistie's Mix Magic", -- [23]
-					"Road to Season City", -- [24]
-					"Authentic Authorization", -- [25]
-					"What's Behind The Next Door", -- [26]
-					"Forbidden Reach 1/1", -- [27]
-					"Forbidden Reach 1/2", -- [28]
-					"Forbidden Reach 1/3", -- [29]
-					"Forbidden Reach 1/4", -- [30]
-					"Forbidden Reach 1/5", -- [31]
-					"Forbidden Reach 2/6", -- [32]
-					"Forbidden Reach 2/5", -- [33]
-					"Forbidden Reach 2/4", -- [34]
-					"Forbidden Reach 2/3", -- [35]
-					"Forbidden Reach 2/2", -- [36]
-					"Forbidden Reach 2/1", -- [37]
-					"Forbidden Reach 2/7", -- [38]
-					"Forbidden Reach 2/8", -- [39]
-					"Forbidden Reach 3/3", -- [40]
-					"Forbidden Reach 3/1", -- [41]
-					"Forbidden Reach 3/2", -- [42]
-					"Forbidden Reach 3/4", -- [43]
-					"Forbidden Reach 3/5", -- [44]
-					"Forbidden Reach 3/6", -- [45]
-					"Forbidden Reach 3/7", -- [46]
-					"Forbidden Reach 3/8", -- [47]
-					"Forbidden Reach 4/1", -- [48]
-					"Forbidden Reach 4/2", -- [49]
-					"Forbidden Reach 4/3", -- [50]
-					"Forbidden Reach 4/4", -- [51]
-					"Forbidden Reach 4/5", -- [52]
-					"Forbidden Reach 4/6", -- [53]
-					"Forbidden Reach 4/7", -- [54]
-					"Forbidden Reach 4/8", -- [55]
-					"Forbidden Reach 1/3 C and D", -- [56]
-					"Forbidden Reach 1/1 C and D", -- [57]
-					"Forbidden Reach 1/2 D and E", -- [58]
-					"Forbidden Reach 2/6", -- [59]
-					"Forbidden Reach 1/3 (FR)", -- [60]
-					"A Fizzy Fusion", -- [61]
-					"Dance Dance Darkmoon", -- [62]
-					"Firebird's Challenge", -- [63]
-					"Fun for the Little Ones", -- [64]
-					"The Humanoid Cannonball", -- [65]
-					"Wanted: Disoriented Wishtail", -- [66]
-					"Wanted: Everblazing Fireheart", -- [67]
-					"Wanted: Fenistrasza's Skull", -- [68]
-					"Dreamsurge Investigation", -- [69]
-					"Dawn of the Infinite: Chrono-Lord Deios", -- [70]
-					"A Lesson in Responsibility", -- [71]
-					"Climbing", -- [72]
-					"Tracking Quest", -- [73]
-					"Bubble Craze", -- [74]
-					"Draught, Oiled Again", -- [75]
-					"Aberrus, the Shadowed Crucible: Sarkareth", -- [76]
-					"When Time Needs Mending", -- [77]
-					"A Call from the Caverns", -- [78]
-					"Deadmines, Part Three?", -- [79]
-					"Battle Pet Tamers: Northrend", -- [80]
-					"What We've Been Training For", -- [81]
+				["Weeklies"] = {
+					{
+						["id"] = 78319,
+						["timestamp"] = 1704939245,
+						["title"] = "The Superbloom",
+						["expiresIn"] = 477954,
+					}, -- [1]
+					{
+						["id"] = 76367,
+						["timestamp"] = 1704939558,
+						["title"] = "Hibernation Heroes",
+						["expiresIn"] = 477641,
+					}, -- [2]
+					{
+						["id"] = 78444,
+						["timestamp"] = 1704939847,
+						["title"] = "A Worthy Ally: Dream Wardens",
+						["expiresIn"] = 477352,
+					}, -- [3]
+					{
+						["id"] = 70221,
+						["timestamp"] = 1704940342,
+						["title"] = "Show Your Mettle",
+						["expiresIn"] = 476857,
+					}, -- [4]
 				},
-				["HistoryBuild"] = "52649",
-				["HistoryLastUpdate"] = 1704765921,
+				["HistoryBuild"] = "52808",
+				["HistoryLastUpdate"] = 1705199398,
 				["QuestLinks"] = {
-					"|cffffff00|Hquest:78444:2699|h[A Worthy Ally: Dream Wardens]|h|r", -- [1]
-					"|cffffff00|Hquest:78821:2699|h[Blooming Dreamseeds]|h|r", -- [2]
-					"|cffffff00|Hquest:78206:2699|h[Emerald Bounty]|h|r", -- [3]
-					"|cff808080|Hquest:48642:347|h[Argussian Reach]|h|r", -- [4]
-					"|cff808080|Hquest:48639:347|h[Army of the Light]|h|r", -- [5]
-					"|cff808080|Hquest:56119:464|h[The Waveblade Ankoan]|h|r", -- [6]
-					"|cffffff00|Hquest:71029:2523|h[Hunting Tactics: Companion Training]|h|r", -- [7]
-					"|cff808080|Hquest:42234:347|h[The Valarjar]|h|r", -- [8]
-					"|cff808080|Hquest:50601:464|h[Storm's Wake]|h|r", -- [9]
-					"|cffffff00|Hquest:70893:2424|h[Community Feast]|h|r", -- [10]
-					"|cffffff00|Hquest:66212:2153|h[Fishing: Aileron Seamoth]|h|r", -- [11]
-					"|cffffff00|Hquest:66958:2153|h[Protect And Herd]|h|r", -- [12]
-					"|cffffff00|Hquest:73189:2589|h[Creche Cache]|h|r", -- [13]
+					"|cffffff00|Hquest:77254:2684|h[Aiding the Accord: Time Rift]|h|r", -- [1]
+					"|cff808080|Hquest:48641:347|h[Armies of Legionfall]|h|r", -- [2]
+					"|cff808080|Hquest:42422:347|h[The Wardens]|h|r", -- [3]
+					"|cffffff00|Hquest:78821:2699|h[Blooming Dreamseeds]|h|r", -- [4]
+					"|cffffff00|Hquest:77933:2699|h[Bubbling Discoveries]|h|r", -- [5]
+					"|cffffff00|Hquest:78206:2699|h[Emerald Bounty]|h|r", -- [6]
+					"|cff808080|Hquest:42233:347|h[Highmountain Tribes]|h|r", -- [7]
+					"|cff808080|Hquest:56119:464|h[The Waveblade Ankoan]|h|r", -- [8]
+					"|cffffff00|Hquest:71029:2523|h[Hunting Tactics: Companion Training]|h|r", -- [9]
+					"|cff808080|Hquest:50601:464|h[Storm's Wake]|h|r", -- [10]
+					"|cffffff00|Hquest:70893:2424|h[Community Feast]|h|r", -- [11]
+					"|cffffff00|Hquest:66212:2153|h[Fishing: Aileron Seamoth]|h|r", -- [12]
+					"|cffffff00|Hquest:66958:2153|h[Protect And Herd]|h|r", -- [13]
 					"|cffffff00|Hquest:74355:2589|h[Primordial Embellishment]|h|r", -- [14]
-					"|cffffff00|Hquest:73191:2589|h[Snake Wrangling]|h|r", -- [15]
-					"|cffffff00|Hquest:72954:2589|h[Zskera Vault: Ix]|h|r", -- [16]
-					"|cffffff00|Hquest:75125:2589|h[Every Door, Everywhere, All At Once]|h|r", -- [17]
-					"|cffffff00|Hquest:70779:2517|h[Tarjin's Tales]|h|r", -- [18]
-					"|cff808080|Hquest:50599:464|h[Proudmoore Admiralty]|h|r", -- [19]
-					"|cff808080|Hquest:53436:289|h[Azerite for the Alliance]|h|r", -- [20]
-					"|cffffff00|Hquest:75665:2649|h[A Worthy Ally: Loamm Niffen]|h|r", -- [21]
-					"|cffffff00|Hquest:75363:2623|h[Deepflayer Dust]|h|r", -- [22]
-					"|cffffff00|Hquest:75301:2650|h[Mistie's Mix Magic]|h|r", -- [23]
-					"|cffffff00|Hquest:75307:2613|h[Road to Season City]|h|r", -- [24]
-					"|cffffff00|Hquest:74282:2589|h[Authentic Authorization]|h|r", -- [25]
-					"|cffffff00|Hquest:73089:2589|h[What's Behind The Next Door]|h|r", -- [26]
-					"|cffffff00|Hquest:72510:2589|h[Forbidden Reach 1/1]|h|r", -- [27]
-					"|cffffff00|Hquest:72675:2589|h[Forbidden Reach 1/2]|h|r", -- [28]
-					"|cffffff00|Hquest:72677:2589|h[Forbidden Reach 1/3]|h|r", -- [29]
-					"|cffffff00|Hquest:72678:2589|h[Forbidden Reach 1/4]|h|r", -- [30]
-					"|cffffff00|Hquest:72699:2589|h[Forbidden Reach 1/5]|h|r", -- [31]
-					"|cffffff00|Hquest:72891:2589|h[Forbidden Reach 2/6]|h|r", -- [32]
-					"|cffffff00|Hquest:72893:2589|h[Forbidden Reach 2/5]|h|r", -- [33]
-					"|cffffff00|Hquest:72894:2589|h[Forbidden Reach 2/4]|h|r", -- [34]
-					"|cffffff00|Hquest:72895:2589|h[Forbidden Reach 2/3]|h|r", -- [35]
-					"|cffffff00|Hquest:72896:2589|h[Forbidden Reach 2/2]|h|r", -- [36]
-					"|cffffff00|Hquest:72897:2589|h[Forbidden Reach 2/1]|h|r", -- [37]
-					"|cffffff00|Hquest:72898:2589|h[Forbidden Reach 2/7]|h|r", -- [38]
-					"|cffffff00|Hquest:72899:2589|h[Forbidden Reach 2/8]|h|r", -- [39]
-					"|cffffff00|Hquest:74296:2589|h[Forbidden Reach 3/3]|h|r", -- [40]
-					"|cffffff00|Hquest:74297:2589|h[Forbidden Reach 3/1]|h|r", -- [41]
-					"|cffffff00|Hquest:74298:2589|h[Forbidden Reach 3/2]|h|r", -- [42]
-					"|cffffff00|Hquest:74299:2589|h[Forbidden Reach 3/4]|h|r", -- [43]
-					"|cffffff00|Hquest:74301:2589|h[Forbidden Reach 3/5]|h|r", -- [44]
-					"|cffffff00|Hquest:74302:2589|h[Forbidden Reach 3/6]|h|r", -- [45]
-					"|cffffff00|Hquest:74303:2589|h[Forbidden Reach 3/7]|h|r", -- [46]
-					"|cffffff00|Hquest:74304:2589|h[Forbidden Reach 3/8]|h|r", -- [47]
-					"|cffffff00|Hquest:74311:2589|h[Forbidden Reach 4/1]|h|r", -- [48]
-					"|cffffff00|Hquest:74313:2589|h[Forbidden Reach 4/2]|h|r", -- [49]
-					"|cffffff00|Hquest:74315:2589|h[Forbidden Reach 4/3]|h|r", -- [50]
-					"|cffffff00|Hquest:74319:2589|h[Forbidden Reach 4/4]|h|r", -- [51]
-					"|cffffff00|Hquest:74320:2589|h[Forbidden Reach 4/5]|h|r", -- [52]
-					"|cffffff00|Hquest:74323:2589|h[Forbidden Reach 4/6]|h|r", -- [53]
-					"|cffffff00|Hquest:74324:2589|h[Forbidden Reach 4/7]|h|r", -- [54]
-					"|cffffff00|Hquest:74327:2589|h[Forbidden Reach 4/8]|h|r", -- [55]
-					"|cffffff00|Hquest:74444:2589|h[Forbidden Reach 1/3 C and D]|h|r", -- [56]
-					"|cffffff00|Hquest:74445:2589|h[Forbidden Reach 1/1 C and D]|h|r", -- [57]
-					"|cffffff00|Hquest:74468:2589|h[Forbidden Reach 1/2 D and E]|h|r", -- [58]
-					"|cffffff00|Hquest:74510:2589|h[Forbidden Reach 2/6]|h|r", -- [59]
-					"|cffffff00|Hquest:74784:2589|h[Forbidden Reach 1/3 (FR)]|h|r", -- [60]
-					"|cffffff00|Hquest:29506:402|h[A Fizzy Fusion]|h|r", -- [61]
-					"|cffffff00|Hquest:64783:402|h[Dance Dance Darkmoon]|h|r", -- [62]
-					"|cffffff00|Hquest:36481:402|h[Firebird's Challenge]|h|r", -- [63]
-					"|cffffff00|Hquest:29507:402|h[Fun for the Little Ones]|h|r", -- [64]
-					"|cffffff00|Hquest:29436:402|h[The Humanoid Cannonball]|h|r", -- [65]
-					"|cffffff00|Hquest:71007:2153|h[Wanted: Disoriented Wishtail]|h|r", -- [66]
-					"|cffffff00|Hquest:70975:2285|h[Wanted: Everblazing Fireheart]|h|r", -- [67]
-					"|cffffff00|Hquest:70995:2517|h[Wanted: Fenistrasza's Skull]|h|r", -- [68]
-					"|cffffff00|Hquest:77414:2708|h[Dreamsurge Investigation]|h|r", -- [69]
-					"|cffffff00|Hquest:76146:2691|h[Dawn of the Infinite: Chrono-Lord Deios]|h|r", -- [70]
-					"|cffffff00|Hquest:73021:2523|h[A Lesson in Responsibility]|h|r", -- [71]
-					"|cffffff00|Hquest:72560:2523|h[Climbing]|h|r", -- [72]
-					"|cffffff00|Hquest:75511:2474|h[Tracking Quest]|h|r", -- [73]
-					"|cffffff00|Hquest:70614:2164|h[Bubble Craze]|h|r", -- [74]
-					"|cffffff00|Hquest:70533:2164|h[Draught, Oiled Again]|h|r", -- [75]
-					"|cffffff00|Hquest:75694:2614|h[Aberrus, the Shadowed Crucible: Sarkareth]|h|r", -- [76]
-					"|cffffff00|Hquest:77236:2682|h[When Time Needs Mending]|h|r", -- [77]
-					"|cff808080|Hquest:45540:347|h[A Call from the Caverns]|h|r", -- [78]
-					"|cff808080|Hquest:46293:347|h[Deadmines, Part Three?]|h|r", -- [79]
-					"|cffffff00|Hquest:31927:373|h[Battle Pet Tamers: Northrend]|h|r", -- [80]
-					"|cffffff00|Hquest:32863:373|h[What We've Been Training For]|h|r", -- [81]
+					"|cffffff00|Hquest:70779:2517|h[Tarjin's Tales]|h|r", -- [15]
+					"|cff808080|Hquest:53436:289|h[Azerite for the Alliance]|h|r", -- [16]
+					"|cffffff00|Hquest:75665:2649|h[A Worthy Ally: Loamm Niffen]|h|r", -- [17]
+					"|cffffff00|Hquest:75286:2613|h[Blacksmith's Back]|h|r", -- [18]
+					"|cffffff00|Hquest:75289:2613|h[Ink Master]|h|r", -- [19]
+					"|cffffff00|Hquest:73089:2589|h[What's Behind The Next Door]|h|r", -- [20]
+					"|cffffff00|Hquest:29506:402|h[A Fizzy Fusion]|h|r", -- [21]
+					"|cffffff00|Hquest:64783:402|h[Dance Dance Darkmoon]|h|r", -- [22]
+					"|cffffff00|Hquest:36481:402|h[Firebird's Challenge]|h|r", -- [23]
+					"|cffffff00|Hquest:29507:402|h[Fun for the Little Ones]|h|r", -- [24]
+					"|cffffff00|Hquest:29436:402|h[The Humanoid Cannonball]|h|r", -- [25]
+					"|cffffff00|Hquest:71007:2153|h[Wanted: Disoriented Wishtail]|h|r", -- [26]
+					"|cffffff00|Hquest:70975:2285|h[Wanted: Everblazing Fireheart]|h|r", -- [27]
+					"|cffffff00|Hquest:70995:2517|h[Wanted: Fenistrasza's Skull]|h|r", -- [28]
+					"|cffffff00|Hquest:77414:2708|h[Dreamsurge Investigation]|h|r", -- [29]
+					"|cffffff00|Hquest:76146:2691|h[Dawn of the Infinite: Chrono-Lord Deios]|h|r", -- [30]
+					"|cffffff00|Hquest:73021:2523|h[A Lesson in Responsibility]|h|r", -- [31]
+					"|cffffff00|Hquest:75511:2474|h[Tracking Quest]|h|r", -- [32]
+					"|cffffff00|Hquest:70532:2164|h[Aiding the Raiding]|h|r", -- [33]
+					"|cffffff00|Hquest:75694:2614|h[Aberrus, the Shadowed Crucible: Sarkareth]|h|r", -- [34]
+					"|cffffff00|Hquest:77236:2682|h[When Time Needs Mending]|h|r", -- [35]
+					"|cffffff00|Hquest:72726:2474|h[A Frozen Path Through Time]|h|r", -- [36]
+					"|cff808080|Hquest:50604:464|h[Tortollan Seekers]|h|r", -- [37]
+					"|cff808080|Hquest:45540:347|h[A Call from the Caverns]|h|r", -- [38]
+					"|cff808080|Hquest:46293:347|h[Deadmines, Part Three?]|h|r", -- [39]
+					"|cffffff00|Hquest:31927:373|h[Battle Pet Tamers: Northrend]|h|r", -- [40]
+					"|cffffff00|Hquest:32863:373|h[What We've Been Training For]|h|r", -- [41]
 				},
-				["Rewards"] = {
-					[4] = "r|157831|1|1",
-					[8] = "r|157824|1|1",
-					[62] = "r|93724|1|1",
-					[63] = "r|93724|1|1",
-					[64] = "r|71083|1|1",
-					[5] = "r|157829|1|1",
-					[10] = "r|200095|1|1",
-					[80] = "r|89125|1|1",
-					[21] = "r|205983|1|1",
-					[22] = "r|198608|1|1",
-					[3] = "r|208067|1|1",
-					[76] = "r|204682|1|1",
-					[65] = "r|93724|1|1",
-					[69] = "r|209833|1|1",
-					[75] = "r|198608|1|1",
-					[77] = "r|208090|1|1",
-					[81] = "r|98095|1|1",
-					[74] = "r|199115|1|1",
-				},
-				["Money"] = {
-					0, -- [1]
-					0, -- [2]
-					70225, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					280900, -- [11]
-					561800, -- [12]
-					280900, -- [13]
-					280900, -- [14]
-					280900, -- [15]
-					280900, -- [16]
-					0, -- [17]
-					280900, -- [18]
-					0, -- [19]
-					0, -- [20]
-					0, -- [21]
-					0, -- [22]
-					0, -- [23]
-					0, -- [24]
-					280900, -- [25]
-					280900, -- [26]
-					0, -- [27]
-					0, -- [28]
-					0, -- [29]
-					0, -- [30]
-					0, -- [31]
-					0, -- [32]
-					0, -- [33]
-					0, -- [34]
-					0, -- [35]
-					0, -- [36]
-					0, -- [37]
-					0, -- [38]
-					0, -- [39]
-					0, -- [40]
-					0, -- [41]
-					0, -- [42]
-					0, -- [43]
-					0, -- [44]
-					0, -- [45]
-					0, -- [46]
-					0, -- [47]
-					0, -- [48]
-					0, -- [49]
-					0, -- [50]
-					0, -- [51]
-					0, -- [52]
-					0, -- [53]
-					0, -- [54]
-					0, -- [55]
-					0, -- [56]
-					0, -- [57]
-					0, -- [58]
-					0, -- [59]
-					0, -- [60]
-					0, -- [61]
-					0, -- [62]
-					0, -- [63]
-					74050, -- [64]
-					0, -- [65]
-					0, -- [66]
-					0, -- [67]
-					0, -- [68]
-					0, -- [69]
-					0, -- [70]
-					280900, -- [71]
-					0, -- [72]
-					0, -- [73]
-					0, -- [74]
-					0, -- [75]
-					842700, -- [76]
-					0, -- [77]
-					20220, -- [78]
-					20220, -- [79]
-					280900, -- [80]
-					280900, -- [81]
-				},
-				["story92Progress"] = 1,
 				["QuestHeaders"] = {
 					"Guardians of the Dream", -- [1]
 					"Dragonflight", -- [2]
 					"Dragonscale Expedition", -- [3]
-					"Emerald Dream", -- [4]
-					"Eredath", -- [5]
-					"Krokuun", -- [6]
-					"Nazjatar", -- [7]
-					"Ohn'ahran Plains", -- [8]
-					"Stormheim", -- [9]
+					"Broken Shore", -- [4]
+					"Dalaran", -- [5]
+					"Emerald Dream", -- [6]
+					"Highmountain", -- [7]
+					"Nazjatar", -- [8]
+					"Ohn'ahran Plains", -- [9]
 					"Stormsong Valley", -- [10]
 					"The Azure Span", -- [11]
 					"The Forbidden Reach", -- [12]
@@ -4078,118 +3936,168 @@ DataStore_QuestsDB = {
 					"Professions", -- [23]
 					"Raid", -- [24]
 					"Time Rifts", -- [25]
-					"Battle Pets", -- [26]
+					"Weekend Event", -- [26]
+					"World Quest", -- [27]
+					"Battle Pets", -- [28]
 				},
-				["Weeklies"] = {
-					{
-						["id"] = 72722,
-						["timestamp"] = 1704257404,
-						["title"] = "Emissary of War",
-						["expiresIn"] = 554995,
-					}, -- [1]
-					{
-						["id"] = 70221,
-						["timestamp"] = 1704565611,
-						["title"] = "Show Your Mettle",
-						["expiresIn"] = 246788,
-					}, -- [2]
-					{
-						["id"] = 72291,
-						["timestamp"] = 1704580073,
-						["title"] = "Story of a Memorable Victory",
-						["expiresIn"] = 232326,
-					}, -- [3]
-					{
-						["id"] = 72292,
-						["timestamp"] = 1704580077,
-						["title"] = "Story of a Spectacular Victory",
-						["expiresIn"] = 232322,
-					}, -- [4]
-					{
-						["id"] = 78446,
-						["timestamp"] = 1704767231,
-						["title"] = "Aiding the Accord: Superbloom",
-						["expiresIn"] = 45168,
-					}, -- [5]
+				["Money"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					70225, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					2000000, -- [10]
+					0, -- [11]
+					280900, -- [12]
+					561800, -- [13]
+					280900, -- [14]
+					280900, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					280900, -- [20]
+					74050, -- [21]
+					0, -- [22]
+					0, -- [23]
+					74050, -- [24]
+					0, -- [25]
+					0, -- [26]
+					0, -- [27]
+					0, -- [28]
+					0, -- [29]
+					1123600, -- [30]
+					280900, -- [31]
+					0, -- [32]
+					0, -- [33]
+					842700, -- [34]
+					0, -- [35]
+					0, -- [36]
+					0, -- [37]
+					20220, -- [38]
+					20220, -- [39]
+					280900, -- [40]
+					280900, -- [41]
+				},
+				["story92Progress"] = 1,
+				["Rewards"] = {
+					"r|200073|1|1", -- [1]
+					"r|157830|1|1", -- [2]
+					"r|157827|1|1", -- [3]
+					"r|211376|1|1,r|211394|1|1", -- [4]
+					"r|198608|1|1", -- [5]
+					"r|208067|1|1", -- [6]
+					"r|157823|1|1", -- [7]
+					[30] = "r|208415|1|1",
+					[16] = "r|166883|1|1",
+					[17] = "r|205983|1|1",
+					[34] = "r|204682|1|1",
+					[18] = "r|204985|5|1",
+					[36] = "r|209036|1|1",
+					[19] = "r|204985|5|1",
+					[40] = "r|89125|1|1",
+					[21] = "r|71083|1|1,r|190456|15|1",
+					[11] = "r|200095|1|1",
+					[22] = "r|93724|1|1",
+					[23] = "r|93724|1|1",
+					[24] = "r|71083|1|1",
+					[25] = "r|93724|1|1",
+					[27] = "r|191994|1|1",
+					[33] = "r|198608|1|1",
+					[28] = "r|191993|1|1",
+					[41] = "r|98095|1|1",
+					[29] = "r|209833|1|1",
+					[35] = "r|208090|1|1",
+				},
+				["QuestTitles"] = {
+					"Aiding the Accord: Time Rift", -- [1]
+					"Armies of Legionfall", -- [2]
+					"The Wardens", -- [3]
+					"Blooming Dreamseeds", -- [4]
+					"Bubbling Discoveries", -- [5]
+					"Emerald Bounty", -- [6]
+					"Highmountain Tribes", -- [7]
+					"The Waveblade Ankoan", -- [8]
+					"Hunting Tactics: Companion Training", -- [9]
+					"Storm's Wake", -- [10]
+					"Community Feast", -- [11]
+					"Fishing: Aileron Seamoth", -- [12]
+					"Protect And Herd", -- [13]
+					"Primordial Embellishment", -- [14]
+					"Tarjin's Tales", -- [15]
+					"Azerite for the Alliance", -- [16]
+					"A Worthy Ally: Loamm Niffen", -- [17]
+					"Blacksmith's Back", -- [18]
+					"Ink Master", -- [19]
+					"What's Behind The Next Door", -- [20]
+					"A Fizzy Fusion", -- [21]
+					"Dance Dance Darkmoon", -- [22]
+					"Firebird's Challenge", -- [23]
+					"Fun for the Little Ones", -- [24]
+					"The Humanoid Cannonball", -- [25]
+					"Wanted: Disoriented Wishtail", -- [26]
+					"Wanted: Everblazing Fireheart", -- [27]
+					"Wanted: Fenistrasza's Skull", -- [28]
+					"Dreamsurge Investigation", -- [29]
+					"Dawn of the Infinite: Chrono-Lord Deios", -- [30]
+					"A Lesson in Responsibility", -- [31]
+					"Tracking Quest", -- [32]
+					"Aiding the Raiding", -- [33]
+					"Aberrus, the Shadowed Crucible: Sarkareth", -- [34]
+					"When Time Needs Mending", -- [35]
+					"A Frozen Path Through Time", -- [36]
+					"Tortollan Seekers", -- [37]
+					"A Call from the Caverns", -- [38]
+					"Deadmines, Part Three?", -- [39]
+					"Battle Pet Tamers: Northrend", -- [40]
+					"What We've Been Training For", -- [41]
 				},
 				["QuestTags"] = {
 					"WEEKLY", -- [1]
-					"WEEKLY", -- [2]
-					nil, -- [3]
-					128, -- [4]
-					128, -- [5]
-					128, -- [6]
-					nil, -- [7]
+					128, -- [2]
+					128, -- [3]
+					"WEEKLY", -- [4]
+					267, -- [5]
+					nil, -- [6]
+					128, -- [7]
 					128, -- [8]
-					128, -- [9]
-					"WEEKLY", -- [10]
-					nil, -- [11]
+					nil, -- [9]
+					128, -- [10]
+					"WEEKLY", -- [11]
 					nil, -- [12]
 					nil, -- [13]
 					nil, -- [14]
-					nil, -- [15]
-					nil, -- [16]
-					265, -- [17]
-					"WEEKLY", -- [18]
-					128, -- [19]
-					261, -- [20]
-					"WEEKLY", -- [21]
-					267, -- [22]
-					267, -- [23]
-					267, -- [24]
-					nil, -- [25]
-					nil, -- [26]
-					265, -- [27]
-					265, -- [28]
-					265, -- [29]
-					265, -- [30]
-					265, -- [31]
+					"WEEKLY", -- [15]
+					261, -- [16]
+					"WEEKLY", -- [17]
+					267, -- [18]
+					267, -- [19]
+					nil, -- [20]
+					nil, -- [21]
+					"DAILY", -- [22]
+					"DAILY", -- [23]
+					nil, -- [24]
+					"DAILY", -- [25]
+					"WEEKLY", -- [26]
+					"WEEKLY", -- [27]
+					"WEEKLY", -- [28]
+					nil, -- [29]
+					81, -- [30]
+					nil, -- [31]
 					265, -- [32]
-					265, -- [33]
-					265, -- [34]
-					265, -- [35]
-					265, -- [36]
-					265, -- [37]
-					265, -- [38]
-					265, -- [39]
-					265, -- [40]
-					265, -- [41]
-					265, -- [42]
-					265, -- [43]
-					265, -- [44]
-					265, -- [45]
-					265, -- [46]
-					265, -- [47]
-					265, -- [48]
-					265, -- [49]
-					265, -- [50]
-					265, -- [51]
-					265, -- [52]
-					265, -- [53]
-					265, -- [54]
-					265, -- [55]
-					265, -- [56]
-					265, -- [57]
-					265, -- [58]
-					265, -- [59]
-					265, -- [60]
-					nil, -- [61]
-					"DAILY", -- [62]
-					"DAILY", -- [63]
-					[65] = "DAILY",
-					[66] = "WEEKLY",
-					[67] = "WEEKLY",
-					[68] = "WEEKLY",
-					[70] = 81,
-					[72] = 265,
-					[73] = 265,
-					[74] = 267,
-					[75] = 267,
-					[76] = 62,
-					[77] = "WEEKLY",
-					[78] = 102,
-					[80] = 102,
-					[81] = 102,
+					267, -- [33]
+					62, -- [34]
+					"WEEKLY", -- [35]
+					"WEEKLY", -- [36]
+					128, -- [37]
+					102, -- [38]
+					nil, -- [39]
+					102, -- [40]
+					102, -- [41]
 				},
 				["History"] = {
 					nil, -- [1]
@@ -5112,7 +5020,7 @@ DataStore_QuestsDB = {
 					nil, -- [918]
 					33555456, -- [919]
 					33554448, -- [920]
-					16785416, -- [921]
+					50339976, -- [921]
 					nil, -- [922]
 					nil, -- [923]
 					2245728285, -- [924]
@@ -5206,7 +5114,7 @@ DataStore_QuestsDB = {
 					nil, -- [1012]
 					nil, -- [1013]
 					nil, -- [1014]
-					15728640, -- [1015]
+					nil, -- [1015]
 					134217728, -- [1016]
 					nil, -- [1017]
 					32, -- [1018]
@@ -6353,27 +6261,27 @@ DataStore_QuestsDB = {
 					nil, -- [2159]
 					480, -- [2160]
 					nil, -- [2161]
-					66060288, -- [2162]
-					2184724768, -- [2163]
+					66093056, -- [2162]
+					3258466592, -- [2163]
 					26, -- [2164]
 					nil, -- [2165]
-					2435579905, -- [2166]
+					2435645441, -- [2166]
 					834766984, -- [2167]
-					384, -- [2168]
+					392, -- [2168]
 					nil, -- [2169]
 					nil, -- [2170]
 					nil, -- [2171]
 					nil, -- [2172]
 					nil, -- [2173]
-					1426063360, -- [2174]
-					1613003041, -- [2175]
+					1426079744, -- [2174]
+					1680111905, -- [2175]
 					972, -- [2176]
 					nil, -- [2177]
 					nil, -- [2178]
 					nil, -- [2179]
 					nil, -- [2180]
-					nil, -- [2181]
-					5088512, -- [2182]
+					67108864, -- [2181]
+					273523968, -- [2182]
 					2550149388, -- [2183]
 					221504, -- [2184]
 					2378268544, -- [2185]
@@ -6395,11 +6303,11 @@ DataStore_QuestsDB = {
 					16900, -- [2201]
 					4128, -- [2202]
 					nil, -- [2203]
-					2147543200, -- [2204]
+					2147510432, -- [2204]
 					6135808, -- [2205]
 					1024, -- [2206]
-					536887552, -- [2207]
-					92275210, -- [2208]
+					545276160, -- [2207]
+					92275208, -- [2208]
 					nil, -- [2209]
 					1098240, -- [2210]
 					2210139154, -- [2211]
@@ -6451,8 +6359,8 @@ DataStore_QuestsDB = {
 					2, -- [2257]
 					342556673, -- [2258]
 					2910846976, -- [2259]
-					2189426712, -- [2260]
-					25165824, -- [2261]
+					2189426688, -- [2260]
+					29360128, -- [2261]
 					149828, -- [2262]
 					4166725343, -- [2263]
 					520626302, -- [2264]
@@ -6464,7 +6372,7 @@ DataStore_QuestsDB = {
 					33554442, -- [2270]
 					4294966273, -- [2271]
 					33498758, -- [2272]
-					274224, -- [2273]
+					12080, -- [2273]
 					15859968, -- [2274]
 					123680, -- [2275]
 					2147540993, -- [2276]
@@ -6507,9 +6415,9 @@ DataStore_QuestsDB = {
 					[2367] = 16128,
 					[2431] = 268435456,
 					[2368] = 8650754,
-					[2432] = 2217214976,
+					[2432] = 2485650432,
 					[2464] = 1073741824,
-					[2433] = 2147483654,
+					[2306] = 67108864,
 					[2465] = 33,
 					[2434] = 2147483652,
 					[2466] = 16777280,
@@ -6531,75 +6439,78 @@ DataStore_QuestsDB = {
 					[2440] = 458752,
 					[2345] = 3761275904,
 					[2377] = 64,
+					[2307] = 612370432,
 					[2441] = 134250496,
 					[2346] = 1024,
+					[2311] = 1,
 					[2410] = 1024,
 					[2442] = 256,
+					[2331] = 12,
 					[2379] = 203168,
 					[2411] = 1087538176,
 					[2443] = 1007419392,
-					[2449] = 953679872,
+					[2309] = 260,
 					[2380] = 2148265984,
 					[2412] = 67110912,
 					[2444] = 32768,
 					[2349] = 262820,
-					[2381] = 213977088,
+					[2381] = 214108160,
 					[2413] = 35416064,
-					[2311] = 1,
+					[2312] = 256,
 					[2350] = 618659840,
-					[2309] = 260,
-					[2414] = 4,
+					[2339] = 939524097,
+					[2414] = 6,
 					[2446] = 2688548864,
 					[2351] = 1075838976,
-					[2331] = 12,
-					[2415] = 32,
-					[2447] = 8,
 					[2352] = 67244674,
-					[2312] = 256,
+					[2415] = 32,
+					[2447] = 16392,
+					[2479] = 33555968,
+					[2337] = 2147614720,
 					[2416] = 3221225481,
-					[2448] = 95616,
-					[2338] = 2,
+					[2448] = 67141632,
+					[2449] = 953679872,
 					[2385] = 3758096385,
 					[2417] = 3623878783,
 					[2322] = 4767744,
-					[2479] = 33554944,
+					[2325] = 33565568,
 					[2386] = 465829886,
 					[2418] = 2,
 					[2323] = 3221225472,
-					[2337] = 2147614720,
-					[2387] = 134219777,
-					[2419] = 2,
 					[2324] = 9830400,
+					[2387] = 134252545,
+					[2419] = 1048578,
+					[2451] = 1621098496,
 					[2356] = 268435584,
 					[2388] = 9322559,
 					[2420] = 805356064,
-					[2452] = 409600,
+					[2452] = 397312,
 					[2357] = 167772160,
 					[2389] = 238985464,
-					[2450] = 925760,
-					[2453] = 2378989568,
+					[2326] = 1073741824,
+					[2453] = 2647425025,
 					[2358] = 1638401,
 					[2390] = 258048,
-					[2325] = 33565568,
 					[2327] = 35888,
-					[2359] = 72,
 					[2454] = 18153540,
+					[2359] = 72,
 					[2455] = 12582912,
+					[2423] = 270532608,
 					[2328] = 1073741824,
 					[2360] = 202113024,
 					[2392] = 1048576,
-					[2424] = 8,
+					[2424] = 16,
 					[2329] = 771751936,
-					[2451] = 1621098496,
+					[2450] = 925760,
 					[2393] = 4290773000,
 					[2425] = 16,
 					[2330] = 536894464,
-					[2339] = 939524097,
+					[2338] = 2,
 					[2394] = 137297920,
 					[2426] = 4096,
-					[2458] = 4194304,
-					[2307] = 612370432,
-					[2308] = 33816576,
+					[2458] = 4194306,
+					[2308] = 35913728,
+					[2433] = 2147483654,
 				},
 				["story91Progress"] = 4,
 				["StorylineProgress"] = {
@@ -6613,95 +6524,55 @@ DataStore_QuestsDB = {
 				},
 				["covenantCampaignProgress"] = 9,
 				["Quests"] = {
-					4595712, -- [1]
-					4595712, -- [2]
-					4595712, -- [3]
-					4597800, -- [4]
-					4599848, -- [5]
-					3291176, -- [6]
-					4603904, -- [7]
-					4605992, -- [8]
-					3297320, -- [9]
-					4610048, -- [10]
+					4591616, -- [1]
+					4595752, -- [2]
+					4597800, -- [3]
+					4599808, -- [4]
+					4599808, -- [5]
+					4599808, -- [6]
+					4601896, -- [7]
+					3293224, -- [8]
+					4605952, -- [9]
+					3297320, -- [10]
 					4610048, -- [11]
 					4610048, -- [12]
-					4612096, -- [13]
+					4610048, -- [13]
 					4612096, -- [14]
-					4612096, -- [15]
-					4612096, -- [16]
-					4612136, -- [17]
-					4614144, -- [18]
-					3305512, -- [19]
-					4616224, -- [20]
-					4618240, -- [21]
-					4618240, -- [22]
-					4618240, -- [23]
-					4618240, -- [24]
-					4620288, -- [25]
-					4620288, -- [26]
-					4620328, -- [27]
-					4620328, -- [28]
-					4620328, -- [29]
-					4620328, -- [30]
-					4620328, -- [31]
-					4620328, -- [32]
-					4620328, -- [33]
-					4620328, -- [34]
-					4620328, -- [35]
-					4620328, -- [36]
-					4620328, -- [37]
-					4620328, -- [38]
-					4620328, -- [39]
-					4620328, -- [40]
-					4620328, -- [41]
-					4620328, -- [42]
-					4620328, -- [43]
-					4620328, -- [44]
-					4620328, -- [45]
-					4620328, -- [46]
-					4620328, -- [47]
-					4620328, -- [48]
-					4620328, -- [49]
-					4620328, -- [50]
-					4620328, -- [51]
-					4620328, -- [52]
-					4620328, -- [53]
-					4620328, -- [54]
-					4620328, -- [55]
-					4620328, -- [56]
-					4620328, -- [57]
-					4620328, -- [58]
-					4620328, -- [59]
-					4620328, -- [60]
-					4622336, -- [61]
-					4622338, -- [62]
-					4622338, -- [63]
-					4622336, -- [64]
-					4622338, -- [65]
-					4624384, -- [66]
-					4624384, -- [67]
-					4624384, -- [68]
-					4626432, -- [69]
-					4628480, -- [70]
-					4630528, -- [71]
-					4632618, -- [72]
-					4632616, -- [73]
-					4634624, -- [74]
-					4634624, -- [75]
-					4636672, -- [76]
-					4638720, -- [77]
-					4640768, -- [78]
-					4640768, -- [79]
-					4640768, -- [80]
-					4640768, -- [81]
+					4614144, -- [15]
+					4616224, -- [16]
+					4618240, -- [17]
+					4618240, -- [18]
+					4618240, -- [19]
+					4620288, -- [20]
+					4622336, -- [21]
+					4622338, -- [22]
+					4622338, -- [23]
+					4622336, -- [24]
+					4622338, -- [25]
+					4624384, -- [26]
+					4624384, -- [27]
+					4624384, -- [28]
+					4626432, -- [29]
+					4628480, -- [30]
+					4630528, -- [31]
+					4632616, -- [32]
+					4634624, -- [33]
+					4636672, -- [34]
+					4638720, -- [35]
+					4640768, -- [36]
+					3332136, -- [37]
+					4644864, -- [38]
+					4644864, -- [39]
+					4644864, -- [40]
+					4644864, -- [41]
 				},
 				["Emissaries"] = {
-					[48642] = "0|4|3368|0/4 Complete 4 Argussian Reach World Quests|1704783160|Argussian Reach",
-					[48639] = "0|4|488|0/4 Complete 4 Army of the Light World Quests|1704783160|Army of the Light",
-					[50601] = "0|4|3368|0/4 Complete 4 world quests in Stormsong Valley|1704783160|Storm's Wake",
-					[56119] = "0|4|488|0/4 Complete world quests in Nazjatar|1704783160|The Waveblade Ankoan",
-					[50599] = "0|4|1928|0/4 Complete 4 world quests in Tiragarde Sound|1704783160|Proudmoore Admiralty",
-					[42234] = "0|4|1928|0/4 Complete 4 world quests in Stormheim|1704783160|The Valarjar",
+					[50604] = "0|3|648|0/3 Complete 3 Tortollan Seeker World Quests|1705205595|Tortollan Seekers",
+					[48641] = "0|4|2088|0/4 Complete 4 world quests on the Broken Shore|1705205595|Armies of Legionfall",
+					[56119] = "0|4|3528|0/4 Complete world quests in Nazjatar|1705205595|The Waveblade Ankoan",
+					[42233] = "0|4|3528|0/4 Complete 4 world quests in Highmountain.|1705205595|Highmountain Tribes",
+					[50601] = "0|4|2088|0/4 Complete 4 world quests in Stormsong Valley|1705205595|Storm's Wake",
+					[42422] = "0|4|648|0/4 Complete 4 Wardens World Quests|1705205595|The Wardens",
 				},
 			},
 			["Default.Dalaran.Hyaae"] = {
@@ -7367,130 +7238,170 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Stormreaver.Bretanomyces"] = {
-				["HistoryBuild"] = "52649",
-				["HistorySize"] = 562,
-				["HistoryLastUpdate"] = 1703471935,
+				["HistoryBuild"] = "52808",
+				["HistorySize"] = 634,
+				["HistoryLastUpdate"] = 1705280520,
 				["QuestLinks"] = {
-					"|cffffff00|Hquest:49122:189|h[A Port in Peril]|h|r", -- [1]
-					"|cffffff00|Hquest:31393:60|h[Temple of the White Tiger]|h|r", -- [2]
-					"|cffffff00|Hquest:29685:221|h[Hard to Kill]|h|r", -- [3]
-					"|cffffff00|Hquest:26642:3|h[Preserving the Barrens]|h|r", -- [4]
-					"|cffff2020|Hquest:71029:2523|h[Hunting Tactics: Companion Training]|h|r", -- [5]
-					"|cffffff00|Hquest:29619:57|h[A Courteous Guest]|h|r", -- [6]
-					"|cffffff00|Hquest:29576:57|h[An Air of Worry]|h|r", -- [7]
-					"|cffffff00|Hquest:29926:57|h[Calamity Jade]|h|r", -- [8]
-					"|cffffff00|Hquest:29927:57|h[Mann's Man]|h|r", -- [9]
-					"|cffffff00|Hquest:29570:234|h[Rescuing the Expedition]|h|r", -- [10]
-					"|cffffff00|Hquest:31255:60|h[The Road to Kun-Lai]|h|r", -- [11]
-					"|cffffff00|Hquest:32018:58|h[His Name Was... Stormstout]|h|r", -- [12]
-					"|cffffff00|Hquest:53435:289|h[Azerite for the Horde]|h|r", -- [13]
-					"|cffffff00|Hquest:31486:860|h[Everything I Know About Cooking]|h|r", -- [14]
-					"|cffffff00|Hquest:48066:700|h[A Feast for Our Kin]|h|r", -- [15]
-					"|cffffff00|Hquest:53466:517|h[Vision of Time]|h|r", -- [16]
-					"|cffffff00|Hquest:49973:700|h[Thalyssra's Estate]|h|r", -- [17]
-					"|cffffff00|Hquest:6962:420|h[Treats for Great-father Winter]|h|r", -- [18]
-					"|cffff2020|Hquest:77236:2682|h[When Time Needs Mending]|h|r", -- [19]
-					"|cffffff00|Hquest:53476:292|h[The Great Sea Scrolls]|h|r", -- [20]
-					"|cffff2020|Hquest:72721:2474|h[The Very Best]|h|r", -- [21]
-					"|cffffff00|Hquest:45540:347|h[A Call from the Caverns]|h|r", -- [22]
-					"|cffffff00|Hquest:31927:373|h[Battle Pet Tamers: Northrend]|h|r", -- [23]
-					"|cffffff00|Hquest:46293:347|h[Deadmines, Part Three?]|h|r", -- [24]
-					"|cffffff00|Hquest:32863:373|h[What We've Been Training For]|h|r", -- [25]
+					"|cffffff00|Hquest:75918:2688|h[Fire Season]|h|r", -- [1]
+					"|cffffff00|Hquest:77254:2684|h[Aiding the Accord: Time Rift]|h|r", -- [2]
+					"|cff40c040|Hquest:49122:189|h[A Port in Peril]|h|r", -- [3]
+					"|cff808080|Hquest:31393:60|h[Temple of the White Tiger]|h|r", -- [4]
+					"|cff808080|Hquest:29685:221|h[Hard to Kill]|h|r", -- [5]
+					"|cff808080|Hquest:26642:3|h[Preserving the Barrens]|h|r", -- [6]
+					"|cffffff00|Hquest:71029:2523|h[Hunting Tactics: Companion Training]|h|r", -- [7]
+					"|cff808080|Hquest:24682:242|h[The Pit of Saron]|h|r", -- [8]
+					"|cff808080|Hquest:29619:57|h[A Courteous Guest]|h|r", -- [9]
+					"|cff808080|Hquest:29576:57|h[An Air of Worry]|h|r", -- [10]
+					"|cff808080|Hquest:29926:57|h[Calamity Jade]|h|r", -- [11]
+					"|cff808080|Hquest:29927:57|h[Mann's Man]|h|r", -- [12]
+					"|cff808080|Hquest:29570:234|h[Rescuing the Expedition]|h|r", -- [13]
+					"|cff808080|Hquest:31255:60|h[The Road to Kun-Lai]|h|r", -- [14]
+					"|cffffff00|Hquest:70033:2296|h[Artisan's Supply: Pioneer's Leather Boots]|h|r", -- [15]
+					"|cffffff00|Hquest:65452:2307|h[Explorers in Peril]|h|r", -- [16]
+					"|cffffff00|Hquest:65451:2307|h[Practice Materials]|h|r", -- [17]
+					"|cffffff00|Hquest:65453:2307|h[Primal Pests]|h|r", -- [18]
+					"|cff808080|Hquest:32018:58|h[His Name Was... Stormstout]|h|r", -- [19]
+					"|cff808080|Hquest:25924:53|h[Call of Duty]|h|r", -- [20]
+					"|cff40c040|Hquest:53435:289|h[Azerite for the Horde]|h|r", -- [21]
+					"|cff808080|Hquest:31486:860|h[Everything I Know About Cooking]|h|r", -- [22]
+					"|cffffff00|Hquest:48066:700|h[A Feast for Our Kin]|h|r", -- [23]
+					"|cffffff00|Hquest:53466:517|h[Vision of Time]|h|r", -- [24]
+					"|cffffff00|Hquest:72560:2523|h[Climbing]|h|r", -- [25]
+					"|cffffff00|Hquest:49973:700|h[Thalyssra's Estate]|h|r", -- [26]
+					"|cffffff00|Hquest:75887:2641|h[Fyrakk's Forces]|h|r", -- [27]
+					"|cffffff00|Hquest:77236:2682|h[When Time Needs Mending]|h|r", -- [28]
+					"|cff40c040|Hquest:53476:292|h[The Great Sea Scrolls]|h|r", -- [29]
+					"|cff808080|Hquest:45540:347|h[A Call from the Caverns]|h|r", -- [30]
+					"|cff808080|Hquest:46293:347|h[Deadmines, Part Three?]|h|r", -- [31]
+					"|cffffff00|Hquest:31927:373|h[Battle Pet Tamers: Northrend]|h|r", -- [32]
+					"|cffffff00|Hquest:32863:373|h[What We've Been Training For]|h|r", -- [33]
 				},
 				["QuestHeaders"] = {
-					"Battle for Azeroth", -- [1]
-					"Kun-Lai Summit", -- [2]
-					"Magisters' Terrace", -- [3]
-					"Northern Barrens", -- [4]
-					"Ohn'ahran Plains", -- [5]
-					"The Jade Forest", -- [6]
-					"The Underbog", -- [7]
-					"The Veiled Stair", -- [8]
-					"Valley of the Four Winds", -- [9]
-					"Zuldazar", -- [10]
-					"Cooking", -- [11]
-					"Highmountain Tauren", -- [12]
-					"Mag'har Orc", -- [13]
-					"Nightborne", -- [14]
-					"Seasonal", -- [15]
-					"Time Rifts", -- [16]
-					"Treasure Map", -- [17]
-					"Weekend Event", -- [18]
-					"Battle Pets", -- [19]
+					"Guardians of the Dream", -- [1]
+					"Dragonflight", -- [2]
+					"Battle for Azeroth", -- [3]
+					"Kun-Lai Summit", -- [4]
+					"Magisters' Terrace", -- [5]
+					"Northern Barrens", -- [6]
+					"Ohn'ahran Plains", -- [7]
+					"Pit of Saron", -- [8]
+					"The Jade Forest", -- [9]
+					"The Underbog", -- [10]
+					"The Veiled Stair", -- [11]
+					"The Waking Shores", -- [12]
+					"Valley of the Four Winds", -- [13]
+					"Vashj'ir", -- [14]
+					"Zuldazar", -- [15]
+					"Cooking", -- [16]
+					"Highmountain Tauren", -- [17]
+					"Mag'har Orc", -- [18]
+					"Missing header! (quest designers)", -- [19]
+					"Nightborne", -- [20]
+					"Suffusion Camps", -- [21]
+					"Time Rifts", -- [22]
+					"Treasure Map", -- [23]
+					"Battle Pets", -- [24]
 				},
 				["Money"] = {
-					23400, -- [1]
-					175500, -- [2]
-					234000, -- [3]
-					117000, -- [4]
-					0, -- [5]
-					234000, -- [6]
-					117000, -- [7]
-					234000, -- [8]
-					175500, -- [9]
-					234000, -- [10]
-					23400, -- [11]
-					23400, -- [12]
-					0, -- [13]
-					23400, -- [14]
-					234000, -- [15]
-					0, -- [16]
-					234000, -- [17]
-					0, -- [18]
-					0, -- [19]
+					26445, -- [1]
+					0, -- [2]
+					25740, -- [3]
+					103050, -- [4]
+					105000, -- [5]
+					52500, -- [6]
+					0, -- [7]
+					26250, -- [8]
+					137400, -- [9]
+					68700, -- [10]
+					137400, -- [11]
+					103050, -- [12]
+					105000, -- [13]
+					13740, -- [14]
+					198336, -- [15]
+					264448, -- [16]
+					264448, -- [17]
+					264448, -- [18]
+					13740, -- [19]
 					0, -- [20]
 					0, -- [21]
-					23400, -- [22]
-					234000, -- [23]
-					23400, -- [24]
-					234000, -- [25]
+					13740, -- [22]
+					264448, -- [23]
+					0, -- [24]
+					0, -- [25]
+					264448, -- [26]
+					26445, -- [27]
+					0, -- [28]
+					0, -- [29]
+					20220, -- [30]
+					20220, -- [31]
+					264448, -- [32]
+					264448, -- [33]
 				},
 				["Rewards"] = {
-					[20] = "c|180028|1|1",
-					[13] = "r|166883|1|1",
-					[21] = "c|122457|1|1",
-					[25] = "r|98095|1|1",
-					[3] = "c|35487|1|1,c|35488|1|1",
-					[19] = "r|208090|1|1",
-					[23] = "r|89125|1|1",
-					[18] = "r|17727|1|1",
+					[33] = "r|98095|1|1",
+					[2] = "r|200073|1|1",
+					[21] = "r|166883|1|1",
+					[32] = "r|89125|1|1",
+					[29] = "c|180028|1|1",
+					[28] = "r|208090|1|1",
+					[5] = "c|35487|1|1,c|35488|1|1",
+					[15] = "r|193223|4|1,r|193217|4|1",
 				},
 				["QuestTitles"] = {
-					"A Port in Peril", -- [1]
-					"Temple of the White Tiger", -- [2]
-					"Hard to Kill", -- [3]
-					"Preserving the Barrens", -- [4]
-					"Hunting Tactics: Companion Training", -- [5]
-					"A Courteous Guest", -- [6]
-					"An Air of Worry", -- [7]
-					"Calamity Jade", -- [8]
-					"Mann's Man", -- [9]
-					"Rescuing the Expedition", -- [10]
-					"The Road to Kun-Lai", -- [11]
-					"His Name Was... Stormstout", -- [12]
-					"Azerite for the Horde", -- [13]
-					"Everything I Know About Cooking", -- [14]
-					"A Feast for Our Kin", -- [15]
-					"Vision of Time", -- [16]
-					"Thalyssra's Estate", -- [17]
-					"Treats for Great-father Winter", -- [18]
-					"When Time Needs Mending", -- [19]
-					"The Great Sea Scrolls", -- [20]
-					"The Very Best", -- [21]
-					"A Call from the Caverns", -- [22]
-					"Battle Pet Tamers: Northrend", -- [23]
-					"Deadmines, Part Three?", -- [24]
-					"What We've Been Training For", -- [25]
+					"Fire Season", -- [1]
+					"Aiding the Accord: Time Rift", -- [2]
+					"A Port in Peril", -- [3]
+					"Temple of the White Tiger", -- [4]
+					"Hard to Kill", -- [5]
+					"Preserving the Barrens", -- [6]
+					"Hunting Tactics: Companion Training", -- [7]
+					"The Pit of Saron", -- [8]
+					"A Courteous Guest", -- [9]
+					"An Air of Worry", -- [10]
+					"Calamity Jade", -- [11]
+					"Mann's Man", -- [12]
+					"Rescuing the Expedition", -- [13]
+					"The Road to Kun-Lai", -- [14]
+					"Artisan's Supply: Pioneer's Leather Boots", -- [15]
+					"Explorers in Peril", -- [16]
+					"Practice Materials", -- [17]
+					"Primal Pests", -- [18]
+					"His Name Was... Stormstout", -- [19]
+					"Call of Duty", -- [20]
+					"Azerite for the Horde", -- [21]
+					"Everything I Know About Cooking", -- [22]
+					"A Feast for Our Kin", -- [23]
+					"Vision of Time", -- [24]
+					"Climbing", -- [25]
+					"Thalyssra's Estate", -- [26]
+					"Fyrakk's Forces", -- [27]
+					"When Time Needs Mending", -- [28]
+					"The Great Sea Scrolls", -- [29]
+					"A Call from the Caverns", -- [30]
+					"Deadmines, Part Three?", -- [31]
+					"Battle Pet Tamers: Northrend", -- [32]
+					"What We've Been Training For", -- [33]
+				},
+				["Weeklies"] = {
+					{
+						["id"] = 40173,
+						["timestamp"] = 1704944078,
+						["title"] = "The Unstable Prism",
+						["expiresIn"] = 473121,
+					}, -- [1]
 				},
 				["QuestTags"] = {
-					[10] = 81,
-					[13] = 261,
-					[21] = 102,
-					[3] = 81,
-					[22] = 102,
-					[19] = "WEEKLY",
-					[23] = 102,
-					[25] = 102,
+					[13] = 81,
+					[2] = "WEEKLY",
+					[15] = 267,
+					[8] = 81,
+					[32] = 102,
+					[5] = 81,
+					[33] = 102,
+					[30] = 102,
+					[21] = 261,
+					[28] = "WEEKLY",
+					[25] = 265,
 				},
 				["History"] = {
 					[1482] = 3288334336,
@@ -7513,7 +7424,9 @@ DataStore_QuestsDB = {
 					[2205] = 8192,
 					[938] = 2147486208,
 					[2208] = 8388608,
+					[2081] = 537001984,
 					[1491] = 67108864,
+					[2082] = 268435472,
 					[2210] = 16896,
 					[2466] = 16777280,
 					[1556] = 256,
@@ -7521,11 +7434,13 @@ DataStore_QuestsDB = {
 					[2340] = 30,
 					[2213] = 1073741824,
 					[1557] = 4456960,
+					[2214] = 256,
 					[2217] = 16777216,
 					[2090] = 1024,
+					[941] = 1,
 					[1687] = 16,
 					[1560] = 131072,
-					[2220] = 1048576,
+					[2220] = 13631488,
 					[2093] = 32768,
 					[2221] = 640,
 					[1561] = 1024,
@@ -7538,165 +7453,184 @@ DataStore_QuestsDB = {
 					[975] = 134217728,
 					[1564] = 262144,
 					[1565] = 67108864,
+					[375] = 32,
 					[2358] = 1572864,
+					[373] = 130,
+					[1609] = 512,
+					[2349] = 262144,
+					[2193] = 4096,
+					[1887] = 896,
+					[1863] = 201326592,
 					[1886] = 595591168,
 					[1950] = 671088640,
+					[1873] = 3753902080,
 					[1568] = 1088,
-					[1887] = 896,
+					[410] = 128,
+					[1480] = 16,
+					[935] = 1,
 					[1569] = 4,
+					[936] = 15442224,
+					[2339] = 939524097,
+					[2453] = 32768,
 					[1825] = 4096,
+					[2460] = 6291456,
+					[977] = 640,
 					[2017] = 4,
 					[1826] = 262144,
+					[974] = 2147549184,
 					[979] = 1060864,
+					[2183] = 4364,
 					[1572] = 33554432,
+					[1256] = 8192,
 					[1955] = 8912896,
-					[2460] = 6291456,
-					[360] = 4,
+					[2182] = 273523968,
+					[973] = 1342308608,
+					[1477] = 671088640,
 					[1956] = 256,
-					[1609] = 512,
-					[935] = 1,
-					[936] = 15442224,
+					[1668] = 33554432,
+					[2464] = 1073741824,
+					[1540] = 524288,
+					[1476] = 67108864,
+					[1511] = 8192,
 					[2021] = 32768,
-					[1256] = 256,
-					[1863] = 201326592,
-					[918] = 16777216,
+					[1960] = 13631488,
 					[1958] = 2147483648,
-					[1480] = 16,
-					[2379] = 72064,
+					[1487] = 2147516417,
+					[2379] = 203136,
 					[1640] = 16793600,
 					[2380] = 2147483648,
 					[1513] = 3145728,
-					[1577] = 128,
-					[1960] = 13631488,
+					[918] = 16777216,
+					[2345] = 3758096384,
 					[982] = 4880,
 					[1769] = 40,
 					[1578] = 4,
-					[973] = 1342308608,
-					[1961] = 33554432,
-					[1515] = 80,
-					[1514] = 65536,
-					[1487] = 2147516417,
-					[974] = 2147549184,
 					[1879] = 1073741824,
+					[1961] = 570425344,
+					[1515] = 80,
+					[1608] = 524288,
+					[2258] = 65537,
+					[2452] = 393216,
+					[2175] = 1680111905,
 					[1580] = 1024,
-					[1001] = 512,
+					[413] = 4194304,
 					[1963] = 524288,
 					[1517] = 2147516416,
 					[2389] = 8192,
-					[2183] = 4364,
-					[2452] = 393216,
-					[2182] = 5088512,
-					[2453] = 32768,
-					[1571] = 268439556,
-					[1668] = 33554432,
+					[2262] = 16640,
+					[2465] = 33,
+					[2174] = 1426079744,
+					[2394] = 134217728,
+					[2371] = 8388608,
+					[995] = 31449136,
 					[1519] = 32,
 					[2393] = 3758096384,
-					[2269] = 1048576,
+					[1571] = 268439556,
 					[1966] = 1,
 					[2267] = 16,
 					[1584] = 32,
-					[1540] = 524288,
-					[1476] = 67108864,
+					[1478] = 256,
+					[2252] = 1,
 					[2031] = 8388608,
-					[1559] = 16384,
-					[2345] = 3758096384,
+					[987] = 4294901787,
+					[2425] = 16,
 					[986] = 4026531841,
-					[2465] = 32,
+					[924] = 2147483651,
 					[1841] = 12,
 					[2272] = 512,
-					[2371] = 8388608,
-					[1587] = 131072,
+					[2255] = 512,
+					[998] = 108544,
 					[923] = 2147483649,
 					[2274] = 256,
 					[1970] = 16,
 					[2275] = 25344,
-					[1875] = 212096,
-					[1608] = 524288,
-					[2175] = 1613003041,
-					[2024] = 268435456,
+					[928] = 3436183592,
+					[925] = 224,
+					[992] = 225280,
+					[2294] = 113726,
 					[1589] = 524288,
 					[2278] = 268435456,
-					[988] = 1022,
-					[2174] = 1426063360,
-					[1478] = 256,
-					[2252] = 1,
-					[1511] = 8192,
+					[1717] = 33587200,
+					[2166] = 2435645441,
+					[2152] = 2147483648,
+					[1592] = 524288,
+					[2415] = 32,
+					[1849] = 136,
 					[1591] = 2,
-					[925] = 224,
-					[2255] = 512,
+					[352] = 1073741824,
 					[1464] = 1073741824,
-					[2285] = 57344,
+					[766] = 2148007936,
 					[2411] = 1087538176,
 					[1656] = 512,
 					[432] = 32768,
-					[1529] = 2,
+					[2285] = 57344,
 					[926] = 399360,
-					[2415] = 32,
-					[2425] = 16,
-					[2287] = 1344798720,
-					[1849] = 136,
-					[1717] = 33587200,
-					[1467] = 1032192,
-					[928] = 3436183592,
-					[927] = 268435456,
 					[2164] = 26,
-					[2163] = 2184724768,
-					[1597] = 524288,
+					[1874] = 3178492,
+					[2287] = 1344798720,
+					[2160] = 32,
+					[2163] = 3258466592,
+					[1467] = 1032192,
+					[927] = 268435456,
+					[2162] = 66093056,
+					[353] = 256,
+					[1468] = 8192,
+					[1587] = 131072,
 					[1341] = 4096,
-					[1661] = 134219802,
-					[992] = 225280,
+					[2224] = 639693828,
+					[1529] = 2,
 					[2293] = 4278190081,
-					[2166] = 2435579905,
-					[2294] = 113726,
+					[1597] = 524288,
+					[1661] = 134219802,
 					[2167] = 834766984,
 					[258] = 8192,
-					[2168] = 384,
-					[1468] = 8192,
-					[2162] = 66060288,
-					[2224] = 33616896,
+					[2168] = 392,
+					[988] = 1022,
+					[2150] = 67108864,
+					[2045] = 3087007744,
 					[929] = 137363778,
 					[1663] = 4194304,
 					[993] = 4292870145,
-					[1592] = 524288,
-					[1873] = 3753902080,
+					[2046] = 24,
+					[2269] = 1048576,
 					[1664] = 16,
-					[1874] = 3178492,
-					[998] = 108544,
+					[2024] = 268435456,
+					[1875] = 212096,
 					[930] = 536510476,
-					[924] = 2147483651,
+					[2225] = 66560,
 					[994] = 526,
 					[2381] = 213909504,
 					[2176] = 972,
-					[987] = 4294901787,
-					[2432] = 2097152,
-					[2225] = 65536,
+					[360] = 4,
+					[2432] = 270532608,
+					[1514] = 65536,
 					[931] = 32,
-					[995] = 31449136,
+					[2306] = 67108864,
 					[2434] = 2147483648,
 					[2307] = 612370432,
-					[2394] = 134217728,
-					[2308] = 33816576,
-					[1477] = 671088640,
+					[1577] = 128,
+					[2308] = 35913728,
+					[2181] = 67108864,
 					[2309] = 256,
-					[932] = 3766489089,
+					[932] = 3767111681,
 					[2365] = 1024,
 					[996] = 16785408,
 					[2311] = 1,
 					[937] = 638976,
-					[2454] = 18153472,
+					[2116] = 1048576,
 					[1479] = 114688,
-					[2464] = 1073741824,
-					[933] = 8,
+					[976] = 1073741824,
+					[933] = 1166344,
 					[1671] = 268435456,
 					[997] = 1074412544,
 					[1799] = 8388608,
 					[2188] = 4096,
-					[2339] = 939524097,
-					[976] = 1073741824,
-					[977] = 640,
-					[934] = 109053440,
+					[1001] = 512,
+					[219] = 256,
+					[1559] = 16384,
+					[934] = 109053552,
 					[1163] = 4,
-					[219] = 384,
+					[2454] = 18153472,
 				},
 				["StorylineProgress"] = {
 					["10.1"] = 0,
@@ -7707,33 +7641,41 @@ DataStore_QuestsDB = {
 					["10.1.5"] = 0,
 					["10.2"] = 0,
 				},
-				["lastUpdate"] = 1703477047,
+				["lastUpdate"] = 1705284297,
 				["Quests"] = {
-					3278848, -- [1]
-					3280896, -- [2]
-					3282944, -- [3]
-					3284992, -- [4]
-					3942400, -- [5]
-					3289088, -- [6]
-					3289088, -- [7]
-					3289088, -- [8]
-					3289088, -- [9]
-					3291136, -- [10]
-					3293184, -- [11]
-					3295232, -- [12]
-					3297312, -- [13]
-					3299328, -- [14]
-					3301376, -- [15]
-					3303424, -- [16]
-					3305472, -- [17]
-					3307520, -- [18]
-					3964928, -- [19]
-					3311616, -- [20]
-					4624416, -- [21]
-					3315712, -- [22]
-					3315712, -- [23]
-					3315712, -- [24]
-					3315712, -- [25]
+					4130816, -- [1]
+					4132864, -- [2]
+					4134912, -- [3]
+					2301952, -- [4]
+					1976320, -- [5]
+					1978368, -- [6]
+					4143104, -- [7]
+					1982464, -- [8]
+					2312192, -- [9]
+					2312192, -- [10]
+					2312192, -- [11]
+					2312192, -- [12]
+					1986560, -- [13]
+					2316288, -- [14]
+					4153344, -- [15]
+					4153344, -- [16]
+					4153344, -- [17]
+					4153344, -- [18]
+					2320384, -- [19]
+					2322432, -- [20]
+					4159520, -- [21]
+					4161536, -- [22]
+					4163584, -- [23]
+					4165632, -- [24]
+					4167722, -- [25]
+					4169728, -- [26]
+					4171776, -- [27]
+					4173824, -- [28]
+					3979264, -- [29]
+					4177920, -- [30]
+					4177920, -- [31]
+					4177920, -- [32]
+					4177920, -- [33]
 				},
 			},
 			["Default.Stormreaver.Deeohteez"] = {

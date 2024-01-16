@@ -1,0 +1,1 @@
+{"status":"pending","uuid":"bbbe4235-e547-4719-86b2-2482da206d9c","entry":"20240102T075029Z","description":"Take BP meds","due":"20240115T160000Z","imask":147.0,"modified":"20240102T073613Z","parent":"b1440efa-0c8c-44b6-b922-58c94cd83a97","priority":"M","project":"Subsistence.Medication","recur":"1d","tags":["am","daily","goal"],"wait":"20240115T140000Z","rtype":"periodic"}

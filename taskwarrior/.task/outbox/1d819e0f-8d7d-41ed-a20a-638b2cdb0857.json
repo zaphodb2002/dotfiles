@@ -1,0 +1,1 @@
+{"status":"deleted","uuid":"1d819e0f-8d7d-41ed-a20a-638b2cdb0857","entry":"20240101T173006Z","description":"Pull weeds for 5 minutes","due":"20240108T065900Z","end":"20240108T165535Z","imask":19.0,"modified":"20240101T194548Z","parent":"cf3d9ca7-e81b-4dbc-9c93-b9468f060acf","priority":"M","project":"Protection.Maintenance","recur":"7d","tags":["weekly"],"rtype":"periodic"}

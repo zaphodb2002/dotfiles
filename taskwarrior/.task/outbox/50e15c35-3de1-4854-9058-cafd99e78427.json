@@ -1,0 +1,1 @@
+{"status":"pending","uuid":"50e15c35-3de1-4854-9058-cafd99e78427","entry":"20240102T075032Z","description":"Dog time","due":"20240113T070000Z","imask":144.0,"modified":"20240102T073540Z","parent":"df2601bc-1e3c-44a4-9ada-9afaeb71c692","priority":"M","project":"Belonging.Dogs","recur":"1d","tags":["daily"],"wait":"20240113T050000Z","rtype":"periodic"}

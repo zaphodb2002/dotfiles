@@ -5,12 +5,12 @@ RarityDB = {
 		["Deeohteez - Stormreaver"] = "Default",
 		["Arila - Stormreaver"] = "Default",
 		["Icanglidewee - Dalaran"] = "Default",
-		["Deeohteez - Dalaran"] = "Default",
-		["Morgntreeman - Dalaran"] = "Default",
+		["Attacknknees - Dalaran"] = "Default",
+		["Jenleeviyah - Dalaran"] = "Default",
 		["Ruderalis - Stormreaver"] = "Default",
 		["Pontiffikate - Dalaran"] = "Default",
-		["Jenleeviyah - Dalaran"] = "Default",
-		["Attacknknees - Dalaran"] = "Default",
+		["Morgntreeman - Dalaran"] = "Default",
+		["Deeohteez - Dalaran"] = "Default",
 		["Petitmort - Dalaran"] = "Default",
 		["Dumpiss - Stormreaver"] = "Default",
 		["Feloril - Stormreaver"] = "Default",
@@ -70,9 +70,6 @@ RarityDB = {
 								["attempts"] = 87,
 							},
 						},
-						["session"] = {
-							["attempts"] = 32,
-						},
 						["attempts"] = 180,
 					},
 					["Animated Tome"] = {
@@ -91,7 +88,7 @@ RarityDB = {
 						},
 						["attempts"] = 1,
 					},
-					["Whistle of Chromatic Bone"] = {
+					["Strand Crawler"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
@@ -134,10 +131,6 @@ RarityDB = {
 								["attempts"] = 88,
 							},
 						},
-						["session"] = {
-							["time"] = 16,
-							["attempts"] = 32,
-						},
 						["attempts"] = 181,
 					},
 					["Scabby"] = {
@@ -174,24 +167,39 @@ RarityDB = {
 						["enabled"] = false,
 						["found"] = true,
 					},
-					["Toxic Wasteling"] = {
+					["Echo of the Depths"] = {
+						["lastAttempts"] = 150,
 						["known"] = true,
-						["enabled"] = false,
-						["found"] = true,
-					},
-					["Clockwork Rocket Bot"] = {
+						["finds"] = {
+							{
+								["num"] = 1,
+								["totalAttempts"] = 150,
+								["time"] = 46.87100000001374,
+								["totalTime"] = 46.87100000001374,
+								["attempts"] = 150,
+							}, -- [1]
+						},
+						["time"] = 46.87100000001374,
 						["dates"] = {
+							[20231210] = {
+								["time"] = 8,
+								["attempts"] = 54,
+							},
+							[20231212] = {
+								["time"] = 4,
+								["attempts"] = 7,
+							},
 							[20231217] = {
-								["attempts"] = 1,
+								["time"] = 34.87100000001374,
+								["attempts"] = 89,
 							},
 						},
-						["attempts"] = 1,
-					},
-					["Lesser Circle of Binding"] = {
-						["known"] = true,
-						["attempts"] = 2,
+						["attempts"] = 150,
 						["enabled"] = false,
+						["realAttempts"] = 150,
+						["totalFinds"] = 1,
 						["found"] = true,
+						["lastTime"] = 46.87100000001374,
 					},
 					["Dusty Clutch of Eggs"] = {
 						["enabled"] = false,
@@ -223,7 +231,7 @@ RarityDB = {
 					["Droplet of Y'Shaarj"] = {
 						["attempts"] = 2,
 					},
-					["Mr. Grubbs"] = {
+					["Fuzzy Creepling"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
@@ -393,11 +401,6 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
-					["Smoldering Treat"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
-					},
 					["Red Helper Box"] = {
 						["dates"] = {
 							[20231231] = {
@@ -411,13 +414,23 @@ RarityDB = {
 						["attempts"] = 2,
 						["time"] = 1,
 					},
-					["Twilight Summoning Portal"] = {
-						["attempts"] = 2,
+					["Smoldering Treat"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+					["Clockwork Rocket Bot"] = {
+						["dates"] = {
+							[20231217] = {
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
 					},
 					["Sludge Feeler"] = {
 						["attempts"] = 1,
 					},
-					["Fuzzy Creepling"] = {
+					["Mr. Grubbs"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
@@ -434,13 +447,19 @@ RarityDB = {
 					["Gooey Sha-ling"] = {
 						["attempts"] = 2,
 					},
-					["Strand Crawler"] = {
+					["Whistle of Chromatic Bone"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
 					},
 					["Odd Twilight Egg"] = {
 						["attempts"] = 2,
+					},
+					["Lesser Circle of Binding"] = {
+						["known"] = true,
+						["attempts"] = 2,
+						["enabled"] = false,
+						["found"] = true,
 					},
 					["Echo of the Inferno"] = {
 						["time"] = 63.87100000001374,
@@ -462,45 +481,12 @@ RarityDB = {
 								["attempts"] = 89,
 							},
 						},
-						["session"] = {
-							["time"] = 16,
-							["attempts"] = 32,
-						},
 						["attempts"] = 182,
 					},
-					["Echo of the Depths"] = {
-						["lastAttempts"] = 150,
+					["Toxic Wasteling"] = {
 						["known"] = true,
-						["finds"] = {
-							{
-								["num"] = 1,
-								["totalAttempts"] = 150,
-								["time"] = 46.87100000001374,
-								["totalTime"] = 46.87100000001374,
-								["attempts"] = 150,
-							}, -- [1]
-						},
-						["time"] = 46.87100000001374,
-						["dates"] = {
-							[20231210] = {
-								["time"] = 8,
-								["attempts"] = 54,
-							},
-							[20231212] = {
-								["time"] = 4,
-								["attempts"] = 7,
-							},
-							[20231217] = {
-								["time"] = 34.87100000001374,
-								["attempts"] = 89,
-							},
-						},
-						["attempts"] = 150,
 						["enabled"] = false,
-						["realAttempts"] = 150,
-						["totalFinds"] = 1,
 						["found"] = true,
-						["lastTime"] = 46.87100000001374,
 					},
 					["Remains of a Blood Beast"] = {
 						["attempts"] = 4,
@@ -510,6 +496,9 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
+					["Twilight Summoning Portal"] = {
+						["attempts"] = 2,
+					},
 				},
 				["mounts"] = {
 					["Ironhoof Destroyer"] = {
@@ -517,6 +506,16 @@ RarityDB = {
 					},
 					["Sharkbait's Favorite Crackers"] = {
 						["attempts"] = 3,
+					},
+					["Reins of the Rekindled Dreamstag"] = {
+						["time"] = 2,
+						["dates"] = {
+							[20240110] = {
+								["time"] = 2,
+								["attempts"] = 2,
+							},
+						},
+						["attempts"] = 2,
 					},
 					["Reins of the Drake of the South Wind"] = {
 						["attempts"] = 13,
@@ -552,37 +551,76 @@ RarityDB = {
 						["attempts"] = 1,
 					},
 					["Reins of the Infinite Timereaver"] = {
-						["time"] = 9435.724000000031,
+						["time"] = 13264.26400000003,
 						["dates"] = {
-							[20231224] = {
-								["time"] = 4415.588000000018,
-								["attempts"] = 26,
+							[20240110] = {
+								["time"] = 1679.859000000011,
+								["attempts"] = 25,
 							},
 							[20231222] = {
 								["time"] = 1594.79800000001,
 								["attempts"] = 10,
 							},
+							[20240114] = {
+								["time"] = 1065.414999999989,
+								["attempts"] = 16,
+							},
 							[20231220] = {
 								["time"] = 3425.338000000003,
 								["attempts"] = 16,
 							},
+							[20231224] = {
+								["time"] = 4415.588000000018,
+								["attempts"] = 26,
+							},
+							[20240113] = {
+								["time"] = 1083.266000000003,
+								["attempts"] = 12,
+							},
 						},
-						["attempts"] = 52,
+						["session"] = {
+							["time"] = 385.183,
+							["attempts"] = 10,
+						},
+						["attempts"] = 105,
 					},
 					["Flametalon of Alysrazor"] = {
 						["attempts"] = 4,
 					},
-					["Marrowfang's Reins"] = {
-						["attempts"] = 3,
+					["Deathcharger's Reins"] = {
+						["known"] = true,
+						["enabled"] = false,
+						["found"] = true,
+					},
+					["Reins of the Springtide Dreamtalon"] = {
+						["dates"] = {
+							[20240110] = {
+								["attempts"] = 2,
+							},
+						},
+						["attempts"] = 2,
 					},
 					["Life-Binder's Handmaiden"] = {
 						["attempts"] = 4,
+					},
+					["Reins of the Blossoming Dreamstag"] = {
+						["dates"] = {
+							[20240110] = {
+								["attempts"] = 2,
+							},
+						},
+						["attempts"] = 2,
 					},
 					["Reins of the Blue Drake"] = {
 						["attempts"] = 14,
 					},
 					["Fiendish Hellfire Core"] = {
 						["attempts"] = 1,
+					},
+					["Reins of the Drake of the North Wind"] = {
+						["known"] = true,
+						["enabled"] = false,
+						["found"] = true,
 					},
 					["Reins of the Grand Black War Mammoth Horde"] = {
 						["attempts"] = 24,
@@ -595,10 +633,45 @@ RarityDB = {
 					["Ashes of Al'ar"] = {
 						["attempts"] = 16,
 					},
+					["Reins of the Winter Night Dreamsaber"] = {
+						["lastAttempts"] = 1,
+						["known"] = true,
+						["finds"] = {
+							{
+								["totalAttempts"] = 1,
+								["num"] = 1,
+								["time"] = 0,
+								["attempts"] = 1,
+							}, -- [1]
+						},
+						["attempts"] = 1,
+						["enabled"] = false,
+						["realAttempts"] = 1,
+						["totalFinds"] = 1,
+						["found"] = true,
+					},
+					["Reins of the Evening Sun Dreamsaber"] = {
+						["dates"] = {
+							[20240110] = {
+								["attempts"] = 2,
+							},
+						},
+						["attempts"] = 2,
+					},
 					["G.M.O.D."] = {
 						["tooltipNpcs"] = {
 							146409, -- [1]
 						},
+					},
+					["Reins of the Morning Flourish Dreamsaber"] = {
+						["time"] = 2,
+						["dates"] = {
+							[20240110] = {
+								["time"] = 2,
+								["attempts"] = 2,
+							},
+						},
+						["attempts"] = 2,
 					},
 					["Reins of the Astral Cloud Serpent"] = {
 						["attempts"] = 3,
@@ -630,6 +703,14 @@ RarityDB = {
 					["Living Infernal Core"] = {
 						["attempts"] = 4,
 					},
+					["Reins of the Snowfluff Dreamtalon"] = {
+						["dates"] = {
+							[20240110] = {
+								["attempts"] = 2,
+							},
+						},
+						["attempts"] = 2,
+					},
 					["collapsed"] = true,
 					["Reins of the Heavenly Onyx Cloud Serpent"] = {
 						["attempts"] = 17,
@@ -639,37 +720,10 @@ RarityDB = {
 						["enabled"] = false,
 						["found"] = true,
 					},
-					["Reins of the Winter Night Dreamsaber"] = {
-						["lastAttempts"] = 1,
-						["known"] = true,
-						["finds"] = {
-							{
-								["totalAttempts"] = 1,
-								["num"] = 1,
-								["time"] = 0,
-								["attempts"] = 1,
-							}, -- [1]
-						},
-						["attempts"] = 1,
-						["enabled"] = false,
-						["realAttempts"] = 1,
-						["totalFinds"] = 1,
-						["found"] = true,
-					},
 					["Reins of the Azure Drake"] = {
 						["attempts"] = 14,
 					},
-					["Reins of the Drake of the North Wind"] = {
-						["known"] = true,
-						["enabled"] = false,
-						["found"] = true,
-					},
 					["Red Qiraji Resonating Crystal"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
-					},
-					["Scepter of Azj'Aqir"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
@@ -677,13 +731,16 @@ RarityDB = {
 					["Clutch of Ji-Kun"] = {
 						["attempts"] = 4,
 					},
+					["Scepter of Azj'Aqir"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
 					["Reins of the Blazing Drake"] = {
 						["attempts"] = 4,
 					},
-					["Deathcharger's Reins"] = {
-						["known"] = true,
-						["enabled"] = false,
-						["found"] = true,
+					["Marrowfang's Reins"] = {
+						["attempts"] = 3,
 					},
 				},
 				["items"] = {
@@ -4290,6 +4347,7 @@ RarityDB = {
 				["Player-58-0CE4EC9D"] = {
 					["playerName"] = "Bretanomyces",
 					["statistics"] = {
+						[16097] = 0,
 						[6161] = 0,
 						[10252] = 0,
 						[6167] = 0,
@@ -5205,6 +5263,7 @@ RarityDB = {
 				["Player-3683-0D55549B"] = {
 					["playerName"] = "Pangdai",
 					["statistics"] = {
+						[16097] = 0,
 						[6161] = 0,
 						[10252] = 0,
 						[6167] = 0,
@@ -6120,15 +6179,18 @@ RarityDB = {
 			},
 			["bar"] = {
 				["visible"] = true,
-				["anchor"] = false,
-				["texture"] = "BantoBar",
-				["y"] = -16.99960136413574,
-				["x"] = 409.9996948242188,
-				["font"] = "Arial Narrow",
+				["scale"] = 1.15,
 				["locked"] = true,
+				["texture"] = "BantoBar",
+				["y"] = -5.695261001586914,
+				["font"] = "Arial Narrow",
+				["height"] = 25,
+				["x"] = 9.130126953125,
+				["anchor"] = false,
 			},
 			["hideOutsideZone"] = true,
-			["trackedItem"] = 200263,
+			["trackedGroup"] = "mounts",
+			["trackedItem"] = 133543,
 			["hideKnownItemsInTooltip"] = true,
 		},
 	},

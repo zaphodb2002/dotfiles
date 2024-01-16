@@ -5,12 +5,12 @@ DataStore_MailsDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
@@ -21,60 +21,8 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Stormreaver.Bretanomyces"] = {
-				["lastUpdate"] = 1703287724,
-				["Mails"] = {
-					{
-						["icon"] = 134327,
-						["sender"] = "Bretanomyces",
-						["subject"] = "Character Boost",
-						["returned"] = true,
-						["money"] = 0,
-						["text"] = "We've supplied you with a whole new set of high-level gear, but attached you'll find all the old items and equipment you once carried.\r\n\r\n - The WoW Dev Team",
-						["lastCheck"] = 1703287724,
-						["daysLeft"] = 178.8350219726563,
-					}, -- [1]
-					{
-						["link"] = "|cffffffff|Hitem:6948::::::::31:268:::::::::|h[Hearthstone]|h|r",
-						["sender"] = "Bretanomyces",
-						["itemID"] = 6948,
-						["returned"] = true,
-						["icon"] = 134414,
-						["count"] = 1,
-						["lastCheck"] = 1703287724,
-						["daysLeft"] = 178.8350219726563,
-					}, -- [2]
-					{
-						["icon"] = 134327,
-						["sender"] = "Bretanomyces",
-						["subject"] = "Character Boost",
-						["returned"] = true,
-						["money"] = 0,
-						["text"] = "We've supplied you with a whole new set of high-level gear, but attached you'll find all the old items and equipment you once carried.\r\n\r\n - The WoW Dev Team",
-						["lastCheck"] = 1703287724,
-						["daysLeft"] = 178.8350219726563,
-					}, -- [3]
-					{
-						["icon"] = 134327,
-						["sender"] = "Bretanomyces",
-						["subject"] = "Character Boost",
-						["returned"] = true,
-						["money"] = 0,
-						["text"] = "We've supplied you with a whole new set of high-level gear, but attached you'll find all the old items and equipment you once carried.\r\n\r\n - The WoW Dev Team",
-						["lastCheck"] = 1703287724,
-						["daysLeft"] = 178.8350219726563,
-					}, -- [4]
-					{
-						["icon"] = 134327,
-						["sender"] = "Bretanomyces",
-						["subject"] = "Character Boost",
-						["returned"] = true,
-						["money"] = 0,
-						["text"] = "We've supplied you with a whole new set of high-level gear, but attached you'll find all the old items and equipment you once carried.\r\n\r\n - The WoW Dev Team",
-						["lastCheck"] = 1703287724,
-						["daysLeft"] = 178.8350219726563,
-					}, -- [5]
-				},
-				["lastVisitDate"] = "2023/12/22 15:28",
+				["lastUpdate"] = 1705282297,
+				["lastVisitDate"] = "2024/01/14 17:31",
 			},
 			["Default.Stormreaver.Feloril"] = {
 				["lastUpdate"] = 1704176395,
@@ -145,8 +93,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2024/01/01 22:09",
 			},
 			["Default.Dalaran.Morgntreeman"] = {
-				["lastUpdate"] = 1704767371,
-				["lastVisitDate"] = "2024/01/08 18:29",
+				["lastUpdate"] = 1704940451,
+				["lastVisitDate"] = "2024/01/10 18:34",
 			},
 			["Default.Stormreaver.Deeohteez"] = {
 				["lastUpdate"] = 1704176665,

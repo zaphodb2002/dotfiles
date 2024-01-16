@@ -4,6 +4,7 @@ HandyNotes_ArgusDB = {
 		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
@@ -18,6 +19,8 @@ HandyNotes_ArgusDB = {
 		["Deeohteez - Stormreaver"] = {
 		},
 		["Arila - Stormreaver"] = {
+		},
+		["Bretanomyces - Stormreaver"] = {
 		},
 		["Morgntreeman - Dalaran"] = {
 		},

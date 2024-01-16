@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0805,
+	["LastVersion"] = 2.0807,
 	["LastPlayerFullName"] = "Pangdai-Dalaran",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -57,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:134531::::::::65:268::22:4:6652:8812:8171:7756:2:9:64:28:181:::::|h[Band of Twisted Bark]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 197989,
-			["Level"] = 252,
+			["ID"] = 134531,
+			["Level"] = 260,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:197989::::::::65:268::25:1:8768:2:9:63:28:2437:::::|h[Water-Ordained Signet]|h|r",
+			["Link"] = "|cff0070dd|Hitem:134531::::::::66:268::22:4:6652:8812:8171:7756:2:9:64:28:181:::::|h[Band of Twisted Bark]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 194399,
@@ -69,10 +69,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:194399::::::::65:268::25:1:8768:2:9:63:28:2437:::::|h[Lifegift Ruby]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 141618,
-			["Level"] = 146,
+			["ID"] = 194399,
+			["Level"] = 252,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:141618::::::::65:268::11:1:3631:2:9:54:28:1705:::::|h[Life-Giving Berries]|h|r",
+			["Link"] = "|cff1eff00|Hitem:194399::::::::66:268::25:1:8768:2:9:63:28:2437:::::|h[Lifegift Ruby]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 194370,

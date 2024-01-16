@@ -874,20 +874,20 @@ MATAB = {
 					},
 					["ItemUpgradeFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 344,
-						["PX"] = 1189,
+						["PY"] = 289,
 						["RE"] = "BOTTOMLEFT",
+						["PX"] = 1028,
 					},
 					["ClassTalentFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 156,
+						["PY"] = 92,
+						["PX"] = 42,
 						["RE"] = "BOTTOMLEFT",
-						["PX"] = 151,
 					},
 					["CharacterFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 528,
-						["PX"] = 496,
+						["PY"] = 381,
+						["PX"] = 471,
 						["RE"] = "BOTTOMLEFT",
 					},
 					["MailFrame"] = {
@@ -916,9 +916,11 @@ MATAB = {
 					},
 					["StaticPopup1"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 632,
+						["PY"] = 871,
+						["PX"] = 979,
 						["RE"] = "BOTTOMLEFT",
-						["PX"] = 792,
+					},
+					["ChannelFrame"] = {
 					},
 					["GuildBankFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -928,21 +930,25 @@ MATAB = {
 					},
 					["SpellBookFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 439,
-						["PX"] = 17,
+						["PY"] = 415,
 						["RE"] = "BOTTOMLEFT",
-					},
-					["ChannelFrame"] = {
+						["PX"] = 183,
 					},
 					["ChallengesKeystoneFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 391,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 1065,
 					},
 					["CovenantMissionFrame"] = {
+					},
+					["StaticPopup2"] = {
 					},
 					["QuestFrame"] = {
 						["AN"] = "BOTTOMLEFT",
 						["PY"] = 464,
-						["RE"] = "BOTTOMLEFT",
 						["PX"] = 13,
+						["RE"] = "BOTTOMLEFT",
 					},
 					["TradeFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -961,6 +967,10 @@ MATAB = {
 					["OrderHallMissionFrame"] = {
 					},
 					["ReadyCheckFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 578,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 845,
 					},
 					["ProfessionsFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -978,17 +988,21 @@ MATAB = {
 					},
 					["CommunitiesFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 538,
-						["PX"] = 16,
+						["PY"] = 443,
 						["RE"] = "BOTTOMLEFT",
+						["PX"] = 681,
 					},
 					["WeeklyRewardsFrame"] = {
+						["AN"] = "BOTTOMLEFT",
+						["PY"] = 227,
+						["RE"] = "BOTTOMLEFT",
+						["PX"] = 377,
 					},
 					["SettingsPanel"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 334,
+						["PX"] = 612,
+						["PY"] = 125,
 						["RE"] = "BOTTOMLEFT",
-						["PX"] = 524,
 					},
 					["WardrobeFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -1004,8 +1018,8 @@ MATAB = {
 					},
 					["FriendsFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 517,
-						["PX"] = 545,
+						["PY"] = 565,
+						["PX"] = 290,
 						["RE"] = "BOTTOMLEFT",
 					},
 					["SplashFrame"] = {
@@ -1017,16 +1031,16 @@ MATAB = {
 					["OpenMailFrame"] = {
 						["AN"] = "BOTTOMLEFT",
 						["PY"] = 540,
-						["RE"] = "BOTTOMLEFT",
 						["PX"] = 400,
+						["RE"] = "BOTTOMLEFT",
 					},
 					["TaxiFrame"] = {
 					},
 					["GossipFrame"] = {
 						["AN"] = "BOTTOMLEFT",
 						["PY"] = 398,
-						["RE"] = "BOTTOMLEFT",
 						["PX"] = 280,
+						["RE"] = "BOTTOMLEFT",
 					},
 					["WorldMapFrame"] = {
 						["AN"] = "BOTTOMLEFT",
@@ -1038,9 +1052,9 @@ MATAB = {
 					},
 					["MerchantFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 474,
-						["PX"] = 178,
+						["PY"] = 479,
 						["RE"] = "BOTTOMLEFT",
+						["PX"] = 262,
 					},
 					["QuickKeybindFrame"] = {
 					},
@@ -1060,8 +1074,8 @@ MATAB = {
 					},
 					["AuctionHouseFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 468,
 						["PX"] = 2,
+						["PY"] = 468,
 						["RE"] = "BOTTOMLEFT",
 					},
 					["GameMenuFrame"] = {
@@ -1072,9 +1086,9 @@ MATAB = {
 					},
 					["PVEFrame"] = {
 						["AN"] = "BOTTOMLEFT",
-						["PY"] = 398,
+						["PY"] = 432,
+						["PX"] = 908,
 						["RE"] = "BOTTOMLEFT",
-						["PX"] = 39,
 					},
 					["PVPMatchScoreboard"] = {
 					},
@@ -1186,6 +1200,7 @@ MATAB = {
 					["TaxiFrame"] = {
 					},
 					["PlayerChoiceFrame"] = {
+						["SCALE"] = 1.018,
 					},
 					["GenericTraitFrame"] = {
 					},

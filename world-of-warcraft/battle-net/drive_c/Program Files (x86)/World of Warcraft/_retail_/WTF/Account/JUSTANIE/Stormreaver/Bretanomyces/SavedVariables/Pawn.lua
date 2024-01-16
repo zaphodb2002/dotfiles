@@ -6,89 +6,89 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 122248,
-			["Level"] = 148,
-			["Link"] = "|cff00ccff|Hitem:122248::::::::50:268:::1:9354::::::|h[Stained Shadowcraft Cap]|h|r",
+			["Level"] = 262,
+			["Link"] = "|cff00ccff|Hitem:122248::::::::63:268:::1:9354::::::|h[Stained Shadowcraft Cap]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 122666,
-			["Level"] = 148,
-			["Link"] = "|cff00ccff|Hitem:122666::::::::50:268:::1:583::::::|h[Eternal Woven Ivy Necklace]|h|r",
+			["ID"] = 188278,
+			["Level"] = 155,
+			["Link"] = "|cff0070dd|Hitem:188278::::::::63:268::22:2:9534:7756:2:9:50:28:181:::::|h[Pendant of Battle-Lust]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 122377,
-			["Level"] = 148,
-			["Link"] = "|cff00ccff|Hitem:122377::::::::50:268:::1:3592::::::|h[Lasting Feralheart Spaulders]|h|r",
+			["ID"] = 43182,
+			["Level"] = 194,
+			["Link"] = "|cff0070dd|Hitem:43182::::::::61:268::11:1:6710:2:28:1868:9:61:::::|h[Cured Mammoth Hide Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 122383,
-			["Level"] = 148,
-			["Link"] = "|cff00ccff|Hitem:122383::::::::50:268:::1:3592::::::|h[Stained Shadowcraft Tunic]|h|r",
+			["ID"] = 127593,
+			["Level"] = 264,
+			["Link"] = "|cff0070dd|Hitem:127593::::::::63:268::22:2:9534:7756:2:28:181:9:63:::::|h[Crystal-Infused Tunic]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 51959,
-			["Level"] = 130,
-			["Link"] = "|cff0070dd|Hitem:51959::::::::43:268::11:2:4244:1679:2:28:328:9:43:::::|h[Vigorous Belt of the Quickblade]|h|r",
+			["ID"] = 112365,
+			["Level"] = 186,
+			["Link"] = "|cff0070dd|Hitem:112365::::::::58:268::11:2:4244:22:2:28:328:9:58:::::|h[Winterfrost Leather Belt of the Fireflash]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 122255,
-			["Level"] = 148,
-			["Link"] = "|cff00ccff|Hitem:122255::::::::50:268:::1:583::::::|h[Preened Wildfeather Leggings]|h|r",
+			["ID"] = 112360,
+			["Level"] = 182,
+			["Link"] = "|cff0070dd|Hitem:112360::::::::57:268::11:2:4244:25:2:28:328:9:57:::::|h[Winterfrost Leather Leggings of the Fireflash]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 51963,
-			["Level"] = 120,
-			["Link"] = "|cff0070dd|Hitem:51963::::::::40:268::11:2:4244:1694:2:28:328:9:40:::::|h[Vigorous Stompers of the Fireflash]|h|r",
+			["ID"] = 42762,
+			["Level"] = 194,
+			["Link"] = "|cff0070dd|Hitem:42762::::::::61:268::11:1:6710:2:28:1868:9:61:::::|h[Treads of Torn Future]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 127244,
-			["Level"] = 130,
-			["Link"] = "|cff0070dd|Hitem:127244::::::::43:268::22:2:9534:7756:2:28:181:9:43:::::|h[Lucid Dream Bracers]|h|r",
+			["ID"] = 39678,
+			["Level"] = 194,
+			["Link"] = "|cff0070dd|Hitem:39678::::::::60:268::11:1:6710:2:28:1869:9:60:::::|h[Vendetta Bindings]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 82260,
-			["Level"] = 81,
-			["Link"] = "|cff1eff00|Hitem:82260::::::::31:268::6:2:6654:1712:2:9:35:28:2012:::::|h[Vine Gloves of the Harmonious]|h|r",
+			["ID"] = 42761,
+			["Level"] = 220,
+			["Link"] = "|cffa335ee|Hitem:42761::::::::61:268::11:2:6710:6757:2:28:1868:9:61:::::|h[Time-Stop Gloves]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 160605,
-			["Level"] = 137,
+			["ID"] = 38220,
+			["Level"] = 190,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:160605::::::::50:268::11:2:4244:1679:2:28:328:9:45:::::|h[Turbulent Signet of the Quickblade]|h|r",
+			["Link"] = "|cff0070dd|Hitem:38220::::::::62:268::11:1:6710:2:9:59:28:1869:::::|h[Signet of Swift Judgment]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 25713,
-			["Level"] = 117,
+			["ID"] = 38220,
+			["Level"] = 190,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:25713::::::::40:268::11:1:6710:2:28:1887:9:39:::::|h[Holy Healing Band]|h|r",
+			["Link"] = "|cff0070dd|Hitem:38220::::::::63:268::11:1:6710:2:9:59:28:1869:::::|h[Signet of Swift Judgment]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 122361,
-			["Level"] = 148,
+			["Level"] = 262,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::50:268:::1:583::::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::63:268:::1:583::::::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 122370,
-			["Level"] = 148,
+			["Level"] = 262,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122370::::::::50:268:::::::::|h[Inherited Insignia of the Horde]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122370::::::::63:268:::::::::|h[Inherited Insignia of the Horde]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 122261,
-			["Level"] = 148,
-			["Link"] = "|cff00ccff|Hitem:122261::::::::50:268:::1:3592::::::|h[Inherited Cape of the Black Baron]|h|r",
+			["ID"] = 127603,
+			["Level"] = 264,
+			["Link"] = "|cff0070dd|Hitem:127603::::::::63:268::22:2:9534:7756:2:28:181:9:63:::::|h[Cloak of the Enemy]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 122363,
-			["Level"] = 148,
-			["Link"] = "|cff00ccff|Hitem:122363::::::::50:268:::1:582::::::|h[Burnished Warden Staff]|h|r",
+			["ID"] = 188449,
+			["Level"] = 241,
+			["Link"] = "|cff0070dd|Hitem:188449::::::::62:268::22:2:9534:7756:2:28:181:9:62:::::|h[Enraged Feral Staff]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 82055,
-			["Level"] = 57,
+			["ID"] = 25315,
+			["Level"] = 66,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff1eff00|Hitem:82055::::::::40:268:::2:6655:1706:2:9:28:28:1754:::::|h[Bronzed Mace of the Aurora]|h|r",
+			["Link"] = "|cff1eff00|Hitem:25315::::::::62:268::22:2:6655:1693:2:9:30:28:1066:::::|h[Restorative Mace of the Fireflash]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

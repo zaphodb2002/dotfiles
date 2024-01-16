@@ -5,12 +5,12 @@ DataStore_CurrenciesDB = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
@@ -94,9 +94,9 @@ DataStore_CurrenciesDB = {
 				["Grateful Offering"] = 19,
 				["Dragon Isles Supplies"] = 1,
 				["Reservoir Anima"] = 21,
-				["Wyrm's Dreaming Crest"] = 53,
-				["Lingering Soul Fragment"] = 34,
 				["Legionfall War Supplies"] = 33,
+				["Lingering Soul Fragment"] = 34,
+				["Wyrm's Dreaming Crest"] = 53,
 				["Mark of the World Tree"] = 52,
 				["Elder Charm of Good Fortune"] = 45,
 				["Trader's Tender"] = 50,
@@ -110,8 +110,8 @@ DataStore_CurrenciesDB = {
 				["Garrison Resources"] = 43,
 				["Titan Residuum"] = 29,
 				["Curious Coin"] = 32,
-				["Timewarped Badge"] = 10,
 				["Wakening Essence"] = 41,
+				["Timewarped Badge"] = 10,
 				["7th Legion Service Medal"] = 25,
 				["Seal of Broken Fate"] = 37,
 				["Flightstones"] = 6,
@@ -124,8 +124,8 @@ DataStore_CurrenciesDB = {
 				["Tol Barad Commendation"] = 15,
 				["Apexis Crystal"] = 42,
 				["Darkmoon Prize Ticket"] = 11,
-				["Seafarer's Dubloon"] = 27,
 				["Infused Ruby"] = 20,
+				["Seafarer's Dubloon"] = 27,
 				["Mote of Darkness"] = 48,
 				["Whelpling's Dreaming Crest"] = 9,
 				["Stygian Ember"] = 24,
@@ -249,8 +249,8 @@ DataStore_CurrenciesDB = {
 			["Default.Dalaran.Pangdai"] = {
 				["Currencies"] = {
 					27263105, -- [1]
-					131728642, -- [2]
-					9836803, -- [3]
+					22283522, -- [2]
+					75372803, -- [3]
 					2756487, -- [4]
 					3674247, -- [5]
 					2625927, -- [6]
@@ -279,7 +279,7 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1704175775,
+				["lastUpdate"] = 1705199281,
 				["CurrencyInfo"] = {
 					[2003] = "208-0-0-0",
 					[1342] = "28-0-0-1000",
@@ -287,8 +287,8 @@ DataStore_CurrenciesDB = {
 					[1226] = "20-0-0-0",
 					[1155] = "21-0-0-300",
 					[1533] = "35-0-0-0",
-					[1166] = "1005-0-0-0",
-					[2032] = "75-0-0-0",
+					[1166] = "170-0-0-0",
+					[2032] = "575-0-0-0",
 				},
 			},
 			["Default.Stormreaver.Dumpiss"] = {
@@ -521,19 +521,19 @@ DataStore_CurrenciesDB = {
 			},
 			["Default.Dalaran.Morgntreeman"] = {
 				["Currencies"] = {
-					1117126785, -- [1]
-					524545, -- [2]
-					393601, -- [3]
+					1170735233, -- [1]
+					131329, -- [2]
+					524673, -- [3]
 					1159725569, -- [4]
-					1049217, -- [5]
-					69600001, -- [6]
+					20841089, -- [5]
+					95027969, -- [6]
 					290194305, -- [7]
 					1573889, -- [8]
-					59376769, -- [9]
-					1972865, -- [10]
+					72483969, -- [9]
+					6785, -- [10]
 					336856322, -- [11]
 					5899651, -- [12]
-					22944003, -- [13]
+					75372803, -- [13]
 					1540, -- [14]
 					1668, -- [15]
 					25691908, -- [16]
@@ -595,38 +595,38 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1704782901,
+				["lastUpdate"] = 1705205777,
 				["CurrencyInfo"] = {
 					[824] = "6443-0-0-10000",
 					[515] = "45-0-0-0",
-					[2650] = "8-0-0-0",
+					[2650] = "159-0-0-0",
 					[1979] = "14-0-0-0",
 					[1101] = "9480-0-0-100000",
 					[2123] = "0-0-0-200000",
-					[2706] = "453-0-0-810",
-					[2003] = "8523-0-0-0",
+					[2706] = "553-0-0-900",
+					[2003] = "8932-0-0-0",
 					[1314] = "1-0-20-40",
 					[1885] = "1-0-0-0",
 					[1767] = "294-0-0-0",
 					[738] = "791-0-0-0",
-					[2707] = "4-0-0-810",
+					[2707] = "1-0-0-900",
 					[1342] = "294-0-0-1000",
 					[1220] = "5845-0-0-0",
-					[1602] = "0-0-0-5200",
+					[1602] = "0-0-0-5750",
 					[1299] = "1-0-0-5000",
-					[2708] = "15-0-0-720",
+					[2708] = "0-0-0-810",
 					[823] = "117114-0-0-0",
 					[1508] = "474-0-0-2000",
 					[1704] = "17-0-0-200",
 					[2118] = "8848-0-0-0",
 					[1268] = "39-0-0-1000",
-					[2032] = "175-0-0-0",
+					[2032] = "575-0-0-0",
 					[1906] = "200-0-0-0",
 					[391] = "7-0-0-0",
 					[1977] = "10-0-0-0",
 					[1792] = "196-0-0-15000",
 					[1166] = "2570-0-0-0",
-					[2245] = "531-0-0-2000",
+					[2245] = "725-0-0-2000",
 					[614] = "9-0-0-0",
 					[697] = "3-0-0-20",
 					[1560] = "4208-0-0-0",
@@ -647,7 +647,7 @@ DataStore_CurrenciesDB = {
 					[1275] = "13-0-0-0",
 					[1813] = "6410-0-0-200000",
 					[2594] = "2214-0-0-0",
-					[2777] = "3-0-0-0",
+					[2777] = "4-0-0-0",
 				},
 			},
 			["Default.Dalaran.Hyaae"] = {
@@ -731,10 +731,9 @@ DataStore_CurrenciesDB = {
 			["Default.Stormreaver.Bretanomyces"] = {
 				["Currencies"] = {
 					10096390, -- [1]
-					100271362, -- [2]
-					88480003, -- [3]
-					792329, -- [4]
-					137355, -- [5]
+					212993282, -- [2]
+					792329, -- [3]
+					137355, -- [4]
 				},
 				["Archeology"] = {
 					0, -- [1]
@@ -758,12 +757,12 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1703477003,
+				["lastUpdate"] = 1705284296,
 				["CurrencyInfo"] = {
-					[2032] = "675-0-0-0",
+					[2032] = "575-0-0-0",
 					[1560] = "77-0-0-0",
 					[1704] = "1-0-0-200",
-					[1166] = "765-0-0-0",
+					[1166] = "1625-0-0-0",
 					[738] = "6-0-0-0",
 				},
 			},

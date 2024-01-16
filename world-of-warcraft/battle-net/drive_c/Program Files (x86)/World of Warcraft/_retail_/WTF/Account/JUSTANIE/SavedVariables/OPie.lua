@@ -16,35 +16,35 @@ OPie_SavedData = {
 		["RingKeeper"] = {
 			["DruidShift"] = {
 				{
-					["sliceToken"] = "OPCDSf",
 					["id"] = "/cancelform [noflyable,noform:moonkin]\n#imp critical\n/cast [flyable,outdoors,nocombat,noswimming,nomod][flying,flyable] {{spell:783}}; [swimming,nomod][flyable,nomod] {{spell:783}};",
+					["sliceToken"] = "OPCDSf",
 					["vm"] = 3,
 					["fastClick"] = true,
 				}, -- [1]
 				{
-					["c"] = "c74cff",
 					["sliceToken"] = "OPCDSk",
-					["vm"] = 3,
+					["c"] = "c74cff",
 					["id"] = 24858,
+					["vm"] = 3,
 				}, -- [2]
 				{
-					["c"] = "fff04d",
 					["sliceToken"] = "OPCDSc",
-					["vm"] = 3,
+					["c"] = "fff04d",
 					["id"] = 768,
+					["vm"] = 3,
 				}, -- [3]
 				{
-					["c"] = "ff0000",
 					["sliceToken"] = "OPCDSb",
-					["vm"] = 3,
+					["c"] = "ff0000",
 					["id"] = 5487,
+					["vm"] = 3,
 				}, -- [4]
-				["save"] = true,
-				["v"] = 1,
-				["vm"] = 127,
-				["limit"] = "DRUID",
 				["name"] = "Shapeshifts",
+				["limit"] = "DRUID",
+				["vm"] = 127,
+				["save"] = true,
 				["hotkey"] = "BUTTON4",
+				["v"] = 1,
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 3,

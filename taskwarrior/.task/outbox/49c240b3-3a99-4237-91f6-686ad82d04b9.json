@@ -1,0 +1,1 @@
+{"status":"pending","uuid":"49c240b3-3a99-4237-91f6-686ad82d04b9","entry":"20240102T075047Z","description":"Audit Belonging.Dogs recurring Tasks","due":"20241024T080000Z","imask":9.0,"modified":"20240102T073552Z","parent":"db66e697-4910-474e-95a0-3e981a235d6d","project":"LMS.Process.Auditing","recur":"1mo","wait":"20240926T080000Z","rtype":"periodic"}

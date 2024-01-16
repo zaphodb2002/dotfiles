@@ -1,0 +1,1 @@
+{"status":"pending","uuid":"ef5bab63-b24f-4b40-8a62-b00a0e6a431e","entry":"20240110T162615Z","description":"Take dogs outside AM","due":"20240124T070000Z","imask":155.0,"modified":"20240110T031328Z","parent":"69904e9a-7720-411b-8af2-8b969f81d217","priority":"M","project":"Belonging.Dogs","recur":"1d","tags":["am","daily"],"wait":"20240124T050000Z","rtype":"periodic"}

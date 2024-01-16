@@ -1,0 +1,1 @@
+{"status":"completed","uuid":"ddf33aa4-b23c-418c-9739-141cabcb9961","entry":"20240102T073537Z","description":"Lunch Check-In","due":"20240103T200000Z","end":"20240103T201329Z","imask":135.0,"modified":"20240103T072847Z","parent":"0af6407d-ed70-4c1d-ba12-a7c2109c76de","priority":"M","project":"LMS.Process.CheckIns","recur":"1d","tags":["daily","lunch"],"rtype":"periodic"}

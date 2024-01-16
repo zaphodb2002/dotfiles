@@ -1,0 +1,1 @@
+{"status":"pending","uuid":"2cab731f-7b0b-4b38-8031-af15d2543a43","entry":"20240102T075047Z","description":"Audit Recreation.Psychonautics recurring Tasks","due":"20240825T080000Z","imask":7.0,"modified":"20240102T073552Z","parent":"f6baa276-eb02-4301-aa92-c0e938ae1688","project":"LMS.Process.Auditing","recur":"1mo","wait":"20240728T080000Z","rtype":"periodic"}
