@@ -1,18 +1,18 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0807,
+	["LastVersion"] = 2.0808,
 	["LastPlayerFullName"] = "Bretanomyces-Stormreaver",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 122248,
-			["Level"] = 250,
-			["Link"] = "|cff00ccff|Hitem:122248::::::::62:268:::1:9354::::::|h[Stained Shadowcraft Cap]|h|r",
+			["ID"] = 193751,
+			["Level"] = 296,
+			["Link"] = "|cff0070dd|Hitem:193751::::::::65:268::17:5:7978:7975:6652:9599:9504:2:28:2587:9:65:::::|h[Crown of Roaring Storms]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 122666,
-			["Level"] = 148,
-			["Link"] = "|cff00ccff|Hitem:122666::::::::50:268:::1:583::::::|h[Eternal Woven Ivy Necklace]|h|r",
+			["ID"] = 193676,
+			["Level"] = 296,
+			["Link"] = "|cff0070dd|Hitem:193676::::::::65:268::17:5:7978:7975:6652:8783:10245:2:28:2155:9:65:::::|h[Ukhel Ancestry Beads]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 43182,
@@ -21,9 +21,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 43207,
-			["Level"] = 194,
-			["Link"] = "|cff0070dd|Hitem:43207::::::::61:268::11:1:6710:2:9:60:28:1875:::::|h[Hardened Tongue Tunic]|h|r",
+			["ID"] = 127593,
+			["Level"] = 264,
+			["Link"] = "|cff0070dd|Hitem:127593::::::::63:268::22:2:9534:7756:2:28:181:9:63:::::|h[Crystal-Infused Tunic]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 112365,
@@ -46,49 +46,49 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:39678::::::::60:268::11:1:6710:2:28:1869:9:60:::::|h[Vendetta Bindings]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 42761,
-			["Level"] = 220,
-			["Link"] = "|cffa335ee|Hitem:42761::::::::61:268::11:2:6710:6757:2:28:1868:9:61:::::|h[Time-Stop Gloves]|h|r",
+			["ID"] = 193661,
+			["Level"] = 276,
+			["Link"] = "|cff0070dd|Hitem:193661::::::::63:268::17:4:7978:7975:6652:9504:2:28:2155:9:63:::::|h[Blightweaver's Clutches]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 43180,
-			["Level"] = 178,
+			["ID"] = 38220,
+			["Level"] = 190,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:43180::::::::57:268::11:1:6710:2:28:1874:9:56:::::|h[Lion's Head Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:38220::::::::62:268::11:1:6710:2:9:59:28:1869:::::|h[Signet of Swift Judgment]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 43180,
-			["Level"] = 178,
+			["ID"] = 38220,
+			["Level"] = 190,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:43180::::::::57:268::11:1:6710:2:9:56:28:1874:::::|h[Lion's Head Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:38220::::::::63:268::11:1:6710:2:9:59:28:1869:::::|h[Signet of Swift Judgment]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 122361,
-			["Level"] = 250,
+			["Level"] = 284,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::62:268:::1:583::::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::65:268:::1:583::::::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 122370,
-			["Level"] = 250,
+			["Level"] = 284,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122370::::::::62:268:::::::::|h[Inherited Insignia of the Horde]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122370::::::::65:268:::::::::|h[Inherited Insignia of the Horde]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 122261,
-			["Level"] = 239,
-			["Link"] = "|cff00ccff|Hitem:122261::::::::61:268:::1:3592::::::|h[Inherited Cape of the Black Baron]|h|r",
+			["ID"] = 127603,
+			["Level"] = 264,
+			["Link"] = "|cff0070dd|Hitem:127603::::::::63:268::22:2:9534:7756:2:28:181:9:63:::::|h[Cloak of the Enemy]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 122363,
-			["Level"] = 148,
-			["Link"] = "|cff00ccff|Hitem:122363::::::::50:268:::1:582::::::|h[Burnished Warden Staff]|h|r",
+			["ID"] = 197677,
+			["Level"] = 286,
+			["Link"] = "|cff0070dd|Hitem:197677::::::::64:268::27:1:8778:2:28:2537:9:64:::::|h[Plainswalking Stick]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 82055,
-			["Level"] = 57,
+			["ID"] = 25315,
+			["Level"] = 66,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff1eff00|Hitem:82055::::::::40:268:::2:6655:1706:2:9:28:28:1754:::::|h[Bronzed Mace of the Aurora]|h|r",
+			["Link"] = "|cff1eff00|Hitem:25315::::::::62:268::22:2:6655:1693:2:9:30:28:1066:::::|h[Restorative Mace of the Fireflash]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

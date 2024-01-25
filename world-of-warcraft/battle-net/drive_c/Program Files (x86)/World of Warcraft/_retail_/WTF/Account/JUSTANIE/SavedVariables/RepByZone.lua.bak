@@ -4,84 +4,84 @@ RepByZoneDB = {
 		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
-		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
-		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
+		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
 		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
-		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
-		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
-		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 	},
 	["profiles"] = {
 		["Pangdai - Dalaran"] = {
-			["watchedRepID"] = 1216,
 			["watchedRepName"] = "Shang Xi's Academy",
+			["watchedRepID"] = 1216,
 		},
 		["Deeohteez - Stormreaver"] = {
-			["watchedRepID"] = 68,
 			["watchedRepName"] = "Undercity",
+			["watchedRepID"] = 68,
 		},
 		["Arila - Stormreaver"] = {
-			["watchedRepName"] = "Orgrimmar",
 			["watchedRepID"] = 76,
+			["watchedRepName"] = "Orgrimmar",
 		},
-		["Hyaae - Dalaran"] = {
-			["watchedRepID"] = 930,
-			["watchedRepName"] = "Exodar",
-		},
-		["Pontiffikate - Dalaran"] = {
-			["watchedRepID"] = 72,
-			["watchedRepName"] = "Stormwind",
-		},
-		["Deeohteez - Dalaran"] = {
-			["watchedRepID"] = 54,
-			["watchedRepName"] = "Gnomeregan",
-		},
-		["Feloril - Stormreaver"] = {
-			["watchedRepID"] = 911,
-			["watchedRepName"] = "Silvermoon City",
-		},
-		["Bretanomyces - Stormreaver"] = {
-			["watchedRepID"] = 1216,
-			["watchedRepName"] = "Shang Xi's Academy",
-		},
-		["Jenleeviyah - Dalaran"] = {
+		["Icanglidewee - Dalaran"] = {
 			["watchedRepID"] = 69,
 			["watchedRepName"] = "Darnassus",
+		},
+		["Deeohteez - Dalaran"] = {
+			["watchedRepName"] = "Gnomeregan",
+			["watchedRepID"] = 54,
 		},
 		["Morgntreeman - Dalaran"] = {
 			["watchedRepName"] = "Gilneas",
 			["watchedRepID"] = 1134,
 		},
-		["Petitmort - Dalaran"] = {
-			["watchedRepID"] = 54,
-			["watchedRepName"] = "Gnomeregan",
-		},
-		["Dumpiss - Stormreaver"] = {
-			["watchedRepID"] = 1133,
-			["watchedRepName"] = "Bilgewater Cartel",
-		},
 		["Ruderalis - Stormreaver"] = {
-			["watchedRepName"] = "Darkspear Trolls",
 			["watchedRepID"] = 530,
+			["watchedRepName"] = "Darkspear Trolls",
 		},
-		["Jaalohwa - Stormreaver"] = {
-			["watchedRepName"] = "Thunder Bluff",
-			["watchedRepID"] = 81,
+		["Pontiffikate - Dalaran"] = {
+			["watchedRepName"] = "Stormwind",
+			["watchedRepID"] = 72,
 		},
-		["Attacknknees - Dalaran"] = {
-			["watchedRepID"] = 54,
-			["watchedRepName"] = "Gnomeregan",
-		},
-		["Icanglidewee - Dalaran"] = {
+		["Jenleeviyah - Dalaran"] = {
 			["watchedRepName"] = "Darnassus",
 			["watchedRepID"] = 69,
+		},
+		["Attacknknees - Dalaran"] = {
+			["watchedRepName"] = "Gnomeregan",
+			["watchedRepID"] = 54,
+		},
+		["Petitmort - Dalaran"] = {
+			["watchedRepName"] = "Gnomeregan",
+			["watchedRepID"] = 54,
+		},
+		["Dumpiss - Stormreaver"] = {
+			["watchedRepName"] = "Bilgewater Cartel",
+			["watchedRepID"] = 1133,
+		},
+		["Feloril - Stormreaver"] = {
+			["watchedRepName"] = "Silvermoon City",
+			["watchedRepID"] = 911,
+		},
+		["Jaalohwa - Stormreaver"] = {
+			["watchedRepID"] = 81,
+			["watchedRepName"] = "Thunder Bluff",
+		},
+		["Bretanomyces - Stormreaver"] = {
+			["watchedRepID"] = 1216,
+			["watchedRepName"] = "Shang Xi's Academy",
+		},
+		["Hyaae - Dalaran"] = {
+			["watchedRepName"] = "Exodar",
+			["watchedRepID"] = 930,
 		},
 	},
 }

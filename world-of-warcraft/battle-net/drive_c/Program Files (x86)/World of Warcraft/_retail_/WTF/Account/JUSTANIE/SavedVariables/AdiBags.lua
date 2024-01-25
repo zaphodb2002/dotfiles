@@ -16,52 +16,52 @@ AdiBagsDB = {
 		},
 		["AdiBags_TooltipInfo"] = {
 		},
-		["Equipment"] = {
+		["MoneyFrame"] = {
+		},
+		["ItemSets"] = {
 		},
 		["CurrencyFrame"] = {
 		},
 		["DataSource"] = {
 		},
-		["ItemSets"] = {
-		},
 		["Junk"] = {
 		},
-		["MoneyFrame"] = {
+		["Equipment"] = {
 		},
 	},
 	["profileKeys"] = {
 		["Pangdai - Dalaran"] = "Default",
 		["Deeohteez - Stormreaver"] = "Default",
 		["Arila - Stormreaver"] = "Default",
-		["Icanglidewee - Dalaran"] = "Default",
-		["Attacknknees - Dalaran"] = "Default",
+		["Hyaae - Dalaran"] = "Default",
+		["Bretanomyces - Stormreaver"] = "Default",
 		["Jenleeviyah - Dalaran"] = "Default",
-		["Ruderalis - Stormreaver"] = "Default",
+		["Feloril - Stormreaver"] = "Default",
 		["Pontiffikate - Dalaran"] = "Default",
-		["Morgntreeman - Dalaran"] = "Default",
+		["Attacknknees - Dalaran"] = "Default",
 		["Deeohteez - Dalaran"] = "Default",
 		["Petitmort - Dalaran"] = "Default",
 		["Dumpiss - Stormreaver"] = "Default",
-		["Feloril - Stormreaver"] = "Default",
+		["Ruderalis - Stormreaver"] = "Default",
 		["Jaalohwa - Stormreaver"] = "Default",
-		["Bretanomyces - Stormreaver"] = "Default",
-		["Hyaae - Dalaran"] = "Default",
+		["Morgntreeman - Dalaran"] = "Default",
+		["Icanglidewee - Dalaran"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["experiments"] = {
 				["Bag Lag Fix"] = {
 					["Enabled"] = false,
-					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
 					["Percent"] = 1,
 					["Name"] = "Bag Lag Fix",
+					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
 				},
 			},
 			["positions"] = {
 				["Backpack"] = {
-					["xOffset"] = -419.001708984375,
-					["point"] = "TOPRIGHT",
-					["yOffset"] = -163.4976196289063,
+					["xOffset"] = 567.998291015625,
+					["point"] = "BOTTOMLEFT",
+					["yOffset"] = 210.5027465820313,
 				},
 			},
 		},

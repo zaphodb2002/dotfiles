@@ -1,18 +1,18 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0807,
+	["LastVersion"] = 2.0808,
 	["LastPlayerFullName"] = "Bretanomyces-Stormreaver",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 122248,
-			["Level"] = 262,
-			["Link"] = "|cff00ccff|Hitem:122248::::::::63:268:::1:9354::::::|h[Stained Shadowcraft Cap]|h|r",
+			["ID"] = 193751,
+			["Level"] = 296,
+			["Link"] = "|cff0070dd|Hitem:193751::::::::65:268::17:5:7978:7975:6652:9599:9504:2:28:2587:9:65:::::|h[Crown of Roaring Storms]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 188278,
-			["Level"] = 155,
-			["Link"] = "|cff0070dd|Hitem:188278::::::::63:268::22:2:9534:7756:2:9:50:28:181:::::|h[Pendant of Battle-Lust]|h|r",
+			["ID"] = 193676,
+			["Level"] = 296,
+			["Link"] = "|cff0070dd|Hitem:193676::::::::65:268::17:5:7978:7975:6652:8783:10245:2:28:2155:9:65:::::|h[Ukhel Ancestry Beads]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 43182,
@@ -46,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:39678::::::::60:268::11:1:6710:2:28:1869:9:60:::::|h[Vendetta Bindings]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 42761,
-			["Level"] = 220,
-			["Link"] = "|cffa335ee|Hitem:42761::::::::61:268::11:2:6710:6757:2:28:1868:9:61:::::|h[Time-Stop Gloves]|h|r",
+			["ID"] = 193661,
+			["Level"] = 276,
+			["Link"] = "|cff0070dd|Hitem:193661::::::::63:268::17:4:7978:7975:6652:9504:2:28:2155:9:63:::::|h[Blightweaver's Clutches]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 38220,
@@ -64,15 +64,15 @@ PawnOptions = {
 		}, -- [12]
 		{
 			["ID"] = 122361,
-			["Level"] = 262,
+			["Level"] = 284,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::63:268:::1:583::::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::65:268:::1:583::::::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 122370,
-			["Level"] = 262,
+			["Level"] = 284,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122370::::::::63:268:::::::::|h[Inherited Insignia of the Horde]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122370::::::::65:268:::::::::|h[Inherited Insignia of the Horde]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 127603,
@@ -80,15 +80,15 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:127603::::::::63:268::22:2:9534:7756:2:28:181:9:63:::::|h[Cloak of the Enemy]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 188449,
-			["Level"] = 241,
-			["Link"] = "|cff0070dd|Hitem:188449::::::::62:268::22:2:9534:7756:2:28:181:9:62:::::|h[Enraged Feral Staff]|h|r",
+			["ID"] = 197677,
+			["Level"] = 286,
+			["Link"] = "|cff0070dd|Hitem:197677::::::::64:268::27:1:8778:2:28:2537:9:64:::::|h[Plainswalking Stick]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 25315,
-			["Level"] = 66,
+			["ID"] = 200169,
+			["Level"] = 276,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff1eff00|Hitem:25315::::::::62:268::22:2:6655:1693:2:9:30:28:1066:::::|h[Restorative Mace of the Fireflash]|h|r",
+			["Link"] = "|cff0070dd|Hitem:200169::::::::65:268::17:2:9156:6652:2:28:2424:9:65:::::|h[Protector's Molten Cudgel]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

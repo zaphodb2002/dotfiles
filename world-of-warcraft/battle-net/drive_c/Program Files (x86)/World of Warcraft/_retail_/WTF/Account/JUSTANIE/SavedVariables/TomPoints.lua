@@ -1,9 +1,9 @@
 
 addonConfig = {
-	["AlwaysCreateMapPin"] = false,
+	["WhichStyle"] = "tompoints",
 	["ShareAsPin"] = true,
 	["ActivateMapPin"] = true,
-	["ReplaceBlizzardLinks"] = false,
 	["LinkColor"] = "149bfd",
-	["WhichStyle"] = "tompoints",
+	["ReplaceBlizzardLinks"] = false,
+	["AlwaysCreateMapPin"] = false,
 }

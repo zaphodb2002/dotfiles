@@ -1,23 +1,12 @@
 
 AstralKeys = {
-	{
-		["source"] = "guild",
-		["weekly_best"] = 0,
-		["class"] = "DRUID",
-		["key_level"] = 3,
-		["unit"] = "Morgntreeman-Dalaran",
-		["dungeon_id"] = 199,
-		["week"] = 338,
-		["faction"] = 0,
-		["time_stamp"] = 392831,
-	}, -- [1]
 }
 AstralCharacters = {
 	{
 		["weekly_best"] = 0,
 		["class"] = "DRUID",
-		["unit"] = "Morgntreeman-Dalaran",
 		["faction"] = 0,
+		["unit"] = "Morgntreeman-Dalaran",
 	}, -- [1]
 }
 AstralKeysSettings = {
@@ -26,7 +15,7 @@ AstralKeysSettings = {
 		["show_minimap_button"] = {
 			["isEnabled"] = true,
 		},
-		["init_time"] = 1705417200,
+		["init_time"] = 1706022000,
 		["expanded_tooltip"] = {
 			["isEnabled"] = true,
 		},
@@ -34,8 +23,8 @@ AstralKeysSettings = {
 			["party"] = true,
 			["guild"] = false,
 			["raid"] = false,
-			["all_characters"] = false,
 			["no_key"] = false,
+			["all_characters"] = false,
 		},
 		["show_tooltip_key"] = {
 			["isEnabled"] = true,
@@ -60,9 +49,7 @@ AstralKeysSettings = {
 			true, -- [9]
 			true, -- [10]
 		},
-		["show_offline"] = {
-			["isEnabled"] = true,
-		},
+		["current_list"] = "GUILD",
 		["isCollapsed"] = {
 			["isEnabled"] = false,
 		},
@@ -71,8 +58,11 @@ AstralKeysSettings = {
 			["isEnabled"] = false,
 		},
 		["sorth_method"] = "character_name",
-		["current_list"] = "GUILD",
+		["show_offline"] = {
+			["isEnabled"] = true,
+		},
 	},
+	["new_settings_config"] = true,
 	["friendOptions"] = {
 		["friend_sync"] = {
 			["isEnabled"] = true,
@@ -81,7 +71,6 @@ AstralKeysSettings = {
 			["isEnabled"] = true,
 		},
 	},
-	["new_settings_config"] = true,
 }
 AstralMinimap = {
 	["profileKeys"] = {
@@ -89,16 +78,16 @@ AstralMinimap = {
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
+		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
 		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
 		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
-		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
-		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
 	},
 	["profiles"] = {
@@ -110,25 +99,25 @@ AstralMinimap = {
 		},
 		["Morgntreeman - Dalaran"] = {
 		},
-		["Deeohteez - Dalaran"] = {
+		["Pontiffikate - Dalaran"] = {
 		},
 		["Attacknknees - Dalaran"] = {
 		},
 		["Bretanomyces - Stormreaver"] = {
 		},
-		["Ruderalis - Stormreaver"] = {
+		["Feloril - Stormreaver"] = {
 		},
-		["Jenleeviyah - Dalaran"] = {
+		["Deeohteez - Dalaran"] = {
 		},
 		["Petitmort - Dalaran"] = {
 		},
 		["Dumpiss - Stormreaver"] = {
 		},
-		["Feloril - Stormreaver"] = {
+		["Ruderalis - Stormreaver"] = {
 		},
 		["Jaalohwa - Stormreaver"] = {
 		},
-		["Pontiffikate - Dalaran"] = {
+		["Jenleeviyah - Dalaran"] = {
 		},
 		["Icanglidewee - Dalaran"] = {
 		},

@@ -1,4 +1,11 @@
 Version: 1
+Frame: scanner_button
+FrameLevel: 200
+Anchor: LEFT
+X: 16
+Y: -193
+W: 200
+H: 50
 Frame: GroupLootHistoryFrame
 FrameLevel: 1
 Anchor: LEFT
@@ -62,10 +69,3 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: scanner_button
-FrameLevel: 200
-Anchor: LEFT
-X: 59
-Y: -52
-W: 200
-H: 50

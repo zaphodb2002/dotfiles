@@ -1,4 +1,4 @@
-SET cameraDistanceMaxZoomFactor "2"
+SET cameraDistanceMaxZoomFactor "1.3333333333333"
 SET spellActivationOverlayOpacity "0.5"
 SET cameraZoomSpeed "20"
 SET toyBoxExpansionFilters ""

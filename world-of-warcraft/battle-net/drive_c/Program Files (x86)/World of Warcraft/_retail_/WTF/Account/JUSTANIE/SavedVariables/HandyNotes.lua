@@ -4,19 +4,19 @@ HandyNotesDB = {
 		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
-		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
 		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
-		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
 		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
-		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
-		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
 	},
 	["profiles"] = {
 		["Pangdai - Dalaran"] = {
@@ -25,17 +25,17 @@ HandyNotesDB = {
 		},
 		["Arila - Stormreaver"] = {
 		},
-		["Icanglidewee - Dalaran"] = {
+		["Hyaae - Dalaran"] = {
 		},
-		["Attacknknees - Dalaran"] = {
+		["Bretanomyces - Stormreaver"] = {
 		},
 		["Jenleeviyah - Dalaran"] = {
 		},
-		["Ruderalis - Stormreaver"] = {
+		["Feloril - Stormreaver"] = {
 		},
 		["Pontiffikate - Dalaran"] = {
 		},
-		["Morgntreeman - Dalaran"] = {
+		["Attacknknees - Dalaran"] = {
 		},
 		["Deeohteez - Dalaran"] = {
 		},
@@ -43,13 +43,13 @@ HandyNotesDB = {
 		},
 		["Dumpiss - Stormreaver"] = {
 		},
-		["Feloril - Stormreaver"] = {
+		["Ruderalis - Stormreaver"] = {
 		},
 		["Jaalohwa - Stormreaver"] = {
 		},
-		["Bretanomyces - Stormreaver"] = {
+		["Morgntreeman - Dalaran"] = {
 		},
-		["Hyaae - Dalaran"] = {
+		["Icanglidewee - Dalaran"] = {
 		},
 	},
 }
@@ -58,19 +58,19 @@ HandyNotes_HandyNotesDB = {
 		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
-		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
 		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
-		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
 		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
-		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
-		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
 	},
 	["profiles"] = {
 		["Pangdai - Dalaran"] = {
@@ -79,17 +79,17 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Arila - Stormreaver"] = {
 		},
-		["Icanglidewee - Dalaran"] = {
+		["Hyaae - Dalaran"] = {
 		},
-		["Attacknknees - Dalaran"] = {
+		["Bretanomyces - Stormreaver"] = {
 		},
 		["Jenleeviyah - Dalaran"] = {
 		},
-		["Ruderalis - Stormreaver"] = {
+		["Feloril - Stormreaver"] = {
 		},
 		["Pontiffikate - Dalaran"] = {
 		},
-		["Morgntreeman - Dalaran"] = {
+		["Attacknknees - Dalaran"] = {
 		},
 		["Deeohteez - Dalaran"] = {
 		},
@@ -97,13 +97,13 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Dumpiss - Stormreaver"] = {
 		},
-		["Feloril - Stormreaver"] = {
+		["Ruderalis - Stormreaver"] = {
 		},
 		["Jaalohwa - Stormreaver"] = {
 		},
-		["Bretanomyces - Stormreaver"] = {
+		["Morgntreeman - Dalaran"] = {
 		},
-		["Hyaae - Dalaran"] = {
+		["Icanglidewee - Dalaran"] = {
 		},
 	},
 }

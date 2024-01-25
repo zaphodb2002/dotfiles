@@ -153,6 +153,33 @@ BetterWardrobe_SavedSetData = {
 				}, -- [1]
 			},
 			["Bretanomyces - Stormreaver"] = {
+				{
+					["outfitID"] = 0,
+					["sources"] = {
+						184320, -- [1]
+						0, -- [2]
+						4292, -- [3]
+						0, -- [4]
+						72700, -- [5]
+						21312, -- [6]
+						91104, -- [7]
+						58980, -- [8]
+						15306, -- [9]
+						146062, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						187751, -- [15]
+						76528, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["name"] = "Monk",
+					["icon"] = 4260822,
+					["index"] = 1,
+				}, -- [1]
 			},
 		},
 	},
@@ -256,6 +283,15 @@ BetterWardrobe_ListData = {
 			["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
 			["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 			["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		},
+		["char"] = {
+			["Bretanomyces - Stormreaver"] = {
+				["lastTransmogOutfitIDSpec"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+				},
+			},
 		},
 	},
 	["lastUpdte"] = 1,

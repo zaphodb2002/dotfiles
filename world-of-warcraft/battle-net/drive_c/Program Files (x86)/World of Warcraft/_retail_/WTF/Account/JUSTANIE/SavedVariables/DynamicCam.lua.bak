@@ -7,17 +7,17 @@ DynamicCamDB = {
 		["Bretanomyces - Stormreaver"] = "Default",
 		["Morgntreeman - Dalaran"] = "Default",
 		["Petitmort - Dalaran"] = "Default",
-		["Jenleeviyah - Dalaran"] = "Default",
+		["Attacknknees - Dalaran"] = "Default",
 		["Feloril - Stormreaver"] = "Default",
 		["Jaalohwa - Stormreaver"] = "Default",
 		["Ruderalis - Stormreaver"] = "Default",
-		["Attacknknees - Dalaran"] = "Default",
+		["Jenleeviyah - Dalaran"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["standardSettings"] = {
 				["cvars"] = {
-					["cameraDistanceMaxZoomFactor"] = 2,
+					["cameraDistanceMaxZoomFactor"] = 1.333333333333333,
 				},
 			},
 			["version"] = 3,
@@ -26,4 +26,5 @@ DynamicCamDB = {
 }
 minZoomValues = {
 	[234885] = 0.7913018465042114,
+	[1011653] = 0.8390088677406311,
 }

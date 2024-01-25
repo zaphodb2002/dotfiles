@@ -7,11 +7,11 @@ HandyNotesDraenorDB = {
 		["Bretanomyces - Stormreaver"] = "Default",
 		["Morgntreeman - Dalaran"] = "Default",
 		["Petitmort - Dalaran"] = "Default",
-		["Jenleeviyah - Dalaran"] = "Default",
+		["Attacknknees - Dalaran"] = "Default",
 		["Feloril - Stormreaver"] = "Default",
 		["Jaalohwa - Stormreaver"] = "Default",
 		["Ruderalis - Stormreaver"] = "Default",
-		["Attacknknees - Dalaran"] = "Default",
+		["Jenleeviyah - Dalaran"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

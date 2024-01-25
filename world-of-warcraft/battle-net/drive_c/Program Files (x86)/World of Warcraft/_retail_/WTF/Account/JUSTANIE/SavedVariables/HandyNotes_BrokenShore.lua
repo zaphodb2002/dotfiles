@@ -7,11 +7,11 @@ HandyNotes_BrokenShoreDB = {
 		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
 		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
 		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
 	},
 	["profiles"] = {
 		["Pangdai - Dalaran"] = {
@@ -26,7 +26,7 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Petitmort - Dalaran"] = {
 		},
-		["Attacknknees - Dalaran"] = {
+		["Jenleeviyah - Dalaran"] = {
 		},
 		["Feloril - Stormreaver"] = {
 		},
@@ -34,7 +34,7 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Ruderalis - Stormreaver"] = {
 		},
-		["Jenleeviyah - Dalaran"] = {
+		["Attacknknees - Dalaran"] = {
 		},
 	},
 }

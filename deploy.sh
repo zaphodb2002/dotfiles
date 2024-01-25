@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo pacman -S --needed base-devel git
+sudo pacman -S --needed base-devel git rustup
 if [ "$(which paru)" = "/usr/bin/paru" ]; 
 then
 	echo "Paru already installed" 

@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0807,
+	["LastVersion"] = 2.0808,
 	["LastPlayerFullName"] = "Morgntreeman-Dalaran",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -58,9 +58,9 @@ PawnOptions = {
 		}, -- [11]
 		{
 			["ID"] = 207159,
-			["Level"] = 463,
+			["Level"] = 467,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:207159:6566:::::::70:103::3:6:6652:9599:7979:9563:1494:8767:1:28:2474:::::|h[Band of Burning Thorns]|h|r",
+			["Link"] = "|cffa335ee|Hitem:207159:6566:::::::70:103::3:6:6652:9599:7979:9564:1498:8767:1:28:2474:::::|h[Band of Burning Thorns]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 207165,

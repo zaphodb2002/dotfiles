@@ -30,7 +30,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Icanglidewee - Dalaran"] = {
+				["Hyaae - Dalaran"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -39,14 +39,14 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Morgntreeman - Dalaran"] = {
+				["Pontiffikate - Dalaran"] = {
 					["enabled"] = true,
-					["position"] = {
-						["y"] = -198.2218627929688,
-						["x"] = 13.08868408203125,
-						["point"] = "TOP",
-					},
 					["version"] = 3,
+					["position"] = {
+						["y"] = 29,
+						["x"] = -289.5,
+						["point"] = "BOTTOM",
+					},
 				},
 				["Attacknknees - Dalaran"] = {
 					["enabled"] = true,
@@ -57,7 +57,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Ruderalis - Stormreaver"] = {
+				["Feloril - Stormreaver"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -75,14 +75,14 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Deeohteez - Dalaran"] = {
+				["Morgntreeman - Dalaran"] = {
 					["enabled"] = true,
-					["version"] = 3,
 					["position"] = {
-						["y"] = 29,
-						["x"] = -289.5,
-						["point"] = "BOTTOM",
+						["y"] = -198.2218627929688,
+						["x"] = 13.08868408203125,
+						["point"] = "TOP",
 					},
+					["version"] = 3,
 				},
 				["Jenleeviyah - Dalaran"] = {
 					["enabled"] = true,
@@ -111,7 +111,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Feloril - Stormreaver"] = {
+				["Ruderalis - Stormreaver"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -129,7 +129,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Pontiffikate - Dalaran"] = {
+				["Deeohteez - Dalaran"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -138,7 +138,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Hyaae - Dalaran"] = {
+				["Icanglidewee - Dalaran"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -172,20 +172,19 @@ Bartender4DB = {
 						["x"] = -271,
 					},
 				},
-				["Icanglidewee - Dalaran"] = {
+				["Hyaae - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 40.5,
 						["x"] = -271,
 					},
 				},
-				["Morgntreeman - Dalaran"] = {
-					["position"] = {
-						["y"] = 115.2606430053711,
-						["x"] = 434.3276977539063,
-						["point"] = "BOTTOMLEFT",
-					},
+				["Pontiffikate - Dalaran"] = {
 					["version"] = 3,
+					["position"] = {
+						["y"] = 40.5,
+						["x"] = -271,
+					},
 				},
 				["Attacknknees - Dalaran"] = {
 					["version"] = 3,
@@ -194,7 +193,7 @@ Bartender4DB = {
 						["x"] = -271,
 					},
 				},
-				["Ruderalis - Stormreaver"] = {
+				["Feloril - Stormreaver"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 40.5,
@@ -208,12 +207,13 @@ Bartender4DB = {
 						["x"] = -271,
 					},
 				},
-				["Deeohteez - Dalaran"] = {
-					["version"] = 3,
+				["Morgntreeman - Dalaran"] = {
 					["position"] = {
-						["y"] = 40.5,
-						["x"] = -271,
+						["y"] = 115.2606430053711,
+						["x"] = 434.3276977539063,
+						["point"] = "BOTTOMLEFT",
 					},
+					["version"] = 3,
 				},
 				["Jenleeviyah - Dalaran"] = {
 					["version"] = 3,
@@ -236,7 +236,7 @@ Bartender4DB = {
 						["x"] = -271,
 					},
 				},
-				["Feloril - Stormreaver"] = {
+				["Ruderalis - Stormreaver"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 40.5,
@@ -250,14 +250,14 @@ Bartender4DB = {
 						["x"] = -271,
 					},
 				},
-				["Pontiffikate - Dalaran"] = {
+				["Deeohteez - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 40.5,
 						["x"] = -271,
 					},
 				},
-				["Hyaae - Dalaran"] = {
+				["Icanglidewee - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 40.5,
@@ -271,19 +271,19 @@ Bartender4DB = {
 				["Pangdai - Dalaran"] = {
 					["actionbars"] = {
 						{
+							["showgrid"] = true,
+							["version"] = 3,
+							["WoW10Layout"] = true,
 							["position"] = {
 								["y"] = 82,
 								["x"] = -285,
 								["point"] = "BOTTOM",
 							},
-							["WoW10Layout"] = true,
-							["version"] = 3,
-							["showgrid"] = true,
 						}, -- [1]
 						{
 							["enabled"] = false,
-							["WoW10Layout"] = true,
 							["version"] = 3,
+							["WoW10Layout"] = true,
 							["position"] = {
 								["y"] = -223.9998168945313,
 								["x"] = -284.5,
@@ -314,8 +314,8 @@ Bartender4DB = {
 						}, -- [4]
 						{
 							["enabled"] = false,
-							["WoW10Layout"] = true,
 							["version"] = 3,
+							["WoW10Layout"] = true,
 							["position"] = {
 								["y"] = 184,
 								["x"] = -285,
@@ -323,8 +323,8 @@ Bartender4DB = {
 							},
 						}, -- [5]
 						{
-							["WoW10Layout"] = true,
 							["version"] = 3,
+							["WoW10Layout"] = true,
 							["position"] = {
 								["y"] = 133,
 								["x"] = -285,
@@ -357,19 +357,19 @@ Bartender4DB = {
 				["Deeohteez - Stormreaver"] = {
 					["actionbars"] = {
 						{
+							["showgrid"] = true,
+							["WoW10Layout"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 82,
 								["x"] = -285,
 								["point"] = "BOTTOM",
 							},
-							["version"] = 3,
-							["WoW10Layout"] = true,
-							["showgrid"] = true,
 						}, -- [1]
 						{
 							["enabled"] = false,
-							["version"] = 3,
 							["WoW10Layout"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = -223.9998168945313,
 								["x"] = -284.5,
@@ -400,8 +400,8 @@ Bartender4DB = {
 						}, -- [4]
 						{
 							["enabled"] = false,
-							["version"] = 3,
 							["WoW10Layout"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 184,
 								["x"] = -285,
@@ -409,8 +409,8 @@ Bartender4DB = {
 							},
 						}, -- [5]
 						{
-							["version"] = 3,
 							["WoW10Layout"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 133,
 								["x"] = -285,
@@ -443,6 +443,264 @@ Bartender4DB = {
 				["Arila - Stormreaver"] = {
 					["actionbars"] = {
 						{
+							["showgrid"] = true,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 82,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -223.9998168945313,
+								["x"] = -284.5,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["flyoutDirection"] = "LEFT",
+							["position"] = {
+								["y"] = 193,
+								["x"] = -54,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 12,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+						}, -- [3]
+						{
+							["flyoutDirection"] = "LEFT",
+							["position"] = {
+								["y"] = 193,
+								["x"] = -104,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 12,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+						}, -- [4]
+						{
+							["enabled"] = false,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 184,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["WoW10Layout"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 133,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["WoW10Layout"] = true,
+						}, -- [7]
+						{
+							["WoW10Layout"] = true,
+						}, -- [8]
+						{
+							["WoW10Layout"] = true,
+						}, -- [9]
+						{
+							["WoW10Layout"] = true,
+						}, -- [10]
+						[14] = {
+							["WoW10Layout"] = true,
+						},
+						[13] = {
+							["WoW10Layout"] = true,
+						},
+						[15] = {
+							["WoW10Layout"] = true,
+						},
+					},
+				},
+				["Hyaae - Dalaran"] = {
+					["actionbars"] = {
+						{
+							["showgrid"] = true,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 82,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -223.9998168945313,
+								["x"] = -284.5,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["flyoutDirection"] = "LEFT",
+							["position"] = {
+								["y"] = 193,
+								["x"] = -54,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 12,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+						}, -- [3]
+						{
+							["flyoutDirection"] = "LEFT",
+							["position"] = {
+								["y"] = 193,
+								["x"] = -104,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 12,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+						}, -- [4]
+						{
+							["enabled"] = false,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 184,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["WoW10Layout"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 133,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["WoW10Layout"] = true,
+						}, -- [7]
+						{
+							["WoW10Layout"] = true,
+						}, -- [8]
+						{
+							["WoW10Layout"] = true,
+						}, -- [9]
+						{
+							["WoW10Layout"] = true,
+						}, -- [10]
+						[14] = {
+							["WoW10Layout"] = true,
+						},
+						[13] = {
+							["WoW10Layout"] = true,
+						},
+						[15] = {
+							["WoW10Layout"] = true,
+						},
+					},
+				},
+				["Pontiffikate - Dalaran"] = {
+					["actionbars"] = {
+						{
+							["showgrid"] = true,
+							["version"] = 3,
+							["WoW10Layout"] = true,
+							["position"] = {
+								["y"] = 82,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["WoW10Layout"] = true,
+							["position"] = {
+								["y"] = -223.9998168945313,
+								["x"] = -284.5,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["flyoutDirection"] = "LEFT",
+							["position"] = {
+								["y"] = 193,
+								["x"] = -54,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 12,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+						}, -- [3]
+						{
+							["flyoutDirection"] = "LEFT",
+							["position"] = {
+								["y"] = 193,
+								["x"] = -104,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 12,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+						}, -- [4]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["WoW10Layout"] = true,
+							["position"] = {
+								["y"] = 184,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["WoW10Layout"] = true,
+							["position"] = {
+								["y"] = 133,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["WoW10Layout"] = true,
+						}, -- [7]
+						{
+							["WoW10Layout"] = true,
+						}, -- [8]
+						{
+							["WoW10Layout"] = true,
+						}, -- [9]
+						{
+							["WoW10Layout"] = true,
+						}, -- [10]
+						[14] = {
+							["WoW10Layout"] = true,
+						},
+						[13] = {
+							["WoW10Layout"] = true,
+						},
+						[15] = {
+							["WoW10Layout"] = true,
+						},
+					},
+				},
+				["Attacknknees - Dalaran"] = {
+					["actionbars"] = {
+						{
 							["position"] = {
 								["y"] = 82,
 								["x"] = -285,
@@ -526,7 +784,7 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Icanglidewee - Dalaran"] = {
+				["Feloril - Stormreaver"] = {
 					["actionbars"] = {
 						{
 							["showgrid"] = true,
@@ -583,6 +841,92 @@ Bartender4DB = {
 						{
 							["WoW10Layout"] = true,
 							["version"] = 3,
+							["position"] = {
+								["y"] = 133,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["WoW10Layout"] = true,
+						}, -- [7]
+						{
+							["WoW10Layout"] = true,
+						}, -- [8]
+						{
+							["WoW10Layout"] = true,
+						}, -- [9]
+						{
+							["WoW10Layout"] = true,
+						}, -- [10]
+						[14] = {
+							["WoW10Layout"] = true,
+						},
+						[13] = {
+							["WoW10Layout"] = true,
+						},
+						[15] = {
+							["WoW10Layout"] = true,
+						},
+					},
+				},
+				["Bretanomyces - Stormreaver"] = {
+					["actionbars"] = {
+						{
+							["showgrid"] = true,
+							["version"] = 3,
+							["WoW10Layout"] = true,
+							["position"] = {
+								["y"] = 82,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["WoW10Layout"] = true,
+							["position"] = {
+								["y"] = -223.9998168945313,
+								["x"] = -284.5,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["flyoutDirection"] = "LEFT",
+							["position"] = {
+								["y"] = 193,
+								["x"] = -54,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 12,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+						}, -- [3]
+						{
+							["flyoutDirection"] = "LEFT",
+							["position"] = {
+								["y"] = 193,
+								["x"] = -104,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 12,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+						}, -- [4]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["WoW10Layout"] = true,
+							["position"] = {
+								["y"] = 184,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["WoW10Layout"] = true,
 							["position"] = {
 								["y"] = 133,
 								["x"] = -285,
@@ -626,16 +970,16 @@ Bartender4DB = {
 								["scale"] = 0.8,
 								["growVertical"] = "UP",
 							},
+							["WoW10Layout"] = true,
 							["visibility"] = {
 								["always"] = true,
 								["nocombat"] = false,
 							},
-							["WoW10Layout"] = true,
 							["states"] = {
 								["stance"] = {
 									["DRUID"] = {
-										["prowl"] = 13,
 										["moonkin"] = 14,
+										["prowl"] = 13,
 										["cat"] = 9,
 										["bear"] = 7,
 									},
@@ -678,7 +1022,9 @@ Bartender4DB = {
 						}, -- [4]
 						{
 							["rows"] = 2,
-							["WoW10Layout"] = true,
+							["visibility"] = {
+								["nocombat"] = false,
+							},
 							["buttons"] = 10,
 							["version"] = 3,
 							["position"] = {
@@ -688,9 +1034,7 @@ Bartender4DB = {
 								["scale"] = 0.800000011920929,
 								["x"] = 254.7887489138357,
 							},
-							["visibility"] = {
-								["nocombat"] = false,
-							},
+							["WoW10Layout"] = true,
 						}, -- [5]
 						{
 							["rows"] = 2,
@@ -703,11 +1047,11 @@ Bartender4DB = {
 								["scale"] = 0.8,
 								["growVertical"] = "UP",
 							},
+							["WoW10Layout"] = true,
 							["visibility"] = {
 								["always"] = true,
 								["nocombat"] = false,
 							},
-							["WoW10Layout"] = true,
 							["states"] = {
 								["enabled"] = true,
 								["customEnabled"] = false,
@@ -762,7 +1106,7 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Attacknknees - Dalaran"] = {
+				["Jenleeviyah - Dalaran"] = {
 					["actionbars"] = {
 						{
 							["showgrid"] = true,
@@ -773,6 +1117,178 @@ Bartender4DB = {
 								["x"] = -285,
 								["point"] = "BOTTOM",
 							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -223.9998168945313,
+								["x"] = -284.5,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["flyoutDirection"] = "LEFT",
+							["position"] = {
+								["y"] = 193,
+								["x"] = -54,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 12,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+						}, -- [3]
+						{
+							["flyoutDirection"] = "LEFT",
+							["position"] = {
+								["y"] = 193,
+								["x"] = -104,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 12,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+						}, -- [4]
+						{
+							["enabled"] = false,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 184,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["WoW10Layout"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 133,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["WoW10Layout"] = true,
+						}, -- [7]
+						{
+							["WoW10Layout"] = true,
+						}, -- [8]
+						{
+							["WoW10Layout"] = true,
+						}, -- [9]
+						{
+							["WoW10Layout"] = true,
+						}, -- [10]
+						[14] = {
+							["WoW10Layout"] = true,
+						},
+						[13] = {
+							["WoW10Layout"] = true,
+						},
+						[15] = {
+							["WoW10Layout"] = true,
+						},
+					},
+				},
+				["Petitmort - Dalaran"] = {
+					["actionbars"] = {
+						{
+							["position"] = {
+								["y"] = 82,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+							["version"] = 3,
+							["WoW10Layout"] = true,
+							["showgrid"] = true,
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["WoW10Layout"] = true,
+							["position"] = {
+								["y"] = -223.9998168945313,
+								["x"] = -284.5,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["flyoutDirection"] = "LEFT",
+							["position"] = {
+								["y"] = 193,
+								["x"] = -54,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 12,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+						}, -- [3]
+						{
+							["flyoutDirection"] = "LEFT",
+							["position"] = {
+								["y"] = 193,
+								["x"] = -104,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 12,
+							["WoW10Layout"] = true,
+							["version"] = 3,
+						}, -- [4]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["WoW10Layout"] = true,
+							["position"] = {
+								["y"] = 184,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["WoW10Layout"] = true,
+							["position"] = {
+								["y"] = 133,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["WoW10Layout"] = true,
+						}, -- [7]
+						{
+							["WoW10Layout"] = true,
+						}, -- [8]
+						{
+							["WoW10Layout"] = true,
+						}, -- [9]
+						{
+							["WoW10Layout"] = true,
+						}, -- [10]
+						[14] = {
+							["WoW10Layout"] = true,
+						},
+						[13] = {
+							["WoW10Layout"] = true,
+						},
+						[15] = {
+							["WoW10Layout"] = true,
+						},
+					},
+				},
+				["Dumpiss - Stormreaver"] = {
+					["actionbars"] = {
+						{
+							["position"] = {
+								["y"] = 82,
+								["x"] = -285,
+								["point"] = "BOTTOM",
+							},
+							["WoW10Layout"] = true,
+							["version"] = 3,
+							["showgrid"] = true,
 						}, -- [1]
 						{
 							["enabled"] = false,
@@ -849,522 +1365,6 @@ Bartender4DB = {
 					},
 				},
 				["Ruderalis - Stormreaver"] = {
-					["actionbars"] = {
-						{
-							["showgrid"] = true,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 82,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -223.9998168945313,
-								["x"] = -284.5,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["flyoutDirection"] = "LEFT",
-							["position"] = {
-								["y"] = 193,
-								["x"] = -54,
-								["point"] = "RIGHT",
-							},
-							["rows"] = 12,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-						}, -- [3]
-						{
-							["flyoutDirection"] = "LEFT",
-							["position"] = {
-								["y"] = 193,
-								["x"] = -104,
-								["point"] = "RIGHT",
-							},
-							["rows"] = 12,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-						}, -- [4]
-						{
-							["enabled"] = false,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 184,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["WoW10Layout"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 133,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-							["WoW10Layout"] = true,
-						}, -- [7]
-						{
-							["WoW10Layout"] = true,
-						}, -- [8]
-						{
-							["WoW10Layout"] = true,
-						}, -- [9]
-						{
-							["WoW10Layout"] = true,
-						}, -- [10]
-						[14] = {
-							["WoW10Layout"] = true,
-						},
-						[13] = {
-							["WoW10Layout"] = true,
-						},
-						[15] = {
-							["WoW10Layout"] = true,
-						},
-					},
-				},
-				["Bretanomyces - Stormreaver"] = {
-					["actionbars"] = {
-						{
-							["position"] = {
-								["y"] = 82,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-							["WoW10Layout"] = true,
-							["version"] = 3,
-							["showgrid"] = true,
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -223.9998168945313,
-								["x"] = -284.5,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["flyoutDirection"] = "LEFT",
-							["position"] = {
-								["y"] = 193,
-								["x"] = -54,
-								["point"] = "RIGHT",
-							},
-							["rows"] = 12,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-						}, -- [3]
-						{
-							["flyoutDirection"] = "LEFT",
-							["position"] = {
-								["y"] = 193,
-								["x"] = -104,
-								["point"] = "RIGHT",
-							},
-							["rows"] = 12,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-						}, -- [4]
-						{
-							["enabled"] = false,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 184,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["WoW10Layout"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 133,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-							["WoW10Layout"] = true,
-						}, -- [7]
-						{
-							["WoW10Layout"] = true,
-						}, -- [8]
-						{
-							["WoW10Layout"] = true,
-						}, -- [9]
-						{
-							["WoW10Layout"] = true,
-						}, -- [10]
-						[14] = {
-							["WoW10Layout"] = true,
-						},
-						[13] = {
-							["WoW10Layout"] = true,
-						},
-						[15] = {
-							["WoW10Layout"] = true,
-						},
-					},
-				},
-				["Deeohteez - Dalaran"] = {
-					["actionbars"] = {
-						{
-							["position"] = {
-								["y"] = 82,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-							["version"] = 3,
-							["WoW10Layout"] = true,
-							["showgrid"] = true,
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["WoW10Layout"] = true,
-							["position"] = {
-								["y"] = -223.9998168945313,
-								["x"] = -284.5,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["flyoutDirection"] = "LEFT",
-							["position"] = {
-								["y"] = 193,
-								["x"] = -54,
-								["point"] = "RIGHT",
-							},
-							["rows"] = 12,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-						}, -- [3]
-						{
-							["flyoutDirection"] = "LEFT",
-							["position"] = {
-								["y"] = 193,
-								["x"] = -104,
-								["point"] = "RIGHT",
-							},
-							["rows"] = 12,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-						}, -- [4]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["WoW10Layout"] = true,
-							["position"] = {
-								["y"] = 184,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["version"] = 3,
-							["WoW10Layout"] = true,
-							["position"] = {
-								["y"] = 133,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-							["WoW10Layout"] = true,
-						}, -- [7]
-						{
-							["WoW10Layout"] = true,
-						}, -- [8]
-						{
-							["WoW10Layout"] = true,
-						}, -- [9]
-						{
-							["WoW10Layout"] = true,
-						}, -- [10]
-						[14] = {
-							["WoW10Layout"] = true,
-						},
-						[13] = {
-							["WoW10Layout"] = true,
-						},
-						[15] = {
-							["WoW10Layout"] = true,
-						},
-					},
-				},
-				["Jenleeviyah - Dalaran"] = {
-					["actionbars"] = {
-						{
-							["position"] = {
-								["y"] = 82,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-							["version"] = 3,
-							["WoW10Layout"] = true,
-							["showgrid"] = true,
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["WoW10Layout"] = true,
-							["position"] = {
-								["y"] = -223.9998168945313,
-								["x"] = -284.5,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["flyoutDirection"] = "LEFT",
-							["position"] = {
-								["y"] = 193,
-								["x"] = -54,
-								["point"] = "RIGHT",
-							},
-							["rows"] = 12,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-						}, -- [3]
-						{
-							["flyoutDirection"] = "LEFT",
-							["position"] = {
-								["y"] = 193,
-								["x"] = -104,
-								["point"] = "RIGHT",
-							},
-							["rows"] = 12,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-						}, -- [4]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["WoW10Layout"] = true,
-							["position"] = {
-								["y"] = 184,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["version"] = 3,
-							["WoW10Layout"] = true,
-							["position"] = {
-								["y"] = 133,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-							["WoW10Layout"] = true,
-						}, -- [7]
-						{
-							["WoW10Layout"] = true,
-						}, -- [8]
-						{
-							["WoW10Layout"] = true,
-						}, -- [9]
-						{
-							["WoW10Layout"] = true,
-						}, -- [10]
-						[14] = {
-							["WoW10Layout"] = true,
-						},
-						[13] = {
-							["WoW10Layout"] = true,
-						},
-						[15] = {
-							["WoW10Layout"] = true,
-						},
-					},
-				},
-				["Petitmort - Dalaran"] = {
-					["actionbars"] = {
-						{
-							["showgrid"] = true,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 82,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -223.9998168945313,
-								["x"] = -284.5,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["flyoutDirection"] = "LEFT",
-							["position"] = {
-								["y"] = 193,
-								["x"] = -54,
-								["point"] = "RIGHT",
-							},
-							["rows"] = 12,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-						}, -- [3]
-						{
-							["flyoutDirection"] = "LEFT",
-							["position"] = {
-								["y"] = 193,
-								["x"] = -104,
-								["point"] = "RIGHT",
-							},
-							["rows"] = 12,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-						}, -- [4]
-						{
-							["enabled"] = false,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 184,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["WoW10Layout"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 133,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-							["WoW10Layout"] = true,
-						}, -- [7]
-						{
-							["WoW10Layout"] = true,
-						}, -- [8]
-						{
-							["WoW10Layout"] = true,
-						}, -- [9]
-						{
-							["WoW10Layout"] = true,
-						}, -- [10]
-						[14] = {
-							["WoW10Layout"] = true,
-						},
-						[13] = {
-							["WoW10Layout"] = true,
-						},
-						[15] = {
-							["WoW10Layout"] = true,
-						},
-					},
-				},
-				["Dumpiss - Stormreaver"] = {
-					["actionbars"] = {
-						{
-							["showgrid"] = true,
-							["version"] = 3,
-							["WoW10Layout"] = true,
-							["position"] = {
-								["y"] = 82,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["WoW10Layout"] = true,
-							["position"] = {
-								["y"] = -223.9998168945313,
-								["x"] = -284.5,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["flyoutDirection"] = "LEFT",
-							["position"] = {
-								["y"] = 193,
-								["x"] = -54,
-								["point"] = "RIGHT",
-							},
-							["rows"] = 12,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-						}, -- [3]
-						{
-							["flyoutDirection"] = "LEFT",
-							["position"] = {
-								["y"] = 193,
-								["x"] = -104,
-								["point"] = "RIGHT",
-							},
-							["rows"] = 12,
-							["WoW10Layout"] = true,
-							["version"] = 3,
-						}, -- [4]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["WoW10Layout"] = true,
-							["position"] = {
-								["y"] = 184,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["version"] = 3,
-							["WoW10Layout"] = true,
-							["position"] = {
-								["y"] = 133,
-								["x"] = -285,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-							["WoW10Layout"] = true,
-						}, -- [7]
-						{
-							["WoW10Layout"] = true,
-						}, -- [8]
-						{
-							["WoW10Layout"] = true,
-						}, -- [9]
-						{
-							["WoW10Layout"] = true,
-						}, -- [10]
-						[14] = {
-							["WoW10Layout"] = true,
-						},
-						[13] = {
-							["WoW10Layout"] = true,
-						},
-						[15] = {
-							["WoW10Layout"] = true,
-						},
-					},
-				},
-				["Feloril - Stormreaver"] = {
 					["actionbars"] = {
 						{
 							["position"] = {
@@ -1453,19 +1453,19 @@ Bartender4DB = {
 				["Jaalohwa - Stormreaver"] = {
 					["actionbars"] = {
 						{
+							["showgrid"] = true,
+							["version"] = 3,
+							["WoW10Layout"] = true,
 							["position"] = {
 								["y"] = 82,
 								["x"] = -285,
 								["point"] = "BOTTOM",
 							},
-							["WoW10Layout"] = true,
-							["version"] = 3,
-							["showgrid"] = true,
 						}, -- [1]
 						{
 							["enabled"] = false,
-							["WoW10Layout"] = true,
 							["version"] = 3,
+							["WoW10Layout"] = true,
 							["position"] = {
 								["y"] = -223.9998168945313,
 								["x"] = -284.5,
@@ -1496,8 +1496,8 @@ Bartender4DB = {
 						}, -- [4]
 						{
 							["enabled"] = false,
-							["WoW10Layout"] = true,
 							["version"] = 3,
+							["WoW10Layout"] = true,
 							["position"] = {
 								["y"] = 184,
 								["x"] = -285,
@@ -1505,8 +1505,8 @@ Bartender4DB = {
 							},
 						}, -- [5]
 						{
-							["WoW10Layout"] = true,
 							["version"] = 3,
+							["WoW10Layout"] = true,
 							["position"] = {
 								["y"] = 133,
 								["x"] = -285,
@@ -1536,17 +1536,17 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Pontiffikate - Dalaran"] = {
+				["Deeohteez - Dalaran"] = {
 					["actionbars"] = {
 						{
+							["showgrid"] = true,
+							["WoW10Layout"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 82,
 								["x"] = -285,
 								["point"] = "BOTTOM",
 							},
-							["WoW10Layout"] = true,
-							["version"] = 3,
-							["showgrid"] = true,
 						}, -- [1]
 						{
 							["enabled"] = false,
@@ -1622,7 +1622,7 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Hyaae - Dalaran"] = {
+				["Icanglidewee - Dalaran"] = {
 					["actionbars"] = {
 						{
 							["position"] = {
@@ -1738,7 +1738,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Icanglidewee - Dalaran"] = {
+				["Hyaae - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -252.4999389648438,
@@ -1746,13 +1746,13 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Morgntreeman - Dalaran"] = {
+				["Pontiffikate - Dalaran"] = {
+					["version"] = 3,
 					["position"] = {
-						["y"] = -98.35671997070312,
+						["y"] = -252.4999389648438,
 						["x"] = -63.50006103515625,
 						["point"] = "CENTER",
 					},
-					["version"] = 3,
 				},
 				["Attacknknees - Dalaran"] = {
 					["version"] = 3,
@@ -1762,7 +1762,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Ruderalis - Stormreaver"] = {
+				["Feloril - Stormreaver"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -252.4999389648438,
@@ -1778,13 +1778,13 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Deeohteez - Dalaran"] = {
-					["version"] = 3,
+				["Morgntreeman - Dalaran"] = {
 					["position"] = {
-						["y"] = -252.4999389648438,
+						["y"] = -98.35671997070312,
 						["x"] = -63.50006103515625,
 						["point"] = "CENTER",
 					},
+					["version"] = 3,
 				},
 				["Jenleeviyah - Dalaran"] = {
 					["version"] = 3,
@@ -1810,7 +1810,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Feloril - Stormreaver"] = {
+				["Ruderalis - Stormreaver"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -252.4999389648438,
@@ -1826,7 +1826,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Pontiffikate - Dalaran"] = {
+				["Deeohteez - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -252.4999389648438,
@@ -1834,7 +1834,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Hyaae - Dalaran"] = {
+				["Icanglidewee - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -252.4999389648438,
@@ -1870,7 +1870,7 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Icanglidewee - Dalaran"] = {
+				["Hyaae - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 34,
@@ -1878,14 +1878,13 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Morgntreeman - Dalaran"] = {
-					["enabled"] = false,
+				["Pontiffikate - Dalaran"] = {
+					["version"] = 3,
 					["position"] = {
 						["y"] = 34,
 						["x"] = -229,
 						["point"] = "BOTTOMRIGHT",
 					},
-					["version"] = 3,
 				},
 				["Attacknknees - Dalaran"] = {
 					["version"] = 3,
@@ -1895,7 +1894,7 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Ruderalis - Stormreaver"] = {
+				["Feloril - Stormreaver"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 34,
@@ -1911,13 +1910,14 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Deeohteez - Dalaran"] = {
-					["version"] = 3,
+				["Morgntreeman - Dalaran"] = {
+					["enabled"] = false,
 					["position"] = {
 						["y"] = 34,
 						["x"] = -229,
 						["point"] = "BOTTOMRIGHT",
 					},
+					["version"] = 3,
 				},
 				["Jenleeviyah - Dalaran"] = {
 					["version"] = 3,
@@ -1943,7 +1943,7 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Feloril - Stormreaver"] = {
+				["Ruderalis - Stormreaver"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 34,
@@ -1959,7 +1959,7 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Pontiffikate - Dalaran"] = {
+				["Deeohteez - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 34,
@@ -1967,7 +1967,7 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Hyaae - Dalaran"] = {
+				["Icanglidewee - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 34,
@@ -2003,7 +2003,39 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Icanglidewee - Dalaran"] = {
+				["Hyaae - Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 74,
+						["x"] = -212,
+						["point"] = "BOTTOMRIGHT",
+					},
+				},
+				["Pontiffikate - Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 74,
+						["x"] = -212,
+						["point"] = "BOTTOMRIGHT",
+					},
+				},
+				["Attacknknees - Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 74,
+						["x"] = -212,
+						["point"] = "BOTTOMRIGHT",
+					},
+				},
+				["Feloril - Stormreaver"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 74,
+						["x"] = -212,
+						["point"] = "BOTTOMRIGHT",
+					},
+				},
+				["Bretanomyces - Stormreaver"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 74,
@@ -2020,38 +2052,6 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Attacknknees - Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 74,
-						["x"] = -212,
-						["point"] = "BOTTOMRIGHT",
-					},
-				},
-				["Ruderalis - Stormreaver"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 74,
-						["x"] = -212,
-						["point"] = "BOTTOMRIGHT",
-					},
-				},
-				["Bretanomyces - Stormreaver"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 74,
-						["x"] = -212,
-						["point"] = "BOTTOMRIGHT",
-					},
-				},
-				["Deeohteez - Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 74,
-						["x"] = -212,
-						["point"] = "BOTTOMRIGHT",
-					},
-				},
 				["Jenleeviyah - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2076,7 +2076,7 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Feloril - Stormreaver"] = {
+				["Ruderalis - Stormreaver"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 74,
@@ -2092,7 +2092,7 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Pontiffikate - Dalaran"] = {
+				["Deeohteez - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 74,
@@ -2100,7 +2100,7 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Hyaae - Dalaran"] = {
+				["Icanglidewee - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 74,
@@ -2114,25 +2114,55 @@ Bartender4DB = {
 			["profiles"] = {
 				["Pangdai - Dalaran"] = {
 					["enabled"] = true,
+					["artLayout"] = "MODERN",
+					["version"] = 3,
 					["position"] = {
 						["y"] = 87,
 						["x"] = -288.5,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
-					["artLayout"] = "MODERN",
 				},
 				["Deeohteez - Stormreaver"] = {
 					["enabled"] = true,
+					["artLayout"] = "MODERN",
+					["version"] = 3,
 					["position"] = {
 						["y"] = 87,
 						["x"] = -288.5,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
-					["artLayout"] = "MODERN",
 				},
 				["Arila - Stormreaver"] = {
+					["enabled"] = true,
+					["artLayout"] = "MODERN",
+					["version"] = 3,
+					["position"] = {
+						["y"] = 87,
+						["x"] = -288.5,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Hyaae - Dalaran"] = {
+					["enabled"] = true,
+					["artLayout"] = "MODERN",
+					["version"] = 3,
+					["position"] = {
+						["y"] = 87,
+						["x"] = -288.5,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Pontiffikate - Dalaran"] = {
+					["enabled"] = true,
+					["artLayout"] = "MODERN",
+					["version"] = 3,
+					["position"] = {
+						["y"] = 87,
+						["x"] = -288.5,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Attacknknees - Dalaran"] = {
 					["enabled"] = true,
 					["position"] = {
 						["y"] = 87,
@@ -2142,7 +2172,17 @@ Bartender4DB = {
 					["version"] = 3,
 					["artLayout"] = "MODERN",
 				},
-				["Icanglidewee - Dalaran"] = {
+				["Feloril - Stormreaver"] = {
+					["enabled"] = true,
+					["artLayout"] = "MODERN",
+					["version"] = 3,
+					["position"] = {
+						["y"] = 87,
+						["x"] = -288.5,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Bretanomyces - Stormreaver"] = {
 					["enabled"] = true,
 					["artLayout"] = "MODERN",
 					["version"] = 3,
@@ -2161,77 +2201,37 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
-				["Attacknknees - Dalaran"] = {
-					["enabled"] = true,
-					["artLayout"] = "MODERN",
-					["version"] = 3,
-					["position"] = {
-						["y"] = 87,
-						["x"] = -288.5,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Ruderalis - Stormreaver"] = {
-					["enabled"] = true,
-					["artLayout"] = "MODERN",
-					["version"] = 3,
-					["position"] = {
-						["y"] = 87,
-						["x"] = -288.5,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Bretanomyces - Stormreaver"] = {
-					["enabled"] = true,
-					["position"] = {
-						["y"] = 87,
-						["x"] = -288.5,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-					["artLayout"] = "MODERN",
-				},
-				["Deeohteez - Dalaran"] = {
-					["enabled"] = true,
-					["position"] = {
-						["y"] = 87,
-						["x"] = -288.5,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-					["artLayout"] = "MODERN",
-				},
 				["Jenleeviyah - Dalaran"] = {
 					["enabled"] = true,
+					["artLayout"] = "MODERN",
+					["version"] = 3,
 					["position"] = {
 						["y"] = 87,
 						["x"] = -288.5,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
-					["artLayout"] = "MODERN",
 				},
 				["Petitmort - Dalaran"] = {
 					["enabled"] = true,
-					["artLayout"] = "MODERN",
-					["version"] = 3,
 					["position"] = {
 						["y"] = 87,
 						["x"] = -288.5,
 						["point"] = "BOTTOM",
 					},
+					["version"] = 3,
+					["artLayout"] = "MODERN",
 				},
 				["Dumpiss - Stormreaver"] = {
 					["enabled"] = true,
-					["artLayout"] = "MODERN",
-					["version"] = 3,
 					["position"] = {
 						["y"] = 87,
 						["x"] = -288.5,
 						["point"] = "BOTTOM",
 					},
+					["version"] = 3,
+					["artLayout"] = "MODERN",
 				},
-				["Feloril - Stormreaver"] = {
+				["Ruderalis - Stormreaver"] = {
 					["enabled"] = true,
 					["position"] = {
 						["y"] = 87,
@@ -2243,25 +2243,25 @@ Bartender4DB = {
 				},
 				["Jaalohwa - Stormreaver"] = {
 					["enabled"] = true,
+					["artLayout"] = "MODERN",
+					["version"] = 3,
 					["position"] = {
 						["y"] = 87,
 						["x"] = -288.5,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
-					["artLayout"] = "MODERN",
 				},
-				["Pontiffikate - Dalaran"] = {
+				["Deeohteez - Dalaran"] = {
 					["enabled"] = true,
+					["artLayout"] = "MODERN",
+					["version"] = 3,
 					["position"] = {
 						["y"] = 87,
 						["x"] = -288.5,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
-					["artLayout"] = "MODERN",
 				},
-				["Hyaae - Dalaran"] = {
+				["Icanglidewee - Dalaran"] = {
 					["enabled"] = true,
 					["position"] = {
 						["y"] = 87,
@@ -2300,7 +2300,43 @@ Bartender4DB = {
 						["y"] = 168,
 					},
 				},
-				["Icanglidewee - Dalaran"] = {
+				["Hyaae - Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = -285,
+						["point"] = "BOTTOM",
+						["y"] = 168,
+					},
+				},
+				["Pontiffikate - Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 168,
+						["x"] = -285,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+				},
+				["Attacknknees - Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = -285,
+						["point"] = "BOTTOM",
+						["y"] = 168,
+					},
+				},
+				["Feloril - Stormreaver"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = -285,
+						["point"] = "BOTTOM",
+						["y"] = 168,
+					},
+				},
+				["Bretanomyces - Stormreaver"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.99996185302734,
@@ -2319,40 +2355,6 @@ Bartender4DB = {
 					},
 					["visibility"] = {
 						["nocombat"] = true,
-					},
-				},
-				["Attacknknees - Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["scale"] = 1,
-						["x"] = -285,
-						["point"] = "BOTTOM",
-						["y"] = 168,
-					},
-				},
-				["Ruderalis - Stormreaver"] = {
-					["version"] = 3,
-					["position"] = {
-						["scale"] = 1,
-						["x"] = -285,
-						["point"] = "BOTTOM",
-						["y"] = 168,
-					},
-				},
-				["Bretanomyces - Stormreaver"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99996185302734,
-						["x"] = -82.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Deeohteez - Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99996185302734,
-						["x"] = -82.5,
-						["point"] = "CENTER",
 					},
 				},
 				["Jenleeviyah - Dalaran"] = {
@@ -2379,7 +2381,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Feloril - Stormreaver"] = {
+				["Ruderalis - Stormreaver"] = {
 					["version"] = 3,
 					["position"] = {
 						["scale"] = 1,
@@ -2396,22 +2398,20 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Pontiffikate - Dalaran"] = {
+				["Deeohteez - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 168,
-						["x"] = -285,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
+						["y"] = -14.99996185302734,
+						["x"] = -82.5,
+						["point"] = "CENTER",
 					},
 				},
-				["Hyaae - Dalaran"] = {
+				["Icanglidewee - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 1,
-						["x"] = -285,
-						["point"] = "BOTTOM",
-						["y"] = 168,
+						["y"] = -14.99996185302734,
+						["x"] = -82.5,
+						["point"] = "CENTER",
 					},
 				},
 			},
@@ -2442,20 +2442,20 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Icanglidewee - Dalaran"] = {
+				["Hyaae - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 168,
-						["x"] = -285,
+						["x"] = -41,
 						["point"] = "BOTTOM",
 					},
 				},
-				["Morgntreeman - Dalaran"] = {
+				["Pontiffikate - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 263.1785583496094,
-						["x"] = -343.88525390625,
-						["point"] = "BOTTOMRIGHT",
+						["y"] = 168,
+						["x"] = -41,
+						["point"] = "BOTTOM",
 					},
 				},
 				["Attacknknees - Dalaran"] = {
@@ -2466,7 +2466,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Ruderalis - Stormreaver"] = {
+				["Feloril - Stormreaver"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 168,
@@ -2482,12 +2482,12 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Deeohteez - Dalaran"] = {
+				["Morgntreeman - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 168,
-						["x"] = -285,
-						["point"] = "BOTTOM",
+						["y"] = 263.1785583496094,
+						["x"] = -343.88525390625,
+						["point"] = "BOTTOMRIGHT",
 					},
 				},
 				["Jenleeviyah - Dalaran"] = {
@@ -2514,7 +2514,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Feloril - Stormreaver"] = {
+				["Ruderalis - Stormreaver"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 168,
@@ -2530,19 +2530,19 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Pontiffikate - Dalaran"] = {
+				["Deeohteez - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 168,
-						["x"] = -41,
+						["x"] = -285,
 						["point"] = "BOTTOM",
 					},
 				},
-				["Hyaae - Dalaran"] = {
+				["Icanglidewee - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 168,
-						["x"] = -41,
+						["x"] = -285,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -2574,7 +2574,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Icanglidewee - Dalaran"] = {
+				["Hyaae - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 153,
@@ -2582,13 +2582,13 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Morgntreeman - Dalaran"] = {
+				["Pontiffikate - Dalaran"] = {
+					["version"] = 3,
 					["position"] = {
-						["y"] = 225.9555206298828,
-						["x"] = -321.1475524902344,
+						["y"] = 153,
+						["x"] = -337,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
 				},
 				["Attacknknees - Dalaran"] = {
 					["version"] = 3,
@@ -2598,7 +2598,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Ruderalis - Stormreaver"] = {
+				["Feloril - Stormreaver"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 153,
@@ -2614,13 +2614,13 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Deeohteez - Dalaran"] = {
-					["version"] = 3,
+				["Morgntreeman - Dalaran"] = {
 					["position"] = {
-						["y"] = 153,
-						["x"] = -337,
+						["y"] = 225.9555206298828,
+						["x"] = -321.1475524902344,
 						["point"] = "BOTTOM",
 					},
+					["version"] = 3,
 				},
 				["Jenleeviyah - Dalaran"] = {
 					["version"] = 3,
@@ -2646,7 +2646,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Feloril - Stormreaver"] = {
+				["Ruderalis - Stormreaver"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 153,
@@ -2662,7 +2662,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Pontiffikate - Dalaran"] = {
+				["Deeohteez - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 153,
@@ -2670,7 +2670,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Hyaae - Dalaran"] = {
+				["Icanglidewee - Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 153,
@@ -2685,19 +2685,19 @@ Bartender4DB = {
 		["Pangdai - Dalaran"] = "Morgntreeman - Dalaran",
 		["Deeohteez - Stormreaver"] = "Morgntreeman - Dalaran",
 		["Arila - Stormreaver"] = "Morgntreeman - Dalaran",
-		["Icanglidewee - Dalaran"] = "Morgntreeman - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Hyaae - Dalaran"] = "Morgntreeman - Dalaran",
+		["Pontiffikate - Dalaran"] = "Morgntreeman - Dalaran",
 		["Attacknknees - Dalaran"] = "Morgntreeman - Dalaran",
-		["Ruderalis - Stormreaver"] = "Morgntreeman - Dalaran",
+		["Feloril - Stormreaver"] = "Morgntreeman - Dalaran",
 		["Bretanomyces - Stormreaver"] = "Morgntreeman - Dalaran",
-		["Deeohteez - Dalaran"] = "Morgntreeman - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
 		["Petitmort - Dalaran"] = "Morgntreeman - Dalaran",
 		["Dumpiss - Stormreaver"] = "Morgntreeman - Dalaran",
-		["Feloril - Stormreaver"] = "Morgntreeman - Dalaran",
+		["Ruderalis - Stormreaver"] = "Morgntreeman - Dalaran",
 		["Jaalohwa - Stormreaver"] = "Morgntreeman - Dalaran",
-		["Pontiffikate - Dalaran"] = "Morgntreeman - Dalaran",
-		["Hyaae - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Dalaran"] = "Morgntreeman - Dalaran",
+		["Icanglidewee - Dalaran"] = "Morgntreeman - Dalaran",
 	},
 	["profiles"] = {
 		["Pangdai - Dalaran"] = {
@@ -2715,12 +2715,12 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Icanglidewee - Dalaran"] = {
+		["Hyaae - Dalaran"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Morgntreeman - Dalaran"] = {
+		["Pontiffikate - Dalaran"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
@@ -2730,7 +2730,7 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Ruderalis - Stormreaver"] = {
+		["Feloril - Stormreaver"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
@@ -2740,7 +2740,7 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Deeohteez - Dalaran"] = {
+		["Morgntreeman - Dalaran"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
@@ -2760,7 +2760,7 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Feloril - Stormreaver"] = {
+		["Ruderalis - Stormreaver"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
@@ -2770,12 +2770,12 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Pontiffikate - Dalaran"] = {
+		["Deeohteez - Dalaran"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Hyaae - Dalaran"] = {
+		["Icanglidewee - Dalaran"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",

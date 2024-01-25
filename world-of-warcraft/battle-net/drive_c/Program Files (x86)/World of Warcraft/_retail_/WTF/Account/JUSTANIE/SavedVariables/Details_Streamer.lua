@@ -4,19 +4,19 @@ Details_StreamerDB = {
 		["Pangdai - Dalaran"] = "Morgntreeman - Dalaran",
 		["Deeohteez - Stormreaver"] = "Morgntreeman - Dalaran",
 		["Arila - Stormreaver"] = "Morgntreeman - Dalaran",
-		["Icanglidewee - Dalaran"] = "Morgntreeman - Dalaran",
-		["Attacknknees - Dalaran"] = "Morgntreeman - Dalaran",
+		["Hyaae - Dalaran"] = "Morgntreeman - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Morgntreeman - Dalaran",
 		["Jenleeviyah - Dalaran"] = "Morgntreeman - Dalaran",
-		["Ruderalis - Stormreaver"] = "Morgntreeman - Dalaran",
+		["Feloril - Stormreaver"] = "Morgntreeman - Dalaran",
 		["Pontiffikate - Dalaran"] = "Morgntreeman - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Attacknknees - Dalaran"] = "Morgntreeman - Dalaran",
 		["Deeohteez - Dalaran"] = "Morgntreeman - Dalaran",
 		["Petitmort - Dalaran"] = "Morgntreeman - Dalaran",
 		["Dumpiss - Stormreaver"] = "Morgntreeman - Dalaran",
-		["Feloril - Stormreaver"] = "Morgntreeman - Dalaran",
+		["Ruderalis - Stormreaver"] = "Morgntreeman - Dalaran",
 		["Jaalohwa - Stormreaver"] = "Morgntreeman - Dalaran",
-		["Bretanomyces - Stormreaver"] = "Morgntreeman - Dalaran",
-		["Hyaae - Dalaran"] = "Morgntreeman - Dalaran",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Icanglidewee - Dalaran"] = "Morgntreeman - Dalaran",
 	},
 	["profiles"] = {
 		["Morgntreeman - Dalaran"] = {
@@ -28,11 +28,11 @@ Details_StreamerDB = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["arrow_anchor_y"] = 0,
 			["main_frame_size"] = {
 				300, -- [1]
 				500.0000305175781, -- [2]
 			},
+			["arrow_anchor_y"] = 0,
 			["minimap"] = {
 				["minimapPos"] = 160,
 				["radius"] = 160,
@@ -40,30 +40,19 @@ Details_StreamerDB = {
 			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_x"] = 0,
+			["author"] = "Terciob",
+			["row_texture"] = "Details Serenity",
+			["square_grow_direction"] = "right",
+			["y"] = 0.0009307861328125,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["row_texture"] = "Details Serenity",
-			["square_grow_direction"] = "right",
-			["use_spark"] = true,
-			["author"] = "Terciob",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = 0.0009307861328125,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -75,6 +64,17 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["font_size"] = 10,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
