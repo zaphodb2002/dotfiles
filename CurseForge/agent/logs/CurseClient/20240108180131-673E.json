@@ -1,0 +1,4609 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 26430,
+  "Arguments": [
+    "/tmp/.mount_CurseFD8j22N/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=55464",
+    "--to-port=55484",
+    "--pid=26235",
+    "--appDataPath=/home/zaphod/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2024-01-09T02:01:30.6801448Z",
+  "Version": "0.241.1.15351",
+  "BuildDate": "2000-01-02T16:31:42Z",
+  "Start": "2024-01-08T18:01:31.5519141-08:00",
+  "Log": [
+{
+  "timestamp": "2024-01-08T18:01:31.5359207-08:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2024-01-08T18:01:31.5450222-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 0.241.1.15351"
+},
+{
+  "timestamp": "2024-01-08T18:01:31.5471779-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=55464,--to-port=55484,--pid=26235,--appDataPath=/home/zaphod/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2024-01-08T18:01:31.550921-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 26235"
+},
+{
+  "timestamp": "2024-01-08T18:01:32.716028-08:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "missing implementation of: getForegroundWindowFromPoint"
+},
+{
+  "timestamp": "2024-01-08T18:01:32.7607122-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 55464"
+},
+{
+  "timestamp": "2024-01-08T18:01:33.3297859-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2024-01-08T18:01:33.5799068-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2024-01-08T18:01:33.5850617-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2024-01-08T18:01:33.6210813-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2024-01-08T18:01:33.7287729-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T18:01:33.7399119-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.3529158-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.3541878-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.4338193-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Loaded 25 games from the server"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.4341321-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/zaphod/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.4676444-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "111.00"
+  }
+},
+{
+  "timestamp": "2024-01-08T18:01:34.5032125-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2024-01-08T18:01:34.5038991-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2024-01-08T18:01:34.5310498-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.5317515-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.5325435-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.6922716-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 1 instances"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.7002173-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"Retail\" Version from /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Wow.exe"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.7132379-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for Retail"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.7198648-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.7983778-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.8008677-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Game World of Warcraft (Id: 1) was detected at /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.8075817-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[AddonSyncManager] No auth token. Aborting sync groups cache update"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.8195184-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"Retail\" Version from /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Wow.exe"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.8197026-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for Retail"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.8242726-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-08T18:01:34.8298173-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.3278107-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 503 ms"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.3278173-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Initialized game Retail instance"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.3280413-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.3302576-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 25 games..."
+},
+{
+  "timestamp": "2024-01-08T18:01:35.339756-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 1 detected game instances. Operation took 11 ms"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.3421049-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.3429446-08:00",
+  "level": "Warn",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "/home/zaphod/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-01-08T18:01:35.3432325-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Beginning initialization of InstanceManager"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.3437254-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "InstanceManager initialized."
+},
+{
+  "timestamp": "2024-01-08T18:01:35.3448402-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.3448573-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.3457372-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.3675674-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.3676027-08:00",
+  "level": "Warn",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "/home/zaphod/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-01-08T18:01:35.4510403-08:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.4645876-08:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 8 ms"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.4646884-08:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.4647277-08:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.4653705-08:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.5191519-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[ModLoaderDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "136.00"
+  }
+},
+{
+  "timestamp": "2024-01-08T18:01:35.6251943-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "65.00"
+  }
+},
+{
+  "timestamp": "2024-01-08T18:01:35.6510119-08:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 186 ms"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.6529821-08:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 201 ms"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.861814-08:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.8618379-08:00",
+  "level": "Warn",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "/home/zaphod/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-01-08T18:01:35.9866083-08:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-01-08T18:01:35.9866302-08:00",
+  "level": "Warn",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "/home/zaphod/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-01-08T18:01:36.2485931-08:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-01-08T18:01:36.2486234-08:00",
+  "level": "Warn",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "/home/zaphod/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-01-08T18:01:55.5179851-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2024-01-08T18:01:55.7811498-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-08T18:01:55.886762-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[AddonInstalltask] Downloading mod from https://edge.forgecdn.net/files/4860/449/Bartender4-4.14.13.zip"
+},
+{
+  "timestamp": "2024-01-08T18:01:55.9103003-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/4860/449/Bartender4-4.14.13.zip to /tmp/CF/uDKmTbkPwkuq0x8q8MUwbA/1.zip"
+},
+{
+  "timestamp": "2024-01-08T18:01:56.7983677-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-01-08T18:01:56.9278528-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-01-08T18:01:56.9341174-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-01-08T18:01:57.3155027-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 381ms"
+},
+{
+  "timestamp": "2024-01-08T18:06:16.8190421-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T18:06:16.8650564-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T18:11:21.9159098-08:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T18:11:21.9543807-08:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T18:16:23.5880726-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T18:16:23.6930226-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T18:21:25.5054679-08:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T18:21:25.5610399-08:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T18:26:26.9875456-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T18:26:27.0384375-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T18:31:28.3942077-08:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T18:31:28.4631237-08:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T18:36:32.8805608-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T18:36:32.9580665-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T18:41:34.4440458-08:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T18:41:34.4944806-08:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T18:46:10.4746592-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T18:46:10.5288311-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T18:46:36.2298921-08:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T18:46:36.2873585-08:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T18:51:37.8030846-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T18:51:37.8462073-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T18:56:39.2773584-08:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T18:56:39.3199819-08:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T19:01:34.076904-08:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-01-08T19:01:34.5600047-08:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-01-08T19:01:34.5614163-08:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-08T19:01:34.5655351-08:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 2 ms"
+},
+{
+  "timestamp": "2024-01-08T19:01:34.5655413-08:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-08T19:01:34.5655432-08:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-08T19:01:34.5660328-08:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-08T19:01:34.9805099-08:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 414 ms"
+},
+{
+  "timestamp": "2024-01-08T19:01:34.98081-08:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 419 ms"
+},
+{
+  "timestamp": "2024-01-08T19:01:44.2248536-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T19:01:44.2754999-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T19:06:45.9035649-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T19:06:45.9532024-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T19:11:47.5603107-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T19:11:47.6159361-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T19:16:49.0501777-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T19:16:49.1227673-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T19:21:50.5803769-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T19:21:50.6391246-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T19:26:56.0388805-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T19:26:56.0940001-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T19:31:57.8316212-08:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T19:31:57.8962663-08:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T19:36:59.4119352-08:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T19:36:59.4649378-08:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T19:39:41.4577837-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T19:39:41.5138498-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T19:42:00.8699448-08:00",
+  "level": "Info",
+  "thread": 64,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T19:42:00.9236663-08:00",
+  "level": "Info",
+  "thread": 64,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T19:47:02.7313326-08:00",
+  "level": "Info",
+  "thread": 59,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T19:47:02.7918904-08:00",
+  "level": "Info",
+  "thread": 59,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T19:52:07.6705908-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T19:52:07.7356323-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T19:57:09.1664424-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T19:57:09.2275302-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T20:01:34.8477371-08:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-01-08T20:01:35.1567496-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-01-08T20:01:35.1568586-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-08T20:01:35.1587557-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2024-01-08T20:01:35.1587636-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-08T20:01:35.1587645-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-08T20:01:35.158834-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-08T20:01:35.727792-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 569 ms"
+},
+{
+  "timestamp": "2024-01-08T20:01:35.7279156-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 571 ms"
+},
+{
+  "timestamp": "2024-01-08T20:02:10.5667257-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T20:02:10.6512986-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T20:07:11.969903-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T20:07:12.025548-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T20:12:13.5534289-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T20:12:13.6062599-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T20:17:18.9027619-08:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T20:17:18.9621353-08:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T20:22:20.5730272-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T20:22:20.6314088-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T20:27:22.0437993-08:00",
+  "level": "Info",
+  "thread": 47,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T20:27:22.1284386-08:00",
+  "level": "Info",
+  "thread": 47,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T20:32:23.5180739-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T20:32:23.5941132-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T20:35:46.4615219-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T20:35:46.512227-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T20:37:25.0777491-08:00",
+  "level": "Info",
+  "thread": 64,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T20:37:25.1755366-08:00",
+  "level": "Info",
+  "thread": 64,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T20:42:29.5195485-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T20:42:29.5753269-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T20:47:31.0990881-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T20:47:31.1573211-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T20:52:32.55271-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T20:52:32.6210423-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T20:57:34.0060733-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T20:57:34.047004-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T21:01:35.4362321-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-01-08T21:01:35.7298378-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-01-08T21:01:35.7299045-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-08T21:01:35.7319258-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2024-01-08T21:01:35.7319295-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-08T21:01:35.7319302-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-08T21:01:35.7319737-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-08T21:01:36.1052735-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 373 ms"
+},
+{
+  "timestamp": "2024-01-08T21:01:36.1053777-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 375 ms"
+},
+{
+  "timestamp": "2024-01-08T21:02:35.6127291-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T21:02:35.665488-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T21:07:39.9283321-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T21:07:40.0546298-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T21:12:41.4825606-08:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T21:12:41.5378975-08:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T21:17:43.3292989-08:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T21:17:43.3892767-08:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T21:22:44.742235-08:00",
+  "level": "Info",
+  "thread": 58,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T21:22:44.7975596-08:00",
+  "level": "Info",
+  "thread": 58,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T21:27:46.1590218-08:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T21:27:46.2181212-08:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T21:29:51.4599653-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T21:29:51.5479924-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T21:32:51.2992717-08:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T21:32:51.3646337-08:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T21:37:53.1222928-08:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T21:37:53.1845158-08:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T21:42:55.1057399-08:00",
+  "level": "Info",
+  "thread": 47,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T21:42:55.1670188-08:00",
+  "level": "Info",
+  "thread": 47,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T21:47:56.5688837-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T21:47:56.6071171-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T21:52:58.2528244-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T21:52:58.3450589-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T21:58:03.2926682-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T21:58:03.3285027-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T22:01:35.9737187-08:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-01-08T22:01:36.3060885-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-01-08T22:01:36.3061462-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-08T22:01:36.3079433-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2024-01-08T22:01:36.3079479-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-08T22:01:36.3079486-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-08T22:01:36.3079775-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-08T22:01:36.6841119-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 376 ms"
+},
+{
+  "timestamp": "2024-01-08T22:01:36.6842313-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 378 ms"
+},
+{
+  "timestamp": "2024-01-08T22:03:04.7235397-08:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T22:03:04.7766063-08:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T22:08:06.3290409-08:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T22:08:06.3807441-08:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T22:13:07.8990412-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T22:13:07.9529149-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T22:18:09.6755849-08:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T22:18:09.7348761-08:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T22:23:14.8259931-08:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T22:23:14.8655792-08:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T22:24:49.4616136-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T22:24:49.518105-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T22:28:16.3009997-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T22:28:16.3517061-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T22:33:17.9793315-08:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T22:33:18.0369251-08:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T22:38:19.8322891-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T22:38:19.8838393-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T22:43:21.1888055-08:00",
+  "level": "Info",
+  "thread": 58,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T22:43:21.2352027-08:00",
+  "level": "Info",
+  "thread": 58,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T22:48:25.5720909-08:00",
+  "level": "Info",
+  "thread": 56,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T22:48:25.620118-08:00",
+  "level": "Info",
+  "thread": 56,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T22:53:26.9053717-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T22:53:26.9552003-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T22:58:28.2449874-08:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T22:58:28.2936269-08:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T23:01:36.6164217-08:00",
+  "level": "Info",
+  "thread": 61,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-01-08T23:01:36.8917368-08:00",
+  "level": "Info",
+  "thread": 62,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-01-08T23:01:36.8917898-08:00",
+  "level": "Info",
+  "thread": 62,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-08T23:01:36.8935725-08:00",
+  "level": "Info",
+  "thread": 62,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2024-01-08T23:01:36.8935746-08:00",
+  "level": "Info",
+  "thread": 62,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-08T23:01:36.8935752-08:00",
+  "level": "Info",
+  "thread": 62,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-08T23:01:36.8936-08:00",
+  "level": "Info",
+  "thread": 62,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-08T23:01:37.215915-08:00",
+  "level": "Info",
+  "thread": 62,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 322 ms"
+},
+{
+  "timestamp": "2024-01-08T23:01:37.2163972-08:00",
+  "level": "Info",
+  "thread": 62,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 324 ms"
+},
+{
+  "timestamp": "2024-01-08T23:03:29.4951178-08:00",
+  "level": "Info",
+  "thread": 62,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T23:03:29.5694859-08:00",
+  "level": "Info",
+  "thread": 62,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T23:08:31.0157548-08:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T23:08:31.065421-08:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T23:13:35.5853938-08:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T23:13:35.6826223-08:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T23:18:37.3117172-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T23:18:37.3660074-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T23:20:51.467803-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T23:20:51.5153128-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T23:23:38.7047892-08:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T23:23:38.7543723-08:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T23:28:39.9651053-08:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T23:28:40.0178202-08:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T23:33:41.1897034-08:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T23:33:41.2675922-08:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T23:38:45.6183252-08:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T23:38:45.6715028-08:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T23:43:47.388313-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T23:43:47.4382772-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T23:48:48.565154-08:00",
+  "level": "Info",
+  "thread": 58,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T23:48:48.6156373-08:00",
+  "level": "Info",
+  "thread": 58,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T23:53:49.7545703-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T23:53:49.811023-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-08T23:58:51.1514641-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-08T23:58:51.2140881-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T00:01:34.1759166-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-01-09T00:01:34.4745306-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 298ms"
+},
+{
+  "timestamp": "2024-01-09T00:01:34.4771498-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2024-01-09T00:01:34.5801756-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 103ms"
+},
+{
+  "timestamp": "2024-01-09T00:01:34.817191-08:00",
+  "level": "Info",
+  "thread": 47,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2024-01-09T00:01:34.8173004-08:00",
+  "level": "Info",
+  "thread": 47,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2024-01-09T00:01:34.8510253-08:00",
+  "level": "Info",
+  "thread": 47,
+  "memory": 0.0,
+  "message": "Loaded 25 games from the server"
+},
+{
+  "timestamp": "2024-01-09T00:01:34.8511096-08:00",
+  "level": "Info",
+  "thread": 47,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/zaphod/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2024-01-09T00:01:34.8523342-08:00",
+  "level": "Info",
+  "thread": 47,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "35.00"
+  }
+},
+{
+  "timestamp": "2024-01-09T00:01:36.8559758-08:00",
+  "level": "Info",
+  "thread": 47,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-01-09T00:01:37.9207628-08:00",
+  "level": "Info",
+  "thread": 47,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-01-09T00:01:37.9208152-08:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-09T00:01:37.9225614-08:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2024-01-09T00:01:37.9225648-08:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-09T00:01:37.9225657-08:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-09T00:01:37.9226013-08:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-09T00:01:38.2551655-08:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 332 ms"
+},
+{
+  "timestamp": "2024-01-09T00:01:38.2552535-08:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 334 ms"
+},
+{
+  "timestamp": "2024-01-09T00:03:55.5880494-08:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T00:03:55.6360937-08:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T00:08:56.9612584-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T00:08:57.0145597-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T00:13:58.2544222-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T00:13:58.3101946-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T00:14:18.4611911-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T00:14:18.5165597-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T00:18:59.4881477-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T00:18:59.5388248-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T00:24:01.561574-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T00:24:01.6091618-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T00:29:05.9949104-08:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T00:29:06.0499361-08:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T00:34:07.6046009-08:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T00:34:07.6580324-08:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T00:39:09.0582407-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T00:39:09.1070442-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T00:44:10.8312229-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T00:44:10.8883539-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T00:49:12.5545784-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T00:49:12.5935536-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T00:54:16.8946864-08:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T00:54:16.9424516-08:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T00:59:18.9644674-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T00:59:19.0149625-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T01:01:37.0424465-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-01-09T01:01:38.2926424-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-01-09T01:01:38.2927002-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-09T01:01:38.2943811-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2024-01-09T01:01:38.2943832-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-09T01:01:38.2943841-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-09T01:01:38.2944105-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-09T01:01:38.6340427-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 339 ms"
+},
+{
+  "timestamp": "2024-01-09T01:01:38.6341194-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 341 ms"
+},
+{
+  "timestamp": "2024-01-09T01:04:20.4476212-08:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T01:04:20.4971716-08:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T01:09:22.2508705-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T01:09:22.2970738-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T01:09:32.4608059-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T01:09:32.4997126-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T01:14:23.4507739-08:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T01:14:23.4992298-08:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T01:19:27.8876287-08:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T01:19:27.939993-08:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T01:24:29.6445412-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T01:24:29.6989314-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T01:29:31.0361011-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T01:29:31.0882562-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T01:34:32.4174001-08:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T01:34:32.4737544-08:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T01:39:34.0772708-08:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T01:39:34.1335023-08:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T01:44:38.72179-08:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T01:44:38.7929414-08:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T01:49:39.8574737-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T01:49:39.8975657-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T01:54:41.3877432-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T01:54:41.4398951-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T01:59:43.120574-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T01:59:43.1895533-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T02:01:37.5846795-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-01-09T02:01:38.8513841-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-01-09T02:01:38.851443-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-09T02:01:38.8532088-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2024-01-09T02:01:38.8532109-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-09T02:01:38.8532116-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-09T02:01:38.8532379-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-09T02:01:39.1805068-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 327 ms"
+},
+{
+  "timestamp": "2024-01-09T02:01:39.1805881-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 329 ms"
+},
+{
+  "timestamp": "2024-01-09T02:02:40.4616488-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T02:02:40.5088349-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T02:04:44.8557854-08:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T02:04:44.9268221-08:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T02:09:49.1705204-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T02:09:49.2233101-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T02:14:50.3772879-08:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T02:14:50.4584912-08:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T02:19:52.217427-08:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T02:19:52.2670162-08:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T02:24:53.3807032-08:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T02:24:53.4370668-08:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T02:29:55.1319237-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T02:29:55.1791326-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T02:34:59.6608277-08:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T02:34:59.7109306-08:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T02:40:00.8472457-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T02:40:00.9014069-08:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T02:45:02.6048787-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T02:45:02.6670957-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T02:50:03.9839508-08:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T02:50:04.0359597-08:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T02:55:05.4015052-08:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T02:55:05.4465955-08:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T02:58:37.4739855-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T02:58:37.5567824-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T03:00:09.7807121-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T03:00:09.819778-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T03:01:38.4953044-08:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-01-09T03:01:39.7559312-08:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-01-09T03:01:39.7559902-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-09T03:01:39.7577443-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2024-01-09T03:01:39.7577467-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-09T03:01:39.7577473-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-09T03:01:39.7577769-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-09T03:01:40.0958554-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 338 ms"
+},
+{
+  "timestamp": "2024-01-09T03:01:40.0959347-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 339 ms"
+},
+{
+  "timestamp": "2024-01-09T03:05:11.4315164-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T03:05:11.5685231-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T03:10:12.8769224-08:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T03:10:12.9279498-08:00",
+  "level": "Info",
+  "thread": 11,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T03:15:14.2203946-08:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T03:15:14.3001373-08:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T03:20:16.0639038-08:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T03:20:16.1403629-08:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T03:25:20.2669774-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T03:25:20.3180346-08:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T03:30:21.4203243-08:00",
+  "level": "Info",
+  "thread": 41,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T03:30:21.479736-08:00",
+  "level": "Info",
+  "thread": 41,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T03:35:23.3568737-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T03:35:23.4063585-08:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T03:40:24.6931941-08:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T03:40:24.8668057-08:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T03:45:26.0037022-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T03:45:26.0558739-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T03:50:30.3100034-08:00",
+  "level": "Info",
+  "thread": 61,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T03:50:30.3581675-08:00",
+  "level": "Info",
+  "thread": 61,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T03:53:44.4647197-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T03:53:44.5139036-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T03:55:31.9867445-08:00",
+  "level": "Info",
+  "thread": 68,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T03:55:32.0291986-08:00",
+  "level": "Info",
+  "thread": 68,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T04:00:33.533446-08:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T04:00:33.5845379-08:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T04:01:39.0318412-08:00",
+  "level": "Info",
+  "thread": 67,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-01-09T04:01:40.3515418-08:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-01-09T04:01:40.3519034-08:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-09T04:01:40.353675-08:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2024-01-09T04:01:40.3536778-08:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-09T04:01:40.3536784-08:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-09T04:01:40.3537066-08:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-09T04:01:40.700824-08:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 347 ms"
+},
+{
+  "timestamp": "2024-01-09T04:01:40.700898-08:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 348 ms"
+},
+{
+  "timestamp": "2024-01-09T04:05:35.2666779-08:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T04:05:35.3561614-08:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T04:10:36.5389729-08:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T04:10:36.5996399-08:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T04:15:41.2068194-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T04:15:41.2613889-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T04:20:42.3167909-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T04:20:42.3569612-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T04:25:44.1967474-08:00",
+  "level": "Info",
+  "thread": 74,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T04:25:44.2577218-08:00",
+  "level": "Info",
+  "thread": 74,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T04:30:45.9899185-08:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T04:30:46.0733485-08:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T04:35:47.2195334-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T04:35:47.2974019-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T04:40:51.5903821-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T04:40:51.6421415-08:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T04:45:53.4633515-08:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T04:45:53.5131979-08:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T04:46:14.4640375-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T04:46:14.5371214-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T04:50:55.1265204-08:00",
+  "level": "Info",
+  "thread": 67,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T04:50:55.1778685-08:00",
+  "level": "Info",
+  "thread": 67,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T04:55:56.9208392-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T04:55:56.9637148-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T05:00:59.0330648-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T05:00:59.0835898-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T05:01:39.6525017-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-01-09T05:01:40.9228095-08:00",
+  "level": "Info",
+  "thread": 65,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-01-09T05:01:40.9228677-08:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-09T05:01:40.9245829-08:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2024-01-09T05:01:40.9245864-08:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-09T05:01:40.9245876-08:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-09T05:01:40.924642-08:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-09T05:01:41.2696189-08:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 345 ms"
+},
+{
+  "timestamp": "2024-01-09T05:01:41.2696896-08:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 346 ms"
+},
+{
+  "timestamp": "2024-01-09T05:06:03.5830147-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T05:06:03.6373342-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T05:11:05.5496937-08:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T05:11:05.5993377-08:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T05:16:06.9576164-08:00",
+  "level": "Info",
+  "thread": 55,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T05:16:07.0092097-08:00",
+  "level": "Info",
+  "thread": 55,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T05:21:08.5626131-08:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T05:21:08.6112908-08:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T05:26:10.1607772-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T05:26:10.2101169-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T05:31:14.6229792-08:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T05:31:14.6722234-08:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T05:36:15.8995284-08:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T05:36:15.9575628-08:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T05:38:55.4594132-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T05:38:55.5058213-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T05:41:17.3496162-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T05:41:17.4050212-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T05:46:19.1394191-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T05:46:19.18017-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T05:51:20.4088143-08:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T05:51:20.464338-08:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T05:56:25.2615588-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T05:56:25.3125175-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T06:01:26.9426313-08:00",
+  "level": "Info",
+  "thread": 63,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T06:01:27.0148474-08:00",
+  "level": "Info",
+  "thread": 63,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T06:01:35.1496921-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-01-09T06:01:35.4356655-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 285ms"
+},
+{
+  "timestamp": "2024-01-09T06:01:35.4356913-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2024-01-09T06:01:35.4416284-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 5ms"
+},
+{
+  "timestamp": "2024-01-09T06:01:35.6567151-08:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2024-01-09T06:01:35.6567176-08:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2024-01-09T06:01:35.7053259-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Loaded 25 games from the server"
+},
+{
+  "timestamp": "2024-01-09T06:01:35.7053416-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/zaphod/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2024-01-09T06:01:35.7065097-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "49.00"
+  }
+},
+{
+  "timestamp": "2024-01-09T06:01:39.7068241-08:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-01-09T06:01:41.7721381-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-01-09T06:01:41.7722059-08:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-09T06:01:41.7741666-08:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2024-01-09T06:01:41.7741736-08:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-09T06:01:41.7741748-08:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-09T06:01:41.7742191-08:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-09T06:01:42.1044002-08:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 330 ms"
+},
+{
+  "timestamp": "2024-01-09T06:01:42.1044737-08:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 332 ms"
+},
+{
+  "timestamp": "2024-01-09T06:06:28.102959-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T06:06:28.1585906-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T06:11:29.2661239-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T06:11:29.3154645-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T06:16:30.7122442-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T06:16:30.7983293-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T06:21:35.2958196-08:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T06:21:35.361551-08:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T06:26:36.8359431-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T06:26:36.8928943-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T06:31:38.8160163-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T06:31:38.8718156-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T06:34:05.4658776-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T06:34:05.507021-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T06:36:40.1759456-08:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T06:36:40.2266648-08:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T06:41:42.0025419-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T06:41:42.0498399-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T06:46:46.4059432-08:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T06:46:46.4567373-08:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T06:51:47.8423748-08:00",
+  "level": "Info",
+  "thread": 65,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T06:51:47.9022882-08:00",
+  "level": "Info",
+  "thread": 65,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T06:56:49.1791168-08:00",
+  "level": "Info",
+  "thread": 65,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T06:56:49.5253754-08:00",
+  "level": "Info",
+  "thread": 65,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T07:01:39.9441533-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-01-09T07:01:42.1879483-08:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-01-09T07:01:42.1879947-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-09T07:01:42.1897355-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2024-01-09T07:01:42.1897378-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-09T07:01:42.1897384-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-09T07:01:42.1897617-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-09T07:01:42.5218832-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 332 ms"
+},
+{
+  "timestamp": "2024-01-09T07:01:42.5219613-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 333 ms"
+},
+{
+  "timestamp": "2024-01-09T07:01:50.5354693-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T07:01:50.5893558-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T07:06:52.053571-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T07:06:52.1060959-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T07:11:56.4760617-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T07:11:56.5327698-08:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T07:16:57.808845-08:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T07:16:57.8563443-08:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T07:21:58.9965933-08:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T07:21:59.0455858-08:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T07:27:00.9967129-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T07:27:01.0451238-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T07:29:58.4623997-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T07:29:58.5166055-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T07:32:02.4832149-08:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T07:32:02.5334782-08:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T07:37:07.1254828-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T07:37:07.17826-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T07:42:08.275399-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T07:42:08.3208554-08:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T07:47:09.6919714-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T07:47:09.7314811-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T07:52:11.1321314-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T07:52:11.1786297-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T07:57:12.5583036-08:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T07:57:12.6212378-08:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T08:01:40.369383-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-01-09T08:01:42.6172818-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-01-09T08:01:42.6173122-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-09T08:01:42.6189862-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2024-01-09T08:01:42.6189887-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-09T08:01:42.6189899-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-09T08:01:42.6190202-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-09T08:01:42.9484017-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 329 ms"
+},
+{
+  "timestamp": "2024-01-09T08:01:42.9484793-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 331 ms"
+},
+{
+  "timestamp": "2024-01-09T08:02:16.8386258-08:00",
+  "level": "Info",
+  "thread": 41,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T08:02:16.8928125-08:00",
+  "level": "Info",
+  "thread": 41,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T08:07:18.6752674-08:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T08:07:18.7260664-08:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T08:12:19.8152801-08:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T08:12:19.9012494-08:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T08:17:20.9429907-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T08:17:21.0101032-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T08:22:22.5986884-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T08:22:22.6491347-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T08:22:56.4609185-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T08:22:56.4992923-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T08:27:26.8785876-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T08:27:26.9263273-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T08:32:28.2531483-08:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T08:32:28.3319246-08:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T08:37:29.3850976-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T08:37:29.4928726-08:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T08:42:30.7046664-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T08:42:30.7607303-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T08:47:32.0358094-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T08:47:32.0864701-08:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T08:52:36.7113265-08:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T08:52:36.7625463-08:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T08:57:38.104963-08:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T08:57:38.1438235-08:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T09:01:41.1785176-08:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-01-09T09:01:43.4370072-08:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-01-09T09:01:43.4370389-08:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-01-09T09:01:43.4388695-08:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2024-01-09T09:01:43.4388752-08:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-01-09T09:01:43.4388762-08:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-01-09T09:01:43.438916-08:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-01-09T09:01:43.7969669-08:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 358 ms"
+},
+{
+  "timestamp": "2024-01-09T09:01:43.7970625-08:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 360 ms"
+},
+{
+  "timestamp": "2024-01-09T09:02:39.8014617-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T09:02:39.8432434-08:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T09:07:41.3718004-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T09:07:41.43385-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T09:12:42.9116621-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T09:12:42.9603869-08:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T09:15:42.4665412-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T09:15:42.5608884-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T09:17:47.4480358-08:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T09:17:47.5053954-08:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T09:22:49.0278362-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T09:22:49.0795588-08:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T09:27:50.7580116-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T09:27:50.8185124-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T09:32:52.2213378-08:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T09:32:52.2909255-08:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T09:36:20.6371893-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T09:36:20.6912654-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T09:36:36.3304872-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T09:36:36.3863934-08:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T09:37:53.9735007-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T09:37:54.03803-08:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T09:42:58.3981179-08:00",
+  "level": "Info",
+  "thread": 61,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T09:42:58.453303-08:00",
+  "level": "Info",
+  "thread": 61,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T09:48:00.0782489-08:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-01-09T09:48:00.1279931-08:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-01-09T09:50:02.6660347-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Curse Mods Agent is shutting down"
+},
+{
+  "timestamp": "2024-01-09T09:50:02.6661647-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Shutting down periodic tasks"
+},
+{
+  "timestamp": "2024-01-09T09:50:02.6702459-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Disabling periodic timers"
+},
+{
+  "timestamp": "2024-01-09T09:50:02.6722282-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2024-01-09T09:50:02.6722333-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2024-01-09T09:50:02.6722343-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2024-01-09T09:50:02.672337-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Shutdown game instances."
+},
+{
+  "timestamp": "2024-01-09T09:50:02.6725348-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-01-09T09:50:02.7666434-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 94ms"
+},
+{
+  "timestamp": "2024-01-09T09:50:02.7666774-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2024-01-09T09:50:02.768944-08:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 2ms"
+},
+{
+  "timestamp": "2024-01-09T09:50:02.8143523-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Received a shutdown command. Shutting down..."
+},
+{
+  "timestamp": "2024-01-09T09:50:02.822589-08:00",
+  "level": "Info",
+  "thread": 55,
+  "memory": 0.0,
+  "message": "Web Socket session disconnected"
+},
+{
+  "timestamp": "2024-01-09T09:50:02.8240708-08:00",
+  "level": "Warn",
+  "thread": 55,
+  "memory": 0.0,
+  "message": "Client disconnected from server"
+},
+{
+  "timestamp": "2024-01-09T09:50:02.838524-08:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2024-01-09T09:50:02.8453166-08:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Logging worker finished"
+}
+]}

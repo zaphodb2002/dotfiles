@@ -1,0 +1,27 @@
+game:
+  exe: /home/zaphod/Games/star-trek-infinite/drive_c/Star Trek Infinite/infinite.exe
+  prefix: /home/zaphod/Games/star-trek-infinite
+game_slug: star-trek-infinite
+name: 'Star Trek: Infinite'
+script:
+  files:
+  - setupfile: N/A:Select the setup file
+  game:
+    exe: _xXx_AUTO_WIN32_xXx_
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      arch: win64
+      env:
+        LC_ALL: ''
+      executable: /home/zaphod/Downloads/Star Trek - Infinite [FitGirl Repack]/setup.exe
+      prefix: /home/zaphod/Games/star-trek-infinite
+      wine_path: /home/zaphod/.local/share/lutris/runners/wine/wine-ge-8-25-x86_64/bin/wine
+  system:
+    env:
+      LC_ALL: ''
+slug: star-trek-infinite-setup
+system:
+  env:
+    LC_ALL: ''
+version: Setup file

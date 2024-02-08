@@ -1,0 +1,31 @@
+game:
+  exe: /home/zaphod/Games/alan-wake-remastered/drive_c/Games/Alan Wake Remastered/Game_f_x64_EOS.exe
+  prefix: /home/zaphod/Games/alan-wake-remastered
+game_slug: alan-wake-remastered
+name: Alan Wake Remastered
+requires: null
+script:
+  files:
+  - setupfile: N/A:Select the setup file
+  game:
+    exe: _xXx_AUTO_WIN32_xXx_
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      arch: win64
+      env:
+        LC_ALL: ''
+      executable: /home/zaphod/Downloads/Alan Wake - Remastered [FitGirl Repack]/setup.exe
+      prefix: /home/zaphod/Games/alan-wake-remastered
+      wine_path: /home/zaphod/.local/share/lutris/runners/wine/wine-ge-8-25-x86_64/bin/wine
+  system:
+    env:
+      LC_ALL: ''
+slug: alan-wake-remastered-setup
+system:
+  env:
+    LC_ALL: ''
+variables: {}
+version: Setup file
+wine: {}
+year: null

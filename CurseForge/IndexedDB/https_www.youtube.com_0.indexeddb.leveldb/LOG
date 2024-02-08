@@ -1,3 +1,6 @@
-2023/12/15-17:07:58.356 1b11 Reusing MANIFEST /home/zaphod/.config/CurseForge/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/12/15-17:07:58.356 1b11 Recovering log #3
-2023/12/15-17:07:58.357 1b11 Reusing old log /home/zaphod/.config/CurseForge/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2024/01/01-21:59:01.844 663b3 Creating DB /home/zaphod/.config/CurseForge/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2024/01/01-21:59:01.849 663b3 Reusing MANIFEST /home/zaphod/.config/CurseForge/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/01-21:59:02.589 65c01 Level-0 table #5: started
+2024/01/01-21:59:02.593 65c01 Level-0 table #5: 2653 bytes OK
+2024/01/01-21:59:02.597 65c01 Delete type=0 #3
+2024/01/01-21:59:02.597 65c01 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

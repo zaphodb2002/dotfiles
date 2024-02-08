@@ -1,0 +1,403 @@
+{
+  "action-layout-toolbar": [
+    "Add Books",
+    "Edit Metadata",
+    null,
+    "Convert Books",
+    "View",
+    null,
+    "Store",
+    "Donate",
+    "Fetch News",
+    "Help",
+    null,
+    "Preferences",
+    "Remove Books",
+    "Choose Library",
+    "Save To Disk",
+    "Connect Share",
+    "Tweak ePub",
+    "Reading Goal"
+  ],
+  "action-layout-toolbar-device": [
+    "Add Books",
+    "Edit Metadata",
+    null,
+    "Convert Books",
+    "View",
+    "Send To Device",
+    null,
+    null,
+    "Location Manager",
+    null,
+    null,
+    "Fetch News",
+    "Save To Disk",
+    "Store",
+    "Connect Share",
+    null,
+    "Remove Books",
+    null,
+    "Help",
+    "Preferences",
+    "Reading Goal"
+  ],
+  "book_list_pin_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
+  },
+  "color_palette": "dark",
+  "cover_grid_color": [
+    80,
+    80,
+    80
+  ],
+  "cover_grid_texture": null,
+  "custom_colors_for_color_dialog": [
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ]
+  ],
+  "default_author_link": null,
+  "geometry-of-Plugin Updater plugin:plugin updater dialog": {
+    "frame_geometry": {
+      "height": 540,
+      "width": 937,
+      "x": 1573,
+      "y": 687
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 520,
+      "width": 933,
+      "x": 1575,
+      "y": 705
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 520,
+      "width": 933,
+      "x": 1575,
+      "y": 705
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAYlAAACrwAACc0AAATKAAAGJwAAAsEAAAnLAAAEyAAAAAAAAAAAB4AAAAYnAAACwQAACcsAAATI"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 1080,
+        "y": 420
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Samsung Electric Company",
+      "model": "F27G3xTF",
+      "name": "DP-0",
+      "serial": "H4CRB00285L- ",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1920,
+        "width": 3000,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-calibre_main_window_geometry": {
+    "frame_geometry": {
+      "height": 1039,
+      "width": 1902,
+      "x": 1089,
+      "y": 429
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1037,
+      "width": 1900,
+      "x": 1090,
+      "y": 430
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 1037,
+      "width": 1900,
+      "x": 1090,
+      "y": 430
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAARBAAABrQAAC64AAAW7AAAEQgAAAa4AAAutAAAFugAAAAAAAAAAB4AAAARCAAABrgAAC60AAAW6"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 1080,
+        "y": 420
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Samsung Electric Company",
+      "model": "F27G3xTF",
+      "name": "DP-0",
+      "serial": "H4CRB00285L- ",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1920,
+        "width": 3000,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-plugin-reading-goal-config-dialog-geometry": {
+    "frame_geometry": {
+      "height": 533,
+      "width": 441,
+      "x": 1821,
+      "y": 703
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 513,
+      "width": 437,
+      "x": 1823,
+      "y": 721
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 513,
+      "width": 437,
+      "x": 1823,
+      "y": 721
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAcdAAACvwAACNUAAATTAAAHHwAAAtEAAAjTAAAE0QAAAAAAAAAAB4AAAAcfAAAC0QAACNMAAATR"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 1080,
+        "y": 420
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Samsung Electric Company",
+      "model": "F27G3xTF",
+      "name": "DP-0",
+      "serial": "H4CRB00285L- ",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1920,
+        "width": 3000,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-preferences dialog geometry": {
+    "frame_geometry": {
+      "height": 740,
+      "width": 934,
+      "x": 1101,
+      "y": 623
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 1103,
+      "y": 641
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 1103,
+      "y": 641
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAARNAAACbwAAB/IAAAVSAAAETwAAAoEAAAfwAAAFUAAAAAAAAAAAB4AAAARPAAACgQAAB/AAAAVQ"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 1080,
+        "y": 420
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Samsung Electric Company",
+      "model": "F27G3xTF",
+      "name": "DP-0",
+      "serial": "H4CRB00285L- ",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1920,
+        "width": 3000,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "grid view visible": false,
+  "library_usage_stats": {
+    "/home/zaphod/Calibre Library": 8
+  },
+  "main_window_central_widget_state": {
+    "layout": "wide",
+    "narrow_desires": {
+      "book_details_height": 0.23051224944320714,
+      "cover_browser_width": 0.34971098265895956,
+      "quick_view_height": 0.2561247216035635,
+      "tag_browser_width": 0.25
+    },
+    "narrow_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    },
+    "wide_desires": {
+      "book_details_width": 0.29985549132947975,
+      "cover_browser_height": 0.2854188210961737,
+      "quick_view_height": 0.2378490175801448,
+      "tag_browser_width": 0.29985549132947975
+    },
+    "wide_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    }
+  },
+  "quick_start_guide_added": true,
+  "search bar visible": true,
+  "show_emblems": false,
+  "tag browser search box visible": false,
+  "tb_search_order": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 4,
+    "4": 0
+  }
+}

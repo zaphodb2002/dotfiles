@@ -1,0 +1,21 @@
+Spline ▸surface_uv_coordinate|2D Vector
+Point ▸id|Integer
+ 0 Viewer Node
+   Render Result
+   Dots Stroke
+   Material
+  Cylinder.023
+Point ▸position|Vector
+Face ▸sharp_face|Boolean
+Face Corner ▸UVMap|2D Vector
+Spline ▸UVMap|2D Vector
+UVMap
+ 0 Needles
+  origin
+   Needles
+  origin.001
+   Wood
+   Green
+   Brown
+Terrain
+

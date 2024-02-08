@@ -1,6 +1,0 @@
-VER 3 0100000000000001 "Judgment" "134400"
-#showtooltip Judgment
-/cast Bastion of Light
-/cast Sentinel
-/cast Judgment
-END

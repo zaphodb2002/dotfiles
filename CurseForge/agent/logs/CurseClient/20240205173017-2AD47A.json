@@ -1,0 +1,933 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 2806906,
+  "Arguments": [
+    "/tmp/.mount_CurseFTORrIN/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=54924",
+    "--to-port=54944",
+    "--pid=2806719",
+    "--appDataPath=/home/zaphod/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2024-02-06T01:30:16.4105442Z",
+  "Version": "0.244.4.16117",
+  "BuildDate": "2000-01-05T16:57:14Z",
+  "Start": "2024-02-05T17:30:17.1629022-08:00",
+  "Log": [
+{
+  "timestamp": "2024-02-05T17:30:17.149505-08:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2024-02-05T17:30:17.1573402-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 0.244.4.16117"
+},
+{
+  "timestamp": "2024-02-05T17:30:17.159249-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=54924,--to-port=54944,--pid=2806719,--appDataPath=/home/zaphod/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2024-02-05T17:30:17.1624996-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 2806719"
+},
+{
+  "timestamp": "2024-02-05T17:30:18.0928407-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/zaphod/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2024-02-05T17:30:18.1233601-08:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "missing implementation of: getForegroundWindowFromPoint"
+},
+{
+  "timestamp": "2024-02-05T17:30:18.1650727-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 54924"
+},
+{
+  "timestamp": "2024-02-05T17:30:19.0282669-08:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2024-02-05T17:30:19.2036542-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2024-02-05T17:30:19.2096545-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2024-02-05T17:30:19.2449406-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2024-02-05T17:30:19.339249-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-02-05T17:30:19.349471-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2024-02-05T17:30:19.9504351-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2024-02-05T17:30:19.9515153-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.0531239-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Loaded 26 games from the server"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.0533421-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/zaphod/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.0836017-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "130.00"
+  }
+},
+{
+  "timestamp": "2024-02-05T17:30:20.1179255-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2024-02-05T17:30:20.1185666-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2024-02-05T17:30:20.1441221-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.1448054-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.1455827-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.2989016-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 1 instances"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.3056086-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"Retail\" Version from /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Wow.exe"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.3176935-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for Retail"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.3239887-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.3889906-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.3914094-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Game World of Warcraft (Id: 1) was detected at /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.3970147-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonSyncManager] No auth token. Aborting sync groups cache update"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.4095516-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"Retail\" Version from /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Wow.exe"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.409801-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for Retail"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.4144858-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-02-05T17:30:20.421155-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.4123607-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 997 ms"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.4123651-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initialized game Retail instance"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.4125805-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.4185916-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 26 games..."
+},
+{
+  "timestamp": "2024-02-05T17:30:21.428566-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 1 detected game instances. Operation took 15 ms"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.4307952-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.4315758-08:00",
+  "level": "Warn",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "/home/zaphod/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-02-05T17:30:21.4319109-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Beginning initialization of InstanceManager"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.4325107-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "InstanceManager initialized."
+},
+{
+  "timestamp": "2024-02-05T17:30:21.4338277-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.4338594-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.4348696-08:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.4599506-08:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.4599795-08:00",
+  "level": "Warn",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "/home/zaphod/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-02-05T17:30:21.5279179-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.5356281-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 4 ms"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.5356919-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.5357013-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.5361666-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.7183951-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[ModLoaderDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "221.00"
+  }
+},
+{
+  "timestamp": "2024-02-05T17:30:21.8306032-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "57.00"
+  }
+},
+{
+  "timestamp": "2024-02-05T17:30:21.8372873-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 301 ms"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.8389257-08:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 311 ms"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.952256-08:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-02-05T17:30:21.9522763-08:00",
+  "level": "Warn",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "/home/zaphod/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-02-05T17:30:22.0894714-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-02-05T17:30:22.0894972-08:00",
+  "level": "Warn",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/zaphod/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-02-05T17:30:22.3034272-08:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-02-05T17:30:22.3034501-08:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/zaphod/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-02-05T17:31:00.7523897-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-02-05T17:31:00.7523898-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-02-05T17:31:00.7536794-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[AddonInstalltask] Downloading mod from https://edge.forgecdn.net/files/5081/36/Pawn-2.8.9.zip"
+},
+{
+  "timestamp": "2024-02-05T17:31:00.7742028-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5081/36/Pawn-2.8.9.zip to /tmp/CF/9fURSxoFgEeJrC8LB9H0RQ/1.zip"
+},
+{
+  "timestamp": "2024-02-05T17:31:00.8863943-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "[AddonInstalltask] Downloading mod from https://edge.forgecdn.net/files/5081/255/Details-Details.20240204.12256.155.zip"
+},
+{
+  "timestamp": "2024-02-05T17:31:00.8865565-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5081/255/Details-Details.20240204.12256.155.zip to /tmp/CF/9fURSxoFgEeJrC8LB9H0RQ/2.zip"
+},
+{
+  "timestamp": "2024-02-05T17:31:01.0421695-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonInstalltask] Downloading mod from https://edge.forgecdn.net/files/5078/990/Leatrix_Plus-10.2.13.zip"
+},
+{
+  "timestamp": "2024-02-05T17:31:01.0423162-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5078/990/Leatrix_Plus-10.2.13.zip to /tmp/CF/9fURSxoFgEeJrC8LB9H0RQ/3.zip"
+},
+{
+  "timestamp": "2024-02-05T17:31:01.9603432-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.0443193-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Pawn"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.0815527-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.0835313-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.087672-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.2105576-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.2628254-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Plus"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.2734659-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.2738607-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.4272754-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.5074029-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 419ms"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.5075632-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.5107818-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.6416478-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[AddonInstalltask] Downloading mod from https://edge.forgecdn.net/files/5081/56/AllTheThings-DF-3.9.4a.zip"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.6418521-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5081/56/AllTheThings-DF-3.9.4a.zip to /tmp/CF/9fURSxoFgEeJrC8LB9H0RQ/10.zip"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.8254132-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 317ms"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.8257668-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonInstalltask] Downloading mod from https://edge.forgecdn.net/files/5083/382/Auctionator-10.2.21.zip"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.8259014-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5083/382/Auctionator-10.2.21.zip to /tmp/CF/9fURSxoFgEeJrC8LB9H0RQ/11.zip"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.9838724-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_EncounterDetails"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.9856053-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_TinyThreat"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.9865453-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Vanguard"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.9873749-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_DataStorage"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.9875913-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_RaidCheck"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.9884877-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Streamer"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.9895478-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Compare2"
+},
+{
+  "timestamp": "2024-02-05T17:31:02.9897374-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details"
+},
+{
+  "timestamp": "2024-02-05T17:31:03.1268472-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-02-05T17:31:03.1383969-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-02-05T17:31:03.1393857-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-02-05T17:31:03.4544869-08:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 315ms"
+},
+{
+  "timestamp": "2024-02-05T17:31:03.9266705-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-02-05T17:31:04.0519073-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Auctionator"
+},
+{
+  "timestamp": "2024-02-05T17:31:04.1363366-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-02-05T17:31:04.1442253-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-02-05T17:31:04.1461913-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-02-05T17:31:04.2591428-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-02-05T17:31:04.4361509-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 289ms"
+},
+{
+  "timestamp": "2024-02-05T17:31:04.6481154-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/AllTheThings"
+},
+{
+  "timestamp": "2024-02-05T17:31:04.8175898-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-02-05T17:31:04.8318508-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-02-05T17:31:04.8323293-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-02-05T17:31:05.1500291-08:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 317ms"
+},
+{
+  "timestamp": "2024-02-05T17:31:21.6528974-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Curse Mods Agent is shutting down"
+},
+{
+  "timestamp": "2024-02-05T17:31:21.6530194-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Shutting down periodic tasks"
+},
+{
+  "timestamp": "2024-02-05T17:31:21.6531346-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Disabling periodic timers"
+},
+{
+  "timestamp": "2024-02-05T17:31:21.6550066-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2024-02-05T17:31:21.6550109-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2024-02-05T17:31:21.6550119-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2024-02-05T17:31:21.6550976-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Shutdown game instances."
+},
+{
+  "timestamp": "2024-02-05T17:31:21.6559492-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2024-02-05T17:31:21.7270444-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 71ms"
+},
+{
+  "timestamp": "2024-02-05T17:31:21.7277878-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-02-05T17:31:22.0401066-08:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 312ms"
+},
+{
+  "timestamp": "2024-02-05T17:31:22.0578874-08:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Received a shutdown command. Shutting down..."
+},
+{
+  "timestamp": "2024-02-05T17:31:22.0605815-08:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Web Socket session disconnected"
+},
+{
+  "timestamp": "2024-02-05T17:31:22.0619142-08:00",
+  "level": "Warn",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Client disconnected from server"
+},
+{
+  "timestamp": "2024-02-05T17:31:22.0663456-08:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2024-02-05T17:31:22.0732384-08:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Logging worker finished"
+}
+]}

@@ -1,0 +1,20 @@
+2024/02/05-17:19:49.316 2a9719 Reusing MANIFEST /home/zaphod/.config/WebCord/Local Storage/leveldb/MANIFEST-000001
+2024/02/05-17:19:49.321 2a9719 Recovering log #474
+2024/02/05-17:19:49.322 2a9719 Level-0 table #477: started
+2024/02/05-17:19:49.331 2a9719 Level-0 table #477: 12332 bytes OK
+2024/02/05-17:19:49.340 2a9719 Delete type=0 #474
+2024/02/05-17:56:40.082 2a971a Level-0 table #480: started
+2024/02/05-17:56:40.088 2a971a Level-0 table #480: 17618 bytes OK
+2024/02/05-17:56:40.097 2a971a Delete type=0 #478
+2024/02/05-17:56:40.098 2a971a Compacting 4@0 + 1@1 files
+2024/02/05-17:56:40.125 2a971a Generated table #481@0: 54 keys, 740686 bytes
+2024/02/05-17:56:40.126 2a971a Compacted 4@0 + 1@1 files => 740686 bytes
+2024/02/05-17:56:40.134 2a971a compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/02/05-17:56:40.135 2a971a Delete type=2 #480
+2024/02/05-17:56:40.135 2a971a Delete type=2 #477
+2024/02/05-17:56:40.135 2a971a Delete type=2 #475
+2024/02/05-17:56:40.135 2a971a Delete type=2 #473
+2024/02/05-17:56:40.135 2a971a Delete type=2 #471
+2024/02/05-18:51:46.591 2a971a Level-0 table #483: started
+2024/02/05-18:51:46.598 2a971a Level-0 table #483: 10401 bytes OK
+2024/02/05-18:51:46.607 2a971a Delete type=0 #479

@@ -1,5 +1,0 @@
-
-Scrap_Sets = {
-	["list"] = {
-	},
-}

@@ -1,0 +1,82 @@
+/home/zaphod/Nextcloud/
+# timestamp | duration | file | instruction | dir | modtime | etag | size | fileId | status | errorString | http result code | other size | other modtime | X-Request-ID
+#=#=#=# Syncrun started 2024-01-28T06:36:44Z
+#=#=#=#=# Propagation starts 2024-01-28T06:36:45Z (last step: 735 msec, total: 735 msec)
+||Documents|8|2|1706302137|65b41ab9891dd|0|00000095ocs2l8exfxtb|13||0|0|0||
+||Photos|8|2|1706302137|65b41ab9d71c5|0|00000101ocs2l8exfxtb|13||0|0|0||
+06:36:45||Documents/Example.md|8|2|1706302137|9b6294dfc6ba46818752edbf46fc2871|1095|00000099ocs2l8exfxtb|13||200|0|0|7c8950a6-14ad-411b-9e87-c57e29b612b0|
+06:36:45||Documents/Readme.md|8|2|1706302137|739d8abcd86e303afba8d43f6b84fe73|136|00000097ocs2l8exfxtb|13||200|0|0|38245db7-4bde-4fc0-a7de-e78c06e132c5|
+06:36:45||Documents/Welcome to Nextcloud Hub.docx|8|2|1706302137|24712d1d14834ea3e7997f74343090a9|24295|00000096ocs2l8exfxtb|13||200|0|0|80c4b075-0102-4a31-ab3a-765c6291106c|
+06:36:45||Documents/Nextcloud flyer.pdf|8|2|1706302137|f466130acc0e0fbafe547bd7f23fdf75|1083339|00000098ocs2l8exfxtb|13||200|0|0|38d6454e-a9f8-418b-866a-69473d31c63d|
+06:36:45||Photos/Birdie.jpg|8|2|1706302137|194c7b43142daaa313aed38db5f9ba75|593508|00000102ocs2l8exfxtb|13||200|0|0|7cdc1d76-8265-4ebb-8cbf-570c29562d3d|
+06:36:45||Photos/Frog.jpg|8|2|1706302137|6de897fc83521a4989e96af4743fa3b6|457744|00000107ocs2l8exfxtb|13||200|0|0|aa9a8d46-b382-41e1-bf30-699c528c2d5f|
+06:36:45||Photos/Gorilla.jpg|8|2|1706302137|6164c96f5929dcef8b1ae960f2d35c0d|474653|00000109ocs2l8exfxtb|13||200|0|0|61b252d7-7de1-4e54-b096-786704995d49|
+06:36:45||Photos/Readme.md|8|2|1706302137|282fd0ec6d84fe16dec33ff243e6f733|150|00000105ocs2l8exfxtb|13||200|0|0|2d8b07e0-c0e5-4abf-93be-384c0135a786|
+06:36:45||Photos/Nextcloud community.jpg|8|2|1706302137|f10b7779fe2756118a7f0577b71ffcd9|797325|00000104ocs2l8exfxtb|13||200|0|0|7017bb80-0b5b-4399-aebf-7dfa01c11319|
+06:36:45||Photos/Steps.jpg|8|2|1706302137|1b198f948ea88cda63454a510da0f417|567689|00000103ocs2l8exfxtb|13||200|0|0|1b8dd443-6e43-45cb-8048-77ac544a92a4|
+06:36:45||Photos/Toucan.jpg|8|2|1706302137|1d62f7a4645fd593ab8301251b9d12ab|167989|00000106ocs2l8exfxtb|13||200|0|0|d2a2924e-edd9-4126-96a3-c44d2db635d7|
+||Templates|8|2|1706398969|65b594f947566|0|00000065ocs2l8exfxtb|13||0|0|0||
+06:36:46||Templates/Business model canvas.odg|8|2|1706302137|41ec65ef5751eb8fedcdc49f9b1d4765|16988|00000083ocs2l8exfxtb|13||200|0|0|fd9bb6f6-3539-402f-956f-8b2cc5c49c84|
+06:36:46||Templates/Business model canvas.ods|8|2|1706302137|28703dec66192782b4e275d1a6a757e9|52843|00000090ocs2l8exfxtb|13||200|0|0|9d37615d-78a8-431c-991e-f48ce1c85ce2|
+06:36:45||Photos/Library.jpg|8|2|1706302137|e9ba880229d2dc1f0d9a67a336eb30fc|2170375|00000108ocs2l8exfxtb|13||200|0|0|21035400-4299-49a7-86cb-a5deec3c4909|
+06:36:46||Photos/Vineyard.jpg|8|2|1706302137|dfa783222acf05cf88022f61f74d8f97|427030|00000110ocs2l8exfxtb|13||200|0|0|04185199-01f7-48f8-9151-731dbaee1059|
+06:36:46||Templates/Diagram & table.ods|8|2|1706302137|e8a97a1abb3ba27f451de18c05c144d3|13378|00000081ocs2l8exfxtb|13||200|0|0|e6552335-0674-4cc7-8eed-9db7e1b61747|
+06:36:46||Templates/Expense report.ods|8|2|1706302137|07de1861573769602d5087543842949d|13441|00000085ocs2l8exfxtb|13||200|0|0|f82716ca-dd92-446c-999f-ccefd310ea7c|
+06:36:46||Templates/Elegant.odp|8|2|1706302137|110862dbbf3695e680694b651bdb3440|14316|00000080ocs2l8exfxtb|13||200|0|0|8217ff46-c0c2-4338-9207-313c3981ef92|
+06:36:46||Templates/Flowchart.odg|8|2|1706302137|d09821874a3b7058752780982223598e|11836|00000079ocs2l8exfxtb|13||200|0|0|99cbe72a-63cf-4f6c-ba3e-5e7b9d34e994|
+06:36:46||Templates/Invoice.odt|8|2|1706302136|bd9953a4e97932adc08fc8f42b650519|17276|00000069ocs2l8exfxtb|13||200|0|0|b9850e92-144f-4f56-8d62-a8c7e478c96c|
+06:36:46||Templates/Impact effort matrix.whiteboard|8|2|1706302137|2c76ef8c9ce285a89ea25f4b5713b4d7|52674|00000086ocs2l8exfxtb|13||200|0|0|0b12fa4f-8f65-4379-abc1-6201b45ff927|
+06:36:46||Templates/Letter.odt|8|2|1706302136|70aa1049ab9e052117b491f3bbdef589|15961|00000066ocs2l8exfxtb|13||200|0|0|abbde34c-c6d2-461d-8fca-e071be49a878|
+06:36:46||Templates/Meeting notes.md|8|2|1706302136|931da0bb3179c545e9a3c34a926f8b8e|326|00000070ocs2l8exfxtb|13||200|0|0|052bdca3-abe5-44e0-9b86-017759cfe196|
+06:36:46||Templates/Mindmap.odg|8|2|1706302137|3fe9df58cbad7755cadac52e2f139da0|13653|00000087ocs2l8exfxtb|13||200|0|0|6e3c8090-440a-4b57-a491-39799c0b01ce|
+06:36:46||Templates/Modern company.odp|8|2|1706302136|1c7cb3b0dc49b44565e92353a03ee142|317015|00000077ocs2l8exfxtb|13||200|0|0|91445066-3e60-4f4d-99fe-f27cf86d1a48|
+06:36:46||Templates/Gotong royong.odp|8|2|1706302136|fb91015095ffd0f1d830a7fa3b3a508c|3509628|00000068ocs2l8exfxtb|13||200|0|0|fdaec358-6ae3-4b7d-ad56-fbc2421ee28b|
+06:36:47||Templates/Org chart.odg|8|2|1706302136|f5e82e86003040fb9726330fe6f92f1f|13878|00000074ocs2l8exfxtb|13||200|0|0|481963d5-6348-4130-aa9c-f75206c78e7a|
+06:36:47||Templates/Photo book.odt|8|2|1706302137|0f37bf1160a311494d9b08891a6c4436|5155877|00000089ocs2l8exfxtb|13||200|0|0|4765b628-5dc0-4525-9c22-b0e6cdf183e8|
+06:36:47||Templates/Product plan.md|8|2|1706302136|94030d178d459db573796456e454726c|573|00000076ocs2l8exfxtb|13||200|0|0|c693aa84-4b77-43f6-a9d0-3a6157ad8baa|
+06:36:47||Templates/Readme.md|8|2|1706398969|83947caa10bdfb4e06076ad0b68260b3|553|00000073ocs2l8exfxtb|13||200|0|0|baa26d6f-b2bf-43b8-8370-da732c77f1f4|
+06:36:46||Templates/Mother's day.odt|8|2|1706302136|bb6d7e7db76b2d80b4052ec0a4cebb23|340061|00000071ocs2l8exfxtb|13||200|0|0|61251039-115d-4997-b4bd-3db90c57386a|
+06:36:47||Templates/SWOT analysis.whiteboard|8|2|1706302136|ef30277a82247a35372416b39cbc8d84|38605|00000067ocs2l8exfxtb|13||200|0|0|de2210fa-8758-4416-a04d-19928525bf41|
+06:36:47||Templates/Resume.odt|8|2|1706302137|66d20544e282046c3095b314d4330a61|39404|00000082ocs2l8exfxtb|13||200|0|0|eff18274-cdac-4e29-bcb4-35bd5bfe25fa|
+06:36:47||Templates/Simple.odp|8|2|1706302136|2f522fbab2a85394a030cc81a0f1e5a9|14810|00000072ocs2l8exfxtb|13||200|0|0|ab24b881-58be-4aac-bbf5-2c201badd708|
+06:36:47||Templates/Syllabus.odt|8|2|1706302137|7a6eeb9c1c9f26e7990b9bc5e7b7edec|30354|00000088ocs2l8exfxtb|13||200|0|0|58a765a2-b7d3-447a-a696-60df89dfdce7|
+06:36:48||Templates/Timesheet.ods|8|2|1706302136|7457fce1da0ab85a1a179b3f6553897c|88394|00000075ocs2l8exfxtb|13||200|0|0|bcbbb909-1570-41a5-b003-bd58544e69ec|
+06:36:48||Templates/Yellow idea.odp|8|2|1706302137|e90253b49409332bc5e7e2b942422239|81196|00000078ocs2l8exfxtb|13||200|0|0|c0ed99eb-6349-4558-bcaa-df850e7a6c8d|
+06:36:47||Templates/Party invitation.odt|8|2|1706302137|d0bcd070e87a4f2f36630b6bcc5a8892|868111|00000084ocs2l8exfxtb|13||200|0|0|1fa814de-901e-4189-853e-23792c7134b9|
+06:36:48||Nextcloud intro.mp4|8|2|1706302137|918186b707acaffa5760b8f1ffbf5d03|3963036|00000094ocs2l8exfxtb|13||200|0|0|1e42ced9-6ad0-4d16-b7c7-cd39ac07debe|
+06:36:48||Readme.md|8|2|1706302137|b237fa3a6311e212fb0cbb66477153a3|206|00000091ocs2l8exfxtb|13||200|0|0|9c97870e-e3b6-4381-8b40-8443f01782cc|
+06:36:48||Nextcloud.png|8|2|1706302137|3109a67693cbdc80b74c6918af921880|50598|00000111ocs2l8exfxtb|13||200|0|0|1a3c5b27-cad2-4ae1-b00e-7eb63c0e3cfc|
+06:36:48||Templates credits.md|8|2|1706302137|b900fac189cbfdc65dbd12b210f30072|2403|00000093ocs2l8exfxtb|13||200|0|0|2f7365cd-4410-4ce9-b98d-a070094b450d|
+06:36:48||Reasons to use Nextcloud.pdf|8|2|1706302137|2562ab8dfab25eaaa8b81484b404b6bb|976625|00000100ocs2l8exfxtb|13||200|0|0|97edcc35-2489-4dcc-bd8b-70d7969cc83f|
+06:36:48||Nextcloud Manual.pdf|8|2|1706302137|da0fede996e4757da102af79ef4a4239|16049064|00000092ocs2l8exfxtb|13||200|0|0|ea02b9ce-65ea-4f47-8add-7515b8e6e8ec|
+#=#=#=# Syncrun finished 2024-01-28T06:36:51Z (last step: 6853 msec, total: 7589 msec)
+#=#=#=# Syncrun started 2024-01-28T06:36:56Z
+#=#=#=#=# Propagation starts 2024-01-28T06:36:56Z (last step: 206 msec, total: 206 msec)
+#=#=#=# Syncrun finished 2024-01-28T06:36:56Z (last step: 17 msec, total: 224 msec)
+#=#=#=# Syncrun started 2024-01-28T08:36:59Z
+#=#=#=#=# Propagation starts 2024-01-28T08:36:59Z (last step: 282 msec, total: 282 msec)
+#=#=#=# Syncrun finished 2024-01-28T08:36:59Z (last step: 6 msec, total: 289 msec)
+#=#=#=# Syncrun started 2024-01-28T10:37:04Z
+#=#=#=#=# Propagation starts 2024-01-28T10:37:04Z (last step: 127 msec, total: 127 msec)
+#=#=#=# Syncrun finished 2024-01-28T10:37:04Z (last step: 6 msec, total: 133 msec)
+#=#=#=# Syncrun started 2024-01-28T12:37:09Z
+#=#=#=#=# Propagation starts 2024-01-28T12:37:09Z (last step: 157 msec, total: 157 msec)
+#=#=#=# Syncrun finished 2024-01-28T12:37:09Z (last step: 6 msec, total: 164 msec)
+#=#=#=# Syncrun started 2024-01-28T14:37:14Z
+#=#=#=#=# Propagation starts 2024-01-28T14:37:14Z (last step: 169 msec, total: 169 msec)
+#=#=#=# Syncrun finished 2024-01-28T14:37:14Z (last step: 6 msec, total: 176 msec)
+#=#=#=# Syncrun started 2024-01-28T16:37:19Z
+#=#=#=#=# Propagation starts 2024-01-28T16:37:19Z (last step: 136 msec, total: 136 msec)
+#=#=#=# Syncrun finished 2024-01-28T16:37:19Z (last step: 7 msec, total: 143 msec)
+#=#=#=# Syncrun started 2024-01-28T18:37:24Z
+#=#=#=#=# Propagation starts 2024-01-28T18:37:24Z (last step: 184 msec, total: 184 msec)
+#=#=#=# Syncrun finished 2024-01-28T18:37:24Z (last step: 6 msec, total: 191 msec)
+#=#=#=# Syncrun started 2024-01-28T20:37:29Z
+#=#=#=#=# Propagation starts 2024-01-28T20:37:29Z (last step: 177 msec, total: 177 msec)
+#=#=#=# Syncrun finished 2024-01-28T20:37:29Z (last step: 6 msec, total: 184 msec)
+#=#=#=# Syncrun started 2024-01-28T22:37:34Z
+#=#=#=#=# Propagation starts 2024-01-28T22:37:34Z (last step: 136 msec, total: 136 msec)
+#=#=#=# Syncrun finished 2024-01-28T22:37:34Z (last step: 7 msec, total: 143 msec)
+#=#=#=# Syncrun started 2024-01-29T00:37:39Z
+#=#=#=#=# Propagation starts 2024-01-29T00:37:39Z (last step: 161 msec, total: 161 msec)
+#=#=#=# Syncrun finished 2024-01-29T00:37:39Z (last step: 7 msec, total: 169 msec)

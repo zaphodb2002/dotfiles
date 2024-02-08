@@ -1,0 +1,63 @@
+[2024-02-05 09:39:58.675] [info] Logseq App(0.10.6) Starting... 
+[2024-02-05 09:39:58.678] [info] restore proxy settings {:type "system"}
+[2024-02-05 09:39:58.678] [info] set proxy to {:type "system"}
+[2024-02-05 09:40:00.931] [debug] :electron.handler/watch-dir {:path "/home/zaphod/.logseq/config"}
+[2024-02-05 09:41:42.928] [info] :electron.handler/open-dir open folder selection dialog
+[2024-02-05 09:42:08.478] [debug] :electron.handler/open-dir {:path nil}
+[2024-02-05 09:43:51.876] [debug] window-all-closed Quitting...
+[2024-02-05 09:55:04.310] [info] Logseq App(0.10.6) Starting... 
+[2024-02-05 09:55:04.319] [info] restore proxy settings {:type "system"}
+[2024-02-05 09:55:04.320] [info] set proxy to {:type "system"}
+[2024-02-05 09:55:06.390] [debug] :electron.handler/watch-dir {:path "/home/zaphod/.logseq/config"}
+[2024-02-05 09:55:13.206] [info] :electron.handler/open-dir open folder selection dialog
+[2024-02-05 09:55:27.577] [debug] :electron.handler/open-dir {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 09:55:27.639] [debug] :electron.handler/watch-dir {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 10:33:31.800] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-02-05 10:33:33.615] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-02-05 10:33:34.594] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-02-05 10:33:36.023] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-02-05 10:33:39.288] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-02-05 11:09:27.171] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-02-05 11:09:34.548] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-02-05 11:09:44.047] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-02-05 11:19:39.058] [info] new-window https://docs.logseq.com/#/page/faq
+[2024-02-05 11:46:24.747] [debug] :electron.handler/get-files {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 11:46:25.171] [debug] :electron.handler/watch-dir {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 11:52:51.092] [debug] :electron.handler/get-files {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 11:52:57.858] [debug] :electron.handler/get-files {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 11:52:58.330] [debug] :electron.handler/watch-dir {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 12:28:11.472] [info] :electron.handler/rename from /home/zaphod/Documents/Life Management System/pages/Home Ownership.md to /home/zaphod/Documents/Life Management System/pages/Self-Sufficiency.md
+[2024-02-05 12:28:11.573] [debug] :electron.fs-watcher/on-unlink {:path "/home/zaphod/Documents/Life Management System/pages/Home Ownership.md"}
+[2024-02-05 12:28:55.112] [debug] :electron.handler/get-files {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 12:29:03.357] [debug] :electron.handler/get-files {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 12:29:03.931] [debug] :electron.handler/watch-dir {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 12:34:19.465] [debug] :electron.handler/get-files {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 12:34:20.132] [debug] :electron.handler/watch-dir {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 13:45:35.327] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-02-05 13:45:40.573] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-02-05 13:45:47.800] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-02-05 16:43:47.223] [debug] :electron.handler/get-files {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 16:43:48.205] [debug] :electron.handler/watch-dir {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 16:47:23.344] [debug] [Marketplace] === Installing: pengx17/logseq-plugin-tabs ===
+[2024-02-05 16:47:23.938] [debug] [Marketplace] INFO: use github api -  https://plugins.logseq.io/github/api
+[2024-02-05 16:47:24.653] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/pengx17/logseq-plugin-tabs/releases/latest :status 200
+[2024-02-05 16:47:24.655] [debug] [Marketplace] Release latest: v1.19.4  from https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/143509183
+[2024-02-05 16:47:25.776] [debug] [Marketplace] [Updated DONE] v1.19.4
+[2024-02-05 16:48:03.814] [debug] [Marketplace] === Installing: xyhp915/logseq-journals-calendar ===
+[2024-02-05 16:48:04.385] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/xyhp915/logseq-journals-calendar/releases/latest :status 200
+[2024-02-05 16:48:04.386] [debug] [Marketplace] Release latest: v0.10.10  from https://api.github.com/repos/xyhp915/logseq-journals-calendar/releases/assets/107493748
+[2024-02-05 16:48:06.023] [debug] [Marketplace] [Updated DONE] v0.10.10
+[2024-02-05 16:49:35.259] [debug] [Marketplace] === Installing: lee88688/logseq-drawio-plugin ===
+[2024-02-05 16:49:35.930] [debug] [Marketplace] INFO: use github api -  https://plugins.logseq.io/github/api
+[2024-02-05 16:49:36.545] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/lee88688/logseq-drawio-plugin/releases/latest :status 200
+[2024-02-05 16:49:36.546] [debug] [Marketplace] Release latest: v1.3.0  from https://api.github.com/repos/lee88688/logseq-drawio-plugin/releases/assets/133027892
+[2024-02-05 16:49:41.511] [debug] [Marketplace] [Updated DONE] v1.3.0
+[2024-02-05 17:19:28.932] [debug] window-all-closed Quitting...
+[2024-02-05 20:28:55.717] [info] Logseq App(0.10.6) Starting... 
+[2024-02-05 20:28:55.722] [info] restore proxy settings {:type "system"}
+[2024-02-05 20:28:55.722] [info] set proxy to {:type "system"}
+[2024-02-05 20:28:58.188] [debug] :electron.handler/watch-dir {:path "/home/zaphod/.logseq/config"}
+[2024-02-05 20:28:58.212] [debug] :electron.handler/unwatch-dir {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 20:28:58.212] [debug] :electron.handler/watch-dir {:path "/home/zaphod/Documents/Life Management System"}
+[2024-02-05 20:53:26.893] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-02-05 20:53:50.174] [info] :electron.handler/backup backup db file logseq/config.edn

@@ -1,0 +1,9 @@
+game:
+  exe: /home/zaphod/Games/battle-net/drive_c/Program Files (x86)/Battle.net/Battle.net
+    Launcher.exe
+  prefix: /home/zaphod/Games/battle-net
+  working_dir: /home/zaphod/Games/battle-net
+system:
+  locale: ''
+  resolution: 'off'
+wine: {}

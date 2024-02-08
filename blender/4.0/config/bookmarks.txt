@@ -1,0 +1,6 @@
+[Bookmarks]
+[Recent]
+/home/zaphod/Documents/Blender/
+/home/zaphod/Assets/
+/home/zaphod/Downloads/
+/home/zaphod/Pictures/
