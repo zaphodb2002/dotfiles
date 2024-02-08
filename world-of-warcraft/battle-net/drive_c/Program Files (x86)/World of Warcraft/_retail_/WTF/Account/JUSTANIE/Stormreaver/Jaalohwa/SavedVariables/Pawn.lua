@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0807,
+	["LastVersion"] = 2.0808,
 	["LastPlayerFullName"] = "Jaalohwa-Stormreaver",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {

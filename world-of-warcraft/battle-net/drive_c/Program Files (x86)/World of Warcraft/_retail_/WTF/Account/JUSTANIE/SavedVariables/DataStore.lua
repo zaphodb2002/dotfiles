@@ -4,19 +4,20 @@ DataStoreDB = {
 		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
-		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
-		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Vellaeda - Stormreaver"] = "Vellaeda - Stormreaver",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
-		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 	},
 	["global"] = {
 		["Guilds"] = {
@@ -32,16 +33,8 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 				["guildName"] = "Grape Soda",
 			},
-			["Default.Stormreaver.Jaalohwa"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Grape Soda",
-			},
 			["Default.Stormreaver.Feloril"] = {
 				["faction"] = "Horde",
-			},
-			["Default.Stormreaver.Dumpiss"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Grape Soda",
 			},
 			["Default.Dalaran.Deeohteez"] = {
 				["guildName"] = "Grape Soda",
@@ -55,41 +48,52 @@ DataStoreDB = {
 				["guildName"] = "Grape Soda",
 				["faction"] = "Alliance",
 			},
-			["Default.Dalaran.Icanglidewee"] = {
+			["Default.Dalaran.Petitmort"] = {
 				["faction"] = "Alliance",
 				["guildName"] = "Grape Soda",
+			},
+			["Default.Stormreaver.Deeohteez"] = {
+				["guildName"] = "Grape Soda",
+				["faction"] = "Horde",
+			},
+			["Default.Stormreaver.Bretanomyces"] = {
+				["guildName"] = "Grape Soda",
+				["faction"] = "Horde",
+			},
+			["Default.Stormreaver.Dumpiss"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Grape Soda",
+			},
+			["Default.Stormreaver.Vellaeda"] = {
+				["faction"] = "Horde",
 			},
 			["Default.Stormreaver.Arila"] = {
 				["guildName"] = "Grape Soda",
 				["faction"] = "Horde",
 			},
-			["Default.Dalaran.Attacknknees"] = {
-				["faction"] = "Alliance",
-				["guildName"] = "Grape Soda",
-			},
-			["Default.Dalaran.Petitmort"] = {
-				["faction"] = "Alliance",
+			["Default.Stormreaver.Jaalohwa"] = {
+				["faction"] = "Horde",
 				["guildName"] = "Grape Soda",
 			},
 			["Default.Dalaran.Morgntreeman"] = {
 				["faction"] = "Alliance",
 				["guildName"] = "Grape Soda",
 			},
-			["Default.Stormreaver.Bretanomyces"] = {
-				["guildName"] = "Grape Soda",
+			["Default.Stormreaver.Ruderalis"] = {
 				["faction"] = "Horde",
+				["guildName"] = "Grape Soda",
 			},
-			["Default.Stormreaver.Deeohteez"] = {
+			["Default.Dalaran.Icanglidewee"] = {
+				["faction"] = "Alliance",
 				["guildName"] = "Grape Soda",
-				["faction"] = "Horde",
+			},
+			["Default.Dalaran.Attacknknees"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Grape Soda",
 			},
 			["Default.Dalaran.Hyaae"] = {
 				["guildName"] = "Grape Soda",
 				["faction"] = "Alliance",
-			},
-			["Default.Stormreaver.Ruderalis"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Grape Soda",
 			},
 		},
 		["ShortToLongRealmNames"] = {

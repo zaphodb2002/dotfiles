@@ -4,7 +4,7 @@ OPie_SavedData = {
 	["CharProfiles"] = {
 	},
 	["_GameVersion"] = "10.2.5",
-	["_OPieVersion"] = "Zeta 3.5 (4.118)",
+	["_OPieVersion"] = "Zeta 4 (4.119)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["Bindings"] = {
@@ -16,7 +16,7 @@ OPie_SavedData = {
 		["RingKeeper"] = {
 			["DruidShift"] = {
 				{
-					["id"] = "/cancelform [noflyable,noform:moonkin]\n#imp critical\n/cast [flyable,outdoors,nocombat,noswimming,nomod][flying,flyable] {{spell:783}}; [swimming,nomod][flyable,nomod] {{spell:783}};",
+					["id"] = "/cancelform [noflying,noform:moonkin]\n#imp critical\n/cast [flyable,outdoors,nocombat,noswimming,nomod] {{spell:783}}; [outpost:corral,nomod,nospec:103/104] {{spell:161691}}; [swimming,nomod][flyable,nomod] {{spell:783}}; [nocombat,outdoors,nomod:alt] {{mount:ground}}; [outdoors] {{spell:783}}",
 					["sliceToken"] = "OPCDSf",
 					["vm"] = 3,
 					["fastClick"] = true,
@@ -34,17 +34,21 @@ OPie_SavedData = {
 					["vm"] = 3,
 				}, -- [3]
 				{
+					["show"] = "[advflyable]",
+					["sliceToken"] = "OPCDSm",
+					["id"] = "/cancelform [noform:moonkin,noflying]\n#imp critical\n/cast {{mount:dragon}}\n/changeactionbar [nocombat,outdoors] 1",
+				}, -- [4]
+				{
 					["sliceToken"] = "OPCDSb",
 					["c"] = "ff0000",
 					["id"] = 5487,
-					["vm"] = 3,
-				}, -- [4]
+				}, -- [5]
 				["name"] = "Shapeshifts",
 				["limit"] = "DRUID",
 				["vm"] = 127,
 				["save"] = true,
 				["hotkey"] = "BUTTON4",
-				["v"] = 1,
+				["v"] = 2,
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 3,

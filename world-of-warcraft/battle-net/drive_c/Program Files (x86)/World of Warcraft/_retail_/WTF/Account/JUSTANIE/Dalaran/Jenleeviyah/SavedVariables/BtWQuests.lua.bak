@@ -8,7 +8,7 @@ BtWQuests_AutoLoad = {
 	["BtWQuestsBattleForAzeroth"] = false,
 	["BtWQuestsLegion"] = false,
 	["BtWQuestsMistsOfPandaria"] = false,
-	["BtWQuestsCataclysm"] = false,
 	["BtWQuestsShadowlands"] = false,
+	["BtWQuestsCataclysm"] = false,
 	["BtWQuestsTheBurningCrusade"] = false,
 }

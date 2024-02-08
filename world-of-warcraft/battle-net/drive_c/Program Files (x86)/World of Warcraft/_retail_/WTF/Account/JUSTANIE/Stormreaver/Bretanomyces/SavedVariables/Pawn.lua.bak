@@ -5,19 +5,19 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 193751,
-			["Level"] = 296,
-			["Link"] = "|cff0070dd|Hitem:193751::::::::65:268::17:5:7978:7975:6652:9599:9504:2:28:2587:9:65:::::|h[Crown of Roaring Storms]|h|r",
+			["ID"] = 188515,
+			["Level"] = 405,
+			["Link"] = "|cff0070dd|Hitem:188515::::::::70:268::22:4:9534:7756:8810:41:2:28:181:9:69:::::|h[Willowy Crown]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 193676,
-			["Level"] = 296,
-			["Link"] = "|cff0070dd|Hitem:193676::::::::65:268::17:5:7978:7975:6652:8783:10245:2:28:2155:9:65:::::|h[Ukhel Ancestry Beads]|h|r",
+			["ID"] = 133369,
+			["Level"] = 381,
+			["Link"] = "|cff0070dd|Hitem:133369::::::::69:268::22:2:9534:7756:2:28:181:9:68:::::|h[Ionized Choker]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 43182,
-			["Level"] = 194,
-			["Link"] = "|cff0070dd|Hitem:43182::::::::61:268::11:1:6710:2:28:1868:9:61:::::|h[Cured Mammoth Hide Mantle]|h|r",
+			["ID"] = 133476,
+			["Level"] = 428,
+			["Link"] = "|cff0070dd|Hitem:133476::::::::70:268::54:4:9536:7756:3325:8766:1:28:1079:::::|h[Shoulderpads of the Silvermoon Retainer]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -26,58 +26,58 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:127593::::::::63:268::22:2:9534:7756:2:28:181:9:63:::::|h[Crystal-Infused Tunic]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 112365,
-			["Level"] = 186,
-			["Link"] = "|cff0070dd|Hitem:112365::::::::58:268::11:2:4244:22:2:28:328:9:58:::::|h[Winterfrost Leather Belt of the Fireflash]|h|r",
+			["ID"] = 204778,
+			["Level"] = 428,
+			["Link"] = "|cff0070dd|Hitem:204778::::::::70:268::53:7:9536:6652:9415:9223:9219:1550:8766:1:28:2641:::::|h[Suffused Sash]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 112360,
-			["Level"] = 182,
-			["Link"] = "|cff0070dd|Hitem:112360::::::::57:268::11:2:4244:25:2:28:328:9:57:::::|h[Winterfrost Leather Leggings of the Fireflash]|h|r",
+			["ID"] = 133435,
+			["Level"] = 428,
+			["Link"] = "|cff0070dd|Hitem:133435::::::::70:268::54:4:9536:7756:3325:8766:1:28:1079:::::|h[Leggings of the Betrayed]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 42762,
-			["Level"] = 194,
-			["Link"] = "|cff0070dd|Hitem:42762::::::::61:268::11:1:6710:2:28:1868:9:61:::::|h[Treads of Torn Future]|h|r",
+			["ID"] = 133418,
+			["Level"] = 428,
+			["Link"] = "|cff0070dd|Hitem:133418::::::::70:268::54:5:9536:7756:43:3320:8766:1:28:1110:::::|h[Boots of the Forked Road]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 39678,
-			["Level"] = 194,
-			["Link"] = "|cff0070dd|Hitem:39678::::::::60:268::11:1:6710:2:28:1869:9:60:::::|h[Vendetta Bindings]|h|r",
+			["ID"] = 188492,
+			["Level"] = 405,
+			["Link"] = "|cff0070dd|Hitem:188492::::::::70:268::22:2:9534:7756:2:28:181:9:69:::::|h[Armbands of Change]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 193661,
-			["Level"] = 276,
-			["Link"] = "|cff0070dd|Hitem:193661::::::::63:268::17:4:7978:7975:6652:9504:2:28:2155:9:63:::::|h[Blightweaver's Clutches]|h|r",
+			["ID"] = 133392,
+			["Level"] = 381,
+			["Link"] = "|cff0070dd|Hitem:133392::::::::69:268::22:2:9534:7756:2:28:181:9:68:::::|h[Gloves of the Hollow]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 38220,
-			["Level"] = 190,
+			["ID"] = 188505,
+			["Level"] = 358,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:38220::::::::62:268::11:1:6710:2:9:59:28:1869:::::|h[Signet of Swift Judgment]|h|r",
+			["Link"] = "|cff0070dd|Hitem:188505::::::::67:268::22:2:9534:7756:2:9:67:28:181:::::|h[Skullcracker Ring]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 38220,
-			["Level"] = 190,
+			["ID"] = 188505,
+			["Level"] = 358,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:38220::::::::63:268::11:1:6710:2:9:59:28:1869:::::|h[Signet of Swift Judgment]|h|r",
+			["Link"] = "|cff0070dd|Hitem:188505::::::::68:268::22:2:9534:7756:2:9:67:28:181:::::|h[Skullcracker Ring]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 122361,
-			["Level"] = 284,
+			["ID"] = 133281,
+			["Level"] = 405,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::65:268:::1:583::::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff0070dd|Hitem:133281::::::::70:268::22:2:9534:7756:2:28:181:9:69:::::|h[Impetuous Query]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 122370,
-			["Level"] = 284,
+			["ID"] = 198627,
+			["Level"] = 286,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122370::::::::65:268:::::::::|h[Inherited Insignia of the Horde]|h|r",
+			["Link"] = "|cff1eff00|Hitem:198627::::::::67:268::17:3:9156:8902:6652:2:28:2424:9:66:::::|h[Blood of the Khansguard]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 127603,
-			["Level"] = 264,
-			["Link"] = "|cff0070dd|Hitem:127603::::::::63:268::22:2:9534:7756:2:28:181:9:63:::::|h[Cloak of the Enemy]|h|r",
+			["ID"] = 133254,
+			["Level"] = 428,
+			["Link"] = "|cff0070dd|Hitem:133254::::::::70:268::54:4:9536:7756:3320:8766:1:28:1116:::::|h[Kaleki Cloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 197677,
@@ -85,10 +85,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:197677::::::::64:268::27:1:8778:2:28:2537:9:64:::::|h[Plainswalking Stick]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 25315,
-			["Level"] = 66,
+			["ID"] = 200169,
+			["Level"] = 276,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff1eff00|Hitem:25315::::::::62:268::22:2:6655:1693:2:9:30:28:1066:::::|h[Restorative Mace of the Fireflash]|h|r",
+			["Link"] = "|cff0070dd|Hitem:200169::::::::65:268::17:2:9156:6652:2:28:2424:9:65:::::|h[Protector's Molten Cudgel]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

@@ -15,9 +15,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:153906::::::::70:66::61:2:3303:8767::::::|h[Sunsoul Amulet]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 153911,
-			["Level"] = 424,
-			["Link"] = "|cffa335ee|Hitem:153911::::::::70:66::61:2:3303:8767::::::|h[Sunsoul Shoulderguards]|h|r",
+			["ID"] = 210365,
+			["Level"] = 454,
+			["Link"] = "|cffa335ee|Hitem:210365::::::::70:66::42:5:9506:6652:9556:1485:8767:1:28:2699:::::|h[Arctic Warden's Shoulderplates]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -36,9 +36,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:153905::::::::70:66::61:2:3303:8767::::::|h[Sunsoul Legguards]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 153902,
-			["Level"] = 424,
-			["Link"] = "|cffa335ee|Hitem:153902::::::::70:66::61:2:3303:8767::::::|h[Sunsoul Greaves]|h|r",
+			["ID"] = 210348,
+			["Level"] = 441,
+			["Link"] = "|cffa335ee|Hitem:210348::::::::70:70::42:5:9552:9506:6652:1472:8767:1:28:2701:::::|h[Arctic Warden's Sabatons]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 153913,
@@ -86,9 +86,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:153891::::::::70:66::61:2:3303:8767::::::|h[Sunsoul Sword]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 153892,
-			["Level"] = 424,
-			["Link"] = "|cffa335ee|Hitem:153892::::::::70:66::61:2:3303:8767::::::|h[Sunsoul Bulwark]|h|r",
+			["ID"] = 207798,
+			["Level"] = 447,
+			["Link"] = "|cffa335ee|Hitem:207798::::::::70:70::4:5:6652:7982:9554:1478:8767::::::|h[Verdant Matrix Beacon]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

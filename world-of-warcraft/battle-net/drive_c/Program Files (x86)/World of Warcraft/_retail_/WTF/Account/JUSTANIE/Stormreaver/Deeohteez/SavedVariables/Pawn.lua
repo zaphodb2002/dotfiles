@@ -1,13 +1,13 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0807,
+	["LastVersion"] = 2.0809,
 	["LastPlayerFullName"] = "Deeohteez-Stormreaver",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 154016,
-			["Level"] = 152,
-			["Link"] = "|cff1eff00|Hitem:154016::::::::51:267::17:1:9370:1:9:51:::::|h[Felsoul Cowl]|h|r",
+			["ID"] = 180027,
+			["Level"] = 155,
+			["Link"] = "|cff0070dd|Hitem:180027::::::::51:267::11:1:4813:2:9:50:28:292:::::|h[Bartered Vrykul Hood]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 154009,
@@ -84,6 +84,12 @@ PawnOptions = {
 			["Level"] = 152,
 			["Link"] = "|cff1eff00|Hitem:154024::::::::51:267::17:1:9370:1:9:51:::::|h[Felsoul Staff]|h|r",
 		}, -- [16]
+		{
+			["ID"] = 155424,
+			["Level"] = 132,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff1eff00|Hitem:155424::::::::51:267::11:1:4790:2:9:49:28:191:::::|h[Mozesha's Hexblade]|h|r",
+		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
 }

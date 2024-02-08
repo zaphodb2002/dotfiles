@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0807,
+	["LastVersion"] = 2.0809,
 	["LastPlayerFullName"] = "Jenleeviyah-Dalaran",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -41,14 +41,14 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:209410::::::::70:63::42:4:9544:9223:9219:1537::::::|h[Dreambound Sandals]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 193497,
-			["Level"] = 309,
-			["Link"] = "|cff0070dd|Hitem:193497::::::::70:63::13:5:8837:8838:4785:9402:9415:6:28:2164:29:36:30:32:38:5:40:425:48:206041:::::|h[Surveyor's Cloth Bands |A:Professions-ChatIcon-Quality-Tier2:17:23::1|a]|h|r",
+			["ID"] = 197661,
+			["Level"] = 312,
+			["Link"] = "|cff1eff00|Hitem:197661::::::::70:63::25:1:8768:2:9:69:28:2437:::::|h[Ohn'ir Initiate Wraps]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 197644,
-			["Level"] = 319,
-			["Link"] = "|cff0070dd|Hitem:197644::::::::70:63::26:2:7963:7964:2:9:68:28:2523:::::|h[Ohn'ir Initiate Gloves]|h|r",
+			["ID"] = 201938,
+			["Level"] = 339,
+			["Link"] = "|cff0070dd|Hitem:201938::::::::70:63::13:3:8851:8852:9404:5:28:2164:29:40:30:36:38:7:40:853:::::|h[Surveyor's Seasoned Gloves |A:Professions-ChatIcon-Quality-Tier4:17:17::1|a]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 197989,
@@ -80,10 +80,16 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:197672::::::::70:63::25:1:8768:2:9:69:28:2437:::::|h[Emerald Shroud of Loyalty]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 198429,
-			["Level"] = 316,
-			["Link"] = "|cff0070dd|Hitem:198429::::::::70:63::17:2:9156:6652:2:9:69:28:2424:::::|h[Typhoon Bringer]|h|r",
+			["ID"] = 210129,
+			["Level"] = 421,
+			["Link"] = "|cff0070dd|Hitem:210129::::::::70:63::27:4:9546:6652:1478:8766:1:28:2608:::::|h[Wand of Brisk Dusks]|h|r",
 		}, -- [16]
+		{
+			["ID"] = 44311,
+			["Level"] = 92,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cffa335ee|Hitem:44311::::::::70:63::2:1:6661:2:9:30:28:1095:::::|h[Avool's Sword of Jin]|h|r",
+		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
 }

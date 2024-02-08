@@ -4,19 +4,20 @@ RepByZoneDB = {
 		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
-		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
-		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
-		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Vellaeda - Stormreaver"] = "Vellaeda - Stormreaver",
+		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
 		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
-		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 	},
 	["profiles"] = {
 		["Pangdai - Dalaran"] = {
@@ -24,36 +25,40 @@ RepByZoneDB = {
 			["watchedRepName"] = "Shang Xi's Academy",
 		},
 		["Deeohteez - Stormreaver"] = {
-			["watchedRepID"] = 68,
 			["watchedRepName"] = "Undercity",
+			["watchedRepID"] = 68,
 		},
 		["Arila - Stormreaver"] = {
 			["watchedRepName"] = "Orgrimmar",
 			["watchedRepID"] = 76,
 		},
-		["Hyaae - Dalaran"] = {
-			["watchedRepID"] = 930,
-			["watchedRepName"] = "Exodar",
+		["Pontiffikate - Dalaran"] = {
+			["watchedRepID"] = 72,
+			["watchedRepName"] = "Stormwind",
 		},
-		["Bretanomyces - Stormreaver"] = {
-			["watchedRepID"] = 1216,
-			["watchedRepName"] = "Shang Xi's Academy",
+		["Vellaeda - Stormreaver"] = {
+			["watchedRepID"] = 911,
+			["watchedRepName"] = "Silvermoon City",
 		},
 		["Jenleeviyah - Dalaran"] = {
 			["watchedRepID"] = 69,
 			["watchedRepName"] = "Darnassus",
 		},
-		["Feloril - Stormreaver"] = {
-			["watchedRepID"] = 911,
-			["watchedRepName"] = "Silvermoon City",
+		["Ruderalis - Stormreaver"] = {
+			["watchedRepName"] = "Darkspear Trolls",
+			["watchedRepID"] = 530,
 		},
-		["Pontiffikate - Dalaran"] = {
-			["watchedRepID"] = 72,
-			["watchedRepName"] = "Stormwind",
+		["Icanglidewee - Dalaran"] = {
+			["watchedRepName"] = "Darnassus",
+			["watchedRepID"] = 69,
 		},
-		["Attacknknees - Dalaran"] = {
-			["watchedRepID"] = 54,
-			["watchedRepName"] = "Gnomeregan",
+		["Bretanomyces - Stormreaver"] = {
+			["watchedRepID"] = 1216,
+			["watchedRepName"] = "Shang Xi's Academy",
+		},
+		["Morgntreeman - Dalaran"] = {
+			["watchedRepName"] = "Gilneas",
+			["watchedRepID"] = 1134,
 		},
 		["Deeohteez - Dalaran"] = {
 			["watchedRepID"] = 54,
@@ -67,21 +72,21 @@ RepByZoneDB = {
 			["watchedRepID"] = 1133,
 			["watchedRepName"] = "Bilgewater Cartel",
 		},
-		["Ruderalis - Stormreaver"] = {
-			["watchedRepName"] = "Darkspear Trolls",
-			["watchedRepID"] = 530,
+		["Feloril - Stormreaver"] = {
+			["watchedRepID"] = 911,
+			["watchedRepName"] = "Silvermoon City",
 		},
 		["Jaalohwa - Stormreaver"] = {
 			["watchedRepName"] = "Thunder Bluff",
 			["watchedRepID"] = 81,
 		},
-		["Morgntreeman - Dalaran"] = {
-			["watchedRepID"] = 1134,
-			["watchedRepName"] = "Gilneas",
+		["Attacknknees - Dalaran"] = {
+			["watchedRepID"] = 54,
+			["watchedRepName"] = "Gnomeregan",
 		},
-		["Icanglidewee - Dalaran"] = {
-			["watchedRepName"] = "Darnassus",
-			["watchedRepID"] = 69,
+		["Hyaae - Dalaran"] = {
+			["watchedRepName"] = "Exodar",
+			["watchedRepID"] = 930,
 		},
 	},
 }

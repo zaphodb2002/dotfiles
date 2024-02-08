@@ -21,19 +21,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Onyxia",
 		},
-		[58827] = {
-			["school"] = 32,
+		[18431] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Salramm the Fleshcrafter",
-		},
-		[29770] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Midnight",
+			["source"] = "Onyxia",
 		},
 		[29714] = {
 			["school"] = 1,
@@ -42,12 +35,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Midnight",
 		},
-		[18431] = {
+		[29770] = {
 			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Midnight",
+		},
+		[58827] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Onyxia",
+			["source"] = "Salramm the Fleshcrafter",
 		},
 	},
 	["emotes"] = {

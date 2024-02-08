@@ -51,7 +51,7 @@ alias grep='grep --color=always'
 alias weather='curl https://wttr.in/'
 
 ### TaskWarrior
-alias gtd=~/.config/taskmaster/scripts/gtd.sh # The gtd report
+alias gtd=~/.config/taskmaster/scripts/gtdnext.sh # The gtd report
 alias progress=~/.config/taskmaster/scripts/recurring-progress-report.sh # call with the uuid of the parent recurring task
 alias grade=~/.config/taskmaster/scripts/project-progress.sh # call with a project name
 

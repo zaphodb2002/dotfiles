@@ -4,57 +4,46 @@ DataStore_AuctionsDB = {
 		["Pangdai - Dalaran"] = "Pangdai - Dalaran",
 		["Deeohteez - Stormreaver"] = "Deeohteez - Stormreaver",
 		["Arila - Stormreaver"] = "Arila - Stormreaver",
-		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
-		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
-		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
-		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
 		["Pontiffikate - Dalaran"] = "Pontiffikate - Dalaran",
+		["Vellaeda - Stormreaver"] = "Vellaeda - Stormreaver",
 		["Jenleeviyah - Dalaran"] = "Jenleeviyah - Dalaran",
-		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
+		["Ruderalis - Stormreaver"] = "Ruderalis - Stormreaver",
+		["Icanglidewee - Dalaran"] = "Icanglidewee - Dalaran",
+		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Morgntreeman - Dalaran"] = "Morgntreeman - Dalaran",
+		["Deeohteez - Dalaran"] = "Deeohteez - Dalaran",
 		["Petitmort - Dalaran"] = "Petitmort - Dalaran",
 		["Dumpiss - Stormreaver"] = "Dumpiss - Stormreaver",
 		["Feloril - Stormreaver"] = "Feloril - Stormreaver",
 		["Jaalohwa - Stormreaver"] = "Jaalohwa - Stormreaver",
-		["Bretanomyces - Stormreaver"] = "Bretanomyces - Stormreaver",
+		["Attacknknees - Dalaran"] = "Attacknknees - Dalaran",
 		["Hyaae - Dalaran"] = "Hyaae - Dalaran",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Stormreaver.Bretanomyces"] = {
-				["lastAuctionsScan"] = 1705280884,
-				["lastVisitDate"] = "2024/01/14 17:05",
-				["lastUpdate"] = 1705280884,
+				["lastUpdate"] = 1707081249,
+				["lastVisitDate"] = "2024/02/04 13:14",
 			},
 			["Default.Stormreaver.Jaalohwa"] = {
 				["lastAuctionsScan"] = 1704169741,
 				["lastVisitDate"] = "2024/01/01 20:26",
 				["lastUpdate"] = 1704169741,
 			},
-			["Default.Dalaran.Morgntreeman"] = {
-				["lastAuctionsScan"] = 1705976940,
-				["lastVisitDate"] = "2024/01/22 18:23",
-				["lastUpdate"] = 1705976940,
+			["Default.Dalaran.Jenleeviyah"] = {
+				["lastAuctionsScan"] = 1707110253,
+				["lastVisitDate"] = "2024/02/04 21:16",
+				["lastUpdate"] = 1707110253,
 				["Auctions"] = {
-					"0|24626|1||0|49900|172699|2014766265", -- [1]
-					"0|25012|1||0|50000|172667|2014764179", -- [2]
-					"0|24621|1||0|59700|172676|2014764805", -- [3]
-					"0|24684|1||0|130000|172713|2014767276", -- [4]
-					"0|16851|1||0|403800|172688|2014765563", -- [5]
-					"0|24673|1||0|406700|172653|2014763264", -- [6]
-					"0|16819|1||0|630000|172717|2014767556", -- [7]
-					"0|13072|1||0|931100|172734|2014768786", -- [8]
-					"0|24606|1||0|950000|172709|2014766899", -- [9]
-					"0|24654|1||0|1851600|172705|2014766619", -- [10]
-					"0|21371|1||0|1888800|172798|2014772684", -- [11]
-					"0|210129|1||0|2000000|172793|2014772354", -- [12]
-					"0|10386|1||0|2310400|172740|2014769164", -- [13]
-					"0|24982|1||0|5792400|172692|2014765821", -- [14]
-					"0|24864|1||0|7006300|172671|2014764492", -- [15]
-					"0|10387|1||0|8002900|172696|2014766060", -- [16]
-					"0|144405|1||0|14994800|172683|2014765292", -- [17]
-					"0|25157|1||0|23951700|172765|2014770628", -- [18]
-					"0|25216|1||0|24889500|172750|2014769753", -- [19]
+					"0|36263|1||0|20000|172799|2066688918", -- [1]
+					"0|193528|1||0|240000|172787|2066688288", -- [2]
+					"0|25239|1||0|1932700|172796|2066688743", -- [3]
 				},
+			},
+			["Default.Dalaran.Morgntreeman"] = {
+				["lastAuctionsScan"] = 1706232810,
+				["lastVisitDate"] = "2024/01/25 17:30",
+				["lastUpdate"] = 1706232810,
 			},
 		},
 	},

@@ -32,8 +32,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 207253,
-			["Level"] = 450,
-			["Link"] = "|cffa335ee|Hitem:207253::::::::70:104::42:5:6652:9512:9555:1481:8767::::::|h[Benevolent Embersage's Leggings]|h|r",
+			["Level"] = 463,
+			["Link"] = "|cffa335ee|Hitem:207253::::::::70:104::42:5:6652:9512:9559:1494:8767::::::|h[Benevolent Embersage's Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 208439,
@@ -47,8 +47,8 @@ PawnOptions = {
 		}, -- [9]
 		{
 			["ID"] = 207255,
-			["Level"] = 460,
-			["Link"] = "|cffa335ee|Hitem:207255::::::::70:103::4:6:6652:7982:9514:9558:1491:8767::::::|h[Benevolent Embersage's Talons]|h|r",
+			["Level"] = 463,
+			["Link"] = "|cffa335ee|Hitem:207255::::::::70:104::4:6:6652:7982:9514:9559:1494:8767::::::|h[Benevolent Embersage's Talons]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 207159,
@@ -64,9 +64,9 @@ PawnOptions = {
 		}, -- [12]
 		{
 			["ID"] = 207165,
-			["Level"] = 467,
+			["Level"] = 470,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:207165::::::::70:104::5:5:6652:7980:9568:1498:8767:1:28:2474:::::|h[Bandolier of Twisted Blades]|h|r",
+			["Link"] = "|cffa335ee|Hitem:207165::::::::70:104::5:5:6652:7980:9569:1501:8767:1:28:2474:::::|h[Bandolier of Twisted Blades]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 207165,
