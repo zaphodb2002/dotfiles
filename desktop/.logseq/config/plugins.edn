@@ -1,0 +1,3 @@
+{:logseq-tabs {:version "v1.19.4", :repo "pengx17/logseq-plugin-tabs", :effect true, :theme false}
+ :logseq-journals-calendar {:version "v0.10.10", :repo "xyhp915/logseq-journals-calendar", :effect false, :theme false}
+ :logseq-drawio-plugin {:version "v1.3.0", :repo "lee88688/logseq-drawio-plugin", :effect true, :theme false}}

@@ -1,0 +1,123 @@
+# Files
+data.location=~/.task
+
+
+#data.location=~/.local/share/task
+#hooks.location=~/.config/task/hooks
+
+# news.version=2.6.0
+
+# Reports
+## Next: The default report.  This is the primary working report
+report.next.labels=ID,Urgency,Desc,Due,Tags,Project
+report.next.columns=id,urgency,description.count,due.relative,tags,project
+### Anything ready
+report.next.filter=+READY limit:5 end:
+### Sorted by urgency
+report.next.sort=urgency-,due-
+
+## Now: Things that need to be done today
+report.now.description=what needs doing now
+report.now.labels=ID,Urgency,Desc,Due,Tags,Project
+report.now.columns=id,urgency,description.count,due.relative,tags,project
+### scheduled or due today
+report.now.filter=due:today end: +READY limit:5
+report.now.sort=urgency-,due-
+
+## Overdue
+report.overdue.labels=ID,Urgency,Desc,Due,Tags,Project
+report.overdue.columns=id,urgency,description.count,due.relative,tags,project
+report.overdue.filter=(scheduled.before:today or (scheduled: due.before:today) ) end: -TEMPLATE
+
+report.templates.description=master recurrence templates
+report.templates.columns=uuid.short,project,description.desc,recur,wait,due,until,tags
+report.templates.filter=+TEMPLATE status:recurring
+report.templates.sort=project+/,recur+/,wait-,due-
+
+report.week.description=This Week
+report.week.columns=id,description.count,due.relative,project,tags,scheduled.relative
+report.week.filter=(scheduled.after:sow scheduled.before:eow) or (scheduled: due.after:sow due.before:eow) +READY limit:page
+report.week.sort=urgency-
+
+default.command=next
+default.project=LMS.Inbox
+default.due=someday
+
+dateformat=YWVaHN
+
+# contexts
+
+context.work.read=+next or +audit or project:LMS.Process or project:Subsistence.Discipline or project:LMS.Inbox or project:Participation.Employment or project.Protection.Money or project:Protection.Computers or project:Learning.Computers or project:LMS.Tools
+
+context.learn.read=+next or project:LMS.Process or project:Subsistence.Discipline or project:Learning
+
+context.break.read=+next or project:LMS.Process or project:Subsistence.Discipline or project:Subsistence.Water or project:Subsistence.Food or project:Subsistence.Medication or project:Subsistence.Hygiene or project:Protection.Longevity or project:Belonging.Dogs or project:Recreation.Psychonautics or project:Subsistence.Emotion or project:Recreation.Fishkeeping or project:Subsistence.Exercise
+
+context.play.read=+next or project:Recreation or project:Learning.Art or project:Belonging or project:Application.Fishkeeping or project:Subsistence.Water or project:Subsistence.Food or project:Subsistence.Exercise
+
+context.chores.read=+next or +shopping or project:LMS.Process or project:Subsistence.Discipline or project:Subsistence.Travel or project:LMS.Inbox or project:Subsistence.Water or project:Subsistence.Food or project:Application.Homeowner or project:Application.Fisshkeeping or project:Protection.Maintenance or project:Protection.Money or project:Protection.Computers or project:Recreation.Fishkeeping or project:Subsistence.Exercise
+
+
+# Projects
+#urgency.user.project.LMS.coefficient=4.0
+#urgency.user.project.LMS.Inbox.coefficient=8.9 # Push these to the top to encourage appropriately setting the project
+#urgency.user.project.LMS.Process.coefficient=0.8
+#urgency.user.project.LMS.Tools.coefficient=0.7
+
+#urgency.user.project.Subsistence.coefficient=7.0
+#urgency.user.project.Subsistence.Discipline.coefficient=0.9
+#urgency.user.project.Subsistence.Water.coefficient=0.8
+#urgency.user.project.Subsistence.Food.coefficient=0.7
+#urgency.user.project.Subsistence.Travel.coefficient=0.6
+#urgency.user.project.Subsistence.Sleep.coefficient=0.5
+#urgency.user.project.Subsistence.Medication.coefficient=0.4
+#urgency.user.project.Subsistence.Hygiene.coefficient=0.3
+#urgency.user.project.Subsistence.Exercise.coefficient=0.2
+#urgency.user.project.Subsistence.Emotion.coefficient=0.1
+
+#urgency.user.project.Protection.coefficient=6.0
+#urgency.user.project.Protection.Money.coefficient=0.9
+
+#urgency.user.project.Belonging.coefficient=5.0
+
+#urgency.user.project.Recreation.coefficient=4.0
+
+#urgency.user.project.Learning.coefficient=5.0
+
+urgency.user.project.Participation.coefficient=1.0
+
+urgency.user.project.Application.coefficient=1.0
+
+#urgency.user.project.Aesthetics.coefficient=0.0
+
+# Tags
+#urgency.user.tag.am.coefficient=3.0
+urgency.user.tag.daily.coefficient=2.0
+urgency.user.tag.weekly.coefficient=3.0
+urgency.user.tag.monthly.coefficient=4.0
+
+
+news.version=2.6.0
+
+journal.info=off
+
+weekstart=monday
+recurrence.limit=14
+recurrence.confirmation=no
+
+# Color theme (uncomment one to use)
+#include light-16.theme
+#include light-256.theme
+#include dark-16.theme
+include dark-256.theme
+#include dark-red-256.theme
+#include dark-green-256.theme
+#include dark-blue-256.theme
+#include dark-violets-256.theme
+#include dark-yellow-green.theme
+#include dark-gray-256.theme
+#include dark-gray-blue-256.theme
+#include solarized-dark-256.theme
+#include solarized-light-256.theme
+#include no-color.theme
+

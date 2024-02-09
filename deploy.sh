@@ -1,6 +1,15 @@
 #!/usr/bin/env bash
 
-sudo pacman -S --needed base-devel git rustup
+## Install and sync Nextcloud first!
+
+sudo pacman -S --needed base-devel rustup
+rustup default stable
+
+ln -s $HOME/Nextcloud/Home/Documents $HOME/
+ln -s $HOME/Nextcloud/Home/Pictures $HOME/
+
+$(stow required -Rv)
+
 if [ "$(which paru)" = "/usr/bin/paru" ]; 
 then
 	echo "Paru already installed" 
@@ -22,77 +31,14 @@ rxfetch \
 lolcat \
 sparklines
 
-git submodule init
-git submodule update
-
-base=(
-	bash
-	bin
-	scripts
-	fontconfig
-	starship
-	neovim
-	)
-
-
-server=(
-
-	)
-
-workstation=(
-	git
-	gh
-	i3
-	rofi
-	alacritty
-	taskwarrior
-	)
-
-gaming=(
-	sims-4
-	)
-
-
-stowit() {
-	category=$1
-	app=$2
-
-	stow -vRt ${category} ${app}
-}
-
-#deploy() {
-#	category=$1
-#	folder=$2
-#
-#	for app in $1[@]; do
-#		stowit $2 $app
-#	done
-#}
-
-#deploy base $HOME
-
-for app in ${base[@]}; do
-	stowit "${HOME}" $app
-done
-
-#paru -S starship
-#paru -S neovim
-
-	if [ "${1}" = "workstation" ]; then
-
-	for app in ${workstation[@]}; do
-		stowit "${HOME}" $app
-	done
-
-#	paru -S git
-#	paru -S alacritty
-#	paru -S taskwarrior
-
-	if [ "${2}" = "gaming" ]; then
-		for app in ${gaming[@]}; do
-			stowit "${HOME}/Games/" $app
-		done
-	fi
+if [[ "$1" = "desktop" ]]; then
+	$(stow -Rv desktop)
 fi
 
-source $HOME/.bashrc
+if [[ "$1" = "gaming" ]]; then
+	$(stow -Rv desktop)
+	$(stow -Rv gaming)
+	$(ln -s $HOME/Nextcloud/Games/WoW/Interface "$HOME/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/")
+	$(ln -s $HOME/Nextcloud/Games/WoW/Screenshots "$HOME/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/")
+	$(ln -s $HOME/Nextcloud/Games/WoW/WTF "$HOME/Games/battle-net/drive_c/Program Files (x86)/World of Warcraft/_retail_/")
+fi
