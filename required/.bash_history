@@ -1,42 +1,3 @@
-task 3231,3339,3394,3450 modify scheduled:due-6d
-task due.after:31st
-task due.after:31st limit:page
-task scheduling
-task 552 rm
-task 326,1178 modify scheduled:tomorrow
-task 1264,1268,1620,1784,1820 modify wait:1h
-task 1983,59 modify wait:1h
-task 2022,616,677 modify scheduled:tomorrow
-task 344,456,528,565,1104 modify wait:1h
-task 1764,1963,529,916 modify wait:1h
-task 290,461,1556,2042,2325 modify wait:1h
-task 173,187,2339,2353 done
-task add look at building an import from Obsidian Tasks to taskmaster
-task 2552 done
-task 2522 done
-task 2533 done
-task 439 modify scheduled:tomorrow
-task 694 modify scheduled:tomorrow
-task 399 modify scheduled:tomorrow
-task 523 modify scheduled:tomorrow
-task 2059,2041,2175 modify wait:1h
-task 2059 modify +goal +procrastinating +school
-task 633,746,1387 modify wait:1h
-task 1709 modify scheduled:tomorrow
-task 782,2108 done
-task 27 modify scheduled:tomorrow
-task 2203 modify wait:tomorrow
-task add look into what tools we need to till the farm area
-task 764,721,1221 modify scheduled:tomorrow
-task 392,2201 modify scheduled:tomorrow
-task 595,880 done
-task 2507,178 rm
-task 2337 rm
-task 2430 done
-task 2447 rm
-task 2537 rm
-task 2613,2807 done
-task 2400 done
 task 1595,773,1908 modify wait:1h
 task 1658 modify scheduled:tomorrow
 task 905 modify wait:1h
@@ -997,4 +958,43 @@ git add .
 git status
 ./deploy.sh gaming
 nvim .
+exit
+nextcloud
+exit
+paru --stats
+paru show -s
+paru -c
+paru --help
+paru --show -s
+paru --show
+paru -D
+paru
+cd dotfiles/
+./deploy.sh desktop
+sudo reboot
+nvim .config/i3
+exit
+ls
+mkdir Repos
+cd Repos/
+git clone https://github.com
+git clone https://github.com/zaphodb2002/taskmaster
+cd taskmaster/
+cargo build
+cargo run
+task
+paru -S alacritty
+exit
+exit
+cd Repos/
+ls
+exit
+task
+paru -S alacritty
+cd Repos/
+gh
+paru -S github-cli
+gh auth login
+git clone https://github.com/GrapeSodaGames/GSG-Engine
+ls
 exit
